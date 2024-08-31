@@ -1,0 +1,7 @@
+## Interface: 110000
+## Version: 0.1.0
+## Title: MountSelector
+## Author: Fabel
+
+MountSelector.lua
+MountSelector.xml
