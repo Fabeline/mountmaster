@@ -4,9 +4,6 @@ function createContentFrame()
     contentFrame = CreateFrame("Frame", "MountSelectorContentFrame", mountSelectorScrollFrame, "BackdropTemplate")
     mountSelectorScrollFrame:SetScrollChild(contentFrame)
 
-    -- make sure the scrollFrame is scrollable when the content is larger than the frame
-    mountSelectorScrollFrame:EnableMouseWheel(true)
-
     -- Set the content frame's width and height
     contentFrame:SetSize(mountSelectorScrollFrame:GetWidth(), 2000)
 end
