@@ -3,5 +3,9 @@
 ## Title: MountSelector
 ## Author: Fabel
 
+Libs\LibDBIcon-1.0\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
+MountButtons.lua
 MountSelector.lua
+MiniMapButton.lua
 MountSelector.xml
