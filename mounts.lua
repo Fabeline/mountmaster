@@ -3282,7 +3282,7 @@ mounts = {
         spell_id = 294143,
         icon = "inv_mechanicaltiger_grey",
         skeleton_type = "cat",
-        color = "grey",
+        color = "gray",
     },
     {
         name = "Dune Scavenger",
@@ -4074,7 +4074,7 @@ mounts = {
         spell_id = 253662,
         icon = "inv_argusfelstalkermountgrey",
         skeleton_type = "",
-        color = "grey",
+        color = "gray",
     },
     {
         name = "Crimson Slavermaw",
@@ -4758,7 +4758,7 @@ mounts = {
         spell_id = 171636,
         icon = "inv_giantboarmount_brown",
         skeleton_type = "",
-        color = "Grey"
+        color = "gray"
     },
     {
         name = "Bloodhoof Bull",
@@ -5064,7 +5064,7 @@ mounts = {
         spell_id = 127216,
         icon = "ability_mount_yakmountgrey",
         skeleton_type = "mammoth",
-        color = "Grey"
+        color = "gray"
     },
     {
         name = "Blonde Riding Yak",
@@ -5235,7 +5235,7 @@ mounts = {
         spell_id = 138425,
         icon = "ability_mount_triceratopsmount_grey",
         skeleton_type = "",
-        color = "grey",
+        color = "gray",
     },
     {
         name = "Amber Primordial Direhorn",
@@ -5604,7 +5604,7 @@ mounts = {
         spell_id = 88750,
         icon = "ability_mount_camel_gray",
         skeleton_type = "Camel",
-        color = "Grey"
+        color = "gray"
     },
     {
         name = "Red Proto-Drake",
@@ -6891,7 +6891,7 @@ mounts = {
         spell_id = 35710,
         icon = "ability_mount_ridingelekk_grey",
         skeleton_type = "Elekk",
-        color = "grey",
+        color = "gray",
     },
     {
         name = "Swift Mountain Horse",
@@ -8826,7 +8826,7 @@ mounts = {
         spell_id = 191314,
         icon = "inv_misc_pet_pandaren_yeti_grey",
         skeleton_type = "",
-        color = "grey",
+        color = "gray",
     },
     {
         name = "Brawler's Burly Mushan Beast",
