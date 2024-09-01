@@ -10,6 +10,10 @@ mountSelectorFrame:Hide()
 colorDropdown:SetParent(mountSelectorFrame)
 colorDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -30)
 
+--Attach the skeleton type dropdown to the frame
+skeletonDropdown:SetParent(mountSelectorFrame)
+skeletonDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -60)
+
 -- Enable the frame to be movable
 mountSelectorFrame:SetMovable(true)
 mountSelectorFrame:EnableMouse(true)

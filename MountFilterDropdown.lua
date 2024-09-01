@@ -5,7 +5,54 @@ colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", UIParent, "UIDropDow
 UIDropDownMenu_SetWidth(colorDropdown, 150)
 UIDropDownMenu_SetText(colorDropdown, "Select Color")
 
+-- Create a dropdown menu for filtering by skeleton type
+skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", UIParent, "UIDropDownMenuTemplate")
+UIDropDownMenu_SetWidth(skeletonDropdown, 150)
+UIDropDownMenu_SetText(skeletonDropdown, "Select Skeleton")
+
+--skeletonDropdown:SetPoint("CENTER", UIParent, "CENTER", -50)
+--colorDropdown:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
+
 local selectedColor = "All"
+
+-- Populate the dropdown menu with skeleton types
+local function initializeSkeletonDropdown(self, level)
+    local info = UIDropDownMenu_CreateInfo()
+    info.func = function(self)
+        selectedSkeleton = self.value
+        UIDropDownMenu_SetText(skeletonDropdown, selectedSkeleton)
+        renderMounts(selectedSkeleton)  -- Re-render mounts when a new filter is selected
+    end
+
+    -- Add "All" option
+    info.text, info.value = "All", "All"
+    UIDropDownMenu_AddButton(info, level)
+
+    -- Collect all unique skeleton types from the mounts data, case-insensitively
+    local skeletonSet = {}
+    for _, mount in ipairs(mounts) do
+        if mount.skeleton and mount.skeleton ~= "" then
+            local lowerSkeleton = string.lower(mount.skeleton)
+            skeletonSet[lowerSkeleton] = mount.skeleton  -- Store the original case
+        end
+    end
+
+    -- Convert the set of skeleton types to a list
+    local skeletons = {}
+    for _, originalSkeleton in pairs(skeletonSet) do
+        table.insert(skeletons, originalSkeleton)
+    end
+
+    -- Sort the skeleton types alphabetically
+    table.sort(skeletons)
+
+    -- Add each unique skeleton type to the dropdown
+    for _, skeleton in ipairs(skeletons) do  -- Use ipairs to correctly iterate over the sorted list
+        info.text, info.value = skeleton, skeleton
+        UIDropDownMenu_AddButton(info, level)
+    end
+
+end
 
 -- Populate the dropdown menu with colors
 local function initializeColorDropdown(self, level)
@@ -48,6 +95,7 @@ end
 
 -- Initialize the dropdown
 UIDropDownMenu_Initialize(colorDropdown, initializeColorDropdown)
+UIDropDownMenu_Initialize(skeletonDropdown, initializeSkeletonDropdown)
 
 local function findMountByID(id)
     for _, mount in ipairs(mounts) do
