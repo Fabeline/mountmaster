@@ -34,5 +34,4 @@ end
 local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("ADDON_LOADED")
 eventFrame:RegisterEvent("PLAYER_LOGIN")
-eventFrame:RegisterEvent("COMPANION_UPDATE")
 eventFrame:SetScript("OnEvent", OnEvent)

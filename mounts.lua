@@ -69,7 +69,7 @@ mounts = {
         spell_id = 127169,
         icon = "inv_bluegodcloudserpent",
         skeleton_type = "cloud serpent",
-        color = "ghost"
+        color = "blue"
     },
     {
         name = "Frostshard Infernal",
@@ -500,7 +500,7 @@ mounts = {
         item_id = 192788.0,
         spell_id = 374172,
         icon = "inv_mammoth2mount_blue",
-        skeleton_type = "mammoth",
+        skeleton_type = "moth",
         color = "gray"
     },
     {
@@ -536,7 +536,7 @@ mounts = {
         item_id = 192806.0,
         spell_id = 374275,
         icon = "inv_mammoth2lavamount_red",
-        skeleton_type = "mammoth",
+        skeleton_type = "moth",
         color = "fire"
     },
     {
@@ -617,7 +617,7 @@ mounts = {
         item_id = 194034.0,
         spell_id = 368896,
         icon = "inv_companionprotodragon",
-        skeleton_type = "protodrake",
+        skeleton_type = "drake",
         color = "various"
     },
     {
@@ -626,7 +626,7 @@ mounts = {
         item_id = 194549.0,
         spell_id = 368899,
         icon = "inv_companionpterrordaxdrake",
-        skeleton_type = "protodrake",
+        skeleton_type = "drake",
         color = "various"
     },
     {
@@ -644,7 +644,7 @@ mounts = {
         item_id = 194521.0,
         spell_id = 368901,
         icon = "inv_companionwyvern",
-        skeleton_type = "protodrake",
+        skeleton_type = "drake",
         color = "various"
     },
     {
@@ -689,8 +689,8 @@ mounts = {
         item_id = 211873.0,
         spell_id = 430225,
         icon = "foxmounticon",
-        skeleton_type = "white",
-        color = "fox"
+        skeleton_type = "fox",
+        color = "white"
     },
     {
         name = "Lizi, Thunderspine Tramper",
@@ -725,7 +725,7 @@ mounts = {
         item_id = 201440.0,
         spell_id = 359622,
         icon = "inv_foxwyvernmountblack",
-        skeleton_type = "protodrake",
+        skeleton_type = "rat",
         color = "gray"
     },
     {
@@ -887,7 +887,7 @@ mounts = {
         item_id = 192601.0,
         spell_id = 373859,
         icon = "inv_mammoth2lavamount_orange",
-        skeleton_type = "mammoth",
+        skeleton_type = "moth",
         color = "fire"
     },
     {
@@ -905,7 +905,7 @@ mounts = {
         item_id = 192790.0,
         spell_id = 374194,
         icon = "Inv_mammoth2mount_green",
-        skeleton_type = "mammoth",
+        skeleton_type = "moth",
         color = "green"
     },
     {
@@ -932,7 +932,7 @@ mounts = {
         item_id = 192791.0,
         spell_id = 374196,
         icon = "inv_mammoth2mount_orange",
-        skeleton_type = "mammoth",
+        skeleton_type = "bear",
         color = "brown"
     },
     {
@@ -950,7 +950,7 @@ mounts = {
         item_id = 205204.0,
         spell_id = 408651,
         icon = "inv_sporebatrock_orange",
-        skeleton_type = "flounder",
+        skeleton_type = "cat",
         color = "fire"
     },
     {
@@ -959,7 +959,7 @@ mounts = {
         item_id = 192807.0,
         spell_id = 374278,
         icon = "inv_mammoth2lavamount_yellow",
-        skeleton_type = "mammoth",
+        skeleton_type = "moth",
         color = "fire"
     },
     {
@@ -986,8 +986,8 @@ mounts = {
         item_id = 206675.0,
         spell_id = 414324,
         icon = "inv_vulturemount_alabatrosswhite",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bird",
+        color = "white"
     },
     {
         name = "Scourgebound Vanquisher",
@@ -995,8 +995,8 @@ mounts = {
         item_id = 206680.0,
         spell_id = 414334,
         icon = "ability_mount_redfrostwyrm_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "gray"
     },
     {
         name = "Sulfur Hound",
@@ -1004,8 +1004,8 @@ mounts = {
         item_id = 206678.0,
         spell_id = 414327,
         icon = "ability_hunter_pet_corehound",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "big hound",
+        color = "green"
     },
     {
         name = "Ravenous Black Gryphon",
@@ -1013,7 +1013,7 @@ mounts = {
         item_id = 206674.0,
         spell_id = 414323,
         icon = "inv_misc_elitegryphon",
-        skeleton_type = "Gryphon Skeleton",
+        skeleton_type = "gryphon",
         color = "Black"
     },
     {
@@ -1022,7 +1022,7 @@ mounts = {
         item_id = 206673.0,
         spell_id = 414316,
         icon = "ability_mount_whitedirewolf",
-        skeleton_type = "Wolf Skeleton",
+        skeleton_type = "Wolf",
         color = "White"
     },
     {
@@ -1031,8 +1031,8 @@ mounts = {
         item_id = 198873.0,
         spell_id = 376879,
         icon = "inv_riverotterlargemount01_white",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "ottuk",
+        color = "white"
     },
     {
         name = "Iskaara Trader's Ottuk",
@@ -1040,8 +1040,8 @@ mounts = {
         item_id = 198871.0,
         spell_id = 359409,
         icon = "inv_riverotterlargemount01_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "ottuk",
+        color = "black"
     },
     {
         name = "Stormhide Salamanther",
@@ -1049,8 +1049,8 @@ mounts = {
         item_id = 192775.0,
         spell_id = 374098,
         icon = "inv_salamanderwatermount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "salamander",
+        color = "purple"
     },
     {
         name = "Skyskin Hornstrider",
@@ -1058,8 +1058,8 @@ mounts = {
         item_id = 192800.0,
         spell_id = 352926,
         icon = "inv_tallstriderprimalmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "emu",
+        color = "blue"
     },
     {
         name = "Noble Bruffalon",
@@ -1067,8 +1067,8 @@ mounts = {
         item_id = 204382.0,
         spell_id = 349935,
         icon = "inv_moosebullmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "elk",
+        color = "black"
     },
     {
         name = "Subterranean Magmammoth",
@@ -1076,8 +1076,8 @@ mounts = {
         item_id = 191838.0,
         spell_id = 371176,
         icon = "inv_mammoth2lavamount_blue",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "blue"
     },
     {
         name = "Igneous Shalewing",
@@ -1085,8 +1085,8 @@ mounts = {
         item_id = 205197.0,
         spell_id = 408627,
         icon = "inv_sporebatrock_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "flounder",
+        color = "fire"
     },
     {
         name = "Boulder Hauler",
@@ -1094,8 +1094,8 @@ mounts = {
         item_id = 205209.0,
         spell_id = 408653,
         icon = "inv_sporebatrock_stonered",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "flounder",
+        color = "red"
     },
     {
         name = "Duskwing Ohuna",
@@ -1103,8 +1103,8 @@ mounts = {
         item_id = 198824.0,
         spell_id = 385262,
         icon = "inv_eagle2windmount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bird",
+        color = "black"
     },
     {
         name = "Delugen",
@@ -1112,8 +1112,8 @@ mounts = {
         item_id = 210831.0,
         spell_id = 427222,
         icon = "inv_riverotterlargemount01_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "ottuk",
+        color = "ghost"
     },
     {
         name = "Talont",
@@ -1121,8 +1121,8 @@ mounts = {
         item_id = 210833.0,
         spell_id = 427224,
         icon = "inv_sabretoothraptormount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = "ghost"
     },
     {
         name = "Stargrazer",
@@ -1130,8 +1130,8 @@ mounts = {
         item_id = 210945.0,
         spell_id = 427226,
         icon = "inv_emeralddreamstagmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "ghost"
     },
     {
         name = "Mammyth",
@@ -1139,8 +1139,8 @@ mounts = {
         item_id = 210946.0,
         spell_id = 427546,
         icon = "inv_mammoth2lavamount_orange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "mammoth",
+        color = "ghost"
     },
     {
         name = "Imagiwing",
@@ -1148,8 +1148,8 @@ mounts = {
         item_id = 210948.0,
         spell_id = 427549,
         icon = "inv_sporebatrock_orange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "flounder",
+        color = "ghost"
     },
     {
         name = "Salatrancer",
@@ -1157,8 +1157,8 @@ mounts = {
         item_id = 210969.0,
         spell_id = 427724,
         icon = "inv_salamanderwatermount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "salamander",
+        color = "ghost"
     },
     {
         name = "Winter Night Dreamsaber",
@@ -1166,8 +1166,8 @@ mounts = {
         item_id = 210059.0,
         spell_id = 424476,
         icon = "inv_dreamsabermount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "blue",
     },
     {
         name = "Evening Sun Dreamsaber",
@@ -1175,8 +1175,8 @@ mounts = {
         item_id = 210058.0,
         spell_id = 424479,
         icon = "inv_dreamsabermount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "yellow",
     },
     {
         name = "Morning Flourish Dreamsaber",
@@ -1184,8 +1184,8 @@ mounts = {
         item_id = 210057.0,
         spell_id = 424482,
         icon = "inv_dreamsabermount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "green",
     },
     {
         name = "Springtide Dreamtalon",
@@ -1193,8 +1193,8 @@ mounts = {
         item_id = 210769.0,
         spell_id = 426955,
         icon = "inv_sabretoothraptormount_white",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = "white",
     },
     {
         name = "Snowfluff Dreamtalon",
@@ -1202,8 +1202,8 @@ mounts = {
         item_id = 210775.0,
         spell_id = 427043,
         icon = "inv_sabretoothraptormount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = "purple",
     },
     {
         name = "Rekindled Dreamstag",
@@ -1211,8 +1211,8 @@ mounts = {
         item_id = 209950.0,
         spell_id = 423877,
         icon = "inv_emeralddreamstagmount_ashes",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = ""
     },
     {
         name = "Blossoming Dreamstag",
@@ -1220,8 +1220,8 @@ mounts = {
         item_id = 209947.0,
         spell_id = 423871,
         icon = "inv_emeralddreamstagmount_green",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "green",
     },
     {
         name = "Clayscale Hornstrider",
@@ -1229,8 +1229,8 @@ mounts = {
         item_id = 212645.0,
         spell_id = 432610,
         icon = "inv_tallstriderprimalmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "emu",
+        color = "red",
     },
     {
         name = "Explorer's Stonehide Packbeast",
@@ -1238,8 +1238,8 @@ mounts = {
         item_id = 192796.0,
         spell_id = 374204,
         icon = "inv_thunderlizardprimal_light",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Spectral Drake",
@@ -1247,8 +1247,8 @@ mounts = {
         item_id = nan,
         spell_id = 372995,
         icon = "inv_pterrordax2mount_white",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "white",
     },
     {
         name = "Zovaal's Soul Eater",
@@ -1256,8 +1256,8 @@ mounts = {
         item_id = 217612.0,
         spell_id = 440444,
         icon = "inv_shadebeastmount_gray",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Hand of Salaranga",
@@ -1265,8 +1265,8 @@ mounts = {
         item_id = 186654.0,
         spell_id = 354355,
         icon = "inv_mawguardhandmountblack",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hand",
+        color = "black",
     },
     {
         name = "Tazavesh Gearglider",
@@ -1274,8 +1274,8 @@ mounts = {
         item_id = 186637.0,
         spell_id = 346554,
         icon = "inv_brokermount_brass",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "kite",
+        color = ""
     },
     {
         name = "Cryptic Aurelid",
@@ -1283,8 +1283,8 @@ mounts = {
         item_id = 187673.0,
         spell_id = 359381,
         icon = "ability_mount_progenitorjellyfish_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Voracious Gorger",
@@ -1292,8 +1292,8 @@ mounts = {
         item_id = 184183.0,
         spell_id = 344659,
         icon = "inv_devourermediummount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Rampart Screecher",
@@ -1301,8 +1301,8 @@ mounts = {
         item_id = 182596.0,
         spell_id = 332903,
         icon = "inv_giantvampirebatmount_white",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = "white",
     },
     {
         name = "Hand of Hrestimorak",
@@ -1310,8 +1310,8 @@ mounts = {
         item_id = 186653.0,
         spell_id = 339957,
         icon = "inv_mawguardhandmountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hand",
+        color = "blue",
     },
     {
         name = "Shimmering Aurelid",
@@ -1319,8 +1319,8 @@ mounts = {
         item_id = 187675.0,
         spell_id = 359379,
         icon = "ability_mount_progenitorjellyfish_darkred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Jigglesworth Sr.",
@@ -1328,8 +1328,8 @@ mounts = {
         item_id = 190170.0,
         spell_id = 366791,
         icon = "4216725",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "green"
     },
     {
         name = "Sintouched Deathwalker",
@@ -1337,8 +1337,8 @@ mounts = {
         item_id = 182717.0,
         spell_id = 340068,
         icon = "inv_deathelementalmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        color = "black",
+        color = "black",
     },
     {
         name = "Soultwisted Deathwalker",
@@ -1346,8 +1346,8 @@ mounts = {
         item_id = 187525.0,
         spell_id = 358319,
         icon = "inv_deathelementalmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "elemental",
+        color = "green",
     },
     {
         name = "Wastewarped Deathwalker",
@@ -1355,8 +1355,8 @@ mounts = {
         item_id = 187682.0,
         spell_id = 359407,
         icon = "inv_deathelementalmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "elemental",
+        color = "red",
     },
     {
         name = "Restoration Deathwalker",
@@ -1364,8 +1364,8 @@ mounts = {
         item_id = 192557.0,
         spell_id = 334482,
         icon = "inv_deathelementalmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "elemental",
+        color = "purple",
     },
     {
         name = "Colossal Ebonclaw Mawrat",
@@ -1373,8 +1373,8 @@ mounts = {
         item_id = 188696.0,
         spell_id = 363136,
         icon = "inv_mawratmount_05",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "Corridor Creeper",
@@ -1382,8 +1382,8 @@ mounts = {
         item_id = 184166.0,
         spell_id = 344578,
         icon = "inv_jailerhoundmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Mawsworn Charger",
@@ -1391,8 +1391,8 @@ mounts = {
         item_id = 186655.0,
         spell_id = 339956,
         icon = "ability_mount_mawhorsespikes_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = "blue",
     },
     {
         name = "Colossal Soulshredder Mawrat",
@@ -1400,7 +1400,7 @@ mounts = {
         item_id = 188736.0,
         spell_id = 363297,
         icon = "inv_mawratmount_01",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "rat",
         color = "Red"
     },
     {
@@ -1409,8 +1409,8 @@ mounts = {
         item_id = 188700.0,
         spell_id = 363178,
         icon = "inv_mawratmount_03",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "Silky Shimmermoth",
@@ -1418,8 +1418,8 @@ mounts = {
         item_id = 180748.0,
         spell_id = 318051,
         icon = "inv_mothardenwealdmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "blue",
     },
     {
         name = "Wildseed Cradle",
@@ -1427,8 +1427,8 @@ mounts = {
         item_id = 180731.0,
         spell_id = 334352,
         icon = "inv_ardenwealdpod",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Silverwind Larion",
@@ -1436,7 +1436,7 @@ mounts = {
         item_id = 180772.0,
         spell_id = 334433,
         icon = "inv_wingedlion2mount_silver",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Silver"
     },
     {
@@ -1445,8 +1445,8 @@ mounts = {
         item_id = 190766.0,
         spell_id = 368128,
         icon = "inv_mawratmount_04",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "Patient Bufonid",
@@ -1454,8 +1454,8 @@ mounts = {
         item_id = 188808.0,
         spell_id = 363701,
         icon = "inv_pogenitortoadmount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "toad",
+        color = ""
     },
     {
         name = "Darkwarren Hardshell",
@@ -1463,8 +1463,8 @@ mounts = {
         item_id = 183052.0,
         spell_id = 312763,
         icon = "inv_decomposermountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Chittering Animite",
@@ -1472,8 +1472,8 @@ mounts = {
         item_id = 183617.0,
         spell_id = 312776,
         icon = "inv_devourersmallmount_light",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Warstitched Darkhound",
@@ -1481,8 +1481,8 @@ mounts = {
         item_id = 183615.0,
         spell_id = 341766,
         icon = "inv_darkhoundmount_draka_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Highwind Darkmane",
@@ -1490,8 +1490,8 @@ mounts = {
         item_id = 183618.0,
         spell_id = 341776,
         icon = "inv_wingedlion2mount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Bound Shadehound",
@@ -1499,8 +1499,8 @@ mounts = {
         item_id = 184168.0,
         spell_id = 344577,
         icon = "inv_jailerhoundmount_white",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Hand of Nilganihmaht",
@@ -1508,8 +1508,8 @@ mounts = {
         item_id = 186713.0,
         spell_id = 354354,
         icon = "inv_mawguardhandmountgold",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hand",
+        color = "gold",
     },
     {
         name = "Hand of Bahmethra",
@@ -1517,8 +1517,8 @@ mounts = {
         item_id = 185973.0,
         spell_id = 352309,
         icon = "inv_mawguardhandmountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hand",
+        color = "purple",
     },
     {
         name = "Harvester's Dredwing",
@@ -1526,7 +1526,7 @@ mounts = {
         item_id = 185996.0,
         spell_id = 332904,
         icon = "inv_giantvampirebatmount_purple",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -1535,8 +1535,8 @@ mounts = {
         item_id = 186000.0,
         spell_id = 352441,
         icon = "inv_decomposermountgreen",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Undying Darkhound",
@@ -1544,8 +1544,8 @@ mounts = {
         item_id = 186103.0,
         spell_id = 352742,
         icon = "inv_darkhoundmount_draka_orange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "orange",
     },
     {
         name = "Duskflutter Ardenmoth",
@@ -1553,8 +1553,8 @@ mounts = {
         item_id = 180729.0,
         spell_id = 332256,
         icon = "inv_mothardenwealdmount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = ""
     },
     {
         name = "Lurid Bloodtusk",
@@ -1562,8 +1562,8 @@ mounts = {
         item_id = 182082.0,
         spell_id = 332484,
         icon = "inv_maldraxxusboarmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Court Sinrunner",
@@ -1571,8 +1571,8 @@ mounts = {
         item_id = 183518.0,
         spell_id = 341639,
         icon = "inv_horse3saddle003_evil",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Gilded Prowler",
@@ -1580,8 +1580,8 @@ mounts = {
         item_id = 183740.0,
         spell_id = 342334,
         icon = "inv_wingedlion2mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Umbral Scythehorn",
@@ -1589,8 +1589,8 @@ mounts = {
         item_id = 183053.0,
         spell_id = 340503,
         icon = "inv_decomposermountblack",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Amber Shardhide",
@@ -1598,8 +1598,8 @@ mounts = {
         item_id = 186647.0,
         spell_id = 354356,
         icon = "inv_mawexpansionbearmount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Soaring Razorwing",
@@ -1607,8 +1607,8 @@ mounts = {
         item_id = 186648.0,
         spell_id = 347251,
         icon = "inv_mawexpansionfliermountyellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Anointed Protostag",
@@ -1616,8 +1616,8 @@ mounts = {
         item_id = 187640.0,
         spell_id = 359276,
         icon = "inv_progenitorstagmount_darkred",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "red",
     },
     {
         name = "Heartlight Vombata",
@@ -1625,8 +1625,8 @@ mounts = {
         item_id = 187629.0,
         spell_id = 359229,
         icon = "inv_progenitorwombatmount",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = ""
     },
     {
         name = "Colossal Slaughterclaw",
@@ -1634,8 +1634,8 @@ mounts = {
         item_id = 182081.0,
         spell_id = 327405,
         icon = "inv_rocmaldraxxusmountblack",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Amber Ardenmoth",
@@ -1643,8 +1643,8 @@ mounts = {
         item_id = 183800.0,
         spell_id = 342666,
         icon = "inv_mothardenwealdmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "red",
     },
     {
         name = "Fierce Razorwing",
@@ -1652,8 +1652,8 @@ mounts = {
         item_id = 186649.0,
         spell_id = 354359,
         icon = "inv_mawexpansionfliermountgreen",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Beryl Shardhide",
@@ -1661,8 +1661,8 @@ mounts = {
         item_id = 186644.0,
         spell_id = 347810,
         icon = "inv_mawexpansionbearmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Soulbound Gloomcharger",
@@ -1670,8 +1670,8 @@ mounts = {
         item_id = 186657.0,
         spell_id = 354352,
         icon = "ability_mount_mawhorsespikes_teal",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Tamed Mauler",
@@ -1679,8 +1679,8 @@ mounts = {
         item_id = 186641.0,
         spell_id = 347536,
         icon = "inv_devourerswarmer_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Marrowfang",
@@ -1688,8 +1688,8 @@ mounts = {
         item_id = 181819.0,
         spell_id = 336036,
         icon = "inv_maldraxxusflyermount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Slime Serpent",
@@ -1697,8 +1697,8 @@ mounts = {
         item_id = nan,
         spell_id = 346141,
         icon = "inv_nzothserpentmount_abomination",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = ""
     },
     {
         name = "Cartel Master's Gearglider",
@@ -1706,8 +1706,8 @@ mounts = {
         item_id = 186638.0,
         spell_id = 353263,
         icon = "inv_brokermount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "kite",
+        color = ""
     },
     {
         name = "Sanctum Gloomcharger",
@@ -1715,8 +1715,8 @@ mounts = {
         item_id = 186656.0,
         spell_id = 354351,
         icon = "ability_mount_mawhorsespikes_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = "purple",
     },
     {
         name = "Vengeance",
@@ -1724,8 +1724,8 @@ mounts = {
         item_id = 186642.0,
         spell_id = 351195,
         icon = "inv_dragonhawkmountshadowlands",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Zereth Overseer",
@@ -1733,8 +1733,8 @@ mounts = {
         item_id = 190768.0,
         spell_id = 368158,
         icon = "inv_progenitorbotminemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Carcinized Zerethsteed",
@@ -1742,8 +1742,8 @@ mounts = {
         item_id = 190771.0,
         spell_id = 359545,
         icon = "inv_progenitorbotminemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Callow Flayedwing",
@@ -1751,8 +1751,8 @@ mounts = {
         item_id = 181818.0,
         spell_id = 336038,
         icon = "inv_maldraxxusflyermount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Sinrunner Blanchy",
@@ -1760,8 +1760,8 @@ mounts = {
         item_id = 182614.0,
         spell_id = 339588,
         icon = "inv_horse3saddle001_evil",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Loyal Gorger",
@@ -1769,8 +1769,8 @@ mounts = {
         item_id = 182589.0,
         spell_id = 333027,
         icon = "achievement_dungeon_sanguinedepths_kryxis",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Maelie, the Wanderer",
@@ -1778,8 +1778,8 @@ mounts = {
         item_id = 186643.0,
         spell_id = 354362,
         icon = "inv_horse2ardenwealdmount_doe",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Dusklight Razorwing",
@@ -1787,8 +1787,8 @@ mounts = {
         item_id = 186651.0,
         spell_id = 354361,
         icon = "inv_mawexpansionfliermountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Darkmaul",
@@ -1796,8 +1796,8 @@ mounts = {
         item_id = 186646.0,
         spell_id = 354358,
         icon = "inv_mawexpansionbearmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Swift Gloomhoof",
@@ -1805,8 +1805,8 @@ mounts = {
         item_id = 180728.0,
         spell_id = 312767,
         icon = "inv_horse2ardenwealdmount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Shimmermist Runner",
@@ -1814,8 +1814,8 @@ mounts = {
         item_id = 180727.0,
         spell_id = 332252,
         icon = "inv_horse2ardenwealdmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Spinemaw Gladechewer",
@@ -1823,8 +1823,8 @@ mounts = {
         item_id = 180725.0,
         spell_id = 334364,
         icon = "inv_decomposermountyellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Arboreal Gulper",
@@ -1832,8 +1832,8 @@ mounts = {
         item_id = 182650.0,
         spell_id = 339632,
         icon = "inv_toadardenwealdmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sundancer",
@@ -1841,8 +1841,8 @@ mounts = {
         item_id = 180773.0,
         spell_id = 312765,
         icon = "inv_horse2bastionmount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Blisterback Bloodtusk",
@@ -1850,8 +1850,8 @@ mounts = {
         item_id = 182085.0,
         spell_id = 332478,
         icon = "inv_maldraxxusboarmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Battle-Bound Warhound",
@@ -1859,8 +1859,8 @@ mounts = {
         item_id = 184062.0,
         spell_id = 344228,
         icon = "inv_darkhoundmount_draka",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = ""
     },
     {
         name = "Gorespine",
@@ -1868,8 +1868,8 @@ mounts = {
         item_id = 182084.0,
         spell_id = 332480,
         icon = "inv_maldraxxusboarmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Hulking Deathroc",
@@ -1877,8 +1877,8 @@ mounts = {
         item_id = 182079.0,
         spell_id = 336042,
         icon = "inv_rocmaldraxxusmountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Endmire Flyer",
@@ -1886,8 +1886,8 @@ mounts = {
         item_id = 180582.0,
         spell_id = 332905,
         icon = "inv_devourersmallmount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ascended Skymane",
@@ -1895,8 +1895,8 @@ mounts = {
         item_id = 183741.0,
         spell_id = 342335,
         icon = "inv_horse2bastionmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Mawsworn Soulhunter",
@@ -1904,8 +1904,8 @@ mounts = {
         item_id = 184167.0,
         spell_id = 312762,
         icon = "inv_jailerhoundmount_gray",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Rampaging Mauler",
@@ -1913,8 +1913,8 @@ mounts = {
         item_id = 187183.0,
         spell_id = 356501,
         icon = "inv_devourerswarmermount_dark",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Garnet Razorwing",
@@ -1922,8 +1922,8 @@ mounts = {
         item_id = 186652.0,
         spell_id = 354360,
         icon = "inv_mawexpansionfliermountred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Crimson Shardhide",
@@ -1931,8 +1931,8 @@ mounts = {
         item_id = 186645.0,
         spell_id = 354357,
         icon = "inv_mawexpansionbearmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Fallen Charger",
@@ -1940,8 +1940,8 @@ mounts = {
         item_id = 186659.0,
         spell_id = 354353,
         icon = "ability_mount_mawhorsespikes_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = "yellow",
     },
     {
         name = "Deepstar Aurelid",
@@ -1949,8 +1949,8 @@ mounts = {
         item_id = 187676.0,
         spell_id = 342680,
         icon = "ability_mount_progenitorjellyfish_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Colossal Plaguespew Mawrat",
@@ -1958,8 +1958,8 @@ mounts = {
         item_id = 190765.0,
         spell_id = 368105,
         icon = "inv_mawratmount_02",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "Bulbous Necroray",
@@ -1967,8 +1967,8 @@ mounts = {
         item_id = 184160.0,
         spell_id = 344574,
         icon = "inv_manaraymount_orange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "orange",
     },
     {
         name = "Infested Necroray",
@@ -1976,8 +1976,8 @@ mounts = {
         item_id = 184161.0,
         spell_id = 344576,
         icon = "inv_manaraymount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Pestilent Necroray",
@@ -1985,8 +1985,8 @@ mounts = {
         item_id = 184162.0,
         spell_id = 344575,
         icon = "inv_manaraymount_blackfel",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Pale Acidmaw",
@@ -1994,8 +1994,8 @@ mounts = {
         item_id = 180726.0,
         spell_id = 334365,
         icon = "inv_decomposermountwhite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Silvertip Dredwing",
@@ -2003,7 +2003,7 @@ mounts = {
         item_id = 181316.0,
         spell_id = 312777,
         icon = "inv_giantvampirebatmount_silver",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2012,8 +2012,8 @@ mounts = {
         item_id = 181300.0,
         spell_id = 336039,
         icon = "inv_maldraxxusflyermount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Dauntless Duskrunner",
@@ -2021,8 +2021,8 @@ mounts = {
         item_id = 181317.0,
         spell_id = 336064,
         icon = "inv_horse2bastionmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Dreamlight Runestag",
@@ -2030,8 +2030,8 @@ mounts = {
         item_id = 180263.0,
         spell_id = 312759,
         icon = "inv_ardenwealdstagmount_blue",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "blue",
     },
     {
         name = "Enchanted Dreamlight Runestag",
@@ -2039,8 +2039,8 @@ mounts = {
         item_id = 180721.0,
         spell_id = 312761,
         icon = "inv_ardenwealdstagmount2_blue",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "blue",
     },
     {
         name = "Shadeleaf Runestag",
@@ -2048,8 +2048,8 @@ mounts = {
         item_id = 180413.0,
         spell_id = 332243,
         icon = "inv_ardenwealdstagmount_dark",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = ""
     },
     {
         name = "Enchanted Shadeleaf Runestag",
@@ -2057,8 +2057,8 @@ mounts = {
         item_id = 180722.0,
         spell_id = 332246,
         icon = "inv_ardenwealdstagmount2_blue",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "blue",
     },
     {
         name = "Ardenweald Wilderling",
@@ -2066,8 +2066,8 @@ mounts = {
         item_id = 186493.0,
         spell_id = 353856,
         icon = "inv_wolfserpentmountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Autumnal Wilderling",
@@ -2075,8 +2075,8 @@ mounts = {
         item_id = 186494.0,
         spell_id = 353857,
         icon = "inv_wolfserpentmountyellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Wild Glimmerfur Prowler",
@@ -2084,8 +2084,8 @@ mounts = {
         item_id = 180730.0,
         spell_id = 334366,
         icon = "inv_fox2_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Winterborn Runestag",
@@ -2093,8 +2093,8 @@ mounts = {
         item_id = 180415.0,
         spell_id = 332245,
         icon = "inv_ardenwealdstagmount_white",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "white",
     },
     {
         name = "Winter Wilderling",
@@ -2102,8 +2102,8 @@ mounts = {
         item_id = 186495.0,
         spell_id = 353858,
         icon = "inv_wolfserpentmountwhite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Wakener's Runestag",
@@ -2111,8 +2111,8 @@ mounts = {
         item_id = 180414.0,
         spell_id = 332244,
         icon = "inv_ardenwealdstagmount_teal",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = ""
     },
     {
         name = "Enchanted Wakener's Runestag",
@@ -2120,8 +2120,8 @@ mounts = {
         item_id = 180723.0,
         spell_id = 332247,
         icon = "inv_ardenwealdstagmount2_blue",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "blue",
     },
     {
         name = "Vibrant Flutterwing",
@@ -2129,8 +2129,8 @@ mounts = {
         item_id = 183801.0,
         spell_id = 342667,
         icon = "inv_mothardenwealdmount_mint",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Enchanted Winterborn Runestag",
@@ -2138,8 +2138,8 @@ mounts = {
         item_id = 180724.0,
         spell_id = 332248,
         icon = "inv_ardenwealdstagmount2_blue",
-        skeleton_type = "Stag Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "blue",
     },
     {
         name = "Summer Wilderling",
@@ -2147,8 +2147,8 @@ mounts = {
         item_id = 186492.0,
         spell_id = 353859,
         icon = "inv_wolfserpentmountgreen",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Phalynx of Courage",
@@ -2156,8 +2156,8 @@ mounts = {
         item_id = 180763.0,
         spell_id = 334391,
         icon = "inv_automatonlionmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Eternal Phalynx of Courage",
@@ -2165,8 +2165,8 @@ mounts = {
         item_id = 180766.0,
         spell_id = 334406,
         icon = "inv_automatonlionmount2",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Phalynx of Purity",
@@ -2174,8 +2174,8 @@ mounts = {
         item_id = 180764.0,
         spell_id = 334398,
         icon = "inv_automatonlionmount_silver",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "silver",
     },
     {
         name = "Eternal Phalynx of Purity",
@@ -2183,8 +2183,8 @@ mounts = {
         item_id = 180765.0,
         spell_id = 334403,
         icon = "inv_automatonlionmount_silver",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "silver",
     },
     {
         name = "Elysian Aquilon",
@@ -2192,8 +2192,8 @@ mounts = {
         item_id = 186482.0,
         spell_id = 353875,
         icon = "inv_automatonfliermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ascendant's Aquilon",
@@ -2201,8 +2201,8 @@ mounts = {
         item_id = 186485.0,
         spell_id = 353880,
         icon = "inv_automatonfliermount_silver",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "silver",
     },
     {
         name = "Phalynx of Humility",
@@ -2210,8 +2210,8 @@ mounts = {
         item_id = 180762.0,
         spell_id = 334386,
         icon = "inv_automatonlionmount_bronze",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Battle-Hardened Aquilon",
@@ -2219,8 +2219,8 @@ mounts = {
         item_id = 186480.0,
         spell_id = 343550,
         icon = "inv_automatonfliermount_copper",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = ""
     },
     {
         name = "Phalynx of Loyalty",
@@ -2228,8 +2228,8 @@ mounts = {
         item_id = 180761.0,
         spell_id = 334382,
         icon = "inv_automatonlionmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "black",
     },
     {
         name = "Eternal Phalynx of Loyalty",
@@ -2237,8 +2237,8 @@ mounts = {
         item_id = 180767.0,
         spell_id = 334408,
         icon = "inv_automatonlionmount2_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "black",
     },
     {
         name = "Eternal Phalynx of Humility",
@@ -2246,8 +2246,8 @@ mounts = {
         item_id = 180768.0,
         spell_id = 334409,
         icon = "inv_automatonlionmount2_bronze",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Forsworn Aquilon",
@@ -2255,8 +2255,8 @@ mounts = {
         item_id = 186483.0,
         spell_id = 353877,
         icon = "inv_automatonfliermount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "War-Bred Tauralus",
@@ -2264,7 +2264,7 @@ mounts = {
         item_id = 182077.0,
         spell_id = 332455,
         icon = "inv_giantbeastmount_blue",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2273,7 +2273,7 @@ mounts = {
         item_id = 181822.0,
         spell_id = 332462,
         icon = "inv_giantbeastmount2_blue",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2282,8 +2282,8 @@ mounts = {
         item_id = 182076.0,
         spell_id = 332456,
         icon = "inv_giantbeastmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Armored Plaguerot Tauralus",
@@ -2291,7 +2291,7 @@ mounts = {
         item_id = 181821.0,
         spell_id = 332464,
         icon = "inv_giantbeastmount2_green",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2300,8 +2300,8 @@ mounts = {
         item_id = 186487.0,
         spell_id = 353883,
         icon = "inv_flymaldraxxusmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Regal Corpsefly",
@@ -2309,8 +2309,8 @@ mounts = {
         item_id = 186488.0,
         spell_id = 353884,
         icon = "inv_flymaldraxxusmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Armored Bonehoof Tauralus",
@@ -2318,7 +2318,7 @@ mounts = {
         item_id = 181815.0,
         spell_id = 332466,
         icon = "inv_giantbeastmount2",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2327,8 +2327,8 @@ mounts = {
         item_id = 186490.0,
         spell_id = 353885,
         icon = "inv_flymaldraxxusmount_copper",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = ""
     },
     {
         name = "Bonesewn Fleshroc",
@@ -2336,8 +2336,8 @@ mounts = {
         item_id = 182078.0,
         spell_id = 336041,
         icon = "inv_rocmaldraxxusmountwhite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Chosen Tauralus",
@@ -2345,8 +2345,8 @@ mounts = {
         item_id = 182074.0,
         spell_id = 332460,
         icon = "inv_giantbeastmount_orange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "orange",
     },
     {
         name = "Armored Chosen Tauralus",
@@ -2354,7 +2354,7 @@ mounts = {
         item_id = 181820.0,
         spell_id = 332467,
         icon = "inv_giantbeastmount2_orange",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2363,8 +2363,8 @@ mounts = {
         item_id = 182075.0,
         spell_id = 332457,
         icon = "inv_giantbeastmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Predatory Plagueroc",
@@ -2372,7 +2372,7 @@ mounts = {
         item_id = 182080.0,
         spell_id = 336045,
         icon = "inv_rocmaldraxxusmountgreen",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2381,8 +2381,8 @@ mounts = {
         item_id = 186489.0,
         spell_id = 347250,
         icon = "inv_flymaldraxxusmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Crypt Gargon",
@@ -2390,8 +2390,8 @@ mounts = {
         item_id = 180945.0,
         spell_id = 332932,
         icon = "inv_deathwargmountwhite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Battle Gargon Vrednic",
@@ -2399,7 +2399,7 @@ mounts = {
         item_id = 180948.0,
         spell_id = 312754,
         icon = "inv_deathwargmount2black",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Red"
     },
     {
@@ -2408,8 +2408,8 @@ mounts = {
         item_id = 183715.0,
         spell_id = 332927,
         icon = "inv_deathwargmountred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Gravestone Battle Gargon",
@@ -2417,8 +2417,8 @@ mounts = {
         item_id = 182332.0,
         spell_id = 333021,
         icon = "inv_deathwargmount2white",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = "white",
     },
     {
         name = "Sinfall Gravewing",
@@ -2426,8 +2426,8 @@ mounts = {
         item_id = 186476.0,
         spell_id = 353872,
         icon = "inv_gargoylebrute2mount_gray",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Obsidian Gravewing",
@@ -2435,8 +2435,8 @@ mounts = {
         item_id = 186478.0,
         spell_id = 353866,
         icon = "inv_gargoylebrute2mount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Horrid Dredwing",
@@ -2444,7 +2444,7 @@ mounts = {
         item_id = 180461.0,
         spell_id = 332882,
         icon = "inv_giantvampirebatmount_bronze",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2453,8 +2453,8 @@ mounts = {
         item_id = 182954.0,
         spell_id = 332923,
         icon = "inv_deathwargmountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Pale Gravewing",
@@ -2462,8 +2462,8 @@ mounts = {
         item_id = 186477.0,
         spell_id = 353873,
         icon = "inv_gargoylebrute2mount_pale",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Desire's Battle Gargon",
@@ -2471,8 +2471,8 @@ mounts = {
         item_id = 182209.0,
         spell_id = 332949,
         icon = "inv_deathwargmount2purple",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = "purple",
     },
     {
         name = "Battle Gargon Silessa",
@@ -2480,8 +2480,8 @@ mounts = {
         item_id = 183798.0,
         spell_id = 333023,
         icon = "inv_deathwargmount2red",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = "red",
     },
     {
         name = "Hopecrusher Gargon",
@@ -2489,8 +2489,8 @@ mounts = {
         item_id = 180581.0,
         spell_id = 312753,
         icon = "inv_deathwargmountblack",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Mastercraft Gravewing",
@@ -2498,8 +2498,8 @@ mounts = {
         item_id = 186479.0,
         spell_id = 215545,
         icon = "inv_gargoylebrute2mount_brown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "brown",
     },
     {
         name = "Desertwing Hunter",
@@ -2507,8 +2507,8 @@ mounts = {
         item_id = 187666.0,
         spell_id = 342668,
         icon = "inv_progenitorhawk_mount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Pale Regal Cervid",
@@ -2516,8 +2516,8 @@ mounts = {
         item_id = 187639.0,
         spell_id = 342671,
         icon = "inv_progenitorstagmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Vespoid Flutterer",
@@ -2525,8 +2525,8 @@ mounts = {
         item_id = 187660.0,
         spell_id = 342678,
         icon = "inv_progenitorwasp_mount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Serenade",
@@ -2534,8 +2534,8 @@ mounts = {
         item_id = 187669.0,
         spell_id = 346719,
         icon = "inv_progenitorsnail_mount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Curious Crystalsniffer",
@@ -2543,8 +2543,8 @@ mounts = {
         item_id = 187630.0,
         spell_id = 359230,
         icon = "inv_progenitorwombatmount_darkred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Darkened Vombata",
@@ -2552,8 +2552,8 @@ mounts = {
         item_id = 187631.0,
         spell_id = 359231,
         icon = "inv_progenitorwombatmount_dark",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = ""
     },
     {
         name = "Adorned Vombata",
@@ -2561,8 +2561,8 @@ mounts = {
         item_id = 187632.0,
         spell_id = 359232,
         icon = "inv_progenitorwombatmount_red",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = "red",
     },
     {
         name = "Deathrunner",
@@ -2570,8 +2570,8 @@ mounts = {
         item_id = 187638.0,
         spell_id = 359278,
         icon = "inv_progenitorstagmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Sundered Zerethsteed",
@@ -2579,7 +2579,7 @@ mounts = {
         item_id = 187641.0,
         spell_id = 359277,
         icon = "inv_progenitorstagmount_dark",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -2588,8 +2588,8 @@ mounts = {
         item_id = 187664.0,
         spell_id = 359367,
         icon = "inv_progenitorwasp_mount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Buzz",
@@ -2597,8 +2597,8 @@ mounts = {
         item_id = 187665.0,
         spell_id = 359366,
         icon = "inv_progenitorwasp_mount_silver",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "silver",
     },
     {
         name = "Bronzewing Vespoid",
@@ -2606,7 +2606,7 @@ mounts = {
         item_id = 187663.0,
         spell_id = 359364,
         icon = "inv_progenitorwasp_mount_bronze",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Bronze"
     },
     {
@@ -2615,8 +2615,8 @@ mounts = {
         item_id = 187667.0,
         spell_id = 359372,
         icon = "inv_progenitorhawk_mount_dark",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Raptora Swooper",
@@ -2624,8 +2624,8 @@ mounts = {
         item_id = 187668.0,
         spell_id = 359373,
         icon = "inv_progenitorhawk_mount_red",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = "red",
     },
     {
         name = "Bronze Helicid",
@@ -2633,7 +2633,7 @@ mounts = {
         item_id = 187670.0,
         spell_id = 359376,
         icon = "inv_progenitorsnail_mount_bronze",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Bronze"
     },
     {
@@ -2642,8 +2642,8 @@ mounts = {
         item_id = 187671.0,
         spell_id = 359377,
         icon = "inv_progenitorsnail_mount_gray",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Scarlet Helicid",
@@ -2651,8 +2651,8 @@ mounts = {
         item_id = 187672.0,
         spell_id = 359378,
         icon = "inv_progenitorsnail_mount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Genesis Crawler",
@@ -2660,8 +2660,8 @@ mounts = {
         item_id = 187677.0,
         spell_id = 359401,
         icon = "inv_progenitorspidermount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Tarachnid Creeper",
@@ -2669,8 +2669,8 @@ mounts = {
         item_id = 187678.0,
         spell_id = 359402,
         icon = "inv_progenitorspidermount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ineffable Skitterer",
@@ -2678,8 +2678,8 @@ mounts = {
         item_id = 187679.0,
         spell_id = 359403,
         icon = "inv_progenitorspidermount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Goldplate Bufonid",
@@ -2687,8 +2687,8 @@ mounts = {
         item_id = 187683.0,
         spell_id = 359413,
         icon = "inv_pogenitortoadmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "toad",
+        color = "blue",
     },
     {
         name = "Prototype Leaper",
@@ -2696,8 +2696,8 @@ mounts = {
         item_id = 188809.0,
         spell_id = 363703,
         icon = "inv_pogenitortoadmount_darkred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Russet Bufonid",
@@ -2705,8 +2705,8 @@ mounts = {
         item_id = 188810.0,
         spell_id = 363706,
         icon = "inv_pogenitortoadmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "toad",
+        color = "red",
     },
     {
         name = "Heartbond Lupine",
@@ -2714,8 +2714,8 @@ mounts = {
         item_id = 190580.0,
         spell_id = 367673,
         icon = "inv_progenitorwolf",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ironclad Frostclaw",
@@ -2723,8 +2723,8 @@ mounts = {
         item_id = 168056.0,
         spell_id = 295386,
         icon = "inv_alliancewolfmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Bloodflank Charger",
@@ -2732,8 +2732,8 @@ mounts = {
         item_id = 168055.0,
         spell_id = 295387,
         icon = "inv_hordehorsemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Wonderwing 2.0",
@@ -2741,8 +2741,8 @@ mounts = {
         item_id = 169162.0,
         spell_id = 290328,
         icon = "inv_mechanicalparrotmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Snapback Scuttler",
@@ -2750,8 +2750,8 @@ mounts = {
         item_id = 169194.0,
         spell_id = 294039,
         icon = "inv_crabmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mechacycle Model W",
@@ -2759,8 +2759,8 @@ mounts = {
         item_id = 168329.0,
         spell_id = 296788,
         icon = "inv_mechacycle",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Black Serpent of N'Zoth",
@@ -2768,7 +2768,7 @@ mounts = {
         item_id = 174654.0,
         spell_id = 305182,
         icon = "inv_nzothserpentmount_black",
-        skeleton_type = "Serpent Skeleton",
+        skeleton_type = "Serpent",
         color = "Black"
     },
     {
@@ -2777,8 +2777,8 @@ mounts = {
         item_id = 161215.0,
         spell_id = 239049,
         icon = "inv_trilobitemount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Bloodgorged Crawg",
@@ -2786,8 +2786,8 @@ mounts = {
         item_id = 163216.0,
         spell_id = 250735,
         icon = "inv_bloodtrollbeast_mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Dazar'alor Windreaver",
@@ -2795,8 +2795,8 @@ mounts = {
         item_id = 166539.0,
         spell_id = 289101,
         icon = "inv_pterrordax2mount_bronze",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Azshari Bloatray",
@@ -2804,8 +2804,8 @@ mounts = {
         item_id = 167171.0,
         spell_id = 292419,
         icon = "inv_sharkraymount_4",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Wriggling Parasite",
@@ -2813,8 +2813,8 @@ mounts = {
         item_id = 174861.0,
         spell_id = 316343,
         icon = "inv_nzothserpentmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Awakened Mindborer",
@@ -2822,8 +2822,8 @@ mounts = {
         item_id = 174836.0,
         spell_id = 316637,
         icon = "inv_nzothserpentmount_pale",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Green Marsh Hopper",
@@ -2831,7 +2831,7 @@ mounts = {
         item_id = 163183.0,
         spell_id = 259740,
         icon = "ivn_toadloamount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Green"
     },
     {
@@ -2840,7 +2840,7 @@ mounts = {
         item_id = 166442.0,
         spell_id = 288587,
         icon = "ivn_toadloamount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Blue"
     },
     {
@@ -2849,7 +2849,7 @@ mounts = {
         item_id = 166443.0,
         spell_id = 288589,
         icon = "ivn_toadloamount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Yellow"
     },
     {
@@ -2858,8 +2858,8 @@ mounts = {
         item_id = 163589.0,
         spell_id = 279474,
         icon = "ability_mount_triceratopsmount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Inkscale Deepseeker",
@@ -2867,8 +2867,8 @@ mounts = {
         item_id = 169203.0,
         spell_id = 300151,
         icon = "inv_hippocampusmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Crimson Tidestallion",
@@ -2876,8 +2876,8 @@ mounts = {
         item_id = 169202.0,
         spell_id = 300153,
         icon = "inv_hippocampusmount_red",
-        skeleton_type = "Lion Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Lion",
+        color = "red",
     },
     {
         name = "Wicked Swarmer",
@@ -2885,8 +2885,8 @@ mounts = {
         item_id = 174770.0,
         spell_id = 316340,
         icon = "inv_aqirflyingmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Kua'fon",
@@ -2894,8 +2894,8 @@ mounts = {
         item_id = 159146.0,
         spell_id = 267270,
         icon = "inv_pterrordax2mount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Scrapforged Mechaspider",
@@ -2903,8 +2903,8 @@ mounts = {
         item_id = 168827.0,
         spell_id = 299159,
         icon = "inv_mechagonspidertank_silver",
-        skeleton_type = "Spider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Spider",
+        color = "silver",
     },
     {
         name = "Child of Torcali",
@@ -2912,8 +2912,8 @@ mounts = {
         item_id = 168408.0,
         spell_id = 297560,
         icon = "inv_triceratopsgreen",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Snapdragon Kelpstalker",
@@ -2921,8 +2921,8 @@ mounts = {
         item_id = 169199.0,
         spell_id = 300146,
         icon = "inv_snapdragonmount02",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Deepcoral Snapdragon",
@@ -2930,8 +2930,8 @@ mounts = {
         item_id = 169200.0,
         spell_id = 300147,
         icon = "inv_snapdragonmount03",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Honeyback Harvester",
@@ -2939,8 +2939,8 @@ mounts = {
         item_id = 170069.0,
         spell_id = 259741,
         icon = "inv_bee_default",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Springfur Alpaca",
@@ -2948,8 +2948,8 @@ mounts = {
         item_id = 174859.0,
         spell_id = 316802,
         icon = "inv_alpacamount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Shadowbarb Drone",
@@ -2957,8 +2957,8 @@ mounts = {
         item_id = 174771.0,
         spell_id = 316339,
         icon = "inv_aqirflyingmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Harbor Gryphon",
@@ -2966,8 +2966,8 @@ mounts = {
         item_id = 206567.0,
         spell_id = 413827,
         icon = "inv_misc_elitegryphon",
-        skeleton_type = "Gryphon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Gryphon",
+        color = ""
     },
     {
         name = "Scarlet Pterrordax",
@@ -2975,8 +2975,8 @@ mounts = {
         item_id = 206566.0,
         spell_id = 413825,
         icon = "inv_pterrordax2mount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Rubyshell Krolusk",
@@ -2984,8 +2984,8 @@ mounts = {
         item_id = 166464.0,
         spell_id = 288735,
         icon = "inv_trilobitemount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Azureshell Krolusk",
@@ -2993,8 +2993,8 @@ mounts = {
         item_id = 166465.0,
         spell_id = 288736,
         icon = "inv_trilobitemount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Azure"
+        skeleton_type = "",
+        color = "blue"
     },
     {
         name = "Sandy Nightsaber",
@@ -3002,8 +3002,8 @@ mounts = {
         item_id = 166436.0,
         spell_id = 288506,
         icon = "inv_nightsaber2mountyellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "yellow",
     },
     {
         name = "Bloodthirsty Dreadwing",
@@ -3011,8 +3011,8 @@ mounts = {
         item_id = 166469.0,
         spell_id = 288714,
         icon = "ability_hunter_pet_bat",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Priestess' Moonsaber",
@@ -3020,8 +3020,8 @@ mounts = {
         item_id = 166463.0,
         spell_id = 288740,
         icon = "inv_saber3mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Highmountain Thunderhoof",
@@ -3029,8 +3029,8 @@ mounts = {
         item_id = 155662.0,
         spell_id = 258060,
         icon = "inv_hmmoosemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Starcursed Voidstrider",
@@ -3038,8 +3038,8 @@ mounts = {
         item_id = 156486.0,
         spell_id = 259202,
         icon = "ability_mount_voidelfstridermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Nightborne Manasaber",
@@ -3047,8 +3047,8 @@ mounts = {
         item_id = 156487.0,
         spell_id = 258845,
         icon = "inv_nightborneracialmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Lightforged Felcrusher",
@@ -3056,8 +3056,8 @@ mounts = {
         item_id = 155656.0,
         spell_id = 258022,
         icon = "inv_lightforgedelekk",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mag'har Direwolf",
@@ -3065,8 +3065,8 @@ mounts = {
         item_id = 161330.0,
         spell_id = 267274,
         icon = "inv_orcclanworg",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Dark Iron Core Hound",
@@ -3074,8 +3074,8 @@ mounts = {
         item_id = 161331.0,
         spell_id = 271646,
         icon = "inv_darkirondwarfcorehound",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Kul Tiran Charger",
@@ -3083,8 +3083,8 @@ mounts = {
         item_id = 164762.0,
         spell_id = 282682,
         icon = "inv_horsekultiran",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Zandalari Direhorn",
@@ -3092,8 +3092,8 @@ mounts = {
         item_id = 157870.0,
         spell_id = 263707,
         icon = "inv_triceratopszandalari",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Caravan Hyena",
@@ -3101,8 +3101,8 @@ mounts = {
         item_id = 174066.0,
         spell_id = 306423,
         icon = "inv_vulperamount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mechagon Mechanostrider",
@@ -3110,8 +3110,8 @@ mounts = {
         item_id = 174067.0,
         spell_id = 305592,
         icon = "inv_mechagnomestrider",
-        skeleton_type = "Mechanostrider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Mechanostrider",
+        color = ""
     },
     {
         name = "Grimhowl",
@@ -3119,8 +3119,8 @@ mounts = {
         item_id = 191123.0,
         spell_id = 369666,
         icon = "inv_darkhoundmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Admiralty Stallion",
@@ -3128,8 +3128,8 @@ mounts = {
         item_id = 161911.0,
         spell_id = 259213,
         icon = "inv_horse3saddle003_pale",
-        skeleton_type = "Lion Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Lion",
+        color = ""
     },
     {
         name = "Dapple Gray",
@@ -3137,8 +3137,8 @@ mounts = {
         item_id = 161912.0,
         spell_id = 260172,
         icon = "inv_horse3saddle006_stormsong_white",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Smoky Charger",
@@ -3146,8 +3146,8 @@ mounts = {
         item_id = 161910.0,
         spell_id = 260173,
         icon = "inv_horse3saddle003_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = "black",
     },
     {
         name = "Alabaster Hyena",
@@ -3155,8 +3155,8 @@ mounts = {
         item_id = 161773.0,
         spell_id = 237287,
         icon = "inv_hyena2mount_light",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Expedition Bloodswarmer",
@@ -3164,8 +3164,8 @@ mounts = {
         item_id = 161774.0,
         spell_id = 275841,
         icon = "ability_mount_bloodtick_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Cobalt Pterrordax",
@@ -3173,8 +3173,8 @@ mounts = {
         item_id = 161665.0,
         spell_id = 275837,
         icon = "inv_pterrordax2mount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Proudmoore Sea Scout",
@@ -3182,8 +3182,8 @@ mounts = {
         item_id = 161879.0,
         spell_id = 275868,
         icon = "inv_misc_elitegryphonarmored",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Stormsong Coastwatcher",
@@ -3191,8 +3191,8 @@ mounts = {
         item_id = 161909.0,
         spell_id = 275866,
         icon = "inv_misc_elitegryphonarmored",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Dusky Waycrest Gryphon",
@@ -3200,8 +3200,8 @@ mounts = {
         item_id = 161908.0,
         spell_id = 275859,
         icon = "inv_misc_elitegryphonarmored",
-        skeleton_type = "Gryphon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Gryphon",
+        color = "red",
     },
     {
         name = "Captured Swampstalker",
@@ -3209,7 +3209,7 @@ mounts = {
         item_id = 161666.0,
         spell_id = 275838,
         icon = "inv_pterrordax2mount_lightgreen",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -3218,8 +3218,8 @@ mounts = {
         item_id = 161667.0,
         spell_id = 275840,
         icon = "inv_pterrordax2mount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Spectral Pterrorwing",
@@ -3227,8 +3227,8 @@ mounts = {
         item_id = 161664.0,
         spell_id = 244712,
         icon = "inv_pterrordax2mount_white",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Ankoan Waveray",
@@ -3236,8 +3236,8 @@ mounts = {
         item_id = 167167.0,
         spell_id = 292407,
         icon = "inv_sharkraymount_1",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Unshackled Waveray",
@@ -3245,8 +3245,8 @@ mounts = {
         item_id = 167170.0,
         spell_id = 291538,
         icon = "inv_sharkraymount_2",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Rustbolt Resistor",
@@ -3254,8 +3254,8 @@ mounts = {
         item_id = 168829.0,
         spell_id = 299170,
         icon = "inv_hunterkillershipred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Wastewander Skyterror",
@@ -3263,8 +3263,8 @@ mounts = {
         item_id = 174754.0,
         spell_id = 316276,
         icon = "inv_vulturemount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "The Hivemind",
@@ -3272,8 +3272,8 @@ mounts = {
         item_id = 156798.0,
         spell_id = 261395,
         icon = "inv_hivemind",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "X-995 Mechanocat",
@@ -3281,8 +3281,8 @@ mounts = {
         item_id = 167751.0,
         spell_id = 294143,
         icon = "inv_mechanicaltiger_grey",
-        skeleton_type = "Cat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "grey",
     },
     {
         name = "Dune Scavenger",
@@ -3290,8 +3290,8 @@ mounts = {
         item_id = 163576.0,
         spell_id = 237286,
         icon = "inv_hyena2mount_tan",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Terrified Pack Mule",
@@ -3299,8 +3299,8 @@ mounts = {
         item_id = 163574.0,
         spell_id = 260174,
         icon = "inv_horse3saddle008_donkey",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Leaping Veinseeker",
@@ -3308,8 +3308,8 @@ mounts = {
         item_id = 163575.0,
         spell_id = 243795,
         icon = "ability_mount_bloodtick_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Goldenmane",
@@ -3317,7 +3317,7 @@ mounts = {
         item_id = 163573.0,
         spell_id = 260175,
         icon = "inv_horse3saddle003_palamino",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Golden"
     },
     {
@@ -3326,8 +3326,8 @@ mounts = {
         item_id = 161479.0,
         spell_id = 275623,
         icon = "inv_serpentmount_red",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "red",
     },
     {
         name = "Frightened Kodo",
@@ -3335,8 +3335,8 @@ mounts = {
         item_id = 166433.0,
         spell_id = 288499,
         icon = "ability_mount_kodo_03",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Fabious",
@@ -3344,8 +3344,8 @@ mounts = {
         item_id = 169201.0,
         spell_id = 300150,
         icon = "inv_hippocampusmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Junkheap Drifter",
@@ -3353,8 +3353,8 @@ mounts = {
         item_id = 168370.0,
         spell_id = 297157,
         icon = "inv_mechacycle",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Rusty Mechanocrawler",
@@ -3362,8 +3362,8 @@ mounts = {
         item_id = 168823.0,
         spell_id = 291492,
         icon = "inv_mechagonspidertank_junker",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Silent Glider",
@@ -3371,8 +3371,8 @@ mounts = {
         item_id = 169163.0,
         spell_id = 300149,
         icon = "inv_sharkraymount_3",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "kite",
+        color = ""
     },
     {
         name = "Elusive Quickhoof",
@@ -3380,8 +3380,8 @@ mounts = {
         item_id = 174860.0,
         spell_id = 316493,
         icon = "inv_alpacamount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Mollie",
@@ -3389,8 +3389,8 @@ mounts = {
         item_id = 174842.0,
         spell_id = 298367,
         icon = "inv_alpacamount_brown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "brown",
     },
     {
         name = "Highland Mustang",
@@ -3398,8 +3398,8 @@ mounts = {
         item_id = 163579.0,
         spell_id = 279456,
         icon = "inv_horse3_pinto",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Broken Highland Mustang",
@@ -3407,8 +3407,8 @@ mounts = {
         item_id = 163578.0,
         spell_id = 279457,
         icon = "inv_horse3_chestnut",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Albino Raptor",
@@ -3416,8 +3416,8 @@ mounts = {
         item_id = 163644.0,
         spell_id = 279569,
         icon = "ability_mount_raptor_white",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = "white",
     },
     {
         name = "Skullripper",
@@ -3425,8 +3425,8 @@ mounts = {
         item_id = 163645.0,
         spell_id = 279611,
         icon = "ability_hunter_pet_raptor",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Witherbark Direwing",
@@ -3434,8 +3434,8 @@ mounts = {
         item_id = 163706.0,
         spell_id = 279868,
         icon = "ability_hunter_pet_bat",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Lil' Donkey",
@@ -3443,8 +3443,8 @@ mounts = {
         item_id = 163646.0,
         spell_id = 279608,
         icon = "inv_horse3_donkey",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Blackpaw",
@@ -3452,7 +3452,7 @@ mounts = {
         item_id = 166438.0,
         spell_id = 288438,
         icon = "spell_druid_bearhug",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Black"
     },
     {
@@ -3461,8 +3461,8 @@ mounts = {
         item_id = 166434.0,
         spell_id = 288503,
         icon = "inv_nightsaber2brown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "brown",
     },
     {
         name = "Kaldorei Nightsaber",
@@ -3470,8 +3470,8 @@ mounts = {
         item_id = 166435.0,
         spell_id = 288505,
         icon = "inv_nightsaber2mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Ashenvale Chimaera",
@@ -3479,8 +3479,8 @@ mounts = {
         item_id = 166432.0,
         spell_id = 288495,
         icon = "inv_chimera3",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Clutch of Ha-Li",
@@ -3488,8 +3488,8 @@ mounts = {
         item_id = 173887.0,
         spell_id = 312751,
         icon = "inv_thunderislebirdbossmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Ivory Cloud Serpent",
@@ -3497,8 +3497,8 @@ mounts = {
         item_id = 174752.0,
         spell_id = 315014,
         icon = "inv_pandarenserpentmount_pink",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "pink",
     },
     {
         name = "Ren's Stalwart Hound",
@@ -3506,8 +3506,8 @@ mounts = {
         item_id = 174841.0,
         spell_id = 316722,
         icon = "inv_quilenmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Xinlao",
@@ -3515,8 +3515,8 @@ mounts = {
         item_id = 174840.0,
         spell_id = 316723,
         icon = "inv_quilenmount_gold",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "gold",
     },
     {
         name = "Rajani Warserpent",
@@ -3524,8 +3524,8 @@ mounts = {
         item_id = 174649.0,
         spell_id = 315427,
         icon = "inv_pandarenserpentmount_white",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "white",
     },
     {
         name = "Malevolent Drone",
@@ -3533,8 +3533,8 @@ mounts = {
         item_id = 174769.0,
         spell_id = 316337,
         icon = "inv_aqirflyingmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Drake of the Four Winds",
@@ -3542,8 +3542,8 @@ mounts = {
         item_id = 174641.0,
         spell_id = 315847,
         icon = "inv_dragonskywallmount_bronze",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Waste Marauder",
@@ -3551,8 +3551,8 @@ mounts = {
         item_id = 174753.0,
         spell_id = 316275,
         icon = "inv_vulturemount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Tomb Stalker",
@@ -3560,8 +3560,8 @@ mounts = {
         item_id = 159921.0,
         spell_id = 266058,
         icon = "inv_armoredraptorundead",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Underrot Crawg",
@@ -3569,8 +3569,8 @@ mounts = {
         item_id = 160829.0,
         spell_id = 273541,
         icon = "inv_bloodtrollbeast_mount_pale",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sharkbait",
@@ -3578,8 +3578,8 @@ mounts = {
         item_id = 159842.0,
         spell_id = 254813,
         icon = "inv_parrotmount_red",
-        skeleton_type = "Shark Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Shark",
+        color = "red",
     },
     {
         name = "Mechagon Peacekeeper",
@@ -3587,8 +3587,8 @@ mounts = {
         item_id = 168826.0,
         spell_id = 299158,
         icon = "inv_mechagonspidertank_brass",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Aerial Unit R-21/X",
@@ -3596,8 +3596,8 @@ mounts = {
         item_id = 168830.0,
         spell_id = 290718,
         icon = "inv_hunterkillershipyellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "G.M.O.D.",
@@ -3605,8 +3605,8 @@ mounts = {
         item_id = 166518.0,
         spell_id = 289083,
         icon = "achievement_dungeon_coinoperatedcrowdpummeler",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Glacial Tidestorm",
@@ -3614,8 +3614,8 @@ mounts = {
         item_id = 166705.0,
         spell_id = 289555,
         icon = "inv_waterelementalmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ny'alotha Allseer",
@@ -3623,8 +3623,8 @@ mounts = {
         item_id = 174872.0,
         spell_id = 308814,
         icon = "inv_eyeballjellyfishmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Uncorrupted Voidwing",
@@ -3632,8 +3632,8 @@ mounts = {
         item_id = 174862.0,
         spell_id = 302143,
         icon = "inv_voiddragonmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Twilight Avenger",
@@ -3641,8 +3641,8 @@ mounts = {
         item_id = 163584.0,
         spell_id = 279466,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Surf Jelly",
@@ -3650,8 +3650,8 @@ mounts = {
         item_id = 163585.0,
         spell_id = 278979,
         icon = "inv_misc_fish_70",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Craghorn Chasm-Leaper",
@@ -3659,8 +3659,8 @@ mounts = {
         item_id = 163583.0,
         spell_id = 279467,
         icon = "inv_misc_pet_pandaren_yeti",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Squawks",
@@ -3668,8 +3668,8 @@ mounts = {
         item_id = 163586.0,
         spell_id = 254811,
         icon = "inv_parrotmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Qinsho's Eternal Hound",
@@ -3677,8 +3677,8 @@ mounts = {
         item_id = 163582.0,
         spell_id = 279469,
         icon = "achievement_moguraid_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Stonehide Elderhorn",
@@ -3686,8 +3686,8 @@ mounts = {
         item_id = 166470.0,
         spell_id = 288712,
         icon = "inv_misc_moosehoof_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Bloodgorged Hunter",
@@ -3695,8 +3695,8 @@ mounts = {
         item_id = 166468.0,
         spell_id = 288720,
         icon = "ability_hunter_pet_bat",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Island Thunderscale",
@@ -3704,8 +3704,8 @@ mounts = {
         item_id = 166467.0,
         spell_id = 288721,
         icon = "inv_stormdragonmount2_fel",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Risen Mare",
@@ -3713,8 +3713,8 @@ mounts = {
         item_id = 166466.0,
         spell_id = 288722,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Saltwater Seahorse",
@@ -3722,8 +3722,8 @@ mounts = {
         item_id = 166471.0,
         spell_id = 288711,
         icon = "ability_mount_seahorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Siltwing Albatross",
@@ -3731,8 +3731,8 @@ mounts = {
         item_id = 166745.0,
         spell_id = 266925,
         icon = "inv_vulturemount_alabatrosswhite",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = "white",
     },
     {
         name = "Mail Muncher",
@@ -3740,8 +3740,8 @@ mounts = {
         item_id = 174653.0,
         spell_id = 315987,
         icon = "inv_nzothserpentmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Royal Snapdragon",
@@ -3749,8 +3749,8 @@ mounts = {
         item_id = 169198.0,
         spell_id = 294038,
         icon = "inv_snapdragonmount01",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Teldrassil Hippogryph",
@@ -3758,8 +3758,8 @@ mounts = {
         item_id = 163127.0,
         spell_id = 274610,
         icon = "inv_hippogryphmountnightelf",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Undercity Plaguebat",
@@ -3767,8 +3767,8 @@ mounts = {
         item_id = 163128.0,
         spell_id = 272472,
         icon = "inv_felbatmountforsaken",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = ""
     },
     {
         name = "Ratstallion",
@@ -3776,8 +3776,8 @@ mounts = {
         item_id = 138387.0,
         spell_id = 215558,
         icon = "inv_ratmount",
-        skeleton_type = "Lion Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "Prestigious War Steed",
@@ -3785,8 +3785,8 @@ mounts = {
         item_id = 129280.0,
         spell_id = 193695,
         icon = "inv_alliancepvpmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Prestigious War Wolf",
@@ -3794,8 +3794,8 @@ mounts = {
         item_id = 143864.0,
         spell_id = 204166,
         icon = "ability_mount_hordepvpmount",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Bleakhoof Ruinstrider",
@@ -3803,8 +3803,8 @@ mounts = {
         item_id = 153041.0,
         spell_id = 254260,
         icon = "inv_argustalbukmount_felred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "red",
     },
     {
         name = "Leyfeather Hippogryph",
@@ -3812,8 +3812,8 @@ mounts = {
         item_id = 141217.0,
         spell_id = 225765,
         icon = "inv_mount_hippogryph_arcane",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Grove Defiler",
@@ -3821,8 +3821,8 @@ mounts = {
         item_id = 141216.0,
         spell_id = 193007,
         icon = "inv_moosemount2nightmare",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Antoran Gloomhound",
@@ -3830,8 +3830,8 @@ mounts = {
         item_id = 152815.0,
         spell_id = 253087,
         icon = "inv_felhound3_shadow_mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Brinedeep Bottom-Feeder",
@@ -3839,8 +3839,8 @@ mounts = {
         item_id = 138811.0,
         spell_id = 214791,
         icon = "inv_fishmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Arcadian War Turtle",
@@ -3848,8 +3848,8 @@ mounts = {
         item_id = 141713.0,
         spell_id = 227956,
         icon = "inv_turtlemount",
-        skeleton_type = "Turtle Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "turtle",
+        color = ""
     },
     {
         name = "Bloodfang Widow",
@@ -3857,8 +3857,8 @@ mounts = {
         item_id = 137570.0,
         spell_id = 213115,
         icon = "inv_spidermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Llothien Prowler",
@@ -3866,8 +3866,8 @@ mounts = {
         item_id = 137573.0,
         spell_id = 171850,
         icon = "foxmounticon",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Arcanist's Manasaber",
@@ -3875,8 +3875,8 @@ mounts = {
         item_id = 142436.0,
         spell_id = 230987,
         icon = "inv_suramarmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Predatory Bloodgazer",
@@ -3884,7 +3884,7 @@ mounts = {
         item_id = 137577.0,
         spell_id = 213158,
         icon = "inv_falcosaurosblack",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -3893,8 +3893,8 @@ mounts = {
         item_id = 137578.0,
         spell_id = 213163,
         icon = "inv_falcosauroswhite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Brilliant Direbeak",
@@ -3902,8 +3902,8 @@ mounts = {
         item_id = 137579.0,
         spell_id = 213164,
         icon = "inv_falcosaurosred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Viridian Sharptalon",
@@ -3911,8 +3911,8 @@ mounts = {
         item_id = 137580.0,
         spell_id = 213165,
         icon = "inv_falcosaurosgreen",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Fathom Dweller",
@@ -3920,8 +3920,8 @@ mounts = {
         item_id = 138201.0,
         spell_id = 223018,
         icon = "inv_fishing_lure_starfish",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Riddler's Mind-Worm",
@@ -3929,8 +3929,8 @@ mounts = {
         item_id = 147835.0,
         spell_id = 243025,
         icon = "inv_serpentmount_darkblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Lucid Nightmare",
@@ -3938,8 +3938,8 @@ mounts = {
         item_id = 151623.0,
         spell_id = 247402,
         icon = "inv_horse2purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Cerulean Ruinstrider",
@@ -3947,8 +3947,8 @@ mounts = {
         item_id = 152797.0,
         spell_id = 253007,
         icon = "inv_argustalbukmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "blue",
     },
     {
         name = "Russet Ruinstrider",
@@ -3956,8 +3956,8 @@ mounts = {
         item_id = 152793.0,
         spell_id = 253006,
         icon = "inv_argustalbukmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "red",
     },
     {
         name = "Beryl Ruinstrider",
@@ -3965,8 +3965,8 @@ mounts = {
         item_id = 152795.0,
         spell_id = 253005,
         icon = "inv_argustalbukmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "green",
     },
     {
         name = "Amethyst Ruinstrider",
@@ -3974,8 +3974,8 @@ mounts = {
         item_id = 152794.0,
         spell_id = 253004,
         icon = "inv_argustalbukmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "purple",
     },
     {
         name = "Umber Ruinstrider",
@@ -3983,8 +3983,8 @@ mounts = {
         item_id = 152796.0,
         spell_id = 253008,
         icon = "inv_argustalbukmount_brown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "brown",
     },
     {
         name = "Sable Ruinstrider",
@@ -3992,8 +3992,8 @@ mounts = {
         item_id = 152791.0,
         spell_id = 242305,
         icon = "inv_argustalbukmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = "black",
     },
     {
         name = "Lightforged Warframe",
@@ -4001,8 +4001,8 @@ mounts = {
         item_id = 152788.0,
         spell_id = 239013,
         icon = "inv_lightforgedmechsuit",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Long-Forgotten Hippogryph",
@@ -4010,8 +4010,8 @@ mounts = {
         item_id = 138258.0,
         spell_id = 215159,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Maddened Chaosrunner",
@@ -4019,8 +4019,8 @@ mounts = {
         item_id = 152814.0,
         spell_id = 253058,
         icon = "inv_argustalbukmount_felpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Lambent Mana Ray",
@@ -4028,8 +4028,8 @@ mounts = {
         item_id = 152844.0,
         spell_id = 253107,
         icon = "inv_manaraymount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Vibrant Mana Ray",
@@ -4037,8 +4037,8 @@ mounts = {
         item_id = 152842.0,
         spell_id = 253106,
         icon = "inv_manaraymount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Scintillating Mana Ray",
@@ -4046,8 +4046,8 @@ mounts = {
         item_id = 152840.0,
         spell_id = 253109,
         icon = "inv_manaraymount_orange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "orange",
     },
     {
         name = "Felglow Mana Ray",
@@ -4055,8 +4055,8 @@ mounts = {
         item_id = 152841.0,
         spell_id = 253108,
         icon = "inv_manaraymount_redfel",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Darkspore Mana Ray",
@@ -4064,8 +4064,8 @@ mounts = {
         item_id = 152843.0,
         spell_id = 235764,
         icon = "inv_manaraymount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Acid Belcher",
@@ -4073,8 +4073,8 @@ mounts = {
         item_id = 152904.0,
         spell_id = 253662,
         icon = "inv_argusfelstalkermountgrey",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "grey",
     },
     {
         name = "Crimson Slavermaw",
@@ -4082,8 +4082,8 @@ mounts = {
         item_id = 152905.0,
         spell_id = 253661,
         icon = "inv_argusfelstalkermountred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Biletooth Gnasher",
@@ -4091,8 +4091,8 @@ mounts = {
         item_id = 152903.0,
         spell_id = 253660,
         icon = "inv_argusfelstalkermountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Vile Fiend",
@@ -4100,8 +4100,8 @@ mounts = {
         item_id = 152790.0,
         spell_id = 243652,
         icon = "inv_argusfelstalkermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Midnight",
@@ -4109,8 +4109,8 @@ mounts = {
         item_id = 142236.0,
         spell_id = 229499,
         icon = "ability_mount_dreadsteed",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Smoldering Ember Wyrm",
@@ -4118,8 +4118,8 @@ mounts = {
         item_id = 142552.0,
         spell_id = 231428,
         icon = "inv_nightbane2mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Felblaze Infernal",
@@ -4127,8 +4127,8 @@ mounts = {
         item_id = 137574.0,
         spell_id = 213134,
         icon = "inv_infernalmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Hellfire Infernal",
@@ -4136,8 +4136,8 @@ mounts = {
         item_id = 137575.0,
         spell_id = 171827,
         icon = "inv_infernalmountred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Abyss Worm",
@@ -4145,8 +4145,8 @@ mounts = {
         item_id = 143643.0,
         spell_id = 232519,
         icon = "inv_serpentmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Antoran Charhound",
@@ -4154,8 +4154,8 @@ mounts = {
         item_id = 152816.0,
         spell_id = 253088,
         icon = "inv_felhound3_shadow_fire",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Shackled Ur'zul",
@@ -4163,8 +4163,8 @@ mounts = {
         item_id = 152789.0,
         spell_id = 243651,
         icon = "inv_soulhoundmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Violet Spellwing",
@@ -4172,8 +4172,8 @@ mounts = {
         item_id = 152901.0,
         spell_id = 253639,
         icon = "inv_mount_arcaneraven",
-        skeleton_type = "Unknown Skeleton",
-        color = "Violet"
+        skeleton_type = "",
+        color = "purple"
     },
     {
         name = "Soaring Spelltome",
@@ -4181,8 +4181,8 @@ mounts = {
         item_id = 188674.0,
         spell_id = 359318,
         icon = "4062012",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Deathlord's Vilebrood Vanquisher",
@@ -4190,8 +4190,8 @@ mounts = {
         item_id = 142231.0,
         spell_id = 229387,
         icon = "ability_mount_dkmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Highlord's Golden Charger",
@@ -4199,7 +4199,7 @@ mounts = {
         item_id = 143502.0,
         spell_id = 231435,
         icon = "inv_paladinmount_blue",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "horse",
         color = "Golden"
     },
     {
@@ -4208,8 +4208,8 @@ mounts = {
         item_id = 143503.0,
         spell_id = 231587,
         icon = "inv_paladinmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = "red",
     },
     {
         name = "Highlord's Valorous Charger",
@@ -4217,8 +4217,8 @@ mounts = {
         item_id = 143505.0,
         spell_id = 231589,
         icon = "inv_paladinmount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = "yellow",
     },
     {
         name = "Highlord's Vigilant Charger",
@@ -4226,8 +4226,8 @@ mounts = {
         item_id = 143504.0,
         spell_id = 231588,
         icon = "inv_paladinmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = "purple",
     },
     {
         name = "Shadowblade's Murderous Omen",
@@ -4235,8 +4235,8 @@ mounts = {
         item_id = 143493.0,
         spell_id = 231434,
         icon = "inv_roguemount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Shadowblade's Lethal Omen",
@@ -4244,8 +4244,8 @@ mounts = {
         item_id = 143492.0,
         spell_id = 231523,
         icon = "inv_roguemount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Shadowblade's Crimson Omen",
@@ -4253,8 +4253,8 @@ mounts = {
         item_id = 143490.0,
         spell_id = 231525,
         icon = "inv_roguemount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Shadowblade's Baneful Omen",
@@ -4262,8 +4262,8 @@ mounts = {
         item_id = 143491.0,
         spell_id = 231524,
         icon = "inv_roguemount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Ban-Lu, Grandmaster's Companion",
@@ -4271,8 +4271,8 @@ mounts = {
         item_id = 142225.0,
         spell_id = 229385,
         icon = "inv_monkmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Battlelord's Bloodthirsty War Wyrm",
@@ -4280,8 +4280,8 @@ mounts = {
         item_id = 142232.0,
         spell_id = 229388,
         icon = "inv_warriormount",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = ""
     },
     {
         name = "Farseer's Raging Tempest",
@@ -4289,8 +4289,8 @@ mounts = {
         item_id = 143489.0,
         spell_id = 231442,
         icon = "inv_shamanmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Huntmaster's Loyal Wolfhawk",
@@ -4298,8 +4298,8 @@ mounts = {
         item_id = 142227.0,
         spell_id = 229386,
         icon = "inv_huntermount",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Huntmaster's Dire Wolfhawk",
@@ -4307,8 +4307,8 @@ mounts = {
         item_id = 142228.0,
         spell_id = 229439,
         icon = "inv_huntermount_blue",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "blue",
     },
     {
         name = "Huntmaster's Fierce Wolfhawk",
@@ -4316,8 +4316,8 @@ mounts = {
         item_id = 142226.0,
         spell_id = 229438,
         icon = "inv_huntermount_green",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "green",
     },
     {
         name = "Netherlord's Chaotic Wrathsteed",
@@ -4325,8 +4325,8 @@ mounts = {
         item_id = nan,
         spell_id = 232412,
         icon = "inv_warlockmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "Netherlord's Accursed Wrathsteed",
@@ -4334,8 +4334,8 @@ mounts = {
         item_id = 142233.0,
         spell_id = 238454,
         icon = "inv_warlockmountshadow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "Netherlord's Brimstone Wrathsteed",
@@ -4343,8 +4343,8 @@ mounts = {
         item_id = 143637.0,
         spell_id = 238452,
         icon = "inv_warlockmountfire",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "High Priest's Lightsworn Seeker",
@@ -4352,8 +4352,8 @@ mounts = {
         item_id = nan,
         spell_id = 229377,
         icon = "inv_priestmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Archmage's Prismatic Disc",
@@ -4361,8 +4361,8 @@ mounts = {
         item_id = nan,
         spell_id = 229376,
         icon = "inv_magemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Slayer's Felbroken Shrieker",
@@ -4370,8 +4370,8 @@ mounts = {
         item_id = nan,
         spell_id = 229417,
         icon = "inv_dhmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Cloudwing Hippogryph",
@@ -4379,8 +4379,8 @@ mounts = {
         item_id = 147806.0,
         spell_id = 242881,
         icon = "inv_hippogryph2azsuna",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Wild Dreamrunner",
@@ -4388,8 +4388,8 @@ mounts = {
         item_id = 147804.0,
         spell_id = 242875,
         icon = "inv_horse2green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Highmountain Elderhorn",
@@ -4397,8 +4397,8 @@ mounts = {
         item_id = 147807.0,
         spell_id = 242874,
         icon = "inv_moosemount2",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Valarjar Stormwing",
@@ -4406,8 +4406,8 @@ mounts = {
         item_id = 147805.0,
         spell_id = 242882,
         icon = "inv_stormdragonmount2",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Leywoven Flying Carpet",
@@ -4415,8 +4415,8 @@ mounts = {
         item_id = 143764.0,
         spell_id = 233364,
         icon = "inv_suramarflyingcarpet",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Glorious Felcrusher",
@@ -4424,8 +4424,8 @@ mounts = {
         item_id = 153042.0,
         spell_id = 254069,
         icon = "inv_lightforgedelekk",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Avenging Felcrusher",
@@ -4433,8 +4433,8 @@ mounts = {
         item_id = 153044.0,
         spell_id = 254259,
         icon = "inv_lightforgedelekk_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Blessed Felcrusher",
@@ -4442,8 +4442,8 @@ mounts = {
         item_id = 153043.0,
         spell_id = 254258,
         icon = "inv_lightforgedelekk_amethyst",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Soaring Skyterror",
@@ -4451,8 +4451,8 @@ mounts = {
         item_id = 128706.0,
         spell_id = 191633,
         icon = "spell_beastmaster_rylak",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Frostplains Battleboar",
@@ -4460,8 +4460,8 @@ mounts = {
         item_id = 116670.0,
         spell_id = 171632,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Boar",
+        color = "brown",
     },
     {
         name = "Gorestrider Gronnling",
@@ -4469,8 +4469,8 @@ mounts = {
         item_id = 116383.0,
         spell_id = 171436,
         icon = "inv_lessergronnmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Infernal Direwolf",
@@ -4478,8 +4478,8 @@ mounts = {
         item_id = 127140.0,
         spell_id = 186305,
         icon = "inv_wolfdraenor_felmount",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Challenger's War Yeti",
@@ -4487,8 +4487,8 @@ mounts = {
         item_id = 116791.0,
         spell_id = 171848,
         icon = "inv_misc_pet_pandaren_yeti",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Rocktusk Battleboar",
@@ -4496,8 +4496,8 @@ mounts = {
         item_id = 116667.0,
         spell_id = 171628,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Boar",
+        color = "brown",
     },
     {
         name = "Witherhide Cliffstomper",
@@ -4505,8 +4505,8 @@ mounts = {
         item_id = 116655.0,
         spell_id = 171616,
         icon = "inv_clefthoofdraenormount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Swift Frostwolf",
@@ -4514,8 +4514,8 @@ mounts = {
         item_id = 116785.0,
         spell_id = 171842,
         icon = "inv_wolfdraenormountfrost",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Dusty Rockhide",
@@ -4523,8 +4523,8 @@ mounts = {
         item_id = 116664.0,
         spell_id = 171625,
         icon = "ability_mount_elekkdraenormount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Shadowmane Charger",
@@ -4532,8 +4532,8 @@ mounts = {
         item_id = 116772.0,
         spell_id = 171829,
         icon = "ability_mount_talbukdraenormount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Domesticated Razorback",
@@ -4541,8 +4541,8 @@ mounts = {
         item_id = 116672.0,
         spell_id = 171634,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Cat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "brown",
     },
     {
         name = "Mosshide Riverwallow",
@@ -4550,8 +4550,8 @@ mounts = {
         item_id = 116768.0,
         spell_id = 171825,
         icon = "inv_hippo_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Wild Goretusk",
@@ -4559,8 +4559,8 @@ mounts = {
         item_id = 116671.0,
         spell_id = 171633,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "brown",
     },
     {
         name = "Bristling Hellboar",
@@ -4568,8 +4568,8 @@ mounts = {
         item_id = 128480.0,
         spell_id = 190690,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Boar",
+        color = "brown",
     },
     {
         name = "Deathtusk Felboar",
@@ -4577,8 +4577,8 @@ mounts = {
         item_id = 128526.0,
         spell_id = 190977,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Boar",
+        color = "brown",
     },
     {
         name = "Deathtusk Felboar",
@@ -4586,8 +4586,8 @@ mounts = {
         item_id = 128527.0,
         spell_id = 190977,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Boar",
+        color = "brown",
     },
     {
         name = "Corrupted Dreadwing",
@@ -4595,8 +4595,8 @@ mounts = {
         item_id = 123974.0,
         spell_id = 183117,
         icon = "inv_feldreadravenmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Garn Steelmaw",
@@ -4604,8 +4604,8 @@ mounts = {
         item_id = 116779.0,
         spell_id = 171836,
         icon = "inv_wolfdraenormountshadow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Giant Coldsnout",
@@ -4613,8 +4613,8 @@ mounts = {
         item_id = 116673.0,
         spell_id = 171635,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "brown",
     },
     {
         name = "Smoky Direwolf",
@@ -4622,8 +4622,8 @@ mounts = {
         item_id = 116786.0,
         spell_id = 171843,
         icon = "inv_wolfdraenormountred",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "red",
     },
     {
         name = "Shadowhide Pearltusk",
@@ -4631,8 +4631,8 @@ mounts = {
         item_id = 116663.0,
         spell_id = 171624,
         icon = "ability_mount_elekkdraenormount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mudback Riverbeast",
@@ -4640,8 +4640,8 @@ mounts = {
         item_id = 116769.0,
         spell_id = 171826,
         icon = "inv_hippo_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Coalfist Gronnling",
@@ -4649,8 +4649,8 @@ mounts = {
         item_id = 128311.0,
         spell_id = 189364,
         icon = "inv_lessergronnmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Trained Snarler",
@@ -4658,8 +4658,8 @@ mounts = {
         item_id = 116784.0,
         spell_id = 171841,
         icon = "inv_wolfdraenormountbrown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "brown",
     },
     {
         name = "Trained Meadowstomper",
@@ -4667,8 +4667,8 @@ mounts = {
         item_id = 116662.0,
         spell_id = 171623,
         icon = "ability_mount_elekkdraenormount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Trained Riverwallow",
@@ -4676,8 +4676,8 @@ mounts = {
         item_id = 116676.0,
         spell_id = 171638,
         icon = "inv_hippo_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Trained Rocktusk",
@@ -4685,8 +4685,8 @@ mounts = {
         item_id = 116675.0,
         spell_id = 171637,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "brown",
     },
     {
         name = "Trained Silverpelt",
@@ -4694,7 +4694,7 @@ mounts = {
         item_id = 116774.0,
         spell_id = 171831,
         icon = "ability_mount_talbukdraenormount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Silver"
     },
     {
@@ -4703,8 +4703,8 @@ mounts = {
         item_id = 116656.0,
         spell_id = 171617,
         icon = "inv_clefthoofdraenormount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Armored Frostboar",
@@ -4712,7 +4712,7 @@ mounts = {
         item_id = 116668.0,
         spell_id = 171629,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar Skeleton",
+        skeleton_type = "Boar",
         color = "Red"
     },
     {
@@ -4721,7 +4721,7 @@ mounts = {
         item_id = 116781.0,
         spell_id = 171838,
         icon = "inv_wolfdraenormountfrost",
-        skeleton_type = "Wolf Skeleton",
+        skeleton_type = "Wolf",
         color = "Red"
     },
     {
@@ -4730,8 +4730,8 @@ mounts = {
         item_id = 116782.0,
         spell_id = 171839,
         icon = "inv_wolfdraenormountred",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "red",
     },
     {
         name = "Armored Irontusk",
@@ -4739,7 +4739,7 @@ mounts = {
         item_id = 116665.0,
         spell_id = 171626,
         icon = "inv_iron-horde-elekk",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -4748,8 +4748,8 @@ mounts = {
         item_id = 87791.0,
         spell_id = 127271,
         icon = "ability_mount_waterstridermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Great Greytusk",
@@ -4757,7 +4757,7 @@ mounts = {
         item_id = 116674.0,
         spell_id = 171636,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Grey"
     },
     {
@@ -4766,8 +4766,8 @@ mounts = {
         item_id = 116659.0,
         spell_id = 171620,
         icon = "inv_clefthoofdraenormount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Mottled Meadowstomper",
@@ -4775,8 +4775,8 @@ mounts = {
         item_id = 116661.0,
         spell_id = 171622,
         icon = "ability_mount_elekkdraenormount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sunhide Gronnling",
@@ -4784,8 +4784,8 @@ mounts = {
         item_id = 116792.0,
         spell_id = 171849,
         icon = "inv_lessergronnmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Sapphire Riverbeast",
@@ -4793,8 +4793,8 @@ mounts = {
         item_id = 116767.0,
         spell_id = 171824,
         icon = "inv_hippo_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Swift Breezestrider",
@@ -4802,8 +4802,8 @@ mounts = {
         item_id = 116773.0,
         spell_id = 171830,
         icon = "ability_mount_talbukdraenormount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Garn Nighthowl",
@@ -4811,8 +4811,8 @@ mounts = {
         item_id = 116794.0,
         spell_id = 171851,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Voidtalon of the Dark Star",
@@ -4820,8 +4820,8 @@ mounts = {
         item_id = 121815.0,
         spell_id = 179478,
         icon = "ability_mount_fireravengodmountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Warsong Direfang",
@@ -4829,8 +4829,8 @@ mounts = {
         item_id = 116780.0,
         spell_id = 171837,
         icon = "inv_wolfdraenormountbrown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "brown",
     },
     {
         name = "Armored Razorback",
@@ -4838,7 +4838,7 @@ mounts = {
         item_id = 116669.0,
         spell_id = 171630,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -4847,8 +4847,8 @@ mounts = {
         item_id = 116658.0,
         spell_id = 171619,
         icon = "inv_clefthoofdraenormount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Solar Spirehawk",
@@ -4856,8 +4856,8 @@ mounts = {
         item_id = 116771.0,
         spell_id = 171828,
         icon = "inv_helm_suncrown_d_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ironhoof Destroyer",
@@ -4865,8 +4865,8 @@ mounts = {
         item_id = 116660.0,
         spell_id = 171621,
         icon = "inv_ironhordeclefthoof",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Felsteel Annihilator",
@@ -4874,8 +4874,8 @@ mounts = {
         item_id = 123890.0,
         spell_id = 182912,
         icon = "ability_mount_felreavermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Grove Warden",
@@ -4883,8 +4883,8 @@ mounts = {
         item_id = 128422.0,
         spell_id = 189999,
         icon = "inv_moosemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Pandaren Kite",
@@ -4892,8 +4892,8 @@ mounts = {
         item_id = 81559.0,
         spell_id = 118737,
         icon = "ability_mount_pandarenkitemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Pandaren Kite",
@@ -4901,8 +4901,8 @@ mounts = {
         item_id = 89785.0,
         spell_id = 130985,
         icon = "ability_mount_pandarenkitemount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Crimson Cloud Serpent",
@@ -4910,8 +4910,8 @@ mounts = {
         item_id = 87769.0,
         spell_id = 127156,
         icon = "inv_pandarenserpentmount",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = ""
     },
     {
         name = "Heavenly Crimson Cloud Serpent",
@@ -4919,8 +4919,8 @@ mounts = {
         item_id = 87773.0,
         spell_id = 127161,
         icon = "inv_pandarenserpentgodmount_red",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "red",
     },
     {
         name = "Armored Skyscreamer",
@@ -4928,7 +4928,7 @@ mounts = {
         item_id = 93662.0,
         spell_id = 136400,
         icon = "ability_mount_pterodactylmount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -4937,8 +4937,8 @@ mounts = {
         item_id = 104208.0,
         spell_id = 148392,
         icon = "ability_mount_korkronprotodrake",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Crimson Pandaren Phoenix",
@@ -4946,8 +4946,8 @@ mounts = {
         item_id = 89154.0,
         spell_id = 129552,
         icon = "ability_mount_pandarenphoenix_red",
-        skeleton_type = "Phoenix Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Phoenix",
+        color = "red",
     },
     {
         name = "Ashen Pandaren Phoenix",
@@ -4955,8 +4955,8 @@ mounts = {
         item_id = 90710.0,
         spell_id = 132117,
         icon = "ability_mount_pandarenphoenix_green",
-        skeleton_type = "Phoenix Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Phoenix",
+        color = "green",
     },
     {
         name = "Emerald Pandaren Phoenix",
@@ -4964,8 +4964,8 @@ mounts = {
         item_id = 90711.0,
         spell_id = 132118,
         icon = "ability_mount_pandarenphoenix_yellow",
-        skeleton_type = "Phoenix Skeleton",
-        color = "Emerald"
+        skeleton_type = "Phoenix",
+        color = "green"
     },
     {
         name = "Violet Pandaren Phoenix",
@@ -4973,8 +4973,8 @@ mounts = {
         item_id = 90712.0,
         spell_id = 132119,
         icon = "ability_mount_pandarenphoenix_purple",
-        skeleton_type = "Phoenix Skeleton",
-        color = "Violet"
+        skeleton_type = "Phoenix",
+        color = "purple"
     },
     {
         name = "Azure Riding Crane",
@@ -4982,8 +4982,8 @@ mounts = {
         item_id = 87781.0,
         spell_id = 127174,
         icon = "ability_mount_cranemountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Azure"
+        skeleton_type = "",
+        color = "blue"
     },
     {
         name = "Golden Riding Crane",
@@ -4991,7 +4991,7 @@ mounts = {
         item_id = 87782.0,
         spell_id = 127176,
         icon = "ability_mount_cranemount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Golden"
     },
     {
@@ -5000,8 +5000,8 @@ mounts = {
         item_id = 87783.0,
         spell_id = 127177,
         icon = "ability_mount_cranemountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Azure Cloud Serpent",
@@ -5009,8 +5009,8 @@ mounts = {
         item_id = 85430.0,
         spell_id = 123992,
         icon = "inv_pandarenserpentmount_blue",
-        skeleton_type = "Serpent Skeleton",
-        color = "Azure"
+        skeleton_type = "Serpent",
+        color = "blue"
     },
     {
         name = "Golden Cloud Serpent",
@@ -5018,7 +5018,7 @@ mounts = {
         item_id = 85429.0,
         spell_id = 123993,
         icon = "inv_pandarenserpentmount_yellow",
-        skeleton_type = "Serpent Skeleton",
+        skeleton_type = "Serpent",
         color = "Golden"
     },
     {
@@ -5027,8 +5027,8 @@ mounts = {
         item_id = 79802.0,
         spell_id = 113199,
         icon = "inv_pandarenserpentmount_green",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "green",
     },
     {
         name = "Green Shado-Pan Riding Tiger",
@@ -5036,7 +5036,7 @@ mounts = {
         item_id = 89305.0,
         spell_id = 129932,
         icon = "ability_mount_siberiantigermount",
-        skeleton_type = "Tiger Skeleton",
+        skeleton_type = "Tiger",
         color = "Green"
     },
     {
@@ -5045,7 +5045,7 @@ mounts = {
         item_id = 89306.0,
         spell_id = 129935,
         icon = "ability_mount_siberiantigermount",
-        skeleton_type = "Tiger Skeleton",
+        skeleton_type = "Tiger",
         color = "Red"
     },
     {
@@ -5054,7 +5054,7 @@ mounts = {
         item_id = 89307.0,
         spell_id = 129934,
         icon = "ability_mount_siberiantigermount",
-        skeleton_type = "Tiger Skeleton",
+        skeleton_type = "Tiger",
         color = "Blue"
     },
     {
@@ -5063,7 +5063,7 @@ mounts = {
         item_id = 87788.0,
         spell_id = 127216,
         icon = "ability_mount_yakmountgrey",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "mammoth",
         color = "Grey"
     },
     {
@@ -5072,8 +5072,8 @@ mounts = {
         item_id = 87789.0,
         spell_id = 127220,
         icon = "ability_mount_yakmountbrown",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "mammoth",
+        color = "brown",
     },
     {
         name = "Grand Expedition Yak",
@@ -5081,8 +5081,8 @@ mounts = {
         item_id = 84101.0,
         spell_id = 122708,
         icon = "ability_mount_travellersyakmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "mammoth",
+        color = ""
     },
     {
         name = "Brown Riding Goat",
@@ -5090,7 +5090,7 @@ mounts = {
         item_id = 89362.0,
         spell_id = 130086,
         icon = "ability_mount_goatmountbrown",
-        skeleton_type = "Goat Skeleton",
+        skeleton_type = "Goat",
         color = "Brown"
     },
     {
@@ -5099,7 +5099,7 @@ mounts = {
         item_id = 89390.0,
         spell_id = 130137,
         icon = "ability_mount_goatmountwhite",
-        skeleton_type = "Goat Skeleton",
+        skeleton_type = "Goat",
         color = "White"
     },
     {
@@ -5108,7 +5108,7 @@ mounts = {
         item_id = 89391.0,
         spell_id = 130138,
         icon = "ability_mount_goatmountblack",
-        skeleton_type = "Goat Skeleton",
+        skeleton_type = "Goat",
         color = "Black"
     },
     {
@@ -5117,7 +5117,7 @@ mounts = {
         item_id = 94291.0,
         spell_id = 138641,
         icon = "ability_hunter_pet_raptor",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Red"
     },
     {
@@ -5126,7 +5126,7 @@ mounts = {
         item_id = 94292.0,
         spell_id = 138642,
         icon = "ability_mount_raptor_black",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Black"
     },
     {
@@ -5135,7 +5135,7 @@ mounts = {
         item_id = 94293.0,
         spell_id = 138643,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Green"
     },
     {
@@ -5144,8 +5144,8 @@ mounts = {
         item_id = 93385.0,
         spell_id = 136163,
         icon = "inv_misc_elitegryphon",
-        skeleton_type = "Gryphon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Gryphon",
+        color = ""
     },
     {
         name = "Grand Wyvern",
@@ -5153,8 +5153,8 @@ mounts = {
         item_id = 93386.0,
         spell_id = 136164,
         icon = "inv_misc_elitewyvern",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Onyx Cloud Serpent",
@@ -5162,8 +5162,8 @@ mounts = {
         item_id = 87768.0,
         spell_id = 127154,
         icon = "inv_pandarenserpentmount_blue",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "blue",
     },
     {
         name = "Bone-White Primal Raptor",
@@ -5171,7 +5171,7 @@ mounts = {
         item_id = 94290.0,
         spell_id = 138640,
         icon = "ability_mount_raptor_white",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "White"
     },
     {
@@ -5180,8 +5180,8 @@ mounts = {
         item_id = 87777.0,
         spell_id = 127170,
         icon = "inv_celestialserpentmount",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = ""
     },
     {
         name = "Spawn of Horridon",
@@ -5189,8 +5189,8 @@ mounts = {
         item_id = 93666.0,
         spell_id = 136471,
         icon = "ability_mount_triceratopsmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Clutch of Ji-Kun",
@@ -5198,8 +5198,8 @@ mounts = {
         item_id = 95059.0,
         spell_id = 139448,
         icon = "achievement_boss_ji-kun",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Kor'kron Juggernaut",
@@ -5207,8 +5207,8 @@ mounts = {
         item_id = 104253.0,
         spell_id = 148417,
         icon = "inv_mount_hordescorpiong",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Kor'kron War Wolf",
@@ -5216,8 +5216,8 @@ mounts = {
         item_id = 104246.0,
         spell_id = 148396,
         icon = "ability_mount_hordepvpmount",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Thundering Ruby Cloud Serpent",
@@ -5225,8 +5225,8 @@ mounts = {
         item_id = 90655.0,
         spell_id = 132036,
         icon = "inv_pandarenserpentmount_lightning",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = ""
     },
     {
         name = "Slate Primordial Direhorn",
@@ -5234,8 +5234,8 @@ mounts = {
         item_id = 94229.0,
         spell_id = 138425,
         icon = "ability_mount_triceratopsmount_grey",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "grey",
     },
     {
         name = "Amber Primordial Direhorn",
@@ -5243,8 +5243,8 @@ mounts = {
         item_id = 94230.0,
         spell_id = 138424,
         icon = "ability_mount_triceratopsmount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Jade Primordial Direhorn",
@@ -5252,8 +5252,8 @@ mounts = {
         item_id = 94231.0,
         spell_id = 138426,
         icon = "ability_mount_triceratopsmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Thundering Onyx Cloud Serpent",
@@ -5261,8 +5261,8 @@ mounts = {
         item_id = 104269.0,
         spell_id = 148476,
         icon = "inv_pandarenserpentmount_lightning_black",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "black",
     },
     {
         name = "Cobalt Primordial Direhorn",
@@ -5270,8 +5270,8 @@ mounts = {
         item_id = 94228.0,
         spell_id = 138423,
         icon = "ability_mount_triceratopsmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Heavenly Onyx Cloud Serpent",
@@ -5279,8 +5279,8 @@ mounts = {
         item_id = 87771.0,
         spell_id = 127158,
         icon = "inv_pandarenserpentgodmount_black",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "black",
     },
     {
         name = "Son of Galleon",
@@ -5288,8 +5288,8 @@ mounts = {
         item_id = 89783.0,
         spell_id = 130965,
         icon = "inv_mushanbeastmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Thundering Cobalt Cloud Serpent",
@@ -5297,8 +5297,8 @@ mounts = {
         item_id = 95057.0,
         spell_id = 139442,
         icon = "inv_pandarenserpentmount_lightning_blue",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "blue",
     },
     {
         name = "Grand Armored Gryphon",
@@ -5306,7 +5306,7 @@ mounts = {
         item_id = 93168.0,
         spell_id = 135416,
         icon = "inv_misc_elitegryphonarmored",
-        skeleton_type = "Gryphon Skeleton",
+        skeleton_type = "Gryphon",
         color = "Red"
     },
     {
@@ -5315,7 +5315,7 @@ mounts = {
         item_id = 93169.0,
         spell_id = 135418,
         icon = "inv_misc_elitewyvernarmored",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -5324,8 +5324,8 @@ mounts = {
         item_id = 95565.0,
         spell_id = 140250,
         icon = "ability_mount_triceratopsmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Golden Primal Direhorn",
@@ -5333,7 +5333,7 @@ mounts = {
         item_id = 95564.0,
         spell_id = 140249,
         icon = "ability_mount_triceratopsmount_orange",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Golden"
     },
     {
@@ -5342,8 +5342,8 @@ mounts = {
         item_id = 81354.0,
         spell_id = 118089,
         icon = "ability_mount_waterstridermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Azure"
+        skeleton_type = "",
+        color = "blue"
     },
     {
         name = "Thundering August Cloud Serpent",
@@ -5351,8 +5351,8 @@ mounts = {
         item_id = 89304.0,
         spell_id = 129918,
         icon = "inv_pandarenserpentmount_lightning_yellow",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "yellow",
     },
     {
         name = "Amber Scorpion",
@@ -5360,8 +5360,8 @@ mounts = {
         item_id = 85262.0,
         spell_id = 123886,
         icon = "ability_mount_hordescorpionamber",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Red Flying Cloud",
@@ -5369,7 +5369,7 @@ mounts = {
         item_id = 89363.0,
         spell_id = 130092,
         icon = "ability_mount_cloudmount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -5378,7 +5378,7 @@ mounts = {
         item_id = 87774.0,
         spell_id = 127164,
         icon = "inv_pandarenserpentgodmount_gold",
-        skeleton_type = "Serpent Skeleton",
+        skeleton_type = "Serpent",
         color = "Golden"
     },
     {
@@ -5387,8 +5387,8 @@ mounts = {
         item_id = 69213.0,
         spell_id = 97359,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Volcanic Stone Drake",
@@ -5396,8 +5396,8 @@ mounts = {
         item_id = 62900.0,
         spell_id = 88331,
         icon = "inv_misc_stonedragonred",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "red",
     },
     {
         name = "Drake of the East Wind",
@@ -5405,8 +5405,8 @@ mounts = {
         item_id = 62901.0,
         spell_id = 88335,
         icon = "inv_misc_stormdragonred",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "red",
     },
     {
         name = "Corrupted Fire Hawk",
@@ -5414,8 +5414,8 @@ mounts = {
         item_id = 69230.0,
         spell_id = 97560,
         icon = "inv_misc_orb_04",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Twilight Harbinger",
@@ -5423,8 +5423,8 @@ mounts = {
         item_id = 77068.0,
         spell_id = 107844,
         icon = "ability_mount_drake_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Vashj'ir Seahorse",
@@ -5432,8 +5432,8 @@ mounts = {
         item_id = 54465.0,
         spell_id = 75207,
         icon = "ability_mount_seahorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Drake of the West Wind",
@@ -5441,8 +5441,8 @@ mounts = {
         item_id = 65356.0,
         spell_id = 88741,
         icon = "inv_misc_stormdragongreen",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "green",
     },
     {
         name = "Spectral Steed",
@@ -5450,8 +5450,8 @@ mounts = {
         item_id = 64998.0,
         spell_id = 92231,
         icon = "inv_mount_spectralhorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Spectral Wolf",
@@ -5459,8 +5459,8 @@ mounts = {
         item_id = 64999.0,
         spell_id = 92232,
         icon = "inv_mount_spectralwolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Brown Riding Camel",
@@ -5468,7 +5468,7 @@ mounts = {
         item_id = 63044.0,
         spell_id = 88748,
         icon = "ability_mount_camel_brown",
-        skeleton_type = "Camel Skeleton",
+        skeleton_type = "Camel",
         color = "Brown"
     },
     {
@@ -5477,8 +5477,8 @@ mounts = {
         item_id = 63045.0,
         spell_id = 88749,
         icon = "ability_mount_camel_tan",
-        skeleton_type = "Camel Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Camel",
+        color = ""
     },
     {
         name = "Drake of the North Wind",
@@ -5486,8 +5486,8 @@ mounts = {
         item_id = 63040.0,
         spell_id = 88742,
         icon = "inv_misc_stormdragonpale",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Vitreous Stone Drake",
@@ -5495,8 +5495,8 @@ mounts = {
         item_id = 63043.0,
         spell_id = 88746,
         icon = "inv_misc_stonedragonblue",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "blue",
     },
     {
         name = "Amani Battle Bear",
@@ -5504,8 +5504,8 @@ mounts = {
         item_id = 69747.0,
         spell_id = 98204,
         icon = "ability_druid_challangingroar",
-        skeleton_type = "Bear Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bear",
+        color = ""
     },
     {
         name = "Armored Razzashi Raptor",
@@ -5513,7 +5513,7 @@ mounts = {
         item_id = 68823.0,
         spell_id = 96491,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Red"
     },
     {
@@ -5522,8 +5522,8 @@ mounts = {
         item_id = 68824.0,
         spell_id = 96499,
         icon = "ability_mount_blackpanther",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Drake of the South Wind",
@@ -5531,8 +5531,8 @@ mounts = {
         item_id = 63041.0,
         spell_id = 88744,
         icon = "inv_misc_stormdragonpurple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "purple",
     },
     {
         name = "Flametalon of Alysrazor",
@@ -5540,8 +5540,8 @@ mounts = {
         item_id = 71665.0,
         spell_id = 101542,
         icon = "ability_mount_fireravengodmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Pureblood Fire Hawk",
@@ -5549,8 +5549,8 @@ mounts = {
         item_id = 69224.0,
         spell_id = 97493,
         icon = "inv_misc_orb_05",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Experiment 12-B",
@@ -5558,8 +5558,8 @@ mounts = {
         item_id = 78919.0,
         spell_id = 110039,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Blazing Drake",
@@ -5567,8 +5567,8 @@ mounts = {
         item_id = 77067.0,
         spell_id = 107842,
         icon = "ability_mount_drake_red",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "red",
     },
     {
         name = "Life-Binder's Handmaiden",
@@ -5576,8 +5576,8 @@ mounts = {
         item_id = 77069.0,
         spell_id = 107845,
         icon = "ability_mount_drake_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hand",
+        color = "red",
     },
     {
         name = "Subdued Seahorse",
@@ -5585,8 +5585,8 @@ mounts = {
         item_id = 67151.0,
         spell_id = 98718,
         icon = "ability_mount_seahorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Phosphorescent Stone Drake",
@@ -5594,8 +5594,8 @@ mounts = {
         item_id = 63042.0,
         spell_id = 88718,
         icon = "inv_misc_stonedragonpurple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "purple",
     },
     {
         name = "Grey Riding Camel",
@@ -5603,7 +5603,7 @@ mounts = {
         item_id = 63046.0,
         spell_id = 88750,
         icon = "ability_mount_camel_gray",
-        skeleton_type = "Camel Skeleton",
+        skeleton_type = "Camel",
         color = "Grey"
     },
     {
@@ -5612,7 +5612,7 @@ mounts = {
         item_id = 44160.0,
         spell_id = 59961,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Red"
     },
     {
@@ -5621,7 +5621,7 @@ mounts = {
         item_id = 44164.0,
         spell_id = 59976,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Black"
     },
     {
@@ -5630,8 +5630,8 @@ mounts = {
         item_id = 45801.0,
         spell_id = 63956,
         icon = "ability_mount_razorscale",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Rusted Proto-Drake",
@@ -5639,8 +5639,8 @@ mounts = {
         item_id = 45802.0,
         spell_id = 63963,
         icon = "ability_mount_razorscale",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Bloodbathed Frostbrood Vanquisher",
@@ -5648,8 +5648,8 @@ mounts = {
         item_id = 51954.0,
         spell_id = 72808,
         icon = "ability_mount_redfrostwyrm_01",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = "red",
     },
     {
         name = "Icebound Frostbrood Vanquisher",
@@ -5657,8 +5657,8 @@ mounts = {
         item_id = 51955.0,
         spell_id = 72807,
         icon = "ability_mount_redfrostwyrm_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Crusader's White Warhorse",
@@ -5666,7 +5666,7 @@ mounts = {
         item_id = 49096.0,
         spell_id = 68187,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "White"
     },
     {
@@ -5675,7 +5675,7 @@ mounts = {
         item_id = 49098.0,
         spell_id = 68188,
         icon = "ability_mount_nightmarehorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Black"
     },
     {
@@ -5684,8 +5684,8 @@ mounts = {
         item_id = 49044.0,
         spell_id = 68057,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Horde Wolf",
@@ -5693,8 +5693,8 @@ mounts = {
         item_id = 49046.0,
         spell_id = 68056,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "black",
     },
     {
         name = "White Polar Bear",
@@ -5702,7 +5702,7 @@ mounts = {
         item_id = 43962.0,
         spell_id = 54753,
         icon = "ability_mount_polarbear_white",
-        skeleton_type = "Bear Skeleton",
+        skeleton_type = "bear",
         color = "White"
     },
     {
@@ -5711,8 +5711,8 @@ mounts = {
         item_id = 52200.0,
         spell_id = 73313,
         icon = "spell_deathknight_summondeathcharger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Armored Snowy Gryphon",
@@ -5720,7 +5720,7 @@ mounts = {
         item_id = 44689.0,
         spell_id = 61229,
         icon = "ability_mount_gryphon_01",
-        skeleton_type = "Gryphon Skeleton",
+        skeleton_type = "Gryphon",
         color = "Red"
     },
     {
@@ -5729,7 +5729,7 @@ mounts = {
         item_id = 44690.0,
         spell_id = 61230,
         icon = "ability_mount_swiftpurplewindrider",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -5738,8 +5738,8 @@ mounts = {
         item_id = 44230.0,
         spell_id = 59791,
         icon = "ability_mount_mammoth_brown",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "brown",
     },
     {
         name = "Wooly Mammoth",
@@ -5747,8 +5747,8 @@ mounts = {
         item_id = 44231.0,
         spell_id = 59793,
         icon = "ability_mount_mammoth_brown",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "brown",
     },
     {
         name = "Traveler's Tundra Mammoth",
@@ -5756,8 +5756,8 @@ mounts = {
         item_id = 44234.0,
         spell_id = 61447,
         icon = "ability_mount_mammoth_brown_3seater",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "brown",
     },
     {
         name = "Traveler's Tundra Mammoth",
@@ -5765,8 +5765,8 @@ mounts = {
         item_id = 44235.0,
         spell_id = 61425,
         icon = "ability_mount_mammoth_brown_3seater",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "brown",
     },
     {
         name = "Armored Brown Bear",
@@ -5774,7 +5774,7 @@ mounts = {
         item_id = 44225.0,
         spell_id = 60114,
         icon = "ability_mount_polarbear_brown",
-        skeleton_type = "Bear Skeleton",
+        skeleton_type = "bear",
         color = "Red"
     },
     {
@@ -5783,7 +5783,7 @@ mounts = {
         item_id = 44226.0,
         spell_id = 60116,
         icon = "ability_mount_polarbear_brown",
-        skeleton_type = "Bear Skeleton",
+        skeleton_type = "bear",
         color = "Red"
     },
     {
@@ -5792,8 +5792,8 @@ mounts = {
         item_id = 46752.0,
         spell_id = 65640,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Stormwind Steed",
@@ -5801,8 +5801,8 @@ mounts = {
         item_id = 45125.0,
         spell_id = 63232,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Violet Ram",
@@ -5810,8 +5810,8 @@ mounts = {
         item_id = 46748.0,
         spell_id = 65643,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
-        color = "Violet"
+        skeleton_type = "Ram",
+        color = "purple"
     },
     {
         name = "Ironforge Ram",
@@ -5819,8 +5819,8 @@ mounts = {
         item_id = 45586.0,
         spell_id = 63636,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Turbostrider",
@@ -5828,8 +5828,8 @@ mounts = {
         item_id = 46747.0,
         spell_id = 65642,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Gnomeregan Mechanostrider",
@@ -5837,8 +5837,8 @@ mounts = {
         item_id = 45589.0,
         spell_id = 63638,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Mechanostrider",
+        color = ""
     },
     {
         name = "Great Red Elekk",
@@ -5846,7 +5846,7 @@ mounts = {
         item_id = 46745.0,
         spell_id = 65637,
         icon = "ability_mount_ridingelekkelite",
-        skeleton_type = "Elekk Skeleton",
+        skeleton_type = "Elekk",
         color = "Red"
     },
     {
@@ -5855,8 +5855,8 @@ mounts = {
         item_id = 45590.0,
         spell_id = 63639,
         icon = "ability_mount_ridingelekkelite",
-        skeleton_type = "Elekk Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Elekk",
+        color = ""
     },
     {
         name = "Swift Moonsaber",
@@ -5864,8 +5864,8 @@ mounts = {
         item_id = 46744.0,
         spell_id = 65638,
         icon = "ability_mount_whitetiger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "white",
     },
     {
         name = "Darnassian Nightsaber",
@@ -5873,8 +5873,8 @@ mounts = {
         item_id = 45591.0,
         spell_id = 63637,
         icon = "ability_mount_whitetiger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "white",
     },
     {
         name = "Great Golden Kodo",
@@ -5882,7 +5882,7 @@ mounts = {
         item_id = 46750.0,
         spell_id = 65641,
         icon = "ability_mount_kodo_01",
-        skeleton_type = "Kodo Skeleton",
+        skeleton_type = "Kodo",
         color = "Golden"
     },
     {
@@ -5891,8 +5891,8 @@ mounts = {
         item_id = 45592.0,
         spell_id = 63641,
         icon = "ability_mount_kodo_01",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Swift Purple Raptor",
@@ -5900,7 +5900,7 @@ mounts = {
         item_id = 46743.0,
         spell_id = 65644,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Purple"
     },
     {
@@ -5909,8 +5909,8 @@ mounts = {
         item_id = 45593.0,
         spell_id = 63635,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Swift Burgundy Wolf",
@@ -5918,8 +5918,8 @@ mounts = {
         item_id = 46749.0,
         spell_id = 65646,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "black",
     },
     {
         name = "Orgrimmar Wolf",
@@ -5927,8 +5927,8 @@ mounts = {
         item_id = 45595.0,
         spell_id = 63640,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "black",
     },
     {
         name = "Swift Red Hawkstrider",
@@ -5936,7 +5936,7 @@ mounts = {
         item_id = 46751.0,
         spell_id = 65639,
         icon = "ability_mount_cockatricemountelite_purple",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Red"
     },
     {
@@ -5945,7 +5945,7 @@ mounts = {
         item_id = 45596.0,
         spell_id = 63642,
         icon = "ability_mount_cockatricemountelite_purple",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Silver"
     },
     {
@@ -5954,7 +5954,7 @@ mounts = {
         item_id = 46746.0,
         spell_id = 65645,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "White"
     },
     {
@@ -5963,8 +5963,8 @@ mounts = {
         item_id = 45597.0,
         spell_id = 63643,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Quel'dorei Steed",
@@ -5972,8 +5972,8 @@ mounts = {
         item_id = 46815.0,
         spell_id = 66090,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Silver Covenant Hippogryph",
@@ -5981,7 +5981,7 @@ mounts = {
         item_id = 46813.0,
         spell_id = 66087,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "hippogryph",
         color = "Silver"
     },
     {
@@ -5990,8 +5990,8 @@ mounts = {
         item_id = 46816.0,
         spell_id = 66091,
         icon = "ability_mount_cockatricemountelite_purple",
-        skeleton_type = "Hawkstrider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Hawkstrider",
+        color = "purple",
     },
     {
         name = "Sunreaver Dragonhawk",
@@ -5999,8 +5999,8 @@ mounts = {
         item_id = 46814.0,
         spell_id = 66088,
         icon = "ability_hunter_pet_dragonhawk",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Argent Warhorse",
@@ -6008,8 +6008,8 @@ mounts = {
         item_id = 47180.0,
         spell_id = 67466,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Argent Hippogryph",
@@ -6017,8 +6017,8 @@ mounts = {
         item_id = 45725.0,
         spell_id = 63844,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Ice Mammoth",
@@ -6026,8 +6026,8 @@ mounts = {
         item_id = 43958.0,
         spell_id = 59799,
         icon = "ability_mount_mammoth_white",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "white",
     },
     {
         name = "Grand Ice Mammoth",
@@ -6035,8 +6035,8 @@ mounts = {
         item_id = 43961.0,
         spell_id = 61470,
         icon = "ability_mount_mammoth_white_3seater",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "white",
     },
     {
         name = "Ice Mammoth",
@@ -6044,8 +6044,8 @@ mounts = {
         item_id = 44080.0,
         spell_id = 59797,
         icon = "ability_mount_mammoth_white",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "white",
     },
     {
         name = "Grand Ice Mammoth",
@@ -6053,8 +6053,8 @@ mounts = {
         item_id = 44086.0,
         spell_id = 61469,
         icon = "ability_mount_mammoth_white_3seater",
-        skeleton_type = "Mammoth Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "white",
     },
     {
         name = "Red Drake",
@@ -6062,7 +6062,7 @@ mounts = {
         item_id = 43955.0,
         spell_id = 59570,
         icon = "ability_mount_drake_red",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Red"
     },
     {
@@ -6071,7 +6071,7 @@ mounts = {
         item_id = 44707.0,
         spell_id = 61294,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Green"
     },
     {
@@ -6080,7 +6080,7 @@ mounts = {
         item_id = 43951.0,
         spell_id = 59569,
         icon = "ability_mount_drake_bronze",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Bronze"
     },
     {
@@ -6089,7 +6089,7 @@ mounts = {
         item_id = 44151.0,
         spell_id = 59996,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Blue"
     },
     {
@@ -6098,8 +6098,8 @@ mounts = {
         item_id = 43952.0,
         spell_id = 59567,
         icon = "ability_mount_drake_azure",
-        skeleton_type = "Dragon Skeleton",
-        color = "Azure"
+        skeleton_type = "drake",
+        color = "blue"
     },
     {
         name = "Blue Drake",
@@ -6107,7 +6107,7 @@ mounts = {
         item_id = 43953.0,
         spell_id = 59568,
         icon = "ability_mount_drake_azure",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Blue"
     },
     {
@@ -6116,8 +6116,8 @@ mounts = {
         item_id = 43954.0,
         spell_id = 59571,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Black Drake",
@@ -6125,7 +6125,7 @@ mounts = {
         item_id = 43986.0,
         spell_id = 59650,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Black"
     },
     {
@@ -6134,7 +6134,7 @@ mounts = {
         item_id = 43959.0,
         spell_id = 61465,
         icon = "ability_mount_mammoth_black_3seater",
-        skeleton_type = "Mammoth Skeleton",
+        skeleton_type = "moth",
         color = "Black"
     },
     {
@@ -6143,7 +6143,7 @@ mounts = {
         item_id = 44083.0,
         spell_id = 61467,
         icon = "ability_mount_mammoth_black_3seater",
-        skeleton_type = "Mammoth Skeleton",
+        skeleton_type = "moth",
         color = "Black"
     },
     {
@@ -6152,8 +6152,8 @@ mounts = {
         item_id = 45693.0,
         spell_id = 63796,
         icon = "inv_misc_enggizmos_03",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Onyxian Drake",
@@ -6161,8 +6161,8 @@ mounts = {
         item_id = 49636.0,
         spell_id = 69395,
         icon = "achievement_boss_onyxia",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Invincible",
@@ -6170,8 +6170,8 @@ mounts = {
         item_id = 50818.0,
         spell_id = 72286,
         icon = "ability_mount_pegasus",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Time-Lost Proto-Drake",
@@ -6179,8 +6179,8 @@ mounts = {
         item_id = 44168.0,
         spell_id = 60002,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Cenarion War Hippogryph",
@@ -6188,8 +6188,8 @@ mounts = {
         item_id = 33999.0,
         spell_id = 43927,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Cobalt War Talbuk",
@@ -6197,8 +6197,8 @@ mounts = {
         item_id = 29227.0,
         spell_id = 34896,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "White War Talbuk",
@@ -6206,7 +6206,7 @@ mounts = {
         item_id = 29231.0,
         spell_id = 34897,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "White"
     },
     {
@@ -6215,7 +6215,7 @@ mounts = {
         item_id = 29229.0,
         spell_id = 34898,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Silver"
     },
     {
@@ -6224,8 +6224,8 @@ mounts = {
         item_id = 29230.0,
         spell_id = 34899,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Cobalt Riding Talbuk",
@@ -6233,8 +6233,8 @@ mounts = {
         item_id = 31830.0,
         spell_id = 39315,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Silver Riding Talbuk",
@@ -6242,7 +6242,7 @@ mounts = {
         item_id = 31832.0,
         spell_id = 39317,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Silver"
     },
     {
@@ -6251,8 +6251,8 @@ mounts = {
         item_id = 31834.0,
         spell_id = 39318,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "White Riding Talbuk",
@@ -6260,7 +6260,7 @@ mounts = {
         item_id = 31836.0,
         spell_id = 39319,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "White"
     },
     {
@@ -6269,8 +6269,8 @@ mounts = {
         item_id = 32858.0,
         spell_id = 41514,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Azure"
+        skeleton_type = "drake",
+        color = "blue"
     },
     {
         name = "Cobalt Netherwing Drake",
@@ -6278,8 +6278,8 @@ mounts = {
         item_id = 32859.0,
         spell_id = 41515,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "purple",
     },
     {
         name = "Onyx Netherwing Drake",
@@ -6287,8 +6287,8 @@ mounts = {
         item_id = 32857.0,
         spell_id = 41513,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "purple",
     },
     {
         name = "Purple Netherwing Drake",
@@ -6296,7 +6296,7 @@ mounts = {
         item_id = 32860.0,
         spell_id = 41516,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "drake",
         color = "Purple"
     },
     {
@@ -6305,8 +6305,8 @@ mounts = {
         item_id = 32861.0,
         spell_id = 41517,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "purple",
     },
     {
         name = "Violet Netherwing Drake",
@@ -6314,8 +6314,8 @@ mounts = {
         item_id = 32862.0,
         spell_id = 41518,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Violet"
+        skeleton_type = "drake",
+        color = "purple"
     },
     {
         name = "Blue Riding Nether Ray",
@@ -6323,7 +6323,7 @@ mounts = {
         item_id = 32319.0,
         spell_id = 39803,
         icon = "ability_hunter_pet_netherray",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Blue"
     },
     {
@@ -6332,7 +6332,7 @@ mounts = {
         item_id = 32314.0,
         spell_id = 39798,
         icon = "ability_hunter_pet_netherray",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Green"
     },
     {
@@ -6341,7 +6341,7 @@ mounts = {
         item_id = 32316.0,
         spell_id = 39801,
         icon = "ability_hunter_pet_netherray",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Purple"
     },
     {
@@ -6350,7 +6350,7 @@ mounts = {
         item_id = 32317.0,
         spell_id = 39800,
         icon = "ability_hunter_pet_netherray",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -6359,7 +6359,7 @@ mounts = {
         item_id = 32318.0,
         spell_id = 39802,
         icon = "ability_hunter_pet_netherray",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Silver"
     },
     {
@@ -6368,7 +6368,7 @@ mounts = {
         item_id = 25473.0,
         spell_id = 32242,
         icon = "ability_mount_gryphon_01",
-        skeleton_type = "Gryphon Skeleton",
+        skeleton_type = "Gryphon",
         color = "Blue"
     },
     {
@@ -6377,7 +6377,7 @@ mounts = {
         item_id = 25477.0,
         spell_id = 32246,
         icon = "ability_mount_swiftredwindrider",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -6386,7 +6386,7 @@ mounts = {
         item_id = 25527.0,
         spell_id = 32289,
         icon = "ability_mount_gryphon_01",
-        skeleton_type = "Gryphon Skeleton",
+        skeleton_type = "Gryphon",
         color = "Red"
     },
     {
@@ -6395,7 +6395,7 @@ mounts = {
         item_id = 25528.0,
         spell_id = 32290,
         icon = "ability_mount_gryphon_01",
-        skeleton_type = "Gryphon Skeleton",
+        skeleton_type = "Gryphon",
         color = "Green"
     },
     {
@@ -6404,7 +6404,7 @@ mounts = {
         item_id = 25529.0,
         spell_id = 32292,
         icon = "ability_mount_gryphon_01",
-        skeleton_type = "Gryphon Skeleton",
+        skeleton_type = "Gryphon",
         color = "Purple"
     },
     {
@@ -6413,7 +6413,7 @@ mounts = {
         item_id = 25531.0,
         spell_id = 32295,
         icon = "ability_mount_swiftgreenwindrider",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Green"
     },
     {
@@ -6422,7 +6422,7 @@ mounts = {
         item_id = 25532.0,
         spell_id = 32296,
         icon = "ability_mount_swiftyellowwindrider",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Yellow"
     },
     {
@@ -6431,7 +6431,7 @@ mounts = {
         item_id = 25533.0,
         spell_id = 32297,
         icon = "ability_mount_swiftpurplewindrider",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Purple"
     },
     {
@@ -6440,7 +6440,7 @@ mounts = {
         item_id = 25470.0,
         spell_id = 32235,
         icon = "ability_mount_goldengryphon",
-        skeleton_type = "Gryphon Skeleton",
+        skeleton_type = "Gryphon",
         color = "Golden"
     },
     {
@@ -6449,8 +6449,8 @@ mounts = {
         item_id = 25471.0,
         spell_id = 32239,
         icon = "ability_mount_ebongryphon",
-        skeleton_type = "Gryphon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Gryphon",
+        color = ""
     },
     {
         name = "Snowy Gryphon",
@@ -6458,8 +6458,8 @@ mounts = {
         item_id = 25472.0,
         spell_id = 32240,
         icon = "ability_mount_snowygryphon",
-        skeleton_type = "Gryphon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Gryphon",
+        color = ""
     },
     {
         name = "Tawny Wind Rider",
@@ -6467,8 +6467,8 @@ mounts = {
         item_id = 25474.0,
         spell_id = 32243,
         icon = "ability_mount_tawnywindrider",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Blue Wind Rider",
@@ -6476,7 +6476,7 @@ mounts = {
         item_id = 25475.0,
         spell_id = 32244,
         icon = "ability_mount_bluewindrider",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Blue"
     },
     {
@@ -6485,7 +6485,7 @@ mounts = {
         item_id = 25476.0,
         spell_id = 32245,
         icon = "ability_mount_greenwindrider",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Green"
     },
     {
@@ -6494,8 +6494,8 @@ mounts = {
         item_id = 32768.0,
         spell_id = 41252,
         icon = "inv-mount_raven_54",
-        skeleton_type = "Bird Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bird",
+        color = ""
     },
     {
         name = "Swift White Hawkstrider",
@@ -6503,7 +6503,7 @@ mounts = {
         item_id = 35513.0,
         spell_id = 46628,
         icon = "ability_mount_cockatricemountelite_white",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "White"
     },
     {
@@ -6512,8 +6512,8 @@ mounts = {
         item_id = 32458.0,
         spell_id = 40192,
         icon = "inv_misc_summerfest_brazierorange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "orange",
     },
     {
         name = "Amani War Bear",
@@ -6521,8 +6521,8 @@ mounts = {
         item_id = 33809.0,
         spell_id = 43688,
         icon = "ability_druid_challangingroar",
-        skeleton_type = "Bear Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bear",
+        color = ""
     },
     {
         name = "Fiery Warhorse",
@@ -6530,8 +6530,8 @@ mounts = {
         item_id = 30480.0,
         spell_id = 36702,
         icon = "ability_mount_dreadsteed",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Venomhide Ravasaur",
@@ -6539,8 +6539,8 @@ mounts = {
         item_id = 46102.0,
         spell_id = 64659,
         icon = "ability_mount_raptor",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Winterspring Frostsaber",
@@ -6548,8 +6548,8 @@ mounts = {
         item_id = 13086.0,
         spell_id = 17229,
         icon = "ability_mount_pinktiger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "pink",
     },
     {
         name = "Rivendare's Deathcharger",
@@ -6557,8 +6557,8 @@ mounts = {
         item_id = 13335.0,
         spell_id = 17481,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Blue Qiraji Battle Tank",
@@ -6566,7 +6566,7 @@ mounts = {
         item_id = 21218.0,
         spell_id = 25953,
         icon = "inv_misc_qirajicrystal_04",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Blue"
     },
     {
@@ -6575,7 +6575,7 @@ mounts = {
         item_id = 21321.0,
         spell_id = 26054,
         icon = "inv_misc_qirajicrystal_02",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Red"
     },
     {
@@ -6584,7 +6584,7 @@ mounts = {
         item_id = 21323.0,
         spell_id = 26056,
         icon = "inv_misc_qirajicrystal_03",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Green"
     },
     {
@@ -6593,7 +6593,7 @@ mounts = {
         item_id = 21324.0,
         spell_id = 26055,
         icon = "inv_misc_qirajicrystal_01",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Yellow"
     },
     {
@@ -6602,8 +6602,8 @@ mounts = {
         item_id = 18776.0,
         spell_id = 23227,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Brown Steed",
@@ -6611,7 +6611,7 @@ mounts = {
         item_id = 18777.0,
         spell_id = 23229,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Brown"
     },
     {
@@ -6620,7 +6620,7 @@ mounts = {
         item_id = 18778.0,
         spell_id = 23228,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "White"
     },
     {
@@ -6629,8 +6629,8 @@ mounts = {
         item_id = 5655.0,
         spell_id = 6648,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Black Stallion",
@@ -6638,7 +6638,7 @@ mounts = {
         item_id = 2411.0,
         spell_id = 470,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Lion Skeleton",
+        skeleton_type = "Lion",
         color = "Black"
     },
     {
@@ -6647,8 +6647,8 @@ mounts = {
         item_id = 2414.0,
         spell_id = 472,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Brown Horse",
@@ -6656,7 +6656,7 @@ mounts = {
         item_id = 5656.0,
         spell_id = 458,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Brown"
     },
     {
@@ -6665,7 +6665,7 @@ mounts = {
         item_id = 18785.0,
         spell_id = 23240,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
+        skeleton_type = "Ram",
         color = "White"
     },
     {
@@ -6674,7 +6674,7 @@ mounts = {
         item_id = 18786.0,
         spell_id = 23238,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
+        skeleton_type = "Ram",
         color = "Brown"
     },
     {
@@ -6683,8 +6683,8 @@ mounts = {
         item_id = 18787.0,
         spell_id = 23239,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Gray Ram",
@@ -6692,8 +6692,8 @@ mounts = {
         item_id = 5864.0,
         spell_id = 6777,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Brown Ram",
@@ -6701,7 +6701,7 @@ mounts = {
         item_id = 5872.0,
         spell_id = 6899,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
+        skeleton_type = "Ram",
         color = "Brown"
     },
     {
@@ -6710,7 +6710,7 @@ mounts = {
         item_id = 5873.0,
         spell_id = 6898,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
+        skeleton_type = "Ram",
         color = "White"
     },
     {
@@ -6719,8 +6719,8 @@ mounts = {
         item_id = 18766.0,
         spell_id = 23221,
         icon = "ability_mount_whitetiger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "white",
     },
     {
         name = "Swift Mistsaber",
@@ -6728,8 +6728,8 @@ mounts = {
         item_id = 18767.0,
         spell_id = 23219,
         icon = "ability_mount_blackpanther",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "black",
     },
     {
         name = "Swift Stormsaber",
@@ -6737,8 +6737,8 @@ mounts = {
         item_id = 18902.0,
         spell_id = 23338,
         icon = "ability_mount_blackpanther",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "black",
     },
     {
         name = "Striped Nightsaber",
@@ -6746,8 +6746,8 @@ mounts = {
         item_id = 8629.0,
         spell_id = 10793,
         icon = "ability_mount_blackpanther",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "black",
     },
     {
         name = "Striped Frostsaber",
@@ -6755,8 +6755,8 @@ mounts = {
         item_id = 8631.0,
         spell_id = 8394,
         icon = "ability_mount_whitetiger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "white",
     },
     {
         name = "Spotted Frostsaber",
@@ -6764,8 +6764,8 @@ mounts = {
         item_id = 8632.0,
         spell_id = 10789,
         icon = "ability_mount_whitetiger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "white",
     },
     {
         name = "Striped Dawnsaber",
@@ -6773,8 +6773,8 @@ mounts = {
         item_id = 47100.0,
         spell_id = 66847,
         icon = "ability_mount_whitetiger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "white",
     },
     {
         name = "Swift Green Mechanostrider",
@@ -6782,7 +6782,7 @@ mounts = {
         item_id = 18772.0,
         spell_id = 23225,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
+        skeleton_type = "Mechanostrider",
         color = "Green"
     },
     {
@@ -6791,7 +6791,7 @@ mounts = {
         item_id = 18773.0,
         spell_id = 23223,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
+        skeleton_type = "Mechanostrider",
         color = "White"
     },
     {
@@ -6800,7 +6800,7 @@ mounts = {
         item_id = 18774.0,
         spell_id = 23222,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
+        skeleton_type = "Mechanostrider",
         color = "Yellow"
     },
     {
@@ -6809,7 +6809,7 @@ mounts = {
         item_id = 8563.0,
         spell_id = 10873,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
+        skeleton_type = "Mechanostrider",
         color = "Red"
     },
     {
@@ -6818,7 +6818,7 @@ mounts = {
         item_id = 8595.0,
         spell_id = 10969,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
+        skeleton_type = "Mechanostrider",
         color = "Blue"
     },
     {
@@ -6827,8 +6827,8 @@ mounts = {
         item_id = 13322.0,
         spell_id = 17454,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Mechanostrider",
+        color = ""
     },
     {
         name = "Green Mechanostrider",
@@ -6836,7 +6836,7 @@ mounts = {
         item_id = 13321.0,
         spell_id = 17453,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
+        skeleton_type = "Mechanostrider",
         color = "Green"
     },
     {
@@ -6845,7 +6845,7 @@ mounts = {
         item_id = 29745.0,
         spell_id = 35713,
         icon = "ability_mount_ridingelekkelite_blue",
-        skeleton_type = "Elekk Skeleton",
+        skeleton_type = "Elekk",
         color = "Blue"
     },
     {
@@ -6854,7 +6854,7 @@ mounts = {
         item_id = 29746.0,
         spell_id = 35712,
         icon = "ability_mount_ridingelekkelite_green",
-        skeleton_type = "Elekk Skeleton",
+        skeleton_type = "Elekk",
         color = "Green"
     },
     {
@@ -6863,7 +6863,7 @@ mounts = {
         item_id = 29747.0,
         spell_id = 35714,
         icon = "ability_mount_ridingelekkelite_purple",
-        skeleton_type = "Elekk Skeleton",
+        skeleton_type = "Elekk",
         color = "Purple"
     },
     {
@@ -6872,7 +6872,7 @@ mounts = {
         item_id = 28481.0,
         spell_id = 34406,
         icon = "ability_mount_ridingelekk",
-        skeleton_type = "Elekk Skeleton",
+        skeleton_type = "Elekk",
         color = "Brown"
     },
     {
@@ -6881,7 +6881,7 @@ mounts = {
         item_id = 29743.0,
         spell_id = 35711,
         icon = "ability_mount_ridingelekk_purple",
-        skeleton_type = "Elekk Skeleton",
+        skeleton_type = "Elekk",
         color = "Purple"
     },
     {
@@ -6890,8 +6890,8 @@ mounts = {
         item_id = 29744.0,
         spell_id = 35710,
         icon = "ability_mount_ridingelekk_grey",
-        skeleton_type = "Elekk Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Elekk",
+        color = "grey",
     },
     {
         name = "Swift Mountain Horse",
@@ -6899,8 +6899,8 @@ mounts = {
         item_id = 73839.0,
         spell_id = 103196,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Mountain Horse",
@@ -6908,8 +6908,8 @@ mounts = {
         item_id = 73838.0,
         spell_id = 103195,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Great Red Dragon Turtle",
@@ -6917,7 +6917,7 @@ mounts = {
         item_id = 91010.0,
         spell_id = 120822,
         icon = "ability_mount_pandaranmountepicred",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Red"
     },
     {
@@ -6926,7 +6926,7 @@ mounts = {
         item_id = 91012.0,
         spell_id = 127293,
         icon = "ability_mount_pandaranmountepic",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Green"
     },
     {
@@ -6935,7 +6935,7 @@ mounts = {
         item_id = 91011.0,
         spell_id = 127295,
         icon = "ability_mount_pandaranmountepicblack",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Black"
     },
     {
@@ -6944,7 +6944,7 @@ mounts = {
         item_id = 91013.0,
         spell_id = 127302,
         icon = "ability_mount_pandaranmountepicblue",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Blue"
     },
     {
@@ -6953,7 +6953,7 @@ mounts = {
         item_id = 91014.0,
         spell_id = 127308,
         icon = "ability_mount_pandaranmountepicbrown",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Brown"
     },
     {
@@ -6962,7 +6962,7 @@ mounts = {
         item_id = 91015.0,
         spell_id = 127310,
         icon = "ability_mount_pandaranmountepicpurple",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Purple"
     },
     {
@@ -6971,7 +6971,7 @@ mounts = {
         item_id = 91004.0,
         spell_id = 120395,
         icon = "ability_mount_pandaranmountgreen",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Green"
     },
     {
@@ -6980,7 +6980,7 @@ mounts = {
         item_id = 91008.0,
         spell_id = 127286,
         icon = "ability_mount_pandaranmountblack",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Black"
     },
     {
@@ -6989,7 +6989,7 @@ mounts = {
         item_id = 91009.0,
         spell_id = 127287,
         icon = "ability_mount_pandaranmountblue",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Blue"
     },
     {
@@ -6998,7 +6998,7 @@ mounts = {
         item_id = 91005.0,
         spell_id = 127288,
         icon = "ability_mount_pandaranmountbrown",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Brown"
     },
     {
@@ -7007,7 +7007,7 @@ mounts = {
         item_id = 91006.0,
         spell_id = 127289,
         icon = "ability_mount_pandaranmountpurple",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Purple"
     },
     {
@@ -7016,7 +7016,7 @@ mounts = {
         item_id = 91007.0,
         spell_id = 127290,
         icon = "ability_mount_pandaranmountred",
-        skeleton_type = "Dragon Skeleton",
+        skeleton_type = "turtle",
         color = "Red"
     },
     {
@@ -7025,8 +7025,8 @@ mounts = {
         item_id = 201702.0,
         spell_id = 394216,
         icon = "inv_kirinmountdracthyr_pale",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sapphire Vorquin",
@@ -7034,8 +7034,8 @@ mounts = {
         item_id = 201704.0,
         spell_id = 394218,
         icon = "inv_kirinmountdracthyr_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Bronze Vorquin",
@@ -7043,7 +7043,7 @@ mounts = {
         item_id = 201720.0,
         spell_id = 394219,
         icon = "inv_kirinmountdracthyr_bronze",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Bronze"
     },
     {
@@ -7052,8 +7052,8 @@ mounts = {
         item_id = 201719.0,
         spell_id = 394220,
         icon = "inv_kirinmountdracthyr_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Swift Armored Vorquin",
@@ -7061,7 +7061,7 @@ mounts = {
         item_id = 198811.0,
         spell_id = 385134,
         icon = "inv_kirinmount_bronze",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -7070,7 +7070,7 @@ mounts = {
         item_id = 198809.0,
         spell_id = 385131,
         icon = "inv_kirinmount_blue",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -7079,7 +7079,7 @@ mounts = {
         item_id = 198810.0,
         spell_id = 385115,
         icon = "inv_kirinmount_pale",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -7088,8 +7088,8 @@ mounts = {
         item_id = 198808.0,
         spell_id = 384963,
         icon = "inv_kirinmount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Brown Wolf",
@@ -7097,7 +7097,7 @@ mounts = {
         item_id = 18796.0,
         spell_id = 23250,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
+        skeleton_type = "Wolf",
         color = "Brown"
     },
     {
@@ -7106,8 +7106,8 @@ mounts = {
         item_id = 18798.0,
         spell_id = 23252,
         icon = "ability_mount_whitedirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "white",
     },
     {
         name = "Swift Timber Wolf",
@@ -7115,8 +7115,8 @@ mounts = {
         item_id = 18797.0,
         spell_id = 23251,
         icon = "ability_mount_whitedirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "white",
     },
     {
         name = "Black Wolf",
@@ -7124,7 +7124,7 @@ mounts = {
         item_id = 46099.0,
         spell_id = 64658,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
+        skeleton_type = "Wolf",
         color = "Black"
     },
     {
@@ -7133,7 +7133,7 @@ mounts = {
         item_id = 5668.0,
         spell_id = 6654,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
+        skeleton_type = "Wolf",
         color = "Brown"
     },
     {
@@ -7142,8 +7142,8 @@ mounts = {
         item_id = 5665.0,
         spell_id = 6653,
         icon = "ability_mount_whitedirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "white",
     },
     {
         name = "Timber Wolf",
@@ -7151,8 +7151,8 @@ mounts = {
         item_id = 1132.0,
         spell_id = 580,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "black",
     },
     {
         name = "Green Skeletal Warhorse",
@@ -7160,7 +7160,7 @@ mounts = {
         item_id = 13334.0,
         spell_id = 17465,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Green"
     },
     {
@@ -7169,7 +7169,7 @@ mounts = {
         item_id = 18791.0,
         spell_id = 23246,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Purple"
     },
     {
@@ -7178,7 +7178,7 @@ mounts = {
         item_id = 13331.0,
         spell_id = 17462,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Red"
     },
     {
@@ -7187,7 +7187,7 @@ mounts = {
         item_id = 13332.0,
         spell_id = 17463,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Blue"
     },
     {
@@ -7196,7 +7196,7 @@ mounts = {
         item_id = 13333.0,
         spell_id = 17464,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Brown"
     },
     {
@@ -7205,7 +7205,7 @@ mounts = {
         item_id = 46308.0,
         spell_id = 64977,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Black"
     },
     {
@@ -7214,8 +7214,8 @@ mounts = {
         item_id = 47101.0,
         spell_id = 66846,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Great White Kodo",
@@ -7223,7 +7223,7 @@ mounts = {
         item_id = 18793.0,
         spell_id = 23247,
         icon = "ability_mount_kodo_01",
-        skeleton_type = "Kodo Skeleton",
+        skeleton_type = "Kodo",
         color = "White"
     },
     {
@@ -7232,7 +7232,7 @@ mounts = {
         item_id = 18794.0,
         spell_id = 23249,
         icon = "ability_mount_kodo_03",
-        skeleton_type = "Kodo Skeleton",
+        skeleton_type = "Kodo",
         color = "Brown"
     },
     {
@@ -7241,8 +7241,8 @@ mounts = {
         item_id = 18795.0,
         spell_id = 23248,
         icon = "ability_mount_kodo_01",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Gray Kodo",
@@ -7250,8 +7250,8 @@ mounts = {
         item_id = 15277.0,
         spell_id = 18989,
         icon = "ability_mount_kodo_01",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Brown Kodo",
@@ -7259,7 +7259,7 @@ mounts = {
         item_id = 15290.0,
         spell_id = 18990,
         icon = "ability_mount_kodo_03",
-        skeleton_type = "Kodo Skeleton",
+        skeleton_type = "Kodo",
         color = "Brown"
     },
     {
@@ -7268,7 +7268,7 @@ mounts = {
         item_id = 46100.0,
         spell_id = 64657,
         icon = "ability_mount_kodo_01",
-        skeleton_type = "Kodo Skeleton",
+        skeleton_type = "Kodo",
         color = "White"
     },
     {
@@ -7277,7 +7277,7 @@ mounts = {
         item_id = 18788.0,
         spell_id = 23241,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Blue"
     },
     {
@@ -7286,8 +7286,8 @@ mounts = {
         item_id = 18789.0,
         spell_id = 23242,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Swift Orange Raptor",
@@ -7295,7 +7295,7 @@ mounts = {
         item_id = 18790.0,
         spell_id = 23243,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Orange"
     },
     {
@@ -7304,8 +7304,8 @@ mounts = {
         item_id = 8588.0,
         spell_id = 8395,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Emerald"
+        skeleton_type = "raptor",
+        color = "green"
     },
     {
         name = "Turquoise Raptor",
@@ -7313,8 +7313,8 @@ mounts = {
         item_id = 8591.0,
         spell_id = 10796,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Violet Raptor",
@@ -7322,8 +7322,8 @@ mounts = {
         item_id = 8592.0,
         spell_id = 10799,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Violet"
+        skeleton_type = "raptor",
+        color = "purple"
     },
     {
         name = "Goblin Turbo-Trike",
@@ -7331,8 +7331,8 @@ mounts = {
         item_id = 62462.0,
         spell_id = 87091,
         icon = "inv_misc_key_04",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Goblin Trike",
@@ -7340,8 +7340,8 @@ mounts = {
         item_id = 62461.0,
         spell_id = 87090,
         icon = "inv_misc_key_03",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Pink Hawkstrider",
@@ -7349,7 +7349,7 @@ mounts = {
         item_id = 28936.0,
         spell_id = 33660,
         icon = "ability_mount_cockatricemountelite",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Pink"
     },
     {
@@ -7358,7 +7358,7 @@ mounts = {
         item_id = 29223.0,
         spell_id = 35025,
         icon = "ability_mount_cockatricemountelite_green",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Green"
     },
     {
@@ -7367,7 +7367,7 @@ mounts = {
         item_id = 29224.0,
         spell_id = 35027,
         icon = "ability_mount_cockatricemountelite_purple",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Purple"
     },
     {
@@ -7376,7 +7376,7 @@ mounts = {
         item_id = 28927.0,
         spell_id = 34795,
         icon = "ability_mount_cockatricemount",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Red"
     },
     {
@@ -7385,7 +7385,7 @@ mounts = {
         item_id = 29220.0,
         spell_id = 35020,
         icon = "ability_mount_cockatricemount_blue",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Blue"
     },
     {
@@ -7394,7 +7394,7 @@ mounts = {
         item_id = 29221.0,
         spell_id = 35022,
         icon = "ability_mount_cockatricemount_black",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Black"
     },
     {
@@ -7403,7 +7403,7 @@ mounts = {
         item_id = 29222.0,
         spell_id = 35018,
         icon = "ability_mount_cockatricemount_purple",
-        skeleton_type = "Hawkstrider Skeleton",
+        skeleton_type = "Hawkstrider",
         color = "Purple"
     },
     {
@@ -7412,8 +7412,8 @@ mounts = {
         item_id = 191566.0,
         spell_id = 370620,
         icon = "ability_mount_cockatricemount_green",
-        skeleton_type = "Hawkstrider Skeleton",
-        color = "Emerald"
+        skeleton_type = "Hawkstrider",
+        color = "green"
     },
     {
         name = "Sandstone Drake",
@@ -7421,8 +7421,8 @@ mounts = {
         item_id = 65891.0,
         spell_id = 93326,
         icon = "inv_misc_stonedragonorange",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "orange",
     },
     {
         name = "Fossilized Raptor",
@@ -7430,8 +7430,8 @@ mounts = {
         item_id = 60954.0,
         spell_id = 84751,
         icon = "ability_mount_fossilizedraptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Ultramarine Qiraji Battle Tank",
@@ -7439,8 +7439,8 @@ mounts = {
         item_id = 64883.0,
         spell_id = 92155,
         icon = "trade_archaeology_sceptor-of-azaqir",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Spirit of Eche'ro",
@@ -7448,8 +7448,8 @@ mounts = {
         item_id = 131734.0,
         spell_id = 196681,
         icon = "inv_ghostlymoosemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Flying Machine",
@@ -7457,8 +7457,8 @@ mounts = {
         item_id = 34060.0,
         spell_id = 44153,
         icon = "ability_mount_gyrocoptor",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Turbo-Charged Flying Machine",
@@ -7466,8 +7466,8 @@ mounts = {
         item_id = 34061.0,
         spell_id = 44151,
         icon = "ability_mount_gyrocoptorelite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mekgineer's Chopper",
@@ -7475,8 +7475,8 @@ mounts = {
         item_id = 44413.0,
         spell_id = 60424,
         icon = "inv_misc_key_14",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mechano-Hog",
@@ -7484,8 +7484,8 @@ mounts = {
         item_id = 41508.0,
         spell_id = 55531,
         icon = "inv_misc_key_14",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Depleted-Kyparium Rocket",
@@ -7493,8 +7493,8 @@ mounts = {
         item_id = 87250.0,
         spell_id = 126507,
         icon = "ability_mount_rocketmount3",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Geosynchronous World Spinner",
@@ -7502,8 +7502,8 @@ mounts = {
         item_id = 87251.0,
         spell_id = 126508,
         icon = "ability_mount_rocketmount4",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sky Golem",
@@ -7511,8 +7511,8 @@ mounts = {
         item_id = 95416.0,
         spell_id = 134359,
         icon = "ability_mount_shreddermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Mecha-Mogul Mk2",
@@ -7520,8 +7520,8 @@ mounts = {
         item_id = 161134.0,
         spell_id = 261437,
         icon = "achievement_dungeon_mogulrazdunk",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Xiwyllag ATV",
@@ -7529,8 +7529,8 @@ mounts = {
         item_id = 153594.0,
         spell_id = 256123,
         icon = "inv_hovercraftmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Crowd Pummeler 2-30",
@@ -7538,8 +7538,8 @@ mounts = {
         item_id = 221967.0,
         spell_id = 448186,
         icon = "inv_dwarvenmechboss_gold",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "gold",
     },
     {
         name = "Sea Turtle",
@@ -7547,8 +7547,8 @@ mounts = {
         item_id = 46109.0,
         spell_id = 64731,
         icon = "inv_misc_fish_turtle_02",
-        skeleton_type = "Turtle Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "turtle",
+        color = ""
     },
     {
         name = "Riding Turtle",
@@ -7556,8 +7556,8 @@ mounts = {
         item_id = 23720.0,
         spell_id = 30174,
         icon = "ability_hunter_pet_turtle",
-        skeleton_type = "Turtle Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "turtle",
+        color = ""
     },
     {
         name = "Pond Nettle",
@@ -7565,8 +7565,8 @@ mounts = {
         item_id = 152912.0,
         spell_id = 253711,
         icon = "inv_ammo_bullet_07",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Great Sea Ray",
@@ -7574,8 +7574,8 @@ mounts = {
         item_id = 163131.0,
         spell_id = 278803,
         icon = "inv_stingray2mount_teal",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Kah, Legend of the Deep",
@@ -7583,8 +7583,8 @@ mounts = {
         item_id = 223286.0,
         spell_id = 448850,
         icon = "inv_oldgodfishmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Jade Panther",
@@ -7592,8 +7592,8 @@ mounts = {
         item_id = 83088.0,
         spell_id = 121837,
         icon = "ability_mount_onyxpanther_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Ruby Panther",
@@ -7601,8 +7601,8 @@ mounts = {
         item_id = 83087.0,
         spell_id = 121838,
         icon = "ability_mount_onyxpanther_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Sapphire Panther",
@@ -7610,8 +7610,8 @@ mounts = {
         item_id = 83090.0,
         spell_id = 121836,
         icon = "ability_mount_onyxpanther_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Sunstone Panther",
@@ -7619,8 +7619,8 @@ mounts = {
         item_id = 83089.0,
         spell_id = 121839,
         icon = "ability_mount_onyxpanther_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Jeweled Onyx Panther",
@@ -7628,8 +7628,8 @@ mounts = {
         item_id = 82453.0,
         spell_id = 120043,
         icon = "ability_mount_onyxpanther",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Flying Carpet",
@@ -7637,8 +7637,8 @@ mounts = {
         item_id = 44554.0,
         spell_id = 61451,
         icon = "ability_mount_flyingcarpet",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Frosty Flying Carpet",
@@ -7646,8 +7646,8 @@ mounts = {
         item_id = 54797.0,
         spell_id = 75596,
         icon = "ability_mount_frostyflyingcarpet",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Magnificent Flying Carpet",
@@ -7655,8 +7655,8 @@ mounts = {
         item_id = 44558.0,
         spell_id = 61309,
         icon = "ability_mount_magnificentflyingcarpet",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Creeping Carpet",
@@ -7664,8 +7664,8 @@ mounts = {
         item_id = 115363.0,
         spell_id = 169952,
         icon = "inv_tailoring_blackcarpet",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Dustmane Direwolf",
@@ -7673,8 +7673,8 @@ mounts = {
         item_id = 108883.0,
         spell_id = 171844,
         icon = "inv_wolfdraenormountbrown",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "brown",
     },
     {
         name = "Great Northern Elderhorn",
@@ -7682,8 +7682,8 @@ mounts = {
         item_id = 129962.0,
         spell_id = 213339,
         icon = "inv_moosemount2white",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Steelbound Devourer",
@@ -7691,8 +7691,8 @@ mounts = {
         item_id = 137686.0,
         spell_id = 213209,
         icon = "inv_mount_felcorehoundmoun",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Black War Bear",
@@ -7700,7 +7700,7 @@ mounts = {
         item_id = 44223.0,
         spell_id = 60118,
         icon = "ability_mount_polarbear_black",
-        skeleton_type = "Bear Skeleton",
+        skeleton_type = "bear",
         color = "Black"
     },
     {
@@ -7709,7 +7709,7 @@ mounts = {
         item_id = 44224.0,
         spell_id = 60119,
         icon = "ability_mount_polarbear_black",
-        skeleton_type = "Bear Skeleton",
+        skeleton_type = "bear",
         color = "Black"
     },
     {
@@ -7718,8 +7718,8 @@ mounts = {
         item_id = 163577.0,
         spell_id = 279454,
         icon = "inv_trilobitemount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Raging Cinderbee",
@@ -7727,8 +7727,8 @@ mounts = {
         item_id = 223158.0,
         spell_id = 447160,
         icon = "inv_firebeemount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Stormpike Battle Charger",
@@ -7736,8 +7736,8 @@ mounts = {
         item_id = 19030.0,
         spell_id = 23510,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Black Battlestrider",
@@ -7745,7 +7745,7 @@ mounts = {
         item_id = 29465.0,
         spell_id = 22719,
         icon = "ability_mount_blackbattlestrider",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Black"
     },
     {
@@ -7754,7 +7754,7 @@ mounts = {
         item_id = 29466.0,
         spell_id = 22718,
         icon = "ability_mount_kodo_01",
-        skeleton_type = "Kodo Skeleton",
+        skeleton_type = "Kodo",
         color = "Black"
     },
     {
@@ -7763,7 +7763,7 @@ mounts = {
         item_id = 29467.0,
         spell_id = 22720,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
+        skeleton_type = "Ram",
         color = "Black"
     },
     {
@@ -7772,7 +7772,7 @@ mounts = {
         item_id = 29468.0,
         spell_id = 22717,
         icon = "ability_mount_nightmarehorse",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Black"
     },
     {
@@ -7781,7 +7781,7 @@ mounts = {
         item_id = 29469.0,
         spell_id = 22724,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
+        skeleton_type = "Wolf",
         color = "Black"
     },
     {
@@ -7790,7 +7790,7 @@ mounts = {
         item_id = 29470.0,
         spell_id = 22722,
         icon = "ability_mount_undeadhorse",
-        skeleton_type = "Horse Skeleton",
+        skeleton_type = "Horse",
         color = "Red"
     },
     {
@@ -7799,7 +7799,7 @@ mounts = {
         item_id = 29471.0,
         spell_id = 22723,
         icon = "ability_mount_blackpanther",
-        skeleton_type = "Tiger Skeleton",
+        skeleton_type = "Tiger",
         color = "Black"
     },
     {
@@ -7808,7 +7808,7 @@ mounts = {
         item_id = 29472.0,
         spell_id = 22721,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Black"
     },
     {
@@ -7817,8 +7817,8 @@ mounts = {
         item_id = 19029.0,
         spell_id = 23509,
         icon = "ability_mount_whitedirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "white",
     },
     {
         name = "Swift Warstrider",
@@ -7826,8 +7826,8 @@ mounts = {
         item_id = 34129.0,
         spell_id = 35028,
         icon = "ability_mount_cockatricemountelite_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Black War Elekk",
@@ -7835,7 +7835,7 @@ mounts = {
         item_id = 35906.0,
         spell_id = 48027,
         icon = "ability_mount_ridingelekkelite_blue",
-        skeleton_type = "Elekk Skeleton",
+        skeleton_type = "Elekk",
         color = "Black"
     },
     {
@@ -7844,7 +7844,7 @@ mounts = {
         item_id = 43956.0,
         spell_id = 59785,
         icon = "ability_mount_mammoth_black",
-        skeleton_type = "Mammoth Skeleton",
+        skeleton_type = "moth",
         color = "Black"
     },
     {
@@ -7853,7 +7853,7 @@ mounts = {
         item_id = 44077.0,
         spell_id = 59788,
         icon = "ability_mount_mammoth_black",
-        skeleton_type = "Mammoth Skeleton",
+        skeleton_type = "moth",
         color = "Black"
     },
     {
@@ -7862,7 +7862,7 @@ mounts = {
         item_id = 140228.0,
         spell_id = 222202,
         icon = "inv_horse2mount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Bronze"
     },
     {
@@ -7871,8 +7871,8 @@ mounts = {
         item_id = 140233.0,
         spell_id = 222238,
         icon = "inv_horse2mountlight",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Prestigious Azure Courser",
@@ -7880,8 +7880,8 @@ mounts = {
         item_id = 140408.0,
         spell_id = 222240,
         icon = "inv_horse2mountyellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Azure"
+        skeleton_type = "",
+        color = "blue"
     },
     {
         name = "Prestigious Forest Courser",
@@ -7889,8 +7889,8 @@ mounts = {
         item_id = 140232.0,
         spell_id = 222237,
         icon = "inv_horse2mountgreen",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Prestigious Royal Courser",
@@ -7898,8 +7898,8 @@ mounts = {
         item_id = 140230.0,
         spell_id = 222236,
         icon = "inv_horse2mountpurple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Prestigious Midnight Courser",
@@ -7907,8 +7907,8 @@ mounts = {
         item_id = 140407.0,
         spell_id = 222241,
         icon = "inv_horse2mountblack",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Prestigious Bloodforged Courser",
@@ -7916,8 +7916,8 @@ mounts = {
         item_id = 164250.0,
         spell_id = 281044,
         icon = "inv_horse2mountelite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Dark Riding Talbuk",
@@ -7925,8 +7925,8 @@ mounts = {
         item_id = 28915.0,
         spell_id = 39316,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Dark War Talbuk",
@@ -7934,8 +7934,8 @@ mounts = {
         item_id = 29228.0,
         spell_id = 34790,
         icon = "inv_misc_foot_centaur",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ashhide Mushan Beast",
@@ -7943,8 +7943,8 @@ mounts = {
         item_id = 103638.0,
         spell_id = 148428,
         icon = "inv_mushanbeastmountblack",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Pale Thorngrazer",
@@ -7952,8 +7952,8 @@ mounts = {
         item_id = 116776.0,
         spell_id = 171833,
         icon = "inv_talbukdraenor_white",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "white",
     },
     {
         name = "Breezestrider Stallion",
@@ -7961,8 +7961,8 @@ mounts = {
         item_id = 116775.0,
         spell_id = 171832,
         icon = "ability_mount_talbukdraenormount",
-        skeleton_type = "Lion Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Lion",
+        color = ""
     },
     {
         name = "Vicious War Steed",
@@ -7970,8 +7970,8 @@ mounts = {
         item_id = 70909.0,
         spell_id = 100332,
         icon = "ability_mount_alliancepvpmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Kaldorei Warsaber",
@@ -7979,8 +7979,8 @@ mounts = {
         item_id = 102514.0,
         spell_id = 146615,
         icon = "ability_mount_warnightsaber",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Vicious Skeletal Warhorse",
@@ -7988,8 +7988,8 @@ mounts = {
         item_id = 102533.0,
         spell_id = 146622,
         icon = "inv_skeletalwarhorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Vicious War Wolf",
@@ -7997,8 +7997,8 @@ mounts = {
         item_id = 70910.0,
         spell_id = 100333,
         icon = "ability_mount_hordepvpmount",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Vicious War Ram",
@@ -8006,8 +8006,8 @@ mounts = {
         item_id = 116777.0,
         spell_id = 171834,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Vicious War Mechanostrider",
@@ -8015,8 +8015,8 @@ mounts = {
         item_id = 124089.0,
         spell_id = 183889,
         icon = "ability_mount_viciouswarmechanostrider",
-        skeleton_type = "Mechanostrider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Mechanostrider",
+        color = ""
     },
     {
         name = "Vicious War Raptor",
@@ -8024,8 +8024,8 @@ mounts = {
         item_id = 116778.0,
         spell_id = 171835,
         icon = "ability_mount_viciouswarraptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Vicious War Kodo",
@@ -8033,8 +8033,8 @@ mounts = {
         item_id = 124540.0,
         spell_id = 185052,
         icon = "ability_mount_viciouswarkodo",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Vicious Gilnean Warhorse",
@@ -8042,8 +8042,8 @@ mounts = {
         item_id = 140353.0,
         spell_id = 223341,
         icon = "inv_mount_vicioushorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Vicious War Elekk",
@@ -8051,8 +8051,8 @@ mounts = {
         item_id = 140350.0,
         spell_id = 223578,
         icon = "ability_mount_viciouswarelekk",
-        skeleton_type = "Elekk Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Elekk",
+        color = ""
     },
     {
         name = "Vicious Warstrider",
@@ -8060,8 +8060,8 @@ mounts = {
         item_id = 140348.0,
         spell_id = 223363,
         icon = "ability_mount_vicioushawkstrider",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Trike",
@@ -8069,8 +8069,8 @@ mounts = {
         item_id = 140354.0,
         spell_id = 223354,
         icon = "inv_viciousgoblintrike",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Turtle",
@@ -8078,8 +8078,8 @@ mounts = {
         item_id = 143648.0,
         spell_id = 232523,
         icon = "inv_viciousdragonturtlemount",
-        skeleton_type = "Turtle Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "turtle",
+        color = ""
     },
     {
         name = "Vicious War Bear",
@@ -8087,8 +8087,8 @@ mounts = {
         item_id = 142234.0,
         spell_id = 229487,
         icon = "inv_mount_viciousalliancebearmount",
-        skeleton_type = "Bear Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bear",
+        color = ""
     },
     {
         name = "Vicious War Lion",
@@ -8096,8 +8096,8 @@ mounts = {
         item_id = 142237.0,
         spell_id = 229512,
         icon = "inv_viciousgoldenking",
-        skeleton_type = "Lion Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Lion",
+        color = "gold",
     },
     {
         name = "Vicious War Turtle",
@@ -8105,8 +8105,8 @@ mounts = {
         item_id = 143649.0,
         spell_id = 232525,
         icon = "inv_viciousdragonturtlemount",
-        skeleton_type = "Turtle Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "turtle",
+        color = ""
     },
     {
         name = "Vicious War Bear",
@@ -8114,8 +8114,8 @@ mounts = {
         item_id = 142235.0,
         spell_id = 229486,
         icon = "inv_mount_vicioushordebearmount",
-        skeleton_type = "Bear Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bear",
+        color = ""
     },
     {
         name = "Vicious War Scorpion",
@@ -8123,8 +8123,8 @@ mounts = {
         item_id = 142437.0,
         spell_id = 230988,
         icon = "ability_mount_viciouskorkronannihilator",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Fox",
@@ -8132,8 +8132,8 @@ mounts = {
         item_id = 152870.0,
         spell_id = 242896,
         icon = "inv_viciouswarfoxalliance",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Fox",
@@ -8141,8 +8141,8 @@ mounts = {
         item_id = 152869.0,
         spell_id = 242897,
         icon = "inv_viciouswarfoxhorde",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Riverbeast",
@@ -8150,8 +8150,8 @@ mounts = {
         item_id = 163123.0,
         spell_id = 272481,
         icon = "inv_viciousalliancehippo",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Clefthoof",
@@ -8159,8 +8159,8 @@ mounts = {
         item_id = 163124.0,
         spell_id = 270560,
         icon = "inv_vicioushordeclefthoof",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Black Warsaber",
@@ -8168,7 +8168,7 @@ mounts = {
         item_id = 165019.0,
         spell_id = 281887,
         icon = "ability_mount_warnightsaber",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "cat",
         color = "Black"
     },
     {
@@ -8177,7 +8177,7 @@ mounts = {
         item_id = 165020.0,
         spell_id = 281890,
         icon = "inv_skeletalwarhorse_01_brown",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Black"
     },
     {
@@ -8186,8 +8186,8 @@ mounts = {
         item_id = 163122.0,
         spell_id = 261433,
         icon = "inv_viciouswarbasiliskalliance",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Basilisk",
@@ -8195,8 +8195,8 @@ mounts = {
         item_id = 163121.0,
         spell_id = 261434,
         icon = "inv_viciouswarbasiliskhorde",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious White Bonesteed",
@@ -8204,7 +8204,7 @@ mounts = {
         item_id = 173713.0,
         spell_id = 281889,
         icon = "inv_skeletalwarhorse_01_purple",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "White"
     },
     {
@@ -8213,7 +8213,7 @@ mounts = {
         item_id = 173714.0,
         spell_id = 281888,
         icon = "ability_mount_warnightsaber",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "cat",
         color = "White"
     },
     {
@@ -8222,8 +8222,8 @@ mounts = {
         item_id = 184014.0,
         spell_id = 327407,
         icon = "inv_viciousalliancespider",
-        skeleton_type = "Spider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Spider",
+        color = ""
     },
     {
         name = "Vicious War Spider",
@@ -8231,8 +8231,8 @@ mounts = {
         item_id = 184013.0,
         spell_id = 327408,
         icon = "inv_vicioushordespider",
-        skeleton_type = "Spider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Spider",
+        color = ""
     },
     {
         name = "Vicious War Gorm",
@@ -8240,8 +8240,8 @@ mounts = {
         item_id = 186178.0,
         spell_id = 348770,
         icon = "inv_viciousalliancegorm",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Gorm",
@@ -8249,8 +8249,8 @@ mounts = {
         item_id = 186179.0,
         spell_id = 348769,
         icon = "inv_vicioushordegorm",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Croaker",
@@ -8258,8 +8258,8 @@ mounts = {
         item_id = 187680.0,
         spell_id = 347255,
         icon = "inv_vicioushordetoad",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Croaker",
@@ -8267,8 +8267,8 @@ mounts = {
         item_id = 187681.0,
         spell_id = 347256,
         icon = "inv_viciousalliancetoad",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Warstalker",
@@ -8276,8 +8276,8 @@ mounts = {
         item_id = 187644.0,
         spell_id = 349824,
         icon = "inv_vicioushordewolf_mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Warstalker",
@@ -8285,8 +8285,8 @@ mounts = {
         item_id = 187642.0,
         spell_id = 349823,
         icon = "inv_viciousalliancewolf_mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Sabertooth",
@@ -8294,8 +8294,8 @@ mounts = {
         item_id = 201789.0,
         spell_id = 394737,
         icon = "inv_vicioussabertoothalliance",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Vicious Sabertooth",
@@ -8303,8 +8303,8 @@ mounts = {
         item_id = 201788.0,
         spell_id = 394738,
         icon = "inv_vicioussabertoothhorde",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Vicious War Snail",
@@ -8312,8 +8312,8 @@ mounts = {
         item_id = 205246.0,
         spell_id = 409034,
         icon = "inv_vicioussnail_alliance",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious War Snail",
@@ -8321,8 +8321,8 @@ mounts = {
         item_id = 205245.0,
         spell_id = 409032,
         icon = "inv_vicioussnail_horde",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Moonbeast",
@@ -8330,8 +8330,8 @@ mounts = {
         item_id = 210070.0,
         spell_id = 424534,
         icon = "inv_viciousowlbearmountalliance",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Moonbeast",
@@ -8339,8 +8339,8 @@ mounts = {
         item_id = 210069.0,
         spell_id = 424535,
         icon = "inv_viciousowlbearmounthorde",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Dreamtalon",
@@ -8348,8 +8348,8 @@ mounts = {
         item_id = 213439.0,
         spell_id = 434470,
         icon = "inv_vicioussabretoothraptor__alliance",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Vicious Dreamtalon",
@@ -8357,8 +8357,8 @@ mounts = {
         item_id = 213440.0,
         spell_id = 434477,
         icon = "inv_vicioussabretoothraptor_horde",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Vicious Skyflayer",
@@ -8366,8 +8366,8 @@ mounts = {
         item_id = 223511.0,
         spell_id = 449325,
         icon = "inv_viciousflyingnerubian2_alliance",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vicious Skyflayer",
@@ -8375,8 +8375,8 @@ mounts = {
         item_id = 221813.0,
         spell_id = 447405,
         icon = "inv_viciousflyingnerubian2_horde",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Nether Drake",
@@ -8384,8 +8384,8 @@ mounts = {
         item_id = 30609.0,
         spell_id = 37015,
         icon = "ability_mount_netherdrakeelite",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Merciless Nether Drake",
@@ -8393,8 +8393,8 @@ mounts = {
         item_id = 34092.0,
         spell_id = 44744,
         icon = "ability_mount_netherdrakeelite",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Vengeful Nether Drake",
@@ -8402,8 +8402,8 @@ mounts = {
         item_id = 37676.0,
         spell_id = 49193,
         icon = "ability_mount_netherdrakeelite",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Brutal Nether Drake",
@@ -8411,8 +8411,8 @@ mounts = {
         item_id = 43516.0,
         spell_id = 58615,
         icon = "ability_mount_netherdrakeelite",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Deadly Gladiator's Frost Wyrm",
@@ -8420,8 +8420,8 @@ mounts = {
         item_id = 46708.0,
         spell_id = 64927,
         icon = "ability_mount_redfrostwyrm_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Furious Gladiator's Frost Wyrm",
@@ -8429,8 +8429,8 @@ mounts = {
         item_id = 46171.0,
         spell_id = 65439,
         icon = "ability_mount_redfrostwyrm_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Relentless Gladiator's Frost Wyrm",
@@ -8438,8 +8438,8 @@ mounts = {
         item_id = 47840.0,
         spell_id = 67336,
         icon = "ability_mount_redfrostwyrm_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Wrathful Gladiator's Frost Wyrm",
@@ -8447,8 +8447,8 @@ mounts = {
         item_id = 50435.0,
         spell_id = 71810,
         icon = "ability_mount_redfrostwyrm_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = "red",
     },
     {
         name = "Vicious Gladiator's Twilight Drake",
@@ -8456,8 +8456,8 @@ mounts = {
         item_id = 71339.0,
         spell_id = 101282,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Ruthless Gladiator's Twilight Drake",
@@ -8465,8 +8465,8 @@ mounts = {
         item_id = 71954.0,
         spell_id = 101821,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Cataclysmic Gladiator's Twilight Drake",
@@ -8474,8 +8474,8 @@ mounts = {
         item_id = 85785.0,
         spell_id = 124550,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Malevolent Gladiator's Cloud Serpent",
@@ -8483,8 +8483,8 @@ mounts = {
         item_id = 95041.0,
         spell_id = 139407,
         icon = "inv_pandarenserpentmount_white",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "white",
     },
     {
         name = "Tyrannical Gladiator's Cloud Serpent",
@@ -8492,8 +8492,8 @@ mounts = {
         item_id = 104325.0,
         spell_id = 148618,
         icon = "inv_pandarenserpentmount_white",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "white",
     },
     {
         name = "Grievous Gladiator's Cloud Serpent",
@@ -8501,8 +8501,8 @@ mounts = {
         item_id = 104326.0,
         spell_id = 148619,
         icon = "inv_pandarenserpentmount_white",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "white",
     },
     {
         name = "Prideful Gladiator's Cloud Serpent",
@@ -8510,8 +8510,8 @@ mounts = {
         item_id = 104327.0,
         spell_id = 148620,
         icon = "inv_pandarenserpentmount_white",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "white",
     },
     {
         name = "Primal Gladiator's Felblood Gronnling",
@@ -8519,8 +8519,8 @@ mounts = {
         item_id = 128277.0,
         spell_id = 186828,
         icon = "inv_fellessergronnmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Wild Gladiator's Felblood Gronnling",
@@ -8528,8 +8528,8 @@ mounts = {
         item_id = 128281.0,
         spell_id = 189043,
         icon = "inv_fellessergronnmount_pale",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Warmongering Gladiator's Felblood Gronnling",
@@ -8537,8 +8537,8 @@ mounts = {
         item_id = 128282.0,
         spell_id = 189044,
         icon = "inv_fellessergronnmount_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Cruel Gladiator's Storm Dragon",
@@ -8546,8 +8546,8 @@ mounts = {
         item_id = 141845.0,
         spell_id = 227989,
         icon = "inv_stormdragonmount2dark",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Fearless Gladiator's Storm Dragon",
@@ -8555,8 +8555,8 @@ mounts = {
         item_id = 141844.0,
         spell_id = 227988,
         icon = "inv_stormdragonmount2blue",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = "blue",
     },
     {
         name = "Ferocious Gladiator's Storm Dragon",
@@ -8564,8 +8564,8 @@ mounts = {
         item_id = 141846.0,
         spell_id = 227991,
         icon = "inv_stormdragonmount2green",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = "green",
     },
     {
         name = "Vindictive Gladiator's Storm Dragon",
@@ -8573,8 +8573,8 @@ mounts = {
         item_id = 141843.0,
         spell_id = 227986,
         icon = "inv_stormdragonmount2",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Dominant Gladiator's Storm Dragon",
@@ -8582,8 +8582,8 @@ mounts = {
         item_id = 141848.0,
         spell_id = 227995,
         icon = "inv_stormdragonmount2yellow",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = "yellow",
     },
     {
         name = "Fierce Gladiator's Storm Dragon",
@@ -8591,8 +8591,8 @@ mounts = {
         item_id = 141847.0,
         spell_id = 227994,
         icon = "inv_stormdragonmount2light",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Demonic Gladiator's Storm Dragon",
@@ -8600,8 +8600,8 @@ mounts = {
         item_id = 153493.0,
         spell_id = 243201,
         icon = "inv_stormdragonmount2_fel",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Dread Gladiator's Proto-Drake",
@@ -8609,8 +8609,8 @@ mounts = {
         item_id = 156879.0,
         spell_id = 262022,
         icon = "ability_mount_protodrakegladiatormount",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Sinister Gladiator's Proto-Drake",
@@ -8618,8 +8618,8 @@ mounts = {
         item_id = 156880.0,
         spell_id = 262023,
         icon = "ability_mount_protodrakegladiatormount",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Notorious Gladiator's Proto-Drake",
@@ -8627,8 +8627,8 @@ mounts = {
         item_id = 156881.0,
         spell_id = 262024,
         icon = "inv_protodrakegladiatormount_purple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "purple",
     },
     {
         name = "Corrupted Gladiator's Proto-Drake",
@@ -8636,8 +8636,8 @@ mounts = {
         item_id = 156884.0,
         spell_id = 262027,
         icon = "ability_mount_protodrakegladiatormount",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Sinful Gladiator's Soul Eater",
@@ -8645,8 +8645,8 @@ mounts = {
         item_id = 183937.0,
         spell_id = 332400,
         icon = "inv_shadebeastmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Unchained Gladiator's Soul Eater",
@@ -8654,8 +8654,8 @@ mounts = {
         item_id = 186177.0,
         spell_id = 353036,
         icon = "inv_shadebeastmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Cosmic Gladiator's Soul Eater",
@@ -8663,8 +8663,8 @@ mounts = {
         item_id = 189507.0,
         spell_id = 365559,
         icon = "inv_shadebeastmount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Eternal Gladiator's Soul Eater",
@@ -8672,8 +8672,8 @@ mounts = {
         item_id = 191290.0,
         spell_id = 370346,
         icon = "inv_shadebeastmount_orange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "orange",
     },
     {
         name = "Crimson Gladiator's Drake",
@@ -8681,8 +8681,8 @@ mounts = {
         item_id = 202086.0,
         spell_id = 377071,
         icon = "inv_drake2mountgladiator",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Obsidian Gladiator's Slitherdrake",
@@ -8690,8 +8690,8 @@ mounts = {
         item_id = 205233.0,
         spell_id = 408977,
         icon = "inv_serpentmountgladiator",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Verdant Gladiator's Slitherdrake",
@@ -8699,8 +8699,8 @@ mounts = {
         item_id = 210345.0,
         spell_id = 425416,
         icon = "inv_serpentmountgladiator_green",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "green",
     },
     {
         name = "Draconic Gladiator's Drake",
@@ -8708,8 +8708,8 @@ mounts = {
         item_id = 210077.0,
         spell_id = 424539,
         icon = "inv_drake2mountgladiator_purple",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = "purple",
     },
     {
         name = "Forged Gladiator's Fel Bat",
@@ -8717,8 +8717,8 @@ mounts = {
         item_id = 223586.0,
         spell_id = 449466,
         icon = "inv_felbatgladiatormount_gold",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bat",
+        color = "gold",
     },
     {
         name = "Ivory Hawkstrider",
@@ -8726,8 +8726,8 @@ mounts = {
         item_id = 142369.0,
         spell_id = 230401,
         icon = "inv_ability_mount_cockatricemount_white",
-        skeleton_type = "Hawkstrider Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Hawkstrider",
+        color = "white",
     },
     {
         name = "Violet Proto-Drake",
@@ -8735,8 +8735,8 @@ mounts = {
         item_id = 44177.0,
         spell_id = 60024,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "Dragon Skeleton",
-        color = "Violet"
+        skeleton_type = "drake",
+        color = "purple"
     },
     {
         name = "Brewfest Ram",
@@ -8744,8 +8744,8 @@ mounts = {
         item_id = 33976.0,
         spell_id = 43899,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Swift Brewfest Ram",
@@ -8753,8 +8753,8 @@ mounts = {
         item_id = 33977.0,
         spell_id = 43900,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Great Brewfest Kodo",
@@ -8762,8 +8762,8 @@ mounts = {
         item_id = 37828.0,
         spell_id = 49379,
         icon = "ability_mount_kotobrewfest",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Headless Horseman's Mount",
@@ -8771,8 +8771,8 @@ mounts = {
         item_id = 37012.0,
         spell_id = 48025,
         icon = "ability_mount_nightmarehorse",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Swift Lovebird",
@@ -8780,8 +8780,8 @@ mounts = {
         item_id = 72146.0,
         spell_id = 102350,
         icon = "ability_hunter_pet_tallstrider",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "X-45 Heartbreaker",
@@ -8789,8 +8789,8 @@ mounts = {
         item_id = 50250.0,
         spell_id = 71342,
         icon = "inv_rocketmountpink",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "pink",
     },
     {
         name = "Heartseeker Mana Ray",
@@ -8798,8 +8798,8 @@ mounts = {
         item_id = 210973.0,
         spell_id = 427777,
         icon = "inv_manaraymount_magenta",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Springstrider",
@@ -8807,8 +8807,8 @@ mounts = {
         item_id = 72145.0,
         spell_id = 102349,
         icon = "ability_hunter_pet_tallstrider",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Noble Flying Carpet",
@@ -8816,8 +8816,8 @@ mounts = {
         item_id = 212599.0,
         spell_id = 432455,
         icon = "inv_flyingcarpet3",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Minion of Grumpus",
@@ -8825,8 +8825,8 @@ mounts = {
         item_id = 128671.0,
         spell_id = 191314,
         icon = "inv_misc_pet_pandaren_yeti_grey",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "grey",
     },
     {
         name = "Brawler's Burly Mushan Beast",
@@ -8834,8 +8834,8 @@ mounts = {
         item_id = 98405.0,
         spell_id = 142641,
         icon = "inv_mushanbeastmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Brawler's Burly Basilisk",
@@ -8843,8 +8843,8 @@ mounts = {
         item_id = 142403.0,
         spell_id = 230844,
         icon = "inv_basaliskmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Bruce",
@@ -8852,8 +8852,8 @@ mounts = {
         item_id = 166724.0,
         spell_id = 289639,
         icon = "inv_crocoliskmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Swift Forest Strider",
@@ -8861,8 +8861,8 @@ mounts = {
         item_id = 72140.0,
         spell_id = 102346,
         icon = "ability_hunter_pet_tallstrider",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Darkmoon Dancing Bear",
@@ -8870,8 +8870,8 @@ mounts = {
         item_id = 73766.0,
         spell_id = 103081,
         icon = "ability_hunter_pet_bear",
-        skeleton_type = "Bear Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bear",
+        color = ""
     },
     {
         name = "Darkwater Skate",
@@ -8879,8 +8879,8 @@ mounts = {
         item_id = 142398.0,
         spell_id = 228919,
         icon = "inv_stingray2mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Darkmoon Dirigible",
@@ -8888,8 +8888,8 @@ mounts = {
         item_id = 153485.0,
         spell_id = 247448,
         icon = "inv_zeppelinmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Eclipse Dragonhawk",
@@ -8897,8 +8897,8 @@ mounts = {
         item_id = 129923.0,
         spell_id = 194464,
         icon = "ability_hunter_pet_dragonhawk",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Ironbound Wraithcharger",
@@ -8906,8 +8906,8 @@ mounts = {
         item_id = 129922.0,
         spell_id = 142910,
         icon = "ability_mount_steelwarhorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Yu'lei, Daughter of Jade",
@@ -8915,8 +8915,8 @@ mounts = {
         item_id = 87775.0,
         spell_id = 127165,
         icon = "ability_monk_summonserpentstatue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Beastlord's Irontusk",
@@ -8924,8 +8924,8 @@ mounts = {
         item_id = 167894.0,
         spell_id = 294568,
         icon = "inv_armoredelekkmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Beastlord's Warwolf",
@@ -8933,8 +8933,8 @@ mounts = {
         item_id = 167895.0,
         spell_id = 294569,
         icon = "inv_armoredwolfmount",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "red",
     },
     {
         name = "Val'sharah Hippogryph",
@@ -8942,8 +8942,8 @@ mounts = {
         item_id = 187595.0,
         spell_id = 359013,
         icon = "inv_mount_hippogryph_arcane",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Sandy Shalewing",
@@ -8951,8 +8951,8 @@ mounts = {
         item_id = nan,
         spell_id = 408654,
         icon = "inv_sporebatrock_stoneorange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "orange",
     },
     {
         name = "Infinite Timereaver",
@@ -8960,8 +8960,8 @@ mounts = {
         item_id = 133543.0,
         spell_id = 201098,
         icon = "inv_infinitedragonmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Pattie",
@@ -8969,8 +8969,8 @@ mounts = {
         item_id = 208152.0,
         spell_id = 418078,
         icon = "inv_alpacamount_ivory",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mimiron's Jumpjets",
@@ -8978,8 +8978,8 @@ mounts = {
         item_id = 210022.0,
         spell_id = 424082,
         icon = "inv_hunterkillershipblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Stormpike Battle Ram",
@@ -8987,8 +8987,8 @@ mounts = {
         item_id = 172022.0,
         spell_id = 308250,
         icon = "inv_stormpikebattlecharger",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Frostwolf Snarler",
@@ -8996,8 +8996,8 @@ mounts = {
         item_id = 172023.0,
         spell_id = 306421,
         icon = "inv_frostwolfhowler",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = ""
     },
     {
         name = "Illidari Doomhawk",
@@ -9005,8 +9005,8 @@ mounts = {
         item_id = 186469.0,
         spell_id = 62048,
         icon = "ability_hunter_pet_dragonhawk",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Azure Worldchiller",
@@ -9014,8 +9014,8 @@ mounts = {
         item_id = 208572.0,
         spell_id = 420097,
         icon = "5260432",
-        skeleton_type = "Unknown Skeleton",
-        color = "Azure"
+        skeleton_type = "",
+        color = "blue"
     },
     {
         name = "Swift Zhevra",
@@ -9023,8 +9023,8 @@ mounts = {
         item_id = 37719.0,
         spell_id = 49322,
         icon = "ability_mount_charger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Celestial Steed",
@@ -9032,8 +9032,8 @@ mounts = {
         item_id = 54811.0,
         spell_id = 75614,
         icon = "ability_mount_celestialhorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "X-53 Touring Rocket",
@@ -9041,8 +9041,8 @@ mounts = {
         item_id = 54860.0,
         spell_id = 75973,
         icon = "ability_mount_rocketmount2",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Blazing Hippogryph",
@@ -9050,8 +9050,8 @@ mounts = {
         item_id = 54069.0,
         spell_id = 74856,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "Spectral Wind Rider",
@@ -9059,8 +9059,8 @@ mounts = {
         item_id = 76902.0,
         spell_id = 107517,
         icon = "ability_mount_spectralwyvern",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Spectral Gryphon",
@@ -9068,8 +9068,8 @@ mounts = {
         item_id = 76889.0,
         spell_id = 107516,
         icon = "ability_mount_spectralgryphon",
-        skeleton_type = "Gryphon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Gryphon",
+        color = ""
     },
     {
         name = "Tyrael's Charger",
@@ -9077,8 +9077,8 @@ mounts = {
         item_id = 76755.0,
         spell_id = 107203,
         icon = "ability_mount_tyraelmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Cindermane Charger",
@@ -9086,8 +9086,8 @@ mounts = {
         item_id = 118515.0,
         spell_id = 171847,
         icon = "inv_lavahorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "The Dreadwake",
@@ -9095,8 +9095,8 @@ mounts = {
         item_id = 160589.0,
         spell_id = 272770,
         icon = "1998992",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Alabaster Stormtalon",
@@ -9104,8 +9104,8 @@ mounts = {
         item_id = 207964.0,
         spell_id = 302361,
         icon = "inv_encrypted21",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Alabaster Thunderwing",
@@ -9113,8 +9113,8 @@ mounts = {
         item_id = 207963.0,
         spell_id = 302362,
         icon = "inv_encrypted22",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ash'adar, Harbinger of Dawn",
@@ -9122,8 +9122,8 @@ mounts = {
         item_id = 190231.0,
         spell_id = 366962,
         icon = "ability_nightsaber2mountsunmoon",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Magenta Cloud Serpent",
@@ -9131,8 +9131,8 @@ mounts = {
         item_id = 189978.0,
         spell_id = 366647,
         icon = "inv_pandarenserpentmount_purple",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "purple",
     },
     {
         name = "Savage Green Battle Turtle",
@@ -9140,7 +9140,7 @@ mounts = {
         item_id = 190613.0,
         spell_id = 367826,
         icon = "inv_turtlemount2_01",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "turtle",
         color = "Green"
     },
     {
@@ -9149,8 +9149,8 @@ mounts = {
         item_id = 206976.0,
         spell_id = 414986,
         icon = "inv_aqirflyingmount_yellow",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "yellow",
     },
     {
         name = "Quawks",
@@ -9158,8 +9158,8 @@ mounts = {
         item_id = 190169.0,
         spell_id = 366790,
         icon = "inv_parrotmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Felcrystal Scorpion",
@@ -9167,8 +9167,8 @@ mounts = {
         item_id = 206027.0,
         spell_id = 411565,
         icon = "ability_mount_hordescorpiongreen",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "Ancestral Clefthoof",
@@ -9176,8 +9176,8 @@ mounts = {
         item_id = 207821.0,
         spell_id = 417245,
         icon = "inv_clefthoofdraenormount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Crusty Crawler",
@@ -9185,8 +9185,8 @@ mounts = {
         item_id = 190168.0,
         spell_id = 366789,
         icon = "inv_crabmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Coldflame Infernal",
@@ -9194,8 +9194,8 @@ mounts = {
         item_id = 137576.0,
         spell_id = 171840,
         icon = "inv_infernalmountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Eve's Ghastly Rider",
@@ -9203,8 +9203,8 @@ mounts = {
         item_id = 208598.0,
         spell_id = 419345,
         icon = "inv_broommount2_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Crimson Glimmerfur",
@@ -9212,8 +9212,8 @@ mounts = {
         item_id = 210919.0,
         spell_id = 427435,
         icon = "inv_fox2_darkred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Armored Golden Pterrordax",
@@ -9221,7 +9221,7 @@ mounts = {
         item_id = 190767.0,
         spell_id = 368126,
         icon = "inv_pterrordax2mount_gold",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -9230,8 +9230,8 @@ mounts = {
         item_id = 211074.0,
         spell_id = 428005,
         icon = "inv_scarabmount_copper",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Fur-endship Fox",
@@ -9239,8 +9239,8 @@ mounts = {
         item_id = 212227.0,
         spell_id = 431357,
         icon = "inv_lovefoxmount_pink",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "pink",
     },
     {
         name = "Majestic Azure Peafowl",
@@ -9248,8 +9248,8 @@ mounts = {
         item_id = 212630.0,
         spell_id = 432558,
         icon = "inv_peacockmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Azure"
+        skeleton_type = "",
+        color = "blue"
     },
     {
         name = "Savage Blue Battle Turtle",
@@ -9257,7 +9257,7 @@ mounts = {
         item_id = 212920.0,
         spell_id = 433281,
         icon = "inv_turtlemount2_01",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "turtle",
         color = "Blue"
     },
     {
@@ -9266,8 +9266,8 @@ mounts = {
         item_id = 192766.0,
         spell_id = 349943,
         icon = "inv_primaldragonflymount_orange",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "orange",
     },
     {
         name = "Pearlescent Goblin Wave Shredder",
@@ -9275,7 +9275,7 @@ mounts = {
         item_id = 221814.0,
         spell_id = 447413,
         icon = "inv_goblinsurfboardmount_white",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -9284,8 +9284,8 @@ mounts = {
         item_id = 223285.0,
         spell_id = 448851,
         icon = "inv_oldgodfishmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "moth",
+        color = "purple",
     },
     {
         name = "Sentinel War Wolf",
@@ -9293,8 +9293,8 @@ mounts = {
         item_id = 223469.0,
         spell_id = 449140,
         icon = "inv_alliancewolfmount2_white",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "white",
     },
     {
         name = "Kor'kron Warsaber",
@@ -9302,8 +9302,8 @@ mounts = {
         item_id = 223449.0,
         spell_id = 449126,
         icon = "inv_nightsaberhordemount_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "red",
     },
     {
         name = "Flarecore Infernal",
@@ -9311,8 +9311,8 @@ mounts = {
         item_id = 137615.0,
         spell_id = 213349,
         icon = "inv_infernalmountlava",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Coral-Stalker Waveray",
@@ -9320,8 +9320,8 @@ mounts = {
         item_id = 190539.0,
         spell_id = 367620,
         icon = "inv_sharkraymount_4",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "[PH] Goblin Surfboard - Blue",
@@ -9329,7 +9329,7 @@ mounts = {
         item_id = 221270.0,
         spell_id = 446352,
         icon = "inv_goblinsurfboardmount_blue",
-        skeleton_type = "Boar Skeleton",
+        skeleton_type = "Boar",
         color = "Blue"
     },
     {
@@ -9338,7 +9338,7 @@ mounts = {
         item_id = 223282.0,
         spell_id = 448845,
         icon = "inv_oldgodfishmount_blue",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Blue"
     },
     {
@@ -9347,8 +9347,8 @@ mounts = {
         item_id = 223284.0,
         spell_id = 448849,
         icon = "inv_oldgodfishmount_green",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "green",
     },
     {
         name = "[PH] Nightsaber Horde Mount Black",
@@ -9356,7 +9356,7 @@ mounts = {
         item_id = 223459.0,
         spell_id = 449132,
         icon = "inv_nightsaberhordemount_black",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "cat",
         color = "Black"
     },
     {
@@ -9365,7 +9365,7 @@ mounts = {
         item_id = 223460.0,
         spell_id = 449133,
         icon = "inv_nightsaberhordemount_white",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "cat",
         color = "White"
     },
     {
@@ -9374,8 +9374,8 @@ mounts = {
         item_id = 223470.0,
         spell_id = 449141,
         icon = "inv_alliancewolfmount2_red",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "red",
     },
     {
         name = "[PH] Alliance Wolf Mount",
@@ -9383,8 +9383,8 @@ mounts = {
         item_id = 223471.0,
         spell_id = 449142,
         icon = "inv_alliancewolfmount2_purple",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "purple",
     },
     {
         name = "Depthstalker",
@@ -9392,8 +9392,8 @@ mounts = {
         item_id = 187674.0,
         spell_id = 359380,
         icon = "ability_mount_progenitorjellyfish_dark",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Plunderlord's Midnight Crocolisk",
@@ -9401,8 +9401,8 @@ mounts = {
         item_id = 226042.0,
         spell_id = 457656,
         icon = "inv_treasurebasiliskmount_black",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Plunderlord's Weathered Crocolisk",
@@ -9410,7 +9410,7 @@ mounts = {
         item_id = 226044.0,
         spell_id = 457659,
         icon = "inv_treasurebasiliskmount_white",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -9419,8 +9419,8 @@ mounts = {
         item_id = 226506.0,
         spell_id = 459193,
         icon = "inv_mawguardhandmountwhite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hand",
+        color = "white",
     },
     {
         name = "Silver Tidestallion",
@@ -9428,7 +9428,7 @@ mounts = {
         item_id = nan,
         spell_id = 300154,
         icon = "inv_hippocampusmount_white",
-        skeleton_type = "Lion Skeleton",
+        skeleton_type = "Lion",
         color = "Silver"
     },
     {
@@ -9437,8 +9437,8 @@ mounts = {
         item_id = nan,
         spell_id = 254812,
         icon = "inv_parrotmount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Polly Roger",
@@ -9446,8 +9446,8 @@ mounts = {
         item_id = nan,
         spell_id = 437162,
         icon = "inv_parrotpiratemount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Jungle Riding Crane",
@@ -9455,8 +9455,8 @@ mounts = {
         item_id = 87784.0,
         spell_id = 127178,
         icon = "ability_mount_cranemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Kafa Yak",
@@ -9464,8 +9464,8 @@ mounts = {
         item_id = 84753.0,
         spell_id = 123182,
         icon = "ability_mount_yakmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "mammoth",
+        color = ""
     },
     {
         name = "Black Riding Yak",
@@ -9473,7 +9473,7 @@ mounts = {
         item_id = 87786.0,
         spell_id = 127209,
         icon = "ability_mount_yakmountblack",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "mammoth",
         color = "Black"
     },
     {
@@ -9482,8 +9482,8 @@ mounts = {
         item_id = 87787.0,
         spell_id = 127213,
         icon = "ability_mount_yakmountwhite",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "mammoth",
+        color = "white",
     },
     {
         name = "Golden Discus",
@@ -9491,7 +9491,7 @@ mounts = {
         item_id = 213576.0,
         spell_id = 435044,
         icon = "ability_mount_cloudmount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Golden"
     },
     {
@@ -9500,8 +9500,8 @@ mounts = {
         item_id = 213584.0,
         spell_id = 435082,
         icon = "ability_mount_cloudmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sky Surfer",
@@ -9509,8 +9509,8 @@ mounts = {
         item_id = 213582.0,
         spell_id = 435084,
         icon = "ability_mount_cloudmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Daystorm Windsteed",
@@ -9518,8 +9518,8 @@ mounts = {
         item_id = 213596.0,
         spell_id = 435108,
         icon = "ability_mount_swiftwindsteed",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Forest Windsteed",
@@ -9527,8 +9527,8 @@ mounts = {
         item_id = 213597.0,
         spell_id = 435107,
         icon = "ability_mount_swiftwindsteed",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Dashing Windsteed",
@@ -9536,8 +9536,8 @@ mounts = {
         item_id = 213598.0,
         spell_id = 435103,
         icon = "ability_mount_swiftwindsteed",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Feathered Windsurfer",
@@ -9545,7 +9545,7 @@ mounts = {
         item_id = 213595.0,
         spell_id = 435109,
         icon = "ability_mount_pandarenkitemount_yellow",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -9554,8 +9554,8 @@ mounts = {
         item_id = 213601.0,
         spell_id = 435115,
         icon = "ability_mount_quilenmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Marble Quilen",
@@ -9563,8 +9563,8 @@ mounts = {
         item_id = 213600.0,
         spell_id = 435118,
         icon = "ability_mount_quilenmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Gilded Riding Crane",
@@ -9572,8 +9572,8 @@ mounts = {
         item_id = 213602.0,
         spell_id = 435123,
         icon = "ability_mount_cranemountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Pale Riding Crane",
@@ -9581,8 +9581,8 @@ mounts = {
         item_id = 213603.0,
         spell_id = 435128,
         icon = "ability_mount_cranemountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Rose Riding Crane",
@@ -9590,8 +9590,8 @@ mounts = {
         item_id = 213605.0,
         spell_id = 435127,
         icon = "ability_mount_cranemountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Silver Riding Crane",
@@ -9599,7 +9599,7 @@ mounts = {
         item_id = 213606.0,
         spell_id = 435126,
         icon = "ability_mount_cranemountblue",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Silver"
     },
     {
@@ -9608,8 +9608,8 @@ mounts = {
         item_id = 213607.0,
         spell_id = 435124,
         icon = "ability_mount_cranemountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Tropical Riding Crane",
@@ -9617,8 +9617,8 @@ mounts = {
         item_id = 213604.0,
         spell_id = 435125,
         icon = "ability_mount_cranemountblue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Snowy Riding Goat",
@@ -9626,8 +9626,8 @@ mounts = {
         item_id = 213608.0,
         spell_id = 435131,
         icon = "ability_mount_goatmount",
-        skeleton_type = "Goat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Goat",
+        color = ""
     },
     {
         name = "Little Red Riding Goat",
@@ -9635,7 +9635,7 @@ mounts = {
         item_id = 213609.0,
         spell_id = 435133,
         icon = "ability_mount_goatmountdark_red",
-        skeleton_type = "Goat Skeleton",
+        skeleton_type = "Goat",
         color = "Red"
     },
     {
@@ -9644,8 +9644,8 @@ mounts = {
         item_id = 213623.0,
         spell_id = 435145,
         icon = "ability_mount_pterodactylmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Night Pterrorwing",
@@ -9653,8 +9653,8 @@ mounts = {
         item_id = 213622.0,
         spell_id = 435146,
         icon = "ability_mount_pterodactylmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Jade Pterrordax",
@@ -9662,8 +9662,8 @@ mounts = {
         item_id = 213621.0,
         spell_id = 435147,
         icon = "ability_mount_pterodactylmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Cobalt Juggernaut",
@@ -9671,8 +9671,8 @@ mounts = {
         item_id = 213624.0,
         spell_id = 435149,
         icon = "ability_mount_ironjuggernautmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Fel Iron Juggernaut",
@@ -9680,8 +9680,8 @@ mounts = {
         item_id = 213625.0,
         spell_id = 435150,
         icon = "ability_mount_ironjuggernautmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Purple Shado-Pan Riding Tiger",
@@ -9689,7 +9689,7 @@ mounts = {
         item_id = 213626.0,
         spell_id = 435153,
         icon = "ability_mount_siberiantigermount",
-        skeleton_type = "Tiger Skeleton",
+        skeleton_type = "Tiger",
         color = "Purple"
     },
     {
@@ -9698,8 +9698,8 @@ mounts = {
         item_id = 213628.0,
         spell_id = 435160,
         icon = "inv_mushanbeastmountblack",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "black",
     },
     {
         name = "Palehide Mushan Beast",
@@ -9707,8 +9707,8 @@ mounts = {
         item_id = 213627.0,
         spell_id = 435161,
         icon = "inv_mushanbeastmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Amber Pterrordax",
@@ -9716,8 +9716,8 @@ mounts = {
         item_id = 218111.0,
         spell_id = 441794,
         icon = "ability_mount_pterodactylmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "August Phoenix",
@@ -9725,8 +9725,8 @@ mounts = {
         item_id = 220766.0,
         spell_id = 446017,
         icon = "ability_mount_pandarenphoenix_white",
-        skeleton_type = "Phoenix Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Phoenix",
+        color = "white",
     },
     {
         name = "Astral Emperor's Serpent",
@@ -9734,8 +9734,8 @@ mounts = {
         item_id = 220768.0,
         spell_id = 446022,
         icon = "inv_celestialserpentmount_gold",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "gold",
     },
     {
         name = "Winged Guardian",
@@ -9743,8 +9743,8 @@ mounts = {
         item_id = 69846.0,
         spell_id = 98727,
         icon = "inv_mount_wingedlion",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Heart of the Aspects",
@@ -9752,8 +9752,8 @@ mounts = {
         item_id = 78924.0,
         spell_id = 110051,
         icon = "inv_dragonchromaticmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Imperial Quilen",
@@ -9761,8 +9761,8 @@ mounts = {
         item_id = 85870.0,
         spell_id = 124659,
         icon = "ability_mount_quilenflyingmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Swift Windsteed",
@@ -9770,8 +9770,8 @@ mounts = {
         item_id = 92724.0,
         spell_id = 134573,
         icon = "ability_mount_swiftwindsteed",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Armored Bloodwing",
@@ -9779,7 +9779,7 @@ mounts = {
         item_id = 95341.0,
         spell_id = 139595,
         icon = "ability_mount_epicbatmount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -9788,8 +9788,8 @@ mounts = {
         item_id = 97989.0,
         spell_id = 142878,
         icon = "inv_faeriedragonmount",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Dread Raven",
@@ -9797,8 +9797,8 @@ mounts = {
         item_id = 109013.0,
         spell_id = 155741,
         icon = "inv_ravenlordmount",
-        skeleton_type = "Bird Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Bird",
+        color = ""
     },
     {
         name = "Iron Skyreaver",
@@ -9806,8 +9806,8 @@ mounts = {
         item_id = 107951.0,
         spell_id = 153489,
         icon = "ability_mount_ironchimera",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Warforged Nightmare",
@@ -9815,8 +9815,8 @@ mounts = {
         item_id = 112326.0,
         spell_id = 163024,
         icon = "ability_mount_clockworkhorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Grinning Reaver",
@@ -9824,8 +9824,8 @@ mounts = {
         item_id = 112327.0,
         spell_id = 163025,
         icon = "ability_mount_ravager2mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mystic Runesaber",
@@ -9833,8 +9833,8 @@ mounts = {
         item_id = 122469.0,
         spell_id = 180545,
         icon = "inv_saber2mount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Luminous Starseeker",
@@ -9842,8 +9842,8 @@ mounts = {
         item_id = 147901.0,
         spell_id = 243512,
         icon = "inv_shadowstalkerpanthermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Shu-Zen, the Divine Sentinel",
@@ -9851,8 +9851,8 @@ mounts = {
         item_id = 156564.0,
         spell_id = 259395,
         icon = "inv_dogmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Vulpine Familiar",
@@ -9860,8 +9860,8 @@ mounts = {
         item_id = 166775.0,
         spell_id = 290133,
         icon = "2495963",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Hogrus, Swine of Good Fortune",
@@ -9869,8 +9869,8 @@ mounts = {
         item_id = 166774.0,
         spell_id = 290134,
         icon = "inv_encrypted06",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sylverian Dreamer",
@@ -9878,8 +9878,8 @@ mounts = {
         item_id = 166776.0,
         spell_id = 290132,
         icon = "2493157",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Squeakers, the Trickster",
@@ -9887,8 +9887,8 @@ mounts = {
         item_id = nan,
         spell_id = 308078,
         icon = "3016707",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ensorcelled Everwyrm",
@@ -9896,8 +9896,8 @@ mounts = {
         item_id = nan,
         spell_id = 307932,
         icon = "3040844",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Steamscale Incinerator",
@@ -9905,8 +9905,8 @@ mounts = {
         item_id = nan,
         spell_id = 326390,
         icon = "2843118",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "rat",
+        color = ""
     },
     {
         name = "Lucky Yun",
@@ -9914,8 +9914,8 @@ mounts = {
         item_id = nan,
         spell_id = 308087,
         icon = "inv_oxmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sapphire Skyblazer",
@@ -9923,8 +9923,8 @@ mounts = {
         item_id = nan,
         spell_id = 347812,
         icon = "3851476",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Viridian Phase-Hunter",
@@ -9932,8 +9932,8 @@ mounts = {
         item_id = nan,
         spell_id = 346136,
         icon = "inv_warpstalkermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sunwarmed Furline",
@@ -9941,8 +9941,8 @@ mounts = {
         item_id = nan,
         spell_id = 317177,
         icon = "3232104",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Wen Lo, the River's Edge",
@@ -9950,8 +9950,8 @@ mounts = {
         item_id = nan,
         spell_id = 359317,
         icon = "4180079",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Tangled Dreamweaver",
@@ -9959,8 +9959,8 @@ mounts = {
         item_id = nan,
         spell_id = 359843,
         icon = "4096390",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Nether-Gorged Greatwyrm",
@@ -9968,8 +9968,8 @@ mounts = {
         item_id = 190581.0,
         spell_id = 367676,
         icon = "4323958",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Jade, Bright Foreseer",
@@ -9977,8 +9977,8 @@ mounts = {
         item_id = nan,
         spell_id = 369451,
         icon = "inv_rabbitmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Wondrous Wavewhisker",
@@ -9986,8 +9986,8 @@ mounts = {
         item_id = 206167.0,
         spell_id = 397406,
         icon = "5059959",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Armored Siege Kodo",
@@ -9995,7 +9995,7 @@ mounts = {
         item_id = 190636.0,
         spell_id = 367875,
         icon = "inv_kodomount",
-        skeleton_type = "Kodo Skeleton",
+        skeleton_type = "Kodo",
         color = "Red"
     },
     {
@@ -10004,8 +10004,8 @@ mounts = {
         item_id = nan,
         spell_id = 418286,
         icon = "5140802",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Twilight Sky Prowler",
@@ -10013,8 +10013,8 @@ mounts = {
         item_id = 212229.0,
         spell_id = 431360,
         icon = "inv_lovefoxmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Charming Courier",
@@ -10022,8 +10022,8 @@ mounts = {
         item_id = 219450.0,
         spell_id = 443660,
         icon = "5633768",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Gigantic Grrloc",
@@ -10031,8 +10031,8 @@ mounts = {
         item_id = 228751.0,
         spell_id = 463025,
         icon = "5901800",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Big Blizzard Bear",
@@ -10040,8 +10040,8 @@ mounts = {
         item_id = 43599.0,
         spell_id = 58983,
         icon = "ability_mount_bigblizzardbear",
-        skeleton_type = "Bear Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bear",
+        color = ""
     },
     {
         name = "Stormwind Skychaser",
@@ -10049,8 +10049,8 @@ mounts = {
         item_id = 151618.0,
         spell_id = 245723,
         icon = "inv_allianceshipmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Orgrimmar Interceptor",
@@ -10058,8 +10058,8 @@ mounts = {
         item_id = 151617.0,
         spell_id = 245725,
         icon = "inv_hordezeppelinmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Bound Blizzard",
@@ -10067,8 +10067,8 @@ mounts = {
         item_id = nan,
         spell_id = 358072,
         icon = "4054329",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Wandering Ancient",
@@ -10076,8 +10076,8 @@ mounts = {
         item_id = nan,
         spell_id = 348162,
         icon = "3939983",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Illidari Felstalker",
@@ -10085,8 +10085,8 @@ mounts = {
         item_id = 128425.0,
         spell_id = 189998,
         icon = "inv_felstalkermount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Seabraid Stallion",
@@ -10094,8 +10094,8 @@ mounts = {
         item_id = 153539.0,
         spell_id = 255695,
         icon = "inv_dressedhorse",
-        skeleton_type = "Lion Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Lion",
+        color = ""
     },
     {
         name = "Gilded Ravasaur",
@@ -10103,8 +10103,8 @@ mounts = {
         item_id = 153540.0,
         spell_id = 255696,
         icon = "inv_armoredraptor",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Algarian Stormrider",
@@ -10112,8 +10112,8 @@ mounts = {
         item_id = nan,
         spell_id = 417888,
         icon = "5306251",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Tuskarr Shoreglider",
@@ -10121,8 +10121,8 @@ mounts = {
         item_id = nan,
         spell_id = 370770,
         icon = "inv_tuskarrglider",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "kite",
+        color = ""
     },
     {
         name = "Frostbrood Proto-Wyrm",
@@ -10130,8 +10130,8 @@ mounts = {
         item_id = nan,
         spell_id = 386452,
         icon = "inv_protodragonfrostwyrm",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Runebound Firelord",
@@ -10139,8 +10139,8 @@ mounts = {
         item_id = 210008.0,
         spell_id = 424009,
         icon = "5332199",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Snowstorm",
@@ -10148,8 +10148,8 @@ mounts = {
         item_id = nan,
         spell_id = 341821,
         icon = "3753812",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Primal Flamesaber",
@@ -10157,8 +10157,8 @@ mounts = {
         item_id = 143631.0,
         spell_id = 232405,
         icon = "inv_firecatmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Hearthsteed",
@@ -10166,8 +10166,8 @@ mounts = {
         item_id = 98618.0,
         spell_id = 142073,
         icon = "inv_pegasusmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Sarge's Tale",
@@ -10175,8 +10175,8 @@ mounts = {
         item_id = nan,
         spell_id = 356488,
         icon = "4178535",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Fiery Hearthsteed",
@@ -10184,8 +10184,8 @@ mounts = {
         item_id = 163186.0,
         spell_id = 278966,
         icon = "inv_pegasusmountred",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Compass Rose",
@@ -10193,8 +10193,8 @@ mounts = {
         item_id = 212522.0,
         spell_id = 431992,
         icon = "inv_hearthstonemount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Meat Wagon",
@@ -10202,8 +10202,8 @@ mounts = {
         item_id = 164571.0,
         spell_id = 281554,
         icon = "2147656",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Amalgam of Rage",
@@ -10211,8 +10211,8 @@ mounts = {
         item_id = 191114.0,
         spell_id = 369476,
         icon = "inv_cerberusmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Obsidian Nightwing",
@@ -10220,8 +10220,8 @@ mounts = {
         item_id = 83086.0,
         spell_id = 121820,
         icon = "inv_misc_reforgedarchstone_01",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Emerald Hippogryph",
@@ -10229,8 +10229,8 @@ mounts = {
         item_id = 106246.0,
         spell_id = 149801,
         icon = "inv_misc_elitehippogryph",
-        skeleton_type = "Unknown Skeleton",
-        color = "Emerald"
+        skeleton_type = "hippogryph",
+        color = "green"
     },
     {
         name = "Explorer's Dunetrekker",
@@ -10238,8 +10238,8 @@ mounts = {
         item_id = 173297.0,
         spell_id = 307263,
         icon = "inv_camelmount2",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Explorer's Jungle Hopper",
@@ -10247,8 +10247,8 @@ mounts = {
         item_id = 173299.0,
         spell_id = 307256,
         icon = "inv_explorergyrocopter",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Rocket Shredder 9001",
@@ -10256,7 +10256,7 @@ mounts = {
         item_id = 204091.0,
         spell_id = 400733,
         icon = "inv_goblinshredderrocketmount",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Red"
     },
     {
@@ -10265,8 +10265,8 @@ mounts = {
         item_id = 116789.0,
         spell_id = 171846,
         icon = "inv_chopper_alliance",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Warlord's Deathwheel",
@@ -10274,8 +10274,8 @@ mounts = {
         item_id = 116788.0,
         spell_id = 171845,
         icon = "inv_chopper_horde",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Savage Ebony Battle Turtle",
@@ -10283,8 +10283,8 @@ mounts = {
         item_id = 224574.0,
         spell_id = 453255,
         icon = "inv_turtlemount2_dark",
-        skeleton_type = "Bat Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "turtle",
+        color = ""
     },
     {
         name = "Spectral Tiger",
@@ -10292,8 +10292,8 @@ mounts = {
         item_id = 49283.0,
         spell_id = 42776,
         icon = "ability_mount_spectraltiger",
-        skeleton_type = "Tiger Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Tiger",
+        color = ""
     },
     {
         name = "Swift Spectral Tiger",
@@ -10301,8 +10301,8 @@ mounts = {
         item_id = 49284.0,
         spell_id = 42777,
         icon = "ability_mount_spectraltiger",
-        skeleton_type = "Tiger Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Tiger",
+        color = ""
     },
     {
         name = "X-51 Nether-Rocket",
@@ -10310,8 +10310,8 @@ mounts = {
         item_id = 49285.0,
         spell_id = 46197,
         icon = "inv_misc_missilesmall_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Wooly White Rhino",
@@ -10319,7 +10319,7 @@ mounts = {
         item_id = 54068.0,
         spell_id = 74918,
         icon = "ability_hunter_pet_rhino",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "White"
     },
     {
@@ -10328,8 +10328,8 @@ mounts = {
         item_id = 49286.0,
         spell_id = 46199,
         icon = "inv_misc_missilesmall_red",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "red",
     },
     {
         name = "Big Battle Bear",
@@ -10337,8 +10337,8 @@ mounts = {
         item_id = 49282.0,
         spell_id = 51412,
         icon = "ability_druid_challangingroar",
-        skeleton_type = "Bear Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bear",
+        color = ""
     },
     {
         name = "Magic Rooster",
@@ -10346,8 +10346,8 @@ mounts = {
         item_id = 49290.0,
         spell_id = 65917,
         icon = "inv_egg_03",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mottled Drake",
@@ -10355,8 +10355,8 @@ mounts = {
         item_id = 68008.0,
         spell_id = 93623,
         icon = "ability_mount_drake_bronze",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Savage Raptor",
@@ -10364,8 +10364,8 @@ mounts = {
         item_id = 69228.0,
         spell_id = 97581,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Amani Dragonhawk",
@@ -10373,8 +10373,8 @@ mounts = {
         item_id = 68825.0,
         spell_id = 96503,
         icon = "ability_hunter_pet_dragonhawk",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Dragon",
+        color = ""
     },
     {
         name = "Swift Shorestrider",
@@ -10382,8 +10382,8 @@ mounts = {
         item_id = 71718.0,
         spell_id = 101573,
         icon = "ability_hunter_pet_tallstrider",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Corrupted Hippogryph",
@@ -10391,8 +10391,8 @@ mounts = {
         item_id = 72582.0,
         spell_id = 102514,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "hippogryph",
+        color = ""
     },
     {
         name = "White Riding Camel",
@@ -10400,7 +10400,7 @@ mounts = {
         item_id = 72575.0,
         spell_id = 102488,
         icon = "ability_mount_camel_gray",
-        skeleton_type = "Camel Skeleton",
+        skeleton_type = "Camel",
         color = "White"
     },
     {
@@ -10409,8 +10409,8 @@ mounts = {
         item_id = 79771.0,
         spell_id = 113120,
         icon = "ability_mount_feldrake",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Gargantuan Grrloc",
@@ -10418,8 +10418,8 @@ mounts = {
         item_id = nan,
         spell_id = 315132,
         icon = "inv_murlocmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Telix the Stormhorn",
@@ -10427,8 +10427,8 @@ mounts = {
         item_id = nan,
         spell_id = 381529,
         icon = "inv_beetleprimalmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Ginormous Grrloc",
@@ -10436,8 +10436,8 @@ mounts = {
         item_id = nan,
         spell_id = 419567,
         icon = "inv_murlocmount_purple",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "purple",
     },
     {
         name = "Gleaming Moonbeast",
@@ -10445,8 +10445,8 @@ mounts = {
         item_id = 203727.0,
         spell_id = 400976,
         icon = "inv_magicalowlbearmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Warhorse",
@@ -10454,8 +10454,8 @@ mounts = {
         item_id = nan,
         spell_id = 13819,
         icon = "Spell_Nature_Swiftness",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Charger",
@@ -10463,8 +10463,8 @@ mounts = {
         item_id = nan,
         spell_id = 23214,
         icon = "Ability_Mount_Charger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Thalassian Warhorse",
@@ -10472,8 +10472,8 @@ mounts = {
         item_id = nan,
         spell_id = 34769,
         icon = "Spell_Nature_Swiftness",
-        skeleton_type = "Horse Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Horse",
+        color = ""
     },
     {
         name = "Thalassian Charger",
@@ -10481,8 +10481,8 @@ mounts = {
         item_id = nan,
         spell_id = 34767,
         icon = "Ability_Mount_Charger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Argent Charger",
@@ -10490,8 +10490,8 @@ mounts = {
         item_id = 47179.0,
         spell_id = 66906,
         icon = "Ability_Mount_Charger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Sunwalker Kodo",
@@ -10499,8 +10499,8 @@ mounts = {
         item_id = nan,
         spell_id = 69820,
         icon = "Ability_Mount_Kodo_03",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Great Sunwalker Kodo",
@@ -10508,8 +10508,8 @@ mounts = {
         item_id = nan,
         spell_id = 69826,
         icon = "ability_mount_kodosunwalkerelite",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Exarch's Elekk",
@@ -10517,8 +10517,8 @@ mounts = {
         item_id = nan,
         spell_id = 73629,
         icon = "Spell_Nature_Swiftness",
-        skeleton_type = "Elekk Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Elekk",
+        color = ""
     },
     {
         name = "Great Exarch's Elekk",
@@ -10526,8 +10526,8 @@ mounts = {
         item_id = nan,
         spell_id = 73630,
         icon = "Ability_Mount_Charger",
-        skeleton_type = "Elekk Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Elekk",
+        color = ""
     },
     {
         name = "Crusader's Direhorn",
@@ -10535,8 +10535,8 @@ mounts = {
         item_id = nan,
         spell_id = 290608,
         icon = "inv_zandalaripaladinmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Darkforge Ram",
@@ -10544,8 +10544,8 @@ mounts = {
         item_id = nan,
         spell_id = 270562,
         icon = "inv_dwarfpaladinram_red",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = "red",
     },
     {
         name = "Dawnforge Ram",
@@ -10553,8 +10553,8 @@ mounts = {
         item_id = nan,
         spell_id = 270564,
         icon = "inv_dwarfpaladinram_gold",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = "gold",
     },
     {
         name = "Lightforged Ruinstrider",
@@ -10562,8 +10562,8 @@ mounts = {
         item_id = nan,
         spell_id = 363613,
         icon = "inv_lightforgedtalbuk",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "stag",
+        color = ""
     },
     {
         name = "Earthen Ordinant's Ramolith",
@@ -10571,8 +10571,8 @@ mounts = {
         item_id = nan,
         spell_id = 453785,
         icon = "inv_earthenpaladinmount",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Felsaber",
@@ -10580,8 +10580,8 @@ mounts = {
         item_id = nan,
         spell_id = 200175,
         icon = "inv_dhmount_felsaber",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = ""
     },
     {
         name = "Felsteed",
@@ -10589,8 +10589,8 @@ mounts = {
         item_id = nan,
         spell_id = 5784,
         icon = "Spell_Nature_Swiftness",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Dreadsteed",
@@ -10598,8 +10598,8 @@ mounts = {
         item_id = nan,
         spell_id = 23161,
         icon = "Ability_Mount_Dreadsteed",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Acherus Deathcharger",
@@ -10607,8 +10607,8 @@ mounts = {
         item_id = nan,
         spell_id = 48778,
         icon = "Spell_DeathKnight_SummonDeathCharger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "horse",
+        color = ""
     },
     {
         name = "Winged Steed of the Ebon Blade",
@@ -10616,8 +10616,8 @@ mounts = {
         item_id = 40775.0,
         spell_id = 54729,
         icon = "ability_mount_ebonblade",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Dark Phoenix",
@@ -10625,8 +10625,8 @@ mounts = {
         item_id = 63125.0,
         spell_id = 88990,
         icon = "inv_mount_darkphoenixa",
-        skeleton_type = "Phoenix Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Phoenix",
+        color = ""
     },
     {
         name = "Golden King",
@@ -10634,7 +10634,7 @@ mounts = {
         item_id = 62298.0,
         spell_id = 90621,
         icon = "inv_mount_allianceliong",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Golden"
     },
     {
@@ -10643,8 +10643,8 @@ mounts = {
         item_id = 67107.0,
         spell_id = 93644,
         icon = "inv_mount_hordescorpiong",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Thundering Jade Cloud Serpent",
@@ -10652,8 +10652,8 @@ mounts = {
         item_id = 85666.0,
         spell_id = 124408,
         icon = "inv_pandarenserpentmount_lightning_green",
-        skeleton_type = "Serpent Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Serpent",
+        color = "green",
     },
     {
         name = "Blacksteel Battleboar",
@@ -10661,7 +10661,7 @@ mounts = {
         item_id = 116666.0,
         spell_id = 171627,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar Skeleton",
+        skeleton_type = "Boar",
         color = "Black"
     },
     {
@@ -10670,7 +10670,7 @@ mounts = {
         item_id = 211084.0,
         spell_id = 428060,
         icon = "inv_scarabmount_gold",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Golden"
     },
     {
@@ -10679,8 +10679,8 @@ mounts = {
         item_id = 19872.0,
         spell_id = 24242,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Swift Zulian Tiger",
@@ -10688,8 +10688,8 @@ mounts = {
         item_id = 19902.0,
         spell_id = 24252,
         icon = "ability_mount_jungletiger",
-        skeleton_type = "Tiger Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Tiger",
+        color = ""
     },
     {
         name = "Plagued Proto-Drake",
@@ -10697,8 +10697,8 @@ mounts = {
         item_id = 44175.0,
         spell_id = 60021,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "Dragon Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "drake",
+        color = ""
     },
     {
         name = "Core Hound",
@@ -10706,8 +10706,8 @@ mounts = {
         item_id = 115484.0,
         spell_id = 170347,
         icon = "ability_hunter_pet_corehound",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Mighty Caravan Brutosaur",
@@ -10715,8 +10715,8 @@ mounts = {
         item_id = 163042.0,
         spell_id = 264058,
         icon = "inv_brontosaurusmount",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Obsidian Worldbreaker",
@@ -10724,8 +10724,8 @@ mounts = {
         item_id = 172012.0,
         spell_id = 294197,
         icon = "2734740",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Black Qiraji Battle Tank",
@@ -10733,7 +10733,7 @@ mounts = {
         item_id = 21176.0,
         spell_id = 26656,
         icon = "inv_misc_qirajicrystal_05",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Black"
     },
     {
@@ -10742,7 +10742,7 @@ mounts = {
         item_id = nan,
         spell_id = 25863,
         icon = "inv_misc_qirajicrystal_05",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Black"
     },
     {
@@ -10751,7 +10751,7 @@ mounts = {
         item_id = nan,
         spell_id = 26655,
         icon = "inv_misc_qirajicrystal_05",
-        skeleton_type = "Bat Skeleton",
+        skeleton_type = "Bat",
         color = "Black"
     },
     {
@@ -10760,7 +10760,7 @@ mounts = {
         item_id = nan,
         spell_id = 239770,
         icon = "inv_ridingsilithid2",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "",
         color = "Black"
     },
     {
@@ -10769,7 +10769,7 @@ mounts = {
         item_id = 13328.0,
         spell_id = 17461,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
+        skeleton_type = "Ram",
         color = "Black"
     },
     {
@@ -10778,8 +10778,8 @@ mounts = {
         item_id = 13329.0,
         spell_id = 17460,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Ram",
+        color = ""
     },
     {
         name = "Icy Blue Mechanostrider Mod A",
@@ -10787,7 +10787,7 @@ mounts = {
         item_id = 13327.0,
         spell_id = 17459,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
+        skeleton_type = "Mechanostrider",
         color = "Blue"
     },
     {
@@ -10796,7 +10796,7 @@ mounts = {
         item_id = 13326.0,
         spell_id = 15779,
         icon = "ability_mount_mechastrider",
-        skeleton_type = "Mechanostrider Skeleton",
+        skeleton_type = "Mechanostrider",
         color = "White"
     },
     {
@@ -10805,8 +10805,8 @@ mounts = {
         item_id = 12354.0,
         spell_id = 16082,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "White Stallion",
@@ -10814,7 +10814,7 @@ mounts = {
         item_id = 12353.0,
         spell_id = 16083,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "Lion Skeleton",
+        skeleton_type = "Lion",
         color = "White"
     },
     {
@@ -10823,8 +10823,8 @@ mounts = {
         item_id = 12302.0,
         spell_id = 16056,
         icon = "ability_mount_whitetiger",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "cat",
+        color = "white",
     },
     {
         name = "Black Nightsaber",
@@ -10832,7 +10832,7 @@ mounts = {
         item_id = 12303.0,
         spell_id = 16055,
         icon = "ability_mount_blackpanther",
-        skeleton_type = "Unknown Skeleton",
+        skeleton_type = "cat",
         color = "Black"
     },
     {
@@ -10841,8 +10841,8 @@ mounts = {
         item_id = 12351.0,
         spell_id = 16081,
         icon = "ability_mount_whitedirewolf",
-        skeleton_type = "Wolf Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Wolf",
+        color = "white",
     },
     {
         name = "Red Wolf",
@@ -10850,7 +10850,7 @@ mounts = {
         item_id = 12330.0,
         spell_id = 16080,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "Wolf Skeleton",
+        skeleton_type = "Wolf",
         color = "Red"
     },
     {
@@ -10859,7 +10859,7 @@ mounts = {
         item_id = 15292.0,
         spell_id = 18991,
         icon = "ability_mount_kodo_02",
-        skeleton_type = "Kodo Skeleton",
+        skeleton_type = "Kodo",
         color = "Green"
     },
     {
@@ -10868,8 +10868,8 @@ mounts = {
         item_id = 15293.0,
         spell_id = 18992,
         icon = "ability_mount_kodo_02",
-        skeleton_type = "Kodo Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Kodo",
+        color = ""
     },
     {
         name = "Ivory Raptor",
@@ -10877,8 +10877,8 @@ mounts = {
         item_id = 13317.0,
         spell_id = 17450,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "raptor",
+        color = ""
     },
     {
         name = "Mottled Red Raptor",
@@ -10886,7 +10886,7 @@ mounts = {
         item_id = 8586.0,
         spell_id = 16084,
         icon = "ability_mount_raptor",
-        skeleton_type = "Raptor Skeleton",
+        skeleton_type = "raptor",
         color = "Red"
     },
     {
@@ -10895,8 +10895,8 @@ mounts = {
         item_id = 8630.0,
         spell_id = 10790,
         icon = "ability_mount_jungletiger",
-        skeleton_type = "Tiger Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "Tiger",
+        color = ""
     },
     {
         name = "Whelpling",
@@ -10904,8 +10904,8 @@ mounts = {
         item_id = nan,
         spell_id = 395095,
         icon = "inv_companionprotodragon",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = ""
     },
     {
         name = "Cerulean Marsh Hopper",
@@ -10913,8 +10913,8 @@ mounts = {
         item_id = 191094.0,
         spell_id = 369480,
         icon = "ivn_toadloamount_blue",
-        skeleton_type = "Unknown Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "",
+        color = "blue",
     },
     {
         name = "Harmonious Salutations Bear",
@@ -10922,7 +10922,7 @@ mounts = {
         item_id = 229128.0,
         spell_id = 464443,
         icon = "5905031",
-        skeleton_type = "Bear Skeleton",
-        color = "Unknown Color"
+        skeleton_type = "bear",
+        color = ""
     },
 }

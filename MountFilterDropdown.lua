@@ -20,24 +20,34 @@ local function initializeColorDropdown(self, level)
     info.text, info.value = "All", "All"
     UIDropDownMenu_AddButton(info, level)
 
-    -- Collect all unique colors from the mounts data
-    local colors = {}
+    -- Collect all unique colors from the mounts data, case-insensitively
+    local colorSet = {}
     for _, mount in ipairs(mounts) do
-        if mount.color and mount.color ~= "Unknown Color" then
-            colors[mount.color] = true
+        if mount.color and mount.color ~= "" then
+            local lowerColor = string.lower(mount.color)
+            colorSet[lowerColor] = mount.color  -- Store the original case
         end
     end
 
+    -- Convert the set of colors to a list
+    local colors = {}
+    for _, originalColor in pairs(colorSet) do
+        table.insert(colors, originalColor)
+    end
+
+    -- Sort the colors alphabetically
+    table.sort(colors)
+
     -- Add each unique color to the dropdown
-    for color in pairs(colors) do
+    for _, color in ipairs(colors) do  -- Use ipairs to correctly iterate over the sorted list
         info.text, info.value = color, color
         UIDropDownMenu_AddButton(info, level)
     end
+
 end
 
 -- Initialize the dropdown
 UIDropDownMenu_Initialize(colorDropdown, initializeColorDropdown)
-
 
 local function findMountByID(id)
     for _, mount in ipairs(mounts) do
@@ -52,6 +62,9 @@ end
 function filterMounts(color)
     local filteredMounts = {}
 
+    -- Convert the input color to lowercase for case-insensitive comparison
+    local colorLower = string.lower(color)
+
     -- Iterate over all mounts in the journal
     local displayedMounts = C_MountJournal.GetMountIDs()
 
@@ -59,12 +72,13 @@ function filterMounts(color)
         local mountID = displayedMounts[i]
         local name, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal.GetMountInfoByID(mountID)
         
-        --local isUsable = C_MountJournal.GetMountUsabilityByID(mountID, false)
-        
         if isUsable and isCollected then
             local mountColor = findMountByID(mountID).color
+            
+            -- Convert mountColor to lowercase for case-insensitive comparison
+            local mountColorLower = string.lower(mountColor)
         
-            if color == "All" or mountColor == color then
+            if colorLower == "all" or mountColorLower == colorLower then
                 table.insert(filteredMounts, { id = mountID, name = name, color = mountColor })
             end
         end
