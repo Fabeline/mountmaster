@@ -48,6 +48,8 @@ local function initializeSkeletonDropdown(self, level)
         UIDropDownMenu_AddButton(info, level)
     end
 
+    UIDropDownMenu_SetSelectedValue(skeletonDropdown, selectedSkeleton)
+    UIDropDownMenu_SetText(skeletonDropdown, selectedSkeleton)
 end
 
 -- Populate the dropdown menu with colors
@@ -88,6 +90,8 @@ local function initializeColorDropdown(self, level)
         UIDropDownMenu_AddButton(info, level)
     end
 
+    UIDropDownMenu_SetSelectedValue(colorDropdown, selectedColor)
+    UIDropDownMenu_SetText(colorDropdown, selectedColor)
 end
 
 -- Initialize the dropdown

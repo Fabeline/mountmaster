@@ -11,6 +11,8 @@ local function InitializeConfig()
 
     selectedColor = MountSelectorCharacterConfig.lastSelectedColor or "All"
     selectedSkeleton = MountSelectorCharacterConfig.lastSelectedSkeleton or "All"
+    print("Selected Color:", selectedColor)
+    print("Selected Skeleton:", selectedSkeleton)
 end
 
 -- Function to save the selected color filter
@@ -34,6 +36,8 @@ local function OnEvent(self, event, ...)
     if event == "PLAYER_LOGIN" then
         InitializeConfig()
         renderMounts()
+        UIDropDownMenu_SetText(skeletonDropdown, selectedSkeleton)
+        UIDropDownMenu_SetText(colorDropdown, selectedColor)
     end
 end
 
