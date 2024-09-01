@@ -2,10 +2,12 @@
 ## Version: 0.1.0
 ## Title: MountSelector
 ## Author: Fabel
+## SavedVariablesPerCharacter: MountSelectorCharacterConfig
 
 Libs\LibDBIcon-1.0\LibDataBroker-1.1\LibDataBroker-1.1.lua
 Libs\LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
 mounts.lua
+MountSelectorConfig.lua
 ContentFrame.lua
 MountFilterDropdown.lua
 MountSelector.lua

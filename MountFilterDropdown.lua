@@ -62,7 +62,7 @@ function filterMounts(color)
         local mountID = displayedMounts[i]
         local name, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal.GetMountInfoByID(mountID)
         
-        local isUsable = C_MountJournal.GetMountUsabilityByID(mountID, false)
+        --local isUsable = C_MountJournal.GetMountUsabilityByID(mountID, false)
         
         if isUsable and isCollected then
             local mountColor = findMountByID(mountID).color

@@ -58,16 +58,6 @@ local function createMountButtons(mountList)
             C_MountJournal.SummonByID(mount.id)
         end)
 
-        -- Show tooltip with mount name on hover
-        iconButton:SetScript("OnEnter", function(self)
-            GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-            GameTooltip:SetText(mount.name)
-            GameTooltip:Show()
-        end)
-        iconButton:SetScript("OnLeave", function(self)
-            GameTooltip:Hide()
-        end)
-
         -- Create text for the mount name
         local mountText = contentFrame:CreateFontString(nil, "OVERLAY")
         mountText:SetFontObject("GameFontNormal")
@@ -77,9 +67,9 @@ local function createMountButtons(mountList)
 
     -- Add a button to summon a random mount from the visible list
     local randomMountButton = CreateFrame("Button", "RandomMountButton", mountSelectorFrame, "UIPanelButtonTemplate")
-    randomMountButton:SetSize(130, 22)
+    randomMountButton:SetSize(120, 22)
     randomMountButton:SetPoint("BOTTOM", mountSelectorFrame, "BOTTOM", 0, 10)
-    randomMountButton:SetText("Random Mount (K)")
+    randomMountButton:SetText("Random Mount")
 
     randomMountButton:SetScript("OnClick", function()
         if #visibleMounts > 0 then
@@ -96,12 +86,12 @@ end
 
 -- Function to render mounts after filtering
 function renderMounts(color)
+    -- Save the selected color filter
+    SaveColorFilter(color)
+
     -- Get the filtered list of mounts
     local filteredMounts = filterMounts(color)
 
     -- Render only the filtered mounts
     createMountButtons(filteredMounts)
 end
-
--- Initial population of buttons
-renderMounts("All")
