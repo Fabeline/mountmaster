@@ -10,14 +10,12 @@ skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", UIParent, "UID
 UIDropDownMenu_SetWidth(skeletonDropdown, 150)
 UIDropDownMenu_SetText(skeletonDropdown, "Select Skeleton")
 
-selectedColor = "All"
-selectedSkeleton = "All"
-
 -- Populate the dropdown menu with skeleton types
 local function initializeSkeletonDropdown(self, level)
     local info = UIDropDownMenu_CreateInfo()
     info.func = function(self)
         selectedSkeleton = self.value
+        SaveSkeletonFilter(selectedSkeleton)
         UIDropDownMenu_SetText(skeletonDropdown, selectedSkeleton)
         renderMounts()  -- Re-render mounts when a new filter is selected
     end
@@ -29,7 +27,7 @@ local function initializeSkeletonDropdown(self, level)
     -- Collect all unique skeleton types from the mounts data, case-insensitively
     local skeletonSet = {}
     for _, mount in ipairs(mounts) do
-        if mount.skeleton_type then
+        if mount.skeleton_type and mount.skeleton_type ~= "" then
             local lowerSkeleton = string.lower(mount.skeleton_type)
             skeletonSet[lowerSkeleton] = mount.skeleton_type  -- Store the original case
         end
@@ -57,6 +55,7 @@ local function initializeColorDropdown(self, level)
     local info = UIDropDownMenu_CreateInfo()
     info.func = function(self)
         selectedColor = self.value
+        SaveColorFilter(selectedColor)
         UIDropDownMenu_SetText(colorDropdown, selectedColor)
         renderMounts()  -- Re-render mounts when a new filter is selected
     end

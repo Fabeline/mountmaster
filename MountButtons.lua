@@ -40,8 +40,8 @@ local function filterMounts()
 
             if mountInfo then
                 -- Debugging output to check the retrieved skeleton type
-                print("Mount Name:", name)
-                print("Skeleton Type:", mountInfo.skeleton_type)
+                --print("Mount Name:", name)
+                --print("Skeleton Type:", mountInfo.skeleton_type)
 
                 -- Use lower-case comparisons only if color and skeleton exist
                 local colorMatches = (selectedColor == "All") or (mountInfo.color and string.lower(mountInfo.color) == string.lower(selectedColor))
@@ -50,7 +50,7 @@ local function filterMounts()
                 if colorMatches and skeletonMatches then
                     local canFly = isMountFlying(mountType)
 
-                    print("Mount:", name, "Can fly:", canFly, "Type ID:", mountType, "Skeleton Matches:", skeletonMatches)
+                    --print("Mount:", name, "Can fly:", canFly, "Type ID:", mountType, "Skeleton Matches:", skeletonMatches)
                     table.insert(filteredMounts, {
                         id = mountID,
                         name = name,
@@ -87,7 +87,7 @@ local function createMountButtons(mountList)
         -- Create a texture for the mount icon
         local mountIcon = contentFrame:CreateTexture(nil, "ARTWORK")
         mountIcon:SetSize(32, 32)  -- Set icon size
-        mountIcon:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 10, -30 - (i-1) * lineheight)
+        mountIcon:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 10, -10 - (i-1) * lineheight)
         mountIcon:SetTexture(mount.icon)  -- Get the icon texture
 
         -- Create a button over the icon to make it clickable

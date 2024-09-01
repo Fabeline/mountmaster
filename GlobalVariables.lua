@@ -1,0 +1,2 @@
+selectedColor = "All"
+selectedSkeleton = "All"

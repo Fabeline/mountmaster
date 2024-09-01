@@ -5,7 +5,7 @@ mounts = {
         item_id = 44178.0,
         spell_id = 60025,
         icon = "ability_mount_drake_blue",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "white"
     },
     {
@@ -59,7 +59,7 @@ mounts = {
         item_id = 69226.0,
         spell_id = 97501,
         icon = "inv_misc_summerfest_braziergreen",
-        skeleton_type = "firehawk",
+        skeleton_type = "bird",
         color = "green"
     },
     {
@@ -68,7 +68,7 @@ mounts = {
         item_id = 87776.0,
         spell_id = 127169,
         icon = "inv_bluegodcloudserpent",
-        skeleton_type = "cloud serpent",
+        skeleton_type = "serpent",
         color = "blue"
     },
     {
@@ -77,7 +77,7 @@ mounts = {
         item_id = 137614.0,
         spell_id = 213350,
         icon = "inv_infernalmounice",
-        skeleton_type = "infernal",
+        skeleton_type = "elemental",
         color = "blue"
     },
     {
@@ -86,7 +86,7 @@ mounts = {
         item_id = 163981.0,
         spell_id = 280729,
         icon = "ability_mount_fireravengodmountgreen",
-        skeleton_type = "raven",
+        skeleton_type = "bird",
         color = "green"
     },
     {
@@ -95,7 +95,7 @@ mounts = {
         item_id = 198654.0,
         spell_id = 376912,
         icon = "inv_riverotterlargemount02_white",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "ghost"
     },
     {
@@ -104,7 +104,7 @@ mounts = {
         item_id = 118676.0,
         spell_id = 175700,
         icon = "ability_mount_drake_blue",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "green"
     },
     {
@@ -113,7 +113,7 @@ mounts = {
         item_id = 163982.0,
         spell_id = 280730,
         icon = "inv_horse2white",
-        skeleton_type = "unicorn",
+        skeleton_type = "horse",
         color = "white"
     },
     {
@@ -122,7 +122,7 @@ mounts = {
         item_id = 140500.0,
         spell_id = 223814,
         icon = "ability_mount_shreddermount",
-        skeleton_type = "mech",
+        skeleton_type = "mechanical",
         color = "metal"
     },
     {
@@ -131,7 +131,7 @@ mounts = {
         item_id = 120968.0,
         spell_id = 179245,
         icon = "inv_misc_key_06",
-        skeleton_type = "chauffeur",
+        skeleton_type = "mechanical",
         color = "yellow"
     },
     {
@@ -140,7 +140,7 @@ mounts = {
         item_id = 122703.0,
         spell_id = 179244,
         icon = "inv_misc_key_06",
-        skeleton_type = "chauffeur",
+        skeleton_type = "mechanical",
         color = "brown"
     },
     {
@@ -185,7 +185,7 @@ mounts = {
         item_id = 224415.0,
         spell_id = 452779,
         icon = "inv_nerubianbeetlelargemount_tan",
-        skeleton_type = "beetle",
+        skeleton_type = "insect",
         color = "pink"
     },
     {
@@ -203,7 +203,7 @@ mounts = {
         item_id = 226357.0,
         spell_id = 458335,
         icon = "inv_crystalmech_teal",
-        skeleton_type = "mech",
+        skeleton_type = "mechanical",
         color = "green"
     },
     {
@@ -230,7 +230,7 @@ mounts = {
         item_id = 225548.0,
         spell_id = 449264,
         icon = "inv_molemount_brown",
-        skeleton_type = "snoute",
+        skeleton_type = "rat",
         color = "orange"
     },
     {
@@ -239,7 +239,7 @@ mounts = {
         item_id = 221765.0,
         spell_id = 442358,
         icon = "inv_dwarvenmechboss",
-        skeleton_type = "mech",
+        skeleton_type = "mechanical",
         color = "metal"
     },
     {
@@ -248,7 +248,7 @@ mounts = {
         item_id = 223276.0,
         spell_id = 448680,
         icon = "inv_spiderundergroundmount_red",
-        skeleton_type = "spider",
+        skeleton_type = "insect",
         color = "black"
     },
     {
@@ -257,7 +257,7 @@ mounts = {
         item_id = 223278.0,
         spell_id = 448685,
         icon = "inv_spiderundergroundmount_blue",
-        skeleton_type = "spider",
+        skeleton_type = "insect",
         color = "brown"
     },
     {
@@ -266,7 +266,7 @@ mounts = {
         item_id = 223279.0,
         spell_id = 448689,
         icon = "inv_spiderundergroundmount_yellow",
-        skeleton_type = "spider",
+        skeleton_type = "insect",
         color = "green"
     },
     {
@@ -275,7 +275,7 @@ mounts = {
         item_id = 223571.0,
         spell_id = 449418,
         icon = "inv_protoramearthen_blue",
-        skeleton_type = "ram",
+        skeleton_type = "stag",
         color = "green"
     },
     {
@@ -293,7 +293,7 @@ mounts = {
         item_id = 223505.0,
         spell_id = 449269,
         icon = "inv_molemount_light",
-        skeleton_type = "snoute",
+        skeleton_type = "rat",
         color = "pink"
     },
     {
@@ -329,7 +329,7 @@ mounts = {
         item_id = 223274.0,
         spell_id = 447957,
         icon = "inv_caveborerwormmount_orange",
-        skeleton_type = "slug",
+        skeleton_type = "snail",
         color = "pink"
     },
     {
@@ -347,7 +347,7 @@ mounts = {
         item_id = 219391.0,
         spell_id = 446052,
         icon = "inv_companiondelvesairship",
-        skeleton_type = "chopper",
+        skeleton_type = "mechanical",
         color = "metal"
     },
     {
@@ -365,7 +365,7 @@ mounts = {
         item_id = 223269.0,
         spell_id = 448188,
         icon = "inv_dwarvenmechboss_bronze",
-        skeleton_type = "mech",
+        skeleton_type = "mechanical",
         color = "brown"
     },
     {
@@ -392,7 +392,7 @@ mounts = {
         item_id = 223501.0,
         spell_id = 449258,
         icon = "inv_molemount_dark",
-        skeleton_type = "snoute",
+        skeleton_type = "rat",
         color = "pink"
     },
     {
@@ -410,7 +410,7 @@ mounts = {
         item_id = 223572.0,
         spell_id = 449415,
         icon = "inv_protoramearthen_grey",
-        skeleton_type = "ram",
+        skeleton_type = "stag",
         color = "green"
     },
     {
@@ -437,7 +437,7 @@ mounts = {
         item_id = 217987.0,
         spell_id = 441325,
         icon = "ability_mount_tawnywindrider",
-        skeleton_type = "wind rider",
+        skeleton_type = "cat",
         color = "ghost"
     },
     {
@@ -455,7 +455,7 @@ mounts = {
         item_id = nan,
         spell_id = 408648,
         icon = "inv_sporebatrock_yellow",
-        skeleton_type = "flounder",
+        skeleton_type = "fish",
         color = "yellow"
     },
     {
@@ -464,7 +464,7 @@ mounts = {
         item_id = 211862.0,
         spell_id = 376898,
         icon = "inv_riverotterlargemount02_black",
-        skeleton_type = "otter",
+        skeleton_type = "rat",
         color = "gray"
     },
     {
@@ -482,7 +482,7 @@ mounts = {
         item_id = 198822.0,
         spell_id = 385260,
         icon = "inv_eagle2windmount_sepia",
-        skeleton_type = "hawk",
+        skeleton_type = "bird",
         color = "brown"
     },
     {
@@ -509,7 +509,7 @@ mounts = {
         item_id = 192751.0,
         spell_id = 373967,
         icon = "inv_moosebullmount_dark",
-        skeleton_type = "elk",
+        skeleton_type = "stag",
         color = "gray"
     },
     {
@@ -518,7 +518,7 @@ mounts = {
         item_id = 192774.0,
         spell_id = 374097,
         icon = "inv_salamanderwatermount_pink",
-        skeleton_type = "salamander",
+        skeleton_type = "crocodile",
         color = "pink"
     },
     {
@@ -545,7 +545,7 @@ mounts = {
         item_id = 205205.0,
         spell_id = 408649,
         icon = "inv_sporebatrock_deepred",
-        skeleton_type = "flounder",
+        skeleton_type = "fish",
         color = "fire"
     },
     {
@@ -563,7 +563,7 @@ mounts = {
         item_id = 217340.0,
         spell_id = 439138,
         icon = "inv_wolfserpentmount2",
-        skeleton_type = "flying snake",
+        skeleton_type = "serpent",
         color = "purple"
     },
     {
@@ -572,7 +572,7 @@ mounts = {
         item_id = 199412.0,
         spell_id = 387231,
         icon = "inv_rhinoprimalmountice",
-        skeleton_type = "armoredon",
+        skeleton_type = "bear",
         color = "blue"
     },
     {
@@ -581,7 +581,7 @@ mounts = {
         item_id = 204798.0,
         spell_id = 406637,
         icon = "inv_rhinoprimalmountfire",
-        skeleton_type = "armoredon",
+        skeleton_type = "bear",
         color = "fire"
     },
     {
@@ -590,7 +590,7 @@ mounts = {
         item_id = 209060.0,
         spell_id = 422486,
         icon = "inv_rhinoprimalmountdream",
-        skeleton_type = "armoredon",
+        skeleton_type = "bear",
         color = "green"
     },
     {
@@ -599,7 +599,7 @@ mounts = {
         item_id = 213438.0,
         spell_id = 434462,
         icon = "inv_rhinoprimalmountinfinite",
-        skeleton_type = "armoredon",
+        skeleton_type = "bear",
         color = "gray"
     },
     {
@@ -608,7 +608,7 @@ mounts = {
         item_id = 210061.0,
         spell_id = 424484,
         icon = "inv_dreamowl_firemount",
-        skeleton_type = "owl",
+        skeleton_type = "bird",
         color = "fire"
     },
     {
@@ -617,7 +617,7 @@ mounts = {
         item_id = 194034.0,
         spell_id = 368896,
         icon = "inv_companionprotodragon",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "various"
     },
     {
@@ -626,7 +626,7 @@ mounts = {
         item_id = 194549.0,
         spell_id = 368899,
         icon = "inv_companionpterrordaxdrake",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "various"
     },
     {
@@ -635,7 +635,7 @@ mounts = {
         item_id = 194705.0,
         spell_id = 360954,
         icon = "inv_companiondrake",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "various"
     },
     {
@@ -644,7 +644,7 @@ mounts = {
         item_id = 194521.0,
         spell_id = 368901,
         icon = "inv_companionwyvern",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "various"
     },
     {
@@ -653,7 +653,7 @@ mounts = {
         item_id = 204361.0,
         spell_id = 368893,
         icon = "inv_companionserpent",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "various"
     },
     {
@@ -662,7 +662,7 @@ mounts = {
         item_id = 210412.0,
         spell_id = 425338,
         icon = "inv_companionfaeriedragon",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "various"
     },
     {
@@ -671,7 +671,7 @@ mounts = {
         item_id = 206156.0,
         spell_id = 412088,
         icon = "inv_companiondrake_netherwing_teal",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "various"
     },
     {
@@ -680,7 +680,7 @@ mounts = {
         item_id = 206162.0,
         spell_id = 407555,
         icon = "stave_2h_tarecgosa_e_01stagefinal",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "blue"
     },
     {
@@ -689,7 +689,7 @@ mounts = {
         item_id = 211873.0,
         spell_id = 430225,
         icon = "foxmounticon",
-        skeleton_type = "fox",
+        skeleton_type = "rat",
         color = "white"
     },
     {
@@ -734,7 +734,7 @@ mounts = {
         item_id = 198825.0,
         spell_id = 385266,
         icon = "inv_eagle2windmount_red",
-        skeleton_type = "hawk",
+        skeleton_type = "bird",
         color = "red"
     },
     {
@@ -743,7 +743,7 @@ mounts = {
         item_id = 192772.0,
         spell_id = 374090,
         icon = "inv_salamanderwatermount_green",
-        skeleton_type = "salamander",
+        skeleton_type = "crocodile",
         color = "green"
     },
     {
@@ -752,7 +752,7 @@ mounts = {
         item_id = 205203.0,
         spell_id = 408647,
         icon = "inv_sporebatrock_blue",
-        skeleton_type = "flounder",
+        skeleton_type = "fish",
         color = "blue"
     },
     {
@@ -761,7 +761,7 @@ mounts = {
         item_id = 201454.0,
         spell_id = 385738,
         icon = "inv_foxwyvernmountred",
-        skeleton_type = "protodrake",
+        skeleton_type = "Dragon",
         color = "brown"
     },
     {
@@ -770,7 +770,7 @@ mounts = {
         item_id = nan,
         spell_id = 395644,
         icon = "inv_eagle2windmount_white",
-        skeleton_type = "hawk",
+        skeleton_type = "bird",
         color = "white"
     },
     {
@@ -779,7 +779,7 @@ mounts = {
         item_id = 198870.0,
         spell_id = 376873,
         icon = "Inv_riverotterlargemount01_blue",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "white"
     },
     {
@@ -815,7 +815,7 @@ mounts = {
         item_id = 198872.0,
         spell_id = 376875,
         icon = "inv_riverotterlargemount01_brown",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "brown"
     },
     {
@@ -824,7 +824,7 @@ mounts = {
         item_id = 200118.0,
         spell_id = 376880,
         icon = "inv_riverotterlargemount01_yellow",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "yellow"
     },
     {
@@ -833,7 +833,7 @@ mounts = {
         item_id = 201426.0,
         spell_id = 376910,
         icon = "inv_riverotterlargemount02_brown",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "brown"
     },
     {
@@ -842,7 +842,7 @@ mounts = {
         item_id = 201425.0,
         spell_id = 376913,
         icon = "inv_riverotterlargemount02_yellow",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "yellow"
     },
     {
@@ -851,7 +851,7 @@ mounts = {
         item_id = 205207.0,
         spell_id = 408655,
         icon = "inv_sporebatrock_stoneblack",
-        skeleton_type = "flounder",
+        skeleton_type = "fish",
         color = "white"
     },
     {
@@ -968,7 +968,7 @@ mounts = {
         item_id = 206676.0,
         spell_id = 414326,
         icon = "inv_stormdragonmount2_fel",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "green"
     },
     {
@@ -977,7 +977,7 @@ mounts = {
         item_id = 206679.0,
         spell_id = 414328,
         icon = "ability_mount_ironjuggernautmount",
-        skeleton_type = "scorpion",
+        skeleton_type = "crocodile",
         color = "blue"
     },
     {
@@ -995,7 +995,7 @@ mounts = {
         item_id = 206680.0,
         spell_id = 414334,
         icon = "ability_mount_redfrostwyrm_01",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "gray"
     },
     {
@@ -1004,7 +1004,7 @@ mounts = {
         item_id = 206678.0,
         spell_id = 414327,
         icon = "ability_hunter_pet_corehound",
-        skeleton_type = "big hound",
+        skeleton_type = "bear",
         color = "green"
     },
     {
@@ -1031,7 +1031,7 @@ mounts = {
         item_id = 198873.0,
         spell_id = 376879,
         icon = "inv_riverotterlargemount01_white",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "white"
     },
     {
@@ -1040,7 +1040,7 @@ mounts = {
         item_id = 198871.0,
         spell_id = 359409,
         icon = "inv_riverotterlargemount01_black",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "black"
     },
     {
@@ -1049,7 +1049,7 @@ mounts = {
         item_id = 192775.0,
         spell_id = 374098,
         icon = "inv_salamanderwatermount_purple",
-        skeleton_type = "salamander",
+        skeleton_type = "crocodile",
         color = "purple"
     },
     {
@@ -1067,7 +1067,7 @@ mounts = {
         item_id = 204382.0,
         spell_id = 349935,
         icon = "inv_moosebullmount_black",
-        skeleton_type = "elk",
+        skeleton_type = "stag",
         color = "black"
     },
     {
@@ -1085,7 +1085,7 @@ mounts = {
         item_id = 205197.0,
         spell_id = 408627,
         icon = "inv_sporebatrock_red",
-        skeleton_type = "flounder",
+        skeleton_type = "fish",
         color = "fire"
     },
     {
@@ -1094,7 +1094,7 @@ mounts = {
         item_id = 205209.0,
         spell_id = 408653,
         icon = "inv_sporebatrock_stonered",
-        skeleton_type = "flounder",
+        skeleton_type = "fish",
         color = "red"
     },
     {
@@ -1112,7 +1112,7 @@ mounts = {
         item_id = 210831.0,
         spell_id = 427222,
         icon = "inv_riverotterlargemount01_yellow",
-        skeleton_type = "ottuk",
+        skeleton_type = "rat",
         color = "ghost"
     },
     {
@@ -1148,7 +1148,7 @@ mounts = {
         item_id = 210948.0,
         spell_id = 427549,
         icon = "inv_sporebatrock_orange",
-        skeleton_type = "flounder",
+        skeleton_type = "fish",
         color = "ghost"
     },
     {
@@ -1157,7 +1157,7 @@ mounts = {
         item_id = 210969.0,
         spell_id = 427724,
         icon = "inv_salamanderwatermount_green",
-        skeleton_type = "salamander",
+        skeleton_type = "crocodile",
         color = "ghost"
     },
     {
@@ -1247,7 +1247,7 @@ mounts = {
         item_id = nan,
         spell_id = 372995,
         icon = "inv_pterrordax2mount_white",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "white",
     },
     {
@@ -1257,7 +1257,7 @@ mounts = {
         spell_id = 440444,
         icon = "inv_shadebeastmount_gray",
         skeleton_type = "",
-        color = ""
+        color = "gray"
     },
     {
         name = "Hand of Salaranga",
@@ -1283,7 +1283,7 @@ mounts = {
         item_id = 187673.0,
         spell_id = 359381,
         icon = "ability_mount_progenitorjellyfish_red",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "red",
     },
     {
@@ -1301,7 +1301,7 @@ mounts = {
         item_id = 182596.0,
         spell_id = 332903,
         icon = "inv_giantvampirebatmount_white",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "white",
     },
     {
@@ -1319,7 +1319,7 @@ mounts = {
         item_id = 187675.0,
         spell_id = 359379,
         icon = "ability_mount_progenitorjellyfish_darkred",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "red",
     },
     {
@@ -1526,7 +1526,7 @@ mounts = {
         item_id = 185996.0,
         spell_id = 332904,
         icon = "inv_giantvampirebatmount_purple",
-        skeleton_type = "",
+        skeleton_type = "bat",
         color = "Red"
     },
     {
@@ -1859,7 +1859,7 @@ mounts = {
         item_id = 184062.0,
         spell_id = 344228,
         icon = "inv_darkhoundmount_draka",
-        skeleton_type = "Bat",
+        skeleton_type = "rat",
         color = ""
     },
     {
@@ -1904,8 +1904,8 @@ mounts = {
         item_id = 184167.0,
         spell_id = 312762,
         icon = "inv_jailerhoundmount_gray",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "bear",
+        color = "gray"
     },
     {
         name = "Rampaging Mauler",
@@ -1913,7 +1913,7 @@ mounts = {
         item_id = 187183.0,
         spell_id = 356501,
         icon = "inv_devourerswarmermount_dark",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -1949,7 +1949,7 @@ mounts = {
         item_id = 187676.0,
         spell_id = 342680,
         icon = "ability_mount_progenitorjellyfish_blue",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "blue",
     },
     {
@@ -1967,7 +1967,7 @@ mounts = {
         item_id = 184160.0,
         spell_id = 344574,
         icon = "inv_manaraymount_orange",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "orange",
     },
     {
@@ -1976,7 +1976,7 @@ mounts = {
         item_id = 184161.0,
         spell_id = 344576,
         icon = "inv_manaraymount_black",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "black",
     },
     {
@@ -1985,7 +1985,7 @@ mounts = {
         item_id = 184162.0,
         spell_id = 344575,
         icon = "inv_manaraymount_blackfel",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "black",
     },
     {
@@ -2003,7 +2003,7 @@ mounts = {
         item_id = 181316.0,
         spell_id = 312777,
         icon = "inv_giantvampirebatmount_silver",
-        skeleton_type = "",
+        skeleton_type = "bat",
         color = "Red"
     },
     {
@@ -2066,7 +2066,7 @@ mounts = {
         item_id = 186493.0,
         spell_id = 353856,
         icon = "inv_wolfserpentmountpurple",
-        skeleton_type = "",
+        skeleton_type = "serpent",
         color = "purple",
     },
     {
@@ -2075,7 +2075,7 @@ mounts = {
         item_id = 186494.0,
         spell_id = 353857,
         icon = "inv_wolfserpentmountyellow",
-        skeleton_type = "",
+        skeleton_type = "serpent",
         color = "yellow",
     },
     {
@@ -2102,7 +2102,7 @@ mounts = {
         item_id = 186495.0,
         spell_id = 353858,
         icon = "inv_wolfserpentmountwhite",
-        skeleton_type = "",
+        skeleton_type = "serpent",
         color = "white",
     },
     {
@@ -2147,7 +2147,7 @@ mounts = {
         item_id = 186492.0,
         spell_id = 353859,
         icon = "inv_wolfserpentmountgreen",
-        skeleton_type = "",
+        skeleton_type = "serpent",
         color = "green",
     },
     {
@@ -2390,7 +2390,7 @@ mounts = {
         item_id = 180945.0,
         spell_id = 332932,
         icon = "inv_deathwargmountwhite",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "white",
     },
     {
@@ -2399,7 +2399,7 @@ mounts = {
         item_id = 180948.0,
         spell_id = 312754,
         icon = "inv_deathwargmount2black",
-        skeleton_type = "Bat",
+        skeleton_type = "bear",
         color = "Red"
     },
     {
@@ -2408,7 +2408,7 @@ mounts = {
         item_id = 183715.0,
         spell_id = 332927,
         icon = "inv_deathwargmountred",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "red",
     },
     {
@@ -2417,7 +2417,7 @@ mounts = {
         item_id = 182332.0,
         spell_id = 333021,
         icon = "inv_deathwargmount2white",
-        skeleton_type = "Bat",
+        skeleton_type = "bear",
         color = "white",
     },
     {
@@ -2426,8 +2426,8 @@ mounts = {
         item_id = 186476.0,
         spell_id = 353872,
         icon = "inv_gargoylebrute2mount_gray",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "gargoyle",
+        color = "gray"
     },
     {
         name = "Obsidian Gravewing",
@@ -2435,8 +2435,8 @@ mounts = {
         item_id = 186478.0,
         spell_id = 353866,
         icon = "inv_gargoylebrute2mount_dark",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "gargoyle",
+        color = "bblackkack"
     },
     {
         name = "Horrid Dredwing",
@@ -2444,7 +2444,7 @@ mounts = {
         item_id = 180461.0,
         spell_id = 332882,
         icon = "inv_giantvampirebatmount_bronze",
-        skeleton_type = "",
+        skeleton_type = "bat",
         color = "Red"
     },
     {
@@ -2453,7 +2453,7 @@ mounts = {
         item_id = 182954.0,
         spell_id = 332923,
         icon = "inv_deathwargmountpurple",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "purple",
     },
     {
@@ -2471,7 +2471,7 @@ mounts = {
         item_id = 182209.0,
         spell_id = 332949,
         icon = "inv_deathwargmount2purple",
-        skeleton_type = "Bat",
+        skeleton_type = "bear",
         color = "purple",
     },
     {
@@ -2480,7 +2480,7 @@ mounts = {
         item_id = 183798.0,
         spell_id = 333023,
         icon = "inv_deathwargmount2red",
-        skeleton_type = "Bat",
+        skeleton_type = "bear",
         color = "red",
     },
     {
@@ -2489,7 +2489,7 @@ mounts = {
         item_id = 180581.0,
         spell_id = 312753,
         icon = "inv_deathwargmountblack",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "black",
     },
     {
@@ -2642,7 +2642,7 @@ mounts = {
         item_id = 187671.0,
         spell_id = 359377,
         icon = "inv_progenitorsnail_mount_gray",
-        skeleton_type = "",
+        skeleton_type = "gray",
         color = ""
     },
     {
@@ -2804,7 +2804,7 @@ mounts = {
         item_id = 167171.0,
         spell_id = 292419,
         icon = "inv_sharkraymount_4",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -2858,7 +2858,7 @@ mounts = {
         item_id = 163589.0,
         spell_id = 279474,
         icon = "ability_mount_triceratopsmount_yellow",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "yellow",
     },
     {
@@ -2876,7 +2876,7 @@ mounts = {
         item_id = 169202.0,
         spell_id = 300153,
         icon = "inv_hippocampusmount_red",
-        skeleton_type = "sea horse",
+        skeleton_type = "horse",
         color = "red",
     },
     {
@@ -2903,7 +2903,7 @@ mounts = {
         item_id = 168827.0,
         spell_id = 299159,
         icon = "inv_mechagonspidertank_silver",
-        skeleton_type = "Spider",
+        skeleton_type = "insect",
         color = "silver",
     },
     {
@@ -2957,7 +2957,7 @@ mounts = {
         item_id = 174771.0,
         spell_id = 316339,
         icon = "inv_aqirflyingmount_purple",
-        skeleton_type = "",
+        skeleton_type = "insect",
         color = "purple",
     },
     {
@@ -3056,7 +3056,7 @@ mounts = {
         item_id = 155656.0,
         spell_id = 258022,
         icon = "inv_lightforgedelekk",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -3074,7 +3074,7 @@ mounts = {
         item_id = 161331.0,
         spell_id = 271646,
         icon = "inv_darkirondwarfcorehound",
-        skeleton_type = "",
+        skeleton_type = "wolf",
         color = ""
     },
     {
@@ -3092,7 +3092,7 @@ mounts = {
         item_id = 157870.0,
         spell_id = 263707,
         icon = "inv_triceratopszandalari",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = ""
     },
     {
@@ -3119,7 +3119,7 @@ mounts = {
         item_id = 191123.0,
         spell_id = 369666,
         icon = "inv_darkhoundmount",
-        skeleton_type = "",
+        skeleton_type = "wolf",
         color = ""
     },
     {
@@ -3137,7 +3137,7 @@ mounts = {
         item_id = 161912.0,
         spell_id = 260172,
         icon = "inv_horse3saddle006_stormsong_white",
-        skeleton_type = "",
+        skeleton_type = "horse",
         color = "white",
     },
     {
@@ -3236,7 +3236,7 @@ mounts = {
         item_id = 167167.0,
         spell_id = 292407,
         icon = "inv_sharkraymount_1",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -3245,7 +3245,7 @@ mounts = {
         item_id = 167170.0,
         spell_id = 291538,
         icon = "inv_sharkraymount_2",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -3506,7 +3506,7 @@ mounts = {
         item_id = 174841.0,
         spell_id = 316722,
         icon = "inv_quilenmount_red",
-        skeleton_type = "",
+        skeleton_type = "wolf",
         color = "red",
     },
     {
@@ -3515,7 +3515,7 @@ mounts = {
         item_id = 174840.0,
         spell_id = 316723,
         icon = "inv_quilenmount_gold",
-        skeleton_type = "",
+        skeleton_type = "wolf",
         color = "gold",
     },
     {
@@ -3533,7 +3533,7 @@ mounts = {
         item_id = 174769.0,
         spell_id = 316337,
         icon = "inv_aqirflyingmount_black",
-        skeleton_type = "",
+        skeleton_type = "insect",
         color = "black",
     },
     {
@@ -3542,7 +3542,7 @@ mounts = {
         item_id = 174641.0,
         spell_id = 315847,
         icon = "inv_dragonskywallmount_bronze",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -3578,7 +3578,7 @@ mounts = {
         item_id = 159842.0,
         spell_id = 254813,
         icon = "inv_parrotmount_red",
-        skeleton_type = "Shark",
+        skeleton_type = "bird",
         color = "red",
     },
     {
@@ -3623,7 +3623,7 @@ mounts = {
         item_id = 174872.0,
         spell_id = 308814,
         icon = "inv_eyeballjellyfishmount",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -3650,7 +3650,7 @@ mounts = {
         item_id = 163585.0,
         spell_id = 278979,
         icon = "inv_misc_fish_70",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -3686,7 +3686,7 @@ mounts = {
         item_id = 166470.0,
         spell_id = 288712,
         icon = "inv_misc_moosehoof_black",
-        skeleton_type = "",
+        skeleton_type = "stag",
         color = "black",
     },
     {
@@ -3758,7 +3758,7 @@ mounts = {
         item_id = 163127.0,
         spell_id = 274610,
         icon = "inv_hippogryphmountnightelf",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -3812,7 +3812,7 @@ mounts = {
         item_id = 141217.0,
         spell_id = 225765,
         icon = "inv_mount_hippogryph_arcane",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -3839,7 +3839,7 @@ mounts = {
         item_id = 138811.0,
         spell_id = 214791,
         icon = "inv_fishmount",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -3848,7 +3848,7 @@ mounts = {
         item_id = 141713.0,
         spell_id = 227956,
         icon = "inv_turtlemount",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -3920,7 +3920,7 @@ mounts = {
         item_id = 138201.0,
         spell_id = 223018,
         icon = "inv_fishing_lure_starfish",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -4001,7 +4001,7 @@ mounts = {
         item_id = 152788.0,
         spell_id = 239013,
         icon = "inv_lightforgedmechsuit",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -4010,7 +4010,7 @@ mounts = {
         item_id = 138258.0,
         spell_id = 215159,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -4028,7 +4028,7 @@ mounts = {
         item_id = 152844.0,
         spell_id = 253107,
         icon = "inv_manaraymount_blue",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "blue",
     },
     {
@@ -4037,7 +4037,7 @@ mounts = {
         item_id = 152842.0,
         spell_id = 253106,
         icon = "inv_manaraymount_purple",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "purple",
     },
     {
@@ -4046,7 +4046,7 @@ mounts = {
         item_id = 152840.0,
         spell_id = 253109,
         icon = "inv_manaraymount_orange",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "orange",
     },
     {
@@ -4055,7 +4055,7 @@ mounts = {
         item_id = 152841.0,
         spell_id = 253108,
         icon = "inv_manaraymount_redfel",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "red",
     },
     {
@@ -4064,7 +4064,7 @@ mounts = {
         item_id = 152843.0,
         spell_id = 235764,
         icon = "inv_manaraymount_black",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "black",
     },
     {
@@ -4379,7 +4379,7 @@ mounts = {
         item_id = 147806.0,
         spell_id = 242881,
         icon = "inv_hippogryph2azsuna",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -4388,7 +4388,7 @@ mounts = {
         item_id = 147804.0,
         spell_id = 242875,
         icon = "inv_horse2green",
-        skeleton_type = "",
+        skeleton_type = "horse",
         color = "green",
     },
     {
@@ -4397,7 +4397,7 @@ mounts = {
         item_id = 147807.0,
         spell_id = 242874,
         icon = "inv_moosemount2",
-        skeleton_type = "",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -4424,7 +4424,7 @@ mounts = {
         item_id = 153042.0,
         spell_id = 254069,
         icon = "inv_lightforgedelekk",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -4433,7 +4433,7 @@ mounts = {
         item_id = 153044.0,
         spell_id = 254259,
         icon = "inv_lightforgedelekk_blue",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = "blue",
     },
     {
@@ -4443,7 +4443,7 @@ mounts = {
         spell_id = 254258,
         icon = "inv_lightforgedelekk_amethyst",
         skeleton_type = "",
-        color = ""
+        color = "mammoth"
     },
     {
         name = "Soaring Skyterror",
@@ -4460,7 +4460,7 @@ mounts = {
         item_id = 116670.0,
         spell_id = 171632,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar",
+        skeleton_type = "bear",
         color = "brown",
     },
     {
@@ -4496,7 +4496,7 @@ mounts = {
         item_id = 116667.0,
         spell_id = 171628,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar",
+        skeleton_type = "bear",
         color = "brown",
     },
     {
@@ -4523,7 +4523,7 @@ mounts = {
         item_id = 116664.0,
         spell_id = 171625,
         icon = "ability_mount_elekkdraenormount",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -4568,7 +4568,7 @@ mounts = {
         item_id = 128480.0,
         spell_id = 190690,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar",
+        skeleton_type = "bear",
         color = "brown",
     },
     {
@@ -4577,7 +4577,7 @@ mounts = {
         item_id = 128526.0,
         spell_id = 190977,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar",
+        skeleton_type = "bear",
         color = "brown",
     },
     {
@@ -4586,7 +4586,7 @@ mounts = {
         item_id = 128527.0,
         spell_id = 190977,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar",
+        skeleton_type = "bear",
         color = "brown",
     },
     {
@@ -4631,7 +4631,7 @@ mounts = {
         item_id = 116663.0,
         spell_id = 171624,
         icon = "ability_mount_elekkdraenormount",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -4667,7 +4667,7 @@ mounts = {
         item_id = 116662.0,
         spell_id = 171623,
         icon = "ability_mount_elekkdraenormount",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -4712,7 +4712,7 @@ mounts = {
         item_id = 116668.0,
         spell_id = 171629,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar",
+        skeleton_type = "bear",
         color = "Red"
     },
     {
@@ -4739,7 +4739,7 @@ mounts = {
         item_id = 116665.0,
         spell_id = 171626,
         icon = "inv_iron-horde-elekk",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = "Red"
     },
     {
@@ -4775,7 +4775,7 @@ mounts = {
         item_id = 116661.0,
         spell_id = 171622,
         icon = "ability_mount_elekkdraenormount",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -5090,7 +5090,7 @@ mounts = {
         item_id = 89362.0,
         spell_id = 130086,
         icon = "ability_mount_goatmountbrown",
-        skeleton_type = "Goat",
+        skeleton_type = "rat",
         color = "Brown"
     },
     {
@@ -5099,7 +5099,7 @@ mounts = {
         item_id = 89390.0,
         spell_id = 130137,
         icon = "ability_mount_goatmountwhite",
-        skeleton_type = "Goat",
+        skeleton_type = "rat",
         color = "White"
     },
     {
@@ -5108,7 +5108,7 @@ mounts = {
         item_id = 89391.0,
         spell_id = 130138,
         icon = "ability_mount_goatmountblack",
-        skeleton_type = "Goat",
+        skeleton_type = "rat",
         color = "Black"
     },
     {
@@ -5207,7 +5207,7 @@ mounts = {
         item_id = 104253.0,
         spell_id = 148417,
         icon = "inv_mount_hordescorpiong",
-        skeleton_type = "",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -5234,7 +5234,7 @@ mounts = {
         item_id = 94229.0,
         spell_id = 138425,
         icon = "ability_mount_triceratopsmount_grey",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "gray",
     },
     {
@@ -5243,7 +5243,7 @@ mounts = {
         item_id = 94230.0,
         spell_id = 138424,
         icon = "ability_mount_triceratopsmount_yellow",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "yellow",
     },
     {
@@ -5252,7 +5252,7 @@ mounts = {
         item_id = 94231.0,
         spell_id = 138426,
         icon = "ability_mount_triceratopsmount_green",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "green",
     },
     {
@@ -5324,7 +5324,7 @@ mounts = {
         item_id = 95565.0,
         spell_id = 140250,
         icon = "ability_mount_triceratopsmount_red",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "red",
     },
     {
@@ -5333,7 +5333,7 @@ mounts = {
         item_id = 95564.0,
         spell_id = 140249,
         icon = "ability_mount_triceratopsmount_orange",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = "Golden"
     },
     {
@@ -5360,8 +5360,8 @@ mounts = {
         item_id = 85262.0,
         spell_id = 123886,
         icon = "ability_mount_hordescorpionamber",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "crocodile",
+        color = "golden"
     },
     {
         name = "Red Flying Cloud",
@@ -5387,7 +5387,7 @@ mounts = {
         item_id = 69213.0,
         spell_id = 97359,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -5396,7 +5396,7 @@ mounts = {
         item_id = 62900.0,
         spell_id = 88331,
         icon = "inv_misc_stonedragonred",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "red",
     },
     {
@@ -5405,7 +5405,7 @@ mounts = {
         item_id = 62901.0,
         spell_id = 88335,
         icon = "inv_misc_stormdragonred",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "red",
     },
     {
@@ -5441,7 +5441,7 @@ mounts = {
         item_id = 65356.0,
         spell_id = 88741,
         icon = "inv_misc_stormdragongreen",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "green",
     },
     {
@@ -5450,8 +5450,8 @@ mounts = {
         item_id = 64998.0,
         spell_id = 92231,
         icon = "inv_mount_spectralhorse",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "horse",
+        color = "ghost"
     },
     {
         name = "Spectral Wolf",
@@ -5468,7 +5468,7 @@ mounts = {
         item_id = 63044.0,
         spell_id = 88748,
         icon = "ability_mount_camel_brown",
-        skeleton_type = "Camel",
+        skeleton_type = "stag",
         color = "Brown"
     },
     {
@@ -5477,7 +5477,7 @@ mounts = {
         item_id = 63045.0,
         spell_id = 88749,
         icon = "ability_mount_camel_tan",
-        skeleton_type = "Camel",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -5486,7 +5486,7 @@ mounts = {
         item_id = 63040.0,
         spell_id = 88742,
         icon = "inv_misc_stormdragonpale",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -5495,7 +5495,7 @@ mounts = {
         item_id = 63043.0,
         spell_id = 88746,
         icon = "inv_misc_stonedragonblue",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "blue",
     },
     {
@@ -5531,7 +5531,7 @@ mounts = {
         item_id = 63041.0,
         spell_id = 88744,
         icon = "inv_misc_stormdragonpurple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple",
     },
     {
@@ -5567,7 +5567,7 @@ mounts = {
         item_id = 77067.0,
         spell_id = 107842,
         icon = "ability_mount_drake_red",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "red",
     },
     {
@@ -5594,7 +5594,7 @@ mounts = {
         item_id = 63042.0,
         spell_id = 88718,
         icon = "inv_misc_stonedragonpurple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple",
     },
     {
@@ -5603,7 +5603,7 @@ mounts = {
         item_id = 63046.0,
         spell_id = 88750,
         icon = "ability_mount_camel_gray",
-        skeleton_type = "Camel",
+        skeleton_type = "stag",
         color = "gray"
     },
     {
@@ -5612,7 +5612,7 @@ mounts = {
         item_id = 44160.0,
         spell_id = 59961,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Red"
     },
     {
@@ -5621,7 +5621,7 @@ mounts = {
         item_id = 44164.0,
         spell_id = 59976,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Black"
     },
     {
@@ -5630,7 +5630,7 @@ mounts = {
         item_id = 45801.0,
         spell_id = 63956,
         icon = "ability_mount_razorscale",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -5639,7 +5639,7 @@ mounts = {
         item_id = 45802.0,
         spell_id = 63963,
         icon = "ability_mount_razorscale",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -5684,7 +5684,7 @@ mounts = {
         item_id = 49044.0,
         spell_id = 68057,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
+        skeleton_type = "horse",
         color = ""
     },
     {
@@ -5729,7 +5729,7 @@ mounts = {
         item_id = 44690.0,
         spell_id = 61230,
         icon = "ability_mount_swiftpurplewindrider",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = "Red"
     },
     {
@@ -5792,8 +5792,8 @@ mounts = {
         item_id = 46752.0,
         spell_id = 65640,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "horse",
+        color = "gray"
     },
     {
         name = "Stormwind Steed",
@@ -5801,7 +5801,7 @@ mounts = {
         item_id = 45125.0,
         spell_id = 63232,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
+        skeleton_type = "horse",
         color = ""
     },
     {
@@ -5810,7 +5810,7 @@ mounts = {
         item_id = 46748.0,
         spell_id = 65643,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "purple"
     },
     {
@@ -5819,7 +5819,7 @@ mounts = {
         item_id = 45586.0,
         spell_id = 63636,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -5846,7 +5846,7 @@ mounts = {
         item_id = 46745.0,
         spell_id = 65637,
         icon = "ability_mount_ridingelekkelite",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = "Red"
     },
     {
@@ -5855,7 +5855,7 @@ mounts = {
         item_id = 45590.0,
         spell_id = 63639,
         icon = "ability_mount_ridingelekkelite",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -5972,7 +5972,7 @@ mounts = {
         item_id = 46815.0,
         spell_id = 66090,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
+        skeleton_type = "horse",
         color = ""
     },
     {
@@ -5981,7 +5981,7 @@ mounts = {
         item_id = 46813.0,
         spell_id = 66087,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = "Silver"
     },
     {
@@ -6017,7 +6017,7 @@ mounts = {
         item_id = 45725.0,
         spell_id = 63844,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -6062,7 +6062,7 @@ mounts = {
         item_id = 43955.0,
         spell_id = 59570,
         icon = "ability_mount_drake_red",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Red"
     },
     {
@@ -6071,7 +6071,7 @@ mounts = {
         item_id = 44707.0,
         spell_id = 61294,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Green"
     },
     {
@@ -6080,7 +6080,7 @@ mounts = {
         item_id = 43951.0,
         spell_id = 59569,
         icon = "ability_mount_drake_bronze",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Bronze"
     },
     {
@@ -6089,7 +6089,7 @@ mounts = {
         item_id = 44151.0,
         spell_id = 59996,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Blue"
     },
     {
@@ -6098,7 +6098,7 @@ mounts = {
         item_id = 43952.0,
         spell_id = 59567,
         icon = "ability_mount_drake_azure",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "blue"
     },
     {
@@ -6107,7 +6107,7 @@ mounts = {
         item_id = 43953.0,
         spell_id = 59568,
         icon = "ability_mount_drake_azure",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Blue"
     },
     {
@@ -6116,7 +6116,7 @@ mounts = {
         item_id = 43954.0,
         spell_id = 59571,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -6125,7 +6125,7 @@ mounts = {
         item_id = 43986.0,
         spell_id = 59650,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Black"
     },
     {
@@ -6161,7 +6161,7 @@ mounts = {
         item_id = 49636.0,
         spell_id = 69395,
         icon = "achievement_boss_onyxia",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -6179,7 +6179,7 @@ mounts = {
         item_id = 44168.0,
         spell_id = 60002,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -6188,7 +6188,7 @@ mounts = {
         item_id = 33999.0,
         spell_id = 43927,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -6269,7 +6269,7 @@ mounts = {
         item_id = 32858.0,
         spell_id = 41514,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "blue"
     },
     {
@@ -6278,7 +6278,7 @@ mounts = {
         item_id = 32859.0,
         spell_id = 41515,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple",
     },
     {
@@ -6287,7 +6287,7 @@ mounts = {
         item_id = 32857.0,
         spell_id = 41513,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple",
     },
     {
@@ -6296,7 +6296,7 @@ mounts = {
         item_id = 32860.0,
         spell_id = 41516,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "Purple"
     },
     {
@@ -6305,7 +6305,7 @@ mounts = {
         item_id = 32861.0,
         spell_id = 41517,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple",
     },
     {
@@ -6314,7 +6314,7 @@ mounts = {
         item_id = 32862.0,
         spell_id = 41518,
         icon = "ability_mount_netherdrakepurple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple"
     },
     {
@@ -6377,7 +6377,7 @@ mounts = {
         item_id = 25477.0,
         spell_id = 32246,
         icon = "ability_mount_swiftredwindrider",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = "Red"
     },
     {
@@ -6413,7 +6413,7 @@ mounts = {
         item_id = 25531.0,
         spell_id = 32295,
         icon = "ability_mount_swiftgreenwindrider",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = "Green"
     },
     {
@@ -6422,7 +6422,7 @@ mounts = {
         item_id = 25532.0,
         spell_id = 32296,
         icon = "ability_mount_swiftyellowwindrider",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = "Yellow"
     },
     {
@@ -6431,7 +6431,7 @@ mounts = {
         item_id = 25533.0,
         spell_id = 32297,
         icon = "ability_mount_swiftpurplewindrider",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = "Purple"
     },
     {
@@ -6467,7 +6467,7 @@ mounts = {
         item_id = 25474.0,
         spell_id = 32243,
         icon = "ability_mount_tawnywindrider",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = ""
     },
     {
@@ -6476,7 +6476,7 @@ mounts = {
         item_id = 25475.0,
         spell_id = 32244,
         icon = "ability_mount_bluewindrider",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = "Blue"
     },
     {
@@ -6485,7 +6485,7 @@ mounts = {
         item_id = 25476.0,
         spell_id = 32245,
         icon = "ability_mount_greenwindrider",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = "Green"
     },
     {
@@ -6602,8 +6602,8 @@ mounts = {
         item_id = 18776.0,
         spell_id = 23227,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "horse",
+        color = "yellow"
     },
     {
         name = "Swift Brown Steed",
@@ -6611,7 +6611,7 @@ mounts = {
         item_id = 18777.0,
         spell_id = 23229,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
+        skeleton_type = "horse",
         color = "Brown"
     },
     {
@@ -6620,7 +6620,7 @@ mounts = {
         item_id = 18778.0,
         spell_id = 23228,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
+        skeleton_type = "horse",
         color = "White"
     },
     {
@@ -6629,8 +6629,8 @@ mounts = {
         item_id = 5655.0,
         spell_id = 6648,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "horse",
+        color = "brown"
     },
     {
         name = "Black Stallion",
@@ -6647,8 +6647,8 @@ mounts = {
         item_id = 2414.0,
         spell_id = 472,
         icon = "ability_mount_ridinghorse",
-        skeleton_type = "",
-        color = ""
+        skeleton_type = "horse",
+        color = "white"
     },
     {
         name = "Brown Horse",
@@ -6665,7 +6665,7 @@ mounts = {
         item_id = 18785.0,
         spell_id = 23240,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "White"
     },
     {
@@ -6674,7 +6674,7 @@ mounts = {
         item_id = 18786.0,
         spell_id = 23238,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "Brown"
     },
     {
@@ -6683,7 +6683,7 @@ mounts = {
         item_id = 18787.0,
         spell_id = 23239,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -6692,7 +6692,7 @@ mounts = {
         item_id = 5864.0,
         spell_id = 6777,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -6701,7 +6701,7 @@ mounts = {
         item_id = 5872.0,
         spell_id = 6899,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "Brown"
     },
     {
@@ -6710,7 +6710,7 @@ mounts = {
         item_id = 5873.0,
         spell_id = 6898,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "White"
     },
     {
@@ -6845,7 +6845,7 @@ mounts = {
         item_id = 29745.0,
         spell_id = 35713,
         icon = "ability_mount_ridingelekkelite_blue",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = "Blue"
     },
     {
@@ -6854,7 +6854,7 @@ mounts = {
         item_id = 29746.0,
         spell_id = 35712,
         icon = "ability_mount_ridingelekkelite_green",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = "Green"
     },
     {
@@ -6863,7 +6863,7 @@ mounts = {
         item_id = 29747.0,
         spell_id = 35714,
         icon = "ability_mount_ridingelekkelite_purple",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = "Purple"
     },
     {
@@ -6872,7 +6872,7 @@ mounts = {
         item_id = 28481.0,
         spell_id = 34406,
         icon = "ability_mount_ridingelekk",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = "Brown"
     },
     {
@@ -6881,7 +6881,7 @@ mounts = {
         item_id = 29743.0,
         spell_id = 35711,
         icon = "ability_mount_ridingelekk_purple",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = "Purple"
     },
     {
@@ -6890,7 +6890,7 @@ mounts = {
         item_id = 29744.0,
         spell_id = 35710,
         icon = "ability_mount_ridingelekk_grey",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = "gray",
     },
     {
@@ -6917,7 +6917,7 @@ mounts = {
         item_id = 91010.0,
         spell_id = 120822,
         icon = "ability_mount_pandaranmountepicred",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Red"
     },
     {
@@ -6926,7 +6926,7 @@ mounts = {
         item_id = 91012.0,
         spell_id = 127293,
         icon = "ability_mount_pandaranmountepic",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Green"
     },
     {
@@ -6935,7 +6935,7 @@ mounts = {
         item_id = 91011.0,
         spell_id = 127295,
         icon = "ability_mount_pandaranmountepicblack",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Black"
     },
     {
@@ -6944,7 +6944,7 @@ mounts = {
         item_id = 91013.0,
         spell_id = 127302,
         icon = "ability_mount_pandaranmountepicblue",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Blue"
     },
     {
@@ -6953,7 +6953,7 @@ mounts = {
         item_id = 91014.0,
         spell_id = 127308,
         icon = "ability_mount_pandaranmountepicbrown",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Brown"
     },
     {
@@ -6962,7 +6962,7 @@ mounts = {
         item_id = 91015.0,
         spell_id = 127310,
         icon = "ability_mount_pandaranmountepicpurple",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Purple"
     },
     {
@@ -6971,7 +6971,7 @@ mounts = {
         item_id = 91004.0,
         spell_id = 120395,
         icon = "ability_mount_pandaranmountgreen",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Green"
     },
     {
@@ -6980,7 +6980,7 @@ mounts = {
         item_id = 91008.0,
         spell_id = 127286,
         icon = "ability_mount_pandaranmountblack",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Black"
     },
     {
@@ -6989,7 +6989,7 @@ mounts = {
         item_id = 91009.0,
         spell_id = 127287,
         icon = "ability_mount_pandaranmountblue",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Blue"
     },
     {
@@ -6998,7 +6998,7 @@ mounts = {
         item_id = 91005.0,
         spell_id = 127288,
         icon = "ability_mount_pandaranmountbrown",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Brown"
     },
     {
@@ -7007,7 +7007,7 @@ mounts = {
         item_id = 91006.0,
         spell_id = 127289,
         icon = "ability_mount_pandaranmountpurple",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Purple"
     },
     {
@@ -7016,7 +7016,7 @@ mounts = {
         item_id = 91007.0,
         spell_id = 127290,
         icon = "ability_mount_pandaranmountred",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Red"
     },
     {
@@ -7215,7 +7215,7 @@ mounts = {
         spell_id = 66846,
         icon = "ability_mount_undeadhorse",
         skeleton_type = "Horse",
-        color = ""
+        color = "brown"
     },
     {
         name = "Great White Kodo",
@@ -7421,7 +7421,7 @@ mounts = {
         item_id = 65891.0,
         spell_id = 93326,
         icon = "inv_misc_stonedragonorange",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "orange",
     },
     {
@@ -7439,7 +7439,7 @@ mounts = {
         item_id = 64883.0,
         spell_id = 92155,
         icon = "trade_archaeology_sceptor-of-azaqir",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -7475,7 +7475,7 @@ mounts = {
         item_id = 44413.0,
         spell_id = 60424,
         icon = "inv_misc_key_14",
-        skeleton_type = "",
+        skeleton_type = "mechanical",
         color = ""
     },
     {
@@ -7547,7 +7547,7 @@ mounts = {
         item_id = 46109.0,
         spell_id = 64731,
         icon = "inv_misc_fish_turtle_02",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -7556,7 +7556,7 @@ mounts = {
         item_id = 23720.0,
         spell_id = 30174,
         icon = "ability_hunter_pet_turtle",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -7574,7 +7574,7 @@ mounts = {
         item_id = 163131.0,
         spell_id = 278803,
         icon = "inv_stingray2mount_teal",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -7583,7 +7583,7 @@ mounts = {
         item_id = 223286.0,
         spell_id = 448850,
         icon = "inv_oldgodfishmount_red",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "red",
     },
     {
@@ -7682,7 +7682,7 @@ mounts = {
         item_id = 129962.0,
         spell_id = 213339,
         icon = "inv_moosemount2white",
-        skeleton_type = "",
+        skeleton_type = "stag",
         color = "white",
     },
     {
@@ -7763,7 +7763,7 @@ mounts = {
         item_id = 29467.0,
         spell_id = 22720,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "Black"
     },
     {
@@ -7772,7 +7772,7 @@ mounts = {
         item_id = 29468.0,
         spell_id = 22717,
         icon = "ability_mount_nightmarehorse",
-        skeleton_type = "",
+        skeleton_type = "horse",
         color = "Black"
     },
     {
@@ -7835,7 +7835,7 @@ mounts = {
         item_id = 35906.0,
         spell_id = 48027,
         icon = "ability_mount_ridingelekkelite_blue",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = "Black"
     },
     {
@@ -8006,7 +8006,7 @@ mounts = {
         item_id = 116777.0,
         spell_id = 171834,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -8051,7 +8051,7 @@ mounts = {
         item_id = 140350.0,
         spell_id = 223578,
         icon = "ability_mount_viciouswarelekk",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -8078,7 +8078,7 @@ mounts = {
         item_id = 143648.0,
         spell_id = 232523,
         icon = "inv_viciousdragonturtlemount",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -8105,7 +8105,7 @@ mounts = {
         item_id = 143649.0,
         spell_id = 232525,
         icon = "inv_viciousdragonturtlemount",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -8123,7 +8123,7 @@ mounts = {
         item_id = 142437.0,
         spell_id = 230988,
         icon = "ability_mount_viciouskorkronannihilator",
-        skeleton_type = "",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -8222,7 +8222,7 @@ mounts = {
         item_id = 184014.0,
         spell_id = 327407,
         icon = "inv_viciousalliancespider",
-        skeleton_type = "Spider",
+        skeleton_type = "insect",
         color = ""
     },
     {
@@ -8231,7 +8231,7 @@ mounts = {
         item_id = 184013.0,
         spell_id = 327408,
         icon = "inv_vicioushordespider",
-        skeleton_type = "Spider",
+        skeleton_type = "insect",
         color = ""
     },
     {
@@ -8384,7 +8384,7 @@ mounts = {
         item_id = 30609.0,
         spell_id = 37015,
         icon = "ability_mount_netherdrakeelite",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8393,7 +8393,7 @@ mounts = {
         item_id = 34092.0,
         spell_id = 44744,
         icon = "ability_mount_netherdrakeelite",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8402,7 +8402,7 @@ mounts = {
         item_id = 37676.0,
         spell_id = 49193,
         icon = "ability_mount_netherdrakeelite",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8411,7 +8411,7 @@ mounts = {
         item_id = 43516.0,
         spell_id = 58615,
         icon = "ability_mount_netherdrakeelite",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8456,7 +8456,7 @@ mounts = {
         item_id = 71339.0,
         spell_id = 101282,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8465,7 +8465,7 @@ mounts = {
         item_id = 71954.0,
         spell_id = 101821,
         icon = "ability_mount_drake_twilight",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8609,7 +8609,7 @@ mounts = {
         item_id = 156879.0,
         spell_id = 262022,
         icon = "ability_mount_protodrakegladiatormount",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8618,7 +8618,7 @@ mounts = {
         item_id = 156880.0,
         spell_id = 262023,
         icon = "ability_mount_protodrakegladiatormount",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8627,7 +8627,7 @@ mounts = {
         item_id = 156881.0,
         spell_id = 262024,
         icon = "inv_protodrakegladiatormount_purple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple",
     },
     {
@@ -8636,7 +8636,7 @@ mounts = {
         item_id = 156884.0,
         spell_id = 262027,
         icon = "ability_mount_protodrakegladiatormount",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8681,7 +8681,7 @@ mounts = {
         item_id = 202086.0,
         spell_id = 377071,
         icon = "inv_drake2mountgladiator",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8690,7 +8690,7 @@ mounts = {
         item_id = 205233.0,
         spell_id = 408977,
         icon = "inv_serpentmountgladiator",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -8699,7 +8699,7 @@ mounts = {
         item_id = 210345.0,
         spell_id = 425416,
         icon = "inv_serpentmountgladiator_green",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "green",
     },
     {
@@ -8708,7 +8708,7 @@ mounts = {
         item_id = 210077.0,
         spell_id = 424539,
         icon = "inv_drake2mountgladiator_purple",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple",
     },
     {
@@ -8735,7 +8735,7 @@ mounts = {
         item_id = 44177.0,
         spell_id = 60024,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = "purple"
     },
     {
@@ -8744,7 +8744,7 @@ mounts = {
         item_id = 33976.0,
         spell_id = 43899,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -8753,7 +8753,7 @@ mounts = {
         item_id = 33977.0,
         spell_id = 43900,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -8798,7 +8798,7 @@ mounts = {
         item_id = 210973.0,
         spell_id = 427777,
         icon = "inv_manaraymount_magenta",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -8879,7 +8879,7 @@ mounts = {
         item_id = 142398.0,
         spell_id = 228919,
         icon = "inv_stingray2mount",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -8924,7 +8924,7 @@ mounts = {
         item_id = 167894.0,
         spell_id = 294568,
         icon = "inv_armoredelekkmount",
-        skeleton_type = "",
+        skeleton_type = "mammoth",
         color = "red",
     },
     {
@@ -8942,7 +8942,7 @@ mounts = {
         item_id = 187595.0,
         spell_id = 359013,
         icon = "inv_mount_hippogryph_arcane",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -8987,7 +8987,7 @@ mounts = {
         item_id = 172022.0,
         spell_id = 308250,
         icon = "inv_stormpikebattlecharger",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -9050,7 +9050,7 @@ mounts = {
         item_id = 54069.0,
         spell_id = 74856,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -9059,7 +9059,7 @@ mounts = {
         item_id = 76902.0,
         spell_id = 107517,
         icon = "ability_mount_spectralwyvern",
-        skeleton_type = "",
+        skeleton_type = "cat",
         color = ""
     },
     {
@@ -9140,7 +9140,7 @@ mounts = {
         item_id = 190613.0,
         spell_id = 367826,
         icon = "inv_turtlemount2_01",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Green"
     },
     {
@@ -9167,7 +9167,7 @@ mounts = {
         item_id = 206027.0,
         spell_id = 411565,
         icon = "ability_mount_hordescorpiongreen",
-        skeleton_type = "",
+        skeleton_type = "crocodile",
         color = "green",
     },
     {
@@ -9257,7 +9257,7 @@ mounts = {
         item_id = 212920.0,
         spell_id = 433281,
         icon = "inv_turtlemount2_01",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = "Blue"
     },
     {
@@ -9320,7 +9320,7 @@ mounts = {
         item_id = 190539.0,
         spell_id = 367620,
         icon = "inv_sharkraymount_4",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -9329,7 +9329,7 @@ mounts = {
         item_id = 221270.0,
         spell_id = 446352,
         icon = "inv_goblinsurfboardmount_blue",
-        skeleton_type = "Boar",
+        skeleton_type = "bear",
         color = "Blue"
     },
     {
@@ -9338,7 +9338,7 @@ mounts = {
         item_id = 223282.0,
         spell_id = 448845,
         icon = "inv_oldgodfishmount_blue",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "Blue"
     },
     {
@@ -9347,7 +9347,7 @@ mounts = {
         item_id = 223284.0,
         spell_id = 448849,
         icon = "inv_oldgodfishmount_green",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = "green",
     },
     {
@@ -9392,7 +9392,7 @@ mounts = {
         item_id = 187674.0,
         spell_id = 359380,
         icon = "ability_mount_progenitorjellyfish_dark",
-        skeleton_type = "",
+        skeleton_type = "fish",
         color = ""
     },
     {
@@ -9626,7 +9626,7 @@ mounts = {
         item_id = 213608.0,
         spell_id = 435131,
         icon = "ability_mount_goatmount",
-        skeleton_type = "Goat",
+        skeleton_type = "rat",
         color = ""
     },
     {
@@ -9635,7 +9635,7 @@ mounts = {
         item_id = 213609.0,
         spell_id = 435133,
         icon = "ability_mount_goatmountdark_red",
-        skeleton_type = "Goat",
+        skeleton_type = "rat",
         color = "Red"
     },
     {
@@ -10229,7 +10229,7 @@ mounts = {
         item_id = 106246.0,
         spell_id = 149801,
         icon = "inv_misc_elitehippogryph",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = "green"
     },
     {
@@ -10265,7 +10265,7 @@ mounts = {
         item_id = 116789.0,
         spell_id = 171846,
         icon = "inv_chopper_alliance",
-        skeleton_type = "",
+        skeleton_type = "mechanical",
         color = ""
     },
     {
@@ -10274,7 +10274,7 @@ mounts = {
         item_id = 116788.0,
         spell_id = 171845,
         icon = "inv_chopper_horde",
-        skeleton_type = "",
+        skeleton_type = "mechanical",
         color = ""
     },
     {
@@ -10283,7 +10283,7 @@ mounts = {
         item_id = 224574.0,
         spell_id = 453255,
         icon = "inv_turtlemount2_dark",
-        skeleton_type = "turtle",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -10355,7 +10355,7 @@ mounts = {
         item_id = 68008.0,
         spell_id = 93623,
         icon = "ability_mount_drake_bronze",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -10391,7 +10391,7 @@ mounts = {
         item_id = 72582.0,
         spell_id = 102514,
         icon = "ability_mount_warhippogryph",
-        skeleton_type = "hippogryph",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -10400,7 +10400,7 @@ mounts = {
         item_id = 72575.0,
         spell_id = 102488,
         icon = "ability_mount_camel_gray",
-        skeleton_type = "Camel",
+        skeleton_type = "stag",
         color = "White"
     },
     {
@@ -10409,7 +10409,7 @@ mounts = {
         item_id = 79771.0,
         spell_id = 113120,
         icon = "ability_mount_feldrake",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -10427,7 +10427,7 @@ mounts = {
         item_id = nan,
         spell_id = 381529,
         icon = "inv_beetleprimalmount",
-        skeleton_type = "",
+        skeleton_type = "insect",
         color = ""
     },
     {
@@ -10517,7 +10517,7 @@ mounts = {
         item_id = nan,
         spell_id = 73629,
         icon = "Spell_Nature_Swiftness",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -10526,7 +10526,7 @@ mounts = {
         item_id = nan,
         spell_id = 73630,
         icon = "Ability_Mount_Charger",
-        skeleton_type = "Elekk",
+        skeleton_type = "mammoth",
         color = ""
     },
     {
@@ -10535,7 +10535,7 @@ mounts = {
         item_id = nan,
         spell_id = 290608,
         icon = "inv_zandalaripaladinmount",
-        skeleton_type = "",
+        skeleton_type = "bear",
         color = ""
     },
     {
@@ -10544,7 +10544,7 @@ mounts = {
         item_id = nan,
         spell_id = 270562,
         icon = "inv_dwarfpaladinram_red",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "red",
     },
     {
@@ -10553,7 +10553,7 @@ mounts = {
         item_id = nan,
         spell_id = 270564,
         icon = "inv_dwarfpaladinram_gold",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "gold",
     },
     {
@@ -10571,7 +10571,7 @@ mounts = {
         item_id = nan,
         spell_id = 453785,
         icon = "inv_earthenpaladinmount",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {
@@ -10643,7 +10643,7 @@ mounts = {
         item_id = 67107.0,
         spell_id = 93644,
         icon = "inv_mount_hordescorpiong",
-        skeleton_type = "",
+        skeleton_type = "crocodile",
         color = ""
     },
     {
@@ -10661,7 +10661,7 @@ mounts = {
         item_id = 116666.0,
         spell_id = 171627,
         icon = "inv_giantboarmount_brown",
-        skeleton_type = "Boar",
+        skeleton_type = "bear",
         color = "Black"
     },
     {
@@ -10697,7 +10697,7 @@ mounts = {
         item_id = 44175.0,
         spell_id = 60021,
         icon = "ability_mount_drake_proto",
-        skeleton_type = "drake",
+        skeleton_type = "Dragon",
         color = ""
     },
     {
@@ -10769,7 +10769,7 @@ mounts = {
         item_id = 13328.0,
         spell_id = 17461,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = "Black"
     },
     {
@@ -10778,7 +10778,7 @@ mounts = {
         item_id = 13329.0,
         spell_id = 17460,
         icon = "ability_mount_mountainram",
-        skeleton_type = "Ram",
+        skeleton_type = "stag",
         color = ""
     },
     {

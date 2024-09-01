@@ -3,12 +3,14 @@
 -- Function to initialize the configuration table
 local function InitializeConfig()
     if not MountSelectorCharacterConfig then
-        MountSelectorCharacterConfig = {}
+        MountSelectorCharacterConfig = {
+            lastSelectedColor = "All",
+            lastSelectedSkeleton = "All"
+        }
     end
 
-    -- Load the last selected color filter, default to "All" if not set
-    local lastColor = MountSelectorCharacterConfig.lastSelectedColor or "All"
-    local lastSkeleton = MountSelectorCharacterConfig.lastSelectedSkeleton or "All"
+    selectedColor = MountSelectorCharacterConfig.lastSelectedColor or "All"
+    selectedSkeleton = MountSelectorCharacterConfig.lastSelectedSkeleton or "All"
 end
 
 -- Function to save the selected color filter
@@ -30,10 +32,7 @@ local function OnEvent(self, event, ...)
         end
     end
     if event == "PLAYER_LOGIN" then
-        playerLoggedIn = true
         InitializeConfig()
-        selectedColor = MountSelectorCharacterConfig.lastSelectedColor or "All"
-        selectedSkeleton = MountSelectorCharacterConfig.lastSelectedSkeleton or "All"
         renderMounts()
     end
 end
