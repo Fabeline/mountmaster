@@ -10,10 +10,8 @@ skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", UIParent, "UID
 UIDropDownMenu_SetWidth(skeletonDropdown, 150)
 UIDropDownMenu_SetText(skeletonDropdown, "Select Skeleton")
 
---skeletonDropdown:SetPoint("CENTER", UIParent, "CENTER", -50)
---colorDropdown:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
-
-local selectedColor = "All"
+selectedColor = "All"
+selectedSkeleton = "All"
 
 -- Populate the dropdown menu with skeleton types
 local function initializeSkeletonDropdown(self, level)
@@ -21,7 +19,7 @@ local function initializeSkeletonDropdown(self, level)
     info.func = function(self)
         selectedSkeleton = self.value
         UIDropDownMenu_SetText(skeletonDropdown, selectedSkeleton)
-        renderMounts(selectedSkeleton)  -- Re-render mounts when a new filter is selected
+        renderMounts()  -- Re-render mounts when a new filter is selected
     end
 
     -- Add "All" option
@@ -31,9 +29,9 @@ local function initializeSkeletonDropdown(self, level)
     -- Collect all unique skeleton types from the mounts data, case-insensitively
     local skeletonSet = {}
     for _, mount in ipairs(mounts) do
-        if mount.skeleton and mount.skeleton ~= "" then
-            local lowerSkeleton = string.lower(mount.skeleton)
-            skeletonSet[lowerSkeleton] = mount.skeleton  -- Store the original case
+        if mount.skeleton_type then
+            local lowerSkeleton = string.lower(mount.skeleton_type)
+            skeletonSet[lowerSkeleton] = mount.skeleton_type  -- Store the original case
         end
     end
 
@@ -60,7 +58,7 @@ local function initializeColorDropdown(self, level)
     info.func = function(self)
         selectedColor = self.value
         UIDropDownMenu_SetText(colorDropdown, selectedColor)
-        renderMounts(selectedColor)  -- Re-render mounts when a new filter is selected
+        renderMounts()  -- Re-render mounts when a new filter is selected
     end
 
     -- Add "All" option
@@ -107,12 +105,13 @@ local function findMountByID(id)
 end
 
 -- Function to filter mounts based on selected color and whether the mount is collected
-function filterMounts(color)
+function filterMounts()
     local filteredMounts = {}
 
     -- Convert the input color to lowercase for case-insensitive comparison
-    local colorLower = string.lower(color)
-
+    local colorLower = string.lower(selectedColor)
+    local skeletonLower = string.lower(selectedSkeleton)
+    
     -- Iterate over all mounts in the journal
     local displayedMounts = C_MountJournal.GetMountIDs()
 
@@ -122,11 +121,13 @@ function filterMounts(color)
         
         if isUsable and isCollected then
             local mountColor = findMountByID(mountID).color
+            local skeletonType = findMountByID(mountID).skeleton_type or "All"
             
             -- Convert mountColor to lowercase for case-insensitive comparison
             local mountColorLower = string.lower(mountColor)
-        
-            if colorLower == "all" or mountColorLower == colorLower then
+            local mountSkeletonLower = string.lower(skeletonType)
+
+            if (colorLower == "all" or mountColorLower == colorLower) and (skeletonLower == "all" or mountSkeletonLower == skeletonLower) then
                 table.insert(filteredMounts, { id = mountID, name = name, color = mountColor })
             end
         end

@@ -85,12 +85,13 @@ local function createMountButtons(mountList)
 end
 
 -- Function to render mounts after filtering
-function renderMounts(color)
+function renderMounts()
     -- Save the selected color filter
-    SaveColorFilter(color)
+    SaveColorFilter(selectedColor)
+    SaveSkeletonFilter(selectedSkeleton)
 
     -- Get the filtered list of mounts
-    local filteredMounts = filterMounts(color)
+    local filteredMounts = filterMounts()
 
     -- Render only the filtered mounts
     createMountButtons(filteredMounts)

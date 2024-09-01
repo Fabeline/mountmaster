@@ -8,11 +8,17 @@ local function InitializeConfig()
 
     -- Load the last selected color filter, default to "All" if not set
     local lastColor = MountSelectorCharacterConfig.lastSelectedColor or "All"
+    local lastSkeleton = MountSelectorCharacterConfig.lastSelectedSkeleton or "All"
 end
 
 -- Function to save the selected color filter
 function SaveColorFilter(color)
     MountSelectorCharacterConfig.lastSelectedColor = color
+end
+
+-- Function to save the selected color filter
+function SaveSkeletonFilter(skeleton)
+    MountSelectorCharacterConfig.lastSelectedSkeleton = skeleton
 end
 
 -- Event handler for when the addon is loaded and mount data is available
@@ -26,7 +32,9 @@ local function OnEvent(self, event, ...)
     if event == "PLAYER_LOGIN" then
         playerLoggedIn = true
         InitializeConfig()
-        renderMounts(MountSelectorCharacterConfig.lastSelectedColor or "All")
+        selectedColor = MountSelectorCharacterConfig.lastSelectedColor or "All"
+        selectedSkeleton = MountSelectorCharacterConfig.lastSelectedSkeleton or "All"
+        renderMounts()
     end
 end
 
