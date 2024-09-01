@@ -1,8 +1,5 @@
 -- MountFilterDropdown.lua
 
--- Print to confirm the file is loading
-print("MountFilterDropdown.lua is running")
-
 -- Create a dropdown menu for filtering by color
 colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", UIParent, "UIDropDownMenuTemplate")
 UIDropDownMenu_SetWidth(colorDropdown, 150)
