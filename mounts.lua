@@ -1337,7 +1337,7 @@ mounts = {
         item_id = 182717.0,
         spell_id = 340068,
         icon = "inv_deathelementalmount_black",
-        color = "black",
+        skeleton_type = "elemental",
         color = "black",
     },
     {
@@ -4811,7 +4811,7 @@ mounts = {
         item_id = 116794.0,
         spell_id = 171851,
         icon = "ability_mount_blackdirewolf",
-        skeleton_type = "black",
+        skeleton_type = "wolf",
         color = "black",
     },
     {

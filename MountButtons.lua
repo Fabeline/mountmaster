@@ -3,20 +3,31 @@ lineheight = 37
 -- Table to store the currently visible mounts
 local visibleMounts = {}
 
+local twwFlyingZones = {
+    [2248] = true, -- Isle of Dorn
+    [2215] = true, -- Hallowfall
+    [2214] = true, -- The Ringing Deeps
+    [2255] = true, -- Azj-Kahet
+    [2256] = true, -- Azj-Kahet - Lower
+    [2213] = true, -- City of Threads
+    [2216] = true, -- City of Threads - Lower
+}
+
 -- Function to check if the player can fly
 function canPlayerFly()
     local hasExpertRiding = IsSpellKnown(34090)
     local hasArtisanRiding = IsSpellKnown(34091)
     local hasMasterRiding = IsSpellKnown(90265)
-    local isFlyable = IsFlyableArea()
-    print("Is flyable area", isFlyable)
+    local zoneId =  C_Map.GetBestMapForUnit("player")
 
-    print("area",  C_Map.GetBestMapForUnit("player"))
+    print("ZoneId")
+
+    -- The War within zones are not added to the IsFlyableArea function... so we need to add them manually
+    local isFlyable = IsFlyableArea() or twwFlyingZones[zoneId]
+    
     if (hasExpertRiding or hasArtisanRiding or hasMasterRiding) and isFlyable then
-        print("Player can fly")
         return true
     else
-        print("Player cannot fly")
         return false
     end
 end
@@ -172,8 +183,8 @@ local function createMountButtons(mountList)
         end
     end)
 
-    -- Bind the "K" key to trigger the random mount button
-    SetOverrideBindingClick(mountSelectorFrame, true, "K", "RandomMountButton")
+    -- Bind the "Q" key to trigger the random mount button
+    SetOverrideBindingClick(mountSelectorFrame, true, "q", "RandomMountButton")
 end
 
 -- Function to render mounts after filtering
