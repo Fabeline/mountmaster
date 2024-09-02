@@ -107,19 +107,6 @@ local function findMountByID(id)
     return nil  -- Return nil if no mount with the given ID is found
 end
 
-function canPlayerFly()
-    local hasExpertRiding = IsSpellKnown(34090)
-    local hasArtisanRiding = IsSpellKnown(34091)
-    local hasMasterRiding = IsSpellKnown(90265)
-    local isFlyable = IsFlyableArea()
-
-    if (hasExpertRiding or hasArtisanRiding or hasMasterRiding) and isFlyable then
-        return true
-    else
-        return false
-    end
-end
-
 -- Function to filter mounts based on selected color and whether the mount is collected
 function filterMounts()
     local filteredMounts = {}

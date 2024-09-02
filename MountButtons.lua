@@ -4,13 +4,21 @@ lineheight = 37
 local visibleMounts = {}
 
 -- Function to check if the player can fly
-local function canPlayerFly()
+function canPlayerFly()
     local hasExpertRiding = IsSpellKnown(34090)
     local hasArtisanRiding = IsSpellKnown(34091)
     local hasMasterRiding = IsSpellKnown(90265)
     local isFlyable = IsFlyableArea()
+    print("Is flyable area", isFlyable)
 
-    return (hasExpertRiding or hasArtisanRiding or hasMasterRiding) and isFlyable
+    print("area",  C_Map.GetBestMapForUnit("player"))
+    if (hasExpertRiding or hasArtisanRiding or hasMasterRiding) and isFlyable then
+        print("Player can fly")
+        return true
+    else
+        print("Player cannot fly")
+        return false
+    end
 end
 
 -- Function to check if a mount is flying
