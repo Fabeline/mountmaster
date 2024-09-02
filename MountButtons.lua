@@ -18,7 +18,7 @@ function canPlayerFly()
     local hasMasterRiding = IsSpellKnown(90265)
     local zoneId =  C_Map.GetBestMapForUnit("player")
 
-    print("ZoneId", zoneId)
+    --print("ZoneId", zoneId)
 
     -- The War within zones are not added to the IsFlyableArea function... so we need to add them manually
     local isFlyable = IsFlyableArea() or twwFlyingZones[zoneId]

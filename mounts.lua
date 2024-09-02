@@ -1688,7 +1688,7 @@ mounts = {
         item_id = 181819.0,
         spell_id = 336036,
         icon = "inv_maldraxxusflyermount_red",
-        skeleton_type = "dragon",
+        skeleton_type = "purple",
         color = "red",
     },
     {
