@@ -3,6 +3,7 @@ local currentMounts = {}
 
 local twwFlyingZones = {
     [2248] = true, -- Isle of Dorn
+    [2339] = true, -- Dornogal
     [2215] = true, -- Hallowfall
     [2214] = true, -- The Ringing Deeps
     [2255] = true, -- Azj-Kahet

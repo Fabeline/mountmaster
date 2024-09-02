@@ -1688,8 +1688,8 @@ mounts = {
         item_id = 181819.0,
         spell_id = 336036,
         icon = "inv_maldraxxusflyermount_red",
-        skeleton_type = "purple",
-        color = "red",
+        skeleton_type = "dragon",
+        color = "purple",
     },
     {
         name = "Slime Serpent",
@@ -1913,8 +1913,8 @@ mounts = {
         item_id = 187183.0,
         spell_id = 356501,
         icon = "inv_devourerswarmermount_dark",
-        skeleton_type = "stag",
-        color = "bear"
+        skeleton_type = "bear",
+        color = "blue"
     },
     {
         name = "Garnet Razorwing",
@@ -2436,7 +2436,7 @@ mounts = {
         spell_id = 353866,
         icon = "inv_gargoylebrute2mount_dark",
         skeleton_type = "gargoyle",
-        color = "bblackkack"
+        color = "black"
     },
     {
         name = "Horrid Dredwing",
@@ -3516,7 +3516,7 @@ mounts = {
         spell_id = 316723,
         icon = "inv_quilenmount_gold",
         skeleton_type = "wolf",
-        color = "gold",
+        color = "yellow",
     },
     {
         name = "Rajani Warserpent",
@@ -4850,14 +4850,14 @@ mounts = {
         skeleton_type = "kodo",
         color = "blue",
     },
-    {
+    {   
         name = "Solar Spirehawk",
         id = 634,
         item_id = 116771.0,
         spell_id = 171828,
         icon = "inv_helm_suncrown_d_01",
         skeleton_type = "bird",
-        color = "bire"
+        color = "fire"
     },
     {
         name = "Ironhoof Destroyer",
@@ -7539,7 +7539,7 @@ mounts = {
         spell_id = 448186,
         icon = "inv_dwarvenmechboss_gold",
         skeleton_type = "mechanical",
-        color = "gold",
+        color = "orange",
     },
     {
         name = "Sea Turtle",
@@ -8097,7 +8097,7 @@ mounts = {
         spell_id = 229512,
         icon = "inv_viciousgoldenking",
         skeleton_type = "cat",
-        color = "gold",
+        color = "yellow",
     },
     {
         name = "Vicious War Turtle",
@@ -8718,7 +8718,7 @@ mounts = {
         spell_id = 449466,
         icon = "inv_felbatgladiatormount_gold",
         skeleton_type = "Bat",
-        color = "gold",
+        color = "yellow",
     },
     {
         name = "Ivory Hawkstrider",
@@ -9735,7 +9735,7 @@ mounts = {
         spell_id = 446022,
         icon = "inv_celestialserpentmount_gold",
         skeleton_type = "Serpent",
-        color = "gold",
+        color = "yellow",
     },
     {
         name = "Winged Guardian",
@@ -9977,7 +9977,7 @@ mounts = {
         item_id = nan,
         spell_id = 369451,
         icon = "inv_rabbitmount",
-        skeleton_type = "slug",
+        skeleton_type = "bear",
         color = "ghost"
     },
     {
@@ -10554,7 +10554,7 @@ mounts = {
         spell_id = 270564,
         icon = "inv_dwarfpaladinram_gold",
         skeleton_type = "stag",
-        color = "gold",
+        color = "yellow",
     },
     {
         name = "Lightforged Ruinstrider",
