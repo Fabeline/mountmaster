@@ -108,36 +108,23 @@ local function findMountByID(id)
 end
 
 -- Function to filter mounts based on selected color and whether the mount is collected
-function filterMounts()
+function filterMounts(visibleMounts)
     local filteredMounts = {}
 
     -- Convert the input color to lowercase for case-insensitive comparison
     local colorLower = string.lower(selectedColor)
     local skeletonLower = string.lower(selectedSkeleton)
-    
-    -- Iterate over all mounts in the journal
-    local displayedMounts = C_MountJournal.GetMountIDs()
 
-    for i = 1, #displayedMounts do
-        local mountID = displayedMounts[i]
-        local name, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal.GetMountInfoByID(mountID)
-        
-        if isUsable and isCollected then
-            local mountColor = findMountByID(mountID).color
-            local skeletonType = findMountByID(mountID).skeleton_type or "All"
-            
-            -- Convert mountColor to lowercase for case-insensitive comparison
-            local mountColorLower = string.lower(mountColor)
-            local mountSkeletonLower = string.lower(skeletonType)
+    for i = 1, #visibleMounts do
+        local currentMount = visibleMounts[i]
+        local mountColorLower = string.lower(currentMount.color or "")
+        local mountSkeletonLower = string.lower(currentMount.skeleton_type or "")
 
-            if (colorLower == "all" or mountColorLower == colorLower) and (skeletonLower == "all" or mountSkeletonLower == skeletonLower) then
-                table.insert(filteredMounts, { id = mountID, name = name, color = mountColor })
-            end
+        if (colorLower == "all" or mountColorLower == colorLower) and (skeletonLower == "all" or mountSkeletonLower == skeletonLower) then
+            table.insert(filteredMounts, currentMount)
         end
-    end
 
-    -- Debugging: Print the count of filtered mounts
-    print("Filtered Mounts Count:", #filteredMounts)
+    end
 
     return filteredMounts
 end

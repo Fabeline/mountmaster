@@ -1,7 +1,5 @@
-lineheight = 37
-
--- Table to store the currently visible mounts
-local visibleMounts = {}
+local lineheight = 37
+local currentMounts = {}
 
 local twwFlyingZones = {
     [2248] = true, -- Isle of Dorn
@@ -20,7 +18,7 @@ function canPlayerFly()
     local hasMasterRiding = IsSpellKnown(90265)
     local zoneId =  C_Map.GetBestMapForUnit("player")
 
-    print("ZoneId")
+    print("ZoneId", zoneId)
 
     -- The War within zones are not added to the IsFlyableArea function... so we need to add them manually
     local isFlyable = IsFlyableArea() or twwFlyingZones[zoneId]
@@ -46,9 +44,8 @@ local function isMountFlying(typeId)
     return flyingMountTypes[typeId]
 end
 
--- Function to filter mounts by usability, skeleton, and color
-local function filterMounts()
-    local filteredMounts = {}
+local function getVisibleMounts()
+    local visibleMounts = {}
 
     for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
         local name, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal.GetMountInfoByID(mountID)
@@ -58,51 +55,36 @@ local function filterMounts()
             local mountInfo = findMountByID(mountID)  -- Assuming this function gets extra info about the mount
 
             if mountInfo then
-                -- Debugging output to check the retrieved skeleton type
-                --print("Mount Name:", name)
-                --print("Skeleton Type:", mountInfo.skeleton_type)
+                local canFly = isMountFlying(mountType)
 
-                -- Use lower-case comparisons only if color and skeleton exist
-                local colorMatches = (selectedColor == "All") or (mountInfo.color and string.lower(mountInfo.color) == string.lower(selectedColor))
-                local skeletonMatches = (selectedSkeleton == "All") or (mountInfo.skeleton_type and string.lower(mountInfo.skeleton_type) == string.lower(selectedSkeleton))
-
-                if colorMatches and skeletonMatches then
-                    local canFly = isMountFlying(mountType)
-
-                    --print("Mount:", name, "Can fly:", canFly, "Type ID:", mountType, "Skeleton Matches:", skeletonMatches)
-                    table.insert(filteredMounts, {
-                        id = mountID,
-                        name = name,
-                        icon = icon,
-                        isFlying = canFly
-                    })
-                end
+                table.insert(visibleMounts, {
+                    id = mountID,
+                    name = name,
+                    icon = icon,
+                    isFlying = canFly,                    
+                    spellID = spellID,
+                    color = mountInfo.color,
+                    skeleton_type = mountInfo.skeleton_type,
+                })
             end
         end
     end
 
-    return filteredMounts
+    return visibleMounts
 end
 
 
-
 -- Function to create new mount buttons
-local function createMountButtons(mountList)
+local function createMountButtons()
     -- Refresh the content frame
     deleteContentFrame()
     createContentFrame()
 
-    -- Clear the visibleMounts table
-    visibleMounts = {}
-
     -- Set the height of the content frame based on the number of mounts
-    local contentHeight = #mountList * lineheight
+    local contentHeight = #currentMounts * lineheight
     contentFrame:SetHeight(contentHeight)
 
-    for i, mount in ipairs(mountList) do
-        -- Add the mount to the visibleMounts table
-        table.insert(visibleMounts, mount)
-
+    for i, mount in ipairs(currentMounts) do
         -- Create a texture for the mount icon
         local mountIcon = contentFrame:CreateTexture(nil, "ARTWORK")
         mountIcon:SetSize(32, 32)  -- Set icon size
@@ -153,11 +135,13 @@ local function createMountButtons(mountList)
     randomMountButton:SetText("Random Mount")
 
     randomMountButton:SetScript("OnClick", function()
-        if #visibleMounts > 0 then
+        reloadMounts()
+
+        if #currentMounts > 0 then
             local flyingMounts = {}
             local groundMounts = {}
 
-            for _, mount in ipairs(visibleMounts) do
+            for _, mount in ipairs(currentMounts) do
                 if mount.isFlying then
                     table.insert(flyingMounts, mount)
                 else
@@ -187,13 +171,14 @@ local function createMountButtons(mountList)
     SetOverrideBindingClick(mountSelectorFrame, true, "q", "RandomMountButton")
 end
 
--- Function to render mounts after filtering
-function renderMounts()
-    -- Get the filtered list of mounts based on usability, skeleton, and color
-    local filteredMounts = filterMounts()
+function reloadMounts()
+    local visibleMounts = getVisibleMounts()
+    currentMounts = filterMounts(visibleMounts)
+end
 
-    -- Render only the filtered mounts
-    createMountButtons(filteredMounts)
+function renderMounts()
+    reloadMounts()
+    createMountButtons(currentMounts)
 end
 
 -- Function to find mount by ID (assuming this function exists and provides extra info like color and skeleton)

@@ -7,6 +7,7 @@ local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("MountSelector", {
         if MountSelectorFrame:IsShown() then
             MountSelectorFrame:Hide()
         else
+            renderMounts()
             MountSelectorFrame:Show()
         end
     end,
