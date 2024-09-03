@@ -1634,7 +1634,7 @@ mounts = {
         item_id = 182081.0,
         spell_id = 327405,
         icon = "inv_rocmaldraxxusmountblack",
-        skeleton_type = "bird",
+        skeleton_type = "dinosaur",
         color = "black",
     },
     {
@@ -9654,7 +9654,7 @@ mounts = {
         spell_id = 435146,
         icon = "ability_mount_pterodactylmount",
         skeleton_type = "dinosaur",
-        color = "black"
+        color = "blue"
     },
     {
         name = "Jade Pterrordax",

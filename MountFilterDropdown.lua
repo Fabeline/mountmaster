@@ -1,4 +1,6 @@
 -- MountFilterDropdown.lua
+-- TODO: check if in combat!
+-- TODO: check if you are inside
 
 -- Create a dropdown menu for filtering by color
 colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", UIParent, "UIDropDownMenuTemplate")
@@ -116,9 +118,9 @@ local function initializeColorDropdown(self, level)
     --print("Selected colors:")
 
     -- debug selected colors: 
-    for i, v in ipairs(selectedColors) do
-        print(v)
-    end
+    --for i, v in ipairs(selectedColors) do
+    --    print(v)
+    --end
     if #selectedColors == 0 then
         --print("All is selected")
         info.checked = true
