@@ -4,17 +4,17 @@
 local function InitializeConfig()
     if not MountSelectorCharacterConfig then
         MountSelectorCharacterConfig = {
-            lastSelectedColor = "All",
-            lastSelectedSkeleton = "All",
+            colors = {
+            },
+            types = {
+            },
             summonKey = "k"
         }
     end
 
-    summonKey = MountSelectorCharacterConfig.summonKey or "q"
-    selectedColor = MountSelectorCharacterConfig.lastSelectedColor or "All"
-    selectedSkeleton = MountSelectorCharacterConfig.lastSelectedSkeleton or "All"
-    --print("Selected Color:", selectedColor)
-    --print("Selected Skeleton:", selectedSkeleton)
+    summonKey = MountSelectorCharacterConfig.summonKey or "k"
+    selectedColors = MountSelectorCharacterConfig.colors or {}
+    selectedTypes = MountSelectorCharacterConfig.types or {}
 end
 
 function saveSummonKey(key)
@@ -22,14 +22,12 @@ function saveSummonKey(key)
     summonKey = key
 end
 
-function SaveColorFilter(color)
-    MountSelectorCharacterConfig.lastSelectedColor = color
-    selectedColor = color
+function saveSelectedColors(colors)
+    MountSelectorCharacterConfig.colors = colors
 end
 
-function SaveSkeletonFilter(skeleton)
-    MountSelectorCharacterConfig.lastSelectedSkeleton = skeleton
-    selectedSkeleton = skeleton
+function saveSelectedTypes(colors)
+    MountSelectorCharacterConfig.colors = colors
 end
 
 -- Event handler for when the addon is loaded and mount data is available
@@ -44,8 +42,8 @@ local function OnEvent(self, event, ...)
         InitializeConfig()
         renderMounts()
         loadSummoningKey()
-        UIDropDownMenu_SetText(skeletonDropdown, selectedSkeleton)
-        UIDropDownMenu_SetText(colorDropdown, selectedColor)
+        UIDropDownMenu_SetText(skeletonDropdown, "Select types")
+        UIDropDownMenu_SetText(colorDropdown, "Select colors")
     end
 end
 
