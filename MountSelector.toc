@@ -3,6 +3,7 @@
 ## Title: MountSelector
 ## Author: Fabel
 ## SavedVariablesPerCharacter: MountSelectorCharacterConfig
+## SavedVariablesPerCharacter: MountSelectorKey
 
 Libs\LibDBIcon-1.0\LibDataBroker-1.1\LibDataBroker-1.1.lua
 Libs\LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
@@ -13,5 +14,6 @@ ContentFrame.lua
 MountFilterDropdown.lua
 MountSelector.lua
 MountButtons.lua
+MountSelectorSelections.lua
 MiniMapButton.lua
 MountSelector.xml

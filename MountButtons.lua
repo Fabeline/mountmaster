@@ -172,8 +172,7 @@ local function createMountButtons()
         end
     end)
 
-    -- Bind the "Q" key to trigger the random mount button
-    SetOverrideBindingClick(mountSelectorFrame, true, "q", "RandomMountButton")
+    SetOverrideBindingClick(mountSelectorFrame, true, summonKey, "RandomMountButton")
 end
 
 function reloadMounts()

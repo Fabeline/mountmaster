@@ -5,24 +5,31 @@ local function InitializeConfig()
     if not MountSelectorCharacterConfig then
         MountSelectorCharacterConfig = {
             lastSelectedColor = "All",
-            lastSelectedSkeleton = "All"
+            lastSelectedSkeleton = "All",
+            summonKey = "q"
         }
     end
 
+    summonKey = MountSelectorCharacterConfig.summonKey or "q"
     selectedColor = MountSelectorCharacterConfig.lastSelectedColor or "All"
     selectedSkeleton = MountSelectorCharacterConfig.lastSelectedSkeleton or "All"
-    print("Selected Color:", selectedColor)
-    print("Selected Skeleton:", selectedSkeleton)
+    --print("Selected Color:", selectedColor)
+    --print("Selected Skeleton:", selectedSkeleton)
 end
 
--- Function to save the selected color filter
+function saveSummonKey(key)
+    MountSelectorCharacterConfig.summonKey = key
+    summonKey = key
+end
+
 function SaveColorFilter(color)
     MountSelectorCharacterConfig.lastSelectedColor = color
+    selectedColor = color
 end
 
--- Function to save the selected color filter
 function SaveSkeletonFilter(skeleton)
     MountSelectorCharacterConfig.lastSelectedSkeleton = skeleton
+    selectedSkeleton = skeleton
 end
 
 -- Event handler for when the addon is loaded and mount data is available
