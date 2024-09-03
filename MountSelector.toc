@@ -14,6 +14,7 @@ ContentFrame.lua
 MountFilterDropdown.lua
 MountSelector.lua
 MountButtons.lua
-MountSelectorSelections.lua
+SummonKey.lua
+RandomMount.lua
 MiniMapButton.lua
 MountSelector.xml

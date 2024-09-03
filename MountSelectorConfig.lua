@@ -6,7 +6,7 @@ local function InitializeConfig()
         MountSelectorCharacterConfig = {
             lastSelectedColor = "All",
             lastSelectedSkeleton = "All",
-            summonKey = "q"
+            summonKey = "k"
         }
     end
 
@@ -43,6 +43,7 @@ local function OnEvent(self, event, ...)
     if event == "PLAYER_LOGIN" then
         InitializeConfig()
         renderMounts()
+        loadSummoningKey()
         UIDropDownMenu_SetText(skeletonDropdown, selectedSkeleton)
         UIDropDownMenu_SetText(colorDropdown, selectedColor)
     end

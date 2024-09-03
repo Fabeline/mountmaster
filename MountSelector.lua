@@ -6,11 +6,11 @@ mountSelectorFrame:SetSize(400, 500)
 mountSelectorFrame:SetPoint("CENTER", UIParent, "CENTER", -400, 0)
 mountSelectorFrame:Hide()
 
--- Attach the dropdown to the frame
+-- Attach the color dropdown
 colorDropdown:SetParent(mountSelectorFrame)
 colorDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -30)
 
---Attach the skeleton type dropdown to the frame
+--Attach the skeleton type dropdown
 skeletonDropdown:SetParent(mountSelectorFrame)
 skeletonDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -60)
 

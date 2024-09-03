@@ -1,4 +1,3 @@
--- Add a button to summon a random mount from the visible list
 local setKeyButton = CreateFrame("Button", "SummonKeyButton", mountSelectorFrame, "UIPanelButtonTemplate")
 setKeyButton:SetSize(120, 22)
 setKeyButton:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -20, -30)
@@ -18,7 +17,7 @@ StaticPopupDialogs["SET_KEYBIND"] = {
     OnAccept = function(self)
         local enteredKey = self.editBox:GetText()
         saveSummonKey(enteredKey)
-        setKeyButton:SetText("Set key (" .. summonKey .. ")")
+        loadSummoningKey()
     end,
     OnShow = function(self)
         self.editBox:SetText("")
@@ -30,4 +29,7 @@ StaticPopupDialogs["SET_KEYBIND"] = {
     preferredIndex = 3,  -- Avoid taint issues
 }
 
-
+function loadSummoningKey()
+    loadRandomMountButton()
+    setKeyButton:SetText("Set key (" .. summonKey .. ")")
+end

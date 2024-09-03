@@ -1,3 +1,4 @@
 selectedColor = "All"
 selectedSkeleton = "All"
-summonKey = "q"
+summonKey = "k"
+currentMounts = {}
