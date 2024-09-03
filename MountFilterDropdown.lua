@@ -113,7 +113,7 @@ local function initializeColorDropdown(self, level)
     info.value = "All"
     info.checked = (#selectedColors == 0)
     UIDropDownMenu_AddButton(info, level)
-    print("Selected colors:")
+    --print("Selected colors:")
 
     -- debug selected colors: 
     for i, v in ipairs(selectedColors) do

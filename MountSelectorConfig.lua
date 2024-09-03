@@ -26,8 +26,8 @@ function saveSelectedColors(colors)
     MountSelectorCharacterConfig.colors = colors
 end
 
-function saveSelectedTypes(colors)
-    MountSelectorCharacterConfig.colors = colors
+function saveSelectedTypes(types)
+    MountSelectorCharacterConfig.types = types
 end
 
 -- Event handler for when the addon is loaded and mount data is available
