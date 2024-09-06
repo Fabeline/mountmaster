@@ -1437,7 +1437,7 @@ mounts = {
         spell_id = 334433,
         icon = "inv_wingedlion2mount_silver",
         skeleton_type = "cat",
-        color = "Silver"
+        color = "gray"
     },
     {
         name = "Colossal Wraithbound Mawrat",
@@ -2175,7 +2175,7 @@ mounts = {
         spell_id = 334398,
         icon = "inv_automatonlionmount_silver",
         skeleton_type = "cat",
-        color = "silver",
+        color = "gray",
     },
     {
         name = "Eternal Phalynx of Purity",
@@ -2184,7 +2184,7 @@ mounts = {
         spell_id = 334403,
         icon = "inv_automatonlionmount_silver",
         skeleton_type = "cat",
-        color = "silver",
+        color = "gray",
     },
     {
         name = "Elysian Aquilon",
@@ -2202,7 +2202,7 @@ mounts = {
         spell_id = 353880,
         icon = "inv_automatonfliermount_silver",
         skeleton_type = "gryphon",
-        color = "silver",
+        color = "white",
     },
     {
         name = "Phalynx of Humility",
@@ -2598,7 +2598,7 @@ mounts = {
         spell_id = 359366,
         icon = "inv_progenitorwasp_mount_silver",
         skeleton_type = "insect",
-        color = "silver",
+        color = "gray",
     },
     {
         name = "Bronzewing Vespoid",
@@ -2904,7 +2904,7 @@ mounts = {
         spell_id = 299159,
         icon = "inv_mechagonspidertank_silver",
         skeleton_type = "mechanical",
-        color = "silver",
+        color = "gray",
     },
     {
         name = "Child of Torcali",
@@ -4695,7 +4695,7 @@ mounts = {
         spell_id = 171831,
         icon = "ability_mount_talbukdraenormount",
         skeleton_type = "stag",
-        color = "Silver"
+        color = "blue"
     },
     {
         name = "Trained Icehoof",
@@ -5946,7 +5946,7 @@ mounts = {
         spell_id = 63642,
         icon = "ability_mount_cockatricemountelite_purple",
         skeleton_type = "emu",
-        color = "Silver"
+        color = "purple"
     },
     {
         name = "White Skeletal Warhorse",
@@ -6216,7 +6216,7 @@ mounts = {
         spell_id = 34898,
         icon = "inv_misc_foot_centaur",
         skeleton_type = "stag",
-        color = "Silver"
+        color = "white"
     },
     {
         name = "Tan War Talbuk",
@@ -6243,7 +6243,7 @@ mounts = {
         spell_id = 39317,
         icon = "inv_misc_foot_centaur",
         skeleton_type = "stag",
-        color = "Silver"
+        color = "white"
     },
     {
         name = "Tan Riding Talbuk",
@@ -6360,7 +6360,7 @@ mounts = {
         spell_id = 39802,
         icon = "ability_hunter_pet_netherray",
         skeleton_type = "fish",
-        color = "Silver"
+        color = "brown"
     },
     {
         name = "Swift Blue Gryphon",
@@ -9429,7 +9429,7 @@ mounts = {
         spell_id = 300154,
         icon = "inv_hippocampusmount_white",
         skeleton_type = "stag",
-        color = "Silver"
+        color = "gray"
     },
     {
         name = "Royal Seafeather",
@@ -9600,7 +9600,7 @@ mounts = {
         spell_id = 435126,
         icon = "ability_mount_cranemountblue",
         skeleton_type = "emu",
-        color = "Silver"
+        color = "white"
     },
     {
         name = "Luxurious Riding Crane",

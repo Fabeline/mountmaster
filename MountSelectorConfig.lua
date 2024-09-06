@@ -1,6 +1,3 @@
--- MountSelectorConfig.lua
-
--- Function to initialize the configuration table
 local function InitializeConfig()
     if not MountSelectorCharacterConfig then
         MountSelectorCharacterConfig = {
@@ -8,13 +5,15 @@ local function InitializeConfig()
             },
             types = {
             },
-            summonKey = "k"
+            summonKey = "k",
+            useOnlyFavourites = false
         }
     end
 
     summonKey = MountSelectorCharacterConfig.summonKey or "k"
     selectedColors = MountSelectorCharacterConfig.colors or {}
     selectedTypes = MountSelectorCharacterConfig.types or {}
+    useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
 end
 
 function saveSummonKey(key)
@@ -28,6 +27,11 @@ end
 
 function saveSelectedTypes(types)
     MountSelectorCharacterConfig.types = types
+end
+
+function saveUseOnlyFavourites(shouldUse)
+    MountSelectorCharacterConfig.useOnlyFavourites = shouldUse
+    useOnlyFavourites = shouldUse
 end
 
 -- Event handler for when the addon is loaded and mount data is available
@@ -44,6 +48,7 @@ local function OnEvent(self, event, ...)
         loadSummoningKey()
         UIDropDownMenu_SetText(skeletonDropdown, "Select types")
         UIDropDownMenu_SetText(colorDropdown, "Select colors")
+        reloadUseOnlyFavourites()
     end
 end
 

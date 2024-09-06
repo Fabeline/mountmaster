@@ -11,14 +11,11 @@ local twwFlyingZones = {
     [2216] = true, -- City of Threads - Lower
 }
 
--- Function to check if the player can fly
 function canPlayerFly()
     local hasExpertRiding = IsSpellKnown(34090)
     local hasArtisanRiding = IsSpellKnown(34091)
     local hasMasterRiding = IsSpellKnown(90265)
     local zoneId =  C_Map.GetBestMapForUnit("player")
-
-    --print("ZoneId", zoneId)
 
     -- The War within zones are not added to the IsFlyableArea function... so we need to add them manually
     local isFlyable = IsFlyableArea() or twwFlyingZones[zoneId]
@@ -30,7 +27,7 @@ function canPlayerFly()
     end
 end
 
--- Function to check if a mount is flying
+-- Check if a mount is flying
 local function isMountFlying(typeId)
     -- Check if mount type or other known factors indicate that it is a flying mount
     -- https://wowpedia.fandom.com/wiki/API_C_MountJournal.GetMountInfoExtraByID
@@ -49,10 +46,10 @@ local function getVisibleMounts()
 
     for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
         local name, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal.GetMountInfoByID(mountID)
-        local creatureDisplayInfoID, descriptionText, sourceText, isSelfMount, mountType, mountFaction, shouldHideOnChar, isCollected, isFavorite, isFactionSpecific, faction, isFlying, isAquatic, isGround, isJumping = C_MountJournal.GetMountInfoExtraByID(mountID)
+        local creatureDisplayInfoID, descriptionText, sourceText, isSelfMount, mountType, mountFaction, shouldHideOnChar, isCollected, _, isFactionSpecific, faction, isFlying, isAquatic, isGround, isJumping = C_MountJournal.GetMountInfoExtraByID(mountID)
 
-        if isUsable and isCollected then
-            local mountInfo = findMountByID(mountID)  -- Assuming this function gets extra info about the mount
+        if isUsable and isCollected and ((isFavorite and useOnlyFavourites) or not useOnlyFavourites) then
+            local mountInfo = findMountByID(mountID)
 
             if mountInfo then
                 local canFly = isMountFlying(mountType)
@@ -74,7 +71,6 @@ local function getVisibleMounts()
 end
 
 
--- Function to create new mount buttons
 local function createMountButtons()
     -- Refresh the content frame
     deleteContentFrame()
@@ -87,9 +83,9 @@ local function createMountButtons()
     for i, mount in ipairs(currentMounts) do
         -- Create a texture for the mount icon
         local mountIcon = contentFrame:CreateTexture(nil, "ARTWORK")
-        mountIcon:SetSize(32, 32)  -- Set icon size
-        mountIcon:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 10, -10 - (i-1) * lineheight)
-        mountIcon:SetTexture(mount.icon)  -- Get the icon texture
+        mountIcon:SetSize(32, 32)
+        mountIcon:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 10, - (i-1) * lineheight)
+        mountIcon:SetTexture(mount.icon)
 
         -- Create a button over the icon to make it clickable
         local iconButton = CreateFrame("Button", nil, contentFrame)
@@ -141,7 +137,6 @@ function renderMounts()
     createMountButtons(currentMounts)
 end
 
--- Function to find mount by ID (assuming this function exists and provides extra info like color and skeleton)
 function findMountByID(id)
     for _, mount in ipairs(mounts) do
         if mount.id == id then

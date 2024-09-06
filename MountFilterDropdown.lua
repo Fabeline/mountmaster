@@ -1,7 +1,3 @@
--- MountFilterDropdown.lua
--- TODO: check if in combat!
--- TODO: check if you are inside
-
 -- Create a dropdown menu for filtering by color
 colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", UIParent, "UIDropDownMenuTemplate")
 UIDropDownMenu_SetWidth(colorDropdown, 150)
@@ -63,7 +59,6 @@ local function initializeSkeletonDropdown(self, level)
     info.func = function(self)
         selectedType = self.value
         toggleType(selectedType)
-        --UIDropDownMenu_SetText(colorDropdown, selectedColor)
         renderMounts()  -- Re-render mounts when a new filter is selected
     end
 
@@ -106,7 +101,6 @@ local function initializeColorDropdown(self, level)
     info.func = function(self)
         selectedColor = self.value
         toggleColor(selectedColor)
-        --UIDropDownMenu_SetText(colorDropdown, selectedColor)
         renderMounts()  -- Re-render mounts when a new filter is selected
     end
 
@@ -115,14 +109,8 @@ local function initializeColorDropdown(self, level)
     info.value = "All"
     info.checked = (#selectedColors == 0)
     UIDropDownMenu_AddButton(info, level)
-    --print("Selected colors:")
 
-    -- debug selected colors: 
-    --for i, v in ipairs(selectedColors) do
-    --    print(v)
-    --end
     if #selectedColors == 0 then
-        --print("All is selected")
         info.checked = true
     end
 
@@ -162,10 +150,10 @@ local function findMountByID(id)
             return mount
         end
     end
-    return nil  -- Return nil if no mount with the given ID is found
+    return nil
 end
 
--- Function to filter mounts based on selected color and whether the mount is collected
+-- Filter mounts based on selected color and whether the mount is collected
 function filterMounts(visibleMounts)
     local filteredMounts = {}
 
