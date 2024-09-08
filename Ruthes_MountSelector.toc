@@ -1,12 +1,12 @@
 ## Interface: 110000
 ## Version: 0.1.0
-## Title: MountSelector
-## Author: Fabel
+## Title: Ruthe's MountSelector
+## Author: Ruthe
 ## SavedVariablesPerCharacter: MountSelectorCharacterConfig
 ## SavedVariablesPerCharacter: MountSelectorKey
 
-Libs\LibDBIcon-1.0\LibDataBroker-1.1\LibDataBroker-1.1.lua
-Libs\LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
+LibDBIcon-1.0\LibDataBroker-1.1\LibDataBroker-1.1.lua
+LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
 GlobalVariables.lua
 mounts.lua
 MountSelectorConfig.lua

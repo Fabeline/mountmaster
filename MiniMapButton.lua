@@ -2,7 +2,7 @@
 local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("MountSelector", {
     type = "launcher",
     text = "Mount Selector",
-    icon = "Interface\\AddOns\\MountSelector\\Textures\\MountSelector.tga",
+    icon = "Interface\\AddOns\\Ruthes_MountSelector\\Ruthes_MountSelector.tga",
     OnClick = function(self, button)
         if MountSelectorFrame:IsShown() then
             MountSelectorFrame:Hide()
