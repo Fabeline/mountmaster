@@ -2,8 +2,7 @@ local function InitializeConfig()
     if not MountSelectorCharacterConfig then
         MountSelectorCharacterConfig = {
             colors = getAllColors(),
-            types = {
-            },
+            types = getAllTypes(),
             summonKey = "k",
             useOnlyFavourites = false
         }
