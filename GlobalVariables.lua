@@ -1,3 +1,5 @@
+SLASH_RMS1 = '/rms' -- Write /rms in chat to toggle the mount selector window
+
 selectedColors = {}
 selectedTypes = {}
 summonKey = "k"

@@ -45,4 +45,12 @@ mountSelectorScrollFrame = CreateFrame("ScrollFrame", "MountSelectorScrollFrame"
 mountSelectorScrollFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -110)
 mountSelectorScrollFrame:SetPoint("BOTTOMRIGHT", mountSelectorFrame, "BOTTOMRIGHT", -30, 40)
 
+function SlashCmdList.RMS(msg, editBox)
+    if not MountSelectorFrame:IsShown() then
+        MountSelectorFrame:Show()
+    else
+        MountSelectorFrame:Hide()
+    end
+end
+
 createContentFrame()
