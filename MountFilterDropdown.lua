@@ -166,7 +166,7 @@ function filterMounts(visibleMounts)
 
     for i = 1, #visibleMounts do
         local currentMount = visibleMounts[i]
-        if (tContains(selectedColors, CapitalizeFirstLetter(currentMount.color))) and tContains(selectedTypes, CapitalizeFirstLetter(currentMount.skeleton_type)) then
+        if ((#selectedColors == 0 or tContains(selectedColors, CapitalizeFirstLetter(currentMount.color)))) and (#selectedTypes == 0 or tContains(selectedTypes, CapitalizeFirstLetter(currentMount.skeleton_type))) then
             table.insert(filteredMounts, currentMount)
         end
 
