@@ -152,16 +152,24 @@ local function findMountByID(id)
     return nil
 end
 
--- Filter mounts based on selected color and whether the mount is collected
+local function hasSelectedColor(mount)
+    return #selectedColors == 0 or tContains(selectedColors, CapitalizeFirstLetter(mount.color))
+end
+
+local function hasSelectedType(mount)
+    return #selectedTypes == 0 or tContains(selectedTypes, CapitalizeFirstLetter(mount.skeleton_type))
+end
+
+-- Filter mounts based on selected color and type
 function filterMounts(availableMounts)
     local filteredMounts = {}
 
     for i = 1, #availableMounts do
         local currentMount = availableMounts[i]
-        if ((#selectedColors == 0 or tContains(selectedColors, CapitalizeFirstLetter(currentMount.color)))) and (#selectedTypes == 0 or tContains(selectedTypes, CapitalizeFirstLetter(currentMount.skeleton_type))) then
+        if (hasSelectedColor(currentMount) and 
+            hasSelectedType(currentMount)) then
             table.insert(filteredMounts, currentMount)
         end
-
     end
 
     return filteredMounts

@@ -42,6 +42,7 @@ local function isMountFlying(typeId)
 end
 
 local function getAvailableMounts()
+
     local availableMounts = {}
 
     for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
@@ -50,7 +51,9 @@ local function getAvailableMounts()
 
         local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
 
-        if isUsable and isCollected and ((isFavorite and useOnlyFavourites) or not useOnlyFavourites) then
+        if isUsable and isCollected and 
+            ((isFavorite and useOnlyFavourites) or not useOnlyFavourites) then
+
             local mountInfo = findMountByID(mountID)
 
             if mountInfo then
