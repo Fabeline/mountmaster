@@ -41,12 +41,14 @@ local function isMountFlying(typeId)
     return flyingMountTypes[typeId]
 end
 
-local function getVisibleMounts()
-    local visibleMounts = {}
+local function getAvailableMounts()
+    local availableMounts = {}
 
     for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
-        local name, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal.GetMountInfoByID(mountID)
-        local creatureDisplayInfoID, descriptionText, sourceText, isSelfMount, mountType, mountFaction, shouldHideOnChar, isCollected, _, isFactionSpecific, faction, isFlying, isAquatic, isGround, isJumping = C_MountJournal.GetMountInfoExtraByID(mountID)
+        local name, spellID, icon, _, isUsable, _, isFavorite, _, _, _, isCollected 
+        = C_MountJournal.GetMountInfoByID(mountID)
+
+        local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
 
         if isUsable and isCollected and ((isFavorite and useOnlyFavourites) or not useOnlyFavourites) then
             local mountInfo = findMountByID(mountID)
@@ -54,7 +56,7 @@ local function getVisibleMounts()
             if mountInfo then
                 local canFly = isMountFlying(mountType)
 
-                table.insert(visibleMounts, {
+                table.insert(availableMounts, {
                     id = mountID,
                     name = name,
                     icon = icon,
@@ -67,7 +69,7 @@ local function getVisibleMounts()
         end
     end
 
-    return visibleMounts
+    return availableMounts
 end
 
 
@@ -128,8 +130,8 @@ local function createMountButtons()
 end
 
 function reloadMounts()
-    local visibleMounts = getVisibleMounts()
-    currentMounts = filterMounts(visibleMounts)
+    local availableMounts = getAvailableMounts()
+    currentMounts = filterMounts(availableMounts)
 end
 
 function renderMounts()

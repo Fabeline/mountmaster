@@ -125,7 +125,8 @@ function initializeColorDropdown(self)
     info.func = function(self)
         selectedColor = self.value
         toggleColor(selectedColor)
-        renderMounts()  -- Re-render mounts when a new filter is selected
+        -- Re-render mounts when a new filter is selected
+        renderMounts()
     end
 
     -- Add "All" option
@@ -135,7 +136,7 @@ function initializeColorDropdown(self)
     UIDropDownMenu_AddButton(info, 1)
 
     -- Add each unique color to the dropdown
-    for _, color in ipairs(getAllColors()) do  -- Use ipairs to correctly iterate over the sorted list
+    for _, color in ipairs(getAllColors()) do
         info.text, info.value = color, color
         info.checked = tContains(selectedColors, color)
         UIDropDownMenu_AddButton(info, 1)
@@ -152,11 +153,11 @@ local function findMountByID(id)
 end
 
 -- Filter mounts based on selected color and whether the mount is collected
-function filterMounts(visibleMounts)
+function filterMounts(availableMounts)
     local filteredMounts = {}
 
-    for i = 1, #visibleMounts do
-        local currentMount = visibleMounts[i]
+    for i = 1, #availableMounts do
+        local currentMount = availableMounts[i]
         if ((#selectedColors == 0 or tContains(selectedColors, CapitalizeFirstLetter(currentMount.color)))) and (#selectedTypes == 0 or tContains(selectedTypes, CapitalizeFirstLetter(currentMount.skeleton_type))) then
             table.insert(filteredMounts, currentMount)
         end
