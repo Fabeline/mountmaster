@@ -1,11 +1,3 @@
--- Create a dropdown menu for filtering by color
-colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", UIParent, "UIDropDownMenuTemplate")
-UIDropDownMenu_SetWidth(colorDropdown, 150)
-
--- Create a dropdown menu for filtering by skeleton type
-skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", UIParent, "UIDropDownMenuTemplate")
-UIDropDownMenu_SetWidth(skeletonDropdown, 150)
-
 function getAllColors()
     -- Collect all unique colors from the mounts data
     local colorSet = {}
@@ -104,9 +96,8 @@ local function toggleColor(color)
     renderMounts()
 end
 
-
 -- Populate the dropdown menu with skeleton types
-local function initializeSkeletonDropdown(self, level)
+function initializeSkeletonDropdown(self)
     local info = UIDropDownMenu_CreateInfo()
     info.func = function(self)
         selectedType = self.value
@@ -118,18 +109,18 @@ local function initializeSkeletonDropdown(self, level)
     info.text = "All"
     info.value = "All"
     info.checked = allTypesAreSelected()
-    UIDropDownMenu_AddButton(info, level)
+    UIDropDownMenu_AddButton(info, 1)
 
     -- Add each unique skeleton type to the dropdown
     for _, skeleton in ipairs(getAllTypes()) do 
         info.text, info.value = skeleton, skeleton
         info.checked = tContains(selectedTypes, skeleton)
-        UIDropDownMenu_AddButton(info, level)
+        UIDropDownMenu_AddButton(info, 1)
     end
 end
 
 -- Populate the dropdown menu with colors
-local function initializeColorDropdown(self, level)
+function initializeColorDropdown(self)
     local info = UIDropDownMenu_CreateInfo()
     info.func = function(self)
         selectedColor = self.value
@@ -141,13 +132,13 @@ local function initializeColorDropdown(self, level)
     info.text = "All"
     info.value = "All"
     info.checked = (allColorsAreSelected())
-    UIDropDownMenu_AddButton(info, level)
+    UIDropDownMenu_AddButton(info, 1)
 
     -- Add each unique color to the dropdown
     for _, color in ipairs(getAllColors()) do  -- Use ipairs to correctly iterate over the sorted list
         info.text, info.value = color, color
         info.checked = tContains(selectedColors, color)
-        UIDropDownMenu_AddButton(info, level)
+        UIDropDownMenu_AddButton(info, 1)
     end 
 end
 
@@ -174,7 +165,3 @@ function filterMounts(visibleMounts)
 
     return filteredMounts
 end
-
--- Initialize the dropdown
-UIDropDownMenu_Initialize(colorDropdown, initializeColorDropdown)
-UIDropDownMenu_Initialize(skeletonDropdown, initializeSkeletonDropdown)

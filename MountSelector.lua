@@ -3,7 +3,6 @@
 -- TODO: dont set it to a default key
 -- TODO: check if in combat!
 -- TODO: check if you are inside
--- TODO: better toggle "all" functionality
 
 -- Create the MountSelectorFrame
 mountSelectorFrame = CreateFrame("Frame", "MountSelectorFrame", UIParent, "BasicFrameTemplateWithInset")
@@ -11,13 +10,17 @@ mountSelectorFrame:SetSize(400, 500)
 mountSelectorFrame:SetPoint("CENTER", UIParent, "CENTER", -400, 0)
 mountSelectorFrame:Hide()
 
--- Attach the color dropdown
-colorDropdown:SetParent(mountSelectorFrame)
+-- Create a dropdown menu for filtering by color
+colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
+UIDropDownMenu_SetWidth(colorDropdown, 150)
 colorDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -35)
+UIDropDownMenu_Initialize(colorDropdown, initializeColorDropdown)
 
---Attach the type dropdown
-skeletonDropdown:SetParent(mountSelectorFrame)
+-- Create a dropdown menu for filtering by skeleton type
+skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
+UIDropDownMenu_SetWidth(skeletonDropdown, 150)
 skeletonDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
+UIDropDownMenu_Initialize(skeletonDropdown, initializeSkeletonDropdown)
 
 -- Enable the frame to be movable
 mountSelectorFrame:SetMovable(true)
