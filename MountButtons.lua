@@ -127,9 +127,9 @@ local function createMountButtons()
         mountText:SetFontObject("GameFontNormal")
         mountText:SetPoint("LEFT", mountIcon, "RIGHT", 10, 0)
         mountText:SetText(mount.name)
-
-        loadRandomMountButton(currentMounts)
     end
+    
+    loadRandomMountButton(currentMounts)
 end
 
 function reloadMounts()
