@@ -75,6 +75,8 @@ mountSelectorScrollFrame:SetPoint("BOTTOMRIGHT", mountSelectorFrame, "BOTTOMRIGH
 function SlashCmdList.RMS(msg, editBox)
     if msg == "summon" then -- /rms summon - will summon a random mount
         summonRandomMount()
+    elseif msg == "minimap" then --/rms minimap - will toggle minimap button
+        toggleMinimap()
     else
         if not MountSelectorFrame:IsShown() then -- /rms - will toggle the mount selector window
             MountSelectorFrame:Show()

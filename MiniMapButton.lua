@@ -14,7 +14,7 @@ local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("MountSelector", {
     OnTooltipShow = function(tooltip)
         tooltip:AddLine("Ruthe's Mount Selector")
         tooltip:AddLine("Click to toggle the Mount Selector window.")
-        tooltip:AddLine("To toggle minimap button, type /mountselector")
+        tooltip:AddLine("To toggle minimap button, type /rms minimap")
     end,
 })
 
@@ -65,9 +65,7 @@ frame:SetScript("OnEvent", function(self, event, addon)
     end
 end)
 
--- /mountselector will toggle the minimap button visibility
-SLASH_MOUNTSELECTOR1 = "/mountselector"
-SlashCmdList["MOUNTSELECTOR"] = function(msg)
+function toggleMinimap()
     mountSelectorDB.minimap.hide = not mountSelectorDB.minimap.hide
     if mountSelectorDB.minimap.hide then
         icon:Hide("MountSelector")

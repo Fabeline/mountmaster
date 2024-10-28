@@ -6,6 +6,10 @@ function getAllColors()
             local lowerColor = string.lower(mount.color)
             colorSet[lowerColor] = mount.color
         end
+        if mount.secondary_color and mount.secondary_color ~= "" then
+            local lowerColor = string.lower(mount.secondary_color)
+            colorSet[lowerColor] = mount.secondary_color
+        end
     end
 
     -- Convert the set of colors to a list and sort
@@ -153,7 +157,11 @@ local function findMountByID(id)
 end
 
 local function hasSelectedColor(mount)
-    return #selectedColors == 0 or tContains(selectedColors, CapitalizeFirstLetter(mount.color))
+    return #selectedColors == 0 or 
+    (
+        tContains(selectedColors, CapitalizeFirstLetter(mount.color)) or
+        tContains(selectedColors, CapitalizeFirstLetter(mount.secondary_color))
+    )
 end
 
 local function hasSelectedType(mount)

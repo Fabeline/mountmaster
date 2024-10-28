@@ -51,6 +51,12 @@ local function getAvailableMounts()
 
         local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
 
+        -- Uncomment to output missing mounts
+        -- local mountInfo = findMountByID(mountID)
+        -- if not mountInfo then
+        --     print("Missing: " .. name .. ", " .. spellID .. ")
+        -- end
+
         if isUsable and isCollected and 
             ((isFavorite and useOnlyFavourites) or not useOnlyFavourites) then
 
@@ -66,6 +72,7 @@ local function getAvailableMounts()
                     isFlying = canFly,                    
                     spellID = spellID,
                     color = mountInfo.color,
+                    secondary_color = mountInfo.secondary_color,
                     skeleton_type = mountInfo.skeleton_type,
                 })
             end

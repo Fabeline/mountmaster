@@ -7,5 +7,8 @@ currentMounts = {}
 useOnlyFavourites = false
 
 function CapitalizeFirstLetter(str)
+    if str == nil or str == "" then
+        return str  -- Return the string as it is if it's empty or nil
+    end
     return (str:gsub("^%l", string.upper))
 end
