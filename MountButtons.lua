@@ -54,7 +54,7 @@ local function getAvailableMounts()
         -- Uncomment to output missing mounts
         -- local mountInfo = findMountByID(mountID)
         -- if not mountInfo then
-        --     print("Missing: " .. name .. ", " .. spellID .. ")
+        --     print("Missing> Name: " .. name .. ", mountID: " .. mountID)
         -- end
 
         if isUsable and isCollected and 
