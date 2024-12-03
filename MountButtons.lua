@@ -41,8 +41,11 @@ local function isMountFlying(typeId)
     return flyingMountTypes[typeId]
 end
 
-local function getAvailableMounts()
+local function isAquaticMount(typeId)
+    return typeId == 231 or typeId == 232 or typeId == 254
+end
 
+local function getAvailableMounts()
     local availableMounts = {}
 
     for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
@@ -64,12 +67,14 @@ local function getAvailableMounts()
 
             if mountInfo then
                 local canFly = isMountFlying(mountType)
+                local canSwim = isAquaticMount(mountType)
 
                 table.insert(availableMounts, {
                     id = mountID,
                     name = name,
                     icon = icon,
-                    isFlying = canFly,                    
+                    isFlying = canFly,
+                    isAquatic = canSwim,                    
                     spellID = spellID,
                     color = mountInfo.color,
                     secondary_color = mountInfo.secondary_color,
