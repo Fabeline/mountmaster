@@ -60,12 +60,18 @@ local function getAvailableMounts()
         --     print("Missing> Name: " .. name .. ", mountID: " .. mountID)
         -- end
 
+        -- use small mounts if in instance
+        local useSmallMounts = (IsInInstance() and smallMountInInstance)
+
         if isUsable and isCollected and 
             ((isFavorite and useOnlyFavourites) or not useOnlyFavourites) then
 
             local mountInfo = findMountByID(mountID)
 
-            if mountInfo then
+            -- print("Mount: " .. name .. ", small: ".. tostring(mountInfo.is_small))
+            if mountInfo and
+                ((useSmallMounts and mountInfo.is_small == "true") or not useSmallMounts) then
+
                 local canFly = isMountFlying(mountType)
                 local canSwim = isAquaticMount(mountType)
 
@@ -74,7 +80,8 @@ local function getAvailableMounts()
                     name = name,
                     icon = icon,
                     isFlying = canFly,
-                    isAquatic = canSwim,                    
+                    isAquatic = canSwim,
+                    isSmall = mountInfo.is_small,                    
                     spellID = spellID,
                     color = mountInfo.color,
                     secondary_color = mountInfo.secondary_color,

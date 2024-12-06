@@ -11,6 +11,15 @@ The addon can be installed by Curseforge, or you can download it manually.
 - Unpack the zip file into your Interface/AddOns catalog (mine is for instance C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOn )
 
 ## Changelog
+
+### ver 1.2.1
+- You can now choose to only summon small mounts in instances
+- You will only summon aquatic mounts while in water (if available)
+- Pressing ESC will now close the addon window
+
+### ver 1.2.0
+- Updated for patch 11.0.7, including new mounts.
+
 ### ver 1.1.0
 - Added new mounts for patch 11.0.5
 - Added support for multi colored mounts

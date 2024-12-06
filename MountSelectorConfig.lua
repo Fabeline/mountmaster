@@ -12,6 +12,7 @@ local function InitializeConfig()
     selectedColors = MountSelectorCharacterConfig.colors or {}
     selectedTypes = MountSelectorCharacterConfig.types or {}
     useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
+    smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
 end
 
 function saveSummonKey(key)
@@ -32,6 +33,11 @@ function saveUseOnlyFavourites(shouldUse)
     useOnlyFavourites = shouldUse
 end
 
+function saveSmallMountInInstance(shouldUse)
+    MountSelectorCharacterConfig.smallMountInInstance = shouldUse
+    smallMountInInstance = shouldUse
+end
+
 -- Event handler for when the addon is loaded and mount data is available
 local function OnEvent(self, event, ...)
     if event == "ADDON_LOADED" then
@@ -47,6 +53,7 @@ local function OnEvent(self, event, ...)
         UIDropDownMenu_SetText(skeletonDropdown, "Select types")
         UIDropDownMenu_SetText(colorDropdown, "Select colors")
         reloadUseOnlyFavourites()
+        reloadSmallMountInInstance()
     end
 end
 

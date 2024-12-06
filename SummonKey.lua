@@ -8,6 +8,11 @@ local favoriteLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameF
 favoriteLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -29, -65)
 favoriteLabel:SetText("Only favorites") -- The text to display
 
+-- Create the small mounts in dungeons label
+local smallMountLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+smallMountLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -29, -87)
+smallMountLabel:SetText("Only small in instance") -- The text to display
+
 -- Create favorite checkbox
 local favoriteCheckbox = CreateFrame("CheckButton", "favoriteCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
 favoriteCheckbox:SetPoint("RIGHT", favoriteLabel, "LEFT", 0, 0)
@@ -24,6 +29,24 @@ end)
 
 function reloadUseOnlyFavourites()
     favoriteCheckbox:SetChecked(useOnlyFavourites)
+end
+
+-- Create small mount in instance checkbox
+local smallMountCheckbox = CreateFrame("CheckButton", "smallMountCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
+smallMountCheckbox:SetPoint("RIGHT", smallMountLabel, "LEFT", 0, 0)
+
+smallMountCheckbox:SetScript("OnClick", function(self)
+    if self:GetChecked() then
+        saveSmallMountInInstance(true)
+        renderMounts()
+    else
+        saveSmallMountInInstance(false)
+        renderMounts()
+    end
+end)
+
+function reloadSmallMountInInstance()
+    smallMountCheckbox:SetChecked(smallMountInInstance)
 end
 
 setKeyButton:SetScript("OnClick", function()

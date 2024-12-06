@@ -1,14 +1,16 @@
 -- MountSelector.lua
 
--- TODO: dont set it to a default key
--- TODO: check if in combat!
--- TODO: check if you are inside
+-- TODO: make sure not to summon the vashj'ir seahorse in non-vashj'ir zones
+
 
 -- Create the MountSelectorFrame
 mountSelectorFrame = CreateFrame("Frame", "MountSelectorFrame", UIParent, "BasicFrameTemplateWithInset")
 mountSelectorFrame:SetSize(400, 500)
 mountSelectorFrame:SetPoint("CENTER", UIParent, "CENTER", -400, 0)
 mountSelectorFrame:Hide()
+
+-- Make the frame closeable with ESC
+table.insert(UISpecialFrames, "MountSelectorFrame")
 
 -- Create a dropdown menu for filtering by color
 colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")

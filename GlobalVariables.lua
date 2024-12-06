@@ -5,6 +5,7 @@ selectedTypes = {}
 summonKey = "k"
 currentMounts = {}
 useOnlyFavourites = false
+smallMountInInstance = false
 
 function CapitalizeFirstLetter(str)
     if str == nil or str == "" then
