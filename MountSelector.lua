@@ -50,7 +50,7 @@ end
 normalMacroButton = createMacroButton(
     mountSelectorFrame, -- Parent frame
     30,                 -- Button size
-    {"TOP", mountSelectorFrame, "TOP", -14, -39}, -- Position
+    {"TOP", mountSelectorFrame, "TOP", -14, -37}, -- Position
     "Interface\\Icons\\Ability_Mount_RidingHorse", -- Icon path
     "Create Summon Macro", -- Tooltip text
     "RMS",              -- Macro name
@@ -61,7 +61,7 @@ normalMacroButton = createMacroButton(
 swimMacroButton = createMacroButton(
     mountSelectorFrame, -- Parent frame
     30,                 -- Button size
-    {"TOP", mountSelectorFrame, "TOP", 23, -39}, -- Position
+    {"TOP", mountSelectorFrame, "TOP", 23, -37}, -- Position
     "Interface\\Icons\\inv_stingray2mount_teal", -- Icon path
     "Create Summon Swim Macro", -- Tooltip text
     "SWM",              -- Macro name

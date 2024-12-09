@@ -1,17 +1,19 @@
 local setKeyButton = CreateFrame("Button", "SummonKeyButton", mountSelectorFrame, "UIPanelButtonTemplate")
-setKeyButton:SetSize(120, 20)
-setKeyButton:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -20, -37)
-setKeyButton:SetText("Set key (" .. summonKey .. ")")
+setKeyButton:SetSize(70, 20)
+setKeyButton:SetPoint("TOP", mountSelectorFrame, "TOP", 5, -71)
+setKeyButton:SetText("key (" .. summonKey .. ")")
 
 -- Create the favorite label
 local favoriteLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-favoriteLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -29, -65)
+favoriteLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -21, -63)
 favoriteLabel:SetText("Only favorites") -- The text to display
+
+--{"TOP", mountSelectorFrame, "TOP", -14, -39}
 
 -- Create the small mounts in dungeons label
 local smallMountLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-smallMountLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -29, -87)
-smallMountLabel:SetText("Only small in instance") -- The text to display
+smallMountLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -20, -40)
+smallMountLabel:SetText("Small in instance") -- The text to display
 
 -- Create favorite checkbox
 local favoriteCheckbox = CreateFrame("CheckButton", "favoriteCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
@@ -53,9 +55,9 @@ setKeyButton:SetScript("OnClick", function()
     StaticPopup_Show("SET_KEYBIND")
 end)
 
--- Define the StaticPopupDialog with an added "Create Macro" button
+-- Define the StaticPopupDialog
 StaticPopupDialogs["SET_KEYBIND"] = {
-    text = "Enter key for summon or create macro",
+    text = "Enter key for summon",
     button1 = "OK",
     button2 = "Cancel",
     hasEditBox = true,
@@ -101,5 +103,5 @@ end
 
 function loadSummoningKey()
     loadRandomMountButton()
-    setKeyButton:SetText("Set key (" .. summonKey .. ")")
+    setKeyButton:SetText("key (" .. summonKey .. ")")
 end
