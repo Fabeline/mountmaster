@@ -9,39 +9,65 @@ table.insert(UISpecialFrames, "MountSelectorFrame")
 
 -- Create a dropdown menu for filtering by color
 colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
-UIDropDownMenu_SetWidth(colorDropdown, 150)
+UIDropDownMenu_SetWidth(colorDropdown, 120)
 colorDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -35)
 UIDropDownMenu_Initialize(colorDropdown, initializeColorDropdown)
 
 -- Create a dropdown menu for filtering by skeleton type
 skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
-UIDropDownMenu_SetWidth(skeletonDropdown, 150)
+UIDropDownMenu_SetWidth(skeletonDropdown, 120)
 skeletonDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
 UIDropDownMenu_Initialize(skeletonDropdown, initializeSkeletonDropdown)
 
 
--- Create the macro button
-local createMacroButton = CreateFrame("Button", nil, mountSelectorFrame, "UIPanelButtonTemplate")
-createMacroButton:SetSize(40, 40)
-createMacroButton:SetPoint("TOP", mountSelectorFrame, "TOP", 33, -39)
-createMacroButton:SetNormalTexture("Interface\\Icons\\Ability_Mount_RidingHorse")
+-- Reusable function to set up a macro button
+function createMacroButton(parentFrame, size, position, iconPath, tooltipText, macroName, macroBody, macroIcon)
+    local button = CreateFrame("Button", nil, parentFrame, "UIPanelButtonTemplate")
+    button:SetSize(size, size)
+    button:SetPoint(unpack(position))
+    button:SetNormalTexture(iconPath)
 
--- Set the script to create the macro when clicked
-createMacroButton:SetScript("OnClick", function()
-    createAndDragSummonMacro()
-end)
+    -- Set up the click handler to create and drag the macro
+    button:SetScript("OnClick", function()
+        createAndDragMacro(macroName, macroBody, macroIcon)
+    end)
 
--- Add a tooltip
-createMacroButton:EnableMouse(true)
-createMacroButton:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:SetText("Create Summon Macro", 1, 1, 1)
-    GameTooltip:Show()
-end)
-createMacroButton:SetScript("OnLeave", function(self)
-    GameTooltip:Hide()
-end)
+    -- Add a tooltip
+    button:EnableMouse(true)
+    button:SetScript("OnEnter", function(self)
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:SetText(tooltipText, 1, 1, 1)
+        GameTooltip:Show()
+    end)
+    button:SetScript("OnLeave", function(self)
+        GameTooltip:Hide()
+    end)
 
+    return button
+end
+
+-- Create buttons for both macros
+normalMacroButton = createMacroButton(
+    mountSelectorFrame, -- Parent frame
+    30,                 -- Button size
+    {"TOP", mountSelectorFrame, "TOP", -14, -39}, -- Position
+    "Interface\\Icons\\Ability_Mount_RidingHorse", -- Icon path
+    "Create Summon Macro", -- Tooltip text
+    "RMS",              -- Macro name
+    "/rms summon",      -- Macro body
+    "Ability_Mount_RidingHorse" -- Macro icon
+)
+
+swimMacroButton = createMacroButton(
+    mountSelectorFrame, -- Parent frame
+    30,                 -- Button size
+    {"TOP", mountSelectorFrame, "TOP", 23, -39}, -- Position
+    "Interface\\Icons\\inv_stingray2mount_teal", -- Icon path
+    "Create Summon Swim Macro", -- Tooltip text
+    "SWM",              -- Macro name
+    "/rms summonswim",  -- Macro body
+    "inv_stingray2mount_teal" -- Macro icon
+)
 
 -- Enable the frame to be movable
 mountSelectorFrame:SetMovable(true)
@@ -71,7 +97,9 @@ mountSelectorScrollFrame:SetPoint("BOTTOMRIGHT", mountSelectorFrame, "BOTTOMRIGH
 
 function SlashCmdList.RMS(msg, editBox)
     if msg == "summon" then -- /rms summon - will summon a random mount
-        summonRandomMount()
+        summonRandomMount(false)
+    elseif msg == "summonswim" then -- /rms summonswim - will summon a random swimming mount
+        summonRandomMount(true)
     elseif msg == "minimap" then --/rms minimap - will toggle minimap button
         toggleMinimap()
     else

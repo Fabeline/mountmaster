@@ -30,7 +30,7 @@ function canSummonMount()
     return true
 end
 
-function summonRandomMount()
+function summonRandomMount(isSwimming)
     if IsMounted() then
         Dismount()
     else
@@ -58,7 +58,7 @@ function summonRandomMount()
                 end
             end
 
-            if(IsSwimming() and #aquaticMounts > 0) then
+            if(isSwimming) then
                 chosenMounts = aquaticMounts
             elseif canPlayerFly() and #flyingMounts > 0 then
                 chosenMounts = flyingMounts
@@ -81,7 +81,7 @@ end
 
 function loadRandomMountButton()
     randomMountButton:SetScript("OnClick", function()
-        summonRandomMount()
+        summonRandomMount(false)
     end)
 
     -- clear the previous keybinding

@@ -75,19 +75,15 @@ StaticPopupDialogs["SET_KEYBIND"] = {
     preferredIndex = 3,  -- Avoid taint issues
 }
 
--- Function to create the summon macro
-function createAndDragSummonMacro()
-    local macroName = "RMS"
-    local macroBody = "/rms summon"
-    local macroIcon = "Ability_Mount_RidingHorse"
-
+-- Reusable function to create a macro
+function createAndDragMacro(macroName, macroBody, macroIcon)
     local macroID = GetMacroIndexByName(macroName)
 
     if macroID == 0 then
         local numAccountMacros, numCharacterMacros = GetNumMacros()
 
         if numAccountMacros < MAX_ACCOUNT_MACROS then
-            macroID = CreateMacro(macroName, macroIcon, macroBody, false)            
+            macroID = CreateMacro(macroName, macroIcon, macroBody, false)
         else
             print("No free account-wide macro slots available!")
             return
