@@ -11,21 +11,23 @@ end
 function canSummonMount()
     -- Check if the player is in combat
     if UnitAffectingCombat("player") then
-        displayBigMessage("You cannot summon a mount while in combat.")
-        return false
+        displayBigMessage("You cannot mount in combat.")
+        -- return false -> you can summon in some instances like Dawnbreaker and Tindral
     end
 
     -- Check if the player is dead or in ghost form
     if UnitIsDeadOrGhost("player") then
-        displayBigMessage("You cannot summon a mount while dead or in ghost form.")
+        displayBigMessage("You cannot mount while dead or in ghost form.")
         return false
     end
 
     -- Check if the player is indoors
     if IsIndoors() then
-        displayBigMessage("You cannot summon a mount indoors.")
+        displayBigMessage("You cannot mount indoors.")
         return false
     end
+
+    return true
 end
 
 function summonRandomMount()
@@ -87,5 +89,3 @@ function loadRandomMountButton()
     -- set the new one
     SetOverrideBindingClick(mountSelectorFrame, true, summonKey, "RandomMountButton")
 end
-
-

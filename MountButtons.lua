@@ -47,10 +47,16 @@ end
 
 local function getAvailableMounts()
     local availableMounts = {}
+    local zoneId = C_Map.GetBestMapForUnit("player")
+    local vashirMountAllowed = zoneId == 5146
+                
+
+    -- Use small mounts if in an instance
+    local useSmallMounts = (IsInInstance() and smallMountInInstance)
 
     for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
-        local name, spellID, icon, _, isUsable, _, isFavorite, _, _, _, isCollected 
-        = C_MountJournal.GetMountInfoByID(mountID)
+        local name, spellID, icon, _, isUsable, _, isFavorite, _, _, _, isCollected = 
+            C_MountJournal.GetMountInfoByID(mountID)
 
         local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
 
@@ -60,28 +66,28 @@ local function getAvailableMounts()
         --     print("Missing> Name: " .. name .. ", mountID: " .. mountID)
         -- end
 
-        -- use small mounts if in instance
-        local useSmallMounts = (IsInInstance() and smallMountInInstance)
-
         if isUsable and isCollected and 
-            ((isFavorite and useOnlyFavourites) or not useOnlyFavourites) then
+           ((isFavorite and useOnlyFavourites) or not useOnlyFavourites) then
 
             local mountInfo = findMountByID(mountID)
 
-            -- print("Mount: " .. name .. ", small: ".. tostring(mountInfo.is_small))
-            if mountInfo and
-                ((useSmallMounts and mountInfo.is_small == "true") or not useSmallMounts) then
+            -- Validate mount info and apply small mount filtering
+            if(mountID == 373 and not vashirMountAllowed) then
+                -- skip varshir mount
+            elseif mountInfo and 
+               ((useSmallMounts and tostring(mountInfo.is_small) == "true") or not useSmallMounts) then
 
                 local canFly = isMountFlying(mountType)
                 local canSwim = isAquaticMount(mountType)
 
+                -- Add mount to the available list
                 table.insert(availableMounts, {
                     id = mountID,
                     name = name,
                     icon = icon,
                     isFlying = canFly,
                     isAquatic = canSwim,
-                    isSmall = mountInfo.is_small,                    
+                    isSmall = mountInfo.is_small,
                     spellID = spellID,
                     color = mountInfo.color,
                     secondary_color = mountInfo.secondary_color,
@@ -93,6 +99,7 @@ local function getAvailableMounts()
 
     return availableMounts
 end
+
 
 
 local function createMountButtons()

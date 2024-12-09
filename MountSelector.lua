@@ -1,8 +1,3 @@
--- MountSelector.lua
-
--- TODO: make sure not to summon the vashj'ir seahorse in non-vashj'ir zones
-
-
 -- Create the MountSelectorFrame
 mountSelectorFrame = CreateFrame("Frame", "MountSelectorFrame", UIParent, "BasicFrameTemplateWithInset")
 mountSelectorFrame:SetSize(400, 500)
