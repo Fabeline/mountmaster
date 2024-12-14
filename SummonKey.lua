@@ -8,8 +8,6 @@ local favoriteLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameF
 favoriteLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -21, -63)
 favoriteLabel:SetText("Only favorites") -- The text to display
 
---{"TOP", mountSelectorFrame, "TOP", -14, -39}
-
 -- Create the small mounts in dungeons label
 local smallMountLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 smallMountLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -20, -40)

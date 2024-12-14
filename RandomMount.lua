@@ -1,3 +1,10 @@
+-- TODO: add more underwater mounts if steady flight is on
+
+function isSteadyFlightActive()
+    local buffName = "Flight Style: Steady" -- Replace with the exact name of the buff
+    return AuraUtil.FindAuraByName(buffName, "player", "HELPFUL") ~= nil
+end
+
 -- Add a button to summon a random mount from the visible list
 local randomMountButton = CreateFrame("Button", "RandomMountButton", mountSelectorFrame, "UIPanelButtonTemplate")
 randomMountButton:SetSize(120, 22)
@@ -49,9 +56,14 @@ function summonRandomMount(isSwimming)
             local aquaticMounts = {}
 
             for _, mount in ipairs(currentMounts) do
-                if mount.isFlying then
+                if mount.isFlying then -- flying and aquatic if steady flight is active
                     table.insert(flyingMounts, mount)
-                elseif mount.isAquatic then
+                    -- Mounts with flying and aquatic has a bug where they are only fast
+                    -- underwater if steady flight is active                    
+                    if mount.isAquatic and isSteadyFlightActive() then
+                        table.insert(aquaticMounts, mount)
+                    end
+                elseif mount.isAquatic then -- aquatic and not flying                  
                     table.insert(aquaticMounts, mount)
                 else
                     table.insert(groundMounts, mount)
@@ -59,7 +71,22 @@ function summonRandomMount(isSwimming)
             end
 
             if(isSwimming) then
-                chosenMounts = aquaticMounts
+                if #aquaticMounts > 0 then
+                    chosenMounts = aquaticMounts
+                else
+                    -- If the aquatic mounts don't fit the criteria, summon a random aquatic mount
+                    currentMounts = allMounts
+                    if(#currentMounts > 0) then
+                        for _, mount in ipairs(currentMounts) do
+                            if mount.isAquatic then
+                                table.insert(aquaticMounts, mount)
+                            end
+                        end
+                        chosenMounts = aquaticMounts
+                    else
+                        print("No aquatic mounts available to summon.")
+                    end
+                end
             elseif canPlayerFly() and #flyingMounts > 0 then
                 chosenMounts = flyingMounts
             else

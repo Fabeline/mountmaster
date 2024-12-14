@@ -37,12 +37,31 @@ local function isMountFlying(typeId)
         [402] = true, -- dragonriding
         [407] = true, -- Ability mount
         [424] = true, -- Dragonriding mounts, including mounts that have dragonriding animations but are not yet enabled for dragonriding
+        [436] = true, -- Swimming and flying mounts
     }
     return flyingMountTypes[typeId]
 end
 
 local function isAquaticMount(typeId)
-    return typeId == 231 or typeId == 232 or typeId == 254
+    local isAquatic = false
+
+    if typeId == 231 or -- Riding turtle and sea turtle
+        typeId == 232 or -- Vash'ir seahorse
+        typeId == 254 -- poseidus, brinedeep bottom-feeder and fathom dweller
+    then
+        isAquatic = true
+    end
+
+    if isMountFlying(typeId) and isSteadyFlightActive() and 
+        (
+            typeId == 407 or -- Deepstar polyp and otterwordly ottuk carrier
+            typeId == 436 -- Depthstalker, corrupted behemoth
+        )
+    then
+        isAquatic = true
+    end
+
+    return isAquatic
 end
 
 local function getAvailableMounts()
@@ -80,6 +99,8 @@ local function getAvailableMounts()
                 local canFly = isMountFlying(mountType)
                 local canSwim = isAquaticMount(mountType)
 
+                -- print(name .. ", mountType: " .. mountType)
+                
                 -- Add mount to the available list
                 table.insert(availableMounts, {
                     id = mountID,
@@ -161,6 +182,7 @@ end
 function reloadMounts()
     local availableMounts = getAvailableMounts()
     currentMounts = filterMounts(availableMounts)
+    allMounts = availableMounts
 end
 
 function renderMounts()
