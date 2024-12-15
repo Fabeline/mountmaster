@@ -64,6 +64,31 @@ local function isAquaticMount(typeId)
     return isAquatic
 end
 
+function hasGroundAnim(mountId, skeleton_type)
+    local typeHasGroundAnim = {
+        ["horse"] = true,
+        ["cat"] = true,
+        ["stag"] = true,
+        ["rat"] = true,
+    }
+    if typeHasGroundAnim[skeleton_type] then
+        return true
+    end
+
+    local hasGroundAnim = {
+        ["1450"] = true, -- Soaring razorwing
+        ["1508"] = true, -- Fierce Razorwing
+        ["1510"] = true, -- Dusklight Razorwing
+        ["1509"] = true, -- Garnet razorwing
+    }
+
+    if hasGroundAnim[mountId] then
+        return true
+    end
+
+    return false;
+end
+
 local function getAvailableMounts()
     local availableMounts = {}
     local zoneId = C_Map.GetBestMapForUnit("player")

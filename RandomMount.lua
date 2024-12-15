@@ -58,17 +58,20 @@ function summonRandomMount(isSwimming)
             for _, mount in ipairs(currentMounts) do
                 if mount.isFlying then -- flying and aquatic if steady flight is active
                     table.insert(flyingMounts, mount)
-                    -- Mounts with flying and aquatic has a bug where they are only fast
+                    -- Mounts with flying and aquatic have a bug where they are only fast
                     -- underwater if steady flight is active                    
                     if mount.isAquatic and isSteadyFlightActive() then
                         table.insert(aquaticMounts, mount)
                     end
                 elseif mount.isAquatic then -- aquatic and not flying                  
                     table.insert(aquaticMounts, mount)
-                else
+                end
+            
+                if ((not mount.isFlying or hasGroundAnim(mount.id, mount.skeleton_type)) and not mount.isAquatic) then
                     table.insert(groundMounts, mount)
                 end
             end
+            
 
             if(isSwimming) then
                 if #aquaticMounts > 0 then
