@@ -13,9 +13,10 @@ The addon can be installed by Curseforge, or you can download it manually.
 ## Changelog
 
 ### ver 1.2.1
-- You can now choose to only summon small mounts in instances
-- You will only summon aquatic mounts while in water (if available)
+- Now provides a new button for summoning aquatic mounts
+- You can now choose to only summon small mounts while you are in instances (to easier avoid enemes while in dungeons etc)
 - Pressing ESC will now close the addon window
+- You will now get a visible message if you are not able to mount
 
 ### ver 1.2.0
 - Updated for patch 11.0.7, including new mounts.
