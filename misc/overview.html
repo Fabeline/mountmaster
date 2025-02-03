@@ -1,0 +1,348 @@
+<html>
+
+<head>
+    <script src="mounts_json.js"></script>
+    <style>
+        body {
+            font-family: arial;
+            font-size: 14px;
+        }
+
+        .mounts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .mount-wrapper {
+            width: 250px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .mount-image {
+            height: 250px;
+            max-width: 250px;
+            border-radius: 7px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            object-fit: cover;
+        }
+
+        .attribute {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+        }
+
+        input,
+        select {
+            padding: 2px 4px;
+            border-radius: 3px;
+            border: 1px solid gray;
+            width: 100%;
+            max-width: 190px;
+        }
+
+        select {
+            padding: 2px 0px;
+        }
+
+        .color-dropdown {
+            max-width: 86px;
+        }
+
+        .emoji {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<title>Overview</title>
+<div class="mounts" id="mounts"></div>
+<div id="summary"></div>
+<div id="generated-data"></div>
+
+<script>
+    let mountsCopy = [...mounts.map(m => {
+        let mount = m;
+        delete mount.icon2;
+        delete mount.item_id
+        return mount;
+    })]; // Copy of the mount data to track changes
+
+    const availableColors = {
+        "": "", // For no secondary color
+        "black": [200, 200, 200],
+        "blue": [200, 220, 255],
+        "brown": [231, 197, 154],
+        "fire": [255, 180, 120],
+        "ghost": [240, 250, 255],
+        "gray": [240, 240, 240],
+        "green": [179, 236, 179],
+        "orange": [255, 210, 150],
+        "pink": [255, 220, 240],
+        "purple": [215, 194, 251],
+        "red": [255, 200, 200],
+        "various": [230, 230, 250], //lavender
+        "white": [245, 245, 249],
+        "yellow": [255, 250, 194],
+        "turquoise": [170, 243, 226]
+    };
+
+    const availableTypes = [
+        "bat",
+        "bear",
+        "bird",
+        "cat",
+        "crocodile",
+        "dinosaur",
+        "dragon",
+        "elemental",
+        "emu",
+        "fish",
+        "gargoyle",
+        "gryphon",
+        "horse",
+        "insect",
+        "kite",
+        "kodo",
+        "mammoth",
+        "mechanical",
+        "rat",
+        "serpent",
+        "snail",
+        "spider",
+        "stag",
+        "wolf"
+    ];
+
+    const typeEmojis = {
+        "bat": "🦇",
+        "bear": "🐻",
+        "bird": "🐦",
+        "cat": "🐱",
+        "crocodile": "🐊",
+        "dinosaur": "🦖",
+        "dragon": "🐲",
+        "elemental": "💨",
+        "emu": "🦚",
+        "fish": "🐟",
+        "gargoyle": "👹",
+        "gryphon": "🦅",
+        "horse": "🐴",
+        "insect": "🐝",
+        "kite": "🪁",
+        "kodo": "🐃",
+        "mammoth": "🐘",
+        "mechanical": "🤖",
+        "rat": "🐀",
+        "serpent": "🐍",
+        "snail": "🐌",
+        "spider": "🕷️",
+        "stag": "🦌",
+        "wolf": "🐺"
+    };
+
+    smallMountTypes = [
+        "bat",
+        "bear",
+        "cat",
+        "emu",
+        "gryphon",
+        "horse",
+        "kite",
+        "rat",
+        "stag",
+        "wolf",
+    ]
+
+    notSmallTypes = [
+        "bird",
+        "crocodile",
+        "dinosaur",
+        "dragon",
+        "elemental",
+        "fish",
+        "gargoyle",
+        "insect",
+        "kodo",
+        "mammoth",
+        "mechanical",
+        "serpent",
+        "snail",
+        "spider",
+    ]
+
+    // Sort mounts by ID before rendering
+    mountsCopy.sort((a, b) => a.id - b.id);
+
+
+    //Uncomment to sort by color
+    /*mountsCopy.sort((a, b) => {
+        if (a.color.toLocaleLowerCase() < b.color.toLocaleLowerCase()) return -1;
+        if (a.color.toLocaleLowerCase() > b.color.toLocaleLowerCase()) return 1;
+        return 0;
+    });*/
+
+    //Uncomment to sort by type
+    /*mountsCopy.sort((a, b) => {
+        if (a.skeleton_type.toLocaleLowerCase() < b.skeleton_type.toLocaleLowerCase()) return -1;
+        if (a.skeleton_type.toLocaleLowerCase() > b.skeleton_type.toLocaleLowerCase()) return 1;
+        return 0;
+    });*/
+
+
+    // Convert RGB array to CSS rgb() format
+    function rgbArrayToCss(rgb) {
+        return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
+    }
+
+    // Update mount data when an attribute is edited
+    function updateMountAttribute(index, attribute, value) {
+        mountsCopy[index][attribute] = value;
+    }
+
+    // Generate the current data and print it
+    function generateData() {
+        const generatedData = JSON.stringify(mountsCopy, null, 2);
+        document.getElementById('generated-data').innerHTML = `<h2>Generated Data</h2><pre>${generatedData}</pre>`;
+    }
+
+    // Copy generated data to clipboard
+    function copyToClipboard() {
+        const generatedData = JSON.stringify(mountsCopy, null, 2);
+        navigator.clipboard.writeText(generatedData).then(() => {
+            alert("Data copied to clipboard!");
+        }, (err) => {
+            alert("Failed to copy data: ", err);
+        });
+    }
+
+
+    function stripNonLetters(str) {
+        return str.replace(/[^a-zA-Z0-9]/g, '');
+    }
+
+    function getIconName(icon) {
+        if (!icon) return "";
+        return icon.replace("inv_", "").replace("ivn_", "");
+    }
+
+    // Render the mounts with editable fields and apply the lightened background color during rendering
+    function renderMounts(mounts) {
+        let output = '';
+        mounts.forEach((mount, i) => {
+            const useIconNameForImage = mountsImageByIconName.indexOf(getIconName(mount.icon)) > -1;
+            const iconName = useIconNameForImage ? getIconName(mount.icon) : stripNonLetters(mount.name).toLowerCase()
+
+            //const iconName = mount.icon2 || mount.icon.replace("inv_", "").replace("ivn_", "");
+            const imgPath = `images/${iconName}.jpg`;
+
+            // Use mount color directly
+            const mountColor = availableColors[(mount.color + "").toLocaleLowerCase()] || availableColors["white"];
+            const backgroundColor = rgbArrayToCss(mountColor);
+
+            output += `
+            <div class="mount-wrapper" style="background-color: ${backgroundColor};" id="mount-${i}">
+                <span class="emoji">${typeEmojis[mount.skeleton_type.toLowerCase()]}</span>
+                <img class="mount-image" src="${imgPath}" alt="">
+                <p class="attribute">Name: 
+                    <input class="name-input" type="text" value="${mount.name}" onchange="updateMountAttribute(${i}, 'name', this.value)">
+                </p>
+                <p class="attribute">Type:
+                    <select onchange="updateMountAttribute(${i}, 'skeleton_type', this.value)">
+                        ${availableTypes.map(type => `<option value="${type}" ${(mount.skeleton_type + "").toLowerCase() === type ? 'selected' : ''}>${type}</option>`).join('')}
+                    </select>
+                </p>
+                <p class="attribute">Color:
+                    <select class="color-dropdown" onchange="updateMountAttribute(${i}, 'color', this.value)">
+                        ${Object.keys(availableColors).map(color => `<option value="${color}" ${(mount.color + "").toLocaleLowerCase() === color ? 'selected' : ''}>${color}</option>`).join('')}
+                    </select>
+                    <select class="color-dropdown" onchange="updateMountAttribute(${i}, 'secondary_color', this.value)">
+                        ${Object.keys(availableColors).map(color => `<option value="${color}" ${mount.secondary_color === color ? 'selected' : ''}>${color}</option>`).join('')}
+                    </select>
+                </p>
+                <p class="attribute">Spell ID:
+                    <input type="number" value="${mount.spell_id}" onchange="updateMountAttribute(${i}, 'spell_id', this.value)">
+                </p>
+                <p class="attribute">Mount ID:
+                    <input type="number" value="${mount.id}" onchange="updateMountAttribute(${i}, 'id', this.value)">
+                </p>
+                <p class="attribute">Icon:
+                    <input type="text" value="${mount.icon}" onchange="updateMountAttribute(${i}, 'icon', this.value)">
+                </p>
+                <p class="attribute">Is small:
+                    <input style="height: 20px" type="checkbox" ${mount.is_small ? 'checked' : ''} onchange="updateMountAttribute(${i}, 'is_small', this.checked+'')">
+                </p>
+                <!-- p class="attribute">Ground anim:
+                    <input style="height: 20px; margin-left: -10px;" type="checkbox" ${mount.has_ground_anim ? 'checked' : ''} onchange="updateMountAttribute(${i}, 'has_ground_anim', this.checked+'')">
+                </p -->                 
+            </div>`;
+        });
+
+        document.getElementById("mounts").innerHTML = output;
+    }
+
+    // Updated function to generate JSON data and copy it to the clipboard
+    function generateAndCopyJSON() {
+        /*mountsCopy.map(mount => {
+            is_small = smallMountTypes.indexOf(mount.skeleton_type.toLocaleLowerCase()) > -1;  //TODO rmg: remove!
+
+            if (is_small) {
+                mount.is_small = "true";
+            }
+        });*/
+        const generatedData = JSON.stringify(mountsCopy, null, 2); // Generate JSON string with indentation
+        document.getElementById('generated-data').innerHTML = `<h2>Generated JSON Data</h2><pre>${generatedData}</pre>`; // Display JSON on the page
+
+        // Copy the generated JSON to the clipboard
+        navigator.clipboard.writeText(generatedData).then(() => {
+            alert("JSON data copied to clipboard!");
+        }, (err) => {
+            alert("Failed to copy JSON data: ", err);
+        });
+    }
+
+    // Modify the button creation to trigger the new generateAndCopyJSON function
+    function addGenerateDataButton() {
+        const buttonHTML = `<br/><button onclick="generateAndCopyJSON()">Generate and Copy JSON</button>`;
+        document.getElementById("summary").innerHTML = buttonHTML;
+    }
+
+
+    function generateLuaTable() {
+        let luaTable = "mounts = {\n";
+        mountsCopy.forEach(mount => {
+            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small}" },\n`;
+        });
+        luaTable += "}";
+
+        document.getElementById('generated-data').innerHTML = `<h2>Generated LUA Table</h2><pre>${luaTable}</pre>`;
+        return luaTable;
+    }
+
+    // Function to copy LUA table to clipboard
+    function copyLuaTableToClipboard() {
+        const luaTable = generateLuaTable();
+        navigator.clipboard.writeText(luaTable).then(() => {
+            alert("LUA table copied to clipboard!");
+        }, (err) => {
+            alert("Failed to copy LUA table: ", err);
+        });
+    }
+
+    // Add the new button to the page
+    function addGenerateLuaTableButton() {
+        const buttonHTML = `<br/><button onclick="copyLuaTableToClipboard()">Generate LUA Table and Copy</button>`;
+        document.getElementById("summary").innerHTML += buttonHTML;
+    }
+
+    // Kick off the mount rendering and add the generate and copy buttons
+    renderMounts(mountsCopy);
+    addGenerateDataButton(); // Keep existing generate and copy buttons
+    addGenerateLuaTableButton(); // Add the new button
+</script>
+
+</html>
