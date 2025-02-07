@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.3.1
+- Added ottuks to aquatic mounts
+
 ### ver 1.3.0
 - Added new mounts for patch 11.1.0
 - Added icon for addon menu
