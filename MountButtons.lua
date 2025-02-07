@@ -42,12 +42,17 @@ local function isMountFlying(typeId)
     return flyingMountTypes[typeId]
 end
 
+-- Uncomment to check specific mount type
+-- local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(1260)
+-- print ("mountType: " .. mountType)
+
 local function isAquaticMount(typeId)
     local isAquatic = false
 
-    if typeId == 231 or -- Riding turtle and sea turtle
+    if typeId == 231 or -- Riding turtle, sea turtle, savage ebony battle turtle
         typeId == 232 or -- Vash'ir seahorse
-        typeId == 254 -- poseidus, brinedeep bottom-feeder and fathom dweller
+        typeId == 254 or -- poseidus, tidestallions, brinedeep bottom-feeder and fathom dweller, surf jelly
+        typeId == 412 -- ottuks
     then
         isAquatic = true
     end
