@@ -12,6 +12,10 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.3.0
+- Added new mounts for patch 11.1.0
+- Added icon for addon menu
+
 ### ver 1.2.1
 - Now provides a new button for summoning aquatic mounts
 - You can now choose to only summon small mounts while you are in instances (to easier avoid enemes while in dungeons etc)
