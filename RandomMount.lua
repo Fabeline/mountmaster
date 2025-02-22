@@ -11,6 +11,48 @@ randomMountButton:SetSize(120, 22)
 randomMountButton:SetPoint("BOTTOM", mountSelectorFrame, "BOTTOM", 0, 10)
 randomMountButton:SetText("Random Mount")
 
+-- Add Info Button Beside Random Mount Button
+local infoButton = CreateFrame("Button", "InfoButton", mountSelectorFrame, "UIPanelButtonTemplate")
+infoButton:SetSize(20, 20)
+infoButton:SetPoint("LEFT", RandomMountButton, "RIGHT", 5, 0)
+infoButton:SetText("?")
+
+infoButton:SetScript("OnClick", function()
+    StaticPopup_Show("RUTHES_MOUNT_INFO")
+end)
+
+-- Create Info Popup
+StaticPopupDialogs["RUTHES_MOUNT_INFO"] = {
+    text = "|cffff8000 Ruthe's Mount Selector|r\n\n" ..
+    
+        "Welcome to Ruthe's Mount Selector! This addon will help you to summon a random mount based on your preferences.\n\n" ..
+
+        "You can set a keybind to summon a random mount, or use the button in the Mount Selector window. You can also click one of the icons to create a custom icon that you can drag to your action bar.\n\n" ..
+        
+        "|cffffff00Small in instances:|r\n" ..
+        "Check this box if you want to only summon small mounts while in instances (dungeons, raids, etc.).\n\n" ..
+        
+        "|cffffff00Only favorites:|r\n" ..
+        "Check this box if you want to only summon mounts that you have marked as favorites.\n\n" ..
+        
+        "|cffffff00Commands:|r\n" ..
+        "   /rms - Open the mount selector\n" ..
+        "   /rms summon - Summon a random mount\n" ..
+        "   /rms summonswim - Summon a swimming mount\n" ..
+        "   /rms minimap - Toggle minimap button\n" ..
+        "   /rms help - available commands\n\n" ..
+        
+        "|cffffff00For more info or feedback:|r\n" ..
+        "|cff00ccffhttps://www.curseforge.com/wow/addons/ruthes-mountselector",
+    button1 = "OK",
+    OnAccept = function() end,
+    timeout = 0,
+    whileDead = true,
+    hideOnEscape = true,
+    preferredIndex = 3,
+}
+
+
 local function displayBigMessage(message)
     UIErrorsFrame:AddMessage(message, 1.0, 0.0, 0.0) -- text, red, green, blue
 end

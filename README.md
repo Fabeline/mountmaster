@@ -18,6 +18,7 @@ The addon can be installed by Curseforge, or you can download it manually.
 - Added new command: /rms help
 - Better keybind support
 - Ramoliths are no longer considered as small
+- Added an info button
 
 ### ver 1.3.1
 - Added ottuks to aquatic mounts
