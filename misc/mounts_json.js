@@ -10552,8 +10552,7 @@ const mounts = [
     "icon": "inv_protoramearthen_blue",
     "skeleton_type": "stag",
     "color": "green",
-    "secondary_color": "gray",
-    "is_small": "true"
+    "secondary_color": "gray"
   },
   {
     "name": "Slatestone Ramolith",
@@ -10561,8 +10560,7 @@ const mounts = [
     "spell_id": 449415,
     "icon": "inv_protoramearthen_grey",
     "skeleton_type": "stag",
-    "color": "green",
-    "is_small": "true"
+    "color": "green"
   },
   {
     "name": "Forged Gladiator's Fel Bat",
@@ -10645,8 +10643,7 @@ const mounts = [
     "spell_id": 453785,
     "icon": "inv_earthenpaladinmount",
     "skeleton_type": "stag",
-    "color": "orange",
-    "is_small": "true"
+    "color": "orange"
   },
   {
     "name": "Startouched Furline",

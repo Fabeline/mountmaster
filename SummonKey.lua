@@ -1,105 +1,125 @@
+local detectedKey = nil
+local detectedModifiers = {}
+
+-- Create a frame to capture key events
 local setKeyButton = CreateFrame("Button", "SummonKeyButton", mountSelectorFrame, "UIPanelButtonTemplate")
-setKeyButton:SetSize(70, 20)
+setKeyButton:SetSize(90, 22)
 setKeyButton:SetPoint("TOP", mountSelectorFrame, "TOP", 5, -71)
-setKeyButton:SetText("key (" .. summonKey .. ")")
+setKeyButton:SetText("Key (" .. (summonKey or "None") .. ")")
 
--- Create the favorite label
-local favoriteLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-favoriteLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -21, -63)
-favoriteLabel:SetText("Only favorites") -- The text to display
-
--- Create the small mounts in dungeons label
-local smallMountLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-smallMountLabel:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -20, -40)
-smallMountLabel:SetText("Small in instance") -- The text to display
-
--- Create favorite checkbox
-local favoriteCheckbox = CreateFrame("CheckButton", "favoriteCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
-favoriteCheckbox:SetPoint("RIGHT", favoriteLabel, "LEFT", 0, 0)
-
+local favoriteCheckbox = CreateFrame("CheckButton", "FavoriteCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
+favoriteCheckbox:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -21, -63)
 favoriteCheckbox:SetScript("OnClick", function(self)
-    if self:GetChecked() then
-        saveUseOnlyFavourites(true)
-        renderMounts()
-    else
-        saveUseOnlyFavourites(false)
-        renderMounts()
-    end
+    saveUseOnlyFavourites(self:GetChecked())
+    renderMounts()
 end)
+
+local favoriteLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+favoriteLabel:SetPoint("RIGHT", favoriteCheckbox, "LEFT", -5, 0)
+favoriteLabel:SetText("Only Favorites")
+
+local smallMountCheckbox = CreateFrame("CheckButton", "SmallMountCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
+smallMountCheckbox:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -20, -40)
+smallMountCheckbox:SetScript("OnClick", function(self)
+    saveSmallMountInInstance(self:GetChecked())
+    renderMounts()
+end)
+
+local smallMountLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+smallMountLabel:SetPoint("RIGHT", smallMountCheckbox, "LEFT", -5, 0)
+smallMountLabel:SetText("Small in Instance")
 
 function reloadUseOnlyFavourites()
-    favoriteCheckbox:SetChecked(useOnlyFavourites)
-end
-
--- Create small mount in instance checkbox
-local smallMountCheckbox = CreateFrame("CheckButton", "smallMountCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
-smallMountCheckbox:SetPoint("RIGHT", smallMountLabel, "LEFT", 0, 0)
-
-smallMountCheckbox:SetScript("OnClick", function(self)
-    if self:GetChecked() then
-        saveSmallMountInInstance(true)
-        renderMounts()
-    else
-        saveSmallMountInInstance(false)
-        renderMounts()
+    if favoriteCheckbox then
+        favoriteCheckbox:SetChecked(useOnlyFavourites)
     end
-end)
+end
 
 function reloadSmallMountInInstance()
-    smallMountCheckbox:SetChecked(smallMountInInstance)
+    if smallMountCheckbox then
+        smallMountCheckbox:SetChecked(smallMountInInstance)
+    end
 end
 
+-- Keybinding Popup (Detects Key Press)
 setKeyButton:SetScript("OnClick", function()
+    detectedKey = nil
+    detectedModifiers = {}
     StaticPopup_Show("SET_KEYBIND")
 end)
 
--- Define the StaticPopupDialog
 StaticPopupDialogs["SET_KEYBIND"] = {
-    text = "Enter key for summon",
-    button1 = "OK",
-    button2 = "Cancel",
-    hasEditBox = true,
-    maxLetters = 20,
-    OnAccept = function(self)
-        local enteredKey = self.editBox:GetText()
-        saveSummonKey(enteredKey)
-        loadSummoningKey()
-    end,
+    text = "Press a key to set as your summon key",
+    button1 = "Cancel",
+    OnAccept = function() end,
     OnShow = function(self)
-        self.editBox:SetText("")
-        self.editBox:SetFocus()
+        self:EnableKeyboard(true)
+        self:SetScript("OnKeyDown", function(_, key)
+            if key == "ESCAPE" then
+                StaticPopup_Hide("SET_KEYBIND")
+                return
+            end
+
+            -- Detect Modifier Keys
+            if key == "LALT" or key == "RALT" or key == "LCTRL" or key == "RCTRL" or key == "LSHIFT" or key == "RSHIFT" then
+                detectedModifiers[key] = true
+                return
+            end
+
+            -- Store the actual key pressed
+            detectedKey = key
+        end)
+
+        self:SetScript("OnKeyUp", function()
+            if detectedKey then
+                -- Format the final keybinding string
+                local keyCombo = ""
+                if detectedModifiers["LALT"] or detectedModifiers["RALT"] then keyCombo = keyCombo .. "ALT+" end
+                if detectedModifiers["LCTRL"] or detectedModifiers["RCTRL"] then keyCombo = keyCombo .. "CTRL+" end
+                if detectedModifiers["LSHIFT"] or detectedModifiers["RSHIFT"] then keyCombo = keyCombo .. "SHIFT+" end
+                keyCombo = keyCombo .. detectedKey
+
+                -- Save & Apply Keybinding
+                summonKey = keyCombo
+                saveSummonKey(summonKey)
+                loadSummoningKey()
+
+                StaticPopup_Hide("SET_KEYBIND")
+                applySummonKeyBinding()
+            end
+        end)
+    end,
+    OnHide = function(self)
+        self:SetScript("OnKeyDown", nil)
+        self:SetScript("OnKeyUp", nil)
     end,
     timeout = 0,
     whileDead = true,
     hideOnEscape = true,
-    preferredIndex = 3,  -- Avoid taint issues
+    preferredIndex = 3,
 }
 
--- Reusable function to create a macro
-function createAndDragMacro(macroName, macroBody, macroIcon)
-    local macroID = GetMacroIndexByName(macroName)
-
-    if macroID == 0 then
-        local numAccountMacros, numCharacterMacros = GetNumMacros()
-
-        if numAccountMacros < MAX_ACCOUNT_MACROS then
-            macroID = CreateMacro(macroName, macroIcon, macroBody, false)
-        else
-            print("No free account-wide macro slots available!")
-            return
-        end
-    else
-        EditMacro(macroID, macroName, macroIcon, macroBody)
-    end
-
-    -- Attempt to pick up the macro for dragging (may have restrictions)
-    if macroID > 0 then
-        PickupMacro(macroID)
-        print("Macro picked up. Drag it to your action bar.")
-    end
-end
-
+-- Ensure Keybinding is Applied After Login
 function loadSummoningKey()
-    loadRandomMountButton()
-    setKeyButton:SetText("key (" .. summonKey .. ")")
+    setKeyButton:SetText("Key (" .. (summonKey or "None") .. ")")
+    applySummonKeyBinding()
 end
+
+-- Apply the Keybinding
+function applySummonKeyBinding()
+    if summonKey and summonKey ~= "" then
+        local formattedKey = string.gsub(summonKey, "+", "-")
+
+        -- Clear previous binding & apply new one
+        ClearOverrideBindings(mountSelectorFrame)
+        SetOverrideBindingClick(mountSelectorFrame, true, formattedKey, "RandomMountButton")
+    end
+end
+
+-- Ensure UI Elements Load After Login
+C_Timer.After(1, function()
+    if reloadUseOnlyFavourites and reloadSmallMountInInstance then
+        reloadUseOnlyFavourites()
+        reloadSmallMountInInstance()
+    end
+end)

@@ -16,6 +16,8 @@ The addon can be installed by Curseforge, or you can download it manually.
 - Added more mounts for patch 11.1.0
 - Fixed a bug that made low level characters only summon ground mounts
 - Added new command: /rms help
+- Better keybind support
+- Ramoliths are no longer considered as small
 
 ### ver 1.3.1
 - Added ottuks to aquatic mounts

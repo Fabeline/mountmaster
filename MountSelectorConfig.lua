@@ -38,24 +38,42 @@ function saveSmallMountInInstance(shouldUse)
     smallMountInInstance = shouldUse
 end
 
--- Event handler for when the addon is loaded and mount data is available
 local function OnEvent(self, event, ...)
     if event == "ADDON_LOADED" then
         local addonName = ...
         if addonName == "Ruthes_MountSelector" then
-            print("Ruthe's MountSelector loaded. To show more, type /rms help")
+            print("|cffff9900Ruthe's Mount Selector loaded - |cffffff00To see available commands, type: |r|cff00ff00/rms help|r")            
+            
         end
-    end
-    if event == "PLAYER_LOGIN" then
+    elseif event == "PLAYER_LOGIN" then
         InitializeConfig()
         renderMounts()
         loadSummoningKey()
         UIDropDownMenu_SetText(skeletonDropdown, "Select types")
         UIDropDownMenu_SetText(colorDropdown, "Select colors")
-        reloadUseOnlyFavourites()
-        reloadSmallMountInInstance()
+
+        -- Some functions may not have been loaded yet
+        local maxRetries = 10
+        local retryCount = 0
+
+        local function waitForFunctions()
+            if reloadUseOnlyFavourites and reloadSmallMountInInstance then
+                reloadUseOnlyFavourites()
+                reloadSmallMountInInstance()
+            elseif retryCount < maxRetries then
+                retryCount = retryCount + 1
+                C_Timer.After(0.2, waitForFunctions) -- Keep checking
+            else
+                -- An error occurred
+            end
+        end
+
+        -- Start checking
+        waitForFunctions()
     end
 end
+
+
 
 -- Create a frame to listen for events
 local eventFrame = CreateFrame("Frame")
