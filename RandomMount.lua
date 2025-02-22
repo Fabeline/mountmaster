@@ -13,8 +13,8 @@ randomMountButton:SetText("Random Mount")
 
 -- Add Info Button Beside Random Mount Button
 local infoButton = CreateFrame("Button", "InfoButton", mountSelectorFrame, "UIPanelButtonTemplate")
-infoButton:SetSize(20, 20)
-infoButton:SetPoint("LEFT", RandomMountButton, "RIGHT", 5, 0)
+infoButton:SetSize(25, 20)
+infoButton:SetPoint("RIGHT", mountSelectorFrame, "BOTTOMRight", -6, 20)
 infoButton:SetText("?")
 
 infoButton:SetScript("OnClick", function()
@@ -27,7 +27,11 @@ StaticPopupDialogs["RUTHES_MOUNT_INFO"] = {
     
         "Welcome to Ruthe's Mount Selector! This addon will help you to summon a random mount based on your preferences.\n\n" ..
 
-        "You can set a keybind to summon a random mount, or use the button in the Mount Selector window. You can also click one of the icons to create a custom icon that you can drag to your action bar.\n\n" ..
+        "|cffffff00Keybind:|r\n" ..
+        "You can set a keybind to summon a random mount by clicking the 'Key (...)' button, or use the button in the Mount Selector window. You can also click one of the icons to create a custom icon that you can drag to your action bar.\n\n" ..
+        
+        "|cffffff00Swimming mounts:|r\n" ..
+        "You can create an action bar button to summon a swimming mount by clicking the button with a skate on it. Please note that aquatic mounts that also can fly only have their swimming abilities when 'steady mode' flying type is on.\n\n" ..
         
         "|cffffff00Small in instances:|r\n" ..
         "Check this box if you want to only summon small mounts while in instances (dungeons, raids, etc.).\n\n" ..
@@ -36,11 +40,7 @@ StaticPopupDialogs["RUTHES_MOUNT_INFO"] = {
         "Check this box if you want to only summon mounts that you have marked as favorites.\n\n" ..
         
         "|cffffff00Commands:|r\n" ..
-        "   /rms - Open the mount selector\n" ..
-        "   /rms summon - Summon a random mount\n" ..
-        "   /rms summonswim - Summon a swimming mount\n" ..
-        "   /rms minimap - Toggle minimap button\n" ..
-        "   /rms help - available commands\n\n" ..
+        "To see available commands, type /rms help\n\n" ..
         
         "|cffffff00For more info or feedback:|r\n" ..
         "|cff00ccffhttps://www.curseforge.com/wow/addons/ruthes-mountselector",

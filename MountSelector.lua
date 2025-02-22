@@ -97,7 +97,7 @@ mountSelectorScrollFrame:SetPoint("BOTTOMRIGHT", mountSelectorFrame, "BOTTOMRIGH
 
 local function printHelp()
     print("|cffffcc00==================================|r")
-    print("|cffff9900     Ruthe's Mount Selector      |r")
+    print("|cffff9900  Ruthe's Mount Selector      |r")
     print("|cffffcc00==================================|r")
     print("|cffffff00Commands:                         |r")
     print("|cff00ff00  /rms |r - Toggles the mount selector window")
