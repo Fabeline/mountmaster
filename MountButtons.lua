@@ -12,15 +12,10 @@ local twwFlyingZones = {
 }
 
 function canPlayerFly()
-    local hasExpertRiding = IsSpellKnown(34090)
-    local hasArtisanRiding = IsSpellKnown(34091)
-    local hasMasterRiding = IsSpellKnown(90265)
-    local zoneId =  C_Map.GetBestMapForUnit("player")
-
     -- The War within zones are not added to the IsFlyableArea function... so we need to add them manually
-    local isFlyable = IsFlyableArea() or twwFlyingZones[zoneId]
-    
-    if (hasExpertRiding or hasArtisanRiding or hasMasterRiding) and isFlyable then
+    local isFlyable = IsFlyableArea() --or twwFlyingZones[zoneId]
+
+    if isFlyable then
         return true
     else
         return false

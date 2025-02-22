@@ -43,7 +43,7 @@ local function OnEvent(self, event, ...)
     if event == "ADDON_LOADED" then
         local addonName = ...
         if addonName == "Ruthes_MountSelector" then
-            print("Ruthe's MountSelector loaded. Type /rms to open.")
+            print("Ruthe's MountSelector loaded. To show more, type /rms help")
         end
     end
     if event == "PLAYER_LOGIN" then

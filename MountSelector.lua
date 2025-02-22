@@ -95,6 +95,20 @@ mountSelectorScrollFrame = CreateFrame("ScrollFrame", "MountSelectorScrollFrame"
 mountSelectorScrollFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -110)
 mountSelectorScrollFrame:SetPoint("BOTTOMRIGHT", mountSelectorFrame, "BOTTOMRIGHT", -30, 40)
 
+local function printHelp()
+    print("|cffffcc00==================================|r")
+    print("|cffff9900     Ruthe's Mount Selector      |r")
+    print("|cffffcc00==================================|r")
+    print("|cffffff00Commands:                         |r")
+    print("|cff00ff00  /rms |r - Toggles the mount selector window")
+    print("|cff00ff00  /rms summon |r - Summons a random mount")
+    print("|cff00ff00  /rms summonswim |r - Summons a random swimming mount")
+    print("|cff00ff00  /rms minimap |r - Toggles the minimap button")
+    print("|cff00ff00  /rms help |r - Displays this help message")
+    print("|cffffcc00==================================|r")
+end
+
+
 function SlashCmdList.RMS(msg, editBox)
     if msg == "summon" then -- /rms summon - will summon a random mount
         summonRandomMount(false)
@@ -102,6 +116,8 @@ function SlashCmdList.RMS(msg, editBox)
         summonRandomMount(true)
     elseif msg == "minimap" then --/rms minimap - will toggle minimap button
         toggleMinimap()
+    elseif msg == "help" then --/rms help - will display help message
+        printHelp()
     else
         if not MountSelectorFrame:IsShown() then -- /rms - will toggle the mount selector window
             MountSelectorFrame:Show()

@@ -11470,7 +11470,52 @@ const mounts = [
   color: "black",
   secondary_color: "red",
 },
-
+{
+  id: 2315,
+  name: "Timbered Sky Snake",
+  skeleton_type: "serpent",
+  color: "brown",
+  secondary_color: "teal"
+},
+{
+  id: 2276,
+  name: "Darkfuse Chompactor",
+  skeleton_type: "mechanical",
+  color: "brown",
+  secondary_color: "white",
+  is_small: "true"
+},
+{
+  id: 1715,
+  name: "Armadillo Roller",
+  skeleton_type: "mechanical",
+  color: "gray",
+  is_small: "true"
+},
+{
+  id: 2476,
+  name: "Sha Warped Cloud Serpent",
+  skeleton_type: "serpent",
+  color: "white",
+  secondary_color: "black",
+  is_small: "false"
+},
+{
+  id: 2477,
+  name: "Sha Warped Riding Tiger",
+  skeleton_type: "cat",
+  color: "white",
+  secondary_color: "black",
+  is_small: "true"
+},
+{
+  id: 2478,
+  name: "Blazing Royal Fire Hawk",
+  skeleton_type: "bird",
+  color: "red",
+  secondary_color: "fire",
+  is_small: "false"
+},
   
 ]
 
