@@ -1,7 +1,7 @@
 Remove .gitignore
 Update ## Interface
 Update ## Version
-Zip the FOLDER containing the addon
+Zip the FOLDER containing the addon (including LibDBIcon-1.0)
 Rename to for instance Ruthes_Mountselector_1_3_1.zip
 
 Update readme changelog on github
