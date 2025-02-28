@@ -11294,7 +11294,7 @@ const mounts = [
   id: 2334,
   name: "Bronze Goblin Waveshredder",
   skeleton_type: "mechanical",
-  color: "teal",
+  color: "turquoise",
   secondary_color: "red",
   is_small: "true"
 },
@@ -11472,7 +11472,7 @@ const mounts = [
   name: "Timbered Sky Snake",
   skeleton_type: "serpent",
   color: "brown",
-  secondary_color: "teal"
+  secondary_color: "turquoise"
 },
 {
   id: 2276,

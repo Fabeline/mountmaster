@@ -19,6 +19,24 @@ UIDropDownMenu_SetWidth(skeletonDropdown, 120)
 skeletonDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
 UIDropDownMenu_Initialize(skeletonDropdown, initializeSkeletonDropdown)
 
+function createAndDragMacro(macroName, macroBody, macroIcon)
+    -- Check if the macro already exists
+    local macroIndex = GetMacroIndexByName(macroName)
+
+    if macroIndex == 0 then
+        -- Create a new macro if it doesn't exist
+        macroIndex = CreateMacro(macroName, macroIcon, macroBody, true)
+    else
+        -- Update the existing macro
+        EditMacro(macroIndex, macroName, macroIcon, macroBody, true)
+    end
+
+    -- Pick up the macro and allow dragging
+    if macroIndex then
+        PickupMacro(macroIndex)
+    end
+end
+
 
 -- Reusable function to set up a macro button
 function createMacroButton(parentFrame, size, position, iconPath, tooltipText, macroName, macroBody, macroIcon)

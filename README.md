@@ -12,7 +12,10 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
-### ver 1.3.1
+### ver 1.3.3
+- Fixed bug with macro creation
+
+### ver 1.3.2
 - Added more mounts for patch 11.1.0
 - Fixed a bug that made low level characters only summon ground mounts
 - Added new command: /rms help
