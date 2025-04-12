@@ -12,6 +12,11 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.4.0
+- Added new mounts for patch 11.5.0
+- Added favorite icons next to mount names
+- Clicking the favorite icon opens the Mount Journal, where you can toggle favorites
+
 ### ver 1.3.3
 - Fixed bug with macro creation
 
