@@ -19,16 +19,19 @@ RuthesMS = {
     buttons = {
         frameButtons = {},
         mountButtons = {},
-        minimapButton = {}
+        minimapButton = {},
+        summonButton = {}
     },
     data = {
         mounts = {}
     },
     utils = {
-        dropdown = {}
+        dropdown = {},
+        filterDropdowns = {},
+        mount = {},
+        filter = {}
     },
-    mountFunctions = {},  -- TODO: move to utils
-    filterFunctions = {}, -- TODO: move to utils
+    db = {}
 }
 
 function CapitalizeFirstLetter(str)

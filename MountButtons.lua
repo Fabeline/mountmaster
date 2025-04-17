@@ -96,7 +96,7 @@ end
 
 
 local function reload()
-    RuthesMS.mountFunctions.reloadMounts()
+    RuthesMS.utils.mount.reloadMounts()
     createMountButtons()
 end
 

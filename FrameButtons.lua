@@ -51,7 +51,7 @@ local function createFrameButtons()
     }
 
     randomMountButton:SetScript("OnClick", function()
-        RuthesMS.mountFunctions.summonRandomMount(false)
+        RuthesMS.utils.mount.summonRandomMount(false)
     end)
 end
 

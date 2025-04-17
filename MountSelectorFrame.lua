@@ -7,7 +7,7 @@ local function createAndDragMacro(macroName, macroBody, macroIcon)
         macroIndex = CreateMacro(macroName, macroIcon, macroBody, true)
     else
         -- Update the existing macro
-        EditMacro(macroIndex, macroName, macroIcon, macroBody, true)
+        EditMacro(macroIndex, macroName, macroIcon, macroBody)
     end
 
     -- Pick up the macro and allow dragging
@@ -57,20 +57,20 @@ local function createMountSelectorFrame()
     local colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
     UIDropDownMenu_SetWidth(colorDropdown, 120)
     colorDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -35)
-    UIDropDownMenu_Initialize(colorDropdown, initializeColorDropdown)
+    UIDropDownMenu_Initialize(colorDropdown, RuthesMS.utils.filterDropdowns.initializeColorDropdown)
 
     -- Create a dropdown menu for filtering by skeleton type
     local skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
     UIDropDownMenu_SetWidth(skeletonDropdown, 120)
     skeletonDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
-    UIDropDownMenu_Initialize(skeletonDropdown, initializeSkeletonDropdown)
+    UIDropDownMenu_Initialize(skeletonDropdown, RuthesMS.utils.filterDropdowns.initializeSkeletonDropdown)
 
     -- Create a dropdown menu for filtering by expansion
     local expansionDropdown = CreateFrame("FRAME", "ExpansionFilterDropdown", mountSelectorFrame,
         "UIDropDownMenuTemplate")
     UIDropDownMenu_SetWidth(expansionDropdown, 120)
     expansionDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -95)
-    UIDropDownMenu_Initialize(expansionDropdown, initializeExpansionDropdown)
+    UIDropDownMenu_Initialize(expansionDropdown, RuthesMS.utils.filterDropdowns.initializeExpansionDropdown)
 
     UIDropDownMenu_SetText(skeletonDropdown, "Select types")
     UIDropDownMenu_SetText(colorDropdown, "Select colors")

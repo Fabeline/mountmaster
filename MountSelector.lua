@@ -1,8 +1,10 @@
+RuthesMS.db.init()
 RuthesMS.frames.mountSelectorFrame.create()
 RuthesMS.frames.mountSelectorScrollFrame.create()
 RuthesMS.frames.contentFrame.create()
 RuthesMS.buttons.frameButtons.create()
 RuthesMS.buttons.minimapButton.create()
+RuthesMS.buttons.summonButton.create()
 
 local function printHelp()
     print("|cffffcc00==================================|r")
@@ -21,9 +23,9 @@ SLASH_RMS1 = "/rms"
 
 function SlashCmdList.RMS(msg, editBox)
     if msg == "summon" then         -- /rms summon - will summon a random mount
-        RuthesMS.mountFunctions.summonRandomMount(false)
+        RuthesMS.utils.mount.summonRandomMount(false)
     elseif msg == "summonswim" then -- /rms summonswim - will summon a random swimming mount
-        RuthesMS.mountFunctions.summonRandomMount(true)
+        RuthesMS.utils.mount.summonRandomMount(true)
     elseif msg == "minimap" then    --/rms minimap - will toggle minimap button
         RuthesMS.buttons.minimapButton.toggleMinimap()
     elseif msg == "help" then       --/rms help - will display help message

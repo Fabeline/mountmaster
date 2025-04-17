@@ -40,6 +40,6 @@ local function filterMounts(availableMounts)
     return filteredMounts
 end
 
-RuthesMS.filterFunctions = {
+RuthesMS.utils.filter = {
     filterMounts = filterMounts,
 }

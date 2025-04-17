@@ -39,7 +39,7 @@ local function isAquaticMount(typeId)
         isAquatic = true
     end
 
-    if RuthesMS.mountFunctions.isMountFlying(typeId) and RuthesMS.mountFunctions.isSteadyFlightActive() and
+    if RuthesMS.utils.mount.isMountFlying(typeId) and RuthesMS.utils.mount.isSteadyFlightActive() and
         (
             typeId == 407 or -- Deepstar polyp and otterwordly ottuk carrier
             typeId == 436    -- Depthstalker, corrupted behemoth
@@ -98,15 +98,15 @@ local function getAvailableMounts()
 
         if isUsable and isCollected and
             ((isFavorite and RuthesMS.settings.useOnlyFavourites) or not RuthesMS.settings.useOnlyFavourites) then
-            local mountInfo = RuthesMS.mountFunctions.findMountByID(mountID)
+            local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
 
             -- Validate mount info and apply small mount filtering
             if (mountID == 373 and not vashirMountAllowed) then
                 -- skip varshir mount
             elseif mountInfo and
                 ((useSmallMounts and tostring(mountInfo.is_small) == "true") or not useSmallMounts) then
-                local canFly = RuthesMS.mountFunctions.isMountFlying(mountType)
-                local canSwim = RuthesMS.mountFunctions.isAquaticMount(mountType)
+                local canFly = RuthesMS.utils.mount.isMountFlying(mountType)
+                local canSwim = RuthesMS.utils.mount.isAquaticMount(mountType)
 
                 -- print(name .. ", mountType: " .. mountType )
 
@@ -142,9 +142,9 @@ end
 
 
 local function reloadMounts()
-    local availableMounts = RuthesMS.mountFunctions.getAvailableMounts()
+    local availableMounts = RuthesMS.utils.mount.getAvailableMounts()
     RuthesMS.temp.availableMounts = availableMounts
-    RuthesMS.temp.currentMounts = RuthesMS.filterFunctions.filterMounts(availableMounts)
+    RuthesMS.temp.currentMounts = RuthesMS.utils.filter.filterMounts(availableMounts)
 end
 
 
@@ -179,11 +179,11 @@ local function summonRandomMount(isSwimming)
         Dismount()
     else
         CancelShapeshiftForm()
-        if (RuthesMS.mountFunctions.canSummonMount() == false) then
+        if (RuthesMS.utils.mount.canSummonMount() == false) then
             return
         end
 
-        RuthesMS.mountFunctions.reloadMounts()
+        RuthesMS.utils.mount.reloadMounts()
 
         if #RuthesMS.temp.currentMounts > 0 then
             local chosenMounts
@@ -197,14 +197,14 @@ local function summonRandomMount(isSwimming)
                     table.insert(flyingMounts, mount)
                     -- Mounts with flying and aquatic have a bug where they are only fast
                     -- underwater if steady flight is active
-                    if mount.isAquatic and RuthesMS.mountFunctions.isSteadyFlightActive() then
+                    if mount.isAquatic and RuthesMS.utils.mount.isSteadyFlightActive() then
                         table.insert(aquaticMounts, mount)
                     end
                 elseif mount.isAquatic then -- aquatic and not flying
                     table.insert(aquaticMounts, mount)
                 end
 
-                if ((not mount.isFlying or RuthesMS.mountFunctions.hasGroundAnim(mount.id, mount.skeleton_type)) and not mount.isAquatic) then
+                if ((not mount.isFlying or RuthesMS.utils.mount.hasGroundAnim(mount.id, mount.skeleton_type)) and not mount.isAquatic) then
                     table.insert(groundMounts, mount)
                 end
             end
@@ -227,7 +227,7 @@ local function summonRandomMount(isSwimming)
                         print("No aquatic mounts available to summon.")
                     end
                 end
-            elseif RuthesMS.mountFunctions.canPlayerFly() and #flyingMounts > 0 then
+            elseif RuthesMS.utils.mount.canPlayerFly() and #flyingMounts > 0 then
                 chosenMounts = flyingMounts
             else
                 chosenMounts = groundMounts
@@ -250,7 +250,7 @@ local function isSteadyFlightActive()
     return AuraUtil.FindAuraByName(buffName, "player", "HELPFUL") ~= nil
 end
 
-RuthesMS.mountFunctions = {
+RuthesMS.utils.mount = {
     canPlayerFly = canPlayerFly,
     isMountFlying = isMountFlying,
     isAquaticMount = isAquaticMount,
