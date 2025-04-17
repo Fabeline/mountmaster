@@ -137,6 +137,7 @@ local function getAvailableMounts()
                     color = mountInfo.color,
                     secondary_color = mountInfo.secondary_color,
                     skeleton_type = mountInfo.skeleton_type,
+                    expansion = mountInfo.expansion,
                 })
             end
         end
@@ -145,7 +146,6 @@ local function getAvailableMounts()
     return availableMounts
 end
 
--- Updated createMountButtons with mount journal open button
 local function createMountButtons()
     ToggleCollectionsJournal(1)
     ToggleCollectionsJournal(1)

@@ -90,7 +90,24 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "Horse",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 7,
+    "name": "Gray Wolf",
+    "skeleton_type": "wolf",
+    "color": "gray",
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 8,
+    "name": "White Stallion",
+    "skeleton_type": "horse",
+    "color": "white",
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Black Stallion",
@@ -99,7 +116,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Pinto",
@@ -109,7 +127,24 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "brown",
     "secondary_color": "",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 12,
+    "name": "Black Wolf",
+    "skeleton_type": "wolf",
+    "color": "black",
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 13,
+    "name": "Red Wolf",
+    "skeleton_type": "wolf",
+    "color": "red",
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Timber Wolf",
@@ -118,7 +153,16 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 15,
+    "name": "Winter Wolf",
+    "skeleton_type": "wolf",
+    "color": "white",
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Felsteed",
@@ -128,7 +172,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "fire",
     "secondary_color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Chestnut Mare",
@@ -137,7 +182,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Dire Wolf",
@@ -146,7 +192,8 @@ const mounts = [
     "icon": "ability_mount_whitedirewolf",
     "skeleton_type": "Wolf",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Brown Wolf",
@@ -155,7 +202,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Gray Ram",
@@ -164,7 +212,15 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 22,
+    "name": "Black Ram",
+    "skeleton_type": "stag",
+    "color": "black",
+    "expansion": "Classic"
   },
   {
     "name": "White Ram",
@@ -173,7 +229,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Brown Ram",
@@ -182,7 +239,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Striped Frostsaber",
@@ -191,7 +249,8 @@ const mounts = [
     "icon": "ability_mount_whitetiger",
     "skeleton_type": "cat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Emerald Raptor",
@@ -200,7 +259,16 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
+  },
+  {
+    "id": 28,
+    "name": "skeletal horse",
+    "skeleton_type": "horse",
+    "color": "white",
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Spotted Frostsaber",
@@ -209,7 +277,8 @@ const mounts = [
     "icon": "ability_mount_whitetiger",
     "skeleton_type": "cat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Tiger",
@@ -218,7 +287,8 @@ const mounts = [
     "icon": "ability_mount_jungletiger",
     "skeleton_type": "cat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Striped Nightsaber",
@@ -227,7 +297,16 @@ const mounts = [
     "icon": "ability_mount_blackpanther",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 35,
+    "name": "Ivory Raptor",
+    "skeleton_type": "dinosaur",
+    "color": "white",
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Turquoise Raptor",
@@ -236,7 +315,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "turquoise",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Violet Raptor",
@@ -245,7 +325,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Red Mechanostrider",
@@ -254,7 +335,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Blue Mechanostrider",
@@ -263,7 +345,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "Blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Warhorse",
@@ -272,7 +355,8 @@ const mounts = [
     "icon": "Spell_Nature_Swiftness",
     "skeleton_type": "Horse",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "White Mechanostrider Mod B",
@@ -281,7 +365,16 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "White",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
+  },
+  {
+    "id": 43,
+    "name": "Green Mechanostrider",
+    "skeleton_type": "mechanical",
+    "color": "green",
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Black Nightsaber",
@@ -290,7 +383,8 @@ const mounts = [
     "icon": "ability_mount_blackpanther",
     "skeleton_type": "cat",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Ancient Frostsaber",
@@ -299,7 +393,8 @@ const mounts = [
     "icon": "ability_mount_whitetiger",
     "skeleton_type": "cat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Red Wolf",
@@ -308,7 +403,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Arctic Wolf",
@@ -317,7 +413,8 @@ const mounts = [
     "icon": "ability_mount_whitedirewolf",
     "skeleton_type": "Wolf",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Palomino",
@@ -326,7 +423,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "White Stallion",
@@ -335,7 +433,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Mottled Red Raptor",
@@ -344,7 +443,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Winterspring Frostsaber",
@@ -353,7 +453,8 @@ const mounts = [
     "icon": "ability_mount_pinktiger",
     "skeleton_type": "cat",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Ivory Raptor",
@@ -362,7 +463,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Green Mechanostrider",
@@ -371,7 +473,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "Green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Unpainted Mechanostrider",
@@ -380,7 +483,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "gray",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Icy Blue Mechanostrider Mod A",
@@ -389,7 +493,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "Blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Frost Ram",
@@ -398,7 +503,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Black Ram",
@@ -407,7 +513,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Red Skeletal Horse",
@@ -416,7 +523,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Blue Skeletal Horse",
@@ -425,7 +533,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "Blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Brown Skeletal Horse",
@@ -434,7 +543,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Green Skeletal Warhorse",
@@ -443,7 +553,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "Green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Rivendare's Deathcharger",
@@ -452,7 +563,15 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "horse",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 70,
+    "name": "Riding Kodo",
+    "skeleton_type": "kodo",
+    "color": "brown",
+    "expansion": "Classic"
   },
   {
     "name": "Gray Kodo",
@@ -460,7 +579,8 @@ const mounts = [
     "spell_id": 18989,
     "icon": "ability_mount_kodo_01",
     "skeleton_type": "Kodo",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Classic"
   },
   {
     "name": "Brown Kodo",
@@ -468,7 +588,8 @@ const mounts = [
     "spell_id": 18990,
     "icon": "ability_mount_kodo_03",
     "skeleton_type": "Kodo",
-    "color": "Brown"
+    "color": "Brown",
+    "expansion": "Classic"
   },
   {
     "name": "Green Kodo",
@@ -476,7 +597,8 @@ const mounts = [
     "spell_id": 18991,
     "icon": "ability_mount_kodo_02",
     "skeleton_type": "Kodo",
-    "color": "Green"
+    "color": "Green",
+    "expansion": "Classic"
   },
   {
     "name": "Teal Kodo",
@@ -484,7 +606,8 @@ const mounts = [
     "spell_id": 18992,
     "icon": "ability_mount_kodo_02",
     "skeleton_type": "Kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "Classic"
   },
   {
     "name": "Black War Steed",
@@ -493,7 +616,8 @@ const mounts = [
     "icon": "ability_mount_nightmarehorse",
     "skeleton_type": "horse",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Black War Kodo",
@@ -501,7 +625,8 @@ const mounts = [
     "spell_id": 22718,
     "icon": "ability_mount_kodo_01",
     "skeleton_type": "Kodo",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "Classic"
   },
   {
     "name": "Black Battlestrider",
@@ -510,7 +635,8 @@ const mounts = [
     "icon": "ability_mount_blackbattlestrider",
     "skeleton_type": "mechanical",
     "color": "Black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Black War Ram",
@@ -519,7 +645,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Black War Raptor",
@@ -529,7 +656,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "Black",
     "secondary_color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Red Skeletal Warhorse",
@@ -538,7 +666,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Black War Tiger",
@@ -547,7 +676,8 @@ const mounts = [
     "icon": "ability_mount_blackpanther",
     "skeleton_type": "cat",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Black War Wolf",
@@ -556,7 +686,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Dreadsteed",
@@ -566,7 +697,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "fire",
     "secondary_color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Charger",
@@ -575,7 +707,8 @@ const mounts = [
     "icon": "Ability_Mount_Charger",
     "skeleton_type": "horse",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Mistsaber",
@@ -584,7 +717,8 @@ const mounts = [
     "icon": "ability_mount_blackpanther",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Frostsaber",
@@ -593,7 +727,8 @@ const mounts = [
     "icon": "ability_mount_whitetiger",
     "skeleton_type": "cat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Yellow Mechanostrider",
@@ -602,7 +737,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "Yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Swift White Mechanostrider",
@@ -611,7 +747,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "White",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Swift Green Mechanostrider",
@@ -620,7 +757,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "Green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Swift Palomino",
@@ -629,7 +767,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift White Steed",
@@ -638,7 +777,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Brown Steed",
@@ -647,7 +787,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Brown Ram",
@@ -656,7 +797,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Gray Ram",
@@ -665,7 +807,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift White Ram",
@@ -674,7 +817,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Blue Raptor",
@@ -684,7 +828,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "turquoise",
     "secondary_color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Swift Olive Raptor",
@@ -694,7 +839,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "green",
     "secondary_color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Swift Orange Raptor",
@@ -703,7 +849,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "Orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Purple Skeletal Warhorse",
@@ -712,7 +859,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "Purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Great White Kodo",
@@ -720,7 +868,8 @@ const mounts = [
     "spell_id": 23247,
     "icon": "ability_mount_kodo_01",
     "skeleton_type": "Kodo",
-    "color": "White"
+    "color": "White",
+    "expansion": "Classic"
   },
   {
     "name": "Great Gray Kodo",
@@ -728,7 +877,8 @@ const mounts = [
     "spell_id": 23248,
     "icon": "ability_mount_kodo_01",
     "skeleton_type": "Kodo",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Classic"
   },
   {
     "name": "Great Brown Kodo",
@@ -736,7 +886,8 @@ const mounts = [
     "spell_id": 23249,
     "icon": "ability_mount_kodo_03",
     "skeleton_type": "Kodo",
-    "color": "Brown"
+    "color": "Brown",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Brown Wolf",
@@ -745,7 +896,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Timber Wolf",
@@ -754,7 +906,8 @@ const mounts = [
     "icon": "ability_mount_whitedirewolf",
     "skeleton_type": "Wolf",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Gray Wolf",
@@ -763,7 +916,8 @@ const mounts = [
     "icon": "ability_mount_whitedirewolf",
     "skeleton_type": "Wolf",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Stormsaber",
@@ -772,7 +926,8 @@ const mounts = [
     "icon": "ability_mount_blackpanther",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Frostwolf Howler",
@@ -781,7 +936,8 @@ const mounts = [
     "icon": "ability_mount_whitedirewolf",
     "skeleton_type": "Wolf",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Stormpike Battle Charger",
@@ -791,7 +947,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "white",
     "secondary_color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Razzashi Raptor",
@@ -801,7 +958,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "green",
     "secondary_color": "",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Swift Zulian Tiger",
@@ -810,7 +968,8 @@ const mounts = [
     "icon": "ability_mount_jungletiger",
     "skeleton_type": "cat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Black Qiraji Battle Tank",
@@ -818,7 +977,8 @@ const mounts = [
     "spell_id": 25863,
     "icon": "inv_misc_qirajicrystal_05",
     "skeleton_type": "insect",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "Classic"
   },
   {
     "name": "Blue Qiraji Battle Tank",
@@ -826,7 +986,8 @@ const mounts = [
     "spell_id": 25953,
     "icon": "inv_misc_qirajicrystal_04",
     "skeleton_type": "insect",
-    "color": "Blue"
+    "color": "Blue",
+    "expansion": "Classic"
   },
   {
     "name": "Red Qiraji Battle Tank",
@@ -834,7 +995,8 @@ const mounts = [
     "spell_id": 26054,
     "icon": "inv_misc_qirajicrystal_02",
     "skeleton_type": "insect",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "Classic"
   },
   {
     "name": "Yellow Qiraji Battle Tank",
@@ -842,7 +1004,8 @@ const mounts = [
     "spell_id": 26055,
     "icon": "inv_misc_qirajicrystal_01",
     "skeleton_type": "insect",
-    "color": "Yellow"
+    "color": "Yellow",
+    "expansion": "Classic"
   },
   {
     "name": "Green Qiraji Battle Tank",
@@ -850,7 +1013,8 @@ const mounts = [
     "spell_id": 26056,
     "icon": "inv_misc_qirajicrystal_03",
     "skeleton_type": "insect",
-    "color": "Green"
+    "color": "Green",
+    "expansion": "Classic"
   },
   {
     "name": "Black Qiraji Battle Tank",
@@ -858,7 +1022,8 @@ const mounts = [
     "spell_id": 26655,
     "icon": "inv_misc_qirajicrystal_05",
     "skeleton_type": "insect",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "Classic"
   },
   {
     "name": "Black Qiraji Battle Tank",
@@ -866,7 +1031,15 @@ const mounts = [
     "spell_id": 26656,
     "icon": "inv_misc_qirajicrystal_05",
     "skeleton_type": "insect",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "Classic"
+  },
+  {
+    "id": 123,
+    "name": "Nether Drake",
+    "skeleton_type": "dragon",
+    "color": "purple",
+    "expansion": "Classic"
   },
   {
     "name": "Riding Turtle",
@@ -875,7 +1048,8 @@ const mounts = [
     "icon": "ability_hunter_pet_turtle",
     "skeleton_type": "crocodile",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Classic"
   },
   {
     "name": "Golden Gryphon",
@@ -884,7 +1058,8 @@ const mounts = [
     "icon": "ability_mount_goldengryphon",
     "skeleton_type": "Gryphon",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Ebon Gryphon",
@@ -893,7 +1068,8 @@ const mounts = [
     "icon": "ability_mount_ebongryphon",
     "skeleton_type": "Gryphon",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Snowy Gryphon",
@@ -902,7 +1078,8 @@ const mounts = [
     "icon": "ability_mount_snowygryphon",
     "skeleton_type": "Gryphon",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Blue Gryphon",
@@ -911,7 +1088,8 @@ const mounts = [
     "icon": "ability_mount_gryphon_01",
     "skeleton_type": "Gryphon",
     "color": "Blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Tawny Wind Rider",
@@ -920,7 +1098,8 @@ const mounts = [
     "icon": "ability_mount_tawnywindrider",
     "skeleton_type": "cat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Blue Wind Rider",
@@ -929,7 +1108,8 @@ const mounts = [
     "icon": "ability_mount_bluewindrider",
     "skeleton_type": "cat",
     "color": "Blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Green Wind Rider",
@@ -938,7 +1118,8 @@ const mounts = [
     "icon": "ability_mount_greenwindrider",
     "skeleton_type": "cat",
     "color": "Green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Red Wind Rider",
@@ -947,7 +1128,8 @@ const mounts = [
     "icon": "ability_mount_swiftredwindrider",
     "skeleton_type": "cat",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Red Gryphon",
@@ -956,7 +1138,8 @@ const mounts = [
     "icon": "ability_mount_gryphon_01",
     "skeleton_type": "Gryphon",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Green Gryphon",
@@ -965,7 +1148,8 @@ const mounts = [
     "icon": "ability_mount_gryphon_01",
     "skeleton_type": "Gryphon",
     "color": "Green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Purple Gryphon",
@@ -974,7 +1158,8 @@ const mounts = [
     "icon": "ability_mount_gryphon_01",
     "skeleton_type": "Gryphon",
     "color": "Purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Green Wind Rider",
@@ -983,7 +1168,8 @@ const mounts = [
     "icon": "ability_mount_swiftgreenwindrider",
     "skeleton_type": "cat",
     "color": "Green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Yellow Wind Rider",
@@ -992,7 +1178,8 @@ const mounts = [
     "icon": "ability_mount_swiftyellowwindrider",
     "skeleton_type": "cat",
     "color": "Yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Purple Wind Rider",
@@ -1001,7 +1188,16 @@ const mounts = [
     "icon": "ability_mount_swiftpurplewindrider",
     "skeleton_type": "cat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Classic"
+  },
+  {
+    "id": 145,
+    "name": "Blue Mechanostrider",
+    "skeleton_type": "mechanical",
+    "color": "blue",
+    "is_small": "true",
+    "expansion": "Classic"
   },
   {
     "name": "Swift Pink Hawkstrider",
@@ -1010,7 +1206,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemountelite",
     "skeleton_type": "emu",
     "color": "Pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Brown Elekk",
@@ -1018,7 +1215,8 @@ const mounts = [
     "spell_id": 34406,
     "icon": "ability_mount_ridingelekk",
     "skeleton_type": "mammoth",
-    "color": "Brown"
+    "color": "Brown",
+    "expansion": "TBC"
   },
   {
     "name": "Thalassian Charger",
@@ -1027,7 +1225,8 @@ const mounts = [
     "icon": "Ability_Mount_Charger",
     "skeleton_type": "horse",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Thalassian Warhorse",
@@ -1036,7 +1235,8 @@ const mounts = [
     "icon": "Spell_Nature_Swiftness",
     "skeleton_type": "Horse",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Dark War Talbuk",
@@ -1046,7 +1246,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "gray",
     "secondary_color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Red Hawkstrider",
@@ -1055,7 +1256,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemount",
     "skeleton_type": "emu",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Cobalt War Talbuk",
@@ -1064,7 +1266,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "White War Talbuk",
@@ -1073,7 +1276,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Silver War Talbuk",
@@ -1082,7 +1286,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Tan War Talbuk",
@@ -1091,7 +1296,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Purple Hawkstrider",
@@ -1100,7 +1306,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemount_purple",
     "skeleton_type": "emu",
     "color": "Purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Blue Hawkstrider",
@@ -1109,7 +1316,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemount_blue",
     "skeleton_type": "emu",
     "color": "Blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Black Hawkstrider",
@@ -1118,7 +1326,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemount_black",
     "skeleton_type": "emu",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Swift Green Hawkstrider",
@@ -1127,7 +1336,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemountelite_green",
     "skeleton_type": "emu",
     "color": "Green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Swift Purple Hawkstrider",
@@ -1136,7 +1346,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemountelite_purple",
     "skeleton_type": "emu",
     "color": "Purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Swift Warstrider",
@@ -1145,7 +1356,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemountelite_black",
     "skeleton_type": "emu",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Gray Elekk",
@@ -1153,7 +1365,8 @@ const mounts = [
     "spell_id": 35710,
     "icon": "ability_mount_ridingelekk_grey",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "TBC"
   },
   {
     "name": "Purple Elekk",
@@ -1161,7 +1374,8 @@ const mounts = [
     "spell_id": 35711,
     "icon": "ability_mount_ridingelekk_purple",
     "skeleton_type": "mammoth",
-    "color": "Purple"
+    "color": "Purple",
+    "expansion": "TBC"
   },
   {
     "name": "Great Green Elekk",
@@ -1169,7 +1383,8 @@ const mounts = [
     "spell_id": 35712,
     "icon": "ability_mount_ridingelekkelite_green",
     "skeleton_type": "mammoth",
-    "color": "Green"
+    "color": "Green",
+    "expansion": "TBC"
   },
   {
     "name": "Great Blue Elekk",
@@ -1177,7 +1392,8 @@ const mounts = [
     "spell_id": 35713,
     "icon": "ability_mount_ridingelekkelite_blue",
     "skeleton_type": "mammoth",
-    "color": "Blue"
+    "color": "Blue",
+    "expansion": "TBC"
   },
   {
     "name": "Great Purple Elekk",
@@ -1185,7 +1401,8 @@ const mounts = [
     "spell_id": 35714,
     "icon": "ability_mount_ridingelekkelite_purple",
     "skeleton_type": "mammoth",
-    "color": "Purple"
+    "color": "Purple",
+    "expansion": "TBC"
   },
   {
     "name": "Fiery Warhorse",
@@ -1195,7 +1412,8 @@ const mounts = [
     "skeleton_type": "Horse",
     "color": "green",
     "secondary_color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Swift Nether Drake",
@@ -1203,7 +1421,8 @@ const mounts = [
     "spell_id": 37015,
     "icon": "ability_mount_netherdrakeelite",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "TBC"
   },
   {
     "name": "Cobalt Riding Talbuk",
@@ -1212,7 +1431,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Dark Riding Talbuk",
@@ -1221,7 +1441,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Silver Riding Talbuk",
@@ -1230,7 +1451,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Tan Riding Talbuk",
@@ -1239,7 +1461,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "White Riding Talbuk",
@@ -1248,7 +1471,8 @@ const mounts = [
     "icon": "inv_misc_foot_centaur",
     "skeleton_type": "stag",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Green Riding Nether Ray",
@@ -1257,7 +1481,8 @@ const mounts = [
     "icon": "ability_hunter_pet_netherray",
     "skeleton_type": "fish",
     "color": "Green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TBC"
   },
   {
     "name": "Red Riding Nether Ray",
@@ -1266,7 +1491,8 @@ const mounts = [
     "icon": "ability_hunter_pet_netherray",
     "skeleton_type": "fish",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TBC"
   },
   {
     "name": "Purple Riding Nether Ray",
@@ -1275,7 +1501,8 @@ const mounts = [
     "icon": "ability_hunter_pet_netherray",
     "skeleton_type": "fish",
     "color": "Purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TBC"
   },
   {
     "name": "Silver Riding Nether Ray",
@@ -1284,7 +1511,8 @@ const mounts = [
     "icon": "ability_hunter_pet_netherray",
     "skeleton_type": "fish",
     "color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TBC"
   },
   {
     "name": "Blue Riding Nether Ray",
@@ -1293,7 +1521,8 @@ const mounts = [
     "icon": "ability_hunter_pet_netherray",
     "skeleton_type": "fish",
     "color": "Blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TBC"
   },
   {
     "name": "Ashes of Al'ar",
@@ -1302,7 +1531,8 @@ const mounts = [
     "icon": "inv_misc_summerfest_brazierorange",
     "skeleton_type": "bird",
     "color": "fire",
-    "secondary_color": "orange"
+    "secondary_color": "orange",
+    "expansion": "TBC"
   },
   {
     "name": "Raven Lord",
@@ -1311,7 +1541,8 @@ const mounts = [
     "icon": "inv-mount_raven_54",
     "skeleton_type": "Bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TBC"
   },
   {
     "name": "Onyx Netherwing Drake",
@@ -1319,7 +1550,8 @@ const mounts = [
     "spell_id": 41513,
     "icon": "ability_mount_netherdrakepurple",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "TBC"
   },
   {
     "name": "Azure Netherwing Drake",
@@ -1327,7 +1559,8 @@ const mounts = [
     "spell_id": 41514,
     "icon": "ability_mount_netherdrakepurple",
     "skeleton_type": "Dragon",
-    "color": "turquoise"
+    "color": "turquoise",
+    "expansion": "TBC"
   },
   {
     "name": "Cobalt Netherwing Drake",
@@ -1335,7 +1568,8 @@ const mounts = [
     "spell_id": 41515,
     "icon": "ability_mount_netherdrakepurple",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "TBC"
   },
   {
     "name": "Purple Netherwing Drake",
@@ -1343,7 +1577,8 @@ const mounts = [
     "spell_id": 41516,
     "icon": "ability_mount_netherdrakepurple",
     "skeleton_type": "Dragon",
-    "color": "Purple"
+    "color": "Purple",
+    "expansion": "TBC"
   },
   {
     "name": "Veridian Netherwing Drake",
@@ -1351,7 +1586,8 @@ const mounts = [
     "spell_id": 41517,
     "icon": "ability_mount_netherdrakepurple",
     "skeleton_type": "Dragon",
-    "color": "green"
+    "color": "green",
+    "expansion": "TBC"
   },
   {
     "name": "Violet Netherwing Drake",
@@ -1359,7 +1595,8 @@ const mounts = [
     "spell_id": 41518,
     "icon": "ability_mount_netherdrakepurple",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "TBC"
   },
   {
     "name": "Spectral Tiger",
@@ -1368,7 +1605,8 @@ const mounts = [
     "icon": "ability_mount_spectraltiger",
     "skeleton_type": "cat",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Swift Spectral Tiger",
@@ -1377,7 +1615,8 @@ const mounts = [
     "icon": "ability_mount_spectraltiger",
     "skeleton_type": "cat",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Amani War Bear",
@@ -1386,7 +1625,8 @@ const mounts = [
     "icon": "ability_druid_challangingroar",
     "skeleton_type": "bear",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Brewfest Ram",
@@ -1395,7 +1635,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Swift Brewfest Ram",
@@ -1404,7 +1645,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Cenarion War Hippogryph",
@@ -1414,7 +1656,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "green",
     "secondary_color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Turbo-Charged Flying Machine",
@@ -1422,7 +1665,8 @@ const mounts = [
     "spell_id": 44151,
     "icon": "ability_mount_gyrocoptorelite",
     "skeleton_type": "mechanical",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "TBC"
   },
   {
     "name": "Flying Machine",
@@ -1430,7 +1674,15 @@ const mounts = [
     "spell_id": 44153,
     "icon": "ability_mount_gyrocoptor",
     "skeleton_type": "mechanical",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "TBC"
+  },
+  {
+    "id": 206,
+    "name": "Merciless Nether Drake",
+    "skeleton_type": "dragon",
+    "color": "blue",
+    "expansion": "TBC"
   },
   {
     "name": "Merciless Nether Drake",
@@ -1438,7 +1690,8 @@ const mounts = [
     "spell_id": 44744,
     "icon": "ability_mount_netherdrakeelite",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "TBC"
   },
   {
     "name": "X-51 Nether-Rocket",
@@ -1447,7 +1700,8 @@ const mounts = [
     "icon": "inv_misc_missilesmall_blue",
     "skeleton_type": "mechanical",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TBC"
   },
   {
     "name": "X-51 Nether-Rocket X-TREME",
@@ -1456,7 +1710,8 @@ const mounts = [
     "icon": "inv_misc_missilesmall_red",
     "skeleton_type": "mechanical",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TBC"
   },
   {
     "name": "Swift White Hawkstrider",
@@ -1465,7 +1720,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemountelite_white",
     "skeleton_type": "emu",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Headless Horseman's Mount",
@@ -1475,7 +1731,8 @@ const mounts = [
     "skeleton_type": "Horse",
     "color": "green",
     "secondary_color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Black War Elekk",
@@ -1483,7 +1740,8 @@ const mounts = [
     "spell_id": 48027,
     "icon": "ability_mount_ridingelekkelite_blue",
     "skeleton_type": "mammoth",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "TBC"
   },
   {
     "name": "Acherus Deathcharger",
@@ -1492,7 +1750,17 @@ const mounts = [
     "icon": "Spell_DeathKnight_SummonDeathCharger",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
+  },
+  {
+    "id": 222,
+    "name": "Swift Zhevra",
+    "skeleton_type": "horse",
+    "color": "white",
+    "secondary_color": "black",
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Vengeful Nether Drake",
@@ -1500,7 +1768,8 @@ const mounts = [
     "spell_id": 49193,
     "icon": "ability_mount_netherdrakeelite",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "TBC"
   },
   {
     "name": "Swift Zhevra",
@@ -1509,7 +1778,15 @@ const mounts = [
     "icon": "ability_mount_charger",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
+  },
+  {
+    "id": 225,
+    "name": "Brewfest Riding Kodo",
+    "skeleton_type": "kodo",
+    "color": "brown",
+    "expansion": "TBC"
   },
   {
     "name": "Great Brewfest Kodo",
@@ -1517,7 +1794,8 @@ const mounts = [
     "spell_id": 49379,
     "icon": "ability_mount_kotobrewfest",
     "skeleton_type": "Kodo",
-    "color": "black"
+    "color": "black",
+    "expansion": "TBC"
   },
   {
     "name": "Big Battle Bear",
@@ -1526,7 +1804,8 @@ const mounts = [
     "icon": "ability_druid_challangingroar",
     "skeleton_type": "bear",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TBC"
   },
   {
     "name": "Winged Steed of the Ebon Blade",
@@ -1535,7 +1814,8 @@ const mounts = [
     "icon": "ability_mount_ebonblade",
     "skeleton_type": "gryphon",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "White Polar Bear",
@@ -1544,7 +1824,15 @@ const mounts = [
     "icon": "ability_mount_polarbear_white",
     "skeleton_type": "bear",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
+  },
+  {
+    "id": 238,
+    "name": "Swift Spectral Gryphon",
+    "skeleton_type": "gryphon",
+    "color": "ghost",
+    "expansion": "WotLK"
   },
   {
     "name": "Mechano-Hog",
@@ -1553,7 +1841,8 @@ const mounts = [
     "icon": "inv_misc_key_14",
     "skeleton_type": "mechanical",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "Brutal Nether Drake",
@@ -1561,7 +1850,8 @@ const mounts = [
     "spell_id": 58615,
     "icon": "ability_mount_netherdrakeelite",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "WotLK"
   },
   {
     "name": "Big Blizzard Bear",
@@ -1570,7 +1860,8 @@ const mounts = [
     "icon": "ability_mount_bigblizzardbear",
     "skeleton_type": "bear",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Azure Drake",
@@ -1578,7 +1869,8 @@ const mounts = [
     "spell_id": 59567,
     "icon": "ability_mount_drake_azure",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "WotLK"
   },
   {
     "name": "Blue Drake",
@@ -1586,7 +1878,8 @@ const mounts = [
     "spell_id": 59568,
     "icon": "ability_mount_drake_azure",
     "skeleton_type": "Dragon",
-    "color": "turquoise"
+    "color": "turquoise",
+    "expansion": "WotLK"
   },
   {
     "name": "Bronze Drake",
@@ -1594,7 +1887,8 @@ const mounts = [
     "spell_id": 59569,
     "icon": "ability_mount_drake_bronze",
     "skeleton_type": "Dragon",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "WotLK"
   },
   {
     "name": "Red Drake",
@@ -1602,7 +1896,8 @@ const mounts = [
     "spell_id": 59570,
     "icon": "ability_mount_drake_red",
     "skeleton_type": "Dragon",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "WotLK"
   },
   {
     "name": "Twilight Drake",
@@ -1610,7 +1905,15 @@ const mounts = [
     "spell_id": 59571,
     "icon": "ability_mount_drake_twilight",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "WotLK"
+  },
+  {
+    "id": 251,
+    "name": "Black Polar Bear",
+    "skeleton_type": "bear",
+    "color": "black",
+    "expansion": "WotLK"
   },
   {
     "name": "Black Drake",
@@ -1619,7 +1922,8 @@ const mounts = [
     "icon": "ability_mount_drake_twilight",
     "skeleton_type": "Dragon",
     "color": "Black",
-    "secondary_color": "brown"
+    "secondary_color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Black War Mammoth",
@@ -1627,7 +1931,8 @@ const mounts = [
     "spell_id": 59785,
     "icon": "ability_mount_mammoth_black",
     "skeleton_type": "mammoth",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "WotLK"
   },
   {
     "name": "Black War Mammoth",
@@ -1635,7 +1940,8 @@ const mounts = [
     "spell_id": 59788,
     "icon": "ability_mount_mammoth_black",
     "skeleton_type": "mammoth",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "WotLK"
   },
   {
     "name": "Wooly Mammoth",
@@ -1643,7 +1949,8 @@ const mounts = [
     "spell_id": 59791,
     "icon": "ability_mount_mammoth_brown",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Wooly Mammoth",
@@ -1651,7 +1958,8 @@ const mounts = [
     "spell_id": 59793,
     "icon": "ability_mount_mammoth_brown",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Ice Mammoth",
@@ -1659,7 +1967,8 @@ const mounts = [
     "spell_id": 59797,
     "icon": "ability_mount_mammoth_white",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "WotLK"
   },
   {
     "name": "Ice Mammoth",
@@ -1667,7 +1976,8 @@ const mounts = [
     "spell_id": 59799,
     "icon": "ability_mount_mammoth_white",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "WotLK"
   },
   {
     "name": "Red Proto-Drake",
@@ -1675,7 +1985,8 @@ const mounts = [
     "spell_id": 59961,
     "icon": "ability_mount_drake_proto",
     "skeleton_type": "Dragon",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "WotLK"
   },
   {
     "name": "Black Proto-Drake",
@@ -1684,7 +1995,8 @@ const mounts = [
     "icon": "ability_mount_drake_proto",
     "skeleton_type": "Dragon",
     "color": "Black",
-    "secondary_color": "brown"
+    "secondary_color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Blue Proto-Drake",
@@ -1692,7 +2004,8 @@ const mounts = [
     "spell_id": 59996,
     "icon": "ability_mount_drake_proto",
     "skeleton_type": "Dragon",
-    "color": "Blue"
+    "color": "Blue",
+    "expansion": "WotLK"
   },
   {
     "name": "Time-Lost Proto-Drake",
@@ -1700,7 +2013,8 @@ const mounts = [
     "spell_id": 60002,
     "icon": "ability_mount_drake_proto",
     "skeleton_type": "Dragon",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "WotLK"
   },
   {
     "name": "Plagued Proto-Drake",
@@ -1708,7 +2022,8 @@ const mounts = [
     "spell_id": 60021,
     "icon": "ability_mount_drake_proto",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "WotLK"
   },
   {
     "name": "Violet Proto-Drake",
@@ -1716,7 +2031,8 @@ const mounts = [
     "spell_id": 60024,
     "icon": "ability_mount_drake_proto",
     "skeleton_type": "Dragon",
-    "color": "pink"
+    "color": "pink",
+    "expansion": "WotLK"
   },
   {
     "name": "Albino Drake",
@@ -1725,7 +2041,8 @@ const mounts = [
     "icon": "ability_mount_drake_blue",
     "skeleton_type": "Dragon",
     "color": "white",
-    "secondary_color": "turquoise"
+    "secondary_color": "turquoise",
+    "expansion": "WotLK"
   },
   {
     "name": "Armored Brown Bear",
@@ -1734,7 +2051,8 @@ const mounts = [
     "icon": "ability_mount_polarbear_brown",
     "skeleton_type": "bear",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Armored Brown Bear",
@@ -1743,7 +2061,8 @@ const mounts = [
     "icon": "ability_mount_polarbear_brown",
     "skeleton_type": "bear",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Black War Bear",
@@ -1752,7 +2071,8 @@ const mounts = [
     "icon": "ability_mount_polarbear_black",
     "skeleton_type": "bear",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Black War Bear",
@@ -1761,7 +2081,22 @@ const mounts = [
     "icon": "ability_mount_polarbear_black",
     "skeleton_type": "bear",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
+  },
+  {
+    "id": 273,
+    "name": "Grand Caravan Mammoth",
+    "skeleton_type": "mammoth",
+    "color": "brown",
+    "expansion": "WotLK"
+  },
+  {
+    "id": 274,
+    "name": "Grand Caravan Mammoth",
+    "skeleton_type": "mammoth",
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Mekgineer's Chopper",
@@ -1770,7 +2105,8 @@ const mounts = [
     "icon": "inv_misc_key_14",
     "skeleton_type": "mechanical",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "Armored Snowy Gryphon",
@@ -1779,7 +2115,8 @@ const mounts = [
     "icon": "ability_mount_gryphon_01",
     "skeleton_type": "Gryphon",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Armored Blue Wind Rider",
@@ -1788,7 +2125,8 @@ const mounts = [
     "icon": "ability_mount_swiftpurplewindrider",
     "skeleton_type": "cat",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Green Proto-Drake",
@@ -1796,7 +2134,8 @@ const mounts = [
     "spell_id": 61294,
     "icon": "ability_mount_drake_proto",
     "skeleton_type": "Dragon",
-    "color": "Green"
+    "color": "Green",
+    "expansion": "WotLK"
   },
   {
     "name": "Magnificent Flying Carpet",
@@ -1806,7 +2145,8 @@ const mounts = [
     "skeleton_type": "kite",
     "color": "orange",
     "secondary_color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Traveler's Tundra Mammoth",
@@ -1814,7 +2154,8 @@ const mounts = [
     "spell_id": 61425,
     "icon": "ability_mount_mammoth_brown_3seater",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Traveler's Tundra Mammoth",
@@ -1822,7 +2163,8 @@ const mounts = [
     "spell_id": 61447,
     "icon": "ability_mount_mammoth_brown_3seater",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Flying Carpet",
@@ -1832,7 +2174,8 @@ const mounts = [
     "skeleton_type": "kite",
     "color": "green",
     "secondary_color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Grand Black War Mammoth",
@@ -1840,7 +2183,8 @@ const mounts = [
     "spell_id": 61465,
     "icon": "ability_mount_mammoth_black_3seater",
     "skeleton_type": "mammoth",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "WotLK"
   },
   {
     "name": "Grand Black War Mammoth",
@@ -1848,7 +2192,8 @@ const mounts = [
     "spell_id": 61467,
     "icon": "ability_mount_mammoth_black_3seater",
     "skeleton_type": "mammoth",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "WotLK"
   },
   {
     "name": "Grand Ice Mammoth",
@@ -1856,7 +2201,8 @@ const mounts = [
     "spell_id": 61469,
     "icon": "ability_mount_mammoth_white_3seater",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "WotLK"
   },
   {
     "name": "Grand Ice Mammoth",
@@ -1864,7 +2210,8 @@ const mounts = [
     "spell_id": 61470,
     "icon": "ability_mount_mammoth_white_3seater",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "WotLK"
   },
   {
     "name": "Blue Dragonhawk",
@@ -1873,7 +2220,8 @@ const mounts = [
     "icon": "ability_hunter_pet_dragonhawk",
     "skeleton_type": "insect",
     "color": "purple",
-    "secondary_color": "turquoise"
+    "secondary_color": "turquoise",
+    "expansion": "WotLK"
   },
   {
     "name": "Red Dragonhawk",
@@ -1882,7 +2230,8 @@ const mounts = [
     "icon": "ability_hunter_pet_dragonhawk",
     "skeleton_type": "insect",
     "color": "red",
-    "secondary_color": "orange"
+    "secondary_color": "orange",
+    "expansion": "WotLK"
   },
   {
     "name": "Illidari Doomhawk",
@@ -1890,7 +2239,8 @@ const mounts = [
     "spell_id": 62048,
     "icon": "ability_hunter_pet_dragonhawk",
     "skeleton_type": "insect",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "WotLK"
   },
   {
     "name": "Stormwind Steed",
@@ -1899,7 +2249,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Darkspear Raptor",
@@ -1908,7 +2259,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "Ironforge Ram",
@@ -1917,7 +2269,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Darnassian Nightsaber",
@@ -1926,7 +2279,8 @@ const mounts = [
     "icon": "ability_mount_whitetiger",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Gnomeregan Mechanostrider",
@@ -1935,7 +2289,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "Exodar Elekk",
@@ -1943,7 +2298,8 @@ const mounts = [
     "spell_id": 63639,
     "icon": "ability_mount_ridingelekkelite",
     "skeleton_type": "mammoth",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "WotLK"
   },
   {
     "name": "Orgrimmar Wolf",
@@ -1952,7 +2308,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Thunder Bluff Kodo",
@@ -1960,7 +2317,8 @@ const mounts = [
     "spell_id": 63641,
     "icon": "ability_mount_kodo_01",
     "skeleton_type": "Kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Silvermoon Hawkstrider",
@@ -1969,7 +2327,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemountelite_purple",
     "skeleton_type": "emu",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Forsaken Warhorse",
@@ -1978,7 +2337,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Mimiron's Head",
@@ -1986,7 +2346,8 @@ const mounts = [
     "spell_id": 63796,
     "icon": "inv_misc_enggizmos_03",
     "skeleton_type": "mechanical",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "WotLK"
   },
   {
     "name": "Argent Hippogryph",
@@ -1995,7 +2356,8 @@ const mounts = [
     "icon": "ability_mount_warhippogryph",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Ironbound Proto-Drake",
@@ -2003,7 +2365,8 @@ const mounts = [
     "spell_id": 63956,
     "icon": "ability_mount_razorscale",
     "skeleton_type": "Dragon",
-    "color": "black"
+    "color": "black",
+    "expansion": "WotLK"
   },
   {
     "name": "Rusted Proto-Drake",
@@ -2011,7 +2374,15 @@ const mounts = [
     "spell_id": 63963,
     "icon": "ability_mount_razorscale",
     "skeleton_type": "Dragon",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
+  },
+  {
+    "id": 308,
+    "name": "Blue Skeletal Warhorse",
+    "skeleton_type": "horse",
+    "color": "blue",
+    "expansion": "WotLK"
   },
   {
     "name": "White Kodo",
@@ -2019,7 +2390,8 @@ const mounts = [
     "spell_id": 64657,
     "icon": "ability_mount_kodo_01",
     "skeleton_type": "Kodo",
-    "color": "White"
+    "color": "White",
+    "expansion": "WotLK"
   },
   {
     "name": "Black Wolf",
@@ -2028,7 +2400,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Venomhide Ravasaur",
@@ -2037,7 +2410,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "Sea Turtle",
@@ -2046,7 +2420,8 @@ const mounts = [
     "icon": "inv_misc_fish_turtle_02",
     "skeleton_type": "crocodile",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "Deadly Gladiator's Frost Wyrm",
@@ -2054,7 +2429,8 @@ const mounts = [
     "spell_id": 64927,
     "icon": "ability_mount_redfrostwyrm_01",
     "skeleton_type": "dragon",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Black Skeletal Horse",
@@ -2063,7 +2439,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Furious Gladiator's Frost Wyrm",
@@ -2072,7 +2449,8 @@ const mounts = [
     "icon": "ability_mount_redfrostwyrm_01",
     "skeleton_type": "dragon",
     "color": "brown",
-    "secondary_color": "blue"
+    "secondary_color": "blue",
+    "expansion": "WotLK"
   },
   {
     "name": "Great Red Elekk",
@@ -2080,7 +2458,8 @@ const mounts = [
     "spell_id": 65637,
     "icon": "ability_mount_ridingelekkelite",
     "skeleton_type": "mammoth",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "WotLK"
   },
   {
     "name": "Swift Moonsaber",
@@ -2089,7 +2468,8 @@ const mounts = [
     "icon": "ability_mount_whitetiger",
     "skeleton_type": "cat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Swift Red Hawkstrider",
@@ -2098,7 +2478,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemountelite_purple",
     "skeleton_type": "emu",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Swift Gray Steed",
@@ -2107,7 +2488,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Great Golden Kodo",
@@ -2115,7 +2497,8 @@ const mounts = [
     "spell_id": 65641,
     "icon": "ability_mount_kodo_01",
     "skeleton_type": "Kodo",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "WotLK"
   },
   {
     "name": "Turbostrider",
@@ -2124,7 +2507,8 @@ const mounts = [
     "icon": "ability_mount_mechastrider",
     "skeleton_type": "mechanical",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "Swift Violet Ram",
@@ -2133,7 +2517,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Swift Purple Raptor",
@@ -2143,7 +2528,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "Purple",
     "secondary_color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "White Skeletal Warhorse",
@@ -2152,7 +2538,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Swift Burgundy Wolf",
@@ -2161,7 +2548,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Magic Rooster",
@@ -2170,7 +2558,8 @@ const mounts = [
     "icon": "inv_egg_03",
     "skeleton_type": "emu",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Silver Covenant Hippogryph",
@@ -2179,7 +2568,8 @@ const mounts = [
     "icon": "ability_mount_warhippogryph",
     "skeleton_type": "stag",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Sunreaver Dragonhawk",
@@ -2188,7 +2578,8 @@ const mounts = [
     "icon": "ability_hunter_pet_dragonhawk",
     "skeleton_type": "insect",
     "color": "red",
-    "secondary_color": "black"
+    "secondary_color": "black",
+    "expansion": "WotLK"
   },
   {
     "name": "Quel'dorei Steed",
@@ -2197,7 +2588,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Sunreaver Hawkstrider",
@@ -2206,7 +2598,32 @@ const mounts = [
     "icon": "ability_mount_cockatricemountelite_purple",
     "skeleton_type": "emu",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
+  },
+  {
+    "id": 333,
+    "name": "Magic Rooster",
+    "skeleton_type": "emu",
+    "color": "brown",
+    "is_small": "true",
+    "expansion": "WotLK"
+  },
+  {
+    "id": 334,
+    "name": "Magic Rooster",
+    "skeleton_type": "emu",
+    "color": "brown",
+    "is_small": "true",
+    "expansion": "WotLK"
+  },
+  {
+    "id": 335,
+    "name": "Magic Rooster",
+    "skeleton_type": "emu",
+    "color": "brown",
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Ochre Skeletal Warhorse",
@@ -2215,7 +2632,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "Horse",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Striped Dawnsaber",
@@ -2225,7 +2643,8 @@ const mounts = [
     "skeleton_type": "cat",
     "color": "white",
     "secondary_color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Argent Charger",
@@ -2234,7 +2653,8 @@ const mounts = [
     "icon": "Ability_Mount_Charger",
     "skeleton_type": "horse",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Relentless Gladiator's Frost Wyrm",
@@ -2243,7 +2663,8 @@ const mounts = [
     "icon": "ability_mount_redfrostwyrm_01",
     "skeleton_type": "dragon",
     "color": "gray",
-    "secondary_color": "blue"
+    "secondary_color": "blue",
+    "expansion": "WotLK"
   },
   {
     "name": "Argent Warhorse",
@@ -2252,7 +2673,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "Horse",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Swift Horde Wolf",
@@ -2261,7 +2683,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "Wolf",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Swift Alliance Steed",
@@ -2270,7 +2693,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Crusader's White Warhorse",
@@ -2279,7 +2703,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "Horse",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Crusader's Black Warhorse",
@@ -2288,7 +2713,8 @@ const mounts = [
     "icon": "ability_mount_nightmarehorse",
     "skeleton_type": "Horse",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Onyxian Drake",
@@ -2296,7 +2722,8 @@ const mounts = [
     "spell_id": 69395,
     "icon": "achievement_boss_onyxia",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "WotLK"
   },
   {
     "name": "Sunwalker Kodo",
@@ -2304,7 +2731,8 @@ const mounts = [
     "spell_id": 69820,
     "icon": "Ability_Mount_Kodo_03",
     "skeleton_type": "Kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Great Sunwalker Kodo",
@@ -2312,7 +2740,8 @@ const mounts = [
     "spell_id": 69826,
     "icon": "ability_mount_kodosunwalkerelite",
     "skeleton_type": "Kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "X-45 Heartbreaker",
@@ -2321,7 +2750,8 @@ const mounts = [
     "icon": "inv_rocketmountpink",
     "skeleton_type": "mechanical",
     "color": "pink",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WotLK"
   },
   {
     "name": "Wrathful Gladiator's Frost Wyrm",
@@ -2329,7 +2759,8 @@ const mounts = [
     "spell_id": 71810,
     "icon": "ability_mount_redfrostwyrm_01",
     "skeleton_type": "dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "WotLK"
   },
   {
     "name": "Invincible",
@@ -2339,7 +2770,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "gray",
     "secondary_color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Icebound Frostbrood Vanquisher",
@@ -2348,7 +2780,8 @@ const mounts = [
     "icon": "ability_mount_redfrostwyrm_01",
     "skeleton_type": "dragon",
     "color": "gray",
-    "secondary_color": "blue"
+    "secondary_color": "blue",
+    "expansion": "WotLK"
   },
   {
     "name": "Bloodbathed Frostbrood Vanquisher",
@@ -2356,7 +2789,8 @@ const mounts = [
     "spell_id": 72808,
     "icon": "ability_mount_redfrostwyrm_01",
     "skeleton_type": "dragon",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WotLK"
   },
   {
     "name": "Crimson Deathcharger",
@@ -2365,7 +2799,8 @@ const mounts = [
     "icon": "spell_deathknight_summondeathcharger",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WotLK"
   },
   {
     "name": "Exarch's Elekk",
@@ -2373,7 +2808,8 @@ const mounts = [
     "spell_id": 73629,
     "icon": "Spell_Nature_Swiftness",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Great Exarch's Elekk",
@@ -2381,7 +2817,8 @@ const mounts = [
     "spell_id": 73630,
     "icon": "Ability_Mount_Charger",
     "skeleton_type": "mammoth",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Blazing Hippogryph",
@@ -2390,7 +2827,8 @@ const mounts = [
     "icon": "ability_mount_warhippogryph",
     "skeleton_type": "stag",
     "color": "fire",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Wooly White Rhino",
@@ -2398,7 +2836,8 @@ const mounts = [
     "spell_id": 74918,
     "icon": "ability_hunter_pet_rhino",
     "skeleton_type": "kodo",
-    "color": "White"
+    "color": "White",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Vashj'ir Seahorse",
@@ -2407,7 +2846,8 @@ const mounts = [
     "icon": "ability_mount_seahorse",
     "skeleton_type": "Horse",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Frosty Flying Carpet",
@@ -2416,7 +2856,8 @@ const mounts = [
     "icon": "ability_mount_frostyflyingcarpet",
     "skeleton_type": "kite",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Celestial Steed",
@@ -2425,7 +2866,8 @@ const mounts = [
     "icon": "ability_mount_celestialhorse",
     "skeleton_type": "horse",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "X-53 Touring Rocket",
@@ -2434,7 +2876,8 @@ const mounts = [
     "icon": "ability_mount_rocketmount2",
     "skeleton_type": "mechanical",
     "color": "gray",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Cataclysm"
   },
   {
     "name": "Fossilized Raptor",
@@ -2443,7 +2886,8 @@ const mounts = [
     "icon": "ability_mount_fossilizedraptor",
     "skeleton_type": "dinosaur",
     "color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Cataclysm"
   },
   {
     "name": "Goblin Trike",
@@ -2451,7 +2895,8 @@ const mounts = [
     "spell_id": 87090,
     "icon": "inv_misc_key_03",
     "skeleton_type": "mechanical",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Goblin Turbo-Trike",
@@ -2459,7 +2904,8 @@ const mounts = [
     "spell_id": 87091,
     "icon": "inv_misc_key_04",
     "skeleton_type": "mechanical",
-    "color": "red"
+    "color": "red",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Volcanic Stone Drake",
@@ -2467,7 +2913,8 @@ const mounts = [
     "spell_id": 88331,
     "icon": "inv_misc_stonedragonred",
     "skeleton_type": "Dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Drake of the East Wind",
@@ -2475,7 +2922,8 @@ const mounts = [
     "spell_id": 88335,
     "icon": "inv_misc_stormdragonred",
     "skeleton_type": "Dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Phosphorescent Stone Drake",
@@ -2483,7 +2931,8 @@ const mounts = [
     "spell_id": 88718,
     "icon": "inv_misc_stonedragonpurple",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Drake of the West Wind",
@@ -2491,7 +2940,8 @@ const mounts = [
     "spell_id": 88741,
     "icon": "inv_misc_stormdragongreen",
     "skeleton_type": "Dragon",
-    "color": "green"
+    "color": "green",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Drake of the North Wind",
@@ -2499,7 +2949,8 @@ const mounts = [
     "spell_id": 88742,
     "icon": "inv_misc_stormdragonpale",
     "skeleton_type": "Dragon",
-    "color": "turquoise"
+    "color": "turquoise",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Drake of the South Wind",
@@ -2507,7 +2958,8 @@ const mounts = [
     "spell_id": 88744,
     "icon": "inv_misc_stormdragonpurple",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Vitreous Stone Drake",
@@ -2515,7 +2967,8 @@ const mounts = [
     "spell_id": 88746,
     "icon": "inv_misc_stonedragonblue",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Brown Riding Camel",
@@ -2524,7 +2977,8 @@ const mounts = [
     "icon": "ability_mount_camel_brown",
     "skeleton_type": "stag",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Tan Riding Camel",
@@ -2533,7 +2987,8 @@ const mounts = [
     "icon": "ability_mount_camel_tan",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Grey Riding Camel",
@@ -2542,7 +2997,8 @@ const mounts = [
     "icon": "ability_mount_camel_gray",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Dark Phoenix",
@@ -2551,7 +3007,8 @@ const mounts = [
     "icon": "inv_mount_darkphoenixa",
     "skeleton_type": "bird",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Cataclysm"
   },
   {
     "name": "Golden King",
@@ -2560,7 +3017,8 @@ const mounts = [
     "icon": "inv_mount_allianceliong",
     "skeleton_type": "cat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Ultramarine Qiraji Battle Tank",
@@ -2568,7 +3026,8 @@ const mounts = [
     "spell_id": 92155,
     "icon": "trade_archaeology_sceptor-of-azaqir",
     "skeleton_type": "insect",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Spectral Steed",
@@ -2577,7 +3036,8 @@ const mounts = [
     "icon": "inv_mount_spectralhorse",
     "skeleton_type": "horse",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Spectral Wolf",
@@ -2586,7 +3046,8 @@ const mounts = [
     "icon": "inv_mount_spectralwolf",
     "skeleton_type": "Wolf",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Sandstone Drake",
@@ -2594,7 +3055,8 @@ const mounts = [
     "spell_id": 93326,
     "icon": "inv_misc_stonedragonorange",
     "skeleton_type": "Dragon",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Mottled Drake",
@@ -2602,7 +3064,8 @@ const mounts = [
     "spell_id": 93623,
     "icon": "ability_mount_drake_bronze",
     "skeleton_type": "Dragon",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Kor'kron Annihilator",
@@ -2610,7 +3073,8 @@ const mounts = [
     "spell_id": 93644,
     "icon": "inv_mount_hordescorpiong",
     "skeleton_type": "crocodile",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Armored Razzashi Raptor",
@@ -2619,7 +3083,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Cataclysm"
   },
   {
     "name": "Swift Zulian Panther",
@@ -2628,7 +3093,8 @@ const mounts = [
     "icon": "ability_mount_blackpanther",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Amani Dragonhawk",
@@ -2636,7 +3102,8 @@ const mounts = [
     "spell_id": 96503,
     "icon": "ability_hunter_pet_dragonhawk",
     "skeleton_type": "insect",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Flameward Hippogryph",
@@ -2646,7 +3113,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "fire",
     "secondary_color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Pureblood Fire Hawk",
@@ -2655,7 +3123,8 @@ const mounts = [
     "icon": "inv_misc_orb_05",
     "skeleton_type": "bird",
     "color": "fire",
-    "secondary_color": "yellow"
+    "secondary_color": "yellow",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Felfire Hawk",
@@ -2663,7 +3132,8 @@ const mounts = [
     "spell_id": 97501,
     "icon": "inv_misc_summerfest_braziergreen",
     "skeleton_type": "bird",
-    "color": "green"
+    "color": "green",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Corrupted Fire Hawk",
@@ -2671,7 +3141,8 @@ const mounts = [
     "spell_id": 97560,
     "icon": "inv_misc_orb_04",
     "skeleton_type": "bird",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Savage Raptor",
@@ -2680,7 +3151,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Cataclysm"
   },
   {
     "name": "Amani Battle Bear",
@@ -2689,7 +3161,8 @@ const mounts = [
     "icon": "ability_druid_challangingroar",
     "skeleton_type": "bear",
     "color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Subdued Seahorse",
@@ -2698,7 +3171,8 @@ const mounts = [
     "icon": "ability_mount_seahorse",
     "skeleton_type": "Horse",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Winged Guardian",
@@ -2707,7 +3181,8 @@ const mounts = [
     "icon": "inv_mount_wingedlion",
     "skeleton_type": "cat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Vicious War Steed",
@@ -2716,7 +3191,8 @@ const mounts = [
     "icon": "ability_mount_alliancepvpmount",
     "skeleton_type": "horse",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Vicious War Wolf",
@@ -2725,7 +3201,8 @@ const mounts = [
     "icon": "ability_mount_hordepvpmount",
     "skeleton_type": "Wolf",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Vicious Gladiator's Twilight Drake",
@@ -2733,7 +3210,8 @@ const mounts = [
     "spell_id": 101282,
     "icon": "ability_mount_drake_twilight",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Flametalon of Alysrazor",
@@ -2743,7 +3221,8 @@ const mounts = [
     "skeleton_type": "bird",
     "color": "fire",
     "secondary_color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Cataclysm"
   },
   {
     "name": "Swift Shorestrider",
@@ -2752,7 +3231,8 @@ const mounts = [
     "icon": "ability_hunter_pet_tallstrider",
     "skeleton_type": "emu",
     "color": "turquoise",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Ruthless Gladiator's Twilight Drake",
@@ -2760,7 +3240,8 @@ const mounts = [
     "spell_id": 101821,
     "icon": "ability_mount_drake_twilight",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Swift Forest Strider",
@@ -2769,7 +3250,8 @@ const mounts = [
     "icon": "ability_hunter_pet_tallstrider",
     "skeleton_type": "emu",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Swift Springstrider",
@@ -2778,7 +3260,8 @@ const mounts = [
     "icon": "ability_hunter_pet_tallstrider",
     "skeleton_type": "emu",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Swift Lovebird",
@@ -2787,7 +3270,8 @@ const mounts = [
     "icon": "ability_hunter_pet_tallstrider",
     "skeleton_type": "emu",
     "color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "White Riding Camel",
@@ -2796,7 +3280,8 @@ const mounts = [
     "icon": "ability_mount_camel_gray",
     "skeleton_type": "stag",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Corrupted Hippogryph",
@@ -2805,7 +3290,8 @@ const mounts = [
     "icon": "ability_mount_warhippogryph",
     "skeleton_type": "stag",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Darkmoon Dancing Bear",
@@ -2815,7 +3301,8 @@ const mounts = [
     "skeleton_type": "bear",
     "color": "purple",
     "secondary_color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Mountain Horse",
@@ -2825,7 +3312,8 @@ const mounts = [
     "skeleton_type": "Horse",
     "color": "brown",
     "secondary_color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Swift Mountain Horse",
@@ -2834,7 +3322,8 @@ const mounts = [
     "icon": "ability_mount_ridinghorse",
     "skeleton_type": "Horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Tyrael's Charger",
@@ -2843,7 +3332,8 @@ const mounts = [
     "icon": "ability_mount_tyraelmount",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Spectral Gryphon",
@@ -2852,7 +3342,8 @@ const mounts = [
     "icon": "ability_mount_spectralgryphon",
     "skeleton_type": "Gryphon",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Spectral Wind Rider",
@@ -2861,7 +3352,8 @@ const mounts = [
     "icon": "ability_mount_spectralwyvern",
     "skeleton_type": "cat",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Blazing Drake",
@@ -2869,7 +3361,8 @@ const mounts = [
     "spell_id": 107842,
     "icon": "ability_mount_drake_red",
     "skeleton_type": "Dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Twilight Harbinger",
@@ -2877,7 +3370,8 @@ const mounts = [
     "spell_id": 107844,
     "icon": "ability_mount_drake_red",
     "skeleton_type": "dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Life-Binder's Handmaiden",
@@ -2885,7 +3379,8 @@ const mounts = [
     "spell_id": 107845,
     "icon": "ability_mount_drake_red",
     "skeleton_type": "dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Experiment 12-B",
@@ -2893,7 +3388,8 @@ const mounts = [
     "spell_id": 110039,
     "icon": "ability_mount_drake_twilight",
     "skeleton_type": "dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Heart of the Aspects",
@@ -2901,7 +3397,8 @@ const mounts = [
     "spell_id": 110051,
     "icon": "inv_dragonchromaticmount",
     "skeleton_type": "dragon",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Feldrake",
@@ -2910,7 +3407,8 @@ const mounts = [
     "icon": "ability_mount_feldrake",
     "skeleton_type": "Dragon",
     "color": "green",
-    "secondary_color": "brown"
+    "secondary_color": "brown",
+    "expansion": "Cataclysm"
   },
   {
     "name": "Jade Cloud Serpent",
@@ -2918,7 +3416,8 @@ const mounts = [
     "spell_id": 113199,
     "icon": "inv_pandarenserpentmount_green",
     "skeleton_type": "Serpent",
-    "color": "green"
+    "color": "green",
+    "expansion": "MoP"
   },
   {
     "name": "Azure Water Strider",
@@ -2926,7 +3425,8 @@ const mounts = [
     "spell_id": 118089,
     "icon": "ability_mount_waterstridermount",
     "skeleton_type": "insect",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "MoP"
   },
   {
     "name": "Pandaren Kite",
@@ -2935,7 +3435,8 @@ const mounts = [
     "icon": "ability_mount_pandarenkitemount",
     "skeleton_type": "kite",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Jeweled Onyx Panther",
@@ -2944,7 +3445,8 @@ const mounts = [
     "icon": "ability_mount_onyxpanther",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Green Dragon Turtle",
@@ -2953,7 +3455,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountgreen",
     "skeleton_type": "crocodile",
     "color": "Green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Great Red Dragon Turtle",
@@ -2962,7 +3465,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountepicred",
     "skeleton_type": "crocodile",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Cindermane Charger",
@@ -2971,7 +3475,8 @@ const mounts = [
     "icon": "inv_lavahorse",
     "skeleton_type": "horse",
     "color": "fire",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Obsidian Nightwing",
@@ -2980,7 +3485,8 @@ const mounts = [
     "icon": "inv_misc_reforgedarchstone_01",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Sapphire Panther",
@@ -2989,7 +3495,8 @@ const mounts = [
     "icon": "ability_mount_onyxpanther_blue",
     "skeleton_type": "cat",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Jade Panther",
@@ -2998,7 +3505,8 @@ const mounts = [
     "icon": "ability_mount_onyxpanther_green",
     "skeleton_type": "cat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Ruby Panther",
@@ -3007,7 +3515,8 @@ const mounts = [
     "icon": "ability_mount_onyxpanther_red",
     "skeleton_type": "cat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Sunstone Panther",
@@ -3016,7 +3525,8 @@ const mounts = [
     "icon": "ability_mount_onyxpanther_yellow",
     "skeleton_type": "cat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Grand Expedition Yak",
@@ -3024,7 +3534,8 @@ const mounts = [
     "spell_id": 122708,
     "icon": "ability_mount_travellersyakmount",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "MoP"
   },
   {
     "name": "Kafa Yak",
@@ -3032,7 +3543,8 @@ const mounts = [
     "spell_id": 123182,
     "icon": "ability_mount_yakmount",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "MoP"
   },
   {
     "name": "Amber Scorpion",
@@ -3040,7 +3552,8 @@ const mounts = [
     "spell_id": 123886,
     "icon": "ability_mount_hordescorpionamber",
     "skeleton_type": "crocodile",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "MoP"
   },
   {
     "name": "Azure Cloud Serpent",
@@ -3048,7 +3561,8 @@ const mounts = [
     "spell_id": 123992,
     "icon": "inv_pandarenserpentmount_blue",
     "skeleton_type": "Serpent",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "MoP"
   },
   {
     "name": "Golden Cloud Serpent",
@@ -3056,7 +3570,8 @@ const mounts = [
     "spell_id": 123993,
     "icon": "inv_pandarenserpentmount_yellow",
     "skeleton_type": "Serpent",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "MoP"
   },
   {
     "name": "Thundering Jade Cloud Serpent",
@@ -3064,7 +3579,8 @@ const mounts = [
     "spell_id": 124408,
     "icon": "inv_pandarenserpentmount_lightning_green",
     "skeleton_type": "Serpent",
-    "color": "green"
+    "color": "green",
+    "expansion": "MoP"
   },
   {
     "name": "Cataclysmic Gladiator's Twilight Drake",
@@ -3073,7 +3589,8 @@ const mounts = [
     "icon": "ability_mount_drake_twilight",
     "skeleton_type": "dragon",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Imperial Quilen",
@@ -3082,7 +3599,8 @@ const mounts = [
     "icon": "ability_mount_quilenflyingmount",
     "skeleton_type": "wolf",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Depleted-Kyparium Rocket",
@@ -3091,7 +3609,8 @@ const mounts = [
     "icon": "ability_mount_rocketmount3",
     "skeleton_type": "mechanical",
     "color": "gray",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Geosynchronous World Spinner",
@@ -3100,7 +3619,8 @@ const mounts = [
     "icon": "ability_mount_rocketmount4",
     "skeleton_type": "mechanical",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Onyx Cloud Serpent",
@@ -3108,7 +3628,8 @@ const mounts = [
     "spell_id": 127154,
     "icon": "inv_pandarenserpentmount_blue",
     "skeleton_type": "Serpent",
-    "color": "black"
+    "color": "black",
+    "expansion": "MoP"
   },
   {
     "name": "Crimson Cloud Serpent",
@@ -3116,7 +3637,8 @@ const mounts = [
     "spell_id": 127156,
     "icon": "inv_pandarenserpentmount",
     "skeleton_type": "Serpent",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Heavenly Onyx Cloud Serpent",
@@ -3125,7 +3647,8 @@ const mounts = [
     "icon": "inv_pandarenserpentgodmount_black",
     "skeleton_type": "Serpent",
     "color": "black",
-    "secondary_color": "purple"
+    "secondary_color": "purple",
+    "expansion": "MoP"
   },
   {
     "name": "Heavenly Crimson Cloud Serpent",
@@ -3133,7 +3656,8 @@ const mounts = [
     "spell_id": 127161,
     "icon": "inv_pandarenserpentgodmount_red",
     "skeleton_type": "Serpent",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Heavenly Golden Cloud Serpent",
@@ -3141,7 +3665,8 @@ const mounts = [
     "spell_id": 127164,
     "icon": "inv_pandarenserpentgodmount_gold",
     "skeleton_type": "Serpent",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "MoP"
   },
   {
     "name": "Yu'lei, Daughter of Jade",
@@ -3149,7 +3674,8 @@ const mounts = [
     "spell_id": 127165,
     "icon": "ability_monk_summonserpentstatue",
     "skeleton_type": "serpent",
-    "color": "green"
+    "color": "green",
+    "expansion": "MoP"
   },
   {
     "name": "Heavenly Azure Cloud Serpent",
@@ -3157,7 +3683,8 @@ const mounts = [
     "spell_id": 127169,
     "icon": "inv_bluegodcloudserpent",
     "skeleton_type": "serpent",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "MoP"
   },
   {
     "name": "Astral Cloud Serpent",
@@ -3165,7 +3692,8 @@ const mounts = [
     "spell_id": 127170,
     "icon": "inv_celestialserpentmount",
     "skeleton_type": "Serpent",
-    "color": "ghost"
+    "color": "ghost",
+    "expansion": "MoP"
   },
   {
     "name": "Azure Riding Crane",
@@ -3174,7 +3702,8 @@ const mounts = [
     "icon": "ability_mount_cranemountblue",
     "skeleton_type": "emu",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Golden Riding Crane",
@@ -3183,7 +3712,8 @@ const mounts = [
     "icon": "ability_mount_cranemount",
     "skeleton_type": "emu",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Regal Riding Crane",
@@ -3192,7 +3722,8 @@ const mounts = [
     "icon": "ability_mount_cranemountpurple",
     "skeleton_type": "emu",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Jungle Riding Crane",
@@ -3201,7 +3732,8 @@ const mounts = [
     "icon": "ability_mount_cranemount",
     "skeleton_type": "emu",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Black Riding Yak",
@@ -3209,7 +3741,8 @@ const mounts = [
     "spell_id": 127209,
     "icon": "ability_mount_yakmountblack",
     "skeleton_type": "mammoth",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "MoP"
   },
   {
     "name": "Modest Expedition Yak",
@@ -3217,7 +3750,8 @@ const mounts = [
     "spell_id": 127213,
     "icon": "ability_mount_yakmountwhite",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "MoP"
   },
   {
     "name": "Grey Riding Yak",
@@ -3225,7 +3759,8 @@ const mounts = [
     "spell_id": 127216,
     "icon": "ability_mount_yakmountgrey",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "MoP"
   },
   {
     "name": "Blonde Riding Yak",
@@ -3233,7 +3768,8 @@ const mounts = [
     "spell_id": 127220,
     "icon": "ability_mount_yakmountbrown",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "MoP"
   },
   {
     "name": "Crimson Water Strider",
@@ -3241,7 +3777,8 @@ const mounts = [
     "spell_id": 127271,
     "icon": "ability_mount_waterstridermount",
     "skeleton_type": "insect",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Black Dragon Turtle",
@@ -3250,7 +3787,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountblack",
     "skeleton_type": "crocodile",
     "color": "Black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Blue Dragon Turtle",
@@ -3259,7 +3797,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountblue",
     "skeleton_type": "crocodile",
     "color": "Blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Brown Dragon Turtle",
@@ -3268,7 +3807,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountbrown",
     "skeleton_type": "crocodile",
     "color": "Brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Purple Dragon Turtle",
@@ -3277,7 +3817,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountpurple",
     "skeleton_type": "crocodile",
     "color": "Purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Red Dragon Turtle",
@@ -3286,7 +3827,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountred",
     "skeleton_type": "crocodile",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Great Green Dragon Turtle",
@@ -3294,7 +3836,8 @@ const mounts = [
     "spell_id": 127293,
     "icon": "ability_mount_pandaranmountepic",
     "skeleton_type": "crocodile",
-    "color": "Green"
+    "color": "Green",
+    "expansion": "MoP"
   },
   {
     "name": "Great Black Dragon Turtle",
@@ -3303,7 +3846,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountepicblack",
     "skeleton_type": "crocodile",
     "color": "Black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Great Blue Dragon Turtle",
@@ -3312,7 +3856,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountepicblue",
     "skeleton_type": "crocodile",
     "color": "Blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Great Brown Dragon Turtle",
@@ -3321,7 +3866,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountepicbrown",
     "skeleton_type": "crocodile",
     "color": "Brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Great Purple Dragon Turtle",
@@ -3330,7 +3876,8 @@ const mounts = [
     "icon": "ability_mount_pandaranmountepicpurple",
     "skeleton_type": "crocodile",
     "color": "Purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Crimson Pandaren Phoenix",
@@ -3338,7 +3885,8 @@ const mounts = [
     "spell_id": 129552,
     "icon": "ability_mount_pandarenphoenix_red",
     "skeleton_type": "bird",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Thundering August Cloud Serpent",
@@ -3346,7 +3894,8 @@ const mounts = [
     "spell_id": 129918,
     "icon": "inv_pandarenserpentmount_lightning_yellow",
     "skeleton_type": "Serpent",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "MoP"
   },
   {
     "name": "Green Shado-Pan Riding Tiger",
@@ -3355,7 +3904,8 @@ const mounts = [
     "icon": "ability_mount_siberiantigermount",
     "skeleton_type": "cat",
     "color": "Green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Blue Shado-Pan Riding Tiger",
@@ -3364,7 +3914,8 @@ const mounts = [
     "icon": "ability_mount_siberiantigermount",
     "skeleton_type": "cat",
     "color": "Blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Red Shado-Pan Riding Tiger",
@@ -3373,7 +3924,8 @@ const mounts = [
     "icon": "ability_mount_siberiantigermount",
     "skeleton_type": "cat",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Brown Riding Goat",
@@ -3382,7 +3934,8 @@ const mounts = [
     "icon": "ability_mount_goatmountbrown",
     "skeleton_type": "rat",
     "color": "Brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Red Flying Cloud",
@@ -3391,7 +3944,8 @@ const mounts = [
     "icon": "ability_mount_cloudmount",
     "skeleton_type": "kite",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "White Riding Goat",
@@ -3400,7 +3954,8 @@ const mounts = [
     "icon": "ability_mount_goatmountwhite",
     "skeleton_type": "rat",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Black Riding Goat",
@@ -3409,7 +3964,8 @@ const mounts = [
     "icon": "ability_mount_goatmountblack",
     "skeleton_type": "rat",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Son of Galleon",
@@ -3417,7 +3973,8 @@ const mounts = [
     "spell_id": 130965,
     "icon": "inv_mushanbeastmount",
     "skeleton_type": "crocodile",
-    "color": "green"
+    "color": "green",
+    "expansion": "MoP"
   },
   {
     "name": "Pandaren Kite",
@@ -3426,7 +3983,8 @@ const mounts = [
     "icon": "ability_mount_pandarenkitemount_blue",
     "skeleton_type": "kite",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Thundering Ruby Cloud Serpent",
@@ -3434,7 +3992,8 @@ const mounts = [
     "spell_id": 132036,
     "icon": "inv_pandarenserpentmount_lightning",
     "skeleton_type": "Serpent",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Ashen Pandaren Phoenix",
@@ -3442,7 +4001,8 @@ const mounts = [
     "spell_id": 132117,
     "icon": "ability_mount_pandarenphoenix_green",
     "skeleton_type": "bird",
-    "color": "green"
+    "color": "green",
+    "expansion": "MoP"
   },
   {
     "name": "Emerald Pandaren Phoenix",
@@ -3450,7 +4010,8 @@ const mounts = [
     "spell_id": 132118,
     "icon": "ability_mount_pandarenphoenix_yellow",
     "skeleton_type": "bird",
-    "color": "green"
+    "color": "green",
+    "expansion": "MoP"
   },
   {
     "name": "Violet Pandaren Phoenix",
@@ -3458,7 +4019,8 @@ const mounts = [
     "spell_id": 132119,
     "icon": "ability_mount_pandarenphoenix_purple",
     "skeleton_type": "bird",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "MoP"
   },
   {
     "name": "Jade Pandaren Kite",
@@ -3467,7 +4029,8 @@ const mounts = [
     "icon": "ability_mount_pandarenkitemount_blue",
     "skeleton_type": "kite",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Sky Golem",
@@ -3475,7 +4038,8 @@ const mounts = [
     "spell_id": 134359,
     "icon": "ability_mount_shreddermount",
     "skeleton_type": "mechanical",
-    "color": "turquoise"
+    "color": "turquoise",
+    "expansion": "MoP"
   },
   {
     "name": "Swift Windsteed",
@@ -3484,7 +4048,8 @@ const mounts = [
     "icon": "ability_mount_swiftwindsteed",
     "skeleton_type": "stag",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Grand Armored Gryphon",
@@ -3493,7 +4058,8 @@ const mounts = [
     "icon": "inv_misc_elitegryphonarmored",
     "skeleton_type": "Gryphon",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Grand Armored Wyvern",
@@ -3502,7 +4068,8 @@ const mounts = [
     "icon": "inv_misc_elitewyvernarmored",
     "skeleton_type": "cat",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Grand Gryphon",
@@ -3511,7 +4078,8 @@ const mounts = [
     "icon": "inv_misc_elitegryphon",
     "skeleton_type": "Gryphon",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Grand Wyvern",
@@ -3520,7 +4088,8 @@ const mounts = [
     "icon": "inv_misc_elitewyvern",
     "skeleton_type": "cat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Armored Skyscreamer",
@@ -3529,7 +4098,8 @@ const mounts = [
     "icon": "ability_mount_pterodactylmount",
     "skeleton_type": "dinosaur",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Spawn of Horridon",
@@ -3538,7 +4108,8 @@ const mounts = [
     "icon": "ability_mount_triceratopsmount",
     "skeleton_type": "dinosaur",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Ghastly Charger",
@@ -3548,7 +4119,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "ghost",
     "secondary_color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Cobalt Primordial Direhorn",
@@ -3557,7 +4129,8 @@ const mounts = [
     "icon": "ability_mount_triceratopsmount_blue",
     "skeleton_type": "dinosaur",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Amber Primordial Direhorn",
@@ -3566,7 +4139,8 @@ const mounts = [
     "icon": "ability_mount_triceratopsmount_yellow",
     "skeleton_type": "dinosaur",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Slate Primordial Direhorn",
@@ -3575,7 +4149,8 @@ const mounts = [
     "icon": "ability_mount_triceratopsmount_grey",
     "skeleton_type": "dinosaur",
     "color": "gray",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Jade Primordial Direhorn",
@@ -3584,7 +4159,8 @@ const mounts = [
     "icon": "ability_mount_triceratopsmount_green",
     "skeleton_type": "dinosaur",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Bone-White Primal Raptor",
@@ -3593,7 +4169,8 @@ const mounts = [
     "icon": "ability_mount_raptor_white",
     "skeleton_type": "dinosaur",
     "color": "White",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Red Primal Raptor",
@@ -3602,7 +4179,8 @@ const mounts = [
     "icon": "ability_hunter_pet_raptor",
     "skeleton_type": "dinosaur",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Black Primal Raptor",
@@ -3611,7 +4189,8 @@ const mounts = [
     "icon": "ability_mount_raptor_black",
     "skeleton_type": "dinosaur",
     "color": "Black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Green Primal Raptor",
@@ -3620,7 +4199,8 @@ const mounts = [
     "icon": "ability_mount_raptor",
     "skeleton_type": "dinosaur",
     "color": "Green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Malevolent Gladiator's Cloud Serpent",
@@ -3628,7 +4208,8 @@ const mounts = [
     "spell_id": 139407,
     "icon": "inv_pandarenserpentmount_white",
     "skeleton_type": "Serpent",
-    "color": "white"
+    "color": "white",
+    "expansion": "MoP"
   },
   {
     "name": "Thundering Cobalt Cloud Serpent",
@@ -3636,7 +4217,8 @@ const mounts = [
     "spell_id": 139442,
     "icon": "inv_pandarenserpentmount_lightning_blue",
     "skeleton_type": "Serpent",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "MoP"
   },
   {
     "name": "Clutch of Ji-Kun",
@@ -3644,7 +4226,8 @@ const mounts = [
     "spell_id": 139448,
     "icon": "achievement_boss_ji-kun",
     "skeleton_type": "bird",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Armored Bloodwing",
@@ -3653,7 +4236,8 @@ const mounts = [
     "icon": "ability_mount_epicbatmount",
     "skeleton_type": "bat",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Golden Primal Direhorn",
@@ -3662,7 +4246,8 @@ const mounts = [
     "icon": "ability_mount_triceratopsmount_orange",
     "skeleton_type": "dinosaur",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Crimson Primal Direhorn",
@@ -3671,7 +4256,8 @@ const mounts = [
     "icon": "ability_mount_triceratopsmount_red",
     "skeleton_type": "dinosaur",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Hearthsteed",
@@ -3680,7 +4266,8 @@ const mounts = [
     "icon": "inv_pegasusmount",
     "skeleton_type": "horse",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Armored Red Dragonhawk",
@@ -3689,7 +4276,8 @@ const mounts = [
     "icon": "ability_mount_dragonhawkarmorhorde",
     "skeleton_type": "insect",
     "color": "red",
-    "secondary_color": "black"
+    "secondary_color": "black",
+    "expansion": "MoP"
   },
   {
     "name": "Armored Blue Dragonhawk",
@@ -3698,7 +4286,8 @@ const mounts = [
     "icon": "ability_mount_dragonhawkarmorallliance",
     "skeleton_type": "insect",
     "color": "blue",
-    "secondary_color": "brown"
+    "secondary_color": "brown",
+    "expansion": "MoP"
   },
   {
     "name": "Brawler's Burly Mushan Beast",
@@ -3706,7 +4295,8 @@ const mounts = [
     "spell_id": 142641,
     "icon": "inv_mushanbeastmount",
     "skeleton_type": "crocodile",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Enchanted Fey Dragon",
@@ -3714,7 +4304,8 @@ const mounts = [
     "spell_id": 142878,
     "icon": "inv_faeriedragonmount",
     "skeleton_type": "Dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "MoP"
   },
   {
     "name": "Ironbound Wraithcharger",
@@ -3723,7 +4314,8 @@ const mounts = [
     "icon": "ability_mount_steelwarhorse",
     "skeleton_type": "horse",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Vicious Kaldorei Warsaber",
@@ -3732,7 +4324,8 @@ const mounts = [
     "icon": "ability_mount_warnightsaber",
     "skeleton_type": "cat",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Vicious Skeletal Warhorse",
@@ -3741,7 +4334,8 @@ const mounts = [
     "icon": "inv_skeletalwarhorse",
     "skeleton_type": "Horse",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Spawn of Galakras",
@@ -3749,7 +4343,8 @@ const mounts = [
     "spell_id": 148392,
     "icon": "ability_mount_korkronprotodrake",
     "skeleton_type": "dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Kor'kron War Wolf",
@@ -3758,7 +4353,8 @@ const mounts = [
     "icon": "ability_mount_hordepvpmount",
     "skeleton_type": "Wolf",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Kor'kron Juggernaut",
@@ -3766,7 +4362,8 @@ const mounts = [
     "spell_id": 148417,
     "icon": "inv_mount_hordescorpiong",
     "skeleton_type": "crocodile",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "MoP"
   },
   {
     "name": "Ashhide Mushan Beast",
@@ -3774,7 +4371,8 @@ const mounts = [
     "spell_id": 148428,
     "icon": "inv_mushanbeastmountblack",
     "skeleton_type": "crocodile",
-    "color": "black"
+    "color": "black",
+    "expansion": "MoP"
   },
   {
     "name": "Thundering Onyx Cloud Serpent",
@@ -3782,7 +4380,8 @@ const mounts = [
     "spell_id": 148476,
     "icon": "inv_pandarenserpentmount_lightning_black",
     "skeleton_type": "Serpent",
-    "color": "black"
+    "color": "black",
+    "expansion": "MoP"
   },
   {
     "name": "Tyrannical Gladiator's Cloud Serpent",
@@ -3790,7 +4389,8 @@ const mounts = [
     "spell_id": 148618,
     "icon": "inv_pandarenserpentmount_white",
     "skeleton_type": "Serpent",
-    "color": "black"
+    "color": "black",
+    "expansion": "MoP"
   },
   {
     "name": "Grievous Gladiator's Cloud Serpent",
@@ -3798,7 +4398,8 @@ const mounts = [
     "spell_id": 148619,
     "icon": "inv_pandarenserpentmount_white",
     "skeleton_type": "Serpent",
-    "color": "red"
+    "color": "red",
+    "expansion": "MoP"
   },
   {
     "name": "Prideful Gladiator's Cloud Serpent",
@@ -3806,7 +4407,8 @@ const mounts = [
     "spell_id": 148620,
     "icon": "inv_pandarenserpentmount_white",
     "skeleton_type": "Serpent",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "MoP"
   },
   {
     "name": "Emerald Hippogryph",
@@ -3815,7 +4417,8 @@ const mounts = [
     "icon": "inv_misc_elitehippogryph",
     "skeleton_type": "stag",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Iron Skyreaver",
@@ -3823,7 +4426,8 @@ const mounts = [
     "spell_id": 153489,
     "icon": "ability_mount_ironchimera",
     "skeleton_type": "dragon",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "MoP"
   },
   {
     "name": "Warforged Nightmare",
@@ -3832,7 +4436,8 @@ const mounts = [
     "icon": "ability_mount_clockworkhorse",
     "skeleton_type": "horse",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Grinning Reaver",
@@ -3841,7 +4446,8 @@ const mounts = [
     "icon": "ability_mount_ravager2mount",
     "skeleton_type": "insect",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP"
   },
   {
     "name": "Dread Raven",
@@ -3849,7 +4455,8 @@ const mounts = [
     "spell_id": 155741,
     "icon": "inv_ravenlordmount",
     "skeleton_type": "Bird",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "MoP"
   },
   {
     "name": "Creeping Carpet",
@@ -3859,7 +4466,8 @@ const mounts = [
     "skeleton_type": "kite",
     "color": "black",
     "secondary_color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP"
   },
   {
     "name": "Core Hound",
@@ -3868,7 +4476,8 @@ const mounts = [
     "icon": "ability_hunter_pet_corehound",
     "skeleton_type": "kodo",
     "color": "fire",
-    "secondary_color": "orange"
+    "secondary_color": "orange",
+    "expansion": "MoP"
   },
   {
     "name": "Gorestrider Gronnling",
@@ -3876,7 +4485,8 @@ const mounts = [
     "spell_id": 171436,
     "icon": "inv_lessergronnmount_red",
     "skeleton_type": "gargoyle",
-    "color": "red"
+    "color": "red",
+    "expansion": "WoD"
   },
   {
     "name": "Witherhide Cliffstomper",
@@ -3884,7 +4494,8 @@ const mounts = [
     "spell_id": 171616,
     "icon": "inv_clefthoofdraenormount_blue",
     "skeleton_type": "kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WoD"
   },
   {
     "name": "Trained Icehoof",
@@ -3892,7 +4503,8 @@ const mounts = [
     "spell_id": 171617,
     "icon": "inv_clefthoofdraenormount_blue",
     "skeleton_type": "kodo",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "WoD"
   },
   {
     "name": "Tundra Icehoof",
@@ -3900,7 +4512,8 @@ const mounts = [
     "spell_id": 171619,
     "icon": "inv_clefthoofdraenormount_blue",
     "skeleton_type": "kodo",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "WoD"
   },
   {
     "name": "Bloodhoof Bull",
@@ -3908,7 +4521,8 @@ const mounts = [
     "spell_id": 171620,
     "icon": "inv_clefthoofdraenormount_blue",
     "skeleton_type": "kodo",
-    "color": "red"
+    "color": "red",
+    "expansion": "WoD"
   },
   {
     "name": "Ironhoof Destroyer",
@@ -3916,7 +4530,8 @@ const mounts = [
     "spell_id": 171621,
     "icon": "inv_ironhordeclefthoof",
     "skeleton_type": "kodo",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "WoD"
   },
   {
     "name": "Mottled Meadowstomper",
@@ -3924,7 +4539,8 @@ const mounts = [
     "spell_id": 171622,
     "icon": "ability_mount_elekkdraenormount",
     "skeleton_type": "mammoth",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "WoD"
   },
   {
     "name": "Trained Meadowstomper",
@@ -3932,7 +4548,8 @@ const mounts = [
     "spell_id": 171623,
     "icon": "ability_mount_elekkdraenormount",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WoD"
   },
   {
     "name": "Shadowhide Pearltusk",
@@ -3940,7 +4557,8 @@ const mounts = [
     "spell_id": 171624,
     "icon": "ability_mount_elekkdraenormount",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "WoD"
   },
   {
     "name": "Dusty Rockhide",
@@ -3948,7 +4566,8 @@ const mounts = [
     "spell_id": 171625,
     "icon": "ability_mount_elekkdraenormount",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WoD"
   },
   {
     "name": "Armored Irontusk",
@@ -3956,7 +4575,8 @@ const mounts = [
     "spell_id": 171626,
     "icon": "inv_iron-horde-elekk",
     "skeleton_type": "mammoth",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "WoD"
   },
   {
     "name": "Blacksteel Battleboar",
@@ -3965,7 +4585,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "bear",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Rocktusk Battleboar",
@@ -3974,7 +4595,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "bear",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Armored Frostboar",
@@ -3983,7 +4605,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WoD"
   },
   {
     "name": "Armored Razorback",
@@ -3992,7 +4615,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WoD"
   },
   {
     "name": "Frostplains Battleboar",
@@ -4001,7 +4625,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "bear",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Wild Goretusk",
@@ -4010,7 +4635,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WoD"
   },
   {
     "name": "Domesticated Razorback",
@@ -4019,7 +4645,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WoD"
   },
   {
     "name": "Giant Coldsnout",
@@ -4028,7 +4655,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WoD"
   },
   {
     "name": "Great Greytusk",
@@ -4037,7 +4665,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "gray",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WoD"
   },
   {
     "name": "Trained Rocktusk",
@@ -4046,7 +4675,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WoD"
   },
   {
     "name": "Trained Riverwallow",
@@ -4054,7 +4684,8 @@ const mounts = [
     "spell_id": 171638,
     "icon": "inv_hippo_green",
     "skeleton_type": "kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WoD"
   },
   {
     "name": "Sapphire Riverbeast",
@@ -4062,7 +4693,8 @@ const mounts = [
     "spell_id": 171824,
     "icon": "inv_hippo_green",
     "skeleton_type": "kodo",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "WoD"
   },
   {
     "name": "Mudback Riverbeast",
@@ -4070,7 +4702,8 @@ const mounts = [
     "spell_id": 171826,
     "icon": "inv_hippo_green",
     "skeleton_type": "kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "WoD"
   },
   {
     "name": "Mosshide Riverwallow",
@@ -4078,7 +4711,8 @@ const mounts = [
     "spell_id": 171825,
     "icon": "inv_hippo_green",
     "skeleton_type": "kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "WoD"
   },
   {
     "name": "Hellfire Infernal",
@@ -4086,7 +4720,8 @@ const mounts = [
     "spell_id": 171827,
     "icon": "inv_infernalmountred",
     "skeleton_type": "elemental",
-    "color": "red"
+    "color": "red",
+    "expansion": "WoD"
   },
   {
     "name": "Solar Spirehawk",
@@ -4095,7 +4730,8 @@ const mounts = [
     "icon": "inv_helm_suncrown_d_01",
     "skeleton_type": "bird",
     "color": "fire",
-    "secondary_color": "orange"
+    "secondary_color": "orange",
+    "expansion": "WoD"
   },
   {
     "name": "Shadowmane Charger",
@@ -4104,7 +4740,8 @@ const mounts = [
     "icon": "ability_mount_talbukdraenormount",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Swift Breezestrider",
@@ -4113,7 +4750,8 @@ const mounts = [
     "icon": "ability_mount_talbukdraenormount",
     "skeleton_type": "stag",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Trained Silverpelt",
@@ -4122,7 +4760,8 @@ const mounts = [
     "icon": "ability_mount_talbukdraenormount",
     "skeleton_type": "stag",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Breezestrider Stallion",
@@ -4131,7 +4770,8 @@ const mounts = [
     "icon": "ability_mount_talbukdraenormount",
     "skeleton_type": "stag",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Pale Thorngrazer",
@@ -4140,7 +4780,8 @@ const mounts = [
     "icon": "inv_talbukdraenor_white",
     "skeleton_type": "stag",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Vicious War Ram",
@@ -4149,7 +4790,8 @@ const mounts = [
     "icon": "ability_mount_mountainram",
     "skeleton_type": "stag",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Vicious War Raptor",
@@ -4158,7 +4800,8 @@ const mounts = [
     "icon": "ability_mount_viciouswarraptor",
     "skeleton_type": "dinosaur",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "WoD"
   },
   {
     "name": "Garn Steelmaw",
@@ -4167,7 +4810,8 @@ const mounts = [
     "icon": "inv_wolfdraenormountshadow",
     "skeleton_type": "wolf",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Warsong Direfang",
@@ -4176,7 +4820,8 @@ const mounts = [
     "icon": "inv_wolfdraenormountbrown",
     "skeleton_type": "wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Armored Frostwolf",
@@ -4185,7 +4830,8 @@ const mounts = [
     "icon": "inv_wolfdraenormountfrost",
     "skeleton_type": "Wolf",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Ironside Warwolf",
@@ -4194,7 +4840,8 @@ const mounts = [
     "icon": "inv_wolfdraenormountred",
     "skeleton_type": "Wolf",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Coldflame Infernal",
@@ -4202,7 +4849,8 @@ const mounts = [
     "spell_id": 171840,
     "icon": "inv_infernalmountblue",
     "skeleton_type": "elemental",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "WoD"
   },
   {
     "name": "Trained Snarler",
@@ -4211,7 +4859,8 @@ const mounts = [
     "icon": "inv_wolfdraenormountbrown",
     "skeleton_type": "wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Swift Frostwolf",
@@ -4220,7 +4869,8 @@ const mounts = [
     "icon": "inv_wolfdraenormountfrost",
     "skeleton_type": "Wolf",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Smoky Direwolf",
@@ -4229,7 +4879,8 @@ const mounts = [
     "icon": "inv_wolfdraenormountred",
     "skeleton_type": "Wolf",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Dustmane Direwolf",
@@ -4238,7 +4889,8 @@ const mounts = [
     "icon": "inv_wolfdraenormountbrown",
     "skeleton_type": "Wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "WoD"
   },
   {
     "name": "Warlord's Deathwheel",
@@ -4246,7 +4898,8 @@ const mounts = [
     "spell_id": 171845,
     "icon": "inv_chopper_horde",
     "skeleton_type": "mechanical",
-    "color": "red"
+    "color": "red",
+    "expansion": "WoD"
   },
   {
     "name": "Champion's Treadblade",
@@ -4254,7 +4907,8 @@ const mounts = [
     "spell_id": 171846,
     "icon": "inv_chopper_alliance",
     "skeleton_type": "mechanical",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "WoD"
   },
   {
     "name": "Challenger's War Yeti",
@@ -4262,7 +4916,8 @@ const mounts = [
     "spell_id": 171848,
     "icon": "inv_misc_pet_pandaren_yeti",
     "skeleton_type": "gargoyle",
-    "color": "white"
+    "color": "white",
+    "expansion": "WoD"
   },
   {
     "name": "Sunhide Gronnling",
@@ -4270,7 +4925,8 @@ const mounts = [
     "spell_id": 171849,
     "icon": "inv_lessergronnmount_red",
     "skeleton_type": "gargoyle",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "WoD"
   },
   {
     "name": "Llothien Prowler",
@@ -4279,7 +4935,8 @@ const mounts = [
     "icon": "foxmounticon",
     "skeleton_type": "rat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Garn Nighthowl",
@@ -4288,7 +4945,8 @@ const mounts = [
     "icon": "ability_mount_blackdirewolf",
     "skeleton_type": "wolf",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Bloodfang Widow",
@@ -4296,7 +4954,8 @@ const mounts = [
     "spell_id": 213115,
     "icon": "inv_spidermount",
     "skeleton_type": "spider",
-    "color": "black"
+    "color": "black",
+    "expansion": "Legion"
   },
   {
     "name": "Emerald Drake",
@@ -4305,7 +4964,8 @@ const mounts = [
     "icon": "ability_mount_drake_blue",
     "skeleton_type": "Dragon",
     "color": "green",
-    "secondary_color": "orange"
+    "secondary_color": "orange",
+    "expansion": "Legion"
   },
   {
     "name": "Chauffeured Mechano-Hog",
@@ -4313,7 +4973,8 @@ const mounts = [
     "spell_id": 179244,
     "icon": "inv_misc_key_06",
     "skeleton_type": "mechanical",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Legion"
   },
   {
     "name": "Chauffeured Mekgineer's Chopper",
@@ -4321,7 +4982,8 @@ const mounts = [
     "spell_id": 179245,
     "icon": "inv_misc_key_06",
     "skeleton_type": "mechanical",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Legion"
   },
   {
     "name": "Voidtalon of the Dark Star",
@@ -4330,7 +4992,8 @@ const mounts = [
     "icon": "ability_mount_fireravengodmountpurple",
     "skeleton_type": "bird",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Mystic Runesaber",
@@ -4339,7 +5002,8 @@ const mounts = [
     "icon": "inv_saber2mount",
     "skeleton_type": "cat",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Felsteel Annihilator",
@@ -4347,7 +5011,8 @@ const mounts = [
     "spell_id": 182912,
     "icon": "ability_mount_felreavermount",
     "skeleton_type": "mechanical",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Corrupted Dreadwing",
@@ -4356,7 +5021,8 @@ const mounts = [
     "icon": "inv_feldreadravenmount",
     "skeleton_type": "bird",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Mechanostrider",
@@ -4365,7 +5031,8 @@ const mounts = [
     "icon": "ability_mount_viciouswarmechanostrider",
     "skeleton_type": "mechanical",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Kodo",
@@ -4373,7 +5040,8 @@ const mounts = [
     "spell_id": 185052,
     "icon": "ability_mount_viciouswarkodo",
     "skeleton_type": "Kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Legion"
   },
   {
     "name": "Infernal Direwolf",
@@ -4382,7 +5050,8 @@ const mounts = [
     "icon": "inv_wolfdraenor_felmount",
     "skeleton_type": "Wolf",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Primal Gladiator's Felblood Gronnling",
@@ -4390,7 +5059,8 @@ const mounts = [
     "spell_id": 186828,
     "icon": "inv_fellessergronnmount",
     "skeleton_type": "gargoyle",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Wild Gladiator's Felblood Gronnling",
@@ -4398,7 +5068,8 @@ const mounts = [
     "spell_id": 189043,
     "icon": "inv_fellessergronnmount_pale",
     "skeleton_type": "gargoyle",
-    "color": "pink"
+    "color": "pink",
+    "expansion": "Legion"
   },
   {
     "name": "Warmongering Gladiator's Felblood Gronnling",
@@ -4406,7 +5077,8 @@ const mounts = [
     "spell_id": 189044,
     "icon": "inv_fellessergronnmount_dark",
     "skeleton_type": "gargoyle",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Legion"
   },
   {
     "name": "Coalfist Gronnling",
@@ -4414,7 +5086,8 @@ const mounts = [
     "spell_id": 189364,
     "icon": "inv_lessergronnmount_red",
     "skeleton_type": "gargoyle",
-    "color": "red"
+    "color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Illidari Felstalker",
@@ -4423,7 +5096,8 @@ const mounts = [
     "icon": "inv_felstalkermount",
     "skeleton_type": "rat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Grove Warden",
@@ -4432,7 +5106,8 @@ const mounts = [
     "icon": "inv_moosemount",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Bristling Hellboar",
@@ -4442,7 +5117,8 @@ const mounts = [
     "skeleton_type": "bear",
     "color": "brown",
     "secondary_color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Deathtusk Felboar",
@@ -4451,7 +5127,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Deathtusk Felboar",
@@ -4460,7 +5137,8 @@ const mounts = [
     "icon": "inv_giantboarmount_brown",
     "skeleton_type": "kodo",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Minion of Grumpus",
@@ -4468,7 +5146,8 @@ const mounts = [
     "spell_id": 191314,
     "icon": "inv_misc_pet_pandaren_yeti_grey",
     "skeleton_type": "gargoyle",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Legion"
   },
   {
     "name": "Soaring Skyterror",
@@ -4476,7 +5155,8 @@ const mounts = [
     "spell_id": 191633,
     "icon": "spell_beastmaster_rylak",
     "skeleton_type": "dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Grove Defiler",
@@ -4485,7 +5165,8 @@ const mounts = [
     "icon": "inv_moosemount2nightmare",
     "skeleton_type": "stag",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Prestigious War Steed",
@@ -4494,7 +5175,15 @@ const mounts = [
     "icon": "inv_alliancepvpmount",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
+  },
+  {
+    "id": 776,
+    "name": "Swift Spectral Rylak",
+    "skeleton_type": "dragon",
+    "color": "ghost",
+    "expansion": "Legion"
   },
   {
     "name": "Eclipse Dragonhawk",
@@ -4502,7 +5191,8 @@ const mounts = [
     "spell_id": 194464,
     "icon": "ability_hunter_pet_dragonhawk",
     "skeleton_type": "insect",
-    "color": "pink"
+    "color": "pink",
+    "expansion": "Legion"
   },
   {
     "name": "Spirit of Eche'ro",
@@ -4511,7 +5201,8 @@ const mounts = [
     "icon": "inv_ghostlymoosemount",
     "skeleton_type": "stag",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Felsaber",
@@ -4520,7 +5211,8 @@ const mounts = [
     "icon": "inv_dhmount_felsaber",
     "skeleton_type": "cat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Infinite Timereaver",
@@ -4528,7 +5220,8 @@ const mounts = [
     "spell_id": 201098,
     "icon": "inv_infinitedragonmount",
     "skeleton_type": "dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Legion"
   },
   {
     "name": "Prestigious War Wolf",
@@ -4537,7 +5230,8 @@ const mounts = [
     "icon": "ability_mount_hordepvpmount",
     "skeleton_type": "Wolf",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Felblaze Infernal",
@@ -4545,7 +5239,8 @@ const mounts = [
     "spell_id": 213134,
     "icon": "inv_infernalmount",
     "skeleton_type": "elemental",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Predatory Bloodgazer",
@@ -4554,7 +5249,8 @@ const mounts = [
     "icon": "inv_falcosaurosblack",
     "skeleton_type": "dinosaur",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Brilliant Direbeak",
@@ -4564,7 +5260,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "orange",
     "secondary_color": "turquoise",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Snowfeather Hunter",
@@ -4573,7 +5270,8 @@ const mounts = [
     "icon": "inv_falcosauroswhite",
     "skeleton_type": "dinosaur",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Viridian Sharptalon",
@@ -4583,7 +5281,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "green",
     "secondary_color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Steelbound Devourer",
@@ -4591,7 +5290,8 @@ const mounts = [
     "spell_id": 213209,
     "icon": "inv_mount_felcorehoundmoun",
     "skeleton_type": "kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Flarecore Infernal",
@@ -4599,7 +5299,8 @@ const mounts = [
     "spell_id": 213349,
     "icon": "inv_infernalmountlava",
     "skeleton_type": "elemental",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Legion"
   },
   {
     "name": "Brinedeep Bottom-Feeder",
@@ -4607,7 +5308,8 @@ const mounts = [
     "spell_id": 214791,
     "icon": "inv_fishmount",
     "skeleton_type": "fish",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Legion"
   },
   {
     "name": "Long-Forgotten Hippogryph",
@@ -4617,7 +5319,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "purple",
     "secondary_color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Mastercraft Gravewing",
@@ -4626,7 +5329,8 @@ const mounts = [
     "icon": "inv_gargoylebrute2mount_brown",
     "skeleton_type": "gargoyle",
     "color": "brown",
-    "secondary_color": "red"
+    "secondary_color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Ratstallion",
@@ -4635,7 +5339,8 @@ const mounts = [
     "icon": "inv_ratmount",
     "skeleton_type": "rat",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Prestigious Bronze Courser",
@@ -4644,7 +5349,8 @@ const mounts = [
     "icon": "inv_horse2mount",
     "skeleton_type": "horse",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Prestigious Royal Courser",
@@ -4653,7 +5359,8 @@ const mounts = [
     "icon": "inv_horse2mountpurple",
     "skeleton_type": "horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Prestigious Forest Courser",
@@ -4662,7 +5369,8 @@ const mounts = [
     "icon": "inv_horse2mountgreen",
     "skeleton_type": "horse",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Prestigious Ivory Courser",
@@ -4671,7 +5379,8 @@ const mounts = [
     "icon": "inv_horse2mountlight",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Prestigious Azure Courser",
@@ -4680,7 +5389,8 @@ const mounts = [
     "icon": "inv_horse2mountyellow",
     "skeleton_type": "horse",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Prestigious Midnight Courser",
@@ -4690,7 +5400,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "black",
     "secondary_color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Fathom Dweller",
@@ -4698,7 +5409,8 @@ const mounts = [
     "spell_id": 223018,
     "icon": "inv_fishing_lure_starfish",
     "skeleton_type": "fish",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious Gilnean Warhorse",
@@ -4707,7 +5419,8 @@ const mounts = [
     "icon": "inv_mount_vicioushorse",
     "skeleton_type": "Horse",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Trike",
@@ -4715,7 +5428,8 @@ const mounts = [
     "spell_id": 223354,
     "icon": "inv_viciousgoblintrike",
     "skeleton_type": "mechanical",
-    "color": "red"
+    "color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious Warstrider",
@@ -4724,7 +5438,8 @@ const mounts = [
     "icon": "ability_mount_vicioushawkstrider",
     "skeleton_type": "emu",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Elekk",
@@ -4732,7 +5447,8 @@ const mounts = [
     "spell_id": 223578,
     "icon": "ability_mount_viciouswarelekk",
     "skeleton_type": "mammoth",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Legion"
   },
   {
     "name": "Mechanized Lumber Extractor",
@@ -4741,7 +5457,8 @@ const mounts = [
     "icon": "ability_mount_shreddermount",
     "skeleton_type": "mechanical",
     "color": "gray",
-    "secondary_color": "green"
+    "secondary_color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Leyfeather Hippogryph",
@@ -4750,7 +5467,8 @@ const mounts = [
     "icon": "inv_mount_hippogryph_arcane",
     "skeleton_type": "stag",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Arcadian War Turtle",
@@ -4759,7 +5477,8 @@ const mounts = [
     "icon": "inv_turtlemount",
     "skeleton_type": "crocodile",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Vindictive Gladiator's Storm Dragon",
@@ -4767,7 +5486,8 @@ const mounts = [
     "spell_id": 227986,
     "icon": "inv_stormdragonmount2",
     "skeleton_type": "Dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Fearless Gladiator's Storm Dragon",
@@ -4775,7 +5495,8 @@ const mounts = [
     "spell_id": 227988,
     "icon": "inv_stormdragonmount2blue",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Legion"
   },
   {
     "name": "Cruel Gladiator's Storm Dragon",
@@ -4783,7 +5504,8 @@ const mounts = [
     "spell_id": 227989,
     "icon": "inv_stormdragonmount2dark",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Legion"
   },
   {
     "name": "Ferocious Gladiator's Storm Dragon",
@@ -4791,7 +5513,8 @@ const mounts = [
     "spell_id": 227991,
     "icon": "inv_stormdragonmount2green",
     "skeleton_type": "Dragon",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Fierce Gladiator's Storm Dragon",
@@ -4799,7 +5522,8 @@ const mounts = [
     "spell_id": 227994,
     "icon": "inv_stormdragonmount2light",
     "skeleton_type": "Dragon",
-    "color": "white"
+    "color": "white",
+    "expansion": "Legion"
   },
   {
     "name": "Dominant Gladiator's Storm Dragon",
@@ -4807,7 +5531,8 @@ const mounts = [
     "spell_id": 227995,
     "icon": "inv_stormdragonmount2yellow",
     "skeleton_type": "Dragon",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Legion"
   },
   {
     "name": "Great Northern Elderhorn",
@@ -4816,7 +5541,8 @@ const mounts = [
     "icon": "inv_moosemount2white",
     "skeleton_type": "stag",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Darkwater Skate",
@@ -4825,7 +5551,8 @@ const mounts = [
     "icon": "inv_stingray2mount",
     "skeleton_type": "fish",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Archmage's Prismatic Disc",
@@ -4834,7 +5561,8 @@ const mounts = [
     "icon": "inv_magemount",
     "skeleton_type": "kite",
     "color": "various",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "High Priest's Lightsworn Seeker",
@@ -4843,7 +5571,8 @@ const mounts = [
     "icon": "inv_priestmount",
     "skeleton_type": "gryphon",
     "color": "various",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Ban-Lu, Grandmaster's Companion",
@@ -4852,7 +5581,8 @@ const mounts = [
     "icon": "inv_monkmount",
     "skeleton_type": "cat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Huntmaster's Loyal Wolfhawk",
@@ -4861,7 +5591,8 @@ const mounts = [
     "icon": "inv_huntermount",
     "skeleton_type": "Wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Deathlord's Vilebrood Vanquisher",
@@ -4869,7 +5600,8 @@ const mounts = [
     "spell_id": 229387,
     "icon": "ability_mount_dkmount",
     "skeleton_type": "dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "Legion"
   },
   {
     "name": "Battlelord's Bloodthirsty War Wyrm",
@@ -4877,7 +5609,8 @@ const mounts = [
     "spell_id": 229388,
     "icon": "inv_warriormount",
     "skeleton_type": "dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "Legion"
   },
   {
     "name": "Slayer's Felbroken Shrieker",
@@ -4885,7 +5618,8 @@ const mounts = [
     "spell_id": 229417,
     "icon": "inv_dhmount",
     "skeleton_type": "gargoyle",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Legion"
   },
   {
     "name": "Huntmaster's Fierce Wolfhawk",
@@ -4894,7 +5628,8 @@ const mounts = [
     "icon": "inv_huntermount_green",
     "skeleton_type": "Wolf",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Huntmaster's Dire Wolfhawk",
@@ -4903,7 +5638,8 @@ const mounts = [
     "icon": "inv_huntermount_blue",
     "skeleton_type": "Wolf",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Bear",
@@ -4912,7 +5648,8 @@ const mounts = [
     "icon": "inv_mount_viciousalliancebearmount",
     "skeleton_type": "bear",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Bear",
@@ -4921,7 +5658,8 @@ const mounts = [
     "icon": "inv_mount_vicioushordebearmount",
     "skeleton_type": "bear",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Midnight",
@@ -4930,7 +5668,8 @@ const mounts = [
     "icon": "ability_mount_dreadsteed",
     "skeleton_type": "horse",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Lion",
@@ -4939,7 +5678,8 @@ const mounts = [
     "icon": "inv_viciousgoldenking",
     "skeleton_type": "cat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Ivory Hawkstrider",
@@ -4948,7 +5688,8 @@ const mounts = [
     "icon": "inv_ability_mount_cockatricemount_white",
     "skeleton_type": "emu",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Brawler's Burly Basilisk",
@@ -4956,7 +5697,8 @@ const mounts = [
     "spell_id": 230844,
     "icon": "inv_basaliskmount",
     "skeleton_type": "crocodile",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Arcanist's Manasaber",
@@ -4965,7 +5707,8 @@ const mounts = [
     "icon": "inv_suramarmount",
     "skeleton_type": "cat",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Scorpion",
@@ -4973,7 +5716,8 @@ const mounts = [
     "spell_id": 230988,
     "icon": "ability_mount_viciouskorkronannihilator",
     "skeleton_type": "crocodile",
-    "color": "red"
+    "color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Smoldering Ember Wyrm",
@@ -4982,7 +5726,8 @@ const mounts = [
     "icon": "inv_nightbane2mount",
     "skeleton_type": "dragon",
     "color": "fire",
-    "secondary_color": "brown"
+    "secondary_color": "brown",
+    "expansion": "Legion"
   },
   {
     "name": "Shadowblade's Murderous Omen",
@@ -4991,7 +5736,8 @@ const mounts = [
     "icon": "inv_roguemount_blue",
     "skeleton_type": "bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Highlord's Golden Charger",
@@ -5000,7 +5746,8 @@ const mounts = [
     "icon": "inv_paladinmount_blue",
     "skeleton_type": "horse",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Farseer's Raging Tempest",
@@ -5008,7 +5755,8 @@ const mounts = [
     "spell_id": 231442,
     "icon": "inv_shamanmount",
     "skeleton_type": "elemental",
-    "color": "various"
+    "color": "various",
+    "expansion": "Legion"
   },
   {
     "name": "Shadowblade's Lethal Omen",
@@ -5017,7 +5765,8 @@ const mounts = [
     "icon": "inv_roguemount_purple",
     "skeleton_type": "bird",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Shadowblade's Baneful Omen",
@@ -5026,7 +5775,8 @@ const mounts = [
     "icon": "inv_roguemount_green",
     "skeleton_type": "bird",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Shadowblade's Crimson Omen",
@@ -5035,7 +5785,8 @@ const mounts = [
     "icon": "inv_roguemount_red",
     "skeleton_type": "bird",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Highlord's Vengeful Charger",
@@ -5044,7 +5795,8 @@ const mounts = [
     "icon": "inv_paladinmount_red",
     "skeleton_type": "horse",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Highlord's Vigilant Charger",
@@ -5053,7 +5805,8 @@ const mounts = [
     "icon": "inv_paladinmount_purple",
     "skeleton_type": "horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Highlord's Valorous Charger",
@@ -5062,7 +5815,8 @@ const mounts = [
     "icon": "inv_paladinmount_yellow",
     "skeleton_type": "horse",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Primal Flamesaber",
@@ -5072,7 +5826,8 @@ const mounts = [
     "skeleton_type": "cat",
     "color": "fire",
     "secondary_color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Netherlord's Chaotic Wrathsteed",
@@ -5081,7 +5836,8 @@ const mounts = [
     "icon": "inv_warlockmount",
     "skeleton_type": "horse",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Abyss Worm",
@@ -5089,7 +5845,8 @@ const mounts = [
     "spell_id": 232519,
     "icon": "inv_serpentmount_green",
     "skeleton_type": "serpent",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Turtle",
@@ -5098,7 +5855,8 @@ const mounts = [
     "icon": "inv_viciousdragonturtlemount",
     "skeleton_type": "crocodile",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Turtle",
@@ -5107,7 +5865,8 @@ const mounts = [
     "icon": "inv_viciousdragonturtlemount",
     "skeleton_type": "crocodile",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Leywoven Flying Carpet",
@@ -5116,7 +5875,8 @@ const mounts = [
     "icon": "inv_suramarflyingcarpet",
     "skeleton_type": "kite",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Darkspore Mana Ray",
@@ -5125,7 +5885,8 @@ const mounts = [
     "icon": "inv_manaraymount_black",
     "skeleton_type": "fish",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Alabaster Hyena",
@@ -5134,7 +5895,8 @@ const mounts = [
     "icon": "inv_hyena2mount_light",
     "skeleton_type": "wolf",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Dune Scavenger",
@@ -5143,7 +5905,8 @@ const mounts = [
     "icon": "inv_hyena2mount_tan",
     "skeleton_type": "wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Netherlord's Brimstone Wrathsteed",
@@ -5153,7 +5916,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "fire",
     "secondary_color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Netherlord's Accursed Wrathsteed",
@@ -5163,7 +5927,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "blue",
     "secondary_color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Lightforged Warframe",
@@ -5171,7 +5936,8 @@ const mounts = [
     "spell_id": 239013,
     "icon": "inv_lightforgedmechsuit",
     "skeleton_type": "mechanical",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Legion"
   },
   {
     "name": "Obsidian Krolusk",
@@ -5179,7 +5945,32 @@ const mounts = [
     "spell_id": 239049,
     "icon": "inv_trilobitemount_black",
     "skeleton_type": "crocodile",
-    "color": "black"
+    "color": "black",
+    "expansion": "Legion"
+  },
+  {
+    "id": 934,
+    "name": "Swift Spectral Hippogryph",
+    "skeleton_type": "stag",
+    "color": "ghost",
+    "is_small": "true",
+    "expansion": "Legion"
+  },
+  {
+    "id": 935,
+    "name": "Blue Qiraji War Tank",
+    "skeleton_type": "insect",
+    "color": "blue",
+    "is_small": "true",
+    "expansion": "Legion"
+  },
+  {
+    "id": 936,
+    "name": "Red Qiraji War Tank",
+    "skeleton_type": "insect",
+    "color": "red",
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Black Qiraji War Tank",
@@ -5187,7 +5978,8 @@ const mounts = [
     "spell_id": 239770,
     "icon": "inv_ridingsilithid2",
     "skeleton_type": "insect",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "Legion"
   },
   {
     "name": "Sable Ruinstrider",
@@ -5196,7 +5988,8 @@ const mounts = [
     "icon": "inv_argustalbukmount_black",
     "skeleton_type": "stag",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Highmountain Elderhorn",
@@ -5205,7 +5998,8 @@ const mounts = [
     "icon": "inv_moosemount2",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Wild Dreamrunner",
@@ -5215,7 +6009,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "green",
     "secondary_color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Cloudwing Hippogryph",
@@ -5224,7 +6019,8 @@ const mounts = [
     "icon": "inv_hippogryph2azsuna",
     "skeleton_type": "stag",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Valarjar Stormwing",
@@ -5232,7 +6028,8 @@ const mounts = [
     "spell_id": 242882,
     "icon": "inv_stormdragonmount2",
     "skeleton_type": "dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Fox",
@@ -5241,7 +6038,8 @@ const mounts = [
     "icon": "inv_viciouswarfoxalliance",
     "skeleton_type": "rat",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Vicious War Fox",
@@ -5250,7 +6048,8 @@ const mounts = [
     "icon": "inv_viciouswarfoxhorde",
     "skeleton_type": "rat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Riddler's Mind-Worm",
@@ -5258,7 +6057,8 @@ const mounts = [
     "spell_id": 243025,
     "icon": "inv_serpentmount_darkblue",
     "skeleton_type": "serpent",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Legion"
   },
   {
     "name": "Demonic Gladiator's Storm Dragon",
@@ -5266,7 +6066,8 @@ const mounts = [
     "spell_id": 243201,
     "icon": "inv_stormdragonmount2_fel",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Legion"
   },
   {
     "name": "Luminous Starseeker",
@@ -5275,7 +6076,8 @@ const mounts = [
     "icon": "inv_shadowstalkerpanthermount",
     "skeleton_type": "cat",
     "color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Shackled Ur'zul",
@@ -5285,7 +6087,8 @@ const mounts = [
     "skeleton_type": "bear",
     "color": "blue",
     "secondary_color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Vile Fiend",
@@ -5293,7 +6096,8 @@ const mounts = [
     "spell_id": 243652,
     "icon": "inv_argusfelstalkermount",
     "skeleton_type": "gargoyle",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Legion"
   },
   {
     "name": "Leaping Veinseeker",
@@ -5302,7 +6106,8 @@ const mounts = [
     "icon": "ability_mount_bloodtick_red",
     "skeleton_type": "spider",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Spectral Pterrorwing",
@@ -5311,7 +6116,8 @@ const mounts = [
     "icon": "inv_pterrordax2mount_white",
     "skeleton_type": "dinosaur",
     "color": "ghost",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Stormwind Skychaser",
@@ -5319,7 +6125,8 @@ const mounts = [
     "spell_id": 245723,
     "icon": "inv_allianceshipmount",
     "skeleton_type": "mechanical",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Legion"
   },
   {
     "name": "Orgrimmar Interceptor",
@@ -5327,7 +6134,8 @@ const mounts = [
     "spell_id": 245725,
     "icon": "inv_hordezeppelinmount",
     "skeleton_type": "mechanical",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Legion"
   },
   {
     "name": "Lucid Nightmare",
@@ -5336,7 +6144,8 @@ const mounts = [
     "icon": "inv_horse2purple",
     "skeleton_type": "horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Darkmoon Dirigible",
@@ -5344,7 +6153,8 @@ const mounts = [
     "spell_id": 247448,
     "icon": "inv_zeppelinmount",
     "skeleton_type": "mechanical",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Legion"
   },
   {
     "name": "Bloodgorged Crawg",
@@ -5353,7 +6163,8 @@ const mounts = [
     "icon": "inv_bloodtrollbeast_mount",
     "skeleton_type": "bear",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Amethyst Ruinstrider",
@@ -5362,7 +6173,8 @@ const mounts = [
     "icon": "inv_argustalbukmount_purple",
     "skeleton_type": "stag",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Cerulean Ruinstrider",
@@ -5371,7 +6183,8 @@ const mounts = [
     "icon": "inv_argustalbukmount_blue",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Beryl Ruinstrider",
@@ -5380,7 +6193,8 @@ const mounts = [
     "icon": "inv_argustalbukmount_green",
     "skeleton_type": "stag",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Umber Ruinstrider",
@@ -5389,7 +6203,8 @@ const mounts = [
     "icon": "inv_argustalbukmount_brown",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Russet Ruinstrider",
@@ -5398,7 +6213,8 @@ const mounts = [
     "icon": "inv_argustalbukmount_red",
     "skeleton_type": "stag",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Maddened Chaosrunner",
@@ -5407,7 +6223,8 @@ const mounts = [
     "icon": "inv_argustalbukmount_felpurple",
     "skeleton_type": "stag",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Antoran Charhound",
@@ -5415,7 +6232,8 @@ const mounts = [
     "spell_id": 253088,
     "icon": "inv_felhound3_shadow_fire",
     "skeleton_type": "gargoyle",
-    "color": "red"
+    "color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Antoran Gloomhound",
@@ -5423,7 +6241,8 @@ const mounts = [
     "spell_id": 253087,
     "icon": "inv_felhound3_shadow_mount",
     "skeleton_type": "gargoyle",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Legion"
   },
   {
     "name": "Lambent Mana Ray",
@@ -5433,7 +6252,8 @@ const mounts = [
     "skeleton_type": "fish",
     "color": "blue",
     "secondary_color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Vibrant Mana Ray",
@@ -5442,7 +6262,8 @@ const mounts = [
     "icon": "inv_manaraymount_purple",
     "skeleton_type": "fish",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Felglow Mana Ray",
@@ -5451,7 +6272,8 @@ const mounts = [
     "icon": "inv_manaraymount_redfel",
     "skeleton_type": "fish",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Scintillating Mana Ray",
@@ -5460,7 +6282,8 @@ const mounts = [
     "icon": "inv_manaraymount_orange",
     "skeleton_type": "fish",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Violet Spellwing",
@@ -5469,7 +6292,8 @@ const mounts = [
     "icon": "inv_mount_arcaneraven",
     "skeleton_type": "bird",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Legion"
   },
   {
     "name": "Crimson Slavermaw",
@@ -5477,7 +6301,8 @@ const mounts = [
     "spell_id": 253661,
     "icon": "inv_argusfelstalkermountred",
     "skeleton_type": "gargoyle",
-    "color": "red"
+    "color": "red",
+    "expansion": "Legion"
   },
   {
     "name": "Acid Belcher",
@@ -5485,7 +6310,8 @@ const mounts = [
     "spell_id": 253662,
     "icon": "inv_argusfelstalkermountgrey",
     "skeleton_type": "gargoyle",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Biletooth Gnasher",
@@ -5493,7 +6319,8 @@ const mounts = [
     "spell_id": 253660,
     "icon": "inv_argusfelstalkermountblue",
     "skeleton_type": "gargoyle",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Legion"
   },
   {
     "name": "Pond Nettle",
@@ -5501,7 +6328,8 @@ const mounts = [
     "spell_id": 253711,
     "icon": "inv_ammo_bullet_07",
     "skeleton_type": "fish",
-    "color": "green"
+    "color": "green",
+    "expansion": "Legion"
   },
   {
     "name": "Glorious Felcrusher",
@@ -5509,7 +6337,8 @@ const mounts = [
     "spell_id": 254069,
     "icon": "inv_lightforgedelekk",
     "skeleton_type": "mammoth",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Legion"
   },
   {
     "name": "Blessed Felcrusher",
@@ -5517,7 +6346,8 @@ const mounts = [
     "spell_id": 254258,
     "icon": "inv_lightforgedelekk_amethyst",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Legion"
   },
   {
     "name": "Avenging Felcrusher",
@@ -5525,7 +6355,8 @@ const mounts = [
     "spell_id": 254259,
     "icon": "inv_lightforgedelekk_blue",
     "skeleton_type": "mammoth",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Legion"
   },
   {
     "name": "Bleakhoof Ruinstrider",
@@ -5535,7 +6366,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "red",
     "secondary_color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Legion"
   },
   {
     "name": "Squawks",
@@ -5544,7 +6376,8 @@ const mounts = [
     "icon": "inv_parrotmount_green",
     "skeleton_type": "bird",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Royal Seafeather",
@@ -5553,7 +6386,8 @@ const mounts = [
     "icon": "inv_parrotmount_blue",
     "skeleton_type": "bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Sharkbait",
@@ -5562,7 +6396,8 @@ const mounts = [
     "icon": "inv_parrotmount_red",
     "skeleton_type": "bird",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Seabraid Stallion",
@@ -5571,7 +6406,8 @@ const mounts = [
     "icon": "inv_dressedhorse",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Gilded Ravasaur",
@@ -5580,7 +6416,8 @@ const mounts = [
     "icon": "inv_armoredraptor",
     "skeleton_type": "dinosaur",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Xiwyllag ATV",
@@ -5588,7 +6425,8 @@ const mounts = [
     "spell_id": 256123,
     "icon": "inv_hovercraftmount",
     "skeleton_type": "mechanical",
-    "color": "various"
+    "color": "various",
+    "expansion": "BFA"
   },
   {
     "name": "Lightforged Felcrusher",
@@ -5596,7 +6434,8 @@ const mounts = [
     "spell_id": 258022,
     "icon": "inv_lightforgedelekk",
     "skeleton_type": "mammoth",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "BFA"
   },
   {
     "name": "Highmountain Thunderhoof",
@@ -5605,7 +6444,8 @@ const mounts = [
     "icon": "inv_hmmoosemount",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Nightborne Manasaber",
@@ -5614,7 +6454,8 @@ const mounts = [
     "icon": "inv_nightborneracialmount",
     "skeleton_type": "cat",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Starcursed Voidstrider",
@@ -5623,7 +6464,8 @@ const mounts = [
     "icon": "ability_mount_voidelfstridermount",
     "skeleton_type": "emu",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Admiralty Stallion",
@@ -5632,7 +6474,8 @@ const mounts = [
     "icon": "inv_horse3saddle003_pale",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Shu-Zen, the Divine Sentinel",
@@ -5641,7 +6484,8 @@ const mounts = [
     "icon": "inv_dogmount",
     "skeleton_type": "wolf",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Green Marsh Hopper",
@@ -5649,7 +6493,8 @@ const mounts = [
     "spell_id": 259740,
     "icon": "ivn_toadloamount",
     "skeleton_type": "snail",
-    "color": "Green"
+    "color": "Green",
+    "expansion": "BFA"
   },
   {
     "name": "Honeyback Harvester",
@@ -5658,7 +6503,8 @@ const mounts = [
     "icon": "inv_bee_default",
     "skeleton_type": "insect",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Dapple Gray",
@@ -5667,7 +6513,8 @@ const mounts = [
     "icon": "inv_horse3saddle006_stormsong_white",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Smoky Charger",
@@ -5676,7 +6523,8 @@ const mounts = [
     "icon": "inv_horse3saddle003_black",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Terrified Pack Mule",
@@ -5685,7 +6533,8 @@ const mounts = [
     "icon": "inv_horse3saddle008_donkey",
     "skeleton_type": "horse",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Goldenmane",
@@ -5694,7 +6543,8 @@ const mounts = [
     "icon": "inv_horse3saddle003_palamino",
     "skeleton_type": "horse",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "The Hivemind",
@@ -5702,7 +6552,8 @@ const mounts = [
     "spell_id": 261395,
     "icon": "inv_hivemind",
     "skeleton_type": "fish",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Vicious War Basilisk",
@@ -5710,7 +6561,8 @@ const mounts = [
     "spell_id": 261434,
     "icon": "inv_viciouswarbasiliskhorde",
     "skeleton_type": "crocodile",
-    "color": "red"
+    "color": "red",
+    "expansion": "BFA"
   },
   {
     "name": "Vicious War Basilisk",
@@ -5718,7 +6570,8 @@ const mounts = [
     "spell_id": 261433,
     "icon": "inv_viciouswarbasiliskalliance",
     "skeleton_type": "crocodile",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "BFA"
   },
   {
     "name": "Mecha-Mogul Mk2",
@@ -5726,7 +6579,8 @@ const mounts = [
     "spell_id": 261437,
     "icon": "achievement_dungeon_mogulrazdunk",
     "skeleton_type": "mechanical",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "BFA"
   },
   {
     "name": "Dread Gladiator's Proto-Drake",
@@ -5734,7 +6588,8 @@ const mounts = [
     "spell_id": 262022,
     "icon": "ability_mount_protodrakegladiatormount",
     "skeleton_type": "Dragon",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "BFA"
   },
   {
     "name": "Sinister Gladiator's Proto-Drake",
@@ -5742,7 +6597,8 @@ const mounts = [
     "spell_id": 262023,
     "icon": "ability_mount_protodrakegladiatormount",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Notorious Gladiator's Proto-Drake",
@@ -5750,7 +6606,8 @@ const mounts = [
     "spell_id": 262024,
     "icon": "inv_protodrakegladiatormount_purple",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "BFA"
   },
   {
     "name": "Corrupted Gladiator's Proto-Drake",
@@ -5758,7 +6615,8 @@ const mounts = [
     "spell_id": 262027,
     "icon": "ability_mount_protodrakegladiatormount",
     "skeleton_type": "Dragon",
-    "color": "black"
+    "color": "black",
+    "expansion": "BFA"
   },
   {
     "name": "Zandalari Direhorn",
@@ -5767,7 +6625,8 @@ const mounts = [
     "icon": "inv_triceratopszandalari",
     "skeleton_type": "dinosaur",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Mighty Caravan Brutosaur",
@@ -5775,7 +6634,8 @@ const mounts = [
     "spell_id": 264058,
     "icon": "inv_brontosaurusmount",
     "skeleton_type": "dinosaur",
-    "color": "green"
+    "color": "green",
+    "expansion": "BFA"
   },
   {
     "name": "Tomb Stalker",
@@ -5784,7 +6644,8 @@ const mounts = [
     "icon": "inv_armoredraptorundead",
     "skeleton_type": "dinosaur",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Siltwing Albatross",
@@ -5793,7 +6654,8 @@ const mounts = [
     "icon": "inv_vulturemount_alabatrosswhite",
     "skeleton_type": "bird",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Kua'fon",
@@ -5802,7 +6664,8 @@ const mounts = [
     "icon": "inv_pterrordax2mount_yellow",
     "skeleton_type": "dinosaur",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Mag'har Direwolf",
@@ -5811,7 +6674,8 @@ const mounts = [
     "icon": "inv_orcclanworg",
     "skeleton_type": "Wolf",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Vicious War Clefthoof",
@@ -5819,7 +6683,8 @@ const mounts = [
     "spell_id": 270560,
     "icon": "inv_vicioushordeclefthoof",
     "skeleton_type": "kodo",
-    "color": "red"
+    "color": "red",
+    "expansion": "BFA"
   },
   {
     "name": "Darkforge Ram",
@@ -5828,7 +6693,8 @@ const mounts = [
     "icon": "inv_dwarfpaladinram_red",
     "skeleton_type": "stag",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Dawnforge Ram",
@@ -5837,7 +6703,8 @@ const mounts = [
     "icon": "inv_dwarfpaladinram_gold",
     "skeleton_type": "stag",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Dark Iron Core Hound",
@@ -5846,7 +6713,8 @@ const mounts = [
     "icon": "inv_darkirondwarfcorehound",
     "skeleton_type": "rat",
     "color": "fire",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Undercity Plaguebat",
@@ -5854,7 +6722,8 @@ const mounts = [
     "spell_id": 272472,
     "icon": "inv_felbatmountforsaken",
     "skeleton_type": "gargoyle",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "BFA"
   },
   {
     "name": "Vicious War Riverbeast",
@@ -5862,7 +6731,8 @@ const mounts = [
     "spell_id": 272481,
     "icon": "inv_viciousalliancehippo",
     "skeleton_type": "kodo",
-    "color": "pink"
+    "color": "pink",
+    "expansion": "BFA"
   },
   {
     "name": "The Dreadwake",
@@ -5870,7 +6740,8 @@ const mounts = [
     "spell_id": 272770,
     "icon": "1998992",
     "skeleton_type": "mechanical",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "BFA"
   },
   {
     "name": "Underrot Crawg",
@@ -5879,7 +6750,8 @@ const mounts = [
     "icon": "inv_bloodtrollbeast_mount_pale",
     "skeleton_type": "bear",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Teldrassil Hippogryph",
@@ -5888,7 +6760,8 @@ const mounts = [
     "icon": "inv_hippogryphmountnightelf",
     "skeleton_type": "gryphon",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Nazjatar Blood Serpent",
@@ -5896,7 +6769,8 @@ const mounts = [
     "spell_id": 275623,
     "icon": "inv_serpentmount_red",
     "skeleton_type": "Serpent",
-    "color": "red"
+    "color": "red",
+    "expansion": "BFA"
   },
   {
     "name": "Cobalt Pterrordax",
@@ -5905,7 +6779,8 @@ const mounts = [
     "icon": "inv_pterrordax2mount_blue",
     "skeleton_type": "dinosaur",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Captured Swampstalker",
@@ -5914,7 +6789,8 @@ const mounts = [
     "icon": "inv_pterrordax2mount_lightgreen",
     "skeleton_type": "dinosaur",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Voldunai Dunescraper",
@@ -5923,7 +6799,8 @@ const mounts = [
     "icon": "inv_pterrordax2mount_purple",
     "skeleton_type": "dinosaur",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Expedition Bloodswarmer",
@@ -5932,7 +6809,8 @@ const mounts = [
     "icon": "ability_mount_bloodtick_purple",
     "skeleton_type": "spider",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Dusky Waycrest Gryphon",
@@ -5941,7 +6819,8 @@ const mounts = [
     "icon": "inv_misc_elitegryphonarmored",
     "skeleton_type": "Gryphon",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Stormsong Coastwatcher",
@@ -5950,7 +6829,8 @@ const mounts = [
     "icon": "inv_misc_elitegryphonarmored",
     "skeleton_type": "gryphon",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Proudmoore Sea Scout",
@@ -5959,7 +6839,8 @@ const mounts = [
     "icon": "inv_misc_elitegryphonarmored",
     "skeleton_type": "gryphon",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Great Sea Ray",
@@ -5968,7 +6849,8 @@ const mounts = [
     "icon": "inv_stingray2mount_teal",
     "skeleton_type": "fish",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Frostshard Infernal",
@@ -5976,7 +6858,8 @@ const mounts = [
     "spell_id": 213350,
     "icon": "inv_infernalmounice",
     "skeleton_type": "elemental",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Fiery Hearthsteed",
@@ -5985,7 +6868,8 @@ const mounts = [
     "icon": "inv_pegasusmountred",
     "skeleton_type": "horse",
     "color": "fire",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Surf Jelly",
@@ -5993,7 +6877,8 @@ const mounts = [
     "spell_id": 278979,
     "icon": "inv_misc_fish_70",
     "skeleton_type": "fish",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Conqueror's Scythemaw",
@@ -6001,7 +6886,8 @@ const mounts = [
     "spell_id": 279454,
     "icon": "inv_trilobitemount_green",
     "skeleton_type": "crocodile",
-    "color": "green"
+    "color": "green",
+    "expansion": "BFA"
   },
   {
     "name": "Broken Highland Mustang",
@@ -6010,7 +6896,8 @@ const mounts = [
     "icon": "inv_horse3_chestnut",
     "skeleton_type": "horse",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Highland Mustang",
@@ -6019,7 +6906,8 @@ const mounts = [
     "icon": "inv_horse3_pinto",
     "skeleton_type": "horse",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Twilight Avenger",
@@ -6027,7 +6915,8 @@ const mounts = [
     "spell_id": 279466,
     "icon": "ability_mount_drake_twilight",
     "skeleton_type": "dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "BFA"
   },
   {
     "name": "Craghorn Chasm-Leaper",
@@ -6035,7 +6924,8 @@ const mounts = [
     "spell_id": 279467,
     "icon": "inv_misc_pet_pandaren_yeti",
     "skeleton_type": "gargoyle",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "BFA"
   },
   {
     "name": "Qinsho's Eternal Hound",
@@ -6044,7 +6934,8 @@ const mounts = [
     "icon": "achievement_moguraid_01",
     "skeleton_type": "wolf",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Palehide Direhorn",
@@ -6053,7 +6944,8 @@ const mounts = [
     "icon": "ability_mount_triceratopsmount_yellow",
     "skeleton_type": "dinosaur",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Swift Albino Raptor",
@@ -6063,7 +6955,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "white",
     "is_small": true,
-    "secondary_color": "red"
+    "secondary_color": "red",
+    "expansion": "BFA"
   },
   {
     "name": "Lil' Donkey",
@@ -6072,7 +6965,8 @@ const mounts = [
     "icon": "inv_horse3_donkey",
     "skeleton_type": "horse",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Skullripper",
@@ -6081,7 +6975,8 @@ const mounts = [
     "icon": "ability_hunter_pet_raptor",
     "skeleton_type": "dinosaur",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Witherbark Direwing",
@@ -6090,7 +6985,8 @@ const mounts = [
     "icon": "ability_hunter_pet_bat",
     "skeleton_type": "bat",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Pureheart Courser",
@@ -6099,7 +6995,8 @@ const mounts = [
     "icon": "inv_horse2white",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Frenzied Feltalon",
@@ -6108,7 +7005,8 @@ const mounts = [
     "icon": "ability_mount_fireravengodmountgreen",
     "skeleton_type": "bird",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Prestigious Bloodforged Courser",
@@ -6117,7 +7015,8 @@ const mounts = [
     "icon": "inv_horse2mountelite",
     "skeleton_type": "horse",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Meat Wagon",
@@ -6125,7 +7024,8 @@ const mounts = [
     "spell_id": 281554,
     "icon": "2147656",
     "skeleton_type": "mechanical",
-    "color": "red"
+    "color": "red",
+    "expansion": "BFA"
   },
   {
     "name": "Vicious White Warsaber",
@@ -6134,7 +7034,8 @@ const mounts = [
     "icon": "ability_mount_warnightsaber",
     "skeleton_type": "cat",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Vicious Black Warsaber",
@@ -6143,7 +7044,8 @@ const mounts = [
     "icon": "ability_mount_warnightsaber",
     "skeleton_type": "cat",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Vicious Black Bonesteed",
@@ -6153,7 +7055,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "Black",
     "secondary_color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Vicious White Bonesteed",
@@ -6162,7 +7065,8 @@ const mounts = [
     "icon": "inv_skeletalwarhorse_01_purple",
     "skeleton_type": "horse",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Kul Tiran Charger",
@@ -6171,7 +7075,8 @@ const mounts = [
     "icon": "inv_horsekultiran",
     "skeleton_type": "horse",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Blackpaw",
@@ -6180,7 +7085,8 @@ const mounts = [
     "icon": "spell_druid_bearhug",
     "skeleton_type": "bear",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Ashenvale Chimaera",
@@ -6188,7 +7094,8 @@ const mounts = [
     "spell_id": 288495,
     "icon": "inv_chimera3",
     "skeleton_type": "dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "BFA"
   },
   {
     "name": "Frightened Kodo",
@@ -6196,7 +7103,8 @@ const mounts = [
     "spell_id": 288499,
     "icon": "ability_mount_kodo_03",
     "skeleton_type": "Kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "BFA"
   },
   {
     "name": "Umber Nightsaber",
@@ -6205,7 +7113,8 @@ const mounts = [
     "icon": "inv_nightsaber2brown",
     "skeleton_type": "cat",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Sandy Nightsaber",
@@ -6214,7 +7123,8 @@ const mounts = [
     "icon": "inv_nightsaber2mountyellow",
     "skeleton_type": "cat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Kaldorei Nightsaber",
@@ -6223,7 +7133,8 @@ const mounts = [
     "icon": "inv_nightsaber2mount",
     "skeleton_type": "cat",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Blue Marsh Hopper",
@@ -6231,7 +7142,8 @@ const mounts = [
     "spell_id": 288587,
     "icon": "ivn_toadloamount",
     "skeleton_type": "snail",
-    "color": "Blue"
+    "color": "Blue",
+    "expansion": "BFA"
   },
   {
     "name": "Yellow Marsh Hopper",
@@ -6240,7 +7152,8 @@ const mounts = [
     "icon": "ivn_toadloamount",
     "skeleton_type": "snail",
     "color": "Yellow",
-    "secondary_color": "green"
+    "secondary_color": "green",
+    "expansion": "BFA"
   },
   {
     "name": "Saltwater Seahorse",
@@ -6249,7 +7162,8 @@ const mounts = [
     "icon": "ability_mount_seahorse",
     "skeleton_type": "Horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Stonehide Elderhorn",
@@ -6258,7 +7172,8 @@ const mounts = [
     "icon": "inv_misc_moosehoof_black",
     "skeleton_type": "stag",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Bloodthirsty Dreadwing",
@@ -6267,7 +7182,8 @@ const mounts = [
     "icon": "ability_hunter_pet_bat",
     "skeleton_type": "bat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Bloodgorged Hunter",
@@ -6276,7 +7192,8 @@ const mounts = [
     "icon": "ability_hunter_pet_bat",
     "skeleton_type": "bat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Island Thunderscale",
@@ -6284,7 +7201,8 @@ const mounts = [
     "spell_id": 288721,
     "icon": "inv_stormdragonmount2_fel",
     "skeleton_type": "dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "BFA"
   },
   {
     "name": "Risen Mare",
@@ -6293,7 +7211,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "horse",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Azureshell Krolusk",
@@ -6301,7 +7220,8 @@ const mounts = [
     "spell_id": 288736,
     "icon": "inv_trilobitemount_blue",
     "skeleton_type": "crocodile",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Rubyshell Krolusk",
@@ -6309,7 +7229,8 @@ const mounts = [
     "spell_id": 288735,
     "icon": "inv_trilobitemount_red",
     "skeleton_type": "crocodile",
-    "color": "red"
+    "color": "red",
+    "expansion": "BFA"
   },
   {
     "name": "Priestess' Moonsaber",
@@ -6318,7 +7239,8 @@ const mounts = [
     "icon": "inv_saber3mount",
     "skeleton_type": "cat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "G.M.O.D.",
@@ -6326,7 +7248,8 @@ const mounts = [
     "spell_id": 289083,
     "icon": "achievement_dungeon_coinoperatedcrowdpummeler",
     "skeleton_type": "mechanical",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "BFA"
   },
   {
     "name": "Dazar'alor Windreaver",
@@ -6335,7 +7258,8 @@ const mounts = [
     "icon": "inv_pterrordax2mount_bronze",
     "skeleton_type": "dinosaur",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Glacial Tidestorm",
@@ -6343,7 +7267,8 @@ const mounts = [
     "spell_id": 289555,
     "icon": "inv_waterelementalmount",
     "skeleton_type": "elemental",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Bruce",
@@ -6351,7 +7276,8 @@ const mounts = [
     "spell_id": 289639,
     "icon": "inv_crocoliskmount_blue",
     "skeleton_type": "crocodile",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Hogrus, Swine of Good Fortune",
@@ -6360,7 +7286,8 @@ const mounts = [
     "icon": "inv_encrypted06",
     "skeleton_type": "bear",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Vulpine Familiar",
@@ -6369,7 +7296,8 @@ const mounts = [
     "icon": "2495963",
     "skeleton_type": "rat",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Sylverian Dreamer",
@@ -6377,7 +7305,8 @@ const mounts = [
     "spell_id": 290132,
     "icon": "2493157",
     "skeleton_type": "dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Wonderwing 2.0",
@@ -6385,7 +7314,8 @@ const mounts = [
     "spell_id": 290328,
     "icon": "inv_mechanicalparrotmount",
     "skeleton_type": "mechanical",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "BFA"
   },
   {
     "name": "Crusader's Direhorn",
@@ -6394,7 +7324,8 @@ const mounts = [
     "icon": "inv_zandalaripaladinmount",
     "skeleton_type": "dinosaur",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Aerial Unit R-21/X",
@@ -6402,7 +7333,8 @@ const mounts = [
     "spell_id": 290718,
     "icon": "inv_hunterkillershipyellow",
     "skeleton_type": "mechanical",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "BFA"
   },
   {
     "name": "Rusty Mechanocrawler",
@@ -6410,7 +7342,8 @@ const mounts = [
     "spell_id": 291492,
     "icon": "inv_mechagonspidertank_junker",
     "skeleton_type": "mechanical",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "BFA"
   },
   {
     "name": "Unshackled Waveray",
@@ -6419,7 +7352,8 @@ const mounts = [
     "icon": "inv_sharkraymount_2",
     "skeleton_type": "fish",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Ankoan Waveray",
@@ -6428,7 +7362,8 @@ const mounts = [
     "icon": "inv_sharkraymount_1",
     "skeleton_type": "fish",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Azshari Bloatray",
@@ -6437,7 +7372,8 @@ const mounts = [
     "icon": "inv_sharkraymount_4",
     "skeleton_type": "fish",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Royal Snapdragon",
@@ -6446,7 +7382,8 @@ const mounts = [
     "icon": "inv_snapdragonmount01",
     "skeleton_type": "rat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Snapback Scuttler",
@@ -6454,7 +7391,8 @@ const mounts = [
     "spell_id": 294039,
     "icon": "inv_crabmount",
     "skeleton_type": "crocodile",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "BFA"
   },
   {
     "name": "X-995 Mechanocat",
@@ -6463,7 +7401,8 @@ const mounts = [
     "icon": "inv_mechanicaltiger_grey",
     "skeleton_type": "cat",
     "color": "various",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Obsidian Worldbreaker",
@@ -6471,7 +7410,8 @@ const mounts = [
     "spell_id": 294197,
     "icon": "2734740",
     "skeleton_type": "dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "BFA"
   },
   {
     "name": "Beastlord's Irontusk",
@@ -6479,7 +7419,8 @@ const mounts = [
     "spell_id": 294568,
     "icon": "inv_armoredelekkmount",
     "skeleton_type": "mammoth",
-    "color": "red"
+    "color": "red",
+    "expansion": "BFA"
   },
   {
     "name": "Beastlord's Warwolf",
@@ -6488,7 +7429,8 @@ const mounts = [
     "icon": "inv_armoredwolfmount",
     "skeleton_type": "Wolf",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Bloodflank Charger",
@@ -6497,7 +7439,8 @@ const mounts = [
     "icon": "inv_hordehorsemount",
     "skeleton_type": "horse",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Ironclad Frostclaw",
@@ -6506,7 +7449,8 @@ const mounts = [
     "icon": "inv_alliancewolfmount",
     "skeleton_type": "wolf",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Mechacycle Model W",
@@ -6515,7 +7459,8 @@ const mounts = [
     "icon": "inv_mechacycle",
     "skeleton_type": "mechanical",
     "color": "gray",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Junkheap Drifter",
@@ -6524,7 +7469,8 @@ const mounts = [
     "icon": "inv_mechacycle",
     "skeleton_type": "mechanical",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Child of Torcali",
@@ -6533,7 +7479,8 @@ const mounts = [
     "icon": "inv_triceratopsgreen",
     "skeleton_type": "dinosaur",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Mollie",
@@ -6542,7 +7489,8 @@ const mounts = [
     "icon": "inv_alpacamount_brown",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Mechagon Peacekeeper",
@@ -6550,7 +7498,8 @@ const mounts = [
     "spell_id": 299158,
     "icon": "inv_mechagonspidertank_brass",
     "skeleton_type": "mechanical",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "BFA"
   },
   {
     "name": "Scrapforged Mechaspider",
@@ -6558,7 +7507,8 @@ const mounts = [
     "spell_id": 299159,
     "icon": "inv_mechagonspidertank_silver",
     "skeleton_type": "mechanical",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "BFA"
   },
   {
     "name": "Rustbolt Resistor",
@@ -6566,7 +7516,8 @@ const mounts = [
     "spell_id": 299170,
     "icon": "inv_hunterkillershipred",
     "skeleton_type": "mechanical",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "BFA"
   },
   {
     "name": "Deepcoral Snapdragon",
@@ -6575,7 +7526,8 @@ const mounts = [
     "icon": "inv_snapdragonmount03",
     "skeleton_type": "rat",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Snapdragon Kelpstalker",
@@ -6584,7 +7536,8 @@ const mounts = [
     "icon": "inv_snapdragonmount02",
     "skeleton_type": "rat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Silent Glider",
@@ -6593,7 +7546,8 @@ const mounts = [
     "icon": "inv_sharkraymount_3",
     "skeleton_type": "fish",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Fabious",
@@ -6602,7 +7556,8 @@ const mounts = [
     "icon": "inv_hippocampusmount_purple",
     "skeleton_type": "horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Silver Tidestallion",
@@ -6611,7 +7566,8 @@ const mounts = [
     "icon": "inv_hippocampusmount_white",
     "skeleton_type": "horse",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Crimson Tidestallion",
@@ -6620,7 +7576,8 @@ const mounts = [
     "icon": "inv_hippocampusmount_red",
     "skeleton_type": "horse",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Inkscale Deepseeker",
@@ -6629,7 +7586,8 @@ const mounts = [
     "icon": "inv_hippocampusmount_black",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Uncorrupted Voidwing",
@@ -6637,7 +7595,8 @@ const mounts = [
     "spell_id": 302143,
     "icon": "inv_voiddragonmount",
     "skeleton_type": "dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "BFA"
   },
   {
     "name": "Alabaster Stormtalon",
@@ -6646,7 +7605,8 @@ const mounts = [
     "icon": "inv_encrypted21",
     "skeleton_type": "gryphon",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Alabaster Thunderwing",
@@ -6655,7 +7615,44 @@ const mounts = [
     "icon": "inv_encrypted22",
     "skeleton_type": "cat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
+  },
+  {
+    "id": 1269,
+    "name": "Swift Spectral Fathom Ray",
+    "skeleton_type": "fish",
+    "color": "ghost",
+    "is_small": "true",
+    "expansion": "BFA"
+  },
+  {
+    "id": 1270,
+    "name": "Swift Spectral Magnetocraft",
+    "skeleton_type": "mechanical",
+    "color": "ghost",
+    "expansion": "BFA"
+  },
+  {
+    "id": 1271,
+    "name": "Swift Spectral Armored Gryphon",
+    "skeleton_type": "gryphon",
+    "color": "ghost",
+    "expansion": "BFA"
+  },
+  {
+    "id": 1272,
+    "name": "Swift Spectral Pterrordax",
+    "skeleton_type": "dinosaur",
+    "color": "ghost",
+    "expansion": "BFA"
+  },
+  {
+    "id": 1277,
+    "name": "Honeyback Hivemother",
+    "skeleton_type": "insect",
+    "color": "black",
+    "expansion": "BFA"
   },
   {
     "name": "Black Serpent of N'Zoth",
@@ -6663,7 +7660,8 @@ const mounts = [
     "spell_id": 305182,
     "icon": "inv_nzothserpentmount_black",
     "skeleton_type": "Serpent",
-    "color": "Black"
+    "color": "Black",
+    "expansion": "BFA"
   },
   {
     "name": "Mechagon Mechanostrider",
@@ -6672,7 +7670,8 @@ const mounts = [
     "icon": "inv_mechagnomestrider",
     "skeleton_type": "emu",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Frostwolf Snarler",
@@ -6681,7 +7680,8 @@ const mounts = [
     "icon": "inv_frostwolfhowler",
     "skeleton_type": "Wolf",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Caravan Hyena",
@@ -6690,7 +7690,8 @@ const mounts = [
     "icon": "inv_vulperamount",
     "skeleton_type": "wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Explorer's Jungle Hopper",
@@ -6698,7 +7699,8 @@ const mounts = [
     "spell_id": 307256,
     "icon": "inv_explorergyrocopter",
     "skeleton_type": "mechanical",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "BFA"
   },
   {
     "name": "Explorer's Dunetrekker",
@@ -6707,7 +7709,8 @@ const mounts = [
     "icon": "inv_camelmount2",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Ensorcelled Everwyrm",
@@ -6715,7 +7718,8 @@ const mounts = [
     "spell_id": 307932,
     "icon": "3040844",
     "skeleton_type": "serpent",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "BFA"
   },
   {
     "name": "Squeakers, the Trickster",
@@ -6724,7 +7728,8 @@ const mounts = [
     "icon": "3016707",
     "skeleton_type": "rat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Lucky Yun",
@@ -6733,7 +7738,8 @@ const mounts = [
     "icon": "inv_oxmount",
     "skeleton_type": "bear",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Stormpike Battle Ram",
@@ -6743,7 +7749,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "red",
     "secondary_color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "BFA"
   },
   {
     "name": "Ny'alotha Allseer",
@@ -6751,7 +7758,8 @@ const mounts = [
     "spell_id": 308814,
     "icon": "inv_eyeballjellyfishmount",
     "skeleton_type": "fish",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "BFA"
   },
   {
     "name": "Clutch of Ha-Li",
@@ -6760,7 +7768,8 @@ const mounts = [
     "icon": "inv_thunderislebirdbossmount_blue",
     "skeleton_type": "bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "BFA"
   },
   {
     "name": "Hopecrusher Gargon",
@@ -6769,7 +7778,8 @@ const mounts = [
     "icon": "inv_deathwargmountblack",
     "skeleton_type": "bear",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Battle Gargon Vrednic",
@@ -6778,7 +7788,8 @@ const mounts = [
     "icon": "inv_deathwargmount2black",
     "skeleton_type": "bear",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Dreamlight Runestag",
@@ -6787,7 +7798,8 @@ const mounts = [
     "icon": "inv_ardenwealdstagmount_blue",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Enchanted Dreamlight Runestag",
@@ -6796,7 +7808,8 @@ const mounts = [
     "icon": "inv_ardenwealdstagmount2_blue",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Mawsworn Soulhunter",
@@ -6805,7 +7818,8 @@ const mounts = [
     "icon": "inv_jailerhoundmount_gray",
     "skeleton_type": "bear",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Darkwarren Hardshell",
@@ -6813,7 +7827,8 @@ const mounts = [
     "spell_id": 312763,
     "icon": "inv_decomposermountpurple",
     "skeleton_type": "snail",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Swift Gloomhoof",
@@ -6822,7 +7837,8 @@ const mounts = [
     "icon": "inv_horse2ardenwealdmount_dark",
     "skeleton_type": "horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sundancer",
@@ -6832,7 +7848,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "yellow",
     "secondary_color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Chittering Animite",
@@ -6841,7 +7858,8 @@ const mounts = [
     "icon": "inv_devourersmallmount_light",
     "skeleton_type": "spider",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Horrid Dredwing",
@@ -6850,7 +7868,8 @@ const mounts = [
     "icon": "inv_giantvampirebatmount_bronze",
     "skeleton_type": "bat",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Ivory Cloud Serpent",
@@ -6858,7 +7877,8 @@ const mounts = [
     "spell_id": 315014,
     "icon": "inv_pandarenserpentmount_pink",
     "skeleton_type": "Serpent",
-    "color": "pink"
+    "color": "pink",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Gargantuan Grrloc",
@@ -6866,7 +7886,8 @@ const mounts = [
     "spell_id": 315132,
     "icon": "inv_murlocmount",
     "skeleton_type": "gargoyle",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Rajani Warserpent",
@@ -6874,7 +7895,8 @@ const mounts = [
     "spell_id": 315427,
     "icon": "inv_pandarenserpentmount_white",
     "skeleton_type": "Serpent",
-    "color": "white"
+    "color": "white",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Drake of the Four Winds",
@@ -6882,7 +7904,8 @@ const mounts = [
     "spell_id": 315847,
     "icon": "inv_dragonskywallmount_bronze",
     "skeleton_type": "Dragon",
-    "color": "white"
+    "color": "white",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Mail Muncher",
@@ -6890,7 +7913,8 @@ const mounts = [
     "spell_id": 315987,
     "icon": "inv_nzothserpentmount_red",
     "skeleton_type": "serpent",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Waste Marauder",
@@ -6899,7 +7923,8 @@ const mounts = [
     "icon": "inv_vulturemount_black",
     "skeleton_type": "bird",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wastewander Skyterror",
@@ -6908,7 +7933,8 @@ const mounts = [
     "icon": "inv_vulturemount_red",
     "skeleton_type": "bird",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Malevolent Drone",
@@ -6917,7 +7943,8 @@ const mounts = [
     "icon": "inv_aqirflyingmount_black",
     "skeleton_type": "insect",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Shadowbarb Drone",
@@ -6926,7 +7953,8 @@ const mounts = [
     "icon": "inv_aqirflyingmount_purple",
     "skeleton_type": "insect",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wicked Swarmer",
@@ -6935,7 +7963,8 @@ const mounts = [
     "icon": "inv_aqirflyingmount_red",
     "skeleton_type": "insect",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wriggling Parasite",
@@ -6943,7 +7972,8 @@ const mounts = [
     "spell_id": 316343,
     "icon": "inv_nzothserpentmount_purple",
     "skeleton_type": "serpent",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Elusive Quickhoof",
@@ -6952,7 +7982,8 @@ const mounts = [
     "icon": "inv_alpacamount_black",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Awakened Mindborer",
@@ -6960,7 +7991,8 @@ const mounts = [
     "spell_id": 316637,
     "icon": "inv_nzothserpentmount_pale",
     "skeleton_type": "serpent",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Ren's Stalwart Hound",
@@ -6969,7 +8001,8 @@ const mounts = [
     "icon": "inv_quilenmount_red",
     "skeleton_type": "wolf",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Xinlao",
@@ -6978,7 +8011,8 @@ const mounts = [
     "icon": "inv_quilenmount_gold",
     "skeleton_type": "wolf",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Springfur Alpaca",
@@ -6987,7 +8021,8 @@ const mounts = [
     "icon": "inv_alpacamount_yellow",
     "skeleton_type": "stag",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sunwarmed Furline",
@@ -6997,7 +8032,8 @@ const mounts = [
     "skeleton_type": "cat",
     "color": "red",
     "secondary_color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Silky Shimmermoth",
@@ -7006,7 +8042,8 @@ const mounts = [
     "icon": "inv_mothardenwealdmount_blue",
     "skeleton_type": "insect",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Steamscale Incinerator",
@@ -7014,7 +8051,8 @@ const mounts = [
     "spell_id": 326390,
     "icon": "2843118",
     "skeleton_type": "dragon",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Colossal Slaughterclaw",
@@ -7023,7 +8061,8 @@ const mounts = [
     "icon": "inv_rocmaldraxxusmountblack",
     "skeleton_type": "dinosaur",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vicious War Spider",
@@ -7031,7 +8070,8 @@ const mounts = [
     "spell_id": 327407,
     "icon": "inv_viciousalliancespider",
     "skeleton_type": "spider",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vicious War Spider",
@@ -7039,7 +8079,8 @@ const mounts = [
     "spell_id": 327408,
     "icon": "inv_vicioushordespider",
     "skeleton_type": "spider",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Shadeleaf Runestag",
@@ -7048,7 +8089,8 @@ const mounts = [
     "icon": "inv_ardenwealdstagmount_dark",
     "skeleton_type": "stag",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wakener's Runestag",
@@ -7057,7 +8099,8 @@ const mounts = [
     "icon": "inv_ardenwealdstagmount_teal",
     "skeleton_type": "stag",
     "color": "turquoise",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Winterborn Runestag",
@@ -7066,7 +8109,8 @@ const mounts = [
     "icon": "inv_ardenwealdstagmount_white",
     "skeleton_type": "stag",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Enchanted Shadeleaf Runestag",
@@ -7075,7 +8119,8 @@ const mounts = [
     "icon": "inv_ardenwealdstagmount2_blue",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Enchanted Wakener's Runestag",
@@ -7084,7 +8129,8 @@ const mounts = [
     "icon": "inv_ardenwealdstagmount2_blue",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Enchanted Winterborn Runestag",
@@ -7093,7 +8139,8 @@ const mounts = [
     "icon": "inv_ardenwealdstagmount2_blue",
     "skeleton_type": "stag",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Shimmermist Runner",
@@ -7102,7 +8149,8 @@ const mounts = [
     "icon": "inv_horse2ardenwealdmount_blue",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Duskflutter Ardenmoth",
@@ -7111,7 +8159,8 @@ const mounts = [
     "icon": "inv_mothardenwealdmount_dark",
     "skeleton_type": "insect",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Spinemaw Gladechewer",
@@ -7119,7 +8168,8 @@ const mounts = [
     "spell_id": 334364,
     "icon": "inv_decomposermountyellow",
     "skeleton_type": "snail",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sinful Gladiator's Soul Eater",
@@ -7127,7 +8177,8 @@ const mounts = [
     "spell_id": 332400,
     "icon": "inv_shadebeastmount",
     "skeleton_type": "dragon",
-    "color": "black"
+    "color": "black",
+    "expansion": "Shadowlands"
   },
   {
     "name": "War-Bred Tauralus",
@@ -7135,7 +8186,8 @@ const mounts = [
     "spell_id": 332455,
     "icon": "inv_giantbeastmount_blue",
     "skeleton_type": "kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Plaguerot Tauralus",
@@ -7143,7 +8195,8 @@ const mounts = [
     "spell_id": 332456,
     "icon": "inv_giantbeastmount_green",
     "skeleton_type": "kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Bonehoof Tauralus",
@@ -7151,7 +8204,8 @@ const mounts = [
     "spell_id": 332457,
     "icon": "inv_giantbeastmount",
     "skeleton_type": "kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Chosen Tauralus",
@@ -7159,7 +8213,8 @@ const mounts = [
     "spell_id": 332460,
     "icon": "inv_giantbeastmount_orange",
     "skeleton_type": "kodo",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Armored War-Bred Tauralus",
@@ -7167,7 +8222,8 @@ const mounts = [
     "spell_id": 332462,
     "icon": "inv_giantbeastmount2_blue",
     "skeleton_type": "kodo",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Armored Plaguerot Tauralus",
@@ -7175,7 +8231,8 @@ const mounts = [
     "spell_id": 332464,
     "icon": "inv_giantbeastmount2_green",
     "skeleton_type": "kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Armored Bonehoof Tauralus",
@@ -7183,7 +8240,8 @@ const mounts = [
     "spell_id": 332466,
     "icon": "inv_giantbeastmount2",
     "skeleton_type": "kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Armored Chosen Tauralus",
@@ -7191,7 +8249,8 @@ const mounts = [
     "spell_id": 332467,
     "icon": "inv_giantbeastmount2_orange",
     "skeleton_type": "kodo",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Blisterback Bloodtusk",
@@ -7200,7 +8259,8 @@ const mounts = [
     "icon": "inv_maldraxxusboarmount_black",
     "skeleton_type": "kodo",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Gorespine",
@@ -7209,7 +8269,8 @@ const mounts = [
     "icon": "inv_maldraxxusboarmount_green",
     "skeleton_type": "kodo",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Lurid Bloodtusk",
@@ -7218,7 +8279,8 @@ const mounts = [
     "icon": "inv_maldraxxusboarmount_purple",
     "skeleton_type": "kodo",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Silvertip Dredwing",
@@ -7228,7 +8290,8 @@ const mounts = [
     "skeleton_type": "bat",
     "color": "green",
     "secondary_color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Rampart Screecher",
@@ -7237,7 +8300,8 @@ const mounts = [
     "icon": "inv_giantvampirebatmount_white",
     "skeleton_type": "bat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Harvester's Dredwing",
@@ -7246,7 +8310,8 @@ const mounts = [
     "icon": "inv_giantvampirebatmount_purple",
     "skeleton_type": "bat",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Endmire Flyer",
@@ -7255,7 +8320,8 @@ const mounts = [
     "icon": "inv_devourersmallmount_dark",
     "skeleton_type": "spider",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Inquisition Gargon",
@@ -7264,7 +8330,8 @@ const mounts = [
     "icon": "inv_deathwargmountpurple",
     "skeleton_type": "bear",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sinfall Gargon",
@@ -7273,7 +8340,8 @@ const mounts = [
     "icon": "inv_deathwargmountred",
     "skeleton_type": "bear",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Crypt Gargon",
@@ -7282,7 +8350,8 @@ const mounts = [
     "icon": "inv_deathwargmountwhite",
     "skeleton_type": "bear",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Desire's Battle Gargon",
@@ -7291,7 +8360,8 @@ const mounts = [
     "icon": "inv_deathwargmount2purple",
     "skeleton_type": "bear",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Gravestone Battle Gargon",
@@ -7300,7 +8370,8 @@ const mounts = [
     "icon": "inv_deathwargmount2white",
     "skeleton_type": "bear",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Battle Gargon Silessa",
@@ -7309,7 +8380,8 @@ const mounts = [
     "icon": "inv_deathwargmount2red",
     "skeleton_type": "bear",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Loyal Gorger",
@@ -7317,7 +8389,8 @@ const mounts = [
     "spell_id": 333027,
     "icon": "achievement_dungeon_sanguinedepths_kryxis",
     "skeleton_type": "gargoyle",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Pale Acidmaw",
@@ -7325,7 +8398,8 @@ const mounts = [
     "spell_id": 334365,
     "icon": "inv_decomposermountwhite",
     "skeleton_type": "snail",
-    "color": "white"
+    "color": "white",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wild Glimmerfur Prowler",
@@ -7334,7 +8408,8 @@ const mounts = [
     "icon": "inv_fox2_green",
     "skeleton_type": "rat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Phalynx of Loyalty",
@@ -7343,7 +8418,8 @@ const mounts = [
     "icon": "inv_automatonlionmount_black",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Phalynx of Humility",
@@ -7352,7 +8428,8 @@ const mounts = [
     "icon": "inv_automatonlionmount_bronze",
     "skeleton_type": "cat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Phalynx of Courage",
@@ -7361,7 +8438,8 @@ const mounts = [
     "icon": "inv_automatonlionmount",
     "skeleton_type": "cat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wildseed Cradle",
@@ -7369,7 +8447,8 @@ const mounts = [
     "spell_id": 334352,
     "icon": "inv_ardenwealdpod",
     "skeleton_type": "mechanical",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Phalynx of Purity",
@@ -7378,7 +8457,8 @@ const mounts = [
     "icon": "inv_automatonlionmount_silver",
     "skeleton_type": "cat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Eternal Phalynx of Purity",
@@ -7387,7 +8467,8 @@ const mounts = [
     "icon": "inv_automatonlionmount_silver",
     "skeleton_type": "cat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Eternal Phalynx of Courage",
@@ -7396,7 +8477,8 @@ const mounts = [
     "icon": "inv_automatonlionmount2",
     "skeleton_type": "cat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Eternal Phalynx of Loyalty",
@@ -7405,7 +8487,8 @@ const mounts = [
     "icon": "inv_automatonlionmount2_black",
     "skeleton_type": "cat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Eternal Phalynx of Humility",
@@ -7414,7 +8497,8 @@ const mounts = [
     "icon": "inv_automatonlionmount2_bronze",
     "skeleton_type": "cat",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Silverwind Larion",
@@ -7423,7 +8507,8 @@ const mounts = [
     "icon": "inv_wingedlion2mount_silver",
     "skeleton_type": "cat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Restoration Deathwalker",
@@ -7431,7 +8516,8 @@ const mounts = [
     "spell_id": 334482,
     "icon": "inv_deathelementalmount_purple",
     "skeleton_type": "elemental",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Marrowfang",
@@ -7439,7 +8525,8 @@ const mounts = [
     "spell_id": 336036,
     "icon": "inv_maldraxxusflyermount_red",
     "skeleton_type": "dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Callow Flayedwing",
@@ -7447,7 +8534,8 @@ const mounts = [
     "spell_id": 336038,
     "icon": "inv_maldraxxusflyermount_green",
     "skeleton_type": "dragon",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Gruesome Flayedwing",
@@ -7455,7 +8543,8 @@ const mounts = [
     "spell_id": 336039,
     "icon": "inv_maldraxxusflyermount_blue",
     "skeleton_type": "dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Bonesewn Fleshroc",
@@ -7464,7 +8553,8 @@ const mounts = [
     "icon": "inv_rocmaldraxxusmountwhite",
     "skeleton_type": "dinosaur",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Hulking Deathroc",
@@ -7473,7 +8563,8 @@ const mounts = [
     "icon": "inv_rocmaldraxxusmountpurple",
     "skeleton_type": "dinosaur",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Predatory Plagueroc",
@@ -7482,7 +8573,8 @@ const mounts = [
     "icon": "inv_rocmaldraxxusmountgreen",
     "skeleton_type": "dinosaur",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Dauntless Duskrunner",
@@ -7491,7 +8583,8 @@ const mounts = [
     "icon": "inv_horse2bastionmount_purple",
     "skeleton_type": "horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sinrunner Blanchy",
@@ -7500,7 +8593,8 @@ const mounts = [
     "icon": "inv_horse3saddle001_evil",
     "skeleton_type": "horse",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Arboreal Gulper",
@@ -7508,7 +8602,8 @@ const mounts = [
     "spell_id": 339632,
     "icon": "inv_toadardenwealdmount",
     "skeleton_type": "snail",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Mawsworn Charger",
@@ -7517,7 +8612,8 @@ const mounts = [
     "icon": "ability_mount_mawhorsespikes_blue",
     "skeleton_type": "horse",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Hand of Hrestimorak",
@@ -7526,7 +8622,8 @@ const mounts = [
     "icon": "inv_mawguardhandmountblue",
     "skeleton_type": "mechanical",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sintouched Deathwalker",
@@ -7534,7 +8631,8 @@ const mounts = [
     "spell_id": 340068,
     "icon": "inv_deathelementalmount_black",
     "skeleton_type": "elemental",
-    "color": "black"
+    "color": "black",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Umbral Scythehorn",
@@ -7542,7 +8640,8 @@ const mounts = [
     "spell_id": 340503,
     "icon": "inv_decomposermountblack",
     "skeleton_type": "snail",
-    "color": "black"
+    "color": "black",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Court Sinrunner",
@@ -7551,7 +8650,8 @@ const mounts = [
     "icon": "inv_horse3saddle003_evil",
     "skeleton_type": "horse",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Warstitched Darkhound",
@@ -7560,7 +8660,8 @@ const mounts = [
     "icon": "inv_darkhoundmount_draka_blue",
     "skeleton_type": "rat",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Highwind Darkmane",
@@ -7569,7 +8670,8 @@ const mounts = [
     "icon": "inv_wingedlion2mount_dark",
     "skeleton_type": "cat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Snowstorm",
@@ -7578,7 +8680,8 @@ const mounts = [
     "icon": "3753812",
     "skeleton_type": "bear",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Gilded Prowler",
@@ -7587,7 +8690,8 @@ const mounts = [
     "icon": "inv_wingedlion2mount",
     "skeleton_type": "cat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Ascended Skymane",
@@ -7596,7 +8700,8 @@ const mounts = [
     "icon": "inv_horse2bastionmount_blue",
     "skeleton_type": "horse",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Amber Ardenmoth",
@@ -7605,7 +8710,8 @@ const mounts = [
     "icon": "inv_mothardenwealdmount_red",
     "skeleton_type": "insect",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vibrant Flutterwing",
@@ -7614,7 +8720,8 @@ const mounts = [
     "icon": "inv_mothardenwealdmount_mint",
     "skeleton_type": "insect",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Desertwing Hunter",
@@ -7623,7 +8730,8 @@ const mounts = [
     "icon": "inv_progenitorhawk_mount_blue",
     "skeleton_type": "bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Pale Regal Cervid",
@@ -7632,7 +8740,8 @@ const mounts = [
     "icon": "inv_progenitorstagmount_blue",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vespoid Flutterer",
@@ -7641,7 +8750,8 @@ const mounts = [
     "icon": "inv_progenitorwasp_mount_blue",
     "skeleton_type": "insect",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Deepstar Aurelid",
@@ -7649,7 +8759,8 @@ const mounts = [
     "spell_id": 342680,
     "icon": "ability_mount_progenitorjellyfish_blue",
     "skeleton_type": "fish",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Battle-Hardened Aquilon",
@@ -7658,7 +8769,8 @@ const mounts = [
     "icon": "inv_automatonfliermount_copper",
     "skeleton_type": "gryphon",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Battle-Bound Warhound",
@@ -7667,7 +8779,8 @@ const mounts = [
     "icon": "inv_darkhoundmount_draka",
     "skeleton_type": "rat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Bulbous Necroray",
@@ -7676,7 +8789,8 @@ const mounts = [
     "icon": "inv_manaraymount_orange",
     "skeleton_type": "fish",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Infested Necroray",
@@ -7685,7 +8799,8 @@ const mounts = [
     "icon": "inv_manaraymount_black",
     "skeleton_type": "fish",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Pestilent Necroray",
@@ -7694,7 +8809,8 @@ const mounts = [
     "icon": "inv_manaraymount_blackfel",
     "skeleton_type": "fish",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Bound Shadehound",
@@ -7703,7 +8819,8 @@ const mounts = [
     "icon": "inv_jailerhoundmount_white",
     "skeleton_type": "bear",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Corridor Creeper",
@@ -7712,7 +8829,8 @@ const mounts = [
     "icon": "inv_jailerhoundmount_black",
     "skeleton_type": "bear",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Voracious Gorger",
@@ -7720,7 +8838,8 @@ const mounts = [
     "spell_id": 344659,
     "icon": "inv_devourermediummount",
     "skeleton_type": "gargoyle",
-    "color": "white"
+    "color": "white",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Viridian Phase-Hunter",
@@ -7729,7 +8848,8 @@ const mounts = [
     "icon": "inv_warpstalkermount",
     "skeleton_type": "crocodile",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Slime Serpent",
@@ -7737,7 +8857,8 @@ const mounts = [
     "spell_id": 346141,
     "icon": "inv_nzothserpentmount_abomination",
     "skeleton_type": "Serpent",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Tazavesh Gearglider",
@@ -7746,7 +8867,8 @@ const mounts = [
     "icon": "inv_brokermount_brass",
     "skeleton_type": "kite",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Serenade",
@@ -7755,7 +8877,8 @@ const mounts = [
     "icon": "inv_progenitorsnail_mount_blue",
     "skeleton_type": "snail",
     "color": "yellow",
-    "secondary_color": "white"
+    "secondary_color": "white",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Lord of the Corpseflies",
@@ -7765,7 +8888,8 @@ const mounts = [
     "skeleton_type": "insect",
     "color": "black",
     "secondary_color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Soaring Razorwing",
@@ -7774,7 +8898,8 @@ const mounts = [
     "icon": "inv_mawexpansionfliermountyellow",
     "skeleton_type": "bat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vicious War Croaker",
@@ -7782,7 +8907,8 @@ const mounts = [
     "spell_id": 347255,
     "icon": "inv_vicioushordetoad",
     "skeleton_type": "snail",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vicious War Croaker",
@@ -7790,7 +8916,8 @@ const mounts = [
     "spell_id": 347256,
     "icon": "inv_viciousalliancetoad",
     "skeleton_type": "snail",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Tamed Mauler",
@@ -7799,7 +8926,8 @@ const mounts = [
     "icon": "inv_devourerswarmer_blue",
     "skeleton_type": "bear",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Beryl Shardhide",
@@ -7808,7 +8936,8 @@ const mounts = [
     "icon": "inv_mawexpansionbearmount_green",
     "skeleton_type": "bear",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sapphire Skyblazer",
@@ -7817,7 +8946,8 @@ const mounts = [
     "icon": "3851476",
     "skeleton_type": "bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wandering Ancient",
@@ -7825,7 +8955,8 @@ const mounts = [
     "spell_id": 348162,
     "icon": "3939983",
     "skeleton_type": "gargoyle",
-    "color": "various"
+    "color": "various",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vicious War Gorm",
@@ -7833,7 +8964,8 @@ const mounts = [
     "spell_id": 348769,
     "icon": "inv_vicioushordegorm",
     "skeleton_type": "snail",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vicious War Gorm",
@@ -7841,7 +8973,8 @@ const mounts = [
     "spell_id": 348770,
     "icon": "inv_viciousalliancegorm",
     "skeleton_type": "snail",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vicious Warstalker",
@@ -7850,7 +8983,8 @@ const mounts = [
     "icon": "inv_vicioushordewolf_mount",
     "skeleton_type": "wolf",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Vicious Warstalker",
@@ -7859,7 +8993,8 @@ const mounts = [
     "icon": "inv_viciousalliancewolf_mount",
     "skeleton_type": "wolf",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Noble Bruffalon",
@@ -7868,7 +9003,8 @@ const mounts = [
     "icon": "inv_moosebullmount_black",
     "skeleton_type": "stag",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Amber Skitterfly",
@@ -7876,7 +9012,8 @@ const mounts = [
     "spell_id": 349943,
     "icon": "inv_primaldragonflymount_orange",
     "skeleton_type": "insect",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Magmashell",
@@ -7884,7 +9021,8 @@ const mounts = [
     "spell_id": 350219,
     "icon": "inv_snailmount_orange",
     "skeleton_type": "snail",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vengeance",
@@ -7892,7 +9030,8 @@ const mounts = [
     "spell_id": 351195,
     "icon": "inv_dragonhawkmountshadowlands",
     "skeleton_type": "insect",
-    "color": "black"
+    "color": "black",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Bestowed Thunderspine Packleader",
@@ -7900,7 +9039,8 @@ const mounts = [
     "spell_id": 351408,
     "icon": "inv_thunderlizardprimal_green",
     "skeleton_type": "kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Hand of Bahmethra",
@@ -7909,7 +9049,8 @@ const mounts = [
     "icon": "inv_mawguardhandmountpurple",
     "skeleton_type": "mechanical",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wild Hunt Legsplitter",
@@ -7917,7 +9058,8 @@ const mounts = [
     "spell_id": 352441,
     "icon": "inv_decomposermountgreen",
     "skeleton_type": "snail",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Undying Darkhound",
@@ -7926,7 +9068,8 @@ const mounts = [
     "icon": "inv_darkhoundmount_draka_orange",
     "skeleton_type": "rat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Skyskin Hornstrider",
@@ -7935,7 +9078,8 @@ const mounts = [
     "icon": "inv_tallstriderprimalmount_blue",
     "skeleton_type": "emu",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Unchained Gladiator's Soul Eater",
@@ -7943,7 +9087,8 @@ const mounts = [
     "spell_id": 353036,
     "icon": "inv_shadebeastmount_blue",
     "skeleton_type": "dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Cartel Master's Gearglider",
@@ -7952,7 +9097,8 @@ const mounts = [
     "icon": "inv_brokermount_dark",
     "skeleton_type": "kite",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Ardenweald Wilderling",
@@ -7960,7 +9106,8 @@ const mounts = [
     "spell_id": 353856,
     "icon": "inv_wolfserpentmountpurple",
     "skeleton_type": "serpent",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Autumnal Wilderling",
@@ -7968,7 +9115,8 @@ const mounts = [
     "spell_id": 353857,
     "icon": "inv_wolfserpentmountyellow",
     "skeleton_type": "serpent",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Winter Wilderling",
@@ -7976,7 +9124,8 @@ const mounts = [
     "spell_id": 353858,
     "icon": "inv_wolfserpentmountwhite",
     "skeleton_type": "serpent",
-    "color": "white"
+    "color": "white",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Summer Wilderling",
@@ -7984,7 +9133,8 @@ const mounts = [
     "spell_id": 353859,
     "icon": "inv_wolfserpentmountgreen",
     "skeleton_type": "serpent",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Obsidian Gravewing",
@@ -7993,7 +9143,8 @@ const mounts = [
     "icon": "inv_gargoylebrute2mount_dark",
     "skeleton_type": "gargoyle",
     "color": "black",
-    "secondary_color": "red"
+    "secondary_color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sinfall Gravewing",
@@ -8001,7 +9152,8 @@ const mounts = [
     "spell_id": 353872,
     "icon": "inv_gargoylebrute2mount_gray",
     "skeleton_type": "gargoyle",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Pale Gravewing",
@@ -8009,7 +9161,8 @@ const mounts = [
     "spell_id": 353873,
     "icon": "inv_gargoylebrute2mount_pale",
     "skeleton_type": "gargoyle",
-    "color": "white"
+    "color": "white",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Elysian Aquilon",
@@ -8018,7 +9171,8 @@ const mounts = [
     "icon": "inv_automatonfliermount",
     "skeleton_type": "gryphon",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Forsworn Aquilon",
@@ -8027,7 +9181,8 @@ const mounts = [
     "icon": "inv_automatonfliermount_dark",
     "skeleton_type": "gryphon",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Ascendant's Aquilon",
@@ -8036,7 +9191,8 @@ const mounts = [
     "icon": "inv_automatonfliermount_silver",
     "skeleton_type": "gryphon",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Maldraxxian Corpsefly",
@@ -8045,7 +9201,8 @@ const mounts = [
     "icon": "inv_flymaldraxxusmount_green",
     "skeleton_type": "insect",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Regal Corpsefly",
@@ -8054,7 +9211,8 @@ const mounts = [
     "icon": "inv_flymaldraxxusmount_purple",
     "skeleton_type": "insect",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Battlefield Swarmer",
@@ -8063,7 +9221,8 @@ const mounts = [
     "icon": "inv_flymaldraxxusmount_copper",
     "skeleton_type": "insect",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sanctum Gloomcharger",
@@ -8072,7 +9231,8 @@ const mounts = [
     "icon": "ability_mount_mawhorsespikes_purple",
     "skeleton_type": "horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Soulbound Gloomcharger",
@@ -8081,7 +9241,8 @@ const mounts = [
     "icon": "ability_mount_mawhorsespikes_teal",
     "skeleton_type": "horse",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Fallen Charger",
@@ -8090,7 +9251,8 @@ const mounts = [
     "icon": "ability_mount_mawhorsespikes_yellow",
     "skeleton_type": "horse",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Hand of Nilganihmaht",
@@ -8099,7 +9261,8 @@ const mounts = [
     "icon": "inv_mawguardhandmountgold",
     "skeleton_type": "mechanical",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Hand of Salaranga",
@@ -8108,7 +9271,8 @@ const mounts = [
     "icon": "inv_mawguardhandmountblack",
     "skeleton_type": "mechanical",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Amber Shardhide",
@@ -8117,7 +9281,8 @@ const mounts = [
     "icon": "inv_mawexpansionbearmount_yellow",
     "skeleton_type": "bear",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Crimson Shardhide",
@@ -8126,7 +9291,8 @@ const mounts = [
     "icon": "inv_mawexpansionbearmount_red",
     "skeleton_type": "bear",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Darkmaul",
@@ -8135,7 +9301,8 @@ const mounts = [
     "icon": "inv_mawexpansionbearmount_purple",
     "skeleton_type": "bear",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Fierce Razorwing",
@@ -8144,7 +9311,8 @@ const mounts = [
     "icon": "inv_mawexpansionfliermountgreen",
     "skeleton_type": "bat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Garnet Razorwing",
@@ -8153,7 +9321,8 @@ const mounts = [
     "icon": "inv_mawexpansionfliermountred",
     "skeleton_type": "bat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Dusklight Razorwing",
@@ -8162,7 +9331,8 @@ const mounts = [
     "icon": "inv_mawexpansionfliermountpurple",
     "skeleton_type": "bat",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Maelie, the Wanderer",
@@ -8172,7 +9342,8 @@ const mounts = [
     "skeleton_type": "horse",
     "color": "brown",
     "secondary_color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sarge's Tale",
@@ -8181,7 +9352,8 @@ const mounts = [
     "icon": "4178535",
     "skeleton_type": "rat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Rampaging Mauler",
@@ -8190,7 +9362,8 @@ const mounts = [
     "icon": "inv_devourerswarmermount_dark",
     "skeleton_type": "bear",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Bound Blizzard",
@@ -8198,7 +9371,8 @@ const mounts = [
     "spell_id": 358072,
     "icon": "4054329",
     "skeleton_type": "elemental",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Soultwisted Deathwalker",
@@ -8206,7 +9380,8 @@ const mounts = [
     "spell_id": 358319,
     "icon": "inv_deathelementalmount_green",
     "skeleton_type": "elemental",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Val'sharah Hippogryph",
@@ -8215,7 +9390,8 @@ const mounts = [
     "icon": "inv_mount_hippogryph_arcane",
     "skeleton_type": "stag",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Heartlight Vombata",
@@ -8224,7 +9400,8 @@ const mounts = [
     "icon": "inv_progenitorwombatmount",
     "skeleton_type": "bear",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Curious Crystalsniffer",
@@ -8233,7 +9410,8 @@ const mounts = [
     "icon": "inv_progenitorwombatmount_darkred",
     "skeleton_type": "bear",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Darkened Vombata",
@@ -8242,7 +9420,8 @@ const mounts = [
     "icon": "inv_progenitorwombatmount_dark",
     "skeleton_type": "bear",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Adorned Vombata",
@@ -8251,7 +9430,8 @@ const mounts = [
     "icon": "inv_progenitorwombatmount_red",
     "skeleton_type": "bear",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Deathrunner",
@@ -8260,7 +9440,8 @@ const mounts = [
     "icon": "inv_progenitorstagmount_red",
     "skeleton_type": "stag",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Sundered Zerethsteed",
@@ -8270,7 +9451,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "white",
     "secondary_color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Anointed Protostag",
@@ -8280,7 +9462,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "white",
     "secondary_color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wen Lo, the River's Edge",
@@ -8289,7 +9472,8 @@ const mounts = [
     "icon": "4180079",
     "skeleton_type": "cat",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Soaring Spelltome",
@@ -8298,7 +9482,8 @@ const mounts = [
     "icon": "4062012",
     "skeleton_type": "kite",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Forged Spiteflyer",
@@ -8307,7 +9492,8 @@ const mounts = [
     "icon": "inv_progenitorwasp_mount_red",
     "skeleton_type": "insect",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Buzz",
@@ -8316,7 +9502,8 @@ const mounts = [
     "icon": "inv_progenitorwasp_mount_silver",
     "skeleton_type": "insect",
     "color": "gray",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Bronzewing Vespoid",
@@ -8325,7 +9512,8 @@ const mounts = [
     "icon": "inv_progenitorwasp_mount_bronze",
     "skeleton_type": "insect",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Mawdapted Raptora",
@@ -8334,7 +9522,8 @@ const mounts = [
     "icon": "inv_progenitorhawk_mount_dark",
     "skeleton_type": "bird",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Raptora Swooper",
@@ -8343,7 +9532,8 @@ const mounts = [
     "icon": "inv_progenitorhawk_mount_red",
     "skeleton_type": "bird",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Bronze Helicid",
@@ -8351,7 +9541,8 @@ const mounts = [
     "spell_id": 359376,
     "icon": "inv_progenitorsnail_mount_bronze",
     "skeleton_type": "snail",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Unsuccessful Prototype Fleetpod",
@@ -8359,7 +9550,8 @@ const mounts = [
     "spell_id": 359377,
     "icon": "inv_progenitorsnail_mount_gray",
     "skeleton_type": "snail",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Scarlet Helicid",
@@ -8367,7 +9559,8 @@ const mounts = [
     "spell_id": 359378,
     "icon": "inv_progenitorsnail_mount_red",
     "skeleton_type": "snail",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Genesis Crawler",
@@ -8375,7 +9568,8 @@ const mounts = [
     "spell_id": 359401,
     "icon": "inv_progenitorspidermount_blue",
     "skeleton_type": "spider",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Tarachnid Creeper",
@@ -8383,7 +9577,8 @@ const mounts = [
     "spell_id": 359402,
     "icon": "inv_progenitorspidermount_dark",
     "skeleton_type": "spider",
-    "color": "black"
+    "color": "black",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Ineffable Skitterer",
@@ -8391,7 +9586,8 @@ const mounts = [
     "spell_id": 359403,
     "icon": "inv_progenitorspidermount_red",
     "skeleton_type": "spider",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Wastewarped Deathwalker",
@@ -8399,7 +9595,8 @@ const mounts = [
     "spell_id": 359407,
     "icon": "inv_deathelementalmount_red",
     "skeleton_type": "elemental",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Divine Kiss of Ohn'ahra",
@@ -8408,7 +9605,8 @@ const mounts = [
     "icon": "inv_eagle2windmount_white",
     "skeleton_type": "bird",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Iskaara Trader's Ottuk",
@@ -8417,7 +9615,8 @@ const mounts = [
     "icon": "inv_riverotterlargemount01_black",
     "skeleton_type": "rat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Goldplate Bufonid",
@@ -8425,7 +9624,8 @@ const mounts = [
     "spell_id": 359413,
     "icon": "inv_pogenitortoadmount_blue",
     "skeleton_type": "snail",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Shimmering Aurelid",
@@ -8433,7 +9633,8 @@ const mounts = [
     "spell_id": 359379,
     "icon": "ability_mount_progenitorjellyfish_darkred",
     "skeleton_type": "fish",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Depthstalker",
@@ -8441,7 +9642,8 @@ const mounts = [
     "spell_id": 359380,
     "icon": "ability_mount_progenitorjellyfish_dark",
     "skeleton_type": "fish",
-    "color": "white"
+    "color": "white",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Cryptic Aurelid",
@@ -8449,7 +9651,8 @@ const mounts = [
     "spell_id": 359381,
     "icon": "ability_mount_progenitorjellyfish_red",
     "skeleton_type": "fish",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Carcinized Zerethsteed",
@@ -8457,7 +9660,8 @@ const mounts = [
     "spell_id": 359545,
     "icon": "inv_progenitorbotminemount",
     "skeleton_type": "mechanical",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Liberated Slyvern",
@@ -8466,7 +9670,8 @@ const mounts = [
     "icon": "inv_foxwyvernmountblack",
     "skeleton_type": "rat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Tangled Dreamweaver",
@@ -8474,7 +9679,8 @@ const mounts = [
     "spell_id": 359843,
     "icon": "4096390",
     "skeleton_type": "dragon",
-    "color": "green"
+    "color": "green",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Highland Drake",
@@ -8482,7 +9688,8 @@ const mounts = [
     "spell_id": 360954,
     "icon": "inv_companiondrake",
     "skeleton_type": "Dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Colossal Soulshredder Mawrat",
@@ -8491,7 +9698,8 @@ const mounts = [
     "icon": "inv_mawratmount_01",
     "skeleton_type": "rat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Colossal Umbrahide Mawrat",
@@ -8500,7 +9708,8 @@ const mounts = [
     "icon": "inv_mawratmount_03",
     "skeleton_type": "rat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Colossal Ebonclaw Mawrat",
@@ -8509,7 +9718,8 @@ const mounts = [
     "icon": "inv_mawratmount_05",
     "skeleton_type": "rat",
     "color": "black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Lightforged Ruinstrider",
@@ -8518,7 +9728,8 @@ const mounts = [
     "icon": "inv_lightforgedtalbuk",
     "skeleton_type": "stag",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Patient Bufonid",
@@ -8526,7 +9737,8 @@ const mounts = [
     "spell_id": 363701,
     "icon": "inv_pogenitortoadmount_dark",
     "skeleton_type": "snail",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Prototype Leaper",
@@ -8534,7 +9746,8 @@ const mounts = [
     "spell_id": 363703,
     "icon": "inv_pogenitortoadmount_darkred",
     "skeleton_type": "snail",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Russet Bufonid",
@@ -8542,7 +9755,8 @@ const mounts = [
     "spell_id": 363706,
     "icon": "inv_pogenitortoadmount_red",
     "skeleton_type": "snail",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Cosmic Gladiator's Soul Eater",
@@ -8550,7 +9764,8 @@ const mounts = [
     "spell_id": 365559,
     "icon": "inv_shadebeastmount_red",
     "skeleton_type": "dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Magenta Cloud Serpent",
@@ -8558,7 +9773,8 @@ const mounts = [
     "spell_id": 366647,
     "icon": "inv_pandarenserpentmount_purple",
     "skeleton_type": "Serpent",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Crusty Crawler",
@@ -8566,7 +9782,8 @@ const mounts = [
     "spell_id": 366789,
     "icon": "inv_crabmount_blue",
     "skeleton_type": "crocodile",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Quawks",
@@ -8575,7 +9792,8 @@ const mounts = [
     "icon": "inv_parrotmount_purple",
     "skeleton_type": "bird",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Jigglesworth Sr.",
@@ -8584,7 +9802,8 @@ const mounts = [
     "icon": "4216725",
     "skeleton_type": "cat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Ash'adar, Harbinger of Dawn",
@@ -8593,7 +9812,15 @@ const mounts = [
     "icon": "ability_nightsaber2mountsunmoon",
     "skeleton_type": "cat",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
+  },
+  {
+    "id": 1578,
+    "name": "[DND] Test Mount JZB",
+    "skeleton_type": "mechanical",
+    "color": "various",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Coral-Stalker Waveray",
@@ -8602,7 +9829,8 @@ const mounts = [
     "icon": "inv_sharkraymount_4",
     "skeleton_type": "fish",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Heartbond Lupine",
@@ -8611,7 +9839,8 @@ const mounts = [
     "icon": "inv_progenitorwolf",
     "skeleton_type": "wolf",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Nether-Gorged Greatwyrm",
@@ -8619,7 +9848,8 @@ const mounts = [
     "spell_id": 367676,
     "icon": "4323958",
     "skeleton_type": "serpent",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Savage Green Battle Turtle",
@@ -8628,7 +9858,8 @@ const mounts = [
     "icon": "inv_turtlemount2_01",
     "skeleton_type": "crocodile",
     "color": "Green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Armored Siege Kodo",
@@ -8636,7 +9867,8 @@ const mounts = [
     "spell_id": 367875,
     "icon": "inv_kodomount",
     "skeleton_type": "Kodo",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Colossal Plaguespew Mawrat",
@@ -8645,7 +9877,8 @@ const mounts = [
     "icon": "inv_mawratmount_02",
     "skeleton_type": "rat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Colossal Wraithbound Mawrat",
@@ -8654,7 +9887,8 @@ const mounts = [
     "icon": "inv_mawratmount_04",
     "skeleton_type": "rat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Armored Golden Pterrordax",
@@ -8663,7 +9897,8 @@ const mounts = [
     "icon": "inv_pterrordax2mount_gold",
     "skeleton_type": "dinosaur",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Shadowlands"
   },
   {
     "name": "Zereth Overseer",
@@ -8671,7 +9906,8 @@ const mounts = [
     "spell_id": 368158,
     "icon": "inv_progenitorbotminemount",
     "skeleton_type": "mechanical",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Winding Slitherdrake",
@@ -8679,7 +9915,8 @@ const mounts = [
     "spell_id": 368893,
     "icon": "inv_companionserpent",
     "skeleton_type": "Dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Renewed Proto-Drake",
@@ -8687,7 +9924,8 @@ const mounts = [
     "spell_id": 368896,
     "icon": "inv_companionprotodragon",
     "skeleton_type": "Dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Windborne Velocidrake",
@@ -8696,7 +9934,8 @@ const mounts = [
     "icon": "inv_companionpterrordaxdrake",
     "skeleton_type": "Dragon",
     "color": "various",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Cliffside Wylderdrake",
@@ -8704,7 +9943,8 @@ const mounts = [
     "spell_id": 368901,
     "icon": "inv_companionwyvern",
     "skeleton_type": "Dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Jade, Bright Foreseer",
@@ -8713,7 +9953,8 @@ const mounts = [
     "icon": "inv_rabbitmount",
     "skeleton_type": "bear",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Cerulean Marsh Hopper",
@@ -8721,7 +9962,8 @@ const mounts = [
     "spell_id": 369480,
     "icon": "ivn_toadloamount_blue",
     "skeleton_type": "snail",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Amalgam of Rage",
@@ -8729,7 +9971,8 @@ const mounts = [
     "spell_id": 369476,
     "icon": "inv_cerberusmount",
     "skeleton_type": "gargoyle",
-    "color": "black"
+    "color": "black",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Grimhowl",
@@ -8738,7 +9981,8 @@ const mounts = [
     "icon": "inv_darkhoundmount",
     "skeleton_type": "wolf",
     "color": "fire",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Eternal Gladiator's Soul Eater",
@@ -8746,7 +9990,8 @@ const mounts = [
     "spell_id": 370346,
     "icon": "inv_shadebeastmount_orange",
     "skeleton_type": "dragon",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Shadowlands"
   },
   {
     "name": "Elusive Emerald Hawkstrider",
@@ -8755,7 +10000,8 @@ const mounts = [
     "icon": "ability_mount_cockatricemount_green",
     "skeleton_type": "emu",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Tuskarr Shoreglider",
@@ -8764,7 +10010,8 @@ const mounts = [
     "icon": "inv_tuskarrglider",
     "skeleton_type": "kite",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Subterranean Magmammoth",
@@ -8772,7 +10019,8 @@ const mounts = [
     "spell_id": 371176,
     "icon": "inv_mammoth2lavamount_blue",
     "skeleton_type": "mammoth",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Swift Spectral Drake",
@@ -8780,7 +10028,8 @@ const mounts = [
     "spell_id": 372995,
     "icon": "inv_pterrordax2mount_white",
     "skeleton_type": "Dragon",
-    "color": "white"
+    "color": "white",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Loyal Magmammoth",
@@ -8788,7 +10037,8 @@ const mounts = [
     "spell_id": 373859,
     "icon": "inv_mammoth2lavamount_orange",
     "skeleton_type": "mammoth",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Stormtouched Bruffalon",
@@ -8797,7 +10047,8 @@ const mounts = [
     "icon": "inv_moosebullmount_dark",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Tamed Skitterfly",
@@ -8806,7 +10057,8 @@ const mounts = [
     "icon": "inv_primaldragonflymount_black",
     "skeleton_type": "insect",
     "color": "blue",
-    "secondary_color": "gray"
+    "secondary_color": "gray",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Azure Skitterfly",
@@ -8814,7 +10066,8 @@ const mounts = [
     "spell_id": 374034,
     "icon": "inv_primaldragonflymount_blue",
     "skeleton_type": "insect",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Verdant Skitterfly",
@@ -8822,7 +10075,8 @@ const mounts = [
     "spell_id": 374048,
     "icon": "inv_primaldragonflymount_green",
     "skeleton_type": "insect",
-    "color": "green"
+    "color": "green",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Bestowed Sandskimmer",
@@ -8831,7 +10085,8 @@ const mounts = [
     "icon": "inv_primaldragonflymount_yellow",
     "skeleton_type": "insect",
     "color": "orange",
-    "secondary_color": "turquoise"
+    "secondary_color": "turquoise",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Ancient Salamanther",
@@ -8840,7 +10095,8 @@ const mounts = [
     "icon": "inv_salamanderwatermount_green",
     "skeleton_type": "crocodile",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Coralscale Salamanther",
@@ -8849,7 +10105,8 @@ const mounts = [
     "icon": "inv_salamanderwatermount_pink",
     "skeleton_type": "crocodile",
     "color": "pink",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Stormhide Salamanther",
@@ -8858,7 +10115,8 @@ const mounts = [
     "icon": "inv_salamanderwatermount_purple",
     "skeleton_type": "crocodile",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Seething Slug",
@@ -8866,7 +10124,8 @@ const mounts = [
     "spell_id": 374138,
     "icon": "inv_slugmount_red",
     "skeleton_type": "snail",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Shellack",
@@ -8874,7 +10133,8 @@ const mounts = [
     "spell_id": 374155,
     "icon": "inv_snailmount_red",
     "skeleton_type": "snail",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Gooey Snailemental",
@@ -8882,7 +10142,8 @@ const mounts = [
     "spell_id": 374157,
     "icon": "inv_snailmount_blue",
     "skeleton_type": "snail",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Scrappy Worldsnail",
@@ -8890,7 +10151,8 @@ const mounts = [
     "spell_id": 374162,
     "icon": "inv_snailmount_yellow",
     "skeleton_type": "snail",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Bestowed Trawling Mammoth",
@@ -8898,7 +10160,8 @@ const mounts = [
     "spell_id": 374172,
     "icon": "inv_mammoth2mount_blue",
     "skeleton_type": "mammoth",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Mossy Mammoth",
@@ -8906,7 +10169,8 @@ const mounts = [
     "spell_id": 374194,
     "icon": "Inv_mammoth2mount_green",
     "skeleton_type": "mammoth",
-    "color": "green"
+    "color": "green",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Plainswalker Bearer",
@@ -8915,7 +10179,8 @@ const mounts = [
     "icon": "inv_mammoth2mount_orange",
     "skeleton_type": "mammoth",
     "color": "brown",
-    "secondary_color": "gray"
+    "secondary_color": "gray",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Explorer's Stonehide Packbeast",
@@ -8923,7 +10188,8 @@ const mounts = [
     "spell_id": 374204,
     "icon": "inv_thunderlizardprimal_light",
     "skeleton_type": "kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Lizi, Thunderspine Tramper",
@@ -8931,7 +10197,8 @@ const mounts = [
     "spell_id": 374247,
     "icon": "inv_thunderlizardprimal_brown",
     "skeleton_type": "kodo",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Raging Magmammoth",
@@ -8939,7 +10206,8 @@ const mounts = [
     "spell_id": 374275,
     "icon": "inv_mammoth2lavamount_red",
     "skeleton_type": "mammoth",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Renewed Magmammoth",
@@ -8947,7 +10215,8 @@ const mounts = [
     "spell_id": 374278,
     "icon": "inv_mammoth2lavamount_yellow",
     "skeleton_type": "mammoth",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Bestowed Ottuk Vanguard",
@@ -8956,7 +10225,8 @@ const mounts = [
     "icon": "inv_riverotterlargemount02_black",
     "skeleton_type": "rat",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Brown War Ottuk",
@@ -8965,7 +10235,8 @@ const mounts = [
     "icon": "inv_riverotterlargemount02_brown",
     "skeleton_type": "rat",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Otterworldly Ottuk Carrier",
@@ -8975,7 +10246,8 @@ const mounts = [
     "skeleton_type": "rat",
     "color": "ghost",
     "secondary_color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Yellow War Ottuk",
@@ -8984,7 +10256,8 @@ const mounts = [
     "icon": "inv_riverotterlargemount02_yellow",
     "skeleton_type": "rat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Otto",
@@ -8993,7 +10266,8 @@ const mounts = [
     "icon": "Inv_riverotterlargemount01_blue",
     "skeleton_type": "rat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Brown Scouting Ottuk",
@@ -9002,7 +10276,8 @@ const mounts = [
     "icon": "inv_riverotterlargemount01_brown",
     "skeleton_type": "rat",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Ivory Trader's Ottuk",
@@ -9011,7 +10286,8 @@ const mounts = [
     "icon": "inv_riverotterlargemount01_white",
     "skeleton_type": "rat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Yellow Scouting Ottuk",
@@ -9020,7 +10296,8 @@ const mounts = [
     "icon": "inv_riverotterlargemount01_yellow",
     "skeleton_type": "rat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Crimson Gladiator's Drake",
@@ -9028,7 +10305,8 @@ const mounts = [
     "spell_id": 377071,
     "icon": "inv_drake2mountgladiator",
     "skeleton_type": "Dragon",
-    "color": "red"
+    "color": "red",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Telix the Stormhorn",
@@ -9036,7 +10314,8 @@ const mounts = [
     "spell_id": 381529,
     "icon": "inv_beetleprimalmount",
     "skeleton_type": "insect",
-    "color": "green"
+    "color": "green",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Guardian Vorquin",
@@ -9045,7 +10324,8 @@ const mounts = [
     "icon": "inv_kirinmount_dark",
     "skeleton_type": "dragon",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Swift Armored Vorquin",
@@ -9054,7 +10334,8 @@ const mounts = [
     "icon": "inv_kirinmount_bronze",
     "skeleton_type": "dragon",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Armored Vorquin Leystrider",
@@ -9063,7 +10344,8 @@ const mounts = [
     "icon": "inv_kirinmount_blue",
     "skeleton_type": "dragon",
     "color": "Blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Majestic Armored Vorquin",
@@ -9072,7 +10354,8 @@ const mounts = [
     "icon": "inv_kirinmount_pale",
     "skeleton_type": "dragon",
     "color": "Red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Bestowed Ohuna Spotter",
@@ -9081,7 +10364,8 @@ const mounts = [
     "icon": "inv_eagle2windmount_sepia",
     "skeleton_type": "bird",
     "color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Duskwing Ohuna",
@@ -9090,7 +10374,8 @@ const mounts = [
     "icon": "inv_eagle2windmount_dark",
     "skeleton_type": "bird",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Zenet Hatchling",
@@ -9099,7 +10384,8 @@ const mounts = [
     "icon": "inv_eagle2windmount_red",
     "skeleton_type": "bird",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Temperamental Skyclaw",
@@ -9107,7 +10393,8 @@ const mounts = [
     "spell_id": 385738,
     "icon": "inv_foxwyvernmountred",
     "skeleton_type": "rat",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Frostbrood Proto-Wyrm",
@@ -9115,7 +10402,8 @@ const mounts = [
     "spell_id": 386452,
     "icon": "inv_protodragonfrostwyrm",
     "skeleton_type": "dragon",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Hailstorm Armoredon",
@@ -9124,7 +10412,8 @@ const mounts = [
     "icon": "inv_rhinoprimalmountice",
     "skeleton_type": "bear",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Crimson Vorquin",
@@ -9133,7 +10422,8 @@ const mounts = [
     "icon": "inv_kirinmountdracthyr_pale",
     "skeleton_type": "dragon",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Sapphire Vorquin",
@@ -9142,7 +10432,8 @@ const mounts = [
     "icon": "inv_kirinmountdracthyr_blue",
     "skeleton_type": "dragon",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Bronze Vorquin",
@@ -9151,7 +10442,8 @@ const mounts = [
     "icon": "inv_kirinmountdracthyr_bronze",
     "skeleton_type": "dragon",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Obsidian Vorquin",
@@ -9160,7 +10452,8 @@ const mounts = [
     "icon": "inv_kirinmountdracthyr_black",
     "skeleton_type": "dragon",
     "color": "black",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vicious Sabertooth",
@@ -9169,7 +10462,8 @@ const mounts = [
     "icon": "inv_vicioussabertoothalliance",
     "skeleton_type": "cat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vicious Sabertooth",
@@ -9178,7 +10472,8 @@ const mounts = [
     "icon": "inv_vicioussabertoothhorde",
     "skeleton_type": "cat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Whelpling",
@@ -9186,7 +10481,8 @@ const mounts = [
     "spell_id": 395095,
     "icon": "inv_companionprotodragon",
     "skeleton_type": "dragon",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Wondrous Wavewhisker",
@@ -9194,7 +10490,8 @@ const mounts = [
     "spell_id": 397406,
     "icon": "5059959",
     "skeleton_type": "fish",
-    "color": "pink"
+    "color": "pink",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Rocket Shredder 9001",
@@ -9202,7 +10499,8 @@ const mounts = [
     "spell_id": 400733,
     "icon": "inv_goblinshredderrocketmount",
     "skeleton_type": "mechanical",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Gleaming Moonbeast",
@@ -9211,7 +10509,16 @@ const mounts = [
     "icon": "inv_magicalowlbearmount",
     "skeleton_type": "bear",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1715,
+    "name": "Armadillo Roller",
+    "skeleton_type": "mechanical",
+    "color": "gray",
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Inferno Armoredon",
@@ -9221,7 +10528,8 @@ const mounts = [
     "skeleton_type": "bear",
     "color": "fire",
     "secondary_color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Tarecgosa's Visage",
@@ -9229,7 +10537,8 @@ const mounts = [
     "spell_id": 407555,
     "icon": "stave_2h_tarecgosa_e_01stagefinal",
     "skeleton_type": "Dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Big Slick in the City",
@@ -9238,7 +10547,8 @@ const mounts = [
     "icon": "inv_snailrockmount_pink",
     "skeleton_type": "snail",
     "color": "pink",
-    "secondary_color": "purple"
+    "secondary_color": "purple",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Igneous Shalewing",
@@ -9247,7 +10557,8 @@ const mounts = [
     "icon": "inv_sporebatrock_red",
     "skeleton_type": "fish",
     "color": "fire",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Cobalt Shalewing",
@@ -9256,7 +10567,8 @@ const mounts = [
     "icon": "inv_sporebatrock_blue",
     "skeleton_type": "fish",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Calescent Shalewing",
@@ -9265,7 +10577,8 @@ const mounts = [
     "icon": "inv_sporebatrock_yellow",
     "skeleton_type": "fish",
     "color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Shadowflame Shalewing",
@@ -9274,7 +10587,8 @@ const mounts = [
     "icon": "inv_sporebatrock_deepred",
     "skeleton_type": "fish",
     "color": "fire",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Cataloged Shalewing",
@@ -9283,7 +10597,8 @@ const mounts = [
     "icon": "inv_sporebatrock_orange",
     "skeleton_type": "fish",
     "color": "fire",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Boulder Hauler",
@@ -9292,7 +10607,8 @@ const mounts = [
     "icon": "inv_sporebatrock_stonered",
     "skeleton_type": "fish",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Sandy Shalewing",
@@ -9301,7 +10617,8 @@ const mounts = [
     "icon": "inv_sporebatrock_stoneorange",
     "skeleton_type": "fish",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Morsel Sniffer",
@@ -9310,7 +10627,8 @@ const mounts = [
     "icon": "inv_sporebatrock_stoneblack",
     "skeleton_type": "fish",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Obsidian Gladiator's Slitherdrake",
@@ -9318,7 +10636,8 @@ const mounts = [
     "spell_id": 408977,
     "icon": "inv_serpentmountgladiator",
     "skeleton_type": "Dragon",
-    "color": "black"
+    "color": "black",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vicious War Snail",
@@ -9326,7 +10645,8 @@ const mounts = [
     "spell_id": 409034,
     "icon": "inv_vicioussnail_alliance",
     "skeleton_type": "snail",
-    "color": "red"
+    "color": "red",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vicious War Snail",
@@ -9334,7 +10654,8 @@ const mounts = [
     "spell_id": 409032,
     "icon": "inv_vicioussnail_horde",
     "skeleton_type": "snail",
-    "color": "red"
+    "color": "red",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Felcrystal Scorpion",
@@ -9342,7 +10663,8 @@ const mounts = [
     "spell_id": 411565,
     "icon": "ability_mount_hordescorpiongreen",
     "skeleton_type": "crocodile",
-    "color": "green"
+    "color": "green",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Grotto Netherwing Drake",
@@ -9350,7 +10672,15 @@ const mounts = [
     "spell_id": 412088,
     "icon": "inv_companiondrake_netherwing_teal",
     "skeleton_type": "Dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1771,
+    "name": "Highland Drake",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Scarlet Pterrordax",
@@ -9359,7 +10689,8 @@ const mounts = [
     "icon": "inv_pterrordax2mount_red",
     "skeleton_type": "dinosaur",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Harbor Gryphon",
@@ -9368,7 +10699,8 @@ const mounts = [
     "icon": "inv_misc_elitegryphon",
     "skeleton_type": "Gryphon",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Valiance",
@@ -9377,7 +10709,8 @@ const mounts = [
     "icon": "ability_mount_undeadhorse",
     "skeleton_type": "horse",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "White War Wolf",
@@ -9386,7 +10719,8 @@ const mounts = [
     "icon": "ability_mount_whitedirewolf",
     "skeleton_type": "Wolf",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Ravenous Black Gryphon",
@@ -9395,7 +10729,8 @@ const mounts = [
     "icon": "inv_misc_elitegryphon",
     "skeleton_type": "gryphon",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Gold-Toed Albatross",
@@ -9404,7 +10739,8 @@ const mounts = [
     "icon": "inv_vulturemount_alabatrosswhite",
     "skeleton_type": "bird",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Felstorm Dragon",
@@ -9412,7 +10748,8 @@ const mounts = [
     "spell_id": 414326,
     "icon": "inv_stormdragonmount2_fel",
     "skeleton_type": "Dragon",
-    "color": "green"
+    "color": "green",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Sulfur Hound",
@@ -9421,7 +10758,8 @@ const mounts = [
     "icon": "ability_hunter_pet_corehound",
     "skeleton_type": "bear",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Perfected Juggernaut",
@@ -9429,7 +10767,8 @@ const mounts = [
     "spell_id": 414328,
     "icon": "ability_mount_ironjuggernautmount",
     "skeleton_type": "crocodile",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Scourgebound Vanquisher",
@@ -9437,7 +10776,8 @@ const mounts = [
     "spell_id": 414334,
     "icon": "ability_mount_redfrostwyrm_01",
     "skeleton_type": "Dragon",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Royal Swarmer",
@@ -9445,7 +10785,8 @@ const mounts = [
     "spell_id": 414986,
     "icon": "inv_aqirflyingmount_yellow",
     "skeleton_type": "insect",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Ancestral Clefthoof",
@@ -9453,7 +10794,36 @@ const mounts = [
     "spell_id": 417245,
     "icon": "inv_clefthoofdraenormount_purple",
     "skeleton_type": "kodo",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1786,
+    "name": "Renewed Proto-Drake",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1787,
+    "name": "Windborne Velocidrake",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1788,
+    "name": "Cliffside Wylderdrake",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1789,
+    "name": "Winding Slitherdrake",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Algarian Stormrider",
@@ -9462,7 +10832,8 @@ const mounts = [
     "icon": "5306251",
     "skeleton_type": "gryphon",
     "color": "various",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Pattie",
@@ -9471,7 +10842,8 @@ const mounts = [
     "icon": "inv_alpacamount_ivory",
     "skeleton_type": "stag",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Auspicious Arborwyrm",
@@ -9479,7 +10851,15 @@ const mounts = [
     "spell_id": 418286,
     "icon": "5140802",
     "skeleton_type": "dragon",
-    "color": "green"
+    "color": "green",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1796,
+    "name": "Whelpling",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Ginormous Grrloc",
@@ -9487,7 +10867,8 @@ const mounts = [
     "spell_id": 419567,
     "icon": "inv_murlocmount_purple",
     "skeleton_type": "gargoyle",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Azure Worldchiller",
@@ -9495,7 +10876,8 @@ const mounts = [
     "spell_id": 420097,
     "icon": "5260432",
     "skeleton_type": "dragon",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Eve's Ghastly Rider",
@@ -9504,7 +10886,8 @@ const mounts = [
     "icon": "inv_broommount2_red",
     "skeleton_type": "kite",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Verdant Armoredon",
@@ -9514,7 +10897,8 @@ const mounts = [
     "skeleton_type": "bear",
     "color": "green",
     "secondary_color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Blossoming Dreamstag",
@@ -9523,7 +10907,8 @@ const mounts = [
     "icon": "inv_emeralddreamstagmount_green",
     "skeleton_type": "stag",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Suntouched Dreamstag",
@@ -9532,7 +10917,8 @@ const mounts = [
     "icon": "inv_emeralddreamstagmount_golden",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Rekindled Dreamstag",
@@ -9541,7 +10927,8 @@ const mounts = [
     "icon": "inv_emeralddreamstagmount_ashes",
     "skeleton_type": "stag",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Lunar Dreamstag",
@@ -9550,7 +10937,8 @@ const mounts = [
     "icon": "inv_emeralddreamstagmount_frost",
     "skeleton_type": "stag",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Runebound Firelord",
@@ -9558,7 +10946,8 @@ const mounts = [
     "spell_id": 424009,
     "icon": "5332199",
     "skeleton_type": "elemental",
-    "color": "fire"
+    "color": "fire",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Mimiron's Jumpjets",
@@ -9566,7 +10955,8 @@ const mounts = [
     "spell_id": 424082,
     "icon": "inv_hunterkillershipblue",
     "skeleton_type": "mechanical",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Shadow Dusk Dreamsaber",
@@ -9575,7 +10965,8 @@ const mounts = [
     "icon": "inv_dreamsabermount_purple",
     "skeleton_type": "cat",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Winter Night Dreamsaber",
@@ -9584,7 +10975,8 @@ const mounts = [
     "icon": "inv_dreamsabermount_blue",
     "skeleton_type": "cat",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Evening Sun Dreamsaber",
@@ -9593,7 +10985,8 @@ const mounts = [
     "icon": "inv_dreamsabermount_yellow",
     "skeleton_type": "cat",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Morning Flourish Dreamsaber",
@@ -9602,7 +10995,8 @@ const mounts = [
     "icon": "inv_dreamsabermount_green",
     "skeleton_type": "cat",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Anu'relos, Flame's Guidance",
@@ -9612,7 +11006,8 @@ const mounts = [
     "skeleton_type": "bird",
     "color": "fire",
     "secondary_color": "yellow",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vicious Moonbeast",
@@ -9621,7 +11016,8 @@ const mounts = [
     "icon": "inv_viciousowlbearmountalliance",
     "skeleton_type": "bear",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vicious Moonbeast",
@@ -9630,7 +11026,8 @@ const mounts = [
     "icon": "inv_viciousowlbearmounthorde",
     "skeleton_type": "bear",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Draconic Gladiator's Drake",
@@ -9638,7 +11035,17 @@ const mounts = [
     "spell_id": 424539,
     "icon": "inv_drake2mountgladiator_purple",
     "skeleton_type": "Dragon",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1824,
+    "name": "Brown-Furred Spiky Bakar",
+    "skeleton_type": "wolf",
+    "color": "brown",
+    "secondary_color": "",
+    "is_small": "false",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Taivan",
@@ -9647,7 +11054,8 @@ const mounts = [
     "icon": "inv_dogprimalmount",
     "skeleton_type": "wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Flourishing Whimsydrake",
@@ -9655,7 +11063,8 @@ const mounts = [
     "spell_id": 425338,
     "icon": "inv_companionfaeriedragon",
     "skeleton_type": "Dragon",
-    "color": "various"
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Verdant Gladiator's Slitherdrake",
@@ -9663,7 +11072,8 @@ const mounts = [
     "spell_id": 425416,
     "icon": "inv_serpentmountgladiator_green",
     "skeleton_type": "Dragon",
-    "color": "green"
+    "color": "green",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Springtide Dreamtalon",
@@ -9672,7 +11082,8 @@ const mounts = [
     "icon": "inv_sabretoothraptormount_white",
     "skeleton_type": "dinosaur",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Ochre Dreamtalon",
@@ -9682,7 +11093,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "brown",
     "secondary_color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Snowfluff Dreamtalon",
@@ -9691,7 +11103,8 @@ const mounts = [
     "icon": "inv_sabretoothraptormount_purple",
     "skeleton_type": "dinosaur",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Delugen",
@@ -9701,7 +11114,8 @@ const mounts = [
     "skeleton_type": "rat",
     "color": "ghost",
     "secondary_color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Talont",
@@ -9711,7 +11125,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "ghost",
     "secondary_color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Stargrazer",
@@ -9721,7 +11136,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "ghost",
     "secondary_color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Crimson Glimmerfur",
@@ -9730,7 +11146,8 @@ const mounts = [
     "icon": "inv_fox2_darkred",
     "skeleton_type": "rat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Mammyth",
@@ -9739,7 +11156,8 @@ const mounts = [
     "icon": "inv_mammoth2lavamount_orange",
     "skeleton_type": "mammoth",
     "color": "ghost",
-    "secondary_color": "green"
+    "secondary_color": "green",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Imagiwing",
@@ -9749,7 +11167,8 @@ const mounts = [
     "skeleton_type": "fish",
     "color": "ghost",
     "secondary_color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Salatrancer",
@@ -9758,7 +11177,8 @@ const mounts = [
     "icon": "inv_salamanderwatermount_green",
     "skeleton_type": "crocodile",
     "color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Heartseeker Mana Ray",
@@ -9767,7 +11187,8 @@ const mounts = [
     "icon": "inv_manaraymount_magenta",
     "skeleton_type": "fish",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Jeweled Copper Scarab",
@@ -9775,7 +11196,17 @@ const mounts = [
     "spell_id": 428005,
     "icon": "inv_scarabmount_copper",
     "skeleton_type": "insect",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1943,
+    "name": "Incognitro, the Indecipherable Felcycle",
+    "skeleton_type": "mechanical",
+    "color": "green",
+    "secondary_color": "brown",
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Golden Regal Scarab",
@@ -9783,7 +11214,26 @@ const mounts = [
     "spell_id": 428060,
     "icon": "inv_scarabmount_gold",
     "skeleton_type": "insect",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1947,
+    "name": "Hateforged Blazecycle",
+    "skeleton_type": "mechanical",
+    "color": "red",
+    "secondary_color": "fire",
+    "is_small": "true",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1948,
+    "name": "Voidfire Deathcycle",
+    "skeleton_type": "mechanical",
+    "color": "blue",
+    "secondary_color": "purple",
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Gilnean Prowler",
@@ -9792,7 +11242,22 @@ const mounts = [
     "icon": "foxmounticon",
     "skeleton_type": "rat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1953,
+    "name": "Grotto Netherwing Drake",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "expansion": "Dragonflight"
+  },
+  {
+    "id": 1954,
+    "name": "Flourishing Whimsydrake",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Fur-endship Fox",
@@ -9801,7 +11266,8 @@ const mounts = [
     "icon": "inv_lovefoxmount_pink",
     "skeleton_type": "rat",
     "color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Soaring Sky Fox",
@@ -9811,7 +11277,8 @@ const mounts = [
     "skeleton_type": "rat",
     "color": "white",
     "secondary_color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Twilight Sky Prowler",
@@ -9820,7 +11287,8 @@ const mounts = [
     "icon": "inv_lovefoxmount_purple",
     "skeleton_type": "rat",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Compass Rose",
@@ -9829,7 +11297,8 @@ const mounts = [
     "icon": "inv_hearthstonemount",
     "skeleton_type": "kite",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Noble Flying Carpet",
@@ -9838,7 +11307,8 @@ const mounts = [
     "icon": "inv_flyingcarpet3",
     "skeleton_type": "kite",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Majestic Azure Peafowl",
@@ -9847,7 +11317,8 @@ const mounts = [
     "icon": "inv_peacockmount_blue",
     "skeleton_type": "bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "id": 2036,
@@ -9855,7 +11326,8 @@ const mounts = [
     "skeleton_type": "bird",
     "color": "fire",
     "secondary_color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Clayscale Hornstrider",
@@ -9864,7 +11336,8 @@ const mounts = [
     "icon": "inv_tallstriderprimalmount_red",
     "skeleton_type": "emu",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Savage Blue Battle Turtle",
@@ -9873,7 +11346,8 @@ const mounts = [
     "icon": "inv_turtlemount2_01",
     "skeleton_type": "crocodile",
     "color": "Blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Infinite Armoredon",
@@ -9883,7 +11357,8 @@ const mounts = [
     "skeleton_type": "bear",
     "color": "gray",
     "secondary_color": "turquoise",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vicious Dreamtalon",
@@ -9892,7 +11367,8 @@ const mounts = [
     "icon": "inv_vicioussabretoothraptor__alliance",
     "skeleton_type": "dinosaur",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Vicious Dreamtalon",
@@ -9901,7 +11377,8 @@ const mounts = [
     "icon": "inv_vicioussabretoothraptor_horde",
     "skeleton_type": "dinosaur",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "Dragonflight"
   },
   {
     "name": "Golden Discus",
@@ -9910,7 +11387,8 @@ const mounts = [
     "icon": "ability_mount_cloudmount",
     "skeleton_type": "kite",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Mogu Hazeblazer",
@@ -9919,7 +11397,8 @@ const mounts = [
     "icon": "ability_mount_cloudmount",
     "skeleton_type": "kite",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Sky Surfer",
@@ -9928,7 +11407,8 @@ const mounts = [
     "icon": "ability_mount_cloudmount",
     "skeleton_type": "kite",
     "color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Daystorm Windsteed",
@@ -9937,7 +11417,8 @@ const mounts = [
     "icon": "ability_mount_swiftwindsteed",
     "skeleton_type": "stag",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Forest Windsteed",
@@ -9946,7 +11427,8 @@ const mounts = [
     "icon": "ability_mount_swiftwindsteed",
     "skeleton_type": "stag",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Dashing Windsteed",
@@ -9955,7 +11437,8 @@ const mounts = [
     "icon": "ability_mount_swiftwindsteed",
     "skeleton_type": "stag",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Feathered Windsurfer",
@@ -9964,7 +11447,8 @@ const mounts = [
     "icon": "ability_mount_pandarenkitemount_yellow",
     "skeleton_type": "kite",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Guardian Quilen",
@@ -9973,7 +11457,8 @@ const mounts = [
     "icon": "ability_mount_quilenmount",
     "skeleton_type": "wolf",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Marble Quilen",
@@ -9982,7 +11467,8 @@ const mounts = [
     "icon": "ability_mount_quilenmount",
     "skeleton_type": "wolf",
     "color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Gilded Riding Crane",
@@ -9991,7 +11477,8 @@ const mounts = [
     "icon": "ability_mount_cranemountblue",
     "skeleton_type": "emu",
     "color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Pale Riding Crane",
@@ -10000,7 +11487,8 @@ const mounts = [
     "icon": "ability_mount_cranemountblue",
     "skeleton_type": "emu",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Rose Riding Crane",
@@ -10009,7 +11497,8 @@ const mounts = [
     "icon": "ability_mount_cranemountblue",
     "skeleton_type": "emu",
     "color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Silver Riding Crane",
@@ -10018,7 +11507,8 @@ const mounts = [
     "icon": "ability_mount_cranemountblue",
     "skeleton_type": "emu",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Luxurious Riding Crane",
@@ -10028,7 +11518,8 @@ const mounts = [
     "skeleton_type": "emu",
     "color": "blue",
     "secondary_color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Tropical Riding Crane",
@@ -10037,7 +11528,8 @@ const mounts = [
     "icon": "ability_mount_cranemountblue",
     "skeleton_type": "emu",
     "color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Snowy Riding Goat",
@@ -10046,7 +11538,8 @@ const mounts = [
     "icon": "ability_mount_goatmount",
     "skeleton_type": "rat",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Little Red Riding Goat",
@@ -10055,7 +11548,8 @@ const mounts = [
     "icon": "ability_mount_goatmountdark_red",
     "skeleton_type": "rat",
     "color": "Red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Bloody Skyscreamer",
@@ -10064,7 +11558,8 @@ const mounts = [
     "icon": "ability_mount_pterodactylmount",
     "skeleton_type": "dinosaur",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP remix"
   },
   {
     "name": "Night Pterrorwing",
@@ -10074,7 +11569,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "blue",
     "secondary_color": "green",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP remix"
   },
   {
     "name": "Jade Pterrordax",
@@ -10084,7 +11580,8 @@ const mounts = [
     "skeleton_type": "dinosaur",
     "color": "green",
     "secondary_color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP remix"
   },
   {
     "name": "Cobalt Juggernaut",
@@ -10092,7 +11589,8 @@ const mounts = [
     "spell_id": 435149,
     "icon": "ability_mount_ironjuggernautmount",
     "skeleton_type": "crocodile",
-    "color": "blue"
+    "color": "blue",
+    "expansion": "MoP remix"
   },
   {
     "name": "Fel Iron Juggernaut",
@@ -10100,7 +11598,8 @@ const mounts = [
     "spell_id": 435150,
     "icon": "ability_mount_ironjuggernautmount",
     "skeleton_type": "crocodile",
-    "color": "green"
+    "color": "green",
+    "expansion": "MoP remix"
   },
   {
     "name": "Purple Shado-Pan Riding Tiger",
@@ -10109,7 +11608,8 @@ const mounts = [
     "icon": "ability_mount_siberiantigermount",
     "skeleton_type": "cat",
     "color": "Purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Riverwalker Mushan",
@@ -10118,7 +11618,8 @@ const mounts = [
     "icon": "inv_mushanbeastmountblack",
     "skeleton_type": "kodo",
     "color": "black",
-    "secondary_color": "blue"
+    "secondary_color": "blue",
+    "expansion": "MoP remix"
   },
   {
     "name": "Palehide Mushan Beast",
@@ -10126,7 +11627,8 @@ const mounts = [
     "spell_id": 435161,
     "icon": "inv_mushanbeastmount",
     "skeleton_type": "kodo",
-    "color": "green"
+    "color": "green",
+    "expansion": "MoP remix"
   },
   {
     "name": "Polly Roger",
@@ -10135,7 +11637,8 @@ const mounts = [
     "icon": "inv_parrotpiratemount_blue",
     "skeleton_type": "bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "MoP remix"
   },
   {
     "name": "Voyaging Wilderling",
@@ -10144,7 +11647,8 @@ const mounts = [
     "icon": "inv_wolfserpentmount2",
     "skeleton_type": "serpent",
     "color": "purple",
-    "secondary_color": "turquoise"
+    "secondary_color": "turquoise",
+    "expansion": "MoP remix"
   },
   {
     "name": "Zovaal's Soul Eater",
@@ -10152,7 +11656,16 @@ const mounts = [
     "spell_id": 440444,
     "icon": "inv_shadebeastmount_gray",
     "skeleton_type": "dragon",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "MoP remix"
+  },
+  {
+    "id": 2115,
+    "name": "Soar",
+    "skeleton_type": "dragon",
+    "color": "various",
+    "is_small": "true",
+    "expansion": "MoP remix"
   },
   {
     "name": "Remembered Golden Gryphon",
@@ -10162,7 +11675,8 @@ const mounts = [
     "skeleton_type": "gryphon",
     "color": "ghost",
     "secondary_color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Remembered Wind Rider",
@@ -10172,7 +11686,8 @@ const mounts = [
     "skeleton_type": "cat",
     "color": "ghost",
     "secondary_color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Amber Pterrordax",
@@ -10181,7 +11696,8 @@ const mounts = [
     "icon": "ability_mount_pterodactylmount",
     "skeleton_type": "dinosaur",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Stonevault Mechsuit",
@@ -10189,7 +11705,8 @@ const mounts = [
     "spell_id": 442358,
     "icon": "inv_dwarvenmechboss",
     "skeleton_type": "mechanical",
-    "color": "gray"
+    "color": "gray",
+    "expansion": "TWW"
   },
   {
     "name": "Charming Courier",
@@ -10198,7 +11715,8 @@ const mounts = [
     "icon": "5633768",
     "skeleton_type": "bird",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "August Phoenix",
@@ -10208,7 +11726,8 @@ const mounts = [
     "skeleton_type": "bird",
     "color": "white",
     "secondary_color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Astral Emperor's Serpent",
@@ -10217,7 +11736,8 @@ const mounts = [
     "icon": "inv_celestialserpentmount_gold",
     "skeleton_type": "Serpent",
     "color": "yellow",
-    "secondary_color": "ghost"
+    "secondary_color": "ghost",
+    "expansion": "TWW"
   },
   {
     "name": "Delver's Dirigible",
@@ -10226,7 +11746,8 @@ const mounts = [
     "icon": "inv_companiondelvesairship",
     "skeleton_type": "mechanical",
     "color": "gray",
-    "secondary_color": "green"
+    "secondary_color": "green",
+    "expansion": "TWW"
   },
   {
     "name": "[PH] Goblin Surfboard - Blue",
@@ -10235,7 +11756,8 @@ const mounts = [
     "icon": "inv_goblinsurfboardmount_blue",
     "skeleton_type": "kite",
     "color": "Blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Smoldering Cinderbee",
@@ -10245,7 +11767,8 @@ const mounts = [
     "skeleton_type": "insect",
     "color": "orange",
     "secondary_color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Vicious Skyflayer",
@@ -10254,7 +11777,8 @@ const mounts = [
     "icon": "inv_viciousflyingnerubian2_horde",
     "skeleton_type": "spider",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Pearlescent Goblin Wave Shredder",
@@ -10262,7 +11786,8 @@ const mounts = [
     "spell_id": 447413,
     "icon": "inv_goblinsurfboardmount_white",
     "skeleton_type": "mechanical",
-    "color": "green"
+    "color": "green",
+    "expansion": "TWW"
   },
   {
     "name": "Crowd Pummeler 2-30",
@@ -10270,7 +11795,8 @@ const mounts = [
     "spell_id": 448186,
     "icon": "inv_dwarvenmechboss_gold",
     "skeleton_type": "mechanical",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "TWW"
   },
   {
     "name": "Machine Defense Unit 1-11",
@@ -10279,7 +11805,8 @@ const mounts = [
     "icon": "inv_dwarvenmechboss_bronze",
     "skeleton_type": "mechanical",
     "color": "brown",
-    "secondary_color": "gray"
+    "secondary_color": "gray",
+    "expansion": "TWW"
   },
   {
     "name": "Cyan Glowmite",
@@ -10289,7 +11816,8 @@ const mounts = [
     "skeleton_type": "insect",
     "color": "white",
     "secondary_color": "brown",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Soaring Meaderbee",
@@ -10298,7 +11826,8 @@ const mounts = [
     "icon": "inv_firebeemount_black",
     "skeleton_type": "insect",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Raging Cinderbee",
@@ -10307,7 +11836,8 @@ const mounts = [
     "icon": "inv_firebeemount_red",
     "skeleton_type": "insect",
     "color": "red",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Widow's Undercrawler",
@@ -10316,7 +11846,8 @@ const mounts = [
     "icon": "inv_spiderundergroundmount_red",
     "skeleton_type": "spider",
     "color": "black",
-    "secondary_color": "red"
+    "secondary_color": "red",
+    "expansion": "TWW"
   },
   {
     "name": "Heritage Undercrawler",
@@ -10324,7 +11855,8 @@ const mounts = [
     "spell_id": 448685,
     "icon": "inv_spiderundergroundmount_blue",
     "skeleton_type": "spider",
-    "color": "brown"
+    "color": "brown",
+    "expansion": "TWW"
   },
   {
     "name": "Royal Court Undercrawler",
@@ -10332,7 +11864,8 @@ const mounts = [
     "spell_id": 448689,
     "icon": "inv_spiderundergroundmount_yellow",
     "skeleton_type": "spider",
-    "color": "green"
+    "color": "green",
+    "expansion": "TWW"
   },
   {
     "name": "Alunira",
@@ -10341,7 +11874,8 @@ const mounts = [
     "icon": "inv_gryphon_air_mount_grey",
     "skeleton_type": "gryphon",
     "color": "ghost",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Aquamarine Swarmite",
@@ -10351,7 +11885,17 @@ const mounts = [
     "skeleton_type": "spider",
     "color": "turquoise",
     "secondary_color": "pink",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
+  },
+  {
+    "id": 2178,
+    "name": "Nesting Swarmite",
+    "skeleton_type": "spider",
+    "color": "white",
+    "secondary_color": "pink",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Shadowed Swarmite",
@@ -10360,7 +11904,8 @@ const mounts = [
     "icon": "inv_flyingnerubian2mount_black",
     "skeleton_type": "spider",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Swarmite Skyhunter",
@@ -10370,7 +11915,8 @@ const mounts = [
     "skeleton_type": "spider",
     "color": "purple",
     "secondary_color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Ferocious Jawcrawler",
@@ -10378,7 +11924,8 @@ const mounts = [
     "spell_id": 447957,
     "icon": "inv_caveborerwormmount_orange",
     "skeleton_type": "snail",
-    "color": "pink"
+    "color": "pink",
+    "expansion": "TWW"
   },
   {
     "name": "[PH] Blue Old God Fish Mount",
@@ -10386,7 +11933,8 @@ const mounts = [
     "spell_id": 448845,
     "icon": "inv_oldgodfishmount_blue",
     "skeleton_type": "fish",
-    "color": "Blue"
+    "color": "Blue",
+    "expansion": "TWW"
   },
   {
     "name": "Underlight Shorestalker",
@@ -10394,7 +11942,8 @@ const mounts = [
     "spell_id": 448849,
     "icon": "inv_oldgodfishmount_green",
     "skeleton_type": "fish",
-    "color": "green"
+    "color": "green",
+    "expansion": "TWW"
   },
   {
     "name": "Kah, Legend of the Deep",
@@ -10402,7 +11951,8 @@ const mounts = [
     "spell_id": 448850,
     "icon": "inv_oldgodfishmount_red",
     "skeleton_type": "fish",
-    "color": "red"
+    "color": "red",
+    "expansion": "TWW"
   },
   {
     "name": "Underlight Corrupted Behemoth",
@@ -10410,13 +11960,15 @@ const mounts = [
     "spell_id": 448851,
     "icon": "inv_oldgodfishmount_purple",
     "skeleton_type": "fish",
-    "color": "purple"
+    "color": "purple",
+    "expansion": "TWW"
   },
   {
     "id": 2190,
     "name": "Shadow of Doubt",
     "skeleton_type": "elemental",
-    "color": "black"
+    "color": "black",
+    "expansion": "TWW"
   },
   {
     "name": "Shackled Shadow",
@@ -10425,7 +11977,8 @@ const mounts = [
     "icon": "inv_shadowelementalmount_gold",
     "skeleton_type": "elemental",
     "color": "black",
-    "secondary_color": "brown"
+    "secondary_color": "brown",
+    "expansion": "TWW"
   },
   {
     "name": "Beledar's Spawn",
@@ -10434,7 +11987,8 @@ const mounts = [
     "icon": "inv_shadowelementalmount_purple",
     "skeleton_type": "elemental",
     "color": "blue",
-    "secondary_color": "purple"
+    "secondary_color": "purple",
+    "expansion": "TWW"
   },
   {
     "name": "Vermillion Imperial Lynx",
@@ -10443,7 +11997,8 @@ const mounts = [
     "icon": "inv_arathilynxmount_red",
     "skeleton_type": "cat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Dauntless Imperial Lynx",
@@ -10453,7 +12008,8 @@ const mounts = [
     "skeleton_type": "cat",
     "color": "blue",
     "secondary_color": "blue",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Kor'kron Warsaber",
@@ -10462,7 +12018,8 @@ const mounts = [
     "icon": "inv_nightsaberhordemount_red",
     "skeleton_type": "cat",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "[PH] Nightsaber Horde Mount Black",
@@ -10471,7 +12028,8 @@ const mounts = [
     "icon": "inv_nightsaberhordemount_black",
     "skeleton_type": "cat",
     "color": "Black",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "[PH] Nightsaber Horde Mount White",
@@ -10480,7 +12038,8 @@ const mounts = [
     "icon": "inv_nightsaberhordemount_white",
     "skeleton_type": "cat",
     "color": "White",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Sentinel War Wolf",
@@ -10489,7 +12048,8 @@ const mounts = [
     "icon": "inv_alliancewolfmount2_white",
     "skeleton_type": "Wolf",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "[PH] Alliance Wolf Mount",
@@ -10498,7 +12058,8 @@ const mounts = [
     "icon": "inv_alliancewolfmount2_red",
     "skeleton_type": "Wolf",
     "color": "red",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "[PH] Alliance Wolf Mount",
@@ -10507,7 +12068,8 @@ const mounts = [
     "icon": "inv_alliancewolfmount2_purple",
     "skeleton_type": "Wolf",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Wick",
@@ -10516,7 +12078,8 @@ const mounts = [
     "icon": "inv_molemount_brown",
     "skeleton_type": "rat",
     "color": "orange",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Ol' Mole Rufus",
@@ -10525,7 +12088,8 @@ const mounts = [
     "icon": "inv_molemount_dark",
     "skeleton_type": "rat",
     "color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Crimson Mudnose",
@@ -10534,7 +12098,8 @@ const mounts = [
     "icon": "inv_molemount_light",
     "skeleton_type": "rat",
     "color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Vicious Skyflayer",
@@ -10543,7 +12108,8 @@ const mounts = [
     "icon": "inv_viciousflyingnerubian2_alliance",
     "skeleton_type": "spider",
     "color": "orange",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Shale Ramolith",
@@ -10552,7 +12118,8 @@ const mounts = [
     "icon": "inv_protoramearthen_blue",
     "skeleton_type": "stag",
     "color": "green",
-    "secondary_color": "gray"
+    "secondary_color": "gray",
+    "expansion": "TWW"
   },
   {
     "name": "Slatestone Ramolith",
@@ -10560,7 +12127,8 @@ const mounts = [
     "spell_id": 449415,
     "icon": "inv_protoramearthen_grey",
     "skeleton_type": "stag",
-    "color": "green"
+    "color": "green",
+    "expansion": "TWW"
   },
   {
     "name": "Forged Gladiator's Fel Bat",
@@ -10568,7 +12136,8 @@ const mounts = [
     "spell_id": 449466,
     "icon": "inv_felbatgladiatormount_gold",
     "skeleton_type": "gargoyle",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "TWW"
   },
   {
     "name": "Sureki Skyrazor",
@@ -10577,7 +12146,8 @@ const mounts = [
     "icon": "inv_nerubianwarbeastmount_blue",
     "skeleton_type": "gargoyle",
     "color": "purple",
-    "secondary_color": "gray"
+    "secondary_color": "gray",
+    "expansion": "TWW"
   },
   {
     "name": "Siesbarg",
@@ -10586,7 +12156,8 @@ const mounts = [
     "icon": "inv_nerubianwarbeastmount_dark",
     "skeleton_type": "gargoyle",
     "color": "gray",
-    "secondary_color": "black"
+    "secondary_color": "black",
+    "expansion": "TWW"
   },
   {
     "name": "Ascendant Skyrazor",
@@ -10595,7 +12166,8 @@ const mounts = [
     "icon": "inv_nerubianwarbeastmount_white",
     "skeleton_type": "gargoyle",
     "color": "white",
-    "secondary_color": "red"
+    "secondary_color": "red",
+    "expansion": "TWW"
   },
   {
     "name": "Frayfeather Hippogryph",
@@ -10605,7 +12177,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "blue",
     "secondary_color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Amani Hunting Bear",
@@ -10615,7 +12188,8 @@ const mounts = [
     "skeleton_type": "bear",
     "color": "brown",
     "secondary_color": "green",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Ivory Goliathus",
@@ -10625,7 +12199,8 @@ const mounts = [
     "skeleton_type": "insect",
     "color": "pink",
     "secondary_color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Savage Ebony Battle Turtle",
@@ -10635,7 +12210,8 @@ const mounts = [
     "skeleton_type": "crocodile",
     "color": "black",
     "secondary_color": "fire",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Earthen Ordinant's Ramolith",
@@ -10643,7 +12219,8 @@ const mounts = [
     "spell_id": 453785,
     "icon": "inv_earthenpaladinmount",
     "skeleton_type": "stag",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "TWW"
   },
   {
     "name": "Startouched Furline",
@@ -10653,7 +12230,8 @@ const mounts = [
     "skeleton_type": "cat",
     "color": "black",
     "secondary_color": "",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Grizzly Hills Packmaster",
@@ -10662,7 +12240,8 @@ const mounts = [
     "icon": "inv_bearmountutility",
     "skeleton_type": "bear",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Plunderlord's Golden Crocolisk",
@@ -10670,7 +12249,8 @@ const mounts = [
     "spell_id": 457650,
     "icon": "inv_treasurebasiliskmount_tan",
     "skeleton_type": "crocodile",
-    "color": "green"
+    "color": "green",
+    "expansion": "TWW"
   },
   {
     "name": "Keg Leg's Radiant Crocolisk",
@@ -10678,7 +12258,8 @@ const mounts = [
     "spell_id": 457654,
     "icon": "inv_treasurebasiliskmount_green",
     "skeleton_type": "crocodile",
-    "color": "green"
+    "color": "green",
+    "expansion": "TWW"
   },
   {
     "name": "Plunderlord's Midnight Crocolisk",
@@ -10686,7 +12267,8 @@ const mounts = [
     "spell_id": 457656,
     "icon": "inv_treasurebasiliskmount_black",
     "skeleton_type": "crocodile",
-    "color": "black"
+    "color": "black",
+    "expansion": "TWW"
   },
   {
     "name": "Plunderlord's Weathered Crocolisk",
@@ -10694,7 +12276,8 @@ const mounts = [
     "spell_id": 457659,
     "icon": "inv_treasurebasiliskmount_white",
     "skeleton_type": "crocodile",
-    "color": "Red"
+    "color": "Red",
+    "expansion": "TWW"
   },
   {
     "name": "Diamond Mechsuit",
@@ -10702,7 +12285,8 @@ const mounts = [
     "spell_id": 458335,
     "icon": "inv_crystalmech_teal",
     "skeleton_type": "mechanical",
-    "color": "turquoise"
+    "color": "turquoise",
+    "expansion": "TWW"
   },
   {
     "name": "Hand of Reshkigaal",
@@ -10711,7 +12295,17 @@ const mounts = [
     "icon": "inv_mawguardhandmountwhite",
     "skeleton_type": "mechanical",
     "color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
+  },
+  {
+    "id": 2255,
+    "name": "Golden Ashes of Al'ar",
+    "skeleton_type": "bird",
+    "color": "ghost",
+    "secondary_color": "yellow",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Gigantic Grrloc",
@@ -10719,7 +12313,8 @@ const mounts = [
     "spell_id": 463025,
     "icon": "5901800",
     "skeleton_type": "gargoyle",
-    "color": "orange"
+    "color": "orange",
+    "expansion": "TWW"
   },
   {
     "name": "Coldflame Tempest",
@@ -10729,7 +12324,8 @@ const mounts = [
     "skeleton_type": "bird",
     "color": "blue",
     "secondary_color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "name": "Harmonious Salutations Bear",
@@ -10738,7 +12334,8 @@ const mounts = [
     "icon": "5905031",
     "skeleton_type": "bear",
     "color": "white",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Trader's Gilded Brutosaur",
@@ -10747,7 +12344,221 @@ const mounts = [
     "icon": "inv_misc_questionmark",
     "skeleton_type": "dinosaur",
     "color": "black",
-    "secondary_color": "orange"
+    "secondary_color": "orange",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2272,
+    "name": "Crimson Armored Growler",
+    "skeleton_type": "wolf",
+    "color": "red",
+    "secondary_color": "brown",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2274,
+    "name": "Blackwater Bonecrusher",
+    "skeleton_type": "wolf",
+    "color": "blue",
+    "secondary_color": "orange",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2276,
+    "name": "Darkfuse Chompactor",
+    "skeleton_type": "mechanical",
+    "color": "brown",
+    "secondary_color": "white",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2277,
+    "name": "Violet Armored Growler",
+    "skeleton_type": "wolf",
+    "color": "purple",
+    "secondary_color": "white",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2278,
+    "name": "Flarendo the Furious",
+    "skeleton_type": "mechanical",
+    "color": "yellow",
+    "secondary_color": "brown",
+    "is_small": "false",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2279,
+    "name": "Thunderdrum Misfire",
+    "skeleton_type": "mechanical",
+    "color": "red",
+    "secondary_color": "gray",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2280,
+    "name": "The Topskimmer Special",
+    "skeleton_type": "mechanical",
+    "color": "purple",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2281,
+    "name": "Steamwheedle Supplier",
+    "skeleton_type": "mechanical",
+    "color": "green",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2283,
+    "name": "Innovation Investigator",
+    "skeleton_type": "mechanical",
+    "color": "black",
+    "secondary_color": "red",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2284,
+    "name": "Ocher Delivery Rocket",
+    "skeleton_type": "mechanical",
+    "color": "yellow",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2286,
+    "name": "Blackwater Shredder Deluxe Mk2",
+    "skeleton_type": "mechanical",
+    "color": "blue",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2287,
+    "name": "Darkfuse Demolisher",
+    "skeleton_type": "mechanical",
+    "color": "black",
+    "secondary_color": "red",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2288,
+    "name": "Personalized Goblin S.C.R.A.P.per",
+    "skeleton_type": "mechanical",
+    "color": "green",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2289,
+    "name": "Venture Co-ordinator",
+    "skeleton_type": "mechanical",
+    "color": "yellow",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2290,
+    "name": "Asset Advocator",
+    "skeleton_type": "mechanical",
+    "color": "red",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2291,
+    "name": "Salvaged Goblin Gazillionare's Flying Machine",
+    "skeleton_type": "mechanical",
+    "color": "yellow",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2292,
+    "name": "Margin Manipulator",
+    "skeleton_type": "mechanical",
+    "color": "blue",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2293,
+    "name": "Darkfuse Spy-Eye",
+    "skeleton_type": "mechanical",
+    "color": "gray",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2294,
+    "name": "Mean Green Flying Machine",
+    "skeleton_type": "mechanical",
+    "color": "green",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2295,
+    "name": "Bilgewater Bombardier",
+    "skeleton_type": "mechanical",
+    "color": "red",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2296,
+    "name": "Delver's Gob-Trotter",
+    "skeleton_type": "mechanical",
+    "color": "various",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2298,
+    "name": "Prized Gladiator's Fel Bat",
+    "skeleton_type": "gargoyle",
+    "color": "orange",
+    "secondary_color": "",
+    "is_small": "false",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2299,
+    "name": "Vicious Electro Eel",
+    "skeleton_type": "serpent",
+    "color": "blue",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2300,
+    "name": "Vicious Electro Eel",
+    "skeleton_type": "serpent",
+    "color": "blue",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2301,
+    "name": "Unstable Rocket",
+    "skeleton_type": "mechanical",
+    "color": "red",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2302,
+    "name": "Unstable Rocket",
+    "skeleton_type": "mechanical",
+    "color": "red",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2303,
+    "name": "Violet Goblin Shredder",
+    "skeleton_type": "mechanical",
+    "color": "purple",
+    "secondary_color": "gray",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
     "name": "Chaos-Forged Gryphon",
@@ -10757,7 +12568,8 @@ const mounts = [
     "skeleton_type": "gryphon",
     "color": "white",
     "secondary_color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Chaos-Forged Hippogryph",
@@ -10767,7 +12579,8 @@ const mounts = [
     "skeleton_type": "stag",
     "color": "gray",
     "secondary_color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "ChaosForged Dreadwing",
@@ -10777,7 +12590,8 @@ const mounts = [
     "skeleton_type": "bat",
     "color": "gray",
     "secondary_color": "",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "name": "Chaos-Forged Wind Rider",
@@ -10787,7 +12601,25 @@ const mounts = [
     "skeleton_type": "cat",
     "color": "red",
     "secondary_color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2313,
+    "name": "Junkmaestro's Magnetomech",
+    "skeleton_type": "mechanical",
+    "color": "gray",
+    "secondary_color": "blue",
+    "is_small": "false",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2315,
+    "name": "Timbered Sky Snake",
+    "skeleton_type": "serpent",
+    "color": "brown",
+    "secondary_color": "turquoise",
+    "expansion": "TWW"
   },
   {
     "name": "Enchanted Spellweave Carpet",
@@ -10797,7 +12629,8 @@ const mounts = [
     "skeleton_type": "kite",
     "color": "purple",
     "secondary_color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2321,
@@ -10805,28 +12638,32 @@ const mounts = [
     "skeleton_type": "insect",
     "color": "black",
     "secondary_color": "white",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "id": 2322,
     "name": "Thrayir, Eyes of the Siren",
     "skeleton_type": "bird",
     "color": "blue",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "id": 2324,
     "name": "Hooktalon",
     "skeleton_type": "bird",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "id": 2327,
     "name": "Lunar Launcher",
     "skeleton_type": "mechanical",
     "color": "green",
-    "secondary_color": "red"
+    "secondary_color": "red",
+    "expansion": "TWW"
   },
   {
     "id": 2328,
@@ -10834,7 +12671,8 @@ const mounts = [
     "skeleton_type": "kite",
     "color": "pink",
     "secondary_color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2329,
@@ -10842,14 +12680,16 @@ const mounts = [
     "skeleton_type": "kite",
     "color": "red",
     "secondary_color": "yellow",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2330,
     "name": "Twilight Witch's Sweeper",
     "skeleton_type": "kite",
     "color": "purple",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2331,
@@ -10857,921 +12697,443 @@ const mounts = [
     "skeleton_type": "kite",
     "color": "blue",
     "secondary_color": "gray",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2332,
     "name": "The Breaker's Song",
     "skeleton_type": "mechanical",
     "color": "brown",
-    "secondary_color": "gray"
+    "secondary_color": "gray",
+    "expansion": "TWW"
   },
   {
     "id": 2333,
     "name": "Soweezi's Vintage Waveshredder",
     "skeleton_type": "mechanical",
-    "color": "yellow"
+    "color": "yellow",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2334,
+    "name": "Bronze Goblin Waveshredder",
+    "skeleton_type": "mechanical",
+    "color": "turquoise",
+    "secondary_color": "red",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2339,
     "name": "Jani's Trashpile",
     "skeleton_type": "dinosaur",
     "color": "purple",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
+  },
+  {
+    "id": 2342,
+    "name": "Meeksi Rufflefur",
+    "skeleton_type": "bear",
+    "color": "blue",
+    "secondary_color": "",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2342,
+    "name": "Meeksi Softpaw",
+    "skeleton_type": "bear",
+    "color": "gray",
+    "secondary_color": "",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2344,
+    "name": "Meeksi Rollingpaw",
+    "skeleton_type": "bear",
+    "color": "yellow",
+    "secondary_color": "red",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2345,
+    "name": "Meeksi Teatuft",
+    "skeleton_type": "bear",
+    "color": "red",
+    "secondary_color": "green",
+    "is_small": "true",
+    "expansion": "TWW"
+  },
+  {
+    "id": 2346,
+    "name": "Meeksi Brewthief",
+    "skeleton_type": "bear",
+    "color": "purple",
+    "secondary_color": "",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2347,
     "name": "Savage Alabaster Battle Turtle",
     "skeleton_type": "crocodile",
     "color": "gray",
-    "is_small": true
+    "is_small": true,
+    "expansion": "TWW"
   },
   {
     "id": 2469,
     "name": "Prismatic Snapdragon",
     "skeleton_type": "rat",
     "color": "various",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2470,
     "name": "Nightfall Skyreaver",
     "skeleton_type": "dragon",
     "color": "black",
-    "secondary_color": "gray"
+    "secondary_color": "gray",
+    "expansion": "TWW"
   },
   {
     "id": 2471,
     "name": "Ur'zul Fleshripper",
     "skeleton_type": "bear",
     "color": "pink",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
     "id": 2473,
     "name": "Broodling of Sinestra",
     "skeleton_type": "dragon",
     "color": "blue",
-    "secondary_color": "purple"
+    "secondary_color": "purple",
+    "expansion": "TWW"
   },
   {
     "id": 2474,
     "name": "Copper-Maned Quilen",
     "skeleton_type": "wolf",
     "color": "brown",
-    "is_small": "true"
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 7,
-      name: "Gray Wolf",
-      skeleton_type: "wolf",
-      color: "gray",
-      is_small: "true"
+    "id": 2476,
+    "name": "Sha Warped Cloud Serpent",
+    "skeleton_type": "serpent",
+    "color": "white",
+    "secondary_color": "black",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
-      id: 8,
-      name: "White Stallion",
-      skeleton_type: "horse",
-      color: "white",
-      is_small: "true"
+    "id": 2477,
+    "name": "Sha Warped Riding Tiger",
+    "skeleton_type": "cat",
+    "color": "white",
+    "secondary_color": "black",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 12,
-      name: "Black Wolf",
-      skeleton_type: "wolf",
-      color: "black",
-      is_small: "true"
+    "id": 2478,
+    "name": "Blazing Royal Fire Hawk",
+    "skeleton_type": "bird",
+    "color": "red",
+    "secondary_color": "fire",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
-      id: 13,
-      name: "Red Wolf",
-      skeleton_type: "wolf",
-      color: "red",
-      is_small: "true"
+    "id": 2480,
+    "name": "Crimson Shreddertank",
+    "skeleton_type": "mechanical",
+    "color": "black",
+    "secondary_color": "red",
+    "expansion": "TWW"
   },
   {
-      id: 15,
-      name: "Winter Wolf",
-      skeleton_type: "wolf",
-      color: "white",
-      is_small: "true"
+    "id": 2481,
+    "name": "Midnight Darkmoon Charger",
+    "skeleton_type": "horse",
+    "color": "green",
+    "secondary_color": "black",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 22,
-      name: "Black Ram",
-      skeleton_type: "stag",
-      color: "black",
+    "id": 2482,
+    "name": "Lively Darkmoon Charger",
+    "skeleton_type": "horse",
+    "color": "green",
+    "secondary_color": "",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 28,
-      name: "skeletal horse",
-      skeleton_type: "horse",
-      color: "white",
-      is_small: "true"
+    "id": 2483,
+    "name": "Violet Darkmoon Charger",
+    "skeleton_type": "horse",
+    "color": "purple",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 35,
-      name: "Ivory Raptor",
-      skeleton_type: "dinosaur",
-      color: "white",
-      is_small: "true"
+    "id": 2484,
+    "name": "Snowy Darkmoon Charger",
+    "skeleton_type": "horse",
+    "color": "white",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 43,
-      name: "Green Mechanostrider",
-      skeleton_type: "mechanical",
-      color: "green",
-      is_small: "true"
+    "id": 2487,
+    "name": "The Big G",
+    "skeleton_type": "mechanical",
+    "color": "gray",
+    "expansion": "TWW"
   },
   {
-      id: 70,
-      name: "Riding Kodo",
-      skeleton_type: "kodo",
-      color: "brown",
+    "id": 2488,
+    "name": "Shimmermist Free Runner",
+    "skeleton_type": "horse",
+    "color": "white",
+    "secondary_color": "purple",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 123,
-      name: "Nether Drake",
-      skeleton_type: "dragon",
-      color: "purple",
+    "id": 2489,
+    "name": "Pearlescent Butterfly",
+    "skeleton_type": "insect",
+    "color": "purple",
+    "expansion": "TWW"
   },
   {
-      id: 145,
-      name: "Blue Mechanostrider",
-      skeleton_type: "mechanical",
-      color: "blue",
-      is_small: "true"
+    "id": 2491,
+    "name": "Ruby Butterfly",
+    "skeleton_type": "insect",
+    "color": "red",
+    "secondary_color": "black",
+    "expansion": "TWW"
   },
   {
-      id: 206,
-      name: "Merciless Nether Drake",
-      skeleton_type: "dragon",
-      color: "blue",
+    "id": 2492,
+    "name": "Spring Butterfly",
+    "skeleton_type": "insect",
+    "color": "white",
+    "expansion": "TWW"
   },
   {
-      id: 222,
-      name: "Swift Zhevra",
-      skeleton_type: "horse",
-      color: "white",
-      secondary_color: "black",
-      is_small: "true"
+    "id": 2494,
+    "name": "Midnight Butterfly",
+    "skeleton_type": "insect",
+    "color": "blue",
+    "secondary_color": "purple",
+    "expansion": "TWW"
   },
   {
-      id: 225,
-      name: "Brewfest Riding Kodo",
-      skeleton_type: "kodo",
-      color: "brown",
+    "id": 2495,
+    "name": "Emerald Snail",
+    "skeleton_type": "snail",
+    "color": "green",
+    "expansion": "TWW"
   },
   {
-      id: 238,
-      name: "Swift Spectral Gryphon",
-      skeleton_type: "gryphon",
-      color: "ghost",
+    "id": 2496,
+    "name": "Void-Scarred Gryphon",
+    "skeleton_type": "gryphon",
+    "color": "blue",
+    "secondary_color": "ghost",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 251,
-      name: "Black Polar Bear",
-      skeleton_type: "bear",
-      color: "black",
+    "id": 2497,
+    "name": "Void-Forged Stallion",
+    "skeleton_type": "horse",
+    "color": "blue",
+    "secondary_color": "ghost",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 273,
-      name: "Grand Caravan Mammoth",
-      skeleton_type: "mammoth",
-      color: "brown",
+    "id": 2498,
+    "name": "Void-Scarred Pack Mother",
+    "skeleton_type": "wolf",
+    "color": "blue",
+    "secondary_color": "ghost",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 274,
-      name: "Grand Caravan Mammoth",
-      skeleton_type: "mammoth",
-      color: "brown",
+    "id": 2499,
+    "name": "Void-Scarred Windrider",
+    "skeleton_type": "wolf",
+    "color": "blue",
+    "secondary_color": "ghost",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 308,
-      name: "Blue Skeletal Warhorse",
-      skeleton_type: "horse",
-      color: "blue",
+    "id": 2500,
+    "name": "Ny'alothian Shadow Worm",
+    "skeleton_type": "serpent",
+    "color": "blue",
+    "secondary_color": "",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
-      id: 333,
-      name: "Magic Rooster",
-      skeleton_type: "emu",
-      color: "brown",
-      is_small: "true"
+    "id": 2501,
+    "name": "Corruption of the Aspects",
+    "skeleton_type": "dragon",
+    "color": "blue",
+    "secondary_color": "ghost",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
-      id: 334,
-      name: "Magic Rooster",
-      skeleton_type: "emu",
-      color: "brown",
-      is_small: "true"
+    "id": 2502,
+    "name": "Void-Crystal Panther",
+    "skeleton_type": "cat",
+    "color": "purple",
+    "secondary_color": "",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 335,
-      name: "Magic Rooster",
-      skeleton_type: "emu",
-      color: "brown",
-      is_small: "true"
+    "id": 2504,
+    "name": "Spotted Black Riding Goat",
+    "skeleton_type": "rat",
+    "color": "black",
+    "secondary_color": "",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 776,
-      name: "Swift Spectral Rylak",
-      skeleton_type: "dragon",
-      color: "ghost",
+    "id": 2507,
+    "name": "Prototype A.S.M.R.",
+    "skeleton_type": "mechanical",
+    "color": "red",
+    "secondary_color": "gray",
+    "expansion": "TWW"
   },
   {
-      id: 934,
-      name: "Swift Spectral Hippogryph",
-      skeleton_type: "stag",
-      color: "ghost",
-      is_small: "true"
+    "id": 2508,
+    "name": "Enterprising Shreddertank",
+    "skeleton_type": "mechanical",
+    "color": "black",
+    "secondary_color": "red",
+    "expansion": "TWW"
   },
   {
-      id: 935,
-      name: "Blue Qiraji War Tank",
-      skeleton_type: "insect",
-      color: "blue",
-      is_small: "true"
+    "id": 2519,
+    "name": "Radiant Imperial Lynx",
+    "skeleton_type": "cat",
+    "color": "white",
+    "secondary_color": "",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 936,
-      name: "Red Qiraji War Tank",
-      skeleton_type: "insect",
-      color: "red",
-      is_small: "true"
+    "id": 2520,
+    "name": "Spring Harvesthog",
+    "skeleton_type": "rat",
+    "color": "brown",
+    "secondary_color": "green",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 1269,
-      name: "Swift Spectral Fathom Ray",
-      skeleton_type: "fish",
-      color: "ghost",
-      is_small: "true"
+    "id": 2521,
+    "name": "Summer Harvesthog",
+    "skeleton_type": "rat",
+    "color": "white",
+    "secondary_color": "pink",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 1270,
-      name: "Swift Spectral Magnetocraft",
-      skeleton_type: "mechanical",
-      color: "ghost",
+    "id": 2522,
+    "name": "Winter Harvesthog",
+    "skeleton_type": "rat",
+    "color": "blue",
+    "secondary_color": "purple",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 1271,
-      name: "Swift Spectral Armored Gryphon",
-      skeleton_type: "gryphon",
-      color: "ghost",
+    "id": 2523,
+    "name": "Autumn Harvesthog",
+    "skeleton_type": "rat",
+    "color": "brown",
+    "secondary_color": "orange",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 1272,
-      name: "Swift Spectral Pterrordax",
-      skeleton_type: "dinosaur",
-      color: "ghost",
+    "id": 2524,
+    "name": "Coldflame Cormaera",
+    "skeleton_type": "dragon",
+    "color": "blue",
+    "secondary_color": "ghost",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
-      id: 1277,
-      name: "Honeyback Hivemother",
-      skeleton_type: "insect",
-      color: "black",
+    "id": 2526,
+    "name": "Felborn Cormaera",
+    "skeleton_type": "dragon",
+    "color": "green",
+    "secondary_color": "",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
-      id: 1578,
-      name: "[DND] Test Mount JZB",
-      skeleton_type: "mechanical",
-      color: "various",
+    "id": 2527,
+    "name": "Molten Cormaera",
+    "skeleton_type": "dragon",
+    "color": "orange",
+    "secondary_color": "fire",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
-      id: 1771,
-      name: "Highland Drake",
-      skeleton_type: "dragon",
-      color: "various",
+    "id": 2528,
+    "name": "Lavaborn Cormaera",
+    "skeleton_type": "dragon",
+    "color": "yellow",
+    "secondary_color": "",
+    "is_small": "false",
+    "expansion": "TWW"
   },
   {
-      id: 1786,
-      name: "Renewed Proto-Drake",
-      skeleton_type: "dragon",
-      color: "various",
+    "id": 2531,
+    "name": "Tyrannotort",
+    "skeleton_type": "crocodile",
+    "color": "white",
+    "secondary_color": "red",
+    "is_small": "true",
+    "expansion": "TWW"
   },
   {
-      id: 1787,
-      name: "Windborne Velocidrake",
-      skeleton_type: "dragon",
-      color: "various",
-  },
-  {
-      id: 1788,
-      name: "Cliffside Wylderdrake",
-      skeleton_type: "dragon",
-      color: "various",
-  },
-  {
-      id: 1796,
-      name: "Whelpling",
-      skeleton_type: "dragon",
-      color: "various",
-  },
-  {
-      id: 1943,
-      name: "Incognitro, the Indecipherable Felcycle",
-      skeleton_type: "mechanical",
-      color: "green",
-      secondary_color: "brown",
-      is_small: "true"
-  },
-  {
-      id: 1947,
-      name: "Hateforged Blazecycle",
-      skeleton_type: "mechanical",
-      color: "red",
-      secondary_color: "burning",
-      is_small: "true"
-  },
-  {
-      id: 1953,
-      name: "Grotto Netherwing Drake",
-      skeleton_type: "dragon",
-      color: "various"
-  },
-  {
-      id: 1954,
-      name: "Flourishing Whimsydrake",
-      skeleton_type: "dragon",
-      color: "various",
-  },
-  {
-      id: 2115,
-      name: "Soar",
-      skeleton_type: "dragon",
-      color: "various",
-      is_small: "true"
-  },
-  {
-      id: 2255,
-      name: "Golden Ashes of Al'ar",
-      skeleton_type: "bird",
-      color: "ghost",
-      secondary_color: "yellow",
-      is_small: "true"
-  },
-  {
-    id:  2288,
-    name: "Personalized Goblin S.C.R.A.P.per",
-    skeleton_type: "mechanical",
-    color: "green"
-  },
-  {
-    id: 2289,
-    name: "Venture Co-ordinator",
-    skeleton_type: "mechanical",
-    color: "yellow",
-  },
-  {
-    id: 2290,
-    name: "Asset Advocator",
-    skeleton_type: "mechanical",
-    color: "red"
-},
-{
-  id: 2291,
-  name: "Salvaged Goblin Gazillionare's Flying Machine",
-  skeleton_type: "mechanical",
-  color: "yellow",
-},
-{
-  id: 2292,
-  name: "Margin Manipulator",
-  skeleton_type: "mechanical",
-  color: "blue"
-},
-{
-  id: 2293,
-  name: "Darkfuse Spy-Eye",
-  skeleton_type: "mechanical",
-  color: "gray",
-},
-{
-  id: 2294,
-  name: "Mean Green Flying Machine",
-  skeleton_type: "mechanical",
-  color: "green",
-},
-{
-  id: 2295,
-  name: "Bilgewater Bombardier",
-  skeleton_type: "mechanical",
-  color: "red",
-},
-{
-  id: 2296,
-  name: "Delver's Gob-Trotter",
-  skeleton_type: "mechanical",
-  color: "various"
-},
-{
-  id: 2299,
-  name: "Vicious Electro Eel",
-  skeleton_type: "serpent",
-  color: "blue",
-},
-{
-  id: 2300,
-  name: "Vicious Electro Eel",
-  skeleton_type: "serpent",
-  color: "blue",
-},
-{
-  id: 2301,
-  name: "Unstable Rocket",
-  skeleton_type: "mechanical",
-  color: "red",
-  is_small: "true"
-},
-{
-  id: 2302,
-  name: "Unstable Rocket",
-  skeleton_type: "mechanical",
-  color: "red",
-  is_small: "true"
-},
-{
-  id: 2334,
-  name: "Bronze Goblin Waveshredder",
-  skeleton_type: "mechanical",
-  color: "turquoise",
-  secondary_color: "red",
-  is_small: "true"
-},
-{
-  id: 2480,
-  name: "Crimson Shreddertank",
-  skeleton_type: "mechanical",
-  color: "black",
-  secondary_color: "red"
-},
-{
-  id: 2481,
-  name: "Midnight Darkmoon Charger",
-  skeleton_type: "horse",
-  color: "green",
-  secondary_color: "black",
-  is_small: "true"
-},
-{
-  id: 2482,
-  name: "Lively Darkmoon Charger",
-  skeleton_type: "horse",
-  color: "green",
-  secondary_color: "",
-  is_small: "true"
-},
-{
-  id: 2483,
-  name: "Violet Darkmoon Charger",
-  skeleton_type: "horse",
-  color: "purple",
-  is_small: "true"
-},
-{
-  id: 2484,
-  name: "Snowy Darkmoon Charger",
-  skeleton_type: "horse",
-  color: "white",
-  is_small: "true"
-},
-{
-  id: 2487,
-  name: "The Big G",
-  skeleton_type: "mechanical",
-  color: "gray"
-},
-{
-  id: 2488,
-  name: "Shimmermist Free Runner",
-  skeleton_type: "horse",
-  color: "white",
-  secondary_color: "purple",
-  is_small: "true"
-},
-{
-  id: 2489,
-  name: "Pearlescent Butterfly",
-  skeleton_type: "insect",
-  color: "purple",
-},
-{
-  id: 2491,
-  name: "Ruby Butterfly",
-  skeleton_type: "insect",
-  color: "red",
-  secondary_color: "black",
-},
-{
-  id: 2492,
-  name: "Spring Butterfly",
-  skeleton_type: "insect",
-  color: "white"
-},
-{
-  id: 2494,
-  name: "Midnight Butterfly",
-  skeleton_type: "insect",
-  color: "blue",
-  secondary_color: "purple"
-},
-{
-  id: 2495,
-  name: "Emerald Snail",
-  skeleton_type: "snail",
-  color: "green",
-},
-{
-  id: 2507,
-  name: "Prototype A.S.M.R.",
-  skeleton_type: "mechanical",
-  color: "red",
-  secondary_color: "gray"
-},
-{
-  id: 2508,
-  name: "Enterprising Shreddertank",
-  skeleton_type: "mechanical",
-  color: "black",
-  secondary_color: "red"
-},
-{
-  id: 1789,
-  name: "Winding Slitherdrake",
-  skeleton_type: "dragon",
-  color: "various",
-},
-{
-  id: 2272,
-  name: "Crimson Armored Growler",
-  skeleton_type: "wolf",
-  color: "red",
-  secondary_color: "brown",
-  is_small: "true"
-},
-{
-  id: 2274,
-  name: "Blackwater Bonecrusher",
-  skeleton_type: "wolf",
-  color: "blue",
-  secondary_color: "orange",
-  is_small: "true"
-},
-{
-  id: 2277,
-  name: "Violet Armored Growler",
-  skeleton_type: "wolf",
-  color: "purple",
-  secondary_color: "white",
-  is_small: "true"
-},
-{
-  id: 2280,
-  name: "The Topskimmer Special",
-  skeleton_type: "mechanical",
-  color: "purple",
-  is_small: "true"
-},
-{
-  id: 2281,
-  name: "Steamwheedle Supplier",
-  skeleton_type: "mechanical",
-  color: "green",
-  is_small: "true"
-},
-{
-  id: 2283,
-  name: "Innovation Investigator",
-  skeleton_type: "mechanical",
-  color: "black",
-  secondary_color: "red",
-  is_small: "true"
-},
-{
-  id: 2284,
-  name: "Ocher Delivery Rocket",
-  skeleton_type: "mechanical",
-  color: "yellow",
-  is_small: "true"
-},
-{
-  id: 2286,
-  name: "Blackwater Shredder Deluxe Mk2",
-  skeleton_type: "mechanical",
-  color: "blue"
-},
-{
-  id: 2287,
-  name: "Darkfuse Demolisher",
-  skeleton_type: "mechanical",
-  color: "black",
-  secondary_color: "red",
-},
-{
-  id: 2315,
-  name: "Timbered Sky Snake",
-  skeleton_type: "serpent",
-  color: "brown",
-  secondary_color: "turquoise"
-},
-{
-  id: 2276,
-  name: "Darkfuse Chompactor",
-  skeleton_type: "mechanical",
-  color: "brown",
-  secondary_color: "white",
-  is_small: "true"
-},
-{
-  id: 1715,
-  name: "Armadillo Roller",
-  skeleton_type: "mechanical",
-  color: "gray",
-  is_small: "true"
-},
-{
-  id: 2476,
-  name: "Sha Warped Cloud Serpent",
-  skeleton_type: "serpent",
-  color: "white",
-  secondary_color: "black",
-  is_small: "false"
-},
-{
-  id: 2477,
-  name: "Sha Warped Riding Tiger",
-  skeleton_type: "cat",
-  color: "white",
-  secondary_color: "black",
-  is_small: "true"
-},
-{
-  id: 2478,
-  name: "Blazing Royal Fire Hawk",
-  skeleton_type: "bird",
-  color: "red",
-  secondary_color: "fire",
-  is_small: "false"
-},
-{
-  id: 1824,
-  name: "Brown-Furred Spiky Bakar",
-  skeleton_type: "wolf",
-  color: "brown",
-  secondary_color: "",
-  is_small: "false"
-},
-{
-  id: 1948,
-  name: "Voidfire Deathcycle",
-  skeleton_type: "mechanical",
-  color: "blue",
-  secondary_color: "purple",
-  is_small: "true"
-},
-{
-  id: 2178,
-  name: "Nesting Swarmite",
-  skeleton_type: "spider",
-  color: "white",
-  secondary_color: "pink",
-  is_small: "true"
-},
-{
-  id: 2278,
-  name: "Flarendo the Furious",
-  skeleton_type: "mechanical",
-  color: "yellow",
-  secondary_color: "brown",
-  is_small: "false"
-},
-{
-  id: 2279,
-  name: "Thunderdrum Misfire",
-  skeleton_type: "mechanical",
-  color: "red",
-  secondary_color: "gray",
-  is_small: "true"
-},
-{
-  id: 2298,
-  name: "Prized Gladiator's Fel Bat",
-  skeleton_type: "gargoyle",
-  color: "orange",
-  secondary_color: "",
-  is_small: "false"
-},
-{
-  id: 2303,
-  name: "Violet Goblin Shredder",
-  skeleton_type: "mechanical",
-  color: "purple",
-  secondary_color: "gray",
-  is_small: "false"
-},
-{
-  id: 2313,
-  name: "Junkmaestro's Magnetomech",
-  skeleton_type: "mechanical",
-  color: "gray",
-  secondary_color: "blue",
-  is_small: "false"
-},
-{
-  id: 2342,
-  name: "Meeksi Rufflefur",
-  skeleton_type: "bear",
-  color: "blue",
-  secondary_color: "",
-  is_small: "true"
-},
-{
-  id: 2342,
-  name: "Meeksi Softpaw",
-  skeleton_type: "bear",
-  color: "gray",
-  secondary_color: "",
-  is_small: "true"
-},
-{
-  id: 2344,
-  name: "Meeksi Rollingpaw",
-  skeleton_type: "bear",
-  color: "yellow",
-  secondary_color: "red",
-  is_small: "true"
-},
-{
-  id: 2345,
-  name: "Meeksi Teatuft",
-  skeleton_type: "bear",
-  color: "red",
-  secondary_color: "green",
-  is_small: "true"
-},
-{
-  id: 2346,
-  name: "Meeksi Brewthief",
-  skeleton_type: "bear",
-  color: "purple",
-  secondary_color: "",
-  is_small: "true"
-},
-{
-  id: 2496,
-  name: "Void-Scarred Gryphon",
-  skeleton_type: "gryphon",
-  color: "blue",
-  secondary_color: "ghost",
-  is_small: "true"
-},
-{
-  id: 2497,
-  name: "Void-Forged Stallion",
-  skeleton_type: "horse",
-  color: "blue",
-  secondary_color: "ghost",
-  is_small: "true"
-},
-{
-  id: 2498,
-  name: "Void-Scarred Pack Mother",
-  skeleton_type: "wolf",
-  color: "blue",
-  secondary_color: "ghost",
-  is_small: "true"
-},
-{
-  id: 2499,
-  name: "Void-Scarred Windrider",
-  skeleton_type: "wolf",
-  color: "blue",
-  secondary_color: "ghost",
-  is_small: "true"
-},
-{
-  id: 2500,
-  name: "Ny'alothian Shadow Worm",
-  skeleton_type: "serpent",
-  color: "blue",
-  secondary_color: "",
-  is_small: "false"
-},
-{
-  id: 2501,
-  name: "Corruption of the Aspects",
-  skeleton_type: "dragon",
-  color: "blue",
-  secondary_color: "ghost",
-  is_small: "false"
-},
-{
-  id: 2502,
-  name: "Void-Crystal Panther",
-  skeleton_type: "cat",
-  color: "purple",
-  secondary_color: "",
-  is_small: "true"
-},
-{
-  id: 2504,
-  name: "Spotted Black Riding Goat",
-  skeleton_type: "rat",
-  color: "black",
-  secondary_color: "",
-  is_small: "true"
-},
-{
-  id: 2519,
-  name: "Radiant Imperial Lynx",
-  skeleton_type: "cat",
-  color: "white",
-  secondary_color: "",
-  is_small: "true"
-},
-{
-  id: 2520,
-  name: "Spring Harvesthog",
-  skeleton_type: "rat",
-  color: "brown",
-  secondary_color: "green",
-  is_small: "true"
-},
-{
-  id: 2521,
-  name: "Summer Harvesthog",
-  skeleton_type: "rat",
-  color: "white",
-  secondary_color: "pink",
-  is_small: "true"
-},
-{
-  id: 2522,
-  name: "Winter Harvesthog",
-  skeleton_type: "rat",
-  color: "blue",
-  secondary_color: "purple",
-  is_small: "true"
-},
-{
-  id: 2523,
-  name: "Autumn Harvesthog",
-  skeleton_type: "rat",
-  color: "brown",
-  secondary_color: "orange",
-  is_small: "true"
-},
-{
-  id: 2524,
-  name: "Coldflame Cormaera",
-  skeleton_type: "dragon",
-  color: "blue",
-  secondary_color: "ghost",
-  is_small: "false"
-},
-{
-  id: 2526,
-  name: "Felborn Cormaera",
-  skeleton_type: "dragon",
-  color: "green",
-  secondary_color: "",
-  is_small: "false"
-},
-{
-  id: 2527,
-  name: "Molten Cormaera",
-  skeleton_type: "dragon",
-  color: "orange",
-  secondary_color: "fire",
-  is_small: "false"
-},
-{
-  id:2528 ,
-  name: "Lavaborn Cormaera",
-  skeleton_type: "dragon",
-  color: "yellow",
-  secondary_color: "",
-  is_small: "false"
-},
-{
-  id: 2531,
-  name: "Tyrannotort",
-  skeleton_type: "crocodile",
-  color: "white",
-  secondary_color: "red",
-  is_small: "true"
-},
-{
-  id: 2535,
-  name: "Void-Scarred Lynx",
-  skeleton_type: "cat",
-  color: "blue",
-  secondary_color: "ghost",
-  is_small: "true"
-},
-
-
-
+    "id": 2535,
+    "name": "Void-Scarred Lynx",
+    "skeleton_type": "cat",
+    "color": "blue",
+    "secondary_color": "ghost",
+    "is_small": "true",
+    "expansion": "TWW"
+  }
 ]
 
 /*

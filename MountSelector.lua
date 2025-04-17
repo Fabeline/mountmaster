@@ -19,6 +19,12 @@ UIDropDownMenu_SetWidth(skeletonDropdown, 120)
 skeletonDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
 UIDropDownMenu_Initialize(skeletonDropdown, initializeSkeletonDropdown)
 
+-- Create a dropdown menu for filtering by expansion
+expansionDropdown = CreateFrame("FRAME", "ExpansionFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
+UIDropDownMenu_SetWidth(expansionDropdown, 120)
+expansionDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -95)
+UIDropDownMenu_Initialize(expansionDropdown, initializeExpansionDropdown)
+
 function createAndDragMacro(macroName, macroBody, macroIcon)
     -- Check if the macro already exists
     local macroIndex = GetMacroIndexByName(macroName)
@@ -36,7 +42,6 @@ function createAndDragMacro(macroName, macroBody, macroIcon)
         PickupMacro(macroIndex)
     end
 end
-
 
 -- Reusable function to set up a macro button
 function createMacroButton(parentFrame, size, position, iconPath, tooltipText, macroName, macroBody, macroIcon)
@@ -66,25 +71,25 @@ end
 
 -- Create buttons for both macros
 normalMacroButton = createMacroButton(
-    mountSelectorFrame, -- Parent frame
-    30,                 -- Button size
-    {"TOP", mountSelectorFrame, "TOP", -14, -37}, -- Position
-    "Interface\\Icons\\Ability_Mount_RidingHorse", -- Icon path
-    "Create Summon Macro", -- Tooltip text
-    "RMS",              -- Macro name
-    "/rms summon",      -- Macro body
-    "Ability_Mount_RidingHorse" -- Macro icon
+    mountSelectorFrame,                             -- Parent frame
+    30,                                             -- Button size
+    { "TOP", mountSelectorFrame, "TOP", -14, -37 }, -- Position
+    "Interface\\Icons\\Ability_Mount_RidingHorse",  -- Icon path
+    "Create Summon Macro",                          -- Tooltip text
+    "RMS",                                          -- Macro name
+    "/rms summon",                                  -- Macro body
+    "Ability_Mount_RidingHorse"                     -- Macro icon
 )
 
 swimMacroButton = createMacroButton(
-    mountSelectorFrame, -- Parent frame
-    30,                 -- Button size
-    {"TOP", mountSelectorFrame, "TOP", 23, -37}, -- Position
-    "Interface\\Icons\\inv_stingray2mount_teal", -- Icon path
-    "Create Summon Swim Macro", -- Tooltip text
-    "SWM",              -- Macro name
-    "/rms summonswim",  -- Macro body
-    "inv_stingray2mount_teal" -- Macro icon
+    mountSelectorFrame,                            -- Parent frame
+    30,                                            -- Button size
+    { "TOP", mountSelectorFrame, "TOP", 23, -37 }, -- Position
+    "Interface\\Icons\\inv_stingray2mount_teal",   -- Icon path
+    "Create Summon Swim Macro",                    -- Tooltip text
+    "SWM",                                         -- Macro name
+    "/rms summonswim",                             -- Macro body
+    "inv_stingray2mount_teal"                      -- Macro icon
 )
 
 -- Enable the frame to be movable
@@ -109,8 +114,9 @@ mountSelectorFrame.TitleBg:SetScript("OnMouseUp", function(self)
 end)
 
 -- Create a scroll frame to hold the mount buttons
-mountSelectorScrollFrame = CreateFrame("ScrollFrame", "MountSelectorScrollFrame", mountSelectorFrame, "UIPanelScrollFrameTemplate")
-mountSelectorScrollFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -110)
+mountSelectorScrollFrame = CreateFrame("ScrollFrame", "MountSelectorScrollFrame", mountSelectorFrame,
+    "UIPanelScrollFrameTemplate")
+mountSelectorScrollFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -130)
 mountSelectorScrollFrame:SetPoint("BOTTOMRIGHT", mountSelectorFrame, "BOTTOMRIGHT", -30, 40)
 
 local function printHelp()
@@ -128,13 +134,13 @@ end
 
 
 function SlashCmdList.RMS(msg, editBox)
-    if msg == "summon" then -- /rms summon - will summon a random mount
+    if msg == "summon" then         -- /rms summon - will summon a random mount
         summonRandomMount(false)
     elseif msg == "summonswim" then -- /rms summonswim - will summon a random swimming mount
         summonRandomMount(true)
-    elseif msg == "minimap" then --/rms minimap - will toggle minimap button
+    elseif msg == "minimap" then    --/rms minimap - will toggle minimap button
         toggleMinimap()
-    elseif msg == "help" then --/rms help - will display help message
+    elseif msg == "help" then       --/rms help - will display help message
         printHelp()
     else
         if not MountSelectorFrame:IsShown() then -- /rms - will toggle the mount selector window

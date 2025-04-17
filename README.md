@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.4.1
+- Added support for filtering by expansions
+
 ### ver 1.4.0
 - Added new mounts for patch 11.5.0
 - Added favorite icons next to mount names

@@ -3,6 +3,7 @@ local function InitializeConfig()
         MountSelectorCharacterConfig = {
             colors = getAllColors(),
             types = getAllTypes(),
+            expansions = getAllExpansions(),
             summonKey = "k",
             useOnlyFavourites = false
         }
@@ -11,6 +12,7 @@ local function InitializeConfig()
     summonKey = MountSelectorCharacterConfig.summonKey or "k"
     selectedColors = MountSelectorCharacterConfig.colors or {}
     selectedTypes = MountSelectorCharacterConfig.types or {}
+    selectedExpansions = MountSelectorCharacterConfig.expansions or {}
     useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
     smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
 end
@@ -28,6 +30,10 @@ function saveSelectedTypes(types)
     MountSelectorCharacterConfig.types = types
 end
 
+function saveSelectedExpansions(expansions)
+    MountSelectorCharacterConfig.expansions = expansions
+end
+
 function saveUseOnlyFavourites(shouldUse)
     MountSelectorCharacterConfig.useOnlyFavourites = shouldUse
     useOnlyFavourites = shouldUse
@@ -42,8 +48,8 @@ local function OnEvent(self, event, ...)
     if event == "ADDON_LOADED" then
         local addonName = ...
         if addonName == "Ruthes_MountSelector" then
-            print("|cffff9900Ruthe's Mount Selector loaded - |cffffff00To see available commands, type: |r|cff00ff00/rms help|r")            
-            
+            print(
+                "|cffff9900Ruthe's Mount Selector loaded - |cffffff00To see available commands, type: |r|cff00ff00/rms help|r")
         end
     elseif event == "PLAYER_LOGIN" then
         InitializeConfig()
@@ -51,6 +57,7 @@ local function OnEvent(self, event, ...)
         loadSummoningKey()
         UIDropDownMenu_SetText(skeletonDropdown, "Select types")
         UIDropDownMenu_SetText(colorDropdown, "Select colors")
+        UIDropDownMenu_SetText(expansionDropdown, "Select expansions")
 
         -- Some functions may not have been loaded yet
         local maxRetries = 10

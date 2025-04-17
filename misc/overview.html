@@ -72,6 +72,74 @@
         return mount;
     })]; // Copy of the mount data to track changes
 
+    const expansionsMountIds = [
+        {
+            name: "TWW",
+            startId: 2116
+        },
+        {
+            name: "MoP remix",
+            startId: 2060
+        },
+        {
+            name: "Dragonflight",
+            startId: 1467
+        },
+        {
+            name: "Shadowlands",
+            startId: 1298
+        },
+        {
+            name: "BFA",
+            startId: 993
+        },
+        {
+            name: "Legion",
+            startId: 656
+        },
+        {
+            name: "WoD",
+            startId: 607
+        },
+        {
+            name: "MoP",
+            startId: 448
+        },
+        {
+            name: "Cataclysm",
+            startId: 367
+        },
+        {
+            name: "WotLK",
+            startId: 236
+        },
+        {
+            name: "TBC",
+            startId: 146
+        },
+        {
+            name: "Classic",
+            startId: 0
+        }
+    ]
+
+
+    //dragonflight: 1468, 1469
+
+    const variations = [
+        "ghost",
+        "burning",
+        "mechanical",
+        "skeletal",
+        "armored",
+        "with saddle",
+        "With banner",
+        "scary",
+        "cute",
+        "pretty",
+        "silly",
+    ]
+
     const availableColors = {
         "": "", // For no secondary color
         "black": [200, 200, 200],
@@ -199,6 +267,39 @@
         return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
     }
 
+    function getAllColors() {
+        html = "<ul>";
+
+        const colors = [];
+        mounts.forEach(mount => {
+            if (!colors.includes(mount.color.toLocaleLowerCase())) {
+                colors.push(mount.color.toLocaleLowerCase());
+            }
+            if (mount.secondary_color && !colors.includes(mount.secondary_color.toLocaleLowerCase())) {
+                colors.push(mount.secondary_color.toLocaleLowerCase());
+            }
+        });
+
+        html += colors.map(c => "<li>" + c + "</li>").join('');
+        html += "</ul>";
+        return html;
+    }
+
+    function gettAllSkeletonTypes() {
+        html = "<ul>";
+
+        const types = [];
+        mounts.forEach(mount => {
+            if (!types.includes(mount.skeleton_type.toLocaleLowerCase())) {
+                types.push(mount.skeleton_type.toLocaleLowerCase());
+            }
+        });
+
+        html += types.map(c => "<li>" + c + "</li>").join('');
+        html += "</ul>";
+        return html;
+    }
+
     // Update mount data when an attribute is edited
     function updateMountAttribute(index, attribute, value) {
         mountsCopy[index][attribute] = value;
@@ -233,6 +334,10 @@
     // Render the mounts with editable fields and apply the lightened background color during rendering
     function renderMounts(mounts) {
         let output = '';
+
+        output += getAllColors();
+        output += gettAllSkeletonTypes();
+
         mounts.forEach((mount, i) => {
             const useIconNameForImage = mountsImageByIconName.indexOf(getIconName(mount.icon)) > -1;
             const iconName = useIconNameForImage ? getIconName(mount.icon) : stripNonLetters(mount.name).toLowerCase()
@@ -264,9 +369,14 @@
                         ${Object.keys(availableColors).map(color => `<option value="${color}" ${mount.secondary_color === color ? 'selected' : ''}>${color}</option>`).join('')}
                     </select>
                 </p>
-                <p class="attribute">Spell ID:
+                <p class="attribute">Expansion:
+                    <select onchange="updateMountAttribute(${i}, 'expansion', this.value)">
+                         ${expansionsMountIds.map(expansion => `<option value="${expansion.name}" ${(mount.expansion + "") === expansion.name ? 'selected' : ''}>${expansion.name}</option>`).join('')}
+                    </select>
+                </p>            
+                <!-- p class="attribute">Spell ID:
                     <input type="number" value="${mount.spell_id}" onchange="updateMountAttribute(${i}, 'spell_id', this.value)">
-                </p>
+                </-->
                 <p class="attribute">Mount ID:
                     <input type="number" value="${mount.id}" onchange="updateMountAttribute(${i}, 'id', this.value)">
                 </p>
@@ -285,6 +395,10 @@
         document.getElementById("mounts").innerHTML = output;
     }
 
+    function findExpansionById(id) {
+        return expansionsMountIds.find(exp => id >= exp.startId) || expansionsMountIds[expansionsMountIds.length - 1];
+    }
+
     // Updated function to generate JSON data and copy it to the clipboard
     function generateAndCopyJSON() {
         /*mountsCopy.map(mount => {
@@ -294,6 +408,10 @@
                 mount.is_small = "true";
             }
         });*/
+        /*mountsCopy = mountsCopy.map(mount => {
+            const expansionName = findExpansionById(mount.id).name
+            return { ...mount, expansion: expansionName }
+        })*/
         const generatedData = JSON.stringify(mountsCopy, null, 2); // Generate JSON string with indentation
         document.getElementById('generated-data').innerHTML = `<h2>Generated JSON Data</h2><pre>${generatedData}</pre>`; // Display JSON on the page
 
@@ -315,7 +433,7 @@
     function generateLuaTable() {
         let luaTable = "mounts = {\n";
         mountsCopy.forEach(mount => {
-            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small}" },\n`;
+            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small || false}", expansion = "${mount.expansion}" },\n`;
         });
         luaTable += "}";
 
