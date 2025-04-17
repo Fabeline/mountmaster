@@ -11,10 +11,14 @@ LibDBIcon-1.0\LibStub\LibStub.lua
 LibDBIcon-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua
 LibDBIcon-1.0\LibDataBroker-1.1\LibDataBroker-1.1.lua
 LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
-GlobalVariables.lua
+
+Settings.lua
+FilterFunctions.lua
+MountFunctions.lua
+ContentFrame.lua
+
 mounts.lua
 MountSelectorConfig.lua
-ContentFrame.lua
 MountFilterDropdown.lua
 MountSelector.lua
 MountButtons.lua

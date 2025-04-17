@@ -135,9 +135,9 @@ end
 
 function SlashCmdList.RMS(msg, editBox)
     if msg == "summon" then         -- /rms summon - will summon a random mount
-        summonRandomMount(false)
+        RuthesMS.mountFunctions.summonRandomMount(false)
     elseif msg == "summonswim" then -- /rms summonswim - will summon a random swimming mount
-        summonRandomMount(true)
+        RuthesMS.mountFunctions.summonRandomMount(true)
     elseif msg == "minimap" then    --/rms minimap - will toggle minimap button
         toggleMinimap()
     elseif msg == "help" then       --/rms help - will display help message
@@ -151,4 +151,4 @@ function SlashCmdList.RMS(msg, editBox)
     end
 end
 
-createContentFrame()
+RuthesMS.frames.contentFrame.create()

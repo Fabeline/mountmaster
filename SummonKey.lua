@@ -5,9 +5,10 @@ local detectedModifiers = {}
 local setKeyButton = CreateFrame("Button", "SummonKeyButton", mountSelectorFrame, "UIPanelButtonTemplate")
 setKeyButton:SetSize(90, 22)
 setKeyButton:SetPoint("TOP", mountSelectorFrame, "TOP", 5, -71)
-setKeyButton:SetText("Key (" .. (summonKey or "None") .. ")")
+setKeyButton:SetText("Key (" .. (RuthesMS.keybinds.summonNormal or "None") .. ")")
 
-local favoriteCheckbox = CreateFrame("CheckButton", "FavoriteCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
+local favoriteCheckbox = CreateFrame("CheckButton", "FavoriteCheckbox", mountSelectorFrame,
+    "ChatConfigCheckButtonTemplate")
 favoriteCheckbox:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -21, -63)
 favoriteCheckbox:SetScript("OnClick", function(self)
     saveUseOnlyFavourites(self:GetChecked())
@@ -18,7 +19,8 @@ local favoriteLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameF
 favoriteLabel:SetPoint("RIGHT", favoriteCheckbox, "LEFT", -5, 0)
 favoriteLabel:SetText("Only Favorites")
 
-local smallMountCheckbox = CreateFrame("CheckButton", "SmallMountCheckbox", mountSelectorFrame, "ChatConfigCheckButtonTemplate")
+local smallMountCheckbox = CreateFrame("CheckButton", "SmallMountCheckbox", mountSelectorFrame,
+    "ChatConfigCheckButtonTemplate")
 smallMountCheckbox:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -20, -40)
 smallMountCheckbox:SetScript("OnClick", function(self)
     saveSmallMountInInstance(self:GetChecked())
@@ -31,13 +33,13 @@ smallMountLabel:SetText("Small in Instance")
 
 function reloadUseOnlyFavourites()
     if favoriteCheckbox then
-        favoriteCheckbox:SetChecked(useOnlyFavourites)
+        favoriteCheckbox:SetChecked(RuthesMS.settings.useOnlyFavourites)
     end
 end
 
 function reloadSmallMountInInstance()
     if smallMountCheckbox then
-        smallMountCheckbox:SetChecked(smallMountInInstance)
+        smallMountCheckbox:SetChecked(RuthesMS.smallMountInInstance)
     end
 end
 
@@ -80,8 +82,8 @@ StaticPopupDialogs["SET_KEYBIND"] = {
                 keyCombo = keyCombo .. detectedKey
 
                 -- Save & Apply Keybinding
-                summonKey = keyCombo
-                saveSummonKey(summonKey)
+                RuthesMS.keybinds.summonNormal = keyCombo
+                saveSummonKey(RuthesMS.keybinds.summonNormal)
                 loadSummoningKey()
 
                 StaticPopup_Hide("SET_KEYBIND")
@@ -101,14 +103,14 @@ StaticPopupDialogs["SET_KEYBIND"] = {
 
 -- Ensure Keybinding is Applied After Login
 function loadSummoningKey()
-    setKeyButton:SetText("Key (" .. (summonKey or "None") .. ")")
+    setKeyButton:SetText("Key (" .. (RuthesMS.keybinds.summonNormal or "None") .. ")")
     applySummonKeyBinding()
 end
 
 -- Apply the Keybinding
 function applySummonKeyBinding()
-    if summonKey and summonKey ~= "" then
-        local formattedKey = string.gsub(summonKey, "+", "-")
+    if RuthesMS.keybinds.summonNormal and RuthesMS.keybinds.summonNormal ~= "" then
+        local formattedKey = string.gsub(RuthesMS.keybinds.summonNormal, "+", "-")
 
         -- Clear previous binding & apply new one
         ClearOverrideBindings(mountSelectorFrame)

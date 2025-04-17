@@ -51,88 +51,88 @@ function getAllExpansions()
 end
 
 local function allColorsAreSelected()
-    return #selectedColors == #getAllColors()
+    return #RuthesMS.settings.selectedColors == #getAllColors()
 end
 
 local function allTypesAreSelected()
-    return #selectedTypes == #getAllTypes()
+    return #RuthesMS.settings.selectedTypes == #getAllTypes()
 end
 
 local function allExpansionsAreSelected()
-    return #selectedExpansions == #getAllExpansions()
+    return #RuthesMS.settings.selectedExpansions == #getAllExpansions()
 end
 
 local function toggleType(type)
     if (type == "All") then
         if allTypesAreSelected() then
-            selectedTypes = {}
+            RuthesMS.settings.selectedTypes = {}
         else
-            selectedTypes = getAllTypes()
+            RuthesMS.settings.selectedTypes = getAllTypes()
         end
     else
         -- add type to selectedTypes
-        if not tContains(selectedTypes, type) then
-            table.insert(selectedTypes, type)
+        if not tContains(RuthesMS.settings.selectedTypes, type) then
+            table.insert(RuthesMS.settings.selectedTypes, type)
         else -- remove type from selectedTypes
-            for i, v in ipairs(selectedTypes) do
+            for i, v in ipairs(RuthesMS.settings.selectedTypes) do
                 if v == type then
-                    table.remove(selectedTypes, i)
+                    table.remove(RuthesMS.settings.selectedTypes, i)
                 end
             end
         end
     end
-    saveSelectedTypes(selectedTypes)
+    saveSelectedTypes(RuthesMS.settings.selectedTypes)
     renderMounts()
 end
 
 local function toggleColor(color)
     if (color == "All") then
         if allColorsAreSelected() then
-            selectedColors = {}
+            RuthesMS.settings.selectedColors = {}
         else
-            selectedColors = getAllColors()
+            RuthesMS.settings.selectedColors = getAllColors()
         end
     else
         -- add color to selectedColors
-        if not tContains(selectedColors, color) then
-            table.insert(selectedColors, color)
+        if not tContains(RuthesMS.settings.selectedColors, color) then
+            table.insert(RuthesMS.settings.selectedColors, color)
         else -- remove color from selectedColors
-            for i, v in ipairs(selectedColors) do
+            for i, v in ipairs(RuthesMS.settings.selectedColors) do
                 if v == color then
-                    table.remove(selectedColors, i)
+                    table.remove(RuthesMS.settings.selectedColors, i)
                 end
             end
         end
 
-        --for i, v in ipairs(selectedColors) do
+        --for i, v in ipairs(RuthesMS.settings.selectedColors) do
         --    print(v)
         --end
     end
-    saveSelectedColors(selectedColors)
+    saveSelectedColors(RuthesMS.settings.selectedColors)
     renderMounts()
 end
 
 local function toggleExpansion(expansion)
     if (expansion == "All") then
         if allExpansionsAreSelected() then
-            selectedExpansions = {}
+            RuthesMS.settings.selectedExpansions = {}
         else
-            selectedExpansions = getAllExpansions()
+            RuthesMS.settings.selectedExpansions = getAllExpansions()
         end
     else
         -- add expansion to selectedExpansions
-        if not tContains(selectedExpansions, expansion) then
-            table.insert(selectedExpansions, expansion)
+        if not tContains(RuthesMS.settings.selectedExpansions, expansion) then
+            table.insert(RuthesMS.settings.selectedExpansions, expansion)
         else -- remove expansion from selectedExpansions
-            for i, v in ipairs(selectedExpansions) do
+            for i, v in ipairs(RuthesMS.settings.selectedExpansions) do
                 if v == expansion then
-                    table.remove(selectedExpansions, i)
+                    table.remove(RuthesMS.settings.selectedExpansions, i)
                 end
             end
         end
     end
 
-    saveSelectedExpansions(selectedExpansions)
+    saveSelectedExpansions(RuthesMS.settings.selectedExpansions)
     renderMounts()
 end
 
@@ -155,7 +155,7 @@ function initializeSkeletonDropdown(self)
     -- Add each unique skeleton type to the dropdown
     for _, skeleton in ipairs(getAllTypes()) do
         info.text, info.value = skeleton, skeleton
-        info.checked = tContains(selectedTypes, skeleton)
+        info.checked = tContains(RuthesMS.settings.selectedTypes, skeleton)
         UIDropDownMenu_AddButton(info, 1)
     end
 end
@@ -179,7 +179,7 @@ function initializeColorDropdown(self)
     -- Add each unique color to the dropdown
     for _, color in ipairs(getAllColors()) do
         info.text, info.value = color, color
-        info.checked = tContains(selectedColors, color)
+        info.checked = tContains(RuthesMS.settings.selectedColors, color)
         UIDropDownMenu_AddButton(info, 1)
     end
 end
@@ -201,39 +201,7 @@ function initializeExpansionDropdown(self)
     -- Add each unique expansion to the dropdown
     for _, expansion in ipairs(getAllExpansions()) do
         info.text, info.value = expansion, expansion
-        info.checked = tContains(selectedExpansions, expansion)
+        info.checked = tContains(RuthesMS.settings.selectedExpansions, expansion)
         UIDropDownMenu_AddButton(info, 1)
     end
-end
-
-local function hasSelectedColor(mount)
-    return #selectedColors == 0 or
-        (
-            tContains(selectedColors, CapitalizeFirstLetter(mount.color)) or
-            tContains(selectedColors, CapitalizeFirstLetter(mount.secondary_color))
-        )
-end
-
-local function hasSelectedType(mount)
-    return #selectedTypes == 0 or tContains(selectedTypes, CapitalizeFirstLetter(mount.skeleton_type))
-end
-
-local function hasSelectedExpansion(mount)
-    return #selectedExpansions == 0 or tContains(selectedExpansions, CapitalizeFirstLetter(mount.expansion))
-end
-
--- Filter mounts based on selected color and type
-function filterMounts(availableMounts)
-    local filteredMounts = {}
-
-    for i = 1, #availableMounts do
-        local currentMount = availableMounts[i]
-        if (hasSelectedColor(currentMount) and
-                hasSelectedType(currentMount) and
-                hasSelectedExpansion(currentMount)) then
-            table.insert(filteredMounts, currentMount)
-        end
-    end
-
-    return filteredMounts
 end

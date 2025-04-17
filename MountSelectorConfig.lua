@@ -9,17 +9,17 @@ local function InitializeConfig()
         }
     end
 
-    summonKey = MountSelectorCharacterConfig.summonKey or "k"
-    selectedColors = MountSelectorCharacterConfig.colors or {}
-    selectedTypes = MountSelectorCharacterConfig.types or {}
-    selectedExpansions = MountSelectorCharacterConfig.expansions or {}
-    useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
-    smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
+    RuthesMS.keybinds.summonNormal = MountSelectorCharacterConfig.summonKey or "k"
+    RuthesMS.settings.selectedColors = MountSelectorCharacterConfig.colors or {}
+    RuthesMS.settings.selectedTypes = MountSelectorCharacterConfig.types or {}
+    RuthesMS.settings.selectedExpansions = MountSelectorCharacterConfig.expansions or {}
+    RuthesMS.settings.useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
+    RuthesMS.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
 end
 
 function saveSummonKey(key)
     MountSelectorCharacterConfig.summonKey = key
-    summonKey = key
+    RuthesMS.keybinds.summonNormal = key
 end
 
 function saveSelectedColors(colors)
@@ -36,12 +36,12 @@ end
 
 function saveUseOnlyFavourites(shouldUse)
     MountSelectorCharacterConfig.useOnlyFavourites = shouldUse
-    useOnlyFavourites = shouldUse
+    RuthesMS.settings.useOnlyFavourites = shouldUse
 end
 
 function saveSmallMountInInstance(shouldUse)
     MountSelectorCharacterConfig.smallMountInInstance = shouldUse
-    smallMountInInstance = shouldUse
+    RuthesMS.smallMountInInstance = shouldUse
 end
 
 local function OnEvent(self, event, ...)
