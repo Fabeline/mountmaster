@@ -4,11 +4,11 @@ local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("MountSelector", {
     text = "Ruthe's Mount Selector",
     icon = "Interface\\AddOns\\Ruthes_MountSelector\\Ruthes_MountSelector.tga",
     OnClick = function(self, button)
-        if MountSelectorFrame:IsShown() then
-            MountSelectorFrame:Hide()
+        if RuthesMS.frames.mountSelectorFrame.frame:IsShown() then
+            RuthesMS.frames.mountSelectorFrame.frame:Hide()
         else
-            renderMounts()
-            MountSelectorFrame:Show()
+            RuthesMS.buttons.mountButtons.reload()
+            RuthesMS.frames.mountSelectorFrame.frame:Show()
         end
     end,
     OnTooltipShow = function(tooltip)

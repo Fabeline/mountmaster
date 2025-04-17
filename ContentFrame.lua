@@ -1,8 +1,9 @@
 local function createContentFrame()
-    local contentFrame = CreateFrame("Frame", "MountSelectorContentFrame", mountSelectorScrollFrame,
+    local contentFrame = CreateFrame("Frame", "MountSelectorContentFrame",
+        RuthesMS.frames.mountSelectorScrollFrame.frame,
         "BackdropTemplate")
-    mountSelectorScrollFrame:SetScrollChild(contentFrame)
-    contentFrame:SetSize(mountSelectorScrollFrame:GetWidth(), 2000)
+    RuthesMS.frames.mountSelectorScrollFrame.frame:SetScrollChild(contentFrame)
+    contentFrame:SetSize(RuthesMS.frames.mountSelectorScrollFrame.frame:GetWidth(), 2000)
     RuthesMS.frames.contentFrame.frame = contentFrame
 end
 

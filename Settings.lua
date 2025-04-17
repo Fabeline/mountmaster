@@ -14,10 +14,14 @@ RuthesMS = {
         availableMounts = {}
     },
     frames = {
-        contentFrame = {} -- ContentFrame.lua
+        contentFrame = {}
     },
-    mountFunctions = {},  -- MountFunctions.lua
-    filterFunctions = {}, -- FilterFunctions.lua
+    buttons = {
+        frameButtons = {},
+        mountButtons = {}
+    },
+    mountFunctions = {},
+    filterFunctions = {},
 }
 
 function CapitalizeFirstLetter(str)

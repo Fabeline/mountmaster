@@ -53,11 +53,8 @@ local function OnEvent(self, event, ...)
         end
     elseif event == "PLAYER_LOGIN" then
         InitializeConfig()
-        renderMounts()
+        RuthesMS.buttons.mountButtons.reload()
         loadSummoningKey()
-        UIDropDownMenu_SetText(skeletonDropdown, "Select types")
-        UIDropDownMenu_SetText(colorDropdown, "Select colors")
-        UIDropDownMenu_SetText(expansionDropdown, "Select expansions")
 
         -- Some functions may not have been loaded yet
         local maxRetries = 10

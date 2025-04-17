@@ -15,7 +15,11 @@ LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Settings.lua
 FilterFunctions.lua
 MountFunctions.lua
+
+MountSelectorFrame.lua
+MountSelectorScrollFrame.lua
 ContentFrame.lua
+FrameButtons.lua
 
 mounts.lua
 MountSelectorConfig.lua
@@ -23,6 +27,5 @@ MountFilterDropdown.lua
 MountSelector.lua
 MountButtons.lua
 SummonKey.lua
-RandomMount.lua
 MiniMapButton.lua
 MountSelector.xml

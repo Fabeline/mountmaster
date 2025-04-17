@@ -91,11 +91,16 @@ local function createMountButtons()
         end)
     end
 
-    loadRandomMountButton()
+    RuthesMS.buttons.frameButtons.loadRandomMountButton()
 end
 
 
-function renderMounts()
+local function reload()
     RuthesMS.mountFunctions.reloadMounts()
     createMountButtons()
 end
+
+RuthesMS.buttons.mountButtons = {
+    create = createMountButtons,
+    reload = reload
+}

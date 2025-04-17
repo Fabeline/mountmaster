@@ -82,7 +82,7 @@ local function toggleType(type)
         end
     end
     saveSelectedTypes(RuthesMS.settings.selectedTypes)
-    renderMounts()
+    RuthesMS.buttons.mountButtons.reload()
 end
 
 local function toggleColor(color)
@@ -109,7 +109,7 @@ local function toggleColor(color)
         --end
     end
     saveSelectedColors(RuthesMS.settings.selectedColors)
-    renderMounts()
+    RuthesMS.buttons.mountButtons.reload()
 end
 
 local function toggleExpansion(expansion)
@@ -133,7 +133,7 @@ local function toggleExpansion(expansion)
     end
 
     saveSelectedExpansions(RuthesMS.settings.selectedExpansions)
-    renderMounts()
+    RuthesMS.buttons.mountButtons.reload()
 end
 
 
@@ -143,7 +143,7 @@ function initializeSkeletonDropdown(self)
     info.func = function(self)
         selectedType = self.value
         toggleType(selectedType)
-        renderMounts() -- Re-render mounts when a new filter is selected
+        RuthesMS.buttons.mountButtons.reload() -- Re-render mounts when a new filter is selected
     end
 
     -- Add "All" option
@@ -167,7 +167,7 @@ function initializeColorDropdown(self)
         selectedColor = self.value
         toggleColor(selectedColor)
         -- Re-render mounts when a new filter is selected
-        renderMounts()
+        RuthesMS.buttons.mountButtons.reload()
     end
 
     -- Add "All" option
@@ -189,7 +189,7 @@ function initializeExpansionDropdown(self)
     info.func = function(self)
         selectedExpansion = self.value
         toggleExpansion(selectedExpansion)
-        renderMounts() -- Re-render mounts when a new filter is selected
+        RuthesMS.buttons.mountButtons.reload() -- Re-render mounts when a new filter is selected
     end
 
     -- Add "All" option

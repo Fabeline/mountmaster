@@ -39,7 +39,7 @@ local function isAquaticMount(typeId)
         isAquatic = true
     end
 
-    if RuthesMS.mountFunctions.isMountFlying(typeId) and isSteadyFlightActive() and
+    if RuthesMS.mountFunctions.isMountFlying(typeId) and RuthesMS.mountFunctions.isSteadyFlightActive() and
         (
             typeId == 407 or -- Deepstar polyp and otterwordly ottuk carrier
             typeId == 436    -- Depthstalker, corrupted behemoth
@@ -199,7 +199,7 @@ local function summonRandomMount(isSwimming)
                     table.insert(flyingMounts, mount)
                     -- Mounts with flying and aquatic have a bug where they are only fast
                     -- underwater if steady flight is active
-                    if mount.isAquatic and isSteadyFlightActive() then
+                    if mount.isAquatic and RuthesMS.mountFunctions.isSteadyFlightActive() then
                         table.insert(aquaticMounts, mount)
                     end
                 elseif mount.isAquatic then -- aquatic and not flying
@@ -247,6 +247,11 @@ local function summonRandomMount(isSwimming)
     end
 end
 
+local function isSteadyFlightActive()
+    local buffName = "Flight Style: Steady"
+    return AuraUtil.FindAuraByName(buffName, "player", "HELPFUL") ~= nil
+end
+
 RuthesMS.mountFunctions = {
     canPlayerFly = canPlayerFly,
     isMountFlying = isMountFlying,
@@ -256,4 +261,5 @@ RuthesMS.mountFunctions = {
     findMountByID = findMountByID,
     reloadMounts = reloadMounts,
     summonRandomMount = summonRandomMount,
+    isSteadyFlightActive = isSteadyFlightActive,
 }

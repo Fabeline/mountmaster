@@ -1,5 +1,6 @@
 local detectedKey = nil
 local detectedModifiers = {}
+local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
 
 -- Create a frame to capture key events
 local setKeyButton = CreateFrame("Button", "SummonKeyButton", mountSelectorFrame, "UIPanelButtonTemplate")
@@ -12,7 +13,7 @@ local favoriteCheckbox = CreateFrame("CheckButton", "FavoriteCheckbox", mountSel
 favoriteCheckbox:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -21, -63)
 favoriteCheckbox:SetScript("OnClick", function(self)
     saveUseOnlyFavourites(self:GetChecked())
-    renderMounts()
+    RuthesMS.buttons.mountButtons.reload()
 end)
 
 local favoriteLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
@@ -24,7 +25,7 @@ local smallMountCheckbox = CreateFrame("CheckButton", "SmallMountCheckbox", moun
 smallMountCheckbox:SetPoint("TOPRIGHT", mountSelectorFrame, "TOPRIGHT", -20, -40)
 smallMountCheckbox:SetScript("OnClick", function(self)
     saveSmallMountInInstance(self:GetChecked())
-    renderMounts()
+    RuthesMS.buttons.mountButtons.reload()
 end)
 
 local smallMountLabel = mountSelectorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
