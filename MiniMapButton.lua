@@ -4,11 +4,11 @@ local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("MountSelector", {
     text = "Ruthe's Mount Selector",
     icon = "Interface\\AddOns\\Ruthes_MountSelector\\Ruthes_MountSelector.tga",
     OnClick = function(self, button)
-        if MountSelectorFrame:IsShown() then
-            MountSelectorFrame:Hide()
+        if RuthesMS.frames.mountSelectorFrame.frame:IsShown() then
+            RuthesMS.frames.mountSelectorFrame.frame:Hide()
         else
-            renderMounts()
-            MountSelectorFrame:Show()
+            RuthesMS.buttons.mountButtons.reload()
+            RuthesMS.frames.mountSelectorFrame.frame:Show()
         end
     end,
     OnTooltipShow = function(tooltip)
@@ -19,6 +19,8 @@ local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("MountSelector", {
 })
 
 local icon = LibStub("LibDBIcon-1.0")
+
+-- TODO: dont use mountSelectorDB
 
 -- Function to ensure backward compatibility with previous versions
 local function EnsureDefaults()
@@ -37,7 +39,7 @@ local function EnsureDefaults()
 end
 
 -- Function to register and load minimap button
-local function LoadMinimapButton()
+local function loadMinimapButton()
     EnsureDefaults() -- Ensure that the DB has valid values for position and visibility
     -- Register the minimap button with saved position and visibility
     icon:Register("MountSelector", LDB, mountSelectorDB.minimap)
@@ -48,24 +50,14 @@ local function LoadMinimapButton()
     else
         icon:Show("MountSelector")
     end
+
+    -- Save the minimap button position when it moves
+    icon:RegisterCallback("LibDBIcon_IconPositionChanged", function(_, _, position)
+        mountSelectorDB.minimap.minimapPos = position
+    end)
 end
 
--- Save the minimap button position when it moves
-icon:RegisterCallback("LibDBIcon_IconPositionChanged", function(_, _, position)
-    mountSelectorDB.minimap.minimapPos = position
-end)
-
--- Listen for the ADDON_LOADED event to ensure SavedVariables are loaded
-local frame = CreateFrame("Frame")
-frame:RegisterEvent("ADDON_LOADED")
-frame:SetScript("OnEvent", function(self, event, addon)
-    if addon == "Ruthes_MountSelector" then
-        LoadMinimapButton()
-        self:UnregisterEvent("ADDON_LOADED")
-    end
-end)
-
-function toggleMinimap()
+local function toggleMinimap()
     mountSelectorDB.minimap.hide = not mountSelectorDB.minimap.hide
     if mountSelectorDB.minimap.hide then
         icon:Hide("MountSelector")
@@ -73,3 +65,20 @@ function toggleMinimap()
         icon:Show("MountSelector")
     end
 end
+
+local function createButton()
+    -- Listen for the ADDON_LOADED event to ensure SavedVariables are loaded
+    local frame = CreateFrame("Frame")
+    frame:RegisterEvent("ADDON_LOADED")
+    frame:SetScript("OnEvent", function(self, event, addon)
+        if addon == "Ruthes_MountSelector" then
+            loadMinimapButton()
+            self:UnregisterEvent("ADDON_LOADED")
+        end
+    end)
+end
+
+RuthesMS.buttons.minimapButton = {
+    toggleMinimap = toggleMinimap,
+    create = createButton,
+}

@@ -1,4 +1,4 @@
-mounts = {
+RuthesMS.data.mounts = {
     { id = 6,    name = "Brown Horse",                                   skeleton_type = "Horse",      color = "Brown",     secondary_color = "",          is_small = "true",  expansion = "Classic" },
     { id = 7,    name = "Gray Wolf",                                     skeleton_type = "wolf",       color = "gray",      secondary_color = "",          is_small = "true",  expansion = "Classic" },
     { id = 8,    name = "White Stallion",                                skeleton_type = "horse",      color = "white",     secondary_color = "",          is_small = "true",  expansion = "Classic" },

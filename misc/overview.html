@@ -431,7 +431,7 @@
 
 
     function generateLuaTable() {
-        let luaTable = "mounts = {\n";
+        let luaTable = "RuthesMS.data.mounts = {\n";
         mountsCopy.forEach(mount => {
             luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small || false}", expansion = "${mount.expansion}" },\n`;
         });
