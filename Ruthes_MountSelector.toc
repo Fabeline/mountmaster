@@ -19,13 +19,18 @@ MountFunctions.lua
 MountSelectorFrame.lua
 MountSelectorScrollFrame.lua
 ContentFrame.lua
+
 FrameButtons.lua
+MiniMapButton.lua
+
+DropdownUtils.lua
 
 mounts.lua
+
+
 MountSelectorConfig.lua
 MountFilterDropdown.lua
 MountSelector.lua
 MountButtons.lua
 SummonKey.lua
-MiniMapButton.lua
 MountSelector.xml

@@ -1,19 +1,27 @@
 local function hasSelectedColor(mount)
-    return #RuthesMS.settings.selectedExpansions == 0 or
-        (
-            tContains(RuthesMS.settings.selectedColors, CapitalizeFirstLetter(mount.color)) or
-            tContains(RuthesMS.settings.selectedColors, CapitalizeFirstLetter(mount.secondary_color))
-        )
+    if #RuthesMS.settings.selectedColors == 0 then
+        return true
+    end
+
+    return tContains(RuthesMS.settings.selectedColors, CapitalizeFirstLetter(mount.color)) or
+        tContains(RuthesMS.settings.selectedColors, CapitalizeFirstLetter(mount.secondary_color))
 end
 
 local function hasSelectedType(mount)
-    return #RuthesMS.settings.selectedTypes == 0 or
-        tContains(RuthesMS.settings.selectedTypes, CapitalizeFirstLetter(mount.skeleton_type))
+    if #RuthesMS.settings.selectedTypes == 0 then
+        return true
+    end
+
+    return tContains(RuthesMS.settings.selectedTypes, CapitalizeFirstLetter(mount.skeleton_type))
 end
 
+
 local function hasSelectedExpansion(mount)
-    return #RuthesMS.settings.selectedExpansions == 0 or
-        tContains(RuthesMS.settings.selectedExpansions, CapitalizeFirstLetter(mount.expansion))
+    if #RuthesMS.settings.selectedExpansions == 0 then
+        return true
+    end
+
+    return tContains(RuthesMS.settings.selectedExpansions, CapitalizeFirstLetter(mount.expansion))
 end
 
 -- Filter mounts based on selected color and type

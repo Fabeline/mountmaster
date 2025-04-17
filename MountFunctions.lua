@@ -81,7 +81,6 @@ local function getAvailableMounts()
     local zoneId = C_Map.GetBestMapForUnit("player")
     local vashirMountAllowed = zoneId == 5146
 
-
     -- Use small mounts if in an instance
     local useSmallMounts = (IsInInstance() and RuthesMS.smallMountInInstance)
 
@@ -129,12 +128,11 @@ local function getAvailableMounts()
             end
         end
     end
-
     return availableMounts
 end
 
 local function findMountByID(id)
-    for _, mount in ipairs(mounts) do
+    for _, mount in ipairs(RuthesMS.data.mounts) do
         if mount.id == id then
             return mount
         end
@@ -154,7 +152,7 @@ local function displayBigMessage(message)
     UIErrorsFrame:AddMessage(message, 1.0, 0.0, 0.0) -- text, red, green, blue
 end
 
-function canSummonMount()
+local function canSummonMount()
     -- Check if the player is in combat
     if UnitAffectingCombat("player") then
         displayBigMessage("You cannot mount in combat.")
@@ -181,7 +179,7 @@ local function summonRandomMount(isSwimming)
         Dismount()
     else
         CancelShapeshiftForm()
-        if (canSummonMount() == false) then
+        if (RuthesMS.mountFunctions.canSummonMount() == false) then
             return
         end
 
@@ -217,7 +215,7 @@ local function summonRandomMount(isSwimming)
                     chosenMounts = aquaticMounts
                 else
                     -- If the aquatic mounts don't fit the criteria, summon a random aquatic mount
-                    RuthesMS.temp.currentMounts = allMounts
+                    RuthesMS.temp.currentMounts = RuthesMS.temp.availableMounts
                     if (#RuthesMS.temp.currentMounts > 0) then
                         for _, mount in ipairs(RuthesMS.temp.currentMounts) do
                             if mount.isAquatic then
@@ -262,4 +260,5 @@ RuthesMS.mountFunctions = {
     reloadMounts = reloadMounts,
     summonRandomMount = summonRandomMount,
     isSteadyFlightActive = isSteadyFlightActive,
+    canSummonMount = canSummonMount
 }
