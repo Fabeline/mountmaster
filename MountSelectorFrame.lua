@@ -68,50 +68,6 @@ local function createTabs()
     selectTab(1)
 end
 
-local function createAndDragMacro(macroName, macroBody, macroIcon)
-    -- Check if the macro already exists
-    local macroIndex = GetMacroIndexByName(macroName)
-
-    if macroIndex == 0 then
-        -- Create a new macro if it doesn't exist
-        macroIndex = CreateMacro(macroName, macroIcon, macroBody, true)
-    else
-        -- Update the existing macro
-        EditMacro(macroIndex, macroName, macroIcon, macroBody)
-    end
-
-    -- Pick up the macro and allow dragging
-    if macroIndex then
-        PickupMacro(macroIndex)
-    end
-end
-
--- Reusable function to set up a macro button
-local function createMacroButton(parentFrame, size, position, iconPath, tooltipText, macroName, macroBody, macroIcon)
-    local button = CreateFrame("Button", nil, parentFrame, "UIPanelButtonTemplate")
-    button:SetSize(size, size)
-    button:SetPoint(unpack(position))
-    button:SetNormalTexture(iconPath)
-
-    -- Set up the click handler to create and drag the macro
-    button:SetScript("OnClick", function()
-        createAndDragMacro(macroName, macroBody, macroIcon)
-    end)
-
-    -- Add a tooltip
-    button:EnableMouse(true)
-    button:SetScript("OnEnter", function(self)
-        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        GameTooltip:SetText(tooltipText, 1, 1, 1)
-        GameTooltip:Show()
-    end)
-    button:SetScript("OnLeave", function(self)
-        GameTooltip:Hide()
-    end)
-
-    return button
-end
-
 local function createMountSelectorFrame()
     -- Create the MountSelectorFrame
     local mountSelectorFrame = CreateFrame("Frame", "MountSelectorFrame", UIParent, "BasicFrameTemplateWithInset")
@@ -146,33 +102,6 @@ local function createMountSelectorFrame()
 
     createTabs()
     RuthesMS.frames.mountSelectorFrame.frame = mountSelectorFrame
-end
-
-local function later()
-    -- Create buttons for both macros
-    -- Normal mounts
-    createMacroButton(
-        mountSelectorFrame,                             -- Parent frame
-        30,                                             -- Button size
-        { "TOP", mountSelectorFrame, "TOP", -14, -37 }, -- Position
-        "Interface\\Icons\\Ability_Mount_RidingHorse",  -- Icon path
-        "Create Summon Macro",                          -- Tooltip text
-        "RMS",                                          -- Macro name
-        "/rms summon",                                  -- Macro body
-        "Ability_Mount_RidingHorse"                     -- Macro icon
-    )
-
-    -- Aquatic mounts
-    createMacroButton(
-        mountSelectorFrame,                            -- Parent frame
-        30,                                            -- Button size
-        { "TOP", mountSelectorFrame, "TOP", 23, -37 }, -- Position
-        "Interface\\Icons\\inv_stingray2mount_teal",   -- Icon path
-        "Create Summon Swim Macro",                    -- Tooltip text
-        "SWM",                                         -- Macro name
-        "/rms summonswim",                             -- Macro body
-        "inv_stingray2mount_teal"                      -- Macro icon
-    )
 end
 
 RuthesMS.frames.mountSelectorFrame = {

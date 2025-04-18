@@ -3,15 +3,30 @@ local function createFrame()
 
     local helpFrame = CreateFrame("Frame", "MountSelectorHelpFrame", mountSelectorFrame, "BackdropTemplate")
     helpFrame:SetSize(mountSelectorFrame:GetWidth(), 400)
-    helpFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
+    helpFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -50)
 
     -- Add help text
     local helpText = helpFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     helpText:SetPoint("TOPLEFT", helpFrame, "TOPLEFT", 10, -10)
-    helpText:SetText("Mount Selector Help")
+    helpText:SetWidth(helpFrame:GetWidth() - 40)
+    helpText:SetWordWrap(true)
+    helpText:SetJustifyH("LEFT")
+    helpText:SetJustifyV("TOP")
+    helpText:SetText(
+        "|cffffffffWelcome to Ruthe's Mount Selector!|r\n\n" ..
+        "This addon helps you summon the perfect mounts for each of your characters.\n\n" ..
+        "Use the dropdowns to filter by color, expansion, or type.\n\n" ..
+        "You can set a keybind or drag an action button/macro to summon from your selection.\n\n" ..
+        "If you have any comments or questions, please ask them here:\n|cffffffffhttps://www.curseforge.com/wow/addons/ruthes-mountselector/comments\n\n|r" ..
+        "Enjoy your adventures!"
+    )
+
+    -- local logo = helpFrame:CreateTexture(nil, "ARTWORK")
+    -- logo:SetSize(100, 100)
+    -- logo:SetPoint("TOP", helpText, "BOTTOM", 0, -10)
+    -- logo:SetTexture("Interface\\AddOns\\Ruthes_MountSelector\\Ruthes_MountSelector.tga")
 
     helpFrame:Show()
-
     RuthesMS.frames.helpFrame.frame = helpFrame
 end
 

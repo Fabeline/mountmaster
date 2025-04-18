@@ -76,6 +76,123 @@ local function hasGroundAnim(mountId, skeleton_type)
     return false;
 end
 
+local repairMounts = {
+    280,  -- Traveler's Tundra Mammoth
+    284,  -- Traveler's Tundra Mammoth
+    2237, -- Grizzly Hills Packmaster
+    1039  -- Mighty Caravan Brutosaur
+}
+
+local transmogMounts = {
+    460,  -- Grand Expedition Yak
+    2237, -- Grizzly Hills Packmaster
+}
+
+local auctionHouseMounts = {
+    1039, -- Mighty Caravan Brutosaur
+    2265  -- Trader's Gilded Brutosaur
+}
+
+local mailboxMounts = {
+    2265 -- Trader's Gilded Brutosaur
+}
+
+local function summonRandomRepairMount()
+    local availableRepairMounts = {}
+
+    for _, mountID in ipairs(repairMounts) do
+        local _, _, _, _, isUsable, _, _, _, _, _, isCollected = C_MountJournal.GetMountInfoByID(mountID)
+        if isUsable and isCollected then
+            table.insert(availableRepairMounts, mountID)
+        end
+    end
+
+    if #availableRepairMounts == 0 then
+        print("No repair mounts available.")
+        return
+    end
+
+    local randomIndex = math.random(1, #availableRepairMounts)
+    C_MountJournal.SummonByID(availableRepairMounts[randomIndex])
+end
+
+local function summonRandomAuctionHouseMount()
+    local availableAuctionHouseMounts = {}
+
+    for _, mountID in ipairs(auctionHouseMounts) do
+        local _, _, _, _, isUsable, _, _, _, _, _, isCollected = C_MountJournal.GetMountInfoByID(mountID)
+        if isUsable and isCollected then
+            table.insert(availableAuctionHouseMounts, mountID)
+        end
+    end
+
+    if #availableAuctionHouseMounts == 0 then
+        print("No auction house mounts available.")
+        return
+    end
+
+    local randomIndex = math.random(1, #availableAuctionHouseMounts)
+    C_MountJournal.SummonByID(availableAuctionHouseMounts[randomIndex])
+end
+
+local function summonRandomTransmogMount()
+    local availableTransmogMounts = {}
+
+    for _, mountID in ipairs(transmogMounts) do
+        local _, _, _, _, isUsable, _, _, _, _, _, isCollected = C_MountJournal.GetMountInfoByID(mountID)
+        if isUsable and isCollected then
+            table.insert(availableTransmogMounts, mountID)
+        end
+    end
+
+    if #availableTransmogMounts == 0 then
+        print("No transmog mounts available.")
+        return
+    end
+
+    local randomIndex = math.random(1, #availableTransmogMounts)
+    C_MountJournal.SummonByID(availableTransmogMounts[randomIndex])
+end
+
+local function summonRandomMailboxMount()
+    local availableMailboxMounts = {}
+
+    for _, mountID in ipairs(mailboxMounts) do
+        local _, _, _, _, isUsable, _, _, _, _, _, isCollected = C_MountJournal.GetMountInfoByID(mountID)
+        if isUsable and isCollected then
+            table.insert(availableMailboxMounts, mountID)
+        end
+    end
+
+    if #availableMailboxMounts == 0 then
+        print("No mailbox mounts available.")
+        return
+    end
+
+    local randomIndex = math.random(1, #availableMailboxMounts)
+    C_MountJournal.SummonByID(availableMailboxMounts[randomIndex])
+end
+
+local function summonRandomMailboxMount()
+    local availableMailboxMounts = {}
+
+    for _, mountID in ipairs(mailboxMounts) do
+        local _, _, _, _, isUsable, _, _, _, _, _, isCollected = C_MountJournal.GetMountInfoByID(mountID)
+        if isUsable and isCollected then
+            table.insert(availableMailboxMounts, mountID)
+        end
+    end
+
+    if #availableMailboxMounts == 0 then
+        print("No mailbox mounts available.")
+        return
+    end
+
+    local randomIndex = math.random(1, #availableMailboxMounts)
+    C_MountJournal.SummonByID(availableMailboxMounts[randomIndex])
+end
+
+
 local function getAvailableMounts()
     local availableMounts = {}
     local zoneId = C_Map.GetBestMapForUnit("player")
@@ -258,7 +375,12 @@ RuthesMS.utils.mount = {
     getAvailableMounts = getAvailableMounts,
     findMountByID = findMountByID,
     reloadMounts = reloadMounts,
-    summonRandomMount = summonRandomMount,
     isSteadyFlightActive = isSteadyFlightActive,
-    canSummonMount = canSummonMount
+    canSummonMount = canSummonMount,
+
+    summonRandomMount = summonRandomMount,
+    summonRandomRepairMount = summonRandomRepairMount,
+    summonRandomAuctionHouseMount = summonRandomAuctionHouseMount,
+    summonRandomMailboxMount = summonRandomMailboxMount,
+    summonRandomTransmogMount = summonRandomTransmogMount,
 }

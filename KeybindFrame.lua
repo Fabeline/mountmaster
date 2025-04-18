@@ -6,36 +6,61 @@ local keybindTable = {
     {
         label = "Normal & flying",
         name = "normal",
-        actionIcon = "Interface\\Icons\\Ability_Mount_RidingHorse",
+        iconPath = "Interface\\Icons\\Ability_Mount_RidingHorse",
+        icon = "Ability_Mount_RidingHorse",
+        macro = "/rms summon",
+        macroName = "RMS normal"
     },
     {
         label = "Aquatic",
         name = "aquatic",
-        actionIcon = "Interface\\Icons\\inv_stingray2mount_teal"
+        iconPath = "Interface\\Icons\\inv_stingray2mount_teal",
+        icon = "inv_stingray2mount_teal",
+        macro = "/rms summonswim",
+        macroName = "RMS aquatic"
     },
     {
-        label = "Repare",
+        label = "Repair",
         name = "repair",
-        actionIcon = "Interface\\Icons\\inv_misc_gear_01",
+        iconPath = "Interface\\Icons\\inv_hammer_20",
+        icon = "inv_hammer_20",
+        macro = "/rms repair",
+        macroName = "RMS repair"
     },
     {
         label = "Transmog",
         name = "transmog",
-        actionIcon = "Interface\\Icons\\inv_stingray2mount_teal",
+        iconPath = "Interface\\Icons\\Inv_enchant_essencemagiclarge",
+        icon = "Inv_enchant_essencemagiclarge",
+        macro = "/rms transmog",
+        macroName = "RMS transmog"
     },
     {
         label = "Auction house",
         name = "auctionHouse",
-        actionIcon = "Interface\\Icons\\inv_stingray2mount_teal",
+        iconPath = "Interface\\Icons\\Inv_misc_coinbag_special",
+        icon = "Inv_misc_coinbag_special",
+        macro = "/rms auctionHouse",
+        macroName = "RMS auctionHouse"
+    },
+    {
+        label = "Mailbox",
+        name = "mailbox",
+        iconPath = "Interface\\Icons\\inv_letter_15",
+        icon = "inv_letter_15",
+        macro = "/rms mailbox",
+        macroName = "RMS mailbox",
     },
     {
         label = "Multiple",
         name = "multiple",
-        actionIcon = "Interface\\Icons\\inv_misc_gear_01",
+        iconPath = "Interface\\Icons\\ability_mount_camel_brown",
+        icon = "ability_mount_camel_brown",
+        macro = "/rms multiple",
+        macroName = "RMS multiple"
     }
 }
 
--- Apply the Keybinding
 local function applySummonKeyBinding(type)
     -- First clear all previous bindings
     ClearOverrideBindings(RuthesMS.frames.mountSelectorFrame.frame)
@@ -45,7 +70,31 @@ local function applySummonKeyBinding(type)
     SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
         "RuthesMSRandomMountButton")
 
-    -- TODO: do for every keybind
+    -- Aquatic summon
+    formattedKey = string.gsub(RuthesMS.keybinds.aquatic, "+", "-")
+    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+        "RuthesMSRandomAquaticMountButton")
+
+    -- Repair summon
+    formattedKey = string.gsub(RuthesMS.keybinds.repair, "+", "-")
+    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+        "RuthesMSRandomRepairMountButton")
+
+    -- Transmog summon
+    formattedKey = string.gsub(RuthesMS.keybinds.transmog, "+", "-")
+    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+        "RuthesMSRandomTransmogMountButton")
+
+
+    -- Auction house summon
+    formattedKey = string.gsub(RuthesMS.keybinds.auctionHouse, "+", "-")
+    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+        "RuthesMSRandomAuctionHouseMountButton")
+
+    -- Mailbox summon
+    formattedKey = string.gsub(RuthesMS.keybinds.mailbox, "+", "-")
+    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+        "RuthesMSRandomMailboxMountButton")
 end
 
 
@@ -119,6 +168,45 @@ local function deleteKeybindFrame()
     end
 end
 
+local function createAndDragMacro(macroName, macroBody, macroIcon)
+    local macroIndex = GetMacroIndexByName(macroName)
+
+    if macroIndex == 0 then
+        macroIndex = CreateMacro(macroName, macroIcon, macroBody, true)
+    else
+        EditMacro(macroIndex, macroName, macroIcon, macroBody)
+    end
+
+    if macroIndex then
+        PickupMacro(macroIndex)
+    end
+end
+
+local function createMacroButton(parentFrame, size, position, iconPath, tooltipText, macroName, macroBody, macroIcon)
+    local button = CreateFrame("Button", nil, parentFrame, "UIPanelButtonTemplate")
+    button:SetSize(size, size)
+    button:SetPoint(unpack(position))
+    button:SetNormalTexture(iconPath)
+
+    -- Set up the click handler to create and drag the macro
+    button:SetScript("OnClick", function()
+        createAndDragMacro(macroName, macroBody, macroIcon)
+    end)
+
+    -- Add a tooltip
+    button:EnableMouse(true)
+    button:SetScript("OnEnter", function(self)
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:SetText(tooltipText, 1, 1, 1)
+        GameTooltip:Show()
+    end)
+    button:SetScript("OnLeave", function(self)
+        GameTooltip:Hide()
+    end)
+
+    return button
+end
+
 local function createKeybindFrame()
     local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
 
@@ -127,8 +215,8 @@ local function createKeybindFrame()
     keybindFrame:SetSize(400, 400)
     keybindFrame:SetPoint("CENTER", mountSelectorFrame, "CENTER", 0, 0)
 
-    local yOffset = -20
-    local lineHeight = 40
+    local yOffset = -10
+    local lineHeight = 35
 
     -- Mount type
     local mountTypeLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
@@ -165,11 +253,16 @@ local function createKeybindFrame()
         end)
 
         -- Action button icon
-        local actionButtonIcon = keybindFrame:CreateTexture(nil, "ARTWORK")
-        actionButtonIcon:SetSize(32, 32)
-        actionButtonIcon:SetPoint("TOPRIGHT", keybindFrame, "TOPRIGHT", -20, yOffset - (index * lineHeight))
-
-        actionButtonIcon:SetTexture(value.actionIcon)
+        createMacroButton(
+            keybindFrame,                                                                        -- Parent frame
+            30,                                                                                  -- Button size
+            { "TOPRIGHT", keybindFrame, "TOPRIGHT", -20, -35 - yOffset - (index * lineHeight) }, -- Position
+            value.iconPath,                                                                      -- Icon path
+            "Create Summon Macro",                                                               -- Tooltip text
+            value.macroName,                                                                     -- Macro name
+            value.macro,                                                                         -- Macro body
+            value.icon                                                                           -- Macro icon
+        )
     end
 
 

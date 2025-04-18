@@ -12,8 +12,6 @@ local function printHelp()
     print("|cffffcc00==================================|r")
     print("|cffffff00Commands:                         |r")
     print("|cff00ff00  /rms |r - Toggles the mount selector window")
-    print("|cff00ff00  /rms summon |r - Summons a random mount")
-    print("|cff00ff00  /rms summonswim |r - Summons a random swimming mount")
     print("|cff00ff00  /rms minimap |r - Toggles the minimap button")
     print("|cff00ff00  /rms help |r - Displays this help message")
     print("|cffffcc00==================================|r")
@@ -22,13 +20,21 @@ end
 SLASH_RMS1 = "/rms"
 
 function SlashCmdList.RMS(msg, editBox)
-    if msg == "summon" then         -- /rms summon - will summon a random mount
+    if msg == "summon" then           -- /rms summon - will summon a random mount
         RuthesMS.utils.mount.summonRandomMount(false)
-    elseif msg == "summonswim" then -- /rms summonswim - will summon a random swimming mount
+    elseif msg == "summonswim" then   -- /rms summonswim - will summon a random swimming mount
         RuthesMS.utils.mount.summonRandomMount(true)
-    elseif msg == "minimap" then    --/rms minimap - will toggle minimap button
+    elseif msg == "repair" then       -- /rms repair - will summon a random repair mount
+        RuthesMS.utils.mount.summonRandomRepairMount()
+    elseif msg == "transmog" then     -- /rms transmog - will summon a random transmog mount
+        RuthesMS.utils.mount.summonRandomTransmogMount()
+    elseif msg == "auctionHouse" then -- /rms auctionHouse - will summon a random auction house mount
+        RuthesMS.utils.mount.summonRandomAuctionHouseMount()
+    elseif msg == "mailbox" then      -- /rms mailbox - will summon a random mailbox mount
+        RuthesMS.utils.mount.summonRandomMailboxMount()
+    elseif msg == "minimap" then      --/rms minimap - will toggle minimap button
         RuthesMS.buttons.minimapButton.toggleMinimap()
-    elseif msg == "help" then       --/rms help - will display help message
+    elseif msg == "help" then         --/rms help - will display help message
         printHelp()
     else
         if not RuthesMS.frames.mountSelectorFrame.frame:IsShown() then -- /rms - will toggle the mount selector window

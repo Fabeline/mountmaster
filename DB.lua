@@ -14,6 +14,7 @@ local function InitializeConfig()
                 repair = "",
                 transmog = "",
                 auctionHouse = "",
+                mailbox = "",
                 multiple = "",
             },
         }
@@ -30,6 +31,7 @@ local function InitializeConfig()
         aquatic = MountSelectorCharacterConfig.keybinds.aquatic or "",
         repair = MountSelectorCharacterConfig.keybinds.repair or "",
         transmog = MountSelectorCharacterConfig.keybinds.transmog or "",
+        mailbox = MountSelectorCharacterConfig.keybinds.mailbox or "",
         auctionHouse = MountSelectorCharacterConfig.keybinds.auctionHouse or "",
         multiple = MountSelectorCharacterConfig.keybinds.multiple or "",
     }
@@ -42,7 +44,7 @@ local function InitializeConfig()
 end
 
 local function saveSummonKey(key, type)
-    MountSelectorCharacterConfig.summonKey = key
+    MountSelectorCharacterConfig.keybinds[type] = key
     RuthesMS.keybinds[type] = key
 end
 

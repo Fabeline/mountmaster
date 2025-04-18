@@ -16,12 +16,12 @@ local function createFrame()
 
     local advancedFrame = CreateFrame("Frame", "MountSelectorAdvancedFrame", mountSelectorFrame, "BackdropTemplate")
     advancedFrame:SetSize(mountSelectorFrame:GetWidth(), 400)
-    advancedFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
+    advancedFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -55)
 
     -- Only favorites
     favoriteCheckbox = CreateFrame("CheckButton", "FavoriteCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
-    favoriteCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 20, 0)
+    favoriteCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, 0)
     favoriteCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveUseOnlyFavourites(self:GetChecked())
         RuthesMS.buttons.mountButtons.reload()
@@ -34,7 +34,7 @@ local function createFrame()
     -- Small in instances
     smallMountCheckbox = CreateFrame("CheckButton", "SmallMountCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
-    smallMountCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 20, -25)
+    smallMountCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -25)
     smallMountCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveSmallMountInInstance(self:GetChecked())
         RuthesMS.buttons.mountButtons.reload()
