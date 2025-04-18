@@ -1,7 +1,10 @@
 RuthesMS.db.init()
+
 RuthesMS.frames.mountSelectorFrame.create()
 RuthesMS.frames.mountSelectorScrollFrame.create()
 RuthesMS.frames.contentFrame.create()
+RuthesMS.frames.keybindFrame.create()
+
 RuthesMS.buttons.frameButtons.create()
 RuthesMS.buttons.minimapButton.create()
 RuthesMS.buttons.summonButton.create()

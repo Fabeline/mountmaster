@@ -63,7 +63,9 @@ local function loadRandomMountButton()
         "RandomMountButton")
 end
 
+local none = function() end
+
 RuthesMS.buttons.frameButtons = {
     create = createFrameButtons,
-    loadRandomMountButton = loadRandomMountButton
+    loadRandomMountButton = none -- loadRandomMountButton
 }

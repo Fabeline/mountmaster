@@ -22,6 +22,7 @@ DropdownUtils.lua
 MountSelectorFrame.lua
 MountSelectorScrollFrame.lua
 ContentFrame.lua
+KeybindFrame.lua
 
 FrameButtons.lua
 MiniMapButton.lua

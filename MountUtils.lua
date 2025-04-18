@@ -82,7 +82,7 @@ local function getAvailableMounts()
     local vashirMountAllowed = zoneId == 5146
 
     -- Use small mounts if in an instance
-    local useSmallMounts = (IsInInstance() and RuthesMS.smallMountInInstance)
+    local useSmallMounts = (IsInInstance() and RuthesMS.settings.smallMountInInstance)
 
     for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
         local name, spellID, icon, _, isUsable, _, isFavorite, _, _, _, isCollected =

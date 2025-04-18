@@ -7,14 +7,14 @@ RuthesMS = {
         smallMountInInstance = false,
     },
     keybinds = {
-        summonNormal = "k",
     },
     temp = {
         currentMounts = {},
         availableMounts = {}
     },
     frames = {
-        contentFrame = {}
+        contentFrame = {},
+        keybindFrame = {}
     },
     buttons = {
         frameButtons = {},
