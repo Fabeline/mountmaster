@@ -220,15 +220,15 @@ local function createKeybindFrame()
 
     local keybindFrame = CreateFrame("Frame", "MountSelectorKeybindFrame", mountSelectorFrame,
         "BackdropTemplate")
-    keybindFrame:SetSize(400, 400)
-    keybindFrame:SetPoint("CENTER", mountSelectorFrame, "CENTER", 0, 0)
+    keybindFrame:SetSize(400, 360)
+    keybindFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 20, -65)
 
-    local yOffset = -10
+    local yOffset = 0
     local lineHeight = 35
 
     -- Mount type
     local mountTypeLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-    mountTypeLabel:SetPoint("TOPLEFT", keybindFrame, "TOPLEFT", 20, yOffset)
+    mountTypeLabel:SetPoint("TOPLEFT", keybindFrame, "TOPLEFT", 0, yOffset)
     mountTypeLabel:SetText("Mount Type")
 
     -- Set keybind
@@ -236,19 +236,15 @@ local function createKeybindFrame()
     setKeybindLabel:SetPoint("TOP", keybindFrame, "TOP", 0, yOffset)
     setKeybindLabel:SetText("Keybind")
 
-    -- Only favorites
-    -- local onlyFavoritesLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-    -- onlyFavoritesLabel:SetPoint("TOPRIGHT", keybindFrame, "TOP", 130, yOffset)
-    -- onlyFavoritesLabel:SetText("Only favorites")
-
     -- Action button
     local setActionButtonLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-    setActionButtonLabel:SetPoint("TOPRIGHT", keybindFrame, "TOPRIGHT", -20, yOffset)
+    setActionButtonLabel:SetPoint("TOPRIGHT", keybindFrame, "TOPRIGHT", -40, yOffset)
     setActionButtonLabel:SetText("Button")
 
     for index, value in ipairs(keybindTable) do
+        -- Mount type
         local keybindLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-        keybindLabel:SetPoint("TOPLEFT", keybindFrame, "TOPLEFT", 20, yOffset - (index * lineHeight))
+        keybindLabel:SetPoint("TOPLEFT", keybindFrame, "TOPLEFT", 0, yOffset - (index * lineHeight))
         keybindLabel:SetText(value.label)
 
         -- Keybind button
@@ -269,7 +265,7 @@ local function createKeybindFrame()
         createMacroButton(
             keybindFrame,                                                                  -- Parent frame
             30,                                                                            -- Button size
-            { "TOPRIGHT", keybindFrame, "TOPRIGHT", -20, yOffset - (index * lineHeight) }, -- Position
+            { "TOPRIGHT", keybindFrame, "TOPRIGHT", -47, yOffset - (index * lineHeight) }, -- Position
             value.iconPath,                                                                -- Icon path
             "Create Summon Macro",                                                         -- Tooltip text
             value.macroName,                                                               -- Macro name

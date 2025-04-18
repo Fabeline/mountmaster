@@ -100,5 +100,6 @@ end
 
 RuthesMS.buttons.mountButtons = {
     create = createMountButtons,
-    reload = reload
+    reload = reload,
+    lineHeight = lineheight,
 }

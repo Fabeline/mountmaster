@@ -16,12 +16,17 @@ local function createFrame()
 
     local advancedFrame = CreateFrame("Frame", "MountSelectorAdvancedFrame", mountSelectorFrame, "BackdropTemplate")
     advancedFrame:SetSize(mountSelectorFrame:GetWidth(), 400)
-    advancedFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -55)
+    advancedFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
+
+    -- Heading
+    local heading = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+    heading:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 20, 0)
+    heading:SetText("Settings for non-utility mounts")
 
     -- Only favorites
     favoriteCheckbox = CreateFrame("CheckButton", "FavoriteCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
-    favoriteCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, 0)
+    favoriteCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -25)
     favoriteCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveUseOnlyFavourites(self:GetChecked())
         RuthesMS.buttons.mountButtons.reload()
@@ -29,12 +34,12 @@ local function createFrame()
 
     local favoriteLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     favoriteLabel:SetPoint("LEFT", favoriteCheckbox, "RIGHT", 5, 0)
-    favoriteLabel:SetText("Only pick mounts from favorites")
+    favoriteLabel:SetText("Only use favorites")
 
     -- Small in instances
     smallMountCheckbox = CreateFrame("CheckButton", "SmallMountCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
-    smallMountCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -25)
+    smallMountCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -50)
     smallMountCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveSmallMountInInstance(self:GetChecked())
         RuthesMS.buttons.mountButtons.reload()
@@ -43,6 +48,19 @@ local function createFrame()
     local smallMountLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     smallMountLabel:SetPoint("LEFT", smallMountCheckbox, "RIGHT", 5, 0)
     smallMountLabel:SetText("Only summon small mounts in instances")
+
+    -- Don't include utility mounts
+    local utilityCheckbox = CreateFrame("CheckButton", "UtilityCheckbox", advancedFrame,
+        "ChatConfigCheckButtonTemplate")
+    utilityCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -75)
+    utilityCheckbox:SetScript("OnClick", function(self)
+        RuthesMS.db.saveDontIncludeUtilityMounts(self:GetChecked())
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+
+    local utilityLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    utilityLabel:SetPoint("LEFT", utilityCheckbox, "RIGHT", 5, 0)
+    utilityLabel:SetText("Don't include utility mounts")
 
     advancedFrame:Show()
     reloadCheckboxes()

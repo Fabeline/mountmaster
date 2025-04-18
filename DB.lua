@@ -8,6 +8,7 @@ local function InitializeConfig()
             expansions = RuthesMS.utils.filterDropdowns.getAllExpansions(),
             summonKey = standardKey, -- deprecated, use keybinds instead
             useOnlyFavourites = false,
+            dontIncludeUtilityMounts = false,
             keybinds = {
                 normal = standardKey,
                 aquatic = "",
@@ -41,6 +42,7 @@ local function InitializeConfig()
     RuthesMS.settings.selectedExpansions = MountSelectorCharacterConfig.expansions or {}
     RuthesMS.settings.useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
     RuthesMS.settings.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
+    RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
 end
 
 local function saveSummonKey(key, type)
@@ -70,6 +72,11 @@ local function saveSmallMountInInstance(shouldUse)
     RuthesMS.smallMountInInstance = shouldUse
 end
 
+local function saveDontIncludeUtilityMounts(shouldUse)
+    MountSelectorCharacterConfig.dontIncludeUtilityMounts = shouldUse
+    RuthesMS.settings.dontIncludeUtilityMounts = shouldUse
+end
+
 RuthesMS.db = {
     init = InitializeConfig,
     saveSummonKey = saveSummonKey,
@@ -78,4 +85,5 @@ RuthesMS.db = {
     saveSelectedExpansions = saveSelectedExpansions,
     saveUseOnlyFavourites = saveUseOnlyFavourites,
     saveSmallMountInInstance = saveSmallMountInInstance,
+    saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
 }

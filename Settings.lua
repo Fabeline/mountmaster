@@ -5,6 +5,7 @@ RuthesMS = {
         selectedExpansions = {},
         useOnlyFavourites = false,
         smallMountInInstance = false,
+        dontIncludeUtilityMounts = false,
     },
     keybinds = {
     },

@@ -3,11 +3,11 @@ local function createFrame()
 
     local helpFrame = CreateFrame("Frame", "MountSelectorHelpFrame", mountSelectorFrame, "BackdropTemplate")
     helpFrame:SetSize(mountSelectorFrame:GetWidth(), 400)
-    helpFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 10, -50)
+    helpFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 20, -65)
 
     -- Add help text
     local helpText = helpFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    helpText:SetPoint("TOPLEFT", helpFrame, "TOPLEFT", 10, -10)
+    helpText:SetPoint("TOPLEFT", helpFrame, "TOPLEFT", 0, 0)
     helpText:SetWidth(helpFrame:GetWidth() - 40)
     helpText:SetWordWrap(true)
     helpText:SetJustifyH("LEFT")

@@ -240,7 +240,36 @@ local function summonRandomMount(isSwimming)
     end
 end
 
+local function isUtilityMount(mountID)
+    for _, id in ipairs(repairMounts) do
+        if mountID == id then
+            return true
+        end
+    end
+
+    for _, id in ipairs(transmogMounts) do
+        if mountID == id then
+            return true
+        end
+    end
+
+    for _, id in ipairs(auctionHouseMounts) do
+        if mountID == id then
+            return true
+        end
+    end
+
+    for _, id in ipairs(mailboxMounts) do
+        if mountID == id then
+            return true
+        end
+    end
+
+    return false
+end
+
 RuthesMS.utils.summon = {
+    isUtilityMount = isUtilityMount,
     summonRandomMount = summonRandomMount,
     summonRandomRepairMount = summonRandomRepairMount,
     summonRandomTransmogMount = summonRandomTransmogMount,

@@ -87,6 +87,8 @@ local function getAvailableMounts()
 
         local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
 
+        local isUtilityMount = RuthesMS.utils.summon.isUtilityMount(mountID)
+
         -- Uncomment to output missing mounts
         -- local mountInfo = findMountByID(mountID)
         -- if not mountInfo then
@@ -94,6 +96,7 @@ local function getAvailableMounts()
         -- end
 
         if isUsable and isCollected and
+            ((isUtilityMount and not RuthesMS.settings.dontIncludeUtilityMounts) or not isUtilityMount) and
             ((isFavorite and RuthesMS.settings.useOnlyFavourites) or not RuthesMS.settings.useOnlyFavourites) then
             local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
 
