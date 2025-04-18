@@ -125,7 +125,28 @@ local function summonRandomMultipleMount()
         end
     end
 
+    local flyingMounts = {}
+    local groundMounts = {}
+
+    for _, mountID in ipairs(availableMultipleMounts) do
+        local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
+        local canFly = RuthesMS.utils.mount.isMountFlying(mountType)
+
+        if canFly then
+            table.insert(flyingMounts, mountID)
+        else
+            table.insert(groundMounts, mountID)
+        end
+    end
+
+    if #flyingMounts == 0 or not RuthesMS.utils.mount.canPlayerFly() then
+        availableMultipleMounts = groundMounts
+    else
+        availableMultipleMounts = flyingMounts
+    end
+
     local randomIndex = math.random(1, #availableMultipleMounts)
+
     C_MountJournal.SummonByID(availableMultipleMounts[randomIndex])
 end
 

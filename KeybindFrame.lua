@@ -52,7 +52,7 @@ local keybindTable = {
         macroName = "RMS mailbox",
     },
     {
-        label = "Multiple",
+        label = "Multiple riders",
         name = "multiple",
         iconPath = "Interface\\Icons\\ability_mount_camel_brown",
         icon = "ability_mount_camel_brown",
@@ -233,13 +233,13 @@ local function createKeybindFrame()
 
     -- Set keybind
     local setKeybindLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-    setKeybindLabel:SetPoint("TOPLEFT", keybindFrame, "TOP", -35, yOffset)
+    setKeybindLabel:SetPoint("TOP", keybindFrame, "TOP", 0, yOffset)
     setKeybindLabel:SetText("Keybind")
 
     -- Only favorites
-    local onlyFavoritesLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-    onlyFavoritesLabel:SetPoint("TOPRIGHT", keybindFrame, "TOP", 130, yOffset)
-    onlyFavoritesLabel:SetText("Only favorites")
+    -- local onlyFavoritesLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+    -- onlyFavoritesLabel:SetPoint("TOPRIGHT", keybindFrame, "TOP", 130, yOffset)
+    -- onlyFavoritesLabel:SetText("Only favorites")
 
     -- Action button
     local setActionButtonLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
@@ -254,7 +254,7 @@ local function createKeybindFrame()
         -- Keybind button
         local setKeyButton = CreateFrame("Button", nil, keybindFrame, "UIPanelButtonTemplate")
         setKeyButton:SetSize(110, 22)
-        setKeyButton:SetPoint("TOPLEFT", keybindFrame, "TOP", -65, yOffset - (index * lineHeight))
+        setKeyButton:SetPoint("TOP", keybindFrame, "TOP", -0, yOffset - (index * lineHeight))
         setKeyButton:SetText("Key (" .. (RuthesMS.keybinds[value.name] or "None") .. ")")
 
         -- Keybinding Popup (Detects Key Press)

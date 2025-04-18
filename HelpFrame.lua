@@ -17,7 +17,7 @@ local function createFrame()
         "This addon helps you summon the perfect mounts for each of your characters.\n\n" ..
         "Use the dropdowns to filter by color, expansion, or type.\n\n" ..
         "You can set a keybind or drag an action button/macro to summon from your selection.\n\n" ..
-        "If you have any comments or questions, please ask them here:\n|cffffffffhttps://www.curseforge.com/wow/addons/ruthes-mountselector/comments\n\n|r" ..
+        "If you have any comments or questions, please enter them here:\n|cffffffffhttps://www.curseforge.com/wow/addons/ruthes-mountselector/comments\n\n|r" ..
         "Enjoy your adventures!"
     )
 
