@@ -1,3 +1,4 @@
+--TODO: delete this file
 local function createFrameButtons()
     local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
 
@@ -8,23 +9,23 @@ local function createFrameButtons()
     randomMountButton:SetText("Random Mount")
     randomMountButton:Hide()
 
-    -- Add refresh button (for favorites)
-    local refreshButton = CreateFrame("Button", "RefreshButton", mountSelectorFrame, "UIPanelButtonTemplate")
-    refreshButton:SetSize(80, 22)
-    refreshButton:SetText("Refresh")
-    refreshButton:SetPoint("BOTTOMLEFT", mountSelectorFrame, "BOTTOMLEFT", 10, 10)
-    refreshButton:SetScript("OnClick", RuthesMS.buttons.mountButtons.reload)
-
-    -- Add Info Button
-    local infoButton = CreateFrame("Button", "InfoButton", mountSelectorFrame, "UIPanelButtonTemplate")
-    infoButton:SetSize(25, 20)
-    infoButton:SetPoint("RIGHT", mountSelectorFrame, "BOTTOMRIGHT", -6, 20)
-    infoButton:SetText("?")
-
-    infoButton:SetScript("OnClick", function()
-        StaticPopup_Show("RUTHES_MOUNT_INFO")
+    randomMountButton:SetScript("OnClick", function()
+        RuthesMS.utils.mount.summonRandomMount(false)
     end)
+end
 
+local function loadRandomMountButton()
+    -- clear the previous keybinding
+    ClearOverrideBindings(RuthesMS.frames.mountSelectorFrame.frame)
+    -- set the new one
+    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, RuthesMS.keybinds.summonNormal,
+        "RandomMountButton")
+end
+
+local none = function() end
+
+
+local function later()
     -- Create Info Popup
     StaticPopupDialogs["RUTHES_MOUNT_INFO"] = {
         text = "|cffff8000 Ruthe's Mount Selector|r\n\n" ..
@@ -49,21 +50,7 @@ local function createFrameButtons()
         hideOnEscape = true,
         preferredIndex = 3,
     }
-
-    randomMountButton:SetScript("OnClick", function()
-        RuthesMS.utils.mount.summonRandomMount(false)
-    end)
 end
-
-local function loadRandomMountButton()
-    -- clear the previous keybinding
-    ClearOverrideBindings(RuthesMS.frames.mountSelectorFrame.frame)
-    -- set the new one
-    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, RuthesMS.keybinds.summonNormal,
-        "RandomMountButton")
-end
-
-local none = function() end
 
 RuthesMS.buttons.frameButtons = {
     create = createFrameButtons,

@@ -90,13 +90,10 @@ StaticPopupDialogs["SET_KEYBIND"] = {
 
                 -- Save & Apply Keybinding
                 RuthesMS.keybinds[selectedType] = keyCombo
-                print("selectedType")
-                print(selectedType)
                 RuthesMS.db.saveSummonKey(keyCombo, selectedType)
                 loadSummoningKey()
 
                 StaticPopup_Hide("SET_KEYBIND")
-                applySummonKeyBinding()
             end
         end)
     end,
@@ -112,19 +109,26 @@ StaticPopupDialogs["SET_KEYBIND"] = {
 
 local function deleteKeybindFrame()
     if RuthesMS.frames.keybindFrame.frame then
+        for _, child in ipairs({ RuthesMS.frames.keybindFrame.frame:GetChildren() }) do
+            child:Hide()
+            child:SetParent(nil)
+        end
+
         RuthesMS.frames.keybindFrame.frame:Hide()
+        RuthesMS.frames.keybindFrame.frame:SetParent(nil)
         RuthesMS.frames.keybindFrame.frame = nil
     end
 end
 
 local function createKeybindFrame()
     local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
+
     local keybindFrame = CreateFrame("Frame", "MountSelectorKeybindFrame", mountSelectorFrame,
         "BackdropTemplate")
     keybindFrame:SetSize(400, 400)
     keybindFrame:SetPoint("CENTER", mountSelectorFrame, "CENTER", 0, 0)
 
-    local yOffset = -65
+    local yOffset = -30
     local lineHeight = 40
 
     -- Mount type
@@ -148,7 +152,7 @@ local function createKeybindFrame()
         keybindLabel:SetText(value.label)
 
         -- Keybind button
-        local setKeyButton = CreateFrame("Button", "SummonKeyButton", keybindFrame, "UIPanelButtonTemplate")
+        local setKeyButton = CreateFrame("Button", nil, keybindFrame, "UIPanelButtonTemplate")
         setKeyButton:SetSize(100, 22)
         setKeyButton:SetPoint("TOPLEFT", keybindFrame, "TOP", -50, yOffset - (index * lineHeight))
         setKeyButton:SetText("Key (" .. (RuthesMS.keybinds[value.name] or "None") .. ")")
@@ -171,6 +175,7 @@ local function createKeybindFrame()
 
 
     keybindFrame:Show()
+
     RuthesMS.frames.keybindFrame.frame = keybindFrame
 end
 
@@ -196,5 +201,6 @@ RuthesMS.frames.keybindFrame = {
     create = createKeybindFrame,
     delete = deleteKeybindFrame,
     show = show,
-    hide = hide
+    hide = hide,
+    loadSummoningKey = loadSummoningKey,
 }

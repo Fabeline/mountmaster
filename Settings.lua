@@ -14,7 +14,12 @@ RuthesMS = {
     },
     frames = {
         contentFrame = {},
-        keybindFrame = {}
+        keybindFrame = {},
+        advancedFrame = {},
+        generalFrame = {},
+        helpFrame = {},
+        mountSelectorFrame = {},
+        mountSelectorScrollFrame = {},
     },
     buttons = {
         frameButtons = {},
@@ -29,7 +34,8 @@ RuthesMS = {
         dropdown = {},
         filterDropdowns = {},
         mount = {},
-        filter = {}
+        filter = {},
+        addon = {},
     },
     db = {}
 }

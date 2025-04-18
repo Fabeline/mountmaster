@@ -30,6 +30,13 @@ local function createFrame()
     UIDropDownMenu_SetText(colorDropdown, "Select colors")
     UIDropDownMenu_SetText(expansionDropdown, "Select expansions")
 
+    -- Add refresh button (for favorites)
+    local refreshButton = CreateFrame("Button", "RefreshButton", generalFrame, "UIPanelButtonTemplate")
+    refreshButton:SetSize(80, 22)
+    refreshButton:SetText("Refresh")
+    refreshButton:SetPoint("BOTTOM", generalFrame, "BOTTOM", 0, -55)
+    refreshButton:SetScript("OnClick", RuthesMS.buttons.mountButtons.reload)
+
     RuthesMS.frames.generalFrame.frame = generalFrame
     RuthesMS.frames.mountSelectorScrollFrame.create()
     RuthesMS.frames.contentFrame.create()

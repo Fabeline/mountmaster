@@ -1,3 +1,5 @@
+-- TODO: this file will be deleted
+
 local detectedKey = nil
 local detectedModifiers = {}
 

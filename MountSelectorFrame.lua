@@ -13,14 +13,22 @@ local function createTabs()
                 if (i == 1) then
                     RuthesMS.frames.generalFrame.show()
                     RuthesMS.frames.keybindFrame.hide()
+                    RuthesMS.frames.advancedFrame.hide()
                     RuthesMS.frames.helpFrame.hide()
                 elseif (i == 2) then
                     RuthesMS.frames.generalFrame.hide()
                     RuthesMS.frames.keybindFrame.show()
+                    RuthesMS.frames.advancedFrame.hide()
                     RuthesMS.frames.helpFrame.hide()
                 elseif (i == 3) then
                     RuthesMS.frames.generalFrame.hide()
                     RuthesMS.frames.keybindFrame.hide()
+                    RuthesMS.frames.advancedFrame.show()
+                    RuthesMS.frames.helpFrame.hide()
+                elseif (i == 4) then
+                    RuthesMS.frames.generalFrame.hide()
+                    RuthesMS.frames.keybindFrame.hide()
+                    RuthesMS.frames.advancedFrame.hide()
                     RuthesMS.frames.helpFrame.show()
                 end
             else
