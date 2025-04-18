@@ -1,42 +1,41 @@
-local function createTabs()
-    local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
+local tabNames = { "General", "Keybinds", "Advanced", "Help" }
+local tabs = {}
 
-    local tabNames = { "General", "Keybinds", "Advanced", "Help" }
-    local tabs = {}
-
-    -- Function to switch active tab
-    local function selectTab(index)
-        for i, tab in ipairs(tabs) do
-            if i == index then
-                tab:SetBackdropBorderColor(1, 1, 0, 1) -- yellow border
-                tab:Disable()
-                if (i == 1) then
-                    RuthesMS.frames.generalFrame.show()
-                    RuthesMS.frames.keybindFrame.hide()
-                    RuthesMS.frames.advancedFrame.hide()
-                    RuthesMS.frames.helpFrame.hide()
-                elseif (i == 2) then
-                    RuthesMS.frames.generalFrame.hide()
-                    RuthesMS.frames.keybindFrame.show()
-                    RuthesMS.frames.advancedFrame.hide()
-                    RuthesMS.frames.helpFrame.hide()
-                elseif (i == 3) then
-                    RuthesMS.frames.generalFrame.hide()
-                    RuthesMS.frames.keybindFrame.hide()
-                    RuthesMS.frames.advancedFrame.show()
-                    RuthesMS.frames.helpFrame.hide()
-                elseif (i == 4) then
-                    RuthesMS.frames.generalFrame.hide()
-                    RuthesMS.frames.keybindFrame.hide()
-                    RuthesMS.frames.advancedFrame.hide()
-                    RuthesMS.frames.helpFrame.show()
-                end
-            else
-                tab:SetBackdropBorderColor(0.4, 0.4, 0.4, 1)
-                tab:Enable()
+local function selectTab(index)
+    for i, tab in ipairs(tabs) do
+        if i == index then
+            tab:SetBackdropBorderColor(1, 1, 0, 1) -- yellow border
+            tab:Disable()
+            if (i == 1) then
+                RuthesMS.frames.generalFrame.show()
+                RuthesMS.frames.keybindFrame.hide()
+                RuthesMS.frames.advancedFrame.hide()
+                RuthesMS.frames.helpFrame.hide()
+            elseif (i == 2) then
+                RuthesMS.frames.generalFrame.hide()
+                RuthesMS.frames.keybindFrame.show()
+                RuthesMS.frames.advancedFrame.hide()
+                RuthesMS.frames.helpFrame.hide()
+            elseif (i == 3) then
+                RuthesMS.frames.generalFrame.hide()
+                RuthesMS.frames.keybindFrame.hide()
+                RuthesMS.frames.advancedFrame.show()
+                RuthesMS.frames.helpFrame.hide()
+            elseif (i == 4) then
+                RuthesMS.frames.generalFrame.hide()
+                RuthesMS.frames.keybindFrame.hide()
+                RuthesMS.frames.advancedFrame.hide()
+                RuthesMS.frames.helpFrame.show()
             end
+        else
+            tab:SetBackdropBorderColor(0.4, 0.4, 0.4, 1)
+            tab:Enable()
         end
     end
+end
+
+local function createTabs()
+    local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
 
     for i, name in ipairs(tabNames) do
         local tab = CreateFrame("Button", nil, mountSelectorFrame, "UIPanelButtonTemplate, BackdropTemplate")
@@ -178,5 +177,6 @@ end
 
 RuthesMS.frames.mountSelectorFrame = {
     frame = nil,
-    create = createMountSelectorFrame
+    create = createMountSelectorFrame,
+    selectTab = selectTab
 }

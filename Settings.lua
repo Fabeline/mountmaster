@@ -22,7 +22,6 @@ RuthesMS = {
         mountSelectorScrollFrame = {},
     },
     buttons = {
-        frameButtons = {},
         mountButtons = {},
         minimapButton = {},
         summonButton = {}

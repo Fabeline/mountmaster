@@ -90,8 +90,6 @@ local function createMountButtons()
             end
         end)
     end
-
-    RuthesMS.buttons.frameButtons.loadRandomMountButton()
 end
 
 

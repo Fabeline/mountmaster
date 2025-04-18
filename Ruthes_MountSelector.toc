@@ -28,10 +28,8 @@ GeneralFrame.lua
 HelpFrame.lua
 AdvancedFrame.lua
 
-FrameButtons.lua
 MiniMapButton.lua
 MountFilterDropdown.lua
-SummonButton.lua
 MountButtons.lua
 
 DB.lua

@@ -41,35 +41,6 @@ local function InitializeConfig()
     RuthesMS.settings.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
 end
 
-local function OnEvent(self, event, ...)
-    if event == "ADDON_LOADED" then
-        print("ADDON LOADED")
-        local addonName = ...
-        if addonName == "Ruthes_MountSelector" then
-            print(
-                "|cffff9900Ruthe's Mount Selector loaded - |cffffff00To see available commands, type: |r|cff00ff00/rms help|r")
-        end
-    elseif event == "PLAYER_LOGIN" then
-        print("PLAYER_LOGIN")
-        InitializeConfig()
-        RuthesMS.buttons.mountButtons.reload()
-        --RuthesMS.buttons.summonButton.reload()
-        -- TODO: reload summon buttons
-
-        -- Some functions may not have been loaded yet
-        local maxRetries = 10
-        local retryCount = 0
-    end
-end
-
-local function init()
-    -- Create a frame to listen for events
-    local eventFrame = CreateFrame("Frame")
-    eventFrame:RegisterEvent("ADDON_LOADED")
-    eventFrame:RegisterEvent("PLAYER_LOGIN")
-    eventFrame:SetScript("OnEvent", OnEvent)
-end
-
 local function saveSummonKey(key, type)
     MountSelectorCharacterConfig.summonKey = key
     RuthesMS.keybinds[type] = key
@@ -98,7 +69,7 @@ local function saveSmallMountInInstance(shouldUse)
 end
 
 RuthesMS.db = {
-    init = init,
+    init = InitializeConfig,
     saveSummonKey = saveSummonKey,
     saveSelectedColors = saveSelectedColors,
     saveSelectedTypes = saveSelectedTypes,

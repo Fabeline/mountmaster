@@ -5,7 +5,7 @@ local function createMountSelectorScrollFrame()
 
     local mountSelectorScrollFrame = CreateFrame("ScrollFrame", "MountSelectorScrollFrame", generalFrame,
         "UIPanelScrollFrameTemplate")
-    mountSelectorScrollFrame:SetPoint("TOPLEFT", generalFrame, "TOPLEFT", 10, -95)
+    mountSelectorScrollFrame:SetPoint("TOPLEFT", generalFrame, "TOPLEFT", 10, -75)
     mountSelectorScrollFrame:SetPoint("BOTTOMRIGHT", mountSelectorFrame, "BOTTOMRIGHT", -30, 30)
     RuthesMS.frames.mountSelectorScrollFrame.frame = mountSelectorScrollFrame
 end
