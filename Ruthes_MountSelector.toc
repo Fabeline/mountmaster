@@ -19,6 +19,7 @@ FilterUtils.lua
 MountUtils.lua
 DropdownUtils.lua
 AddonUtils.lua
+SummonUtils.lua
 
 MountSelectorFrame.lua
 MountSelectorScrollFrame.lua

@@ -4,7 +4,7 @@ local selectedType = ""
 
 local keybindTable = {
     {
-        label = "Normal & flying",
+        label = "Normal/flying",
         name = "normal",
         iconPath = "Interface\\Icons\\Ability_Mount_RidingHorse",
         icon = "Ability_Mount_RidingHorse",
@@ -30,8 +30,8 @@ local keybindTable = {
     {
         label = "Transmog",
         name = "transmog",
-        iconPath = "Interface\\Icons\\Inv_enchant_essencemagiclarge",
-        icon = "Inv_enchant_essencemagiclarge",
+        iconPath = "Interface\\Icons\\ability_ardenweald_mage",
+        icon = "ability_ardenweald_mage",
         macro = "/rms transmog",
         macroName = "RMS transmog"
     },
@@ -108,7 +108,15 @@ end
 StaticPopupDialogs["SET_KEYBIND"] = {
     text = "Press a key to set as your summon key",
     button1 = "Cancel",
+    button2 = "Delete",
     OnAccept = function() end,
+    OnCancel = function(self)
+        -- Save & Apply Keybinding
+        RuthesMS.keybinds[selectedType] = ""
+        RuthesMS.db.saveSummonKey("", selectedType)
+        loadSummoningKey()
+        StaticPopup_Hide("SET_KEYBIND")
+    end,
     OnShow = function(self)
         self:EnableKeyboard(true)
         self:SetScript("OnKeyDown", function(_, key)
@@ -225,13 +233,18 @@ local function createKeybindFrame()
 
     -- Set keybind
     local setKeybindLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-    setKeybindLabel:SetPoint("TOPRIGHT", keybindFrame, "TOP", 20, yOffset)
+    setKeybindLabel:SetPoint("TOPLEFT", keybindFrame, "TOP", -35, yOffset)
     setKeybindLabel:SetText("Keybind")
+
+    -- Only favorites
+    local onlyFavoritesLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+    onlyFavoritesLabel:SetPoint("TOPRIGHT", keybindFrame, "TOP", 130, yOffset)
+    onlyFavoritesLabel:SetText("Only favorites")
 
     -- Action button
     local setActionButtonLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
     setActionButtonLabel:SetPoint("TOPRIGHT", keybindFrame, "TOPRIGHT", -20, yOffset)
-    setActionButtonLabel:SetText("Action button")
+    setActionButtonLabel:SetText("Button")
 
     for index, value in ipairs(keybindTable) do
         local keybindLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
@@ -240,8 +253,8 @@ local function createKeybindFrame()
 
         -- Keybind button
         local setKeyButton = CreateFrame("Button", nil, keybindFrame, "UIPanelButtonTemplate")
-        setKeyButton:SetSize(100, 22)
-        setKeyButton:SetPoint("TOPLEFT", keybindFrame, "TOP", -50, yOffset - (index * lineHeight))
+        setKeyButton:SetSize(110, 22)
+        setKeyButton:SetPoint("TOPLEFT", keybindFrame, "TOP", -65, yOffset - (index * lineHeight))
         setKeyButton:SetText("Key (" .. (RuthesMS.keybinds[value.name] or "None") .. ")")
 
         -- Keybinding Popup (Detects Key Press)
@@ -254,14 +267,14 @@ local function createKeybindFrame()
 
         -- Action button icon
         createMacroButton(
-            keybindFrame,                                                                        -- Parent frame
-            30,                                                                                  -- Button size
-            { "TOPRIGHT", keybindFrame, "TOPRIGHT", -20, -35 - yOffset - (index * lineHeight) }, -- Position
-            value.iconPath,                                                                      -- Icon path
-            "Create Summon Macro",                                                               -- Tooltip text
-            value.macroName,                                                                     -- Macro name
-            value.macro,                                                                         -- Macro body
-            value.icon                                                                           -- Macro icon
+            keybindFrame,                                                                  -- Parent frame
+            30,                                                                            -- Button size
+            { "TOPRIGHT", keybindFrame, "TOPRIGHT", -20, yOffset - (index * lineHeight) }, -- Position
+            value.iconPath,                                                                -- Icon path
+            "Create Summon Macro",                                                         -- Tooltip text
+            value.macroName,                                                               -- Macro name
+            value.macro,                                                                   -- Macro body
+            value.icon                                                                     -- Macro icon
         )
     end
 

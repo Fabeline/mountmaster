@@ -8,7 +8,7 @@ local function create()
 
     randomMountButton:SetScript("OnClick", function()
         RuthesMS.utils.mount.reloadMounts()
-        RuthesMS.utils.mount.summonRandomMount(false)
+        RuthesMS.utils.summon.summonRandomMount(false)
     end)
 
     -- Aquatic mount
@@ -18,7 +18,7 @@ local function create()
 
     randomAquaticMountButton:SetScript("OnClick", function()
         RuthesMS.utils.mount.reloadMounts()
-        RuthesMS.utils.mount.summonRandomMount(true)
+        RuthesMS.utils.summon.summonRandomMount(true)
     end)
 
     -- Repair mount
@@ -28,7 +28,47 @@ local function create()
 
     randomRepairMountButton:SetScript("OnClick", function()
         RuthesMS.utils.mount.reloadMounts()
-        RuthesMS.utils.mount.summonRandomRepairMount()
+        RuthesMS.utils.summon.summonRandomRepairMount()
+    end)
+
+    -- Transmog mount
+    local randomTransmogMountButton = CreateFrame("Button", "RuthesMSRandomTransmogMountButton", mountSelectorFrame,
+        "UIPanelButtonTemplate")
+    randomTransmogMountButton:Hide()
+
+    randomTransmogMountButton:SetScript("OnClick", function()
+        RuthesMS.utils.mount.reloadMounts()
+        RuthesMS.utils.summon.summonRandomTransmogMount()
+    end)
+
+    -- Auction house mount
+    local randomAuctionHouseMountButton = CreateFrame("Button", "RuthesMSRandomAuctionHouseMountButton",
+        mountSelectorFrame, "UIPanelButtonTemplate")
+    randomAuctionHouseMountButton:Hide()
+
+    randomAuctionHouseMountButton:SetScript("OnClick", function()
+        RuthesMS.utils.mount.reloadMounts()
+        RuthesMS.utils.summon.summonRandomAuctionHouseMount()
+    end)
+
+    -- Mailbox mount
+    local randomMailboxMountButton = CreateFrame("Button", "RuthesMSRandomMailboxMountButton", mountSelectorFrame,
+        "UIPanelButtonTemplate")
+    randomMailboxMountButton:Hide()
+
+    randomMailboxMountButton:SetScript("OnClick", function()
+        RuthesMS.utils.mount.reloadMounts()
+        RuthesMS.utils.summon.summonRandomMailboxMount()
+    end)
+
+    -- Multiple character mount
+    local randomMultipleMountButton = CreateFrame("Button", "RuthesMSRandomMultipleMountButton", mountSelectorFrame,
+        "UIPanelButtonTemplate")
+    randomMultipleMountButton:Hide()
+
+    randomMultipleMountButton:SetScript("OnClick", function()
+        RuthesMS.utils.mount.reloadMounts()
+        RuthesMS.utils.summon.summonRandomMultipleMount()
     end)
 
     RuthesMS.buttons.randomMountButton.button = randomMountButton

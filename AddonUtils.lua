@@ -21,17 +21,19 @@ SLASH_RMS1 = "/rms"
 
 function SlashCmdList.RMS(msg, editBox)
     if msg == "summon" then           -- /rms summon - will summon a random mount
-        RuthesMS.utils.mount.summonRandomMount(false)
+        RuthesMS.utils.summon.summonRandomMount(false)
     elseif msg == "summonswim" then   -- /rms summonswim - will summon a random swimming mount
-        RuthesMS.utils.mount.summonRandomMount(true)
+        RuthesMS.utils.summon.summonRandomMount(true)
     elseif msg == "repair" then       -- /rms repair - will summon a random repair mount
-        RuthesMS.utils.mount.summonRandomRepairMount()
+        RuthesMS.utils.summon.summonRandomRepairMount()
     elseif msg == "transmog" then     -- /rms transmog - will summon a random transmog mount
-        RuthesMS.utils.mount.summonRandomTransmogMount()
+        RuthesMS.utils.summon.summonRandomTransmogMount()
     elseif msg == "auctionHouse" then -- /rms auctionHouse - will summon a random auction house mount
-        RuthesMS.utils.mount.summonRandomAuctionHouseMount()
+        RuthesMS.utils.summon.summonRandomAuctionHouseMount()
     elseif msg == "mailbox" then      -- /rms mailbox - will summon a random mailbox mount
-        RuthesMS.utils.mount.summonRandomMailboxMount()
+        RuthesMS.utils.summon.summonRandomMailboxMount()
+    elseif msg == "multiple" then     -- /rms multiple - will summon a random multiple character mount
+        RuthesMS.utils.summon.summonRandomMultipleMount()
     elseif msg == "minimap" then      --/rms minimap - will toggle minimap button
         RuthesMS.buttons.minimapButton.toggleMinimap()
     elseif msg == "help" then         --/rms help - will display help message

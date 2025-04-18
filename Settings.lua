@@ -36,6 +36,7 @@ RuthesMS = {
         mount = {},
         filter = {},
         addon = {},
+        summon = {}
     },
     db = {}
 }
