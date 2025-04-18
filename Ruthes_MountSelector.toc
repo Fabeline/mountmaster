@@ -23,6 +23,9 @@ MountSelectorFrame.lua
 MountSelectorScrollFrame.lua
 ContentFrame.lua
 KeybindFrame.lua
+GeneralFrame.lua
+HelpFrame.lua
+AdvancedFrame.lua
 
 FrameButtons.lua
 MiniMapButton.lua

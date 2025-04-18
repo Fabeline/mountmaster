@@ -51,26 +51,27 @@ local function OnEvent(self, event, ...)
     elseif event == "PLAYER_LOGIN" then
         InitializeConfig()
         RuthesMS.buttons.mountButtons.reload()
-        RuthesMS.buttons.summonButton.reload()
+        --RuthesMS.buttons.summonButton.reload()
+        -- TODO: reload summon buttons
 
         -- Some functions may not have been loaded yet
         local maxRetries = 10
         local retryCount = 0
 
-        local function waitForFunctions()
-            if RuthesMS.buttons.summonButton.reloadUseOnlyFavourites and RuthesMS.buttons.summonButton.reloadSmallMountInInstance then
-                RuthesMS.buttons.summonButton.reloadUseOnlyFavourites()
-                RuthesMS.buttons.summonButton.reloadSmallMountInInstance()
-            elseif retryCount < maxRetries then
-                retryCount = retryCount + 1
-                C_Timer.After(0.2, waitForFunctions) -- Keep checking
-            else
-                -- An error occurred
-            end
-        end
+        -- local function waitForFunctions()
+        --  if RuthesMS.buttons.summonButton.reloadUseOnlyFavourites and RuthesMS.buttons.summonButton.reloadSmallMountInInstance then
+        --   RuthesMS.buttons.summonButton.reloadUseOnlyFavourites()
+        -- RuthesMS.buttons.summonButton.reloadSmallMountInInstance()
+        -- elseif retryCount < maxRetries then
+        --    retryCount = retryCount + 1
+        --     C_Timer.After(0.2, waitForFunctions) -- Keep checking
+        -- else
+        -- An error occurred
+        --  end
+        -- end
 
         -- Start checking
-        waitForFunctions()
+        --waitForFunctions()
     end
 end
 

@@ -143,8 +143,8 @@ end
 
 local function reloadMounts()
     local availableMounts = RuthesMS.utils.mount.getAvailableMounts()
-    RuthesMS.temp.availableMounts = availableMounts
-    RuthesMS.temp.currentMounts = RuthesMS.utils.filter.filterMounts(availableMounts)
+    RuthesMS.state.availableMounts = availableMounts
+    RuthesMS.state.currentMounts = RuthesMS.utils.filter.filterMounts(availableMounts)
 end
 
 
@@ -185,14 +185,14 @@ local function summonRandomMount(isSwimming)
 
         RuthesMS.utils.mount.reloadMounts()
 
-        if #RuthesMS.temp.currentMounts > 0 then
+        if #RuthesMS.state.currentMounts > 0 then
             local chosenMounts
 
             local flyingMounts = {}
             local groundMounts = {}
             local aquaticMounts = {}
 
-            for _, mount in ipairs(RuthesMS.temp.currentMounts) do
+            for _, mount in ipairs(RuthesMS.state.currentMounts) do
                 if mount.isFlying then -- flying and aquatic if steady flight is active
                     table.insert(flyingMounts, mount)
                     -- Mounts with flying and aquatic have a bug where they are only fast
@@ -215,9 +215,9 @@ local function summonRandomMount(isSwimming)
                     chosenMounts = aquaticMounts
                 else
                     -- If the aquatic mounts don't fit the criteria, summon a random aquatic mount
-                    RuthesMS.temp.currentMounts = RuthesMS.temp.availableMounts
-                    if (#RuthesMS.temp.currentMounts > 0) then
-                        for _, mount in ipairs(RuthesMS.temp.currentMounts) do
+                    RuthesMS.state.currentMounts = RuthesMS.state.availableMounts
+                    if (#RuthesMS.state.currentMounts > 0) then
+                        for _, mount in ipairs(RuthesMS.state.currentMounts) do
                             if mount.isAquatic then
                                 table.insert(aquaticMounts, mount)
                             end

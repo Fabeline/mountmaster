@@ -8,7 +8,7 @@ local function createMountButtons()
     RuthesMS.frames.contentFrame.create()
     local contentFrame = RuthesMS.frames.contentFrame.frame
 
-    for i, mount in ipairs(RuthesMS.temp.currentMounts) do
+    for i, mount in ipairs(RuthesMS.state.currentMounts) do
         local mountData = mount
         local mountID = mountData.id
 

@@ -8,7 +8,7 @@ RuthesMS = {
     },
     keybinds = {
     },
-    temp = {
+    state = {
         currentMounts = {},
         availableMounts = {}
     },
