@@ -40,13 +40,12 @@ local function applySummonKeyBinding(type)
     -- First clear all previous bindings
     ClearOverrideBindings(RuthesMS.frames.mountSelectorFrame.frame)
 
-    ipairs(keybindTable)
-    do
-        if RuthesMS.keybinds[type] and RuthesMS.keybinds[type] ~= "" then
-            local formattedKey = string.gsub(RuthesMS.keybinds[type], "+", "-")
-            SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey, "RandomMountButton")
-        end
-    end
+    -- Normal summon
+    local formattedKey = string.gsub(RuthesMS.keybinds.normal, "+", "-")
+    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+        "RuthesMSRandomMountButton")
+
+    -- TODO: do for every keybind
 end
 
 
@@ -128,7 +127,7 @@ local function createKeybindFrame()
     keybindFrame:SetSize(400, 400)
     keybindFrame:SetPoint("CENTER", mountSelectorFrame, "CENTER", 0, 0)
 
-    local yOffset = -30
+    local yOffset = -20
     local lineHeight = 40
 
     -- Mount type

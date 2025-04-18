@@ -24,7 +24,8 @@ RuthesMS = {
     buttons = {
         mountButtons = {},
         minimapButton = {},
-        summonButton = {}
+        summonButton = {},
+        randomMountButton = {},
     },
     data = {
         mounts = {}

@@ -3,6 +3,7 @@ local function afterAddonLoaded()
     RuthesMS.buttons.mountButtons.reload()
     RuthesMS.frames.keybindFrame.loadSummoningKey()
     RuthesMS.frames.mountSelectorFrame.selectTab(1)
+    RuthesMS.buttons.randomMountButton.create()
 end
 
 local function printHelp()
