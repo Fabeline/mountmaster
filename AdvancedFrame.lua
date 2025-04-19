@@ -1,5 +1,6 @@
 local favoriteCheckbox
 local smallMountCheckbox
+local utilityCheckbox
 
 local function reloadCheckboxes()
     if favoriteCheckbox then
@@ -8,6 +9,10 @@ local function reloadCheckboxes()
 
     if smallMountCheckbox then
         smallMountCheckbox:SetChecked(RuthesMS.settings.smallMountInInstance)
+    end
+
+    if utilityCheckbox then
+        utilityCheckbox:SetChecked(RuthesMS.settings.dontIncludeUtilityMounts)
     end
 end
 
@@ -50,7 +55,7 @@ local function createFrame()
     smallMountLabel:SetText("Only summon small mounts in instances")
 
     -- Don't include utility mounts
-    local utilityCheckbox = CreateFrame("CheckButton", "UtilityCheckbox", advancedFrame,
+    utilityCheckbox = CreateFrame("CheckButton", "UtilityCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
     utilityCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -75)
     utilityCheckbox:SetScript("OnClick", function(self)
