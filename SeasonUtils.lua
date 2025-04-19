@@ -13,14 +13,22 @@ local seasonalSettings = {
         endDate = "02-27",
     },
     easter = {
-        types = { "bat", "bird", "dragon", "emu", "fish", "gryphon", "mechanical", "serpent" },
+        types = { "bird", "dragon", "emu", "fish", "gryphon", "mechanical", "serpent" },
         colors = { "yellow", "fire", "orange" },
         startDate = "04-01",
         endDate = "04-25",
     },
+    valentines = {
+        -- types = { "horse", "gryphon", "cat", "kite" },
+        colors = { "pink", "red", "purple", "white" },
+        looks = { "cute", "pretty" },
+        startDate = "02-07",
+        endDate = "02-20",
+    },
     halloween = {
-        types = { "bat", "dragon", "dinosaur", "gargoyle", "insect", "rat", "spider", "wolf", "mechanical" },
+        -- types = { "bat", "dragon", "dinosaur", "gargoyle", "insect", "rat", "spider", "wolf", "mechanical" },
         colors = { "black", "purple", "brown", "ghost" },
+        looks = { "scary" },
         startDate = "10-01",
         endDate = "10-31",
     },
@@ -29,12 +37,6 @@ local seasonalSettings = {
         colors = { "red", "green", "white", "blue" },
         startDate = "12-15",
         endDate = "12-31",
-    },
-    valentines = {
-        types = { "horse", "gryphon", "cat", "kite" },
-        colors = { "pink", "red", "purple", "white" },
-        startDate = "02-07",
-        endDate = "02-20",
     },
     lunar = {
         types = { "dragon", "serpent", "kite", "cat" },
@@ -57,6 +59,7 @@ local seasonalSettings = {
     piratesday = {
         types = { "crocodile", "fish", "serpent", "bat", "insect" },
         colors = { "black", "gray", "blue", "turquoise" },
+        looks = { "scary" },
         startDate = "09-19",
         endDate = "09-20",
     },
@@ -84,5 +87,4 @@ local seasonalSettings = {
         startDate = "08-10",
         endDate = "08-25",
     },
-    wowAnnive
 }

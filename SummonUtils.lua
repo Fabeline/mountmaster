@@ -1,6 +1,7 @@
 local repairMounts = {
     280,  -- Traveler's Tundra Mammoth
     284,  -- Traveler's Tundra Mammoth
+    460,  -- Grand Expedition Yak
     2237, -- Grizzly Hills Packmaster
     1039  -- Mighty Caravan Brutosaur
 }

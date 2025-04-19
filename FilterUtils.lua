@@ -24,6 +24,14 @@ local function hasSelectedExpansion(mount)
     return tContains(RuthesMS.settings.selectedExpansions, CapitalizeFirstLetter(mount.expansion))
 end
 
+local function hasSelectedLooks(mount)
+    if #RuthesMS.settings.selectedLooks == 0 then
+        return true
+    end
+
+    return tContains(RuthesMS.settings.selectedLooks, CapitalizeFirstLetter(mount.looks))
+end
+
 -- Filter mounts based on selected color and type
 local function filterMounts(availableMounts)
     local filteredMounts = {}
@@ -32,6 +40,7 @@ local function filterMounts(availableMounts)
         local currentMount = availableMounts[i]
         if (hasSelectedColor(currentMount) and
                 hasSelectedType(currentMount) and
+                hasSelectedLooks(currentMount) and
                 hasSelectedExpansion(currentMount)) then
             table.insert(filteredMounts, currentMount)
         end

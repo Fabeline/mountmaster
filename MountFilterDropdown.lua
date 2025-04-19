@@ -13,6 +13,10 @@ local function getAllExpansions()
     }
 end
 
+local function getAllLooks()
+    return RuthesMS.utils.dropdown.collectUniqueValues(RuthesMS.data.mounts, "looks")
+end
+
 local function toggleColor(color)
     RuthesMS.settings.selectedColors =
         RuthesMS.utils.dropdown.toggleOption(RuthesMS.settings.selectedColors, color, getAllColors)
@@ -31,6 +35,12 @@ local function toggleExpansion(expansion)
     RuthesMS.db.saveSelectedExpansions(RuthesMS.settings.selectedExpansions)
 end
 
+local function toggleLooks(looks)
+    RuthesMS.settings.selectedLooks =
+        RuthesMS.utils.dropdown.toggleOption(RuthesMS.settings.selectedLooks, looks, getAllLooks)
+    RuthesMS.db.saveSelectedLooks(RuthesMS.settings.selectedLooks)
+end
+
 
 local function initializeColorDropdown(self)
     RuthesMS.utils.dropdown.initializeDropdown(self, getAllColors, RuthesMS.settings.selectedColors, toggleColor)
@@ -45,11 +55,18 @@ local function initializeExpansionDropdown(self)
         toggleExpansion)
 end
 
+local function initializeLooksDropdown(self)
+    RuthesMS.utils.dropdown.initializeDropdown(self, getAllLooks, RuthesMS.settings.selectedLooks, toggleLooks)
+end
+
 RuthesMS.utils.filterDropdowns = {
     initializeColorDropdown = initializeColorDropdown,
     initializeSkeletonDropdown = initializeSkeletonDropdown,
     initializeExpansionDropdown = initializeExpansionDropdown,
+    initializeLooksDropdown = initializeLooksDropdown,
+
     getAllColors = getAllColors,
     getAllTypes = getAllTypes,
     getAllExpansions = getAllExpansions,
+    getAllLooks = getAllLooks,
 }

@@ -12,12 +12,14 @@ local function createFrame()
     UIDropDownMenu_SetWidth(colorDropdown, 120)
     colorDropdown:SetPoint("TOPLEFT", generalFrame, "TOPLEFT", 0, -5)
     UIDropDownMenu_Initialize(colorDropdown, RuthesMS.utils.filterDropdowns.initializeColorDropdown)
+    UIDropDownMenu_SetText(colorDropdown, "Select colors")
 
     -- Create a dropdown menu for filtering by skeleton type
     local skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", generalFrame, "UIDropDownMenuTemplate")
     UIDropDownMenu_SetWidth(skeletonDropdown, 120)
     skeletonDropdown:SetPoint("TOPLEFT", generalFrame, "TOPLEFT", 0, -35)
     UIDropDownMenu_Initialize(skeletonDropdown, RuthesMS.utils.filterDropdowns.initializeSkeletonDropdown)
+    UIDropDownMenu_SetText(skeletonDropdown, "Select types")
 
     -- Create a dropdown menu for filtering by expansion
     local expansionDropdown = CreateFrame("FRAME", "ExpansionFilterDropdown", generalFrame,
@@ -25,10 +27,14 @@ local function createFrame()
     UIDropDownMenu_SetWidth(expansionDropdown, 120)
     expansionDropdown:SetPoint("TOPLEFT", generalFrame, "TOPLEFT", 140, -5)
     UIDropDownMenu_Initialize(expansionDropdown, RuthesMS.utils.filterDropdowns.initializeExpansionDropdown)
-
-    UIDropDownMenu_SetText(skeletonDropdown, "Select types")
-    UIDropDownMenu_SetText(colorDropdown, "Select colors")
     UIDropDownMenu_SetText(expansionDropdown, "Select expansions")
+
+    -- Create a dropdown for filtering by looks
+    -- local looksDropdown = CreateFrame("FRAME", "LooksFilterDropdown", generalFrame, "UIDropDownMenuTemplate")
+    -- UIDropDownMenu_SetWidth(looksDropdown, 120)
+    -- looksDropdown:SetPoint("TOPLEFT", generalFrame, "TOPLEFT", 140, -35)
+    -- UIDropDownMenu_Initialize(looksDropdown, RuthesMS.utils.filterDropdowns.initializeLooksDropdown)
+    -- UIDropDownMenu_SetText(looksDropdown, "Select looks")
 
     -- Add refresh button (for favorites)
     local refreshButton = CreateFrame("Button", "RefreshButton", generalFrame, "UIPanelButtonTemplate")

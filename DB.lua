@@ -6,6 +6,7 @@ local function InitializeConfig()
             colors = RuthesMS.utils.filterDropdowns.getAllColors(),
             types = RuthesMS.utils.filterDropdowns.getAllTypes(),
             expansions = RuthesMS.utils.filterDropdowns.getAllExpansions(),
+            -- looks = RuthesMS.utils.filterDropdowns.getAllLooks(),
             summonKey = standardKey, -- deprecated, use keybinds instead
             useOnlyFavourites = false,
             dontIncludeUtilityMounts = false,
@@ -40,6 +41,8 @@ local function InitializeConfig()
     RuthesMS.settings.selectedColors = MountSelectorCharacterConfig.colors or {}
     RuthesMS.settings.selectedTypes = MountSelectorCharacterConfig.types or {}
     RuthesMS.settings.selectedExpansions = MountSelectorCharacterConfig.expansions or {}
+    -- RuthesMS.settings.selectedLooks = MountSelectorCharacterConfig.looks or {}
+
     RuthesMS.settings.useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
     RuthesMS.settings.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
     RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
@@ -62,6 +65,10 @@ local function saveSelectedExpansions(expansions)
     MountSelectorCharacterConfig.expansions = expansions
 end
 
+local function saveSelectedLooks(looks)
+    MountSelectorCharacterConfig.looks = looks
+end
+
 local function saveUseOnlyFavourites(shouldUse)
     MountSelectorCharacterConfig.useOnlyFavourites = shouldUse
     RuthesMS.settings.useOnlyFavourites = shouldUse
@@ -79,10 +86,11 @@ end
 
 RuthesMS.db = {
     init = InitializeConfig,
-    saveSummonKey = saveSummonKey,
+    saveSummonKey = saveSummonKey, -- deprecated
     saveSelectedColors = saveSelectedColors,
     saveSelectedTypes = saveSelectedTypes,
     saveSelectedExpansions = saveSelectedExpansions,
+    saveSelectedLooks = saveSelectedLooks,
     saveUseOnlyFavourites = saveUseOnlyFavourites,
     saveSmallMountInInstance = saveSmallMountInInstance,
     saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,

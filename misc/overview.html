@@ -126,18 +126,13 @@
 
     //dragonflight: 1468, 1469
 
-    const variations = [
-        "ghost",
-        "burning",
-        "mechanical",
-        "skeletal",
-        "armored",
-        "with saddle",
-        "With banner",
+    const availableLooks = [
+        "neutral",
         "scary",
-        "cute",
         "pretty",
+        "cute",
         "silly",
+        "tough",
     ]
 
     const availableColors = {
@@ -356,6 +351,12 @@
                 <p class="attribute">Name: 
                     <input class="name-input" type="text" value="${mount.name}" onchange="updateMountAttribute(${i}, 'name', this.value)">
                 </p>
+                <p class="attribute">Looks:
+                    <select onchange="updateMountAttribute(${i}, 'looks', this.value)">
+                        ${availableLooks.map(looks => `<option value="${looks}" ${(mount.looks + "").toLowerCase() === looks ? 'selected' : ''}>${looks}</option>`).join('')}
+                    </select>
+                </p>
+                
                 <p class="attribute">Type:
                     <select onchange="updateMountAttribute(${i}, 'skeleton_type', this.value)">
                         ${availableTypes.map(type => `<option value="${type}" ${(mount.skeleton_type + "").toLowerCase() === type ? 'selected' : ''}>${type}</option>`).join('')}
@@ -433,7 +434,7 @@
     function generateLuaTable() {
         let luaTable = "RuthesMS.data.mounts = {\n";
         mountsCopy.forEach(mount => {
-            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small || false}", expansion = "${mount.expansion}" },\n`;
+            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small || false}", expansion = "${mount.expansion}", looks = "${mount.looks || 'neutral'}" },\n`;
         });
         luaTable += "}";
 

@@ -3,6 +3,7 @@ RuthesMS = {
         selectedColors = {},
         selectedTypes = {},
         selectedExpansions = {},
+        selectedLooks = {},
         useOnlyFavourites = false,
         smallMountInInstance = false,
         dontIncludeUtilityMounts = false,
