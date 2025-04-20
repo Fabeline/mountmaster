@@ -249,9 +249,16 @@ local function createKeybindFrame()
 
         -- Keybind button
         local setKeyButton = CreateFrame("Button", nil, keybindFrame, "UIPanelButtonTemplate")
+        local keybindText = RuthesMS.keybinds[value.name]
+
+        if keybindText == "" or keybindText == nil then
+            keybindText = "Not set"
+        else
+            keybindText = "Key (" .. RuthesMS.keybinds[value.name] .. ")"
+        end
         setKeyButton:SetSize(110, 22)
         setKeyButton:SetPoint("TOP", keybindFrame, "TOP", -0, yOffset - (index * lineHeight))
-        setKeyButton:SetText("Key (" .. (RuthesMS.keybinds[value.name] or "None") .. ")")
+        setKeyButton:SetText(keybindText)
 
         -- Keybinding Popup (Detects Key Press)
         setKeyButton:SetScript("OnClick", function()

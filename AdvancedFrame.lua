@@ -26,7 +26,7 @@ local function createFrame()
     -- Heading
     local heading = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
     heading:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 20, 0)
-    heading:SetText("Settings for non-utility mounts")
+    heading:SetText("Settings for non-utility summons")
 
     -- Only favorites
     favoriteCheckbox = CreateFrame("CheckButton", "FavoriteCheckbox", advancedFrame,
