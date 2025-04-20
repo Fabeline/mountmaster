@@ -1,66 +1,82 @@
+local standardKey = "k"
+
 local function InitializeConfig()
     if not MountSelectorCharacterConfig then
         MountSelectorCharacterConfig = {
             colors = RuthesMS.utils.filterDropdowns.getAllColors(),
             types = RuthesMS.utils.filterDropdowns.getAllTypes(),
             expansions = RuthesMS.utils.filterDropdowns.getAllExpansions(),
-            summonKey = "k",
-            useOnlyFavourites = false
+            -- looks = RuthesMS.utils.filterDropdowns.getAllLooks(),
+            summonKey = standardKey, -- deprecated, use keybinds instead
+            useOnlyFavourites = false,
+            dontIncludeUtilityMounts = false,
+            globalKeybinds = false,
+            keybinds = {
+                normal = "",
+                aquatic = "",
+                repair = "",
+                transmog = "",
+                auctionHouse = "",
+                mailbox = "",
+                multiple = "",
+            },
         }
     end
 
-    RuthesMS.keybinds.summonNormal = MountSelectorCharacterConfig.summonKey or "k"
+    if not MountSelectorGlobalConfig then
+        MountSelectorGlobalConfig = {
+            keybinds = {
+                normal = "",
+                aquatic = "",
+                repair = "",
+                transmog = "",
+                auctionHouse = "",
+                mailbox = "",
+                multiple = "",
+            }
+        }
+    end
+
+    if (MountSelectorCharacterConfig.keybinds == nil) then
+        MountSelectorCharacterConfig.keybinds = {}
+    end
+
+    RuthesMS.keybinds = {
+        normal = MountSelectorCharacterConfig.keybinds.normal or
+            MountSelectorCharacterConfig.summonKey or -- Backward compatibility for summonKey
+            standardKey,
+        aquatic = MountSelectorCharacterConfig.keybinds.aquatic or "",
+        repair = MountSelectorCharacterConfig.keybinds.repair or "",
+        transmog = MountSelectorCharacterConfig.keybinds.transmog or "",
+        mailbox = MountSelectorCharacterConfig.keybinds.mailbox or "",
+        auctionHouse = MountSelectorCharacterConfig.keybinds.auctionHouse or "",
+        multiple = MountSelectorCharacterConfig.keybinds.multiple or "",
+    }
+
     RuthesMS.settings.selectedColors = MountSelectorCharacterConfig.colors or {}
     RuthesMS.settings.selectedTypes = MountSelectorCharacterConfig.types or {}
     RuthesMS.settings.selectedExpansions = MountSelectorCharacterConfig.expansions or {}
+    -- RuthesMS.settings.selectedLooks = MountSelectorCharacterConfig.looks or {}
+
     RuthesMS.settings.useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
-    RuthesMS.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
-end
+    RuthesMS.settings.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
+    RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
+    RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
 
-local function OnEvent(self, event, ...)
-    if event == "ADDON_LOADED" then
-        local addonName = ...
-        if addonName == "Ruthes_MountSelector" then
-            print(
-                "|cffff9900Ruthe's Mount Selector loaded - |cffffff00To see available commands, type: |r|cff00ff00/rms help|r")
-        end
-    elseif event == "PLAYER_LOGIN" then
-        InitializeConfig()
-        RuthesMS.buttons.mountButtons.reload()
-        RuthesMS.buttons.summonButton.reload()
-
-        -- Some functions may not have been loaded yet
-        local maxRetries = 10
-        local retryCount = 0
-
-        local function waitForFunctions()
-            if RuthesMS.buttons.summonButton.reloadUseOnlyFavourites and RuthesMS.buttons.summonButton.reloadSmallMountInInstance then
-                RuthesMS.buttons.summonButton.reloadUseOnlyFavourites()
-                RuthesMS.buttons.summonButton.reloadSmallMountInInstance()
-            elseif retryCount < maxRetries then
-                retryCount = retryCount + 1
-                C_Timer.After(0.2, waitForFunctions) -- Keep checking
-            else
-                -- An error occurred
-            end
-        end
-
-        -- Start checking
-        waitForFunctions()
+    if (MountSelectorCharacterConfig.globalKeybinds) then
+        RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
     end
 end
 
-local function init()
-    -- Create a frame to listen for events
-    local eventFrame = CreateFrame("Frame")
-    eventFrame:RegisterEvent("ADDON_LOADED")
-    eventFrame:RegisterEvent("PLAYER_LOGIN")
-    eventFrame:SetScript("OnEvent", OnEvent)
-end
-
-local function saveSummonKey(key)
-    MountSelectorCharacterConfig.summonKey = key
-    RuthesMS.keybinds.summonNormal = key
+local function saveSummonKey(key, type)
+    if (RuthesMS.settings.globalKeybinds) then
+        MountSelectorGlobalConfig.keybinds[type] = key
+        RuthesMS.frames.keybindFrame.loadSummoningKey()
+    else
+        MountSelectorCharacterConfig.keybinds[type] = key
+        RuthesMS.frames.keybindFrame.loadSummoningKey()
+    end
+    RuthesMS.keybinds[type] = key
 end
 
 local function saveSelectedColors(colors)
@@ -75,6 +91,10 @@ local function saveSelectedExpansions(expansions)
     MountSelectorCharacterConfig.expansions = expansions
 end
 
+local function saveSelectedLooks(looks)
+    MountSelectorCharacterConfig.looks = looks
+end
+
 local function saveUseOnlyFavourites(shouldUse)
     MountSelectorCharacterConfig.useOnlyFavourites = shouldUse
     RuthesMS.settings.useOnlyFavourites = shouldUse
@@ -85,12 +105,32 @@ local function saveSmallMountInInstance(shouldUse)
     RuthesMS.smallMountInInstance = shouldUse
 end
 
+local function saveDontIncludeUtilityMounts(shouldUse)
+    MountSelectorCharacterConfig.dontIncludeUtilityMounts = shouldUse
+    RuthesMS.settings.dontIncludeUtilityMounts = shouldUse
+end
+
+local function saveGlobalKeybinds(shouldUse)
+    if (shouldUse) then
+        RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
+    else
+        RuthesMS.keybinds = MountSelectorCharacterConfig.keybinds
+    end
+
+    RuthesMS.frames.keybindFrame.loadSummoningKey()
+    MountSelectorCharacterConfig.globalKeybinds = shouldUse
+    RuthesMS.settings.globalKeybinds = shouldUse
+end
+
 RuthesMS.db = {
-    init = init,
+    init = InitializeConfig,
     saveSummonKey = saveSummonKey,
     saveSelectedColors = saveSelectedColors,
     saveSelectedTypes = saveSelectedTypes,
     saveSelectedExpansions = saveSelectedExpansions,
+    saveSelectedLooks = saveSelectedLooks,
     saveUseOnlyFavourites = saveUseOnlyFavourites,
     saveSmallMountInInstance = saveSmallMountInInstance,
+    saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
+    saveGlobalKeybinds = saveGlobalKeybinds,
 }

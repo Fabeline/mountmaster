@@ -3,24 +3,32 @@ RuthesMS = {
         selectedColors = {},
         selectedTypes = {},
         selectedExpansions = {},
+        selectedLooks = {},
         useOnlyFavourites = false,
         smallMountInInstance = false,
+        dontIncludeUtilityMounts = false,
+        globalKeybinds = false
     },
     keybinds = {
-        summonNormal = "k",
     },
-    temp = {
+    state = {
         currentMounts = {},
         availableMounts = {}
     },
     frames = {
-        contentFrame = {}
+        contentFrame = {},
+        keybindFrame = {},
+        advancedFrame = {},
+        generalFrame = {},
+        helpFrame = {},
+        mountSelectorFrame = {},
+        mountSelectorScrollFrame = {},
     },
     buttons = {
-        frameButtons = {},
         mountButtons = {},
         minimapButton = {},
-        summonButton = {}
+        summonButton = {},
+        randomMountButton = {},
     },
     data = {
         mounts = {}
@@ -29,7 +37,9 @@ RuthesMS = {
         dropdown = {},
         filterDropdowns = {},
         mount = {},
-        filter = {}
+        filter = {},
+        addon = {},
+        summon = {}
     },
     db = {}
 }

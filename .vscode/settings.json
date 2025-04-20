@@ -31,7 +31,13 @@
         "UISpecialFrames",
         "StaticPopup_Hide",
         "CollectionsJournal",
-        "PanelTemplates_GetSelectedTab"
+        "PanelTemplates_GetSelectedTab",
+        "PanelTemplates_TabResize",
+        "UIParentLoadAddOn",
+        "PanelTemplates_SetNumTabs",
+        "CharacterFrame",
+        "CHARACTERFRAME_SUBFRAMES",
+        "ToggleCharacter"
     ],
     "Lua.type.weakUnionCheck": true,
     "Lua.diagnostics.disable": [

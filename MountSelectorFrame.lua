@@ -1,45 +1,71 @@
-local function createAndDragMacro(macroName, macroBody, macroIcon)
-    -- Check if the macro already exists
-    local macroIndex = GetMacroIndexByName(macroName)
+local tabNames = { "General", "Keybinds", "Advanced", "Help" }
+local tabs = {}
 
-    if macroIndex == 0 then
-        -- Create a new macro if it doesn't exist
-        macroIndex = CreateMacro(macroName, macroIcon, macroBody, true)
-    else
-        -- Update the existing macro
-        EditMacro(macroIndex, macroName, macroIcon, macroBody)
-    end
-
-    -- Pick up the macro and allow dragging
-    if macroIndex then
-        PickupMacro(macroIndex)
+local function selectTab(index)
+    for i, tab in ipairs(tabs) do
+        if i == index then
+            tab:SetBackdropBorderColor(1, 1, 0, 1) -- yellow border
+            tab:Disable()
+            if (i == 1) then
+                RuthesMS.frames.generalFrame.show()
+                RuthesMS.frames.keybindFrame.hide()
+                RuthesMS.frames.advancedFrame.hide()
+                RuthesMS.frames.helpFrame.hide()
+            elseif (i == 2) then
+                RuthesMS.frames.generalFrame.hide()
+                RuthesMS.frames.keybindFrame.show()
+                RuthesMS.frames.advancedFrame.hide()
+                RuthesMS.frames.helpFrame.hide()
+            elseif (i == 3) then
+                RuthesMS.frames.generalFrame.hide()
+                RuthesMS.frames.keybindFrame.hide()
+                RuthesMS.frames.advancedFrame.show()
+                RuthesMS.frames.helpFrame.hide()
+            elseif (i == 4) then
+                RuthesMS.frames.generalFrame.hide()
+                RuthesMS.frames.keybindFrame.hide()
+                RuthesMS.frames.advancedFrame.hide()
+                RuthesMS.frames.helpFrame.show()
+            end
+        else
+            tab:SetBackdropBorderColor(0.4, 0.4, 0.4, 1)
+            tab:Enable()
+        end
     end
 end
 
--- Reusable function to set up a macro button
-local function createMacroButton(parentFrame, size, position, iconPath, tooltipText, macroName, macroBody, macroIcon)
-    local button = CreateFrame("Button", nil, parentFrame, "UIPanelButtonTemplate")
-    button:SetSize(size, size)
-    button:SetPoint(unpack(position))
-    button:SetNormalTexture(iconPath)
+local function createTabs()
+    local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
 
-    -- Set up the click handler to create and drag the macro
-    button:SetScript("OnClick", function()
-        createAndDragMacro(macroName, macroBody, macroIcon)
-    end)
+    for i, name in ipairs(tabNames) do
+        local tab = CreateFrame("Button", nil, mountSelectorFrame, "UIPanelButtonTemplate, BackdropTemplate")
+        tab:SetSize(100, 24)
 
-    -- Add a tooltip
-    button:EnableMouse(true)
-    button:SetScript("OnEnter", function(self)
-        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        GameTooltip:SetText(tooltipText, 1, 1, 1)
-        GameTooltip:Show()
-    end)
-    button:SetScript("OnLeave", function(self)
-        GameTooltip:Hide()
-    end)
+        if i == 1 then
+            tab:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -25)
+        else
+            tab:SetPoint("LEFT", tabs[i - 1], "RIGHT", -1, 0)
+        end
 
-    return button
+        tab:SetText(name)
+        tab:SetScript("OnClick", function()
+            selectTab(i)
+        end)
+
+        -- Add a backdrop so we can change border color
+        tab:SetBackdrop({
+            bgFile = "Interface/Tooltips/UI-Tooltip-Background",
+            edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+            edgeSize = 12,
+            insets = { left = 2, right = 2, top = 2, bottom = 2 }
+        })
+        tab:SetBackdropColor(0.1, 0.1, 0.1, 0.9)
+        tab:SetBackdropBorderColor(0.4, 0.4, 0.4, 1)
+
+        tabs[i] = tab
+    end
+
+    selectTab(1)
 end
 
 local function createMountSelectorFrame()
@@ -52,54 +78,6 @@ local function createMountSelectorFrame()
 
     -- Make the frame closeable with ESC
     table.insert(UISpecialFrames, "MountSelectorFrame")
-
-    -- Create a dropdown menu for filtering by color
-    local colorDropdown = CreateFrame("FRAME", "ColorFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
-    UIDropDownMenu_SetWidth(colorDropdown, 120)
-    colorDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -35)
-    UIDropDownMenu_Initialize(colorDropdown, RuthesMS.utils.filterDropdowns.initializeColorDropdown)
-
-    -- Create a dropdown menu for filtering by skeleton type
-    local skeletonDropdown = CreateFrame("FRAME", "SkeletonFilterDropdown", mountSelectorFrame, "UIDropDownMenuTemplate")
-    UIDropDownMenu_SetWidth(skeletonDropdown, 120)
-    skeletonDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -65)
-    UIDropDownMenu_Initialize(skeletonDropdown, RuthesMS.utils.filterDropdowns.initializeSkeletonDropdown)
-
-    -- Create a dropdown menu for filtering by expansion
-    local expansionDropdown = CreateFrame("FRAME", "ExpansionFilterDropdown", mountSelectorFrame,
-        "UIDropDownMenuTemplate")
-    UIDropDownMenu_SetWidth(expansionDropdown, 120)
-    expansionDropdown:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 0, -95)
-    UIDropDownMenu_Initialize(expansionDropdown, RuthesMS.utils.filterDropdowns.initializeExpansionDropdown)
-
-    UIDropDownMenu_SetText(skeletonDropdown, "Select types")
-    UIDropDownMenu_SetText(colorDropdown, "Select colors")
-    UIDropDownMenu_SetText(expansionDropdown, "Select expansions")
-
-    -- Create buttons for both macros
-    -- Normal mounts
-    createMacroButton(
-        mountSelectorFrame,                             -- Parent frame
-        30,                                             -- Button size
-        { "TOP", mountSelectorFrame, "TOP", -14, -37 }, -- Position
-        "Interface\\Icons\\Ability_Mount_RidingHorse",  -- Icon path
-        "Create Summon Macro",                          -- Tooltip text
-        "RMS",                                          -- Macro name
-        "/rms summon",                                  -- Macro body
-        "Ability_Mount_RidingHorse"                     -- Macro icon
-    )
-
-    -- Aquatic mounts
-    createMacroButton(
-        mountSelectorFrame,                            -- Parent frame
-        30,                                            -- Button size
-        { "TOP", mountSelectorFrame, "TOP", 23, -37 }, -- Position
-        "Interface\\Icons\\inv_stingray2mount_teal",   -- Icon path
-        "Create Summon Swim Macro",                    -- Tooltip text
-        "SWM",                                         -- Macro name
-        "/rms summonswim",                             -- Macro body
-        "inv_stingray2mount_teal"                      -- Macro icon
-    )
 
     -- Enable the frame to be movable
     mountSelectorFrame:SetMovable(true)
@@ -122,10 +100,12 @@ local function createMountSelectorFrame()
         mountSelectorFrame:StopMovingOrSizing()
     end)
 
+    createTabs()
     RuthesMS.frames.mountSelectorFrame.frame = mountSelectorFrame
 end
 
 RuthesMS.frames.mountSelectorFrame = {
     frame = nil,
-    create = createMountSelectorFrame
+    create = createMountSelectorFrame,
+    selectTab = selectTab
 }

@@ -1,6 +1,5 @@
 local function canPlayerFly()
-    -- The War within zones are not added to the IsFlyableArea function... so we need to add them manually
-    local isFlyable = IsFlyableArea() --or twwFlyingZones[zoneId]
+    local isFlyable = IsFlyableArea()
 
     if isFlyable then
         return true
@@ -9,9 +8,7 @@ local function canPlayerFly()
     end
 end
 
--- Check if a mount is flying
 local function isMountFlying(typeId)
-    -- Check if mount type or other known factors indicate that it is a flying mount
     -- https://wowpedia.fandom.com/wiki/API_C_MountJournal.GetMountInfoExtraByID
     local flyingMountTypes = {
         [247] = true, -- Disc of the Red Flying Cloud
@@ -82,13 +79,15 @@ local function getAvailableMounts()
     local vashirMountAllowed = zoneId == 5146
 
     -- Use small mounts if in an instance
-    local useSmallMounts = (IsInInstance() and RuthesMS.smallMountInInstance)
+    local useSmallMounts = (IsInInstance() and RuthesMS.settings.smallMountInInstance)
 
     for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
         local name, spellID, icon, _, isUsable, _, isFavorite, _, _, _, isCollected =
             C_MountJournal.GetMountInfoByID(mountID)
 
         local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
+
+        local isUtilityMount = RuthesMS.utils.summon.isUtilityMount(mountID)
 
         -- Uncomment to output missing mounts
         -- local mountInfo = findMountByID(mountID)
@@ -97,6 +96,7 @@ local function getAvailableMounts()
         -- end
 
         if isUsable and isCollected and
+            ((isUtilityMount and not RuthesMS.settings.dontIncludeUtilityMounts) or not isUtilityMount) and
             ((isFavorite and RuthesMS.settings.useOnlyFavourites) or not RuthesMS.settings.useOnlyFavourites) then
             local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
 
@@ -124,6 +124,7 @@ local function getAvailableMounts()
                     secondary_color = mountInfo.secondary_color,
                     skeleton_type = mountInfo.skeleton_type,
                     expansion = mountInfo.expansion,
+                    looks = mountInfo.looks
                 })
             end
         end
@@ -143,8 +144,8 @@ end
 
 local function reloadMounts()
     local availableMounts = RuthesMS.utils.mount.getAvailableMounts()
-    RuthesMS.temp.availableMounts = availableMounts
-    RuthesMS.temp.currentMounts = RuthesMS.utils.filter.filterMounts(availableMounts)
+    RuthesMS.state.availableMounts = availableMounts
+    RuthesMS.state.currentMounts = RuthesMS.utils.filter.filterMounts(availableMounts)
 end
 
 
@@ -174,76 +175,6 @@ local function canSummonMount()
     return true
 end
 
-local function summonRandomMount(isSwimming)
-    if IsMounted() then
-        Dismount()
-    else
-        CancelShapeshiftForm()
-        if (RuthesMS.utils.mount.canSummonMount() == false) then
-            return
-        end
-
-        RuthesMS.utils.mount.reloadMounts()
-
-        if #RuthesMS.temp.currentMounts > 0 then
-            local chosenMounts
-
-            local flyingMounts = {}
-            local groundMounts = {}
-            local aquaticMounts = {}
-
-            for _, mount in ipairs(RuthesMS.temp.currentMounts) do
-                if mount.isFlying then -- flying and aquatic if steady flight is active
-                    table.insert(flyingMounts, mount)
-                    -- Mounts with flying and aquatic have a bug where they are only fast
-                    -- underwater if steady flight is active
-                    if mount.isAquatic and RuthesMS.utils.mount.isSteadyFlightActive() then
-                        table.insert(aquaticMounts, mount)
-                    end
-                elseif mount.isAquatic then -- aquatic and not flying
-                    table.insert(aquaticMounts, mount)
-                end
-
-                if ((not mount.isFlying or RuthesMS.utils.mount.hasGroundAnim(mount.id, mount.skeleton_type)) and not mount.isAquatic) then
-                    table.insert(groundMounts, mount)
-                end
-            end
-
-
-            if (isSwimming) then
-                if #aquaticMounts > 0 then
-                    chosenMounts = aquaticMounts
-                else
-                    -- If the aquatic mounts don't fit the criteria, summon a random aquatic mount
-                    RuthesMS.temp.currentMounts = RuthesMS.temp.availableMounts
-                    if (#RuthesMS.temp.currentMounts > 0) then
-                        for _, mount in ipairs(RuthesMS.temp.currentMounts) do
-                            if mount.isAquatic then
-                                table.insert(aquaticMounts, mount)
-                            end
-                        end
-                        chosenMounts = aquaticMounts
-                    else
-                        print("No aquatic mounts available to summon.")
-                    end
-                end
-            elseif RuthesMS.utils.mount.canPlayerFly() and #flyingMounts > 0 then
-                chosenMounts = flyingMounts
-            else
-                chosenMounts = groundMounts
-            end
-
-            if #chosenMounts > 0 then
-                local randomIndex = math.random(1, #chosenMounts)
-                C_MountJournal.SummonByID(chosenMounts[randomIndex].id)
-            else
-                print("No mounts available to summon.")
-            end
-        else
-            print("No mounts available to summon.")
-        end
-    end
-end
 
 local function isSteadyFlightActive()
     local buffName = "Flight Style: Steady"
@@ -258,7 +189,6 @@ RuthesMS.utils.mount = {
     getAvailableMounts = getAvailableMounts,
     findMountByID = findMountByID,
     reloadMounts = reloadMounts,
-    summonRandomMount = summonRandomMount,
     isSteadyFlightActive = isSteadyFlightActive,
-    canSummonMount = canSummonMount
+    canSummonMount = canSummonMount,
 }

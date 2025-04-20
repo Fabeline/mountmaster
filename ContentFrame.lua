@@ -3,7 +3,9 @@ local function createContentFrame()
         RuthesMS.frames.mountSelectorScrollFrame.frame,
         "BackdropTemplate")
     RuthesMS.frames.mountSelectorScrollFrame.frame:SetScrollChild(contentFrame)
-    contentFrame:SetSize(RuthesMS.frames.mountSelectorScrollFrame.frame:GetWidth(), 2000)
+
+    local height = #RuthesMS.state.currentMounts * RuthesMS.buttons.mountButtons.lineHeight
+    contentFrame:SetSize(RuthesMS.frames.mountSelectorScrollFrame.frame:GetWidth(), height)
     RuthesMS.frames.contentFrame.frame = contentFrame
 end
 

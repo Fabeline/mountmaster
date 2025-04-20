@@ -12,8 +12,16 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
-### ver 1.4.1
-- Added support for filtering by expansions
+### ver 1.5.0
+- Added support for filtering by expansion.
+- Separated the user interface into tabs.
+- You can now set a keybind or create an action button for several different mount summons:
+    - Summon normal mount (flying if possible)
+    - Summon aquatic mount
+    - Summon repair mount
+    - Summon auction house mount
+    - Summon mailbox mount
+- Added the ability to choose whether keybinds should be character-specific.
 
 ### ver 1.4.0
 - Added new mounts for patch 11.5.0

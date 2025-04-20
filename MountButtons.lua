@@ -8,7 +8,7 @@ local function createMountButtons()
     RuthesMS.frames.contentFrame.create()
     local contentFrame = RuthesMS.frames.contentFrame.frame
 
-    for i, mount in ipairs(RuthesMS.temp.currentMounts) do
+    for i, mount in ipairs(RuthesMS.state.currentMounts) do
         local mountData = mount
         local mountID = mountData.id
 
@@ -90,8 +90,6 @@ local function createMountButtons()
             end
         end)
     end
-
-    RuthesMS.buttons.frameButtons.loadRandomMountButton()
 end
 
 
@@ -102,5 +100,6 @@ end
 
 RuthesMS.buttons.mountButtons = {
     create = createMountButtons,
-    reload = reload
+    reload = reload,
+    lineHeight = lineheight,
 }
