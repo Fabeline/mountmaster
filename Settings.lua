@@ -7,6 +7,7 @@ RuthesMS = {
         useOnlyFavourites = false,
         smallMountInInstance = false,
         dontIncludeUtilityMounts = false,
+        globalKeybinds = false
     },
     keybinds = {
     },

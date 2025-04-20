@@ -1,6 +1,7 @@
 local detectedKey = nil
 local detectedModifiers = {}
 local selectedType = ""
+local characterSpecificKeybindsCheckbox
 
 local keybindTable = {
     {
@@ -64,37 +65,50 @@ local keybindTable = {
 local function applySummonKeyBinding(type)
     -- First clear all previous bindings
     ClearOverrideBindings(RuthesMS.frames.mountSelectorFrame.frame)
+    local formattedKey
 
     -- Normal summon
-    local formattedKey = string.gsub(RuthesMS.keybinds.normal, "+", "-")
-    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-        "RuthesMSRandomMountButton")
+    if (RuthesMS.keybinds.normal) then
+        formattedKey = string.gsub(RuthesMS.keybinds.normal, "+", "-")
+        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+            "RuthesMSRandomMountButton")
+    end
 
     -- Aquatic summon
-    formattedKey = string.gsub(RuthesMS.keybinds.aquatic, "+", "-")
-    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-        "RuthesMSRandomAquaticMountButton")
+    if (RuthesMS.keybinds.aquatic) then
+        formattedKey = string.gsub(RuthesMS.keybinds.aquatic, "+", "-")
+        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+            "RuthesMSRandomAquaticMountButton")
+    end
 
     -- Repair summon
-    formattedKey = string.gsub(RuthesMS.keybinds.repair, "+", "-")
-    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-        "RuthesMSRandomRepairMountButton")
+    if (RuthesMS.keybinds.repair) then
+        formattedKey = string.gsub(RuthesMS.keybinds.repair, "+", "-")
+        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+            "RuthesMSRandomRepairMountButton")
+    end
 
     -- Transmog summon
-    formattedKey = string.gsub(RuthesMS.keybinds.transmog, "+", "-")
-    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-        "RuthesMSRandomTransmogMountButton")
+    if (RuthesMS.keybinds.transmog) then
+        formattedKey = string.gsub(RuthesMS.keybinds.transmog, "+", "-")
+        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+            "RuthesMSRandomTransmogMountButton")
+    end
 
 
     -- Auction house summon
-    formattedKey = string.gsub(RuthesMS.keybinds.auctionHouse, "+", "-")
-    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-        "RuthesMSRandomAuctionHouseMountButton")
+    if (RuthesMS.keybinds.auctionHouse) then
+        formattedKey = string.gsub(RuthesMS.keybinds.auctionHouse, "+", "-")
+        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+            "RuthesMSRandomAuctionHouseMountButton")
+    end
 
     -- Mailbox summon
-    formattedKey = string.gsub(RuthesMS.keybinds.mailbox, "+", "-")
-    SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-        "RuthesMSRandomMailboxMountButton")
+    if (RuthesMS.keybinds.mailbox) then
+        formattedKey = string.gsub(RuthesMS.keybinds.mailbox, "+", "-")
+        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
+            "RuthesMSRandomMailboxMountButton")
+    end
 end
 
 
@@ -102,6 +116,11 @@ end
 local function loadSummoningKey()
     RuthesMS.frames.keybindFrame.delete()
     RuthesMS.frames.keybindFrame.create()
+
+    -- Reload the checkbox
+    if characterSpecificKeybindsCheckbox then
+        characterSpecificKeybindsCheckbox:SetChecked(not RuthesMS.settings.globalKeybinds)
+    end
     applySummonKeyBinding()
 end
 
@@ -281,9 +300,21 @@ local function createKeybindFrame()
         )
     end
 
+    -- Character specific checkbox
+    characterSpecificKeybindsCheckbox = CreateFrame("CheckButton", "CharacterSpecificKeybindsCheckbox", keybindFrame,
+        "ChatConfigCheckButtonTemplate")
+    characterSpecificKeybindsCheckbox:SetPoint("TOPLEFT", keybindFrame, "TOPLEFT", -5,
+        yOffset - (#keybindTable * lineHeight) - 60)
+    characterSpecificKeybindsCheckbox:SetScript("OnClick", function(self)
+        RuthesMS.db.saveGlobalKeybinds(not self:GetChecked())
+        RuthesMS.frames.keybindFrame.loadSummoningKey()
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+    local characterSpecificKeybindLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    characterSpecificKeybindLabel:SetPoint("LEFT", characterSpecificKeybindsCheckbox, "RIGHT", 5, 0)
+    characterSpecificKeybindLabel:SetText("Character specific keybinds")
 
     keybindFrame:Show()
-
     RuthesMS.frames.keybindFrame.frame = keybindFrame
 end
 

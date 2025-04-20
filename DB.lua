@@ -10,8 +10,9 @@ local function InitializeConfig()
             summonKey = standardKey, -- deprecated, use keybinds instead
             useOnlyFavourites = false,
             dontIncludeUtilityMounts = false,
+            globalKeybinds = false,
             keybinds = {
-                normal = standardKey,
+                normal = "",
                 aquatic = "",
                 repair = "",
                 transmog = "",
@@ -19,6 +20,20 @@ local function InitializeConfig()
                 mailbox = "",
                 multiple = "",
             },
+        }
+    end
+
+    if not MountSelectorGlobalConfig then
+        MountSelectorGlobalConfig = {
+            keybinds = {
+                normal = "",
+                aquatic = "",
+                repair = "",
+                transmog = "",
+                auctionHouse = "",
+                mailbox = "",
+                multiple = "",
+            }
         }
     end
 
@@ -46,10 +61,21 @@ local function InitializeConfig()
     RuthesMS.settings.useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
     RuthesMS.settings.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
     RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
+    RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
+
+    if (MountSelectorCharacterConfig.globalKeybinds) then
+        RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
+    end
 end
 
 local function saveSummonKey(key, type)
-    MountSelectorCharacterConfig.keybinds[type] = key
+    if (RuthesMS.settings.globalKeybinds) then
+        MountSelectorGlobalConfig.keybinds[type] = key
+        RuthesMS.frames.keybindFrame.loadSummoningKey()
+    else
+        MountSelectorCharacterConfig.keybinds[type] = key
+        RuthesMS.frames.keybindFrame.loadSummoningKey()
+    end
     RuthesMS.keybinds[type] = key
 end
 
@@ -84,9 +110,21 @@ local function saveDontIncludeUtilityMounts(shouldUse)
     RuthesMS.settings.dontIncludeUtilityMounts = shouldUse
 end
 
+local function saveGlobalKeybinds(shouldUse)
+    if (shouldUse) then
+        RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
+    else
+        RuthesMS.keybinds = MountSelectorCharacterConfig.keybinds
+    end
+
+    RuthesMS.frames.keybindFrame.loadSummoningKey()
+    MountSelectorCharacterConfig.globalKeybinds = shouldUse
+    RuthesMS.settings.globalKeybinds = shouldUse
+end
+
 RuthesMS.db = {
     init = InitializeConfig,
-    saveSummonKey = saveSummonKey, -- deprecated
+    saveSummonKey = saveSummonKey,
     saveSelectedColors = saveSelectedColors,
     saveSelectedTypes = saveSelectedTypes,
     saveSelectedExpansions = saveSelectedExpansions,
@@ -94,4 +132,5 @@ RuthesMS.db = {
     saveUseOnlyFavourites = saveUseOnlyFavourites,
     saveSmallMountInInstance = saveSmallMountInInstance,
     saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
+    saveGlobalKeybinds = saveGlobalKeybinds,
 }
