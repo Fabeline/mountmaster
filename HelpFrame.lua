@@ -14,11 +14,11 @@ local function createFrame()
     helpText:SetJustifyV("TOP")
     helpText:SetText(
         "|cffffffffWelcome to Ruthe's Mount Selector!|r\n\n" ..
-        "This addon helps you summon the perfect mounts for each of your characters.\n\n" ..
-        "Use the dropdowns to filter by color, expansion, or type.\n\n" ..
-        "You can set a keybind or drag an action button/macro to summon from your selection.\n\n" ..
-        "If you have any comments or questions, please enter them here:\n|cffffffffhttps://www.curseforge.com/wow/addons/ruthes-mountselector/comments\n\n|r" ..
-        "Enjoy your adventures!"
+        "This addon helps you manage and summon mounts more efficiently by allowing you to filter and categorize them based on type, expansion, and color.\n\n" ..
+        "You can assign keybinds or drag action buttons/macros to your action bar for quick access to specific mount types, such as flying, aquatic, repair, mailbox, or auction house mounts.\n\n" ..
+        "Keybinds can be set globally or per character, depending on your preference.\n\n" ..
+        "For feedback, questions, or suggestions, visit:\n|cffffffffhttps://www.curseforge.com/wow/addons/ruthes-mountselector/comments|r\n\n" ..
+        "Thank you for using the addon."
     )
 
     -- local logo = helpFrame:CreateTexture(nil, "ARTWORK")

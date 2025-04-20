@@ -1,7 +1,10 @@
+Check that it works on ptr
 Remove .gitignore
 Remove x_copyFiles.bat
+
 Update ## Interface
 Update ## Version
+
 Zip the FOLDER containing the addon (including LibDBIcon-1.0)
 Rename to for instance Ruthes_Mountselector_1_3_1.zip
 
