@@ -273,7 +273,7 @@ local function createKeybindFrame()
         if keybindText == "" or keybindText == nil then
             keybindText = "Not set"
         else
-            keybindText = "Key (" .. RuthesMS.keybinds[value.name] .. ")"
+            keybindText = RuthesMS.keybinds[value.name]
         end
         setKeyButton:SetSize(110, 22)
         setKeyButton:SetPoint("TOP", keybindFrame, "TOP", -0, yOffset - (index * lineHeight))

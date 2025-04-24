@@ -7,6 +7,10 @@
 ## SavedVariables: MountSelectorGlobalConfig
 ## IconTexture: Interface/AddOns/Ruthes_MountSelector/Ruthes_MountSelector.tga
 
+
+## SavedVariables: PetDumpData
+
+
 LibDBIcon-1.0\LibStub\LibStub.lua
 LibDBIcon-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua
 LibDBIcon-1.0\LibDataBroker-1.1\LibDataBroker-1.1.lua
@@ -15,8 +19,11 @@ LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Settings.lua
 
 mounts.lua
+pets.lua
+
 FilterUtils.lua
 MountUtils.lua
+PetUtils.lua
 DropdownUtils.lua
 AddonUtils.lua
 SummonUtils.lua

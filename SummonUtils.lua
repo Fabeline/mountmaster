@@ -231,7 +231,9 @@ local function summonRandomMount(isSwimming)
 
             if #chosenMounts > 0 then
                 local randomIndex = math.random(1, #chosenMounts)
-                C_MountJournal.SummonByID(chosenMounts[randomIndex].id)
+                local mount = chosenMounts[randomIndex].id
+                C_MountJournal.SummonByID(mount)
+                RuthesMS.state.lastSummonedMount = mount
             else
                 print("No mounts available to summon.")
             end
@@ -239,6 +241,8 @@ local function summonRandomMount(isSwimming)
             print("No mounts available to summon.")
         end
     end
+
+    RuthesMS.utils.pet.summonRandomPet()
 end
 
 local function isUtilityMount(mountID)

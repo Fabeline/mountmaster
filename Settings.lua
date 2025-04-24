@@ -13,7 +13,8 @@ RuthesMS = {
     },
     state = {
         currentMounts = {},
-        availableMounts = {}
+        availableMounts = {},
+        lastSummonedMount = nil,
     },
     frames = {
         contentFrame = {},
@@ -31,12 +32,14 @@ RuthesMS = {
         randomMountButton = {},
     },
     data = {
-        mounts = {}
+        mounts = {},
+        pets = {}
     },
     utils = {
         dropdown = {},
         filterDropdowns = {},
         mount = {},
+        pet = {},
         filter = {},
         addon = {},
         summon = {}
