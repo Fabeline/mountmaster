@@ -171,7 +171,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135437,
         race = "stag",
-        color = "brown"
+        color = "brown",
+        druid = "tree"
     },
     {
         speciesID = 331,
@@ -775,7 +776,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 136021,
         race = "stag",
-        color = ""
+        color = "brown",
+        druid = "tree"
     },
     {
         speciesID = 1706,
@@ -842,7 +844,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 960698,
         race = "elemental",
-        color = "orange"
+        color = "orange",
+        druid = "tree"
     },
     {
         speciesID = 1470,
@@ -1850,7 +1853,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 874857,
         race = "gargoyle",
-        color = "brown"
+        color = "brown",
+        druid = "tree"
     },
     {
         speciesID = 4586,
@@ -8379,7 +8383,7 @@ RuthesMS.data.pets = {
         name = "Moon Moon",
         type = 8,
         icon = 538568,
-        race = "wplf",
+        race = "wolf",
         color = "white"
     },
     {
@@ -11709,8 +11713,9 @@ RuthesMS.data.pets = {
         name = "Snaplasher",
         type = 7,
         icon = 134182,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "pink",
+        druid = "tree"
     },
     {
         speciesID = 2472,
