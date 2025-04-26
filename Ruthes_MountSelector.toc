@@ -24,6 +24,7 @@ pets.lua
 FilterUtils.lua
 MountUtils.lua
 PetUtils.lua
+DruidUtils.lua
 DropdownUtils.lua
 AddonUtils.lua
 SummonUtils.lua

@@ -1,3 +1,123 @@
+local function resetPetFilters()
+    C_PetJournal.SetFilterChecked(LE_PET_JOURNAL_FILTER_COLLECTED, true)
+    C_PetJournal.SetFilterChecked(LE_PET_JOURNAL_FILTER_NOT_COLLECTED, true)
+    C_PetJournal.SetSearchFilter("")
+
+    for index = 1, C_PetJournal.GetNumPetTypes() do
+        C_PetJournal.SetPetTypeFilter(index, true)
+    end
+
+    for index = 1, C_PetJournal.GetNumPetSources() do
+        C_PetJournal.SetPetSourceChecked(index, true)
+    end
+end
+
+local function getPetInfoBySpeciesId(speciesID)
+    local allPets = RuthesMS.data.pets
+
+    for i = 1, #allPets do
+        if allPets[i].speciesID == speciesID then
+            return allPets[i]
+        end
+    end
+    print("No pet found with species ID: " .. speciesID)
+end
+
+
+local function getAvailablePets()
+    local availablePets = {}
+    local numPets, _ = C_PetJournal.GetNumPets()
+
+    for i = 1, numPets do
+        local petGUID, thisSpeciesID, isOwned, _, _, favorite, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
+        local petInfo = getPetInfoBySpeciesId(thisSpeciesID)
+
+        if petInfo and isOwned and ((RuthesMS.settings.useOnlyPetFavourites and favorite) or not RuthesMS.settings.useOnlyPetFavourites) then
+            table.insert(availablePets, {
+                petGUID = petGUID,
+                speciesID = thisSpeciesID,
+                isOwned = isOwned,
+                speciesName = speciesName,
+                race = petInfo.race,
+                color = petInfo.color,
+                druid = petInfo.druid,
+                favorite = favorite,
+            })
+        end
+    end
+
+    return availablePets
+end
+
+
+
+
+local function getAvailablePets_old()
+    local availablePets = {}
+    local numPets, numOwned = C_PetJournal.GetNumPets()
+
+    for i = 1, numPets do
+        local petGUID, thisSpeciesID, isOwned, _, _, favorite, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
+        local petInfo = getPetInfoBySpeciesId(thisSpeciesID)
+        local petToBeInserted = {
+            petGUID = petGUID,
+            speciesID = thisSpeciesID,
+            isOwned = isOwned,
+            speciesName = speciesName,
+            race = petInfo.race,
+            color = petInfo.color,
+            druid = petInfo.druid,
+            favorite = favorite,
+        }
+        if isOwned and ((RuthesMS.settings.useOnlyPetFavourites and favorite) or not RuthesMS.settings.useOnlyPetFavourites) then
+            for _, pet in ipairs(RuthesMS.data.pets) do
+                if thisSpeciesID == pet.speciesID then
+                    table.insert(availablePets, petToBeInserted)
+                    break
+                end
+            end
+        end
+    end
+    return availablePets
+end
+
+local function getPetsByRace(raceList)
+    local availablePets = getAvailablePets()
+    local filteredPets = {}
+
+    for petIndex = 1, #availablePets do
+        for raceIndex = 1, #raceList do
+            local pet = availablePets[petIndex]
+            local race = raceList[raceIndex]
+
+            if ((pet.race and pet.race:lower() == race:lower()) or (pet.druid and pet.druid:lower() == race:lower())) then
+                table.insert(filteredPets, pet)
+            end
+        end
+    end
+
+    return filteredPets
+end
+
+local function summonPetByRace(raceList)
+    if (not RuthesMS.settings.summonPetFromMount or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
+        return
+    end
+    resetPetFilters()
+
+    local filteredPets = getPetsByRace(raceList)
+
+    if #filteredPets > 0 then
+        local randomIndex = math.random(1, #filteredPets)
+        local pet = filteredPets[randomIndex]
+        C_PetJournal.SummonPetByGUID(pet.petGUID)
+    else
+        -- Fail silently, no pets available
+    end
+end
+
+
+
 local function filterPets(mountRace, mountColor, petList)
     local filteredPets = {}
 
@@ -39,18 +159,6 @@ local function filterPets(mountRace, mountColor, petList)
     return filteredPets
 end
 
-local function getPetInfoBySpeciesId(speciesID)
-    local allPets = RuthesMS.data.pets
-    local petInfo = {}
-
-    for i = 1, #allPets do
-        if allPets[i].speciesID == speciesID then
-            return allPets[i]
-        end
-    end
-    print("No pet found with species ID: " .. speciesID)
-end
-
 local function summonPetFromMount(mount)
     if (not RuthesMS.settings.summonPetFromMount or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
         return
@@ -61,32 +169,9 @@ local function summonPetFromMount(mount)
         return
     end
 
-    local availablePets = {}
-    local numPets, numOwned = C_PetJournal.GetNumPets()
+    resetPetFilters()
 
-    for i = 1, numPets do
-        local petGUID, thisSpeciesID, isOwned, _, _, favorite, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
-        local petInfo = getPetInfoBySpeciesId(thisSpeciesID)
-        local petToBeInserted = {
-            petGUID = petGUID,
-            speciesID = thisSpeciesID,
-            isOwned = isOwned,
-            speciesName = speciesName,
-            race = petInfo.race,
-            color = petInfo.color,
-            druid = petInfo.druid,
-            favorite = favorite,
-        }
-        if isOwned and ((RuthesMS.settings.useOnlyPetFavourites and favorite) or not RuthesMS.settings.useOnlyPetFavourites) then
-            for _, pet in ipairs(RuthesMS.data.pets) do
-                if thisSpeciesID == pet.speciesID then
-                    table.insert(availablePets, petToBeInserted)
-                    break
-                end
-            end
-        end
-    end
-
+    local availablePets = getAvailablePets()
     local filteredPets = filterPets(mount.skeleton_type, mount.color, availablePets)
 
     if #filteredPets > 0 then
@@ -94,36 +179,11 @@ local function summonPetFromMount(mount)
         local pet = filteredPets[randomIndex]
         C_PetJournal.SummonPetByGUID(pet.petGUID)
     else
-        print("No pets available. Have you set any filters in the pet journal?")
+        print("No pets available for summon.")
     end
 end
-
-
-local function dumpData()
-    PetDumpData = PetDumpData or {}
-    PetDumpData.pets = {}
-
-    local seenSpecies = {}
-
-    for i = 1, C_PetJournal.GetNumPets() do
-        local petGUID, speciesID, isOwned, customName, level, favorite, isRevoked, speciesName, icon, petType =
-            C_PetJournal.GetPetInfoByIndex(i)
-
-        if not seenSpecies[speciesID] then
-            table.insert(PetDumpData.pets, {
-                name = speciesName,
-                speciesID = speciesID,
-                type = petType,
-                icon = icon,
-            })
-            seenSpecies[speciesID] = true
-        end
-    end
-
-    print("Dumped", #PetDumpData.pets, "unique species to SavedVariables.")
-end
-
 
 RuthesMS.utils.pet = {
     summonRandomPet = summonPetFromMount,
+    summonPetByRace = summonPetByRace
 }

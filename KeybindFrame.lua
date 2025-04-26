@@ -314,6 +314,24 @@ local function createKeybindFrame()
     characterSpecificKeybindLabel:SetPoint("LEFT", characterSpecificKeybindsCheckbox, "RIGHT", 5, 0)
     characterSpecificKeybindLabel:SetText("Character specific keybinds")
 
+
+
+
+
+    -- Keybind button
+    local setKeyButton = CreateFrame("Button", nil, keybindFrame, "UIPanelButtonTemplate")
+    local keybindText = "o" --RuthesMS.keybinds[value.name]
+
+    setKeyButton:SetSize(110, 22)
+    setKeyButton:SetPoint("TOP", keybindFrame, "TOP", -0, yOffset - (8 * lineHeight))
+    setKeyButton:SetText(keybindText)
+
+    setKeyButton:SetScript("OnClick", function()
+        print("Detecting form...")
+        RuthesMS.utils.druid.detectForm()
+    end)
+
+
     keybindFrame:Show()
     RuthesMS.frames.keybindFrame.frame = keybindFrame
 end

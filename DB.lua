@@ -113,7 +113,7 @@ end
 
 local function saveSmallMountInInstance(shouldUse)
     MountSelectorCharacterConfig.smallMountInInstance = shouldUse
-    RuthesMS.smallMountInInstance = shouldUse
+    RuthesMS.settings.smallMountInInstance = shouldUse
 end
 
 local function saveDontIncludeUtilityMounts(shouldUse)
