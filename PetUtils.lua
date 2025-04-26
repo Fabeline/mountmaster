@@ -32,7 +32,7 @@ local function getAvailablePets()
         local petGUID, thisSpeciesID, isOwned, _, _, favorite, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
         local petInfo = getPetInfoBySpeciesId(thisSpeciesID)
 
-        if petInfo and isOwned and ((RuthesMS.settings.useOnlyPetFavourites and favorite) or not RuthesMS.settings.useOnlyPetFavourites) then
+        if petInfo and isOwned then
             table.insert(availablePets, {
                 petGUID = petGUID,
                 speciesID = thisSpeciesID,
@@ -46,43 +46,12 @@ local function getAvailablePets()
         end
     end
 
-    return availablePets
-end
 
-
-
-
-local function getAvailablePets_old()
-    local availablePets = {}
-    local numPets, numOwned = C_PetJournal.GetNumPets()
-
-    for i = 1, numPets do
-        local petGUID, thisSpeciesID, isOwned, _, _, favorite, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
-        local petInfo = getPetInfoBySpeciesId(thisSpeciesID)
-        local petToBeInserted = {
-            petGUID = petGUID,
-            speciesID = thisSpeciesID,
-            isOwned = isOwned,
-            speciesName = speciesName,
-            race = petInfo.race,
-            color = petInfo.color,
-            druid = petInfo.druid,
-            favorite = favorite,
-        }
-        if isOwned and ((RuthesMS.settings.useOnlyPetFavourites and favorite) or not RuthesMS.settings.useOnlyPetFavourites) then
-            for _, pet in ipairs(RuthesMS.data.pets) do
-                if thisSpeciesID == pet.speciesID then
-                    table.insert(availablePets, petToBeInserted)
-                    break
-                end
-            end
-        end
-    end
-    return availablePets
+    RuthesMS.state.availablePets = availablePets
 end
 
 local function getPetsByRace(raceList)
-    local availablePets = getAvailablePets()
+    local availablePets = RuthesMS.state.availablePets
     local filteredPets = {}
 
     for petIndex = 1, #availablePets do
@@ -90,7 +59,8 @@ local function getPetsByRace(raceList)
             local pet = availablePets[petIndex]
             local race = raceList[raceIndex]
 
-            if ((pet.race and pet.race:lower() == race:lower()) or (pet.druid and pet.druid:lower() == race:lower())) then
+            if (((RuthesMS.settings.useOnlyPetFavourites and pet.favorite) or not RuthesMS.settings.useOnlyPetFavourites) and
+                    (pet.race and pet.race:lower() == race:lower()) or (pet.druid and pet.druid:lower() == race:lower())) then
                 table.insert(filteredPets, pet)
             end
         end
@@ -116,7 +86,9 @@ local function summonPetByRace(raceList)
     end
 end
 
-
+local function checkFavorites(pet)
+    return (RuthesMS.settings.useOnlyPetFavourites and pet.favorite) or not RuthesMS.settings.useOnlyPetFavourites
+end
 
 local function filterPets(mountRace, mountColor, petList)
     local filteredPets = {}
@@ -124,7 +96,8 @@ local function filterPets(mountRace, mountColor, petList)
     for i = 1, #petList do
         local pet = petList[i]
         if pet.race and pet.color then
-            if pet.race:lower() == mountRace:lower() and
+            if checkFavorites(pet) and
+                pet.race:lower() == mountRace:lower() and
                 pet.color:lower() == mountColor:lower() then
                 table.insert(filteredPets, pet)
             end
@@ -135,7 +108,8 @@ local function filterPets(mountRace, mountColor, petList)
         -- If no matching both color and race, only match race
         for i = 1, #petList do
             local pet = petList[i]
-            if pet.race and pet.race:lower() == mountRace:lower() then
+            if checkFavorites(pet) and
+                pet.race and pet.race:lower() == mountRace:lower() then
                 table.insert(filteredPets, pet)
             end
         end
@@ -145,7 +119,8 @@ local function filterPets(mountRace, mountColor, petList)
         -- If no matching race, try to match color
         for i = 1, #petList do
             local pet = petList[i]
-            if pet.color and pet.color:lower() == mountColor:lower() then
+            if checkFavorites(pet) and
+                pet.color and pet.color:lower() == mountColor:lower() then
                 table.insert(filteredPets, pet)
             end
         end
@@ -171,7 +146,7 @@ local function summonPetFromMount(mount)
 
     resetPetFilters()
 
-    local availablePets = getAvailablePets()
+    local availablePets = RuthesMS.state.availablePets
     local filteredPets = filterPets(mount.skeleton_type, mount.color, availablePets)
 
     if #filteredPets > 0 then
@@ -185,5 +160,6 @@ end
 
 RuthesMS.utils.pet = {
     summonRandomPet = summonPetFromMount,
-    summonPetByRace = summonPetByRace
+    summonPetByRace = summonPetByRace,
+    getAvailablePets = getAvailablePets,
 }

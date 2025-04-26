@@ -26,6 +26,7 @@ local function InitializeConfig()
                 auctionHouse = "",
                 mailbox = "",
                 multiple = "",
+                druidTravelForm = "",
             },
         }
     end
@@ -40,6 +41,7 @@ local function InitializeConfig()
                 auctionHouse = "",
                 mailbox = "",
                 multiple = "",
+                druidTravelForm = "",
             }
         }
     end
@@ -58,6 +60,7 @@ local function InitializeConfig()
         mailbox = MountSelectorCharacterConfig.keybinds.mailbox or "",
         auctionHouse = MountSelectorCharacterConfig.keybinds.auctionHouse or "",
         multiple = MountSelectorCharacterConfig.keybinds.multiple or "",
+        druidTravelForm = MountSelectorCharacterConfig.keybinds.druidTravelForm or "",
     }
 
     RuthesMS.settings.selectedColors = MountSelectorCharacterConfig.colors or {}

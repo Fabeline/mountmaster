@@ -59,56 +59,38 @@ local keybindTable = {
         icon = "ability_mount_camel_brown",
         macro = "/rms multiple",
         macroName = "RMS multiple"
+    },
+    {
+
+        label = "Travel/Flight form",
+        name = "druidTravelForm",
+        iconPath = "Interface\\Icons\\Ability_Druid_TravelForm",
+        icon = "Ability_Druid_TravelForm",
+        macro = [[
+/cast Travel Form
+/rms travelForm
+]],
+        macroName = "RMS travelForm",
+        noKey = true
     }
 }
 
 local function applySummonKeyBinding(type)
-    -- First clear all previous bindings
     ClearOverrideBindings(RuthesMS.frames.mountSelectorFrame.frame)
-    local formattedKey
 
-    -- Normal summon
-    if (RuthesMS.keybinds.normal) then
-        formattedKey = string.gsub(RuthesMS.keybinds.normal, "+", "-")
-        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-            "RuthesMSRandomMountButton")
+    local function bindKey(keyName, buttonName)
+        if keyName then
+            local formattedKey = string.gsub(keyName, "+", "-")
+            SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey, buttonName)
+        end
     end
 
-    -- Aquatic summon
-    if (RuthesMS.keybinds.aquatic) then
-        formattedKey = string.gsub(RuthesMS.keybinds.aquatic, "+", "-")
-        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-            "RuthesMSRandomAquaticMountButton")
-    end
-
-    -- Repair summon
-    if (RuthesMS.keybinds.repair) then
-        formattedKey = string.gsub(RuthesMS.keybinds.repair, "+", "-")
-        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-            "RuthesMSRandomRepairMountButton")
-    end
-
-    -- Transmog summon
-    if (RuthesMS.keybinds.transmog) then
-        formattedKey = string.gsub(RuthesMS.keybinds.transmog, "+", "-")
-        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-            "RuthesMSRandomTransmogMountButton")
-    end
-
-
-    -- Auction house summon
-    if (RuthesMS.keybinds.auctionHouse) then
-        formattedKey = string.gsub(RuthesMS.keybinds.auctionHouse, "+", "-")
-        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-            "RuthesMSRandomAuctionHouseMountButton")
-    end
-
-    -- Mailbox summon
-    if (RuthesMS.keybinds.mailbox) then
-        formattedKey = string.gsub(RuthesMS.keybinds.mailbox, "+", "-")
-        SetOverrideBindingClick(RuthesMS.frames.mountSelectorFrame.frame, true, formattedKey,
-            "RuthesMSRandomMailboxMountButton")
-    end
+    bindKey(RuthesMS.keybinds.normal, "RuthesMSRandomMountButton")
+    bindKey(RuthesMS.keybinds.aquatic, "RuthesMSRandomAquaticMountButton")
+    bindKey(RuthesMS.keybinds.repair, "RuthesMSRandomRepairMountButton")
+    bindKey(RuthesMS.keybinds.transmog, "RuthesMSRandomTransmogMountButton")
+    bindKey(RuthesMS.keybinds.auctionHouse, "RuthesMSRandomAuctionHouseMountButton")
+    bindKey(RuthesMS.keybinds.mailbox, "RuthesMSRandomMailboxMountButton")
 end
 
 
@@ -121,6 +103,7 @@ local function loadSummoningKey()
     if characterSpecificKeybindsCheckbox then
         characterSpecificKeybindsCheckbox:SetChecked(not RuthesMS.settings.globalKeybinds)
     end
+
     applySummonKeyBinding()
 end
 
@@ -166,6 +149,7 @@ StaticPopupDialogs["SET_KEYBIND"] = {
                 -- Save & Apply Keybinding
                 RuthesMS.keybinds[selectedType] = keyCombo
                 RuthesMS.db.saveSummonKey(keyCombo, selectedType)
+
                 loadSummoningKey()
 
                 StaticPopup_Hide("SET_KEYBIND")
@@ -267,25 +251,31 @@ local function createKeybindFrame()
         keybindLabel:SetText(value.label)
 
         -- Keybind button
-        local setKeyButton = CreateFrame("Button", nil, keybindFrame, "UIPanelButtonTemplate")
-        local keybindText = RuthesMS.keybinds[value.name]
-
-        if keybindText == "" or keybindText == nil then
-            keybindText = "Not set"
+        if value.noKey then
+            local label = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+            label:SetPoint("TOP", keybindFrame, "TOP", 0, yOffset - (index * lineHeight))
+            label:SetText("Not available")
         else
-            keybindText = RuthesMS.keybinds[value.name]
-        end
-        setKeyButton:SetSize(110, 22)
-        setKeyButton:SetPoint("TOP", keybindFrame, "TOP", -0, yOffset - (index * lineHeight))
-        setKeyButton:SetText(keybindText)
+            local setKeyButton = CreateFrame("Button", nil, keybindFrame, "UIPanelButtonTemplate")
+            local keybindText = RuthesMS.keybinds[value.name]
 
-        -- Keybinding Popup (Detects Key Press)
-        setKeyButton:SetScript("OnClick", function()
-            detectedKey = nil
-            detectedModifiers = {}
-            selectedType = value.name
-            StaticPopup_Show("SET_KEYBIND")
-        end)
+            if keybindText == "" or keybindText == nil then
+                keybindText = "Not set"
+            else
+                keybindText = RuthesMS.keybinds[value.name]
+            end
+            setKeyButton:SetSize(110, 22)
+            setKeyButton:SetPoint("TOP", keybindFrame, "TOP", -0, yOffset - (index * lineHeight))
+            setKeyButton:SetText(keybindText)
+
+            -- Keybinding Popup (Detects Key Press)
+            setKeyButton:SetScript("OnClick", function()
+                detectedKey = nil
+                detectedModifiers = {}
+                selectedType = value.name
+                StaticPopup_Show("SET_KEYBIND")
+            end)
+        end
 
         -- Action button icon
         createMacroButton(
@@ -313,23 +303,6 @@ local function createKeybindFrame()
     local characterSpecificKeybindLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     characterSpecificKeybindLabel:SetPoint("LEFT", characterSpecificKeybindsCheckbox, "RIGHT", 5, 0)
     characterSpecificKeybindLabel:SetText("Character specific keybinds")
-
-
-
-
-
-    -- Keybind button
-    local setKeyButton = CreateFrame("Button", nil, keybindFrame, "UIPanelButtonTemplate")
-    local keybindText = "o" --RuthesMS.keybinds[value.name]
-
-    setKeyButton:SetSize(110, 22)
-    setKeyButton:SetPoint("TOP", keybindFrame, "TOP", -0, yOffset - (8 * lineHeight))
-    setKeyButton:SetText(keybindText)
-
-    setKeyButton:SetScript("OnClick", function()
-        print("Detecting form...")
-        RuthesMS.utils.druid.detectForm()
-    end)
 
 
     keybindFrame:Show()

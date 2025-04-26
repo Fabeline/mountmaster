@@ -3847,7 +3847,7 @@ RuthesMS.data.pets = {
         name = "Dust Bunny",
         type = 5,
         icon = 132331,
-        race = "stag",
+        race = "rat",
         color = "gray"
     },
     {
@@ -5004,7 +5004,7 @@ RuthesMS.data.pets = {
         name = "Frenzied Cottontail",
         type = 5,
         icon = 2399278,
-        race = "stag",
+        race = "rat",
         color = "red"
     },
     {
@@ -5742,7 +5742,7 @@ RuthesMS.data.pets = {
         name = "Grasslands Cottontail",
         type = 5,
         icon = 254857,
-        race = "stag",
+        race = "rat",
         color = "white"
     },
     {
@@ -6286,7 +6286,7 @@ RuthesMS.data.pets = {
         name = "Horse Balloon",
         type = 3,
         icon = 2341435,
-        race = "Horse",
+        race = "kite",
         color = "purple"
     },
     {
@@ -8933,7 +8933,7 @@ RuthesMS.data.pets = {
         name = "Noblegarden Bunny",
         type = 5,
         icon = 254858,
-        race = "",
+        race = "rat",
         color = ""
     },
     {

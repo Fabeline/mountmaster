@@ -4,6 +4,7 @@ local function afterAddonLoaded()
     RuthesMS.frames.keybindFrame.loadSummoningKey()
     RuthesMS.frames.mountSelectorFrame.selectTab(1)
     RuthesMS.buttons.randomMountButton.create()
+    RuthesMS.utils.pet.getAvailablePets()
 end
 
 local function printHelp()
@@ -36,6 +37,8 @@ function SlashCmdList.RMS(msg, editBox)
         RuthesMS.utils.summon.summonRandomMultipleMount()
     elseif msg == "minimap" then      --/rms minimap - will toggle minimap button
         RuthesMS.buttons.minimapButton.toggleMinimap()
+    elseif msg == "travelForm" then   --/rms travelForm will use druid travel form
+        RuthesMS.utils.druid.shiftIntoTravelForm()
     elseif msg == "help" then         --/rms help - will display help message
         printHelp()
     else

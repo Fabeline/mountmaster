@@ -3,8 +3,10 @@ local function getPetRaces()
 
     local petRaces = {}
 
-    if form == 0 then     -- Normal
+    if form == 0 then -- Normal
         -- Dont use any pet
+    elseif form == nil then
+        --print("No form detected")
     elseif form == 1 then -- Cat form
         table.insert(petRaces, "Cat")
     elseif form == 2 then -- Tree of life
@@ -31,10 +33,22 @@ local function getPetRaces()
     return petRaces
 end
 
+local function shiftIntoTravelForm()
+    -- Summon pets after 1 sec
+    C_Timer.After(2, function()
+        local petRaces = getPetRaces()
+        if #petRaces > 0 then
+            RuthesMS.utils.pet.summonPetByRace(petRaces)
+        end
+    end
+    )
+end
+
 local function showForm()
     RuthesMS.utils.pet.summonPetByRace(getPetRaces())
 end
 
 RuthesMS.utils.druid = {
-    detectForm = showForm
+    detectForm = showForm,
+    shiftIntoTravelForm = shiftIntoTravelForm,
 }
