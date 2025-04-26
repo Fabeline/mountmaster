@@ -6,11 +6,18 @@ local function InitializeConfig()
             colors = RuthesMS.utils.filterDropdowns.getAllColors(),
             types = RuthesMS.utils.filterDropdowns.getAllTypes(),
             expansions = RuthesMS.utils.filterDropdowns.getAllExpansions(),
+
             -- looks = RuthesMS.utils.filterDropdowns.getAllLooks(),
             summonKey = standardKey, -- deprecated, use keybinds instead
+
             useOnlyFavourites = false,
             dontIncludeUtilityMounts = false,
             globalKeybinds = false,
+
+            noPetsInInstance = false,
+            summonPetFromMount = false,
+            useOnlyPetFavourites = false,
+
             keybinds = {
                 normal = "",
                 aquatic = "",
@@ -62,6 +69,10 @@ local function InitializeConfig()
     RuthesMS.settings.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
     RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
     RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
+
+    RuthesMS.settings.summonPetFromMount = MountSelectorCharacterConfig.summonPetFromMount or false
+    RuthesMS.settings.useOnlyPetFavourites = MountSelectorCharacterConfig.useOnlyPetFavourites or false
+    RuthesMS.settings.noPetsInInstance = MountSelectorCharacterConfig.noPetsInInstance or false
 
     if (MountSelectorCharacterConfig.globalKeybinds) then
         RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
@@ -122,6 +133,21 @@ local function saveGlobalKeybinds(shouldUse)
     RuthesMS.settings.globalKeybinds = shouldUse
 end
 
+local function saveSummonPetFromMount(shouldUse)
+    MountSelectorCharacterConfig.summonPetFromMount = shouldUse
+    RuthesMS.settings.summonPetFromMount = shouldUse
+end
+
+local function saveUseOnlyPetFavourites(shouldUse)
+    MountSelectorCharacterConfig.useOnlyPetFavourites = shouldUse
+    RuthesMS.settings.useOnlyPetFavourites = shouldUse
+end
+
+local function saveNoPetsInInstance(shouldUse)
+    MountSelectorCharacterConfig.noPetsInInstance = shouldUse
+    RuthesMS.settings.noPetsInInstance = shouldUse
+end
+
 RuthesMS.db = {
     init = InitializeConfig,
     saveSummonKey = saveSummonKey,
@@ -133,4 +159,7 @@ RuthesMS.db = {
     saveSmallMountInInstance = saveSmallMountInInstance,
     saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
     saveGlobalKeybinds = saveGlobalKeybinds,
+    saveSummonPetFromMount = saveSummonPetFromMount,
+    saveUseOnlyPetFavourites = saveUseOnlyPetFavourites,
+    saveNoPetsInInstance = saveNoPetsInInstance,
 }

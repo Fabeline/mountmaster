@@ -52,6 +52,10 @@ local function getPetInfoBySpeciesId(speciesID)
 end
 
 local function summonPetFromMount(mount)
+    if (not RuthesMS.settings.summonPetFromMount or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
+        return
+    end
+
     if not mount then
         print("No mount provided for pet summoning.")
         return
@@ -61,7 +65,7 @@ local function summonPetFromMount(mount)
     local numPets, numOwned = C_PetJournal.GetNumPets()
 
     for i = 1, numPets do
-        local petGUID, thisSpeciesID, isOwned, _, _, _, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
+        local petGUID, thisSpeciesID, isOwned, _, _, favorite, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
         local petInfo = getPetInfoBySpeciesId(thisSpeciesID)
         local petToBeInserted = {
             petGUID = petGUID,
@@ -71,8 +75,9 @@ local function summonPetFromMount(mount)
             race = petInfo.race,
             color = petInfo.color,
             druid = petInfo.druid,
+            favorite = favorite,
         }
-        if isOwned then
+        if isOwned and ((RuthesMS.settings.useOnlyPetFavourites and favorite) or not RuthesMS.settings.useOnlyPetFavourites) then
             for _, pet in ipairs(RuthesMS.data.pets) do
                 if thisSpeciesID == pet.speciesID then
                     table.insert(availablePets, petToBeInserted)
@@ -89,7 +94,7 @@ local function summonPetFromMount(mount)
         local pet = filteredPets[randomIndex]
         C_PetJournal.SummonPetByGUID(pet.petGUID)
     else
-        print("No pets available")
+        print("No pets available. Have you set any filters in the pet journal?")
     end
 end
 

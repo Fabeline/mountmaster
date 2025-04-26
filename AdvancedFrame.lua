@@ -2,6 +2,10 @@ local favoriteCheckbox
 local smallMountCheckbox
 local utilityCheckbox
 
+local summonPetCheckbox
+local useOnlyPetFavourites
+local noPetsInInstanceCheckbox
+
 local function reloadCheckboxes()
     if favoriteCheckbox then
         favoriteCheckbox:SetChecked(RuthesMS.settings.useOnlyFavourites)
@@ -14,10 +18,26 @@ local function reloadCheckboxes()
     if utilityCheckbox then
         utilityCheckbox:SetChecked(RuthesMS.settings.dontIncludeUtilityMounts)
     end
+
+    if summonPetCheckbox then
+        summonPetCheckbox:SetChecked(RuthesMS.settings.summonPetFromMount)
+    end
+
+    if useOnlyPetFavourites then
+        useOnlyPetFavourites:SetChecked(RuthesMS.settings.useOnlyPetFavourites)
+    end
+
+    if noPetsInInstanceCheckbox then
+        noPetsInInstanceCheckbox:SetChecked(RuthesMS.settings.noPetsInInstance)
+    end
 end
 
 local function createFrame()
     local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
+    local lineHeight = 25
+    local currentY = 0
+    local xMargin = 15
+    local checkboxMargin = 5
 
     local advancedFrame = CreateFrame("Frame", "MountSelectorAdvancedFrame", mountSelectorFrame, "BackdropTemplate")
     advancedFrame:SetSize(mountSelectorFrame:GetWidth(), 400)
@@ -25,47 +45,101 @@ local function createFrame()
 
     -- Heading
     local heading = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-    heading:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 20, 0)
+    heading:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin + 5, currentY)
     heading:SetText("Settings for non-utility summons")
+    currentY = currentY - lineHeight
 
     -- Only favorites
     favoriteCheckbox = CreateFrame("CheckButton", "FavoriteCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
-    favoriteCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -25)
+    favoriteCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
     favoriteCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveUseOnlyFavourites(self:GetChecked())
         RuthesMS.buttons.mountButtons.reload()
     end)
 
     local favoriteLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    favoriteLabel:SetPoint("LEFT", favoriteCheckbox, "RIGHT", 5, 0)
+    favoriteLabel:SetPoint("LEFT", favoriteCheckbox, "RIGHT", checkboxMargin, 0)
     favoriteLabel:SetText("Only use favorites")
+    currentY = currentY - lineHeight
 
     -- Small in instances
     smallMountCheckbox = CreateFrame("CheckButton", "SmallMountCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
-    smallMountCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -50)
+    smallMountCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
     smallMountCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveSmallMountInInstance(self:GetChecked())
         RuthesMS.buttons.mountButtons.reload()
     end)
 
     local smallMountLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    smallMountLabel:SetPoint("LEFT", smallMountCheckbox, "RIGHT", 5, 0)
+    smallMountLabel:SetPoint("LEFT", smallMountCheckbox, "RIGHT", checkboxMargin, 0)
     smallMountLabel:SetText("Only summon small mounts in instances")
+    currentY = currentY - lineHeight
 
     -- Don't include utility mounts
     utilityCheckbox = CreateFrame("CheckButton", "UtilityCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
-    utilityCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", 15, -75)
+    utilityCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
     utilityCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveDontIncludeUtilityMounts(self:GetChecked())
         RuthesMS.buttons.mountButtons.reload()
     end)
 
     local utilityLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    utilityLabel:SetPoint("LEFT", utilityCheckbox, "RIGHT", 5, 0)
+    utilityLabel:SetPoint("LEFT", utilityCheckbox, "RIGHT", checkboxMargin, 0)
     utilityLabel:SetText("Don't include utility mounts")
+    currentY = currentY - lineHeight * 2
+
+
+    -- Heading
+    local heading2 = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+    heading2:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin + 5, currentY)
+    heading2:SetText("Settings for pet summons")
+    currentY = currentY - lineHeight
+
+    -- Summon pet from mount
+    summonPetCheckbox = CreateFrame("CheckButton", "SummonPetCheckbox", advancedFrame,
+        "ChatConfigCheckButtonTemplate")
+    summonPetCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
+    summonPetCheckbox:SetScript("OnClick", function(self)
+        RuthesMS.db.saveSummonPetFromMount(self:GetChecked())
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+
+    local summonPetLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    summonPetLabel:SetPoint("LEFT", summonPetCheckbox, "RIGHT", checkboxMargin, 0)
+    summonPetLabel:SetText("Summon pet from mount")
+    currentY = currentY - lineHeight
+
+    -- Use only pet favorites
+    useOnlyPetFavourites = CreateFrame("CheckButton", "UseOnlyPetFavouritesCheckbox", advancedFrame,
+        "ChatConfigCheckButtonTemplate")
+    useOnlyPetFavourites:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
+    useOnlyPetFavourites:SetScript("OnClick", function(self)
+        RuthesMS.db.saveUseOnlyPetFavourites(self:GetChecked())
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+
+    local useOnlyPetFavouritesLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    useOnlyPetFavouritesLabel:SetPoint("LEFT", useOnlyPetFavourites, "RIGHT", checkboxMargin, 0)
+    useOnlyPetFavouritesLabel:SetText("Use only pet favorites")
+    currentY = currentY - lineHeight
+
+    -- No pets in instances
+    noPetsInInstanceCheckbox = CreateFrame("CheckButton", "NoPetsInInstanceCheckbox", advancedFrame,
+        "ChatConfigCheckButtonTemplate")
+    noPetsInInstanceCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
+    noPetsInInstanceCheckbox:SetScript("OnClick", function(self)
+        RuthesMS.db.saveNoPetsInInstance(self:GetChecked())
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+
+    local noPetsInInstanceLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    noPetsInInstanceLabel:SetPoint("LEFT", noPetsInInstanceCheckbox, "RIGHT", checkboxMargin, 0)
+    noPetsInInstanceLabel:SetText("No pets in instances")
+    currentY = currentY - lineHeight
+
 
     advancedFrame:Show()
     reloadCheckboxes()
