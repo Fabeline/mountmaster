@@ -28,14 +28,16 @@ local function getPetRaces()
         table.insert(petRaces, "Moonkin")
     elseif form == 36 then
         table.insert(petRaces, "Tree")
+    else
+        --print("Unknown form detected: " .. tostring(form))
     end
 
     return petRaces
 end
 
-local function shiftIntoTravelForm()
-    -- Summon pets after 1 sec
-    C_Timer.After(2, function()
+local function summonDruidPet()
+    -- Summon pets after 0.5 sec
+    C_Timer.After(1, function()
         local petRaces = getPetRaces()
         if #petRaces > 0 then
             RuthesMS.utils.pet.summonPetByRace(petRaces)
@@ -44,11 +46,6 @@ local function shiftIntoTravelForm()
     )
 end
 
-local function showForm()
-    RuthesMS.utils.pet.summonPetByRace(getPetRaces())
-end
-
 RuthesMS.utils.druid = {
-    detectForm = showForm,
-    shiftIntoTravelForm = shiftIntoTravelForm,
+    summonDruidPet = summonDruidPet,
 }

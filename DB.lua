@@ -16,6 +16,7 @@ local function InitializeConfig()
 
             noPetsInInstance = false,
             summonPetFromMount = false,
+            summonPetFromDruidForm = false,
             useOnlyPetFavourites = false,
 
             keybinds = {
@@ -26,7 +27,6 @@ local function InitializeConfig()
                 auctionHouse = "",
                 mailbox = "",
                 multiple = "",
-                druidTravelForm = "",
             },
         }
     end
@@ -41,7 +41,6 @@ local function InitializeConfig()
                 auctionHouse = "",
                 mailbox = "",
                 multiple = "",
-                druidTravelForm = "",
             }
         }
     end
@@ -60,7 +59,6 @@ local function InitializeConfig()
         mailbox = MountSelectorCharacterConfig.keybinds.mailbox or "",
         auctionHouse = MountSelectorCharacterConfig.keybinds.auctionHouse or "",
         multiple = MountSelectorCharacterConfig.keybinds.multiple or "",
-        druidTravelForm = MountSelectorCharacterConfig.keybinds.druidTravelForm or "",
     }
 
     RuthesMS.settings.selectedColors = MountSelectorCharacterConfig.colors or {}
@@ -74,6 +72,7 @@ local function InitializeConfig()
     RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
 
     RuthesMS.settings.summonPetFromMount = MountSelectorCharacterConfig.summonPetFromMount or false
+    RuthesMS.settings.summonPetFromDruidForm = MountSelectorCharacterConfig.summonPetFromDruidForm or false
     RuthesMS.settings.useOnlyPetFavourites = MountSelectorCharacterConfig.useOnlyPetFavourites or false
     RuthesMS.settings.noPetsInInstance = MountSelectorCharacterConfig.noPetsInInstance or false
 
@@ -141,6 +140,11 @@ local function saveSummonPetFromMount(shouldUse)
     RuthesMS.settings.summonPetFromMount = shouldUse
 end
 
+local function saveSummonPetFromDruidForm(shouldUse)
+    MountSelectorCharacterConfig.summonPetFromDruidForm = shouldUse
+    RuthesMS.settings.summonPetFromDruidForm = shouldUse
+end
+
 local function saveUseOnlyPetFavourites(shouldUse)
     MountSelectorCharacterConfig.useOnlyPetFavourites = shouldUse
     RuthesMS.settings.useOnlyPetFavourites = shouldUse
@@ -158,11 +162,14 @@ RuthesMS.db = {
     saveSelectedTypes = saveSelectedTypes,
     saveSelectedExpansions = saveSelectedExpansions,
     saveSelectedLooks = saveSelectedLooks,
+
     saveUseOnlyFavourites = saveUseOnlyFavourites,
     saveSmallMountInInstance = saveSmallMountInInstance,
     saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
     saveGlobalKeybinds = saveGlobalKeybinds,
+
     saveSummonPetFromMount = saveSummonPetFromMount,
+    saveSummonPetFromDruidForm = saveSummonPetFromDruidForm,
     saveUseOnlyPetFavourites = saveUseOnlyPetFavourites,
     saveNoPetsInInstance = saveNoPetsInInstance,
 }

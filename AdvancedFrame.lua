@@ -3,6 +3,7 @@ local smallMountCheckbox
 local utilityCheckbox
 
 local summonPetCheckbox
+local summonPetFromDruidForm
 local useOnlyPetFavourites
 local noPetsInInstanceCheckbox
 
@@ -21,6 +22,10 @@ local function reloadCheckboxes()
 
     if summonPetCheckbox then
         summonPetCheckbox:SetChecked(RuthesMS.settings.summonPetFromMount)
+    end
+
+    if summonPetFromDruidForm then
+        summonPetFromDruidForm:SetChecked(RuthesMS.settings.summonPetFromDruidForm)
     end
 
     if useOnlyPetFavourites then
@@ -111,6 +116,21 @@ local function createFrame()
     summonPetLabel:SetPoint("LEFT", summonPetCheckbox, "RIGHT", checkboxMargin, 0)
     summonPetLabel:SetText("Summon pet from mount")
     currentY = currentY - lineHeight
+
+    -- Summon pet from druid form
+    summonPetFromDruidForm = CreateFrame("CheckButton", "SummonPetFromDruidFormCheckbox", advancedFrame,
+        "ChatConfigCheckButtonTemplate")
+    summonPetFromDruidForm:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
+    summonPetFromDruidForm:SetScript("OnClick", function(self)
+        RuthesMS.db.saveSummonPetFromDruidForm(self:GetChecked())
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+
+    local summonPetFromDruidFormLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    summonPetFromDruidFormLabel:SetPoint("LEFT", summonPetFromDruidForm, "RIGHT", checkboxMargin, 0)
+    summonPetFromDruidFormLabel:SetText("Summon pet from druid form")
+    currentY = currentY - lineHeight
+
 
     -- Use only pet favorites
     useOnlyPetFavourites = CreateFrame("CheckButton", "UseOnlyPetFavouritesCheckbox", advancedFrame,

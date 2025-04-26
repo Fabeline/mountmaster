@@ -46,7 +46,6 @@ local function getAvailablePets()
         end
     end
 
-
     RuthesMS.state.availablePets = availablePets
 end
 
@@ -70,7 +69,7 @@ local function getPetsByRace(raceList)
 end
 
 local function summonPetByRace(raceList)
-    if (not RuthesMS.settings.summonPetFromMount or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
+    if (not RuthesMS.settings.summonPetFromDruidForm or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
         return
     end
     resetPetFilters()

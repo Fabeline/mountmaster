@@ -5,6 +5,21 @@ local function afterAddonLoaded()
     RuthesMS.frames.mountSelectorFrame.selectTab(1)
     RuthesMS.buttons.randomMountButton.create()
     RuthesMS.utils.pet.getAvailablePets()
+
+
+    local f = CreateFrame("Frame")
+
+    f:RegisterEvent("UPDATE_SHAPESHIFT_FORM")
+    f:SetScript("OnEvent", function(self, event)
+        -- Check what form you're in (optional)
+        local form = GetShapeshiftFormID()
+        if form then
+            -- Summon the pet after shifting
+            C_Timer.After(0.5, function()
+                RuthesMS.utils.druid.summonDruidPet()
+            end)
+        end
+    end)
 end
 
 local function printHelp()
@@ -37,9 +52,9 @@ function SlashCmdList.RMS(msg, editBox)
         RuthesMS.utils.summon.summonRandomMultipleMount()
     elseif msg == "minimap" then      --/rms minimap - will toggle minimap button
         RuthesMS.buttons.minimapButton.toggleMinimap()
-    elseif msg == "travelForm" then   --/rms travelForm will use druid travel form
-        RuthesMS.utils.druid.shiftIntoTravelForm()
-    elseif msg == "help" then         --/rms help - will display help message
+        --elseif msg == "druidPet" then     --/rms druidPet will summon a random pet based on your current form
+        --RuthesMS.utils.druid.summonDruidPet()
+    elseif msg == "help" then --/rms help - will display help message
         printHelp()
     else
         if not RuthesMS.frames.mountSelectorFrame.frame:IsShown() then -- /rms - will toggle the mount selector window

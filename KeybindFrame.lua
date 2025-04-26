@@ -59,23 +59,10 @@ local keybindTable = {
         icon = "ability_mount_camel_brown",
         macro = "/rms multiple",
         macroName = "RMS multiple"
-    },
-    {
-
-        label = "Travel/Flight form",
-        name = "druidTravelForm",
-        iconPath = "Interface\\Icons\\Ability_Druid_TravelForm",
-        icon = "Ability_Druid_TravelForm",
-        macro = [[
-/cast Travel Form
-/rms travelForm
-]],
-        macroName = "RMS travelForm",
-        noKey = true
     }
 }
 
-local function applySummonKeyBinding(type)
+local function applySummonKeyBinding()
     ClearOverrideBindings(RuthesMS.frames.mountSelectorFrame.frame)
 
     local function bindKey(keyName, buttonName)
@@ -227,7 +214,7 @@ local function createKeybindFrame()
     keybindFrame:SetPoint("TOPLEFT", mountSelectorFrame, "TOPLEFT", 20, -65)
 
     local yOffset = 0
-    local lineHeight = 35
+    local lineHeight = 30
 
     -- Mount type
     local mountTypeLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
