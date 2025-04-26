@@ -36,7 +36,9 @@
         "PanelTemplates_SetNumTabs",
         "CharacterFrame",
         "CHARACTERFRAME_SUBFRAMES",
-        "ToggleCharacter"
+        "ToggleCharacter",
+        "LE_PET_JOURNAL_FILTER_COLLECTED",
+        "LE_PET_JOURNAL_FILTER_NOT_COLLECTED"
     ],
     "Lua.diagnostics.disable": [
         "assign-type-mismatch"

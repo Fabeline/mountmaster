@@ -1,92 +1,79 @@
-local mountToPets = {
-    ["horse"] = "horse",
-    ["wolf"] = "wolf",
-    ["dog"] = "wolf",
-    ["stag"] = "stag",
-    ["cat"] = "cat",
-    ["dinosaur"] = "dinosaur",
-    ["bear"] = "bear",
-    ["dragon"] = "dragon",
-    ["mechanical"] = "mechanical",
-    ["kodo"] = "kodo",
-    ["insect"] = "insect",
-    ["crocodile"] = "crocodile",
-    ["gryphon"] = "gryphon",
-    ["emu"] = "emu",
-    ["mammoth"] = "mammoth",
-    ["fish"] = "fish",
-    ["bird"] = "bird",
-    ["kite"] = "kite",
-    ["serpent"] = "serpent",
-    ["rat"] = "rat",
-    ["bat"] = "bat",
-    ["gargoyle"] = "gargoyle",
-    ["elemental"] = "elemental",
-    ["spider"] = "spider",
-    ["snail"] = "snail"
-}
-
-function FilterPets(lookForRace, lookForColor, petList, mount)
+local function filterPets(mountRace, mountColor, petList)
     local filteredPets = {}
-    local skeletonType = mount.skeleton_type:lower()
-    local lookingForPetRace = mountToPets[skeletonType]
 
-    for i = 1, #RuthesMS.data.pets do
-        local pet = RuthesMS.data.pets[i]
-
-        if pet and pet.race then
-            local petRace = pet.race:lower()
-
-            for _, race in ipairs(lookingForPetRace) do
-                if petRace == race then
-                    table.insert(filteredPets, pet)
-                    break
-                end
+    for i = 1, #petList do
+        local pet = petList[i]
+        if pet.race and pet.color then
+            if pet.race:lower() == mountRace:lower() and
+                pet.color:lower() == mountColor:lower() then
+                table.insert(filteredPets, pet)
             end
         end
+    end
+
+    if #filteredPets == 0 then
+        -- If no matching both color and race, only match race
+        for i = 1, #petList do
+            local pet = petList[i]
+            if pet.race and pet.race:lower() == mountRace:lower() then
+                table.insert(filteredPets, pet)
+            end
+        end
+    end
+
+    if #filteredPets == 0 then
+        -- If no matching race, try to match color
+        for i = 1, #petList do
+            local pet = petList[i]
+            if pet.color and pet.color:lower() == mountColor:lower() then
+                table.insert(filteredPets, pet)
+            end
+        end
+    end
+
+    if #filteredPets == 0 then
+        -- If stil no matching, return every pet
+        filteredPets = petList
     end
 
     return filteredPets
 end
 
-local function summonPetFromLastMount()
-    local mount = RuthesMS.utils.mount.findMountByID(RuthesMS.state.lastSummonedMount)
+local function getPetInfoBySpeciesId(speciesID)
+    local allPets = RuthesMS.data.pets
+    local petInfo = {}
 
-    if not mount then
-        return
-    end
-
-    local filteredPets = {}
-    local skeletonType = mount.skeleton_type:lower()
-    local lookingForPetRace = mountToPets[skeletonType]
-
-    for i = 1, #RuthesMS.data.pets do
-        local pet = RuthesMS.data.pets[i]
-
-        if pet and pet.race then
-            local petRace = pet.race:lower()
-
-            for _, race in ipairs(lookingForPetRace) do
-                if petRace == race then
-                    table.insert(filteredPets, pet)
-                    break
-                end
-            end
+    for i = 1, #allPets do
+        if allPets[i].speciesID == speciesID then
+            return allPets[i]
         end
+    end
+    print("No pet found with species ID: " .. speciesID)
+end
+
+local function summonPetFromMount(mount)
+    if not mount then
+        print("No mount provided for pet summoning.")
+        return
     end
 
     local availablePets = {}
     local numPets, numOwned = C_PetJournal.GetNumPets()
 
     for i = 1, numPets do
-        local petGUID, thisSpeciesID, isOwned = C_PetJournal.GetPetInfoByIndex(i)
+        local petGUID, thisSpeciesID, isOwned, _, _, _, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
+        local petInfo = getPetInfoBySpeciesId(thisSpeciesID)
         local petToBeInserted = {
             petGUID = petGUID,
             speciesID = thisSpeciesID,
-            isOwned = isOwned
+            isOwned = isOwned,
+            speciesName = speciesName,
+            race = petInfo.race,
+            color = petInfo.color,
+            druid = petInfo.druid,
         }
         if isOwned then
-            for _, pet in ipairs(filteredPets) do
+            for _, pet in ipairs(RuthesMS.data.pets) do
                 if thisSpeciesID == pet.speciesID then
                     table.insert(availablePets, petToBeInserted)
                     break
@@ -95,13 +82,14 @@ local function summonPetFromLastMount()
         end
     end
 
+    local filteredPets = filterPets(mount.skeleton_type, mount.color, availablePets)
 
-    if #availablePets > 0 then
-        local randomIndex = math.random(1, #availablePets)
-        local pet = availablePets[randomIndex]
+    if #filteredPets > 0 then
+        local randomIndex = math.random(1, #filteredPets)
+        local pet = filteredPets[randomIndex]
         C_PetJournal.SummonPetByGUID(pet.petGUID)
     else
-        print("No matching pets found for the last summoned mount.")
+        print("No pets available")
     end
 end
 
@@ -132,5 +120,5 @@ end
 
 
 RuthesMS.utils.pet = {
-    summonRandomPet = summonPetFromLastMount,
+    summonRandomPet = summonPetFromMount,
 }

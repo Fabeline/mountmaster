@@ -13,8 +13,7 @@ RuthesMS = {
     },
     state = {
         currentMounts = {},
-        availableMounts = {},
-        lastSummonedMount = nil,
+        availableMounts = {}
     },
     frames = {
         contentFrame = {},
