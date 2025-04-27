@@ -6,20 +6,7 @@ local function afterAddonLoaded()
     RuthesMS.buttons.randomMountButton.create()
     RuthesMS.utils.pet.getAvailablePets()
 
-
-    local f = CreateFrame("Frame")
-
-    f:RegisterEvent("UPDATE_SHAPESHIFT_FORM")
-    f:SetScript("OnEvent", function(self, event)
-        -- Check what form you're in (optional)
-        local form = GetShapeshiftFormID()
-        if form then
-            -- Summon the pet after shifting
-            C_Timer.After(0.5, function()
-                RuthesMS.utils.druid.summonDruidPet()
-            end)
-        end
-    end)
+    RuthesMS.utils.druid.detectShapseshift()
 end
 
 local function printHelp()

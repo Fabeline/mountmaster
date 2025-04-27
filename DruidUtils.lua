@@ -1,3 +1,8 @@
+local function isInProwl()
+    return C_UnitAuras.GetPlayerAuraBySpellID(5215) ~= nil
+end
+
+
 local function getPetRaces()
     local form = GetShapeshiftFormID()
 
@@ -7,8 +12,10 @@ local function getPetRaces()
         -- Dont use any pet
     elseif form == nil then
         --print("No form detected")
-    elseif form == 1 then -- Cat form
-        table.insert(petRaces, "Cat")
+    elseif form == 1 then       -- Cat form
+        if not isInProwl() then -- Don't break stelath
+            table.insert(petRaces, "Cat")
+        end
     elseif form == 2 then -- Tree of life
         table.insert(petRaces, "Tree")
     elseif form == 3 then -- Travel form
@@ -46,6 +53,40 @@ local function summonDruidPet()
     )
 end
 
+local function debounce(func, delay, getTime)
+    local lastCall = 0
+
+    return function(...)
+        local now = getTime()
+        if now - lastCall >= delay then
+            lastCall = now
+            return func(...)
+        end
+    end
+end
+
+local function shapeshiftDetection()
+    C_Timer.After(0.5, function()
+        if RuthesMS.settings.summonPetFromDruidForm then
+            RuthesMS.utils.druid.summonDruidPet()
+        end
+    end)
+end
+
+local function detectShapseshift()
+    local debouncedShapeshiftDetection = debounce(shapeshiftDetection, 0.5, GetTime)
+    -- Listen for shapeshift
+    local _, class = UnitClass("player")
+    if class == "DRUID" then
+        local f = CreateFrame("Frame")
+        f:RegisterEvent("UPDATE_SHAPESHIFT_FORM")
+        f:SetScript("OnEvent", debouncedShapeshiftDetection)
+    end
+end
+
+
+
 RuthesMS.utils.druid = {
     summonDruidPet = summonDruidPet,
+    detectShapseshift = detectShapseshift
 }
