@@ -89,7 +89,27 @@ local function checkFavorites(pet)
     return (RuthesMS.settings.useOnlyPetFavourites and pet.favorite) or not RuthesMS.settings.useOnlyPetFavourites
 end
 
-local function checkStag()
+local function checkRace(pet, mountRace)
+    if not pet.race then
+        return false
+    end
+
+    -- Too few pets are horses, add stags to the list
+    if mountRace:lower() == "horse" then
+        return pet.race:lower() == "stag"
+    end
+
+    -- Too few gryphon pets, add birds to the list
+    if mountRace:lower() == "gryphon" then
+        return pet.race:lower() == "bird"
+    end
+
+    -- Too few mammoth pets, add kodo to the list
+    if mountRace:lower() == "mammoth" then
+        return pet.race:lower() == "kodo"
+    end
+
+    return pet.race:lower() == mountRace:lower()
 end
 
 local function filterPets(mountRace, mountColor, petList)
@@ -99,7 +119,7 @@ local function filterPets(mountRace, mountColor, petList)
         local pet = petList[i]
         if pet.race and pet.color then
             if checkFavorites(pet) and
-                pet.race:lower() == mountRace:lower() and
+                checkRace(pet, mountRace) and
                 pet.color:lower() == mountColor:lower() then
                 table.insert(filteredPets, pet)
             end
@@ -111,7 +131,7 @@ local function filterPets(mountRace, mountColor, petList)
         for i = 1, #petList do
             local pet = petList[i]
             if checkFavorites(pet) and
-                pet.race and pet.race:lower() == mountRace:lower() then
+                checkRace(pet, mountRace) then
                 table.insert(filteredPets, pet)
             end
         end

@@ -7361,8 +7361,8 @@ RuthesMS.data.pets = {
         name = "Lil' Bling",
         type = 10,
         icon = 773178,
-        race = "Bird",
-        color = "brown"
+        race = "mechanical",
+        color = "yellow"
     },
     {
         speciesID = 4500,
