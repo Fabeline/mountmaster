@@ -89,6 +89,9 @@ local function checkFavorites(pet)
     return (RuthesMS.settings.useOnlyPetFavourites and pet.favorite) or not RuthesMS.settings.useOnlyPetFavourites
 end
 
+local function checkStag()
+end
+
 local function filterPets(mountRace, mountColor, petList)
     local filteredPets = {}
 
@@ -151,7 +154,12 @@ local function summonPetFromMount(mount)
     if #filteredPets > 0 then
         local randomIndex = math.random(1, #filteredPets)
         local pet = filteredPets[randomIndex]
-        C_PetJournal.SummonPetByGUID(pet.petGUID)
+
+        -- Don't summon if the pet is already summoned
+        local oldPetGUID = UnitGUID("pet")
+        if oldPetGUID ~= pet.petGUID then
+            C_PetJournal.SummonPetByGUID(pet.petGUID)
+        end
     else
         print("No pets available for summon.")
     end

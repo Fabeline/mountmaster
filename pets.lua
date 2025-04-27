@@ -632,7 +632,7 @@ RuthesMS.data.pets = {
         name = "Archetype of Serenity",
         type = 9,
         icon = 3778580,
-        race = "frog",
+        race = "smaoø",
         color = "gray"
     },
     {
@@ -697,7 +697,7 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 236689,
         race = "horse",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 1603,
@@ -713,7 +713,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 464159,
         race = "bear",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 2766,
@@ -744,8 +744,8 @@ RuthesMS.data.pets = {
         name = "Ash Viper",
         type = 8,
         icon = 132211,
-        race = "black",
-        color = "snake"
+        race = "snail",
+        color = "black"
     },
     {
         speciesID = 1927,
@@ -829,7 +829,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 646059,
         race = "rat",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 3217,
@@ -963,7 +963,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 1387706,
         race = "stag",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 2551,
@@ -1011,7 +1011,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 1033494,
         race = "wolf",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 2047,
@@ -1631,7 +1631,7 @@ RuthesMS.data.pets = {
         name = "Boghopper",
         type = 9,
         icon = 804966,
-        race = "crocodile",
+        race = "snail",
         color = "orange"
     },
     {
@@ -1944,7 +1944,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 4227791,
         race = "fish",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 380,
@@ -2041,7 +2041,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 656576,
         race = "Cat",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 2185,
@@ -2282,7 +2282,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 5688871,
         race = "spider",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 2658,
@@ -2314,7 +2314,7 @@ RuthesMS.data.pets = {
         type = 9,
         icon = 1508490,
         race = "Fox",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 3127,
@@ -2405,7 +2405,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 298596,
         race = "cat",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 3115,
@@ -2413,7 +2413,7 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386323,
         race = "Mechanical",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 1142,
@@ -2584,7 +2584,7 @@ RuthesMS.data.pets = {
         type = 10,
         icon = 2399251,
         race = "mechanical",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 3103,
@@ -2609,7 +2609,7 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 134168,
         race = "gargoyle",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 562,
@@ -2642,7 +2642,7 @@ RuthesMS.data.pets = {
         type = 9,
         icon = 132186,
         race = "snail",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 244,
@@ -2674,7 +2674,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 1339013,
         race = "wolf",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 2405,
@@ -2802,7 +2802,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 877477,
         race = "stag",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 3083,
@@ -2842,7 +2842,7 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 132762,
         race = "mechanical",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 468,
@@ -3091,7 +3091,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 4532349,
         race = "Bear",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 225,
@@ -3115,7 +3115,7 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 236698,
         race = "gargoyle",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 1521,
@@ -3627,8 +3627,8 @@ RuthesMS.data.pets = {
         name = "Doom Bloom",
         type = 7,
         icon = 134205,
-        race = "Flower",
-        color = ""
+        race = "insect",
+        color = "brown"
     },
     {
         speciesID = 4259,
@@ -4807,7 +4807,7 @@ RuthesMS.data.pets = {
         name = "Fleeting Frog",
         type = 9,
         icon = 2399262,
-        race = "crocodile",
+        race = "snail",
         color = "blue"
     },
     {
@@ -5001,8 +5001,9 @@ RuthesMS.data.pets = {
         name = "Francois",
         type = 3,
         icon = 651737,
-        race = "",
-        color = ""
+        race = "emu",
+        color = "white",
+        druid = "moonkin"
     },
     {
         speciesID = 4484,
@@ -5065,7 +5066,7 @@ RuthesMS.data.pets = {
         name = "Frog",
         type = 9,
         icon = 237579,
-        race = "crocodile",
+        race = "snail",
         color = "green"
     },
     {
@@ -5073,7 +5074,7 @@ RuthesMS.data.pets = {
         name = "Froglet",
         type = 9,
         icon = 2399261,
-        race = "crocodile",
+        race = "snail",
         color = "green"
     },
     {
@@ -5227,7 +5228,7 @@ RuthesMS.data.pets = {
         name = "Garden Frog",
         type = 9,
         icon = 237579,
-        race = "crocodile",
+        race = "snail",
         color = "gray"
     },
     {
@@ -5997,7 +5998,7 @@ RuthesMS.data.pets = {
         name = "Gulp Froglet",
         type = 9,
         icon = 804966,
-        race = "crocodile",
+        race = "snail",
         color = "gray"
     },
     {
@@ -7248,7 +7249,7 @@ RuthesMS.data.pets = {
         name = "Leopard Tree Frog",
         type = 9,
         icon = 237579,
-        race = "crocodile",
+        race = "snail",
         color = "blue"
     },
     {
@@ -7361,7 +7362,7 @@ RuthesMS.data.pets = {
         type = 10,
         icon = 773178,
         race = "Bird",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 4500,
@@ -7401,7 +7402,7 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 134062,
         race = "Elemental",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 4527,
@@ -7811,7 +7812,7 @@ RuthesMS.data.pets = {
         name = "Mac Frog",
         type = 9,
         icon = 237579,
-        race = "crocodile",
+        race = "snail",
         color = "green"
     },
     {
@@ -7924,7 +7925,7 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136006,
         race = "Elemental",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 4708,
@@ -9775,7 +9776,7 @@ RuthesMS.data.pets = {
         name = "Puddlehopper",
         type = 9,
         icon = 4879733,
-        race = "crocodile",
+        race = "snail",
         color = "gray"
     },
     {
@@ -10306,7 +10307,7 @@ RuthesMS.data.pets = {
         name = "River Frog",
         type = 9,
         icon = 804969,
-        race = "crocodile",
+        race = "snail",
         color = "green"
     },
     {
@@ -10788,8 +10789,8 @@ RuthesMS.data.pets = {
         name = "Scarab Hatchling",
         type = 5,
         icon = 133570,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "red"
     },
     {
         speciesID = 3487,
@@ -13212,16 +13213,17 @@ RuthesMS.data.pets = {
         name = "Tiny Bog Beast",
         type = 7,
         icon = 135049,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "green",
+        druid = "tree"
     },
     {
         speciesID = 2412,
         name = "Tiny Direhorn",
         type = 8,
         icon = 1958452,
-        race = "",
-        color = ""
+        race = "dinosaur",
+        color = "orange"
     },
     {
         speciesID = 287,
@@ -13229,7 +13231,7 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 237146,
         race = "Insect",
-        color = ""
+        color = "purple"
     },
     {
         speciesID = 652,
@@ -13237,14 +13239,14 @@ RuthesMS.data.pets = {
         type = 9,
         icon = 133922,
         race = "Fish",
-        color = "Gold"
+        color = "yellow"
     },
     {
         speciesID = 1208,
         name = "Tiny Green Carp",
         type = 9,
         icon = 850138,
-        race = "",
+        race = "fish",
         color = "Green"
     },
     {
@@ -13252,15 +13254,15 @@ RuthesMS.data.pets = {
         name = "Tiny Harvester",
         type = 10,
         icon = 134065,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "black"
     },
     {
         speciesID = 1206,
         name = "Tiny Red Carp",
         type = 9,
         icon = 850139,
-        race = "",
+        race = "fish",
         color = "Red"
     },
     {
@@ -13269,54 +13271,54 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 134397,
         race = "Spider",
-        color = ""
+        color = "green"
     },
     {
         speciesID = 117,
         name = "Tiny Snowman",
         type = 7,
         icon = 655957,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "white"
     },
     {
         speciesID = 167,
         name = "Tiny Sporebat",
         type = 3,
         icon = 132197,
-        race = "Bat",
-        color = ""
+        race = "fish",
+        color = "green"
     },
     {
         speciesID = 3328,
         name = "Tiny Timbertooth",
         type = 8,
         icon = 4227789,
-        race = "",
-        color = ""
+        race = "fish",
+        color = "blue"
     },
     {
         speciesID = 4643,
         name = "Tiny Torq",
         type = 10,
         icon = 5904913,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "red"
     },
     {
         speciesID = 445,
         name = "Tiny Twister",
         type = 7,
         icon = 236154,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "gray"
     },
     {
         speciesID = 1209,
         name = "Tiny White Carp",
         type = 9,
         icon = 850140,
-        race = "",
+        race = "fish",
         color = "White"
     },
     {
@@ -13324,16 +13326,16 @@ RuthesMS.data.pets = {
         name = "Tinyclaw",
         type = 10,
         icon = 773096,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "brown"
     },
     {
         speciesID = 2078,
         name = "Tinytron",
         type = 10,
         icon = 415046,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "gray"
     },
     {
         speciesID = 206,
@@ -13341,111 +13343,111 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 132182,
         race = "Bat",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 1236,
         name = "Tito",
         type = 8,
         icon = 133695,
-        race = "",
-        color = ""
+        race = "wolf",
+        color = "brown"
     },
     {
         speciesID = 420,
         name = "Toad",
         type = 9,
         icon = 237579,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "gray"
     },
     {
         speciesID = 4263,
         name = "Tobias",
         type = 8,
         icon = 5279605,
-        race = "",
-        color = ""
+        race = "wolf",
+        color = "white"
     },
     {
         speciesID = 2962,
         name = "Toenail",
         type = 4,
         icon = 3622122,
-        race = "Mechanical",
-        color = ""
+        race = "gargoyle",
+        color = "brown"
     },
     {
         speciesID = 546,
         name = "Tol'vir Scarab",
         type = 5,
         icon = 134936,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "turquoise"
     },
     {
         speciesID = 729,
         name = "Tolai Hare",
         type = 5,
         icon = 254857,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "brown"
     },
     {
         speciesID = 730,
         name = "Tolai Hare Pup",
         type = 5,
         icon = 254857,
-        race = "Wolf",
-        color = ""
+        race = "rat",
+        color = "brown"
     },
     {
         speciesID = 2559,
         name = "Tonguelasher",
         type = 9,
         icon = 2399293,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "green"
     },
     {
         speciesID = 163,
         name = "Toothy",
         type = 9,
         icon = 656555,
-        race = "",
-        color = ""
+        race = "kodo",
+        color = "yellow"
     },
     {
         speciesID = 3106,
         name = "Topaz Baubleworm",
         type = 8,
         icon = 3856129,
-        race = "",
-        color = ""
+        race = "serpent",
+        color = "purple"
     },
     {
         speciesID = 480,
         name = "Topaz Shale Hatchling",
         type = 7,
         icon = 134395,
-        race = "",
-        color = ""
+        race = "spider",
+        color = "orange"
     },
     {
         speciesID = 3034,
         name = "Torghast Lurker",
         type = 4,
         icon = 237569,
-        race = "Mechanical",
-        color = ""
+        race = "elemental",
+        color = "black"
     },
     {
         speciesID = 2143,
         name = "Tottle",
         type = 9,
         icon = 1719412,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "green"
     },
     {
         speciesID = 3026,
@@ -13453,7 +13455,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 3579945,
         race = "Insect",
-        color = ""
+        color = "blue"
     },
     {
         speciesID = 251,
@@ -13461,31 +13463,31 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 134437,
         race = "Elemental",
-        color = ""
+        color = "green"
     },
     {
         speciesID = 2415,
         name = "Tragg the Curious",
         type = 9,
         icon = 1802889,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "gray"
     },
     {
         speciesID = 116,
         name = "Tranquil Mechanical Yeti",
         type = 10,
         icon = 132189,
-        race = "Mechanical",
-        color = ""
+        race = "gargoyle",
+        color = "white"
     },
     {
         speciesID = 2924,
         name = "Tranquil Wader",
         type = 3,
         icon = 605484,
-        race = "",
-        color = ""
+        race = "emu",
+        color = "purple"
     },
     {
         speciesID = 1920,
@@ -13493,151 +13495,151 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 463532,
         race = "Elemental",
-        color = ""
+        color = "black"
     },
     {
         speciesID = 2901,
         name = "Trapped Stonefiend",
         type = 1,
         icon = 132766,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "white"
     },
     {
         speciesID = 2004,
         name = "Trashy",
         type = 5,
         icon = 646059,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "gray"
     },
     {
         speciesID = 1365,
         name = "Treasure Goblin",
         type = 1,
         icon = 370211,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "gray"
     },
     {
         speciesID = 2539,
         name = "Trecker",
         type = 8,
         icon = 2459293,
-        race = "",
-        color = ""
+        race = "dinosaur",
+        color = "green"
     },
     {
         speciesID = 65,
         name = "Tree Frog",
         type = 9,
         icon = 237579,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "green"
     },
     {
         speciesID = 405,
         name = "Tree Python",
         type = 8,
         icon = 132211,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "green"
     },
     {
         speciesID = 3276,
         name = "Treeflitter",
         type = 5,
         icon = 4528723,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "brown"
     },
     {
         speciesID = 3447,
         name = "Tremblor",
         type = 7,
         icon = 237008,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "orange"
     },
     {
         speciesID = 2659,
         name = "Trench Slug",
         type = 5,
         icon = 2763646,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "purple"
     },
     {
         speciesID = 3538,
         name = "Tricky",
         type = 5,
         icon = 5003564,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "orange"
     },
     {
         speciesID = 2057,
         name = "Tricorne",
         type = 5,
         icon = 515993,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "black"
     },
     {
         speciesID = 1886,
         name = "Trigger",
         type = 10,
         icon = 1336885,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "red"
     },
     {
         speciesID = 4565,
         name = "Trishi",
         type = 1,
         icon = 5788267,
-        race = "",
-        color = ""
+        race = "serpent",
+        color = "blue"
     },
     {
         speciesID = 4522,
         name = "Troglofrog",
         type = 9,
         icon = 2399263,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "white"
     },
     {
         speciesID = 4666,
         name = "Tropical Frog",
         type = 9,
         icon = 2399242,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "black"
     },
     {
         speciesID = 3416,
         name = "Troubled Tome",
         type = 6,
         icon = 4549126,
-        race = "Elemental",
-        color = ""
+        race = "kite",
+        color = "purple"
     },
     {
         speciesID = 3288,
         name = "Trunkalumpf",
         type = 8,
         icon = 3946882,
-        race = "",
-        color = ""
+        race = "mammoth",
+        color = "gray"
     },
     {
         speciesID = 1605,
         name = "Trunks",
         type = 6,
         icon = 656597,
-        race = "Elemental",
-        color = ""
+        race = "mammoth",
+        color = "blue"
     },
     {
         speciesID = 536,
@@ -13653,32 +13655,33 @@ RuthesMS.data.pets = {
         name = "Tunneling Vombata",
         type = 8,
         icon = 3747899,
-        race = "Bat",
-        color = ""
+        race = "bear",
+        color = "gray"
     },
     {
         speciesID = 525,
         name = "Turkey",
         type = 3,
         icon = 250626,
-        race = "",
-        color = ""
+        race = "emu",
+        color = "black",
+        druid = "moonkin"
     },
     {
         speciesID = 3105,
         name = "Turquoise Baubleworm",
         type = 8,
         icon = 3856130,
-        race = "",
-        color = ""
+        race = "serpent",
+        color = "turquoise"
     },
     {
         speciesID = 473,
         name = "Turquoise Turtle",
         type = 9,
         icon = 1738680,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "gray"
     },
     {
         speciesID = 241,
@@ -13686,15 +13689,15 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 318523,
         race = "Kite",
-        color = ""
+        color = "green"
     },
     {
         speciesID = 2051,
         name = "Twilight",
         type = 8,
         icon = 1616893,
-        race = "",
-        color = ""
+        race = "cat",
+        color = "blue"
     },
     {
         speciesID = 469,
@@ -13702,7 +13705,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 133570,
         race = "Insect",
-        color = ""
+        color = "pink"
     },
     {
         speciesID = 2081,
@@ -13710,7 +13713,7 @@ RuthesMS.data.pets = {
         type = 2,
         icon = 429378,
         race = "Dragon",
-        color = ""
+        color = "purple"
     },
     {
         speciesID = 552,
@@ -13718,15 +13721,15 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136199,
         race = "Elemental",
-        color = ""
+        color = "pink"
     },
     {
         speciesID = 505,
         name = "Twilight Iguana",
         type = 8,
         icon = 463491,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "blue"
     },
     {
         speciesID = 470,
@@ -13734,15 +13737,15 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 132196,
         race = "Spider",
-        color = ""
+        color = "purple"
     },
     {
         speciesID = 1464,
         name = "Twilight Wasp",
         type = 3,
         icon = 1044485,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "blue"
     },
     {
         speciesID = 2677,
@@ -13750,31 +13753,31 @@ RuthesMS.data.pets = {
         type = 2,
         icon = 134154,
         race = "Dragon",
-        color = ""
+        color = "pink"
     },
     {
         speciesID = 2022,
         name = "Tylarr Gronnden",
         type = 1,
         icon = 1019377,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "red"
     },
     {
         speciesID = 4668,
         name = "Ultrahopper EX",
         type = 10,
         icon = 2399248,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "orange"
     },
     {
         speciesID = 1538,
         name = "Umbrafen Spore",
         type = 3,
         icon = 463280,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "blue"
     },
     {
         speciesID = 4544,
@@ -13782,15 +13785,15 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136221,
         race = "Elemental",
-        color = ""
+        color = "black"
     },
     {
         speciesID = 1238,
         name = "Unborn Val'kyr",
         type = 4,
         icon = 851119,
-        race = "Mechanical",
-        color = ""
+        race = "elemental",
+        color = "white"
     },
     {
         speciesID = 55,
@@ -13798,7 +13801,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 294474,
         race = "Insect",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 454,
@@ -13806,7 +13809,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 134324,
         race = "Rat",
-        color = ""
+        color = "black"
     },
     {
         speciesID = 3550,
@@ -13814,7 +13817,7 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 5015303,
         race = "Insect",
-        color = ""
+        color = "red"
     },
     {
         speciesID = 4654,
@@ -13822,7 +13825,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 5847066,
         race = "Insect",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 3038,
@@ -13830,15 +13833,15 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 3579949,
         race = "Insect",
-        color = ""
+        color = "purple"
     },
     {
         speciesID = 2092,
         name = "Unstable Tendril",
         type = 7,
         icon = 538042,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "fire"
     },
     {
         speciesID = 1151,
@@ -13846,15 +13849,15 @@ RuthesMS.data.pets = {
         type = 2,
         icon = 236469,
         race = "Dragon",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 1921,
         name = "Untethered Wyrmling",
         type = 6,
         icon = 132841,
-        race = "Elemental",
-        color = "Red"
+        race = "serpent",
+        color = "white"
     },
     {
         speciesID = 2716,
@@ -13862,39 +13865,39 @@ RuthesMS.data.pets = {
         type = 10,
         icon = 1521022,
         race = "Mechanical",
-        color = ""
+        color = "orange"
     },
     {
         speciesID = 2136,
         name = "Uuna",
         type = 1,
         icon = 134506,
-        race = "",
-        color = ""
+        race = "stag",
+        color = "blue"
     },
     {
         speciesID = 1737,
         name = "Vale Flitter",
         type = 3,
         icon = 236193,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "white"
     },
     {
         speciesID = 2375,
         name = "Vale Marmot",
         type = 8,
         icon = 2126349,
-        race = "",
-        color = ""
+        race = "bear",
+        color = "brown"
     },
     {
         speciesID = 2376,
         name = "Valley Chicken",
         type = 3,
         icon = 2027863,
-        race = "",
-        color = "",
+        race = "emu",
+        color = "gray",
         druid = "moonkin"
     },
     {
@@ -13902,96 +13905,97 @@ RuthesMS.data.pets = {
         name = "Vanilla",
         type = 8,
         icon = 5648287,
-        race = "",
-        color = ""
+        race = "cat",
+        color = "gray"
     },
     {
         speciesID = 4662,
         name = "Varmint MK II",
         type = 10,
         icon = 2126361,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "black"
     },
     {
         speciesID = 1596,
         name = "Veilwatcher Hatchling",
         type = 3,
         icon = 132914,
-        race = "",
-        color = ""
+        race = "bird",
+        color = "red"
     },
     {
         speciesID = 2192,
         name = "Vengeful Chicken",
         type = 10,
         icon = 656513,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "red"
     },
     {
         speciesID = 1344,
         name = "Vengeful Porcupette",
         type = 8,
         icon = 838551,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "red"
     },
     {
         speciesID = 3180,
         name = "Venomous Bufonid",
         type = 9,
         icon = 3778583,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "brown"
     },
     {
         speciesID = 506,
         name = "Venomspitter Hatchling",
         type = 8,
         icon = 132196,
-        race = "",
-        color = ""
+        race = "spider",
+        color = "green"
     },
     {
         speciesID = 4511,
         name = "Venomwing",
         type = 3,
         icon = 5162542,
-        race = "",
-        color = ""
+        race = "spider",
+        color = "turquoise"
     },
     {
         speciesID = 4657,
         name = "Venture Bombshell",
         type = 9,
         icon = 5874201,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "yellow"
     },
     {
         speciesID = 4650,
         name = "Venture Companyman",
         type = 10,
         icon = 6383543,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "yellow",
     },
     {
         speciesID = 855,
         name = "Venus",
         type = 7,
         icon = 463540,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "turquoise",
+        druid = "tree"
     },
     {
         speciesID = 3080,
         name = "Verdant Kit",
         type = 8,
         icon = 3072464,
-        race = "Fox",
-        color = ""
+        race = "rat",
+        color = "green"
     },
     {
         speciesID = 4477,
@@ -13999,7 +14003,7 @@ RuthesMS.data.pets = {
         type = 9,
         icon = 5869500,
         race = "Fish",
-        color = ""
+        color = "green"
     },
     {
         speciesID = 2929,
@@ -14007,7 +14011,7 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3052547,
         race = "Insect",
-        color = ""
+        color = "pink"
     },
     {
         speciesID = 4516,
@@ -14015,31 +14019,31 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 5771179,
         race = "Insect",
-        color = ""
+        color = "pink"
     },
     {
         speciesID = 1807,
         name = "Vicious Broodling",
         type = 8,
         icon = 1387708,
-        race = "",
-        color = ""
+        race = "spider",
+        color = "red"
     },
     {
         speciesID = 3190,
         name = "Vicious Leporid",
         type = 5,
         icon = 3922917,
-        race = "",
-        color = ""
+        race = "mechanical",
+        color = "red"
     },
     {
         speciesID = 4483,
         name = "Vile Bloodtick",
         type = 5,
         icon = 1723705,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "purple"
     },
     {
         speciesID = 3124,
@@ -14047,39 +14051,39 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 3579947,
         race = "Insect",
-        color = ""
+        color = "green"
     },
     {
         speciesID = 2037,
         name = "Vilebrood Whelpling",
         type = 4,
         icon = 1580451,
-        race = "Mechanical",
-        color = ""
+        race = "dragon",
+        color = "green"
     },
     {
         speciesID = 3225,
         name = "Violent Poultrid",
         type = 3,
         icon = 4096554,
-        race = "",
-        color = ""
+        race = "mechanical",
+        color = "gray"
     },
     {
         speciesID = 2569,
         name = "Violet Abyssal Eel",
         type = 9,
         icon = 2027957,
-        race = "Fish",
-        color = ""
+        race = "serpent",
+        color = "purple"
     },
     {
         speciesID = 2904,
         name = "Violet Dredwing Pup",
         type = 3,
         icon = 3087790,
-        race = "Wolf",
-        color = "Red"
+        race = "bat",
+        color = "purple"
     },
     {
         speciesID = 1591,
@@ -14087,7 +14091,7 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 236196,
         race = "Insect",
-        color = ""
+        color = "purple"
     },
     {
         speciesID = 4506,
@@ -14095,31 +14099,31 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 5789327,
         race = "Elemental",
-        color = ""
+        color = "purple"
     },
     {
         speciesID = 3262,
         name = "Violet Violence",
         type = 8,
         icon = 4572524,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "purple"
     },
     {
         speciesID = 3234,
         name = "Viperid Menace",
         type = 8,
         icon = 4095289,
-        race = "Serpent",
-        color = ""
+        race = "mechanical",
+        color = "yellow"
     },
     {
         speciesID = 3309,
         name = "Viridescent Duck",
         type = 3,
         icon = 3953211,
-        race = "",
-        color = ""
+        race = "emu",
+        color = "green"
     },
     {
         speciesID = 4639,
@@ -14127,7 +14131,7 @@ RuthesMS.data.pets = {
         type = 10,
         icon = 6105006,
         race = "Mechanical",
-        color = ""
+        color = "green"
     },
     {
         speciesID = 1154,
@@ -14135,7 +14139,7 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 132108,
         race = "Elemental",
-        color = ""
+        color = "green"
     },
     {
         speciesID = 1244,
@@ -14143,15 +14147,15 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 576309,
         race = "Elemental",
-        color = ""
+        color = "red"
     },
     {
         speciesID = 2549,
         name = "Void Jelly",
         type = 6,
         icon = 537022,
-        race = "Elemental",
-        color = ""
+        race = "fish",
+        color = "purple"
     },
     {
         speciesID = 2130,
@@ -14159,15 +14163,15 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1391780,
         race = "Elemental",
-        color = ""
+        color = "blue"
     },
     {
         speciesID = 2833,
         name = "Void-Scarred Anubisath",
         type = 1,
         icon = 1728726,
-        race = "",
-        color = "Red"
+        race = "wolf",
+        color = "gray"
     },
     {
         speciesID = 2843,
@@ -14183,7 +14187,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 656578,
         race = "Cat",
-        color = "Red"
+        color = "blue"
     },
     {
         speciesID = 2839,
@@ -14191,23 +14195,23 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 2399280,
         race = "rat",
-        color = "Red"
+        color = "blue"
     },
     {
         speciesID = 2864,
         name = "Void-Scarred Locust",
         type = 5,
         icon = 294474,
-        race = "",
-        color = "Red"
+        race = "insect",
+        color = "blue"
     },
     {
         speciesID = 4748,
         name = "Void-Scarred Parrot",
         type = 3,
         icon = 2103815,
-        race = "",
-        color = "Red"
+        race = "bird",
+        color = "blue"
     },
     {
         speciesID = 2797,
@@ -14215,7 +14219,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 1120427,
         race = "Wolf",
-        color = "Red"
+        color = "blue"
     },
     {
         speciesID = 2841,
@@ -14223,39 +14227,39 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 132935,
         race = "Rat",
-        color = "Red"
+        color = "blueRed"
     },
     {
         speciesID = 4749,
         name = "Void-Scarred Scorpid",
         type = 8,
         icon = 132195,
-        race = "",
-        color = "Red"
+        race = "crocodile",
+        color = "blue"
     },
     {
         speciesID = 4750,
         name = "Void-Scarred Tallstrider Chick",
         type = 3,
         icon = 132198,
-        race = "",
-        color = "Red"
+        race = "emu",
+        color = "blue"
     },
     {
         speciesID = 2796,
         name = "Void-Scarred Toad",
         type = 9,
         icon = 237579,
-        race = "",
-        color = "Red"
+        race = "snail",
+        color = "blue"
     },
     {
         speciesID = 2866,
         name = "Voidglower",
         type = 3,
         icon = 236196,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "blue"
     },
     {
         speciesID = 4481,
@@ -14263,23 +14267,23 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 3459799,
         race = "Elemental",
-        color = ""
+        color = "blue"
     },
     {
         speciesID = 2865,
         name = "Voidskimmer",
         type = 9,
         icon = 643423,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "blue"
     },
     {
         speciesID = 2129,
         name = "Voidstalker Runt",
         type = 8,
         icon = 132201,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "blue"
     },
     {
         speciesID = 2434,
@@ -14287,23 +14291,23 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136221,
         race = "Elemental",
-        color = ""
+        color = "blue"
     },
     {
         speciesID = 3475,
         name = "Volatile Self-Driving Toolbox",
         type = 10,
         icon = 4679804,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "red"
     },
     {
         speciesID = 3213,
         name = "Vombata Pup",
         type = 8,
         icon = 3747900,
-        race = "Bat",
-        color = ""
+        race = "bear",
+        color = "orange"
     },
     {
         speciesID = 310,
@@ -14311,47 +14315,47 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 516666,
         race = "Mechanical",
-        color = ""
+        color = "orange"
     },
     {
         speciesID = 3336,
         name = "Vorquin Runt",
         type = 8,
         icon = 4218749,
-        race = "",
-        color = ""
+        race = "dragon",
+        color = "black"
     },
     {
         speciesID = 3446,
         name = "Vortex",
         type = 7,
         icon = 237007,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "gray"
     },
     {
         speciesID = 2460,
         name = "Voru'kar Leecher",
         type = 3,
         icon = 237393,
-        race = "",
-        color = ""
+        race = "spider",
+        color = "red"
     },
     {
         speciesID = 2939,
         name = "Wader Chick",
         type = 3,
         icon = 656318,
-        race = "",
-        color = ""
+        race = "emu",
+        color = "white"
     },
     {
         speciesID = 2870,
         name = "Wailing Lasher",
         type = 7,
         icon = 2027892,
-        race = "",
-        color = "",
+        race = "insect",
+        color = "yellow",
         druid = "tree"
     },
     {
@@ -14359,56 +14363,56 @@ RuthesMS.data.pets = {
         name = "Wakyn",
         type = 6,
         icon = 4007138,
-        race = "Elemental",
-        color = ""
+        race = "emu",
+        color = "blue"
     },
     {
         speciesID = 1013,
         name = "Wanderer's Festival Hatchling",
         type = 9,
         icon = 656342,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "brown"
     },
     {
         speciesID = 227,
         name = "Warbot",
         type = 10,
         icon = 134239,
-        race = "Bird",
-        color = ""
+        race = "mechanical",
+        color = "black"
     },
     {
         speciesID = 517,
         name = "Warpstalker Hatchling",
         type = 8,
         icon = 132201,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "white"
     },
     {
         speciesID = 2128,
         name = "Warpstalker Runt",
         type = 8,
         icon = 132201,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "green"
     },
     {
         speciesID = 418,
         name = "Water Snake",
         type = 8,
         icon = 132211,
-        race = "Serpent",
-        color = ""
+        race = "snail",
+        color = "black"
     },
     {
         speciesID = 535,
         name = "Water Waveling",
         type = 7,
         icon = 135862,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "green"
     },
     {
         speciesID = 1593,
@@ -14416,7 +14420,7 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 236196,
         race = "Insect",
-        color = ""
+        color = "blue"
     },
     {
         speciesID = 4637,
@@ -14424,47 +14428,47 @@ RuthesMS.data.pets = {
         type = 10,
         icon = 6105005,
         race = "Mechanical",
-        color = ""
+        color = "blue"
     },
     {
         speciesID = 4517,
         name = "Waxwick",
         type = 7,
         icon = 5757162,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "yellow"
     },
     {
         speciesID = 2580,
         name = "Wayward Spirit",
         type = 4,
         icon = 801002,
-        race = "Mechanical",
-        color = ""
+        race = "kite",
+        color = "blue"
     },
     {
         speciesID = 1394,
         name = "Weebomination",
         type = 4,
         icon = 136118,
-        race = "Mechanical",
-        color = ""
+        race = "gargoyle",
+        color = "purple"
     },
     {
         speciesID = 4793,
         name = "Weechi",
         type = 8,
         icon = 6642732,
-        race = "",
-        color = ""
+        race = "wolf",
+        color = "black"
     },
     {
         speciesID = 84,
         name = "Westfall Chicken",
         type = 3,
         icon = 135996,
-        race = "",
-        color = "",
+        race = "emu",
+        color = "white",
         druid = "moonkin"
     },
     {
@@ -14473,7 +14477,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 134324,
         race = "Rat",
-        color = ""
+        color = "black"
     },
     {
         speciesID = 127,
@@ -14481,15 +14485,15 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 294480,
         race = "Rat",
-        color = ""
+        color = "white"
     },
     {
         speciesID = 3284,
         name = "Whiskuk",
         type = 9,
         icon = 3751919,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "purple"
     },
     {
         speciesID = 46,
@@ -14512,7 +14516,7 @@ RuthesMS.data.pets = {
         name = "White Tickbird Hatchling",
         type = 3,
         icon = 132192,
-        race = "",
+        race = "bird",
         color = "White"
     },
     {
@@ -14520,7 +14524,7 @@ RuthesMS.data.pets = {
         name = "Whitewhisker",
         type = 3,
         icon = 4215002,
-        race = "",
+        race = "rat",
         color = "White"
     },
     {
@@ -14528,32 +14532,32 @@ RuthesMS.data.pets = {
         name = "Whomper",
         type = 1,
         icon = 1998314,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "white"
     },
     {
         speciesID = 2851,
         name = "Wicked Lurker",
         type = 8,
         icon = 237299,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "red"
     },
     {
         speciesID = 1968,
         name = "Wicked Soul",
         type = 4,
         icon = 460857,
-        race = "Mechanical",
-        color = ""
+        race = "elemental",
+        color = "purple"
     },
     {
         speciesID = 2411,
         name = "Wicker Pup",
         type = 4,
         icon = 2030683,
-        race = "Wolf",
-        color = ""
+        race = "wolf",
+        color = "black"
     },
     {
         speciesID = 2535,
@@ -14561,15 +14565,15 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136221,
         race = "Elemental",
-        color = ""
+        color = "black"
     },
     {
         speciesID = 1523,
         name = "Widget the Departed",
         type = 4,
         icon = 656575,
-        race = "Mechanical",
-        color = ""
+        race = "cat",
+        color = "ghost"
     },
     {
         speciesID = 400,
@@ -14577,7 +14581,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 132196,
         race = "Spider",
-        color = ""
+        color = "black"
     },
     {
         speciesID = 3141,
@@ -14585,55 +14589,56 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3896756,
         race = "Insect",
-        color = ""
+        color = "green"
     },
     {
         speciesID = 819,
         name = "Wild Crimson Hatchling",
         type = 2,
         icon = 630863,
-        race = "Dragon",
-        color = ""
+        race = "serpent",
+        color = "red"
     },
     {
         speciesID = 3301,
         name = "Wild Duckling",
         type = 9,
         icon = 4048813,
-        race = "",
-        color = ""
+        race = "emu",
+        color = "gray",
+        druid = "moonkin"
     },
     {
         speciesID = 2943,
         name = "Wild Etherwyrm",
         type = 3,
         icon = 3046536,
-        race = "",
-        color = ""
+        race = "serpent",
+        color = "blue",
     },
     {
         speciesID = 818,
         name = "Wild Golden Hatchling",
         type = 2,
         icon = 652138,
-        race = "Dragon",
-        color = "Gold"
+        race = "serpent",
+        color = "yellow"
     },
     {
         speciesID = 817,
         name = "Wild Jade Hatchling",
         type = 2,
         icon = 646018,
-        race = "Dragon",
-        color = ""
+        race = "serpent",
+        color = "green"
     },
     {
         speciesID = 3448,
         name = "Wildfire",
         type = 7,
         icon = 237009,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "fire"
     },
     {
         speciesID = 548,
@@ -14641,7 +14646,7 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 327735,
         race = "Gryphon",
-        color = ""
+        color = "orange"
     },
     {
         speciesID = 3036,
@@ -14649,15 +14654,15 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 3610989,
         race = "Elemental",
-        color = ""
+        color = "red"
     },
     {
         speciesID = 2915,
         name = "Willowbreeze",
         type = 8,
         icon = 3387067,
-        race = "",
-        color = ""
+        race = "horse",
+        color = "white"
     },
     {
         speciesID = 157,
@@ -14665,7 +14670,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 294482,
         race = "Elemental",
-        color = ""
+        color = "purple",
+        warlock = "felhunter"
     },
     {
         speciesID = 4651,
@@ -14673,39 +14679,39 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 6383519,
         race = "Rat",
-        color = ""
+        color = "gray"
     },
     {
         speciesID = 246,
         name = "Wind Rider Cub",
         type = 8,
         icon = 328270,
-        race = "Bear",
-        color = ""
+        race = "cat",
+        color = "yellow"
     },
     {
         speciesID = 2853,
         name = "Windfeather Chick",
         type = 3,
         icon = 656318,
-        race = "",
-        color = ""
+        race = "emu",
+        color = "brown"
     },
     {
         speciesID = 4510,
         name = "Winged Arachnoid",
         type = 3,
         icon = 5162543,
-        race = "",
-        color = ""
+        race = "spider",
+        color = "purple"
     },
     {
         speciesID = 1959,
         name = "Winter Rageling",
         type = 7,
         icon = 135988,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "blue"
     },
     {
         speciesID = 118,
@@ -14713,71 +14719,72 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 133706,
         race = "Stag",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 120,
         name = "Winter's Little Helper",
         type = 1,
         icon = 133202,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "red"
     },
     {
         speciesID = 3079,
         name = "Winterleaf Spriggan",
         type = 1,
         icon = 3536177,
-        race = "Flower",
-        color = ""
+        race = "gargoyle",
+        color = "white"
     },
     {
         speciesID = 306,
         name = "Winterspring Cub",
         type = 8,
         icon = 132252,
-        race = "Bear",
-        color = ""
+        race = "cat",
+        color = "purple"
     },
     {
         speciesID = 3015,
         name = "Withering Creeper",
         type = 7,
         icon = 3732243,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "black"
     },
     {
         speciesID = 220,
         name = "Withers",
         type = 7,
         icon = 132129,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "black",
+        druid = "tree"
     },
     {
         speciesID = 4597,
         name = "Wobbles",
         type = 7,
         icon = 5777858,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "brown"
     },
     {
         speciesID = 2482,
         name = "Wolf Balloon",
         type = 3,
         icon = 2341437,
-        race = "Wolf",
-        color = ""
+        race = "kite",
+        color = "purple"
     },
     {
         speciesID = 153,
         name = "Wolpertinger",
         type = 5,
         icon = 132800,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "white"
     },
     {
         speciesID = 1937,
@@ -14785,31 +14792,31 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1129713,
         race = "Elemental",
-        color = ""
+        color = "purple"
     },
     {
         speciesID = 64,
         name = "Wood Frog",
         type = 9,
         icon = 237579,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "white"
     },
     {
         speciesID = 1463,
         name = "Wood Wasp",
         type = 3,
         icon = 1044487,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "green"
     },
     {
         speciesID = 3322,
         name = "Woodbiter Piculet",
         type = 3,
         icon = 3998673,
-        race = "",
-        color = ""
+        race = "bird",
+        color = "blue"
     },
     {
         speciesID = 89,
@@ -14817,39 +14824,39 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 132599,
         race = "Wolf",
-        color = ""
+        color = "black"
     },
     {
         speciesID = 2897,
         name = "Wrathling",
         type = 7,
         icon = 1391769,
-        race = "Rat",
-        color = ""
+        race = "elemental",
+        color = "gray"
     },
     {
         speciesID = 1634,
         name = "Wretched Servant",
         type = 1,
         icon = 1100179,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "white"
     },
     {
         speciesID = 4496,
         name = "Wriggle",
         type = 9,
         icon = 5763494,
-        race = "",
-        color = ""
+        race = "fish",
+        color = "purple"
     },
     {
         speciesID = 2700,
         name = "Wriggler",
         type = 5,
         icon = 2763647,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "red"
     },
     {
         speciesID = 2957,
@@ -14857,7 +14864,7 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386335,
         race = "Mechanical",
-        color = ""
+        color = "white"
     },
     {
         speciesID = 4482,
@@ -14865,23 +14872,23 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 3459801,
         race = "Elemental",
-        color = ""
+        color = "pink"
     },
     {
         speciesID = 1887,
         name = "Wyrmy Tunkins",
         type = 1,
         icon = 1387710,
-        race = "",
-        color = ""
+        race = "gargoyle",
+        color = "red"
     },
     {
         speciesID = 1266,
         name = "Xu-Fu, Cub of Xuen",
         type = 8,
         icon = 877410,
-        race = "Bear",
-        color = ""
+        race = "cat",
+        color = "ghost"
     },
     {
         speciesID = 740,
@@ -14889,22 +14896,22 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 134324,
         race = "Rat",
-        color = ""
+        color = "brown"
     },
     {
         speciesID = 3479,
         name = "Yellabon",
         type = 3,
         icon = 3995641,
-        race = "",
-        color = ""
+        race = "insect",
+        color = "yellow"
     },
     {
         speciesID = 2666,
         name = "Yellow Junkhopper",
         type = 9,
         icon = 2399264,
-        race = "",
+        race = "snail",
         color = "Yellow"
     },
     {
@@ -14920,80 +14927,80 @@ RuthesMS.data.pets = {
         name = "Yellow-Bellied Bullfrog",
         type = 9,
         icon = 237579,
-        race = "",
-        color = "Yellow"
+        race = "snail",
+        color = "green"
     },
     {
         speciesID = 549,
         name = "Yellow-Bellied Marmot",
         type = 5,
         icon = 2126349,
-        race = "",
-        color = "Yellow"
+        race = "bear",
+        color = "brown"
     },
     {
         speciesID = 3319,
         name = "Yipper",
         type = 3,
         icon = 4215001,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "orange"
     },
     {
         speciesID = 3135,
         name = "Young Garnetgullet",
         type = 5,
         icon = 3931158,
-        race = "",
-        color = ""
+        race = "bear",
+        color = "red"
     },
     {
         speciesID = 1912,
         name = "Young Mutant Warturtle",
         type = 9,
         icon = 656341,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "green"
     },
     {
         speciesID = 2392,
         name = "Young Sand Sifter",
         type = 9,
         icon = 2027910,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "gray"
     },
     {
         speciesID = 1656,
         name = "Young Talbuk",
         type = 8,
         icon = 1044501,
-        race = "",
-        color = ""
+        race = "stag",
+        color = "white"
     },
     {
         speciesID = 2000,
         name = "Young Venomfang",
         type = 3,
         icon = 132209,
-        race = "",
-        color = ""
+        race = "serpent",
+        color = "black"
     },
     {
         speciesID = 3579,
         name = "Ysergle",
         type = 1,
         icon = 4755147,
-        race = "",
-        color = ""
+        race = "fish",
+        color = "green"
     },
     {
         speciesID = 1304,
         name = "Yu'la, Broodling of Yu'lon",
         type = 2,
         icon = 877408,
-        race = "Dragon",
-        color = ""
+        race = "serpent",
+        color = "green"
     },
     {
         speciesID = 850,
@@ -15001,95 +15008,95 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 133840,
         race = "Kite",
-        color = ""
+        color = "orange"
     },
     {
         speciesID = 3599,
         name = "Zalethgos",
         type = 2,
         icon = 4572400,
-        race = "Dragon",
-        color = ""
+        race = "dragon",
+        color = "blue"
     },
     {
         speciesID = 1211,
         name = "Zandalari Anklerender",
         type = 8,
         icon = 797326,
-        race = "",
-        color = ""
+        race = "turquoise",
+        color = "yellow"
     },
     {
         speciesID = 1212,
         name = "Zandalari Footslasher",
         type = 8,
         icon = 797327,
-        race = "",
-        color = ""
+        race = "dinosur",
+        color = "yellow"
     },
     {
         speciesID = 1180,
         name = "Zandalari Kneebiter",
         type = 8,
         icon = 797325,
-        race = "",
-        color = ""
+        race = "dinosaur",
+        color = "green"
     },
     {
         speciesID = 2413,
         name = "Zandalari Shinchomper",
         type = 8,
         icon = 797327,
-        race = "",
-        color = ""
+        race = "dinosur",
+        color = "red"
     },
     {
         speciesID = 1213,
         name = "Zandalari Toenibbler",
         type = 8,
         icon = 797328,
-        race = "",
-        color = ""
+        race = "dinosaur",
+        color = "bnrown"
     },
     {
         speciesID = 1582,
         name = "Zangar Crawler",
         type = 9,
         icon = 132186,
-        race = "",
-        color = ""
+        race = "crocodile",
+        color = "green"
     },
     {
         speciesID = 1536,
         name = "Zangar Spore",
         type = 3,
         icon = 460954,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "orange"
     },
     {
         speciesID = 2680,
         name = "Zanj'ir Poker",
         type = 1,
         icon = 2267048,
-        race = "",
-        color = ""
+        race = "fish",
+        color = "blue"
     },
     {
         speciesID = 1305,
         name = "Zao, Calfling of Niuzao",
         type = 8,
         icon = 900317,
-        race = "",
-        color = ""
+        race = "mammoth",
+        color = "ghost"
     },
     {
         speciesID = 2084,
         name = "Zephyrian Prince",
         type = 7,
         icon = 462522,
-        race = "",
-        color = ""
+        race = "elemental",
+        color = "ghost"
     },
     {
         speciesID = 1255,
@@ -15097,15 +15104,15 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1125916,
         race = "Elemental",
-        color = ""
+        color = "blue"
     },
     {
         speciesID = 94,
         name = "Zergling",
         type = 5,
         icon = 136217,
-        race = "",
-        color = ""
+        race = "rat",
+        color = "pink"
     },
     {
         speciesID = 3598,
@@ -15113,47 +15120,47 @@ RuthesMS.data.pets = {
         type = 2,
         icon = 4572401,
         race = "Dragon",
-        color = ""
+        color = "orange"
     },
     {
         speciesID = 2748,
         name = "Ziggy",
         type = 4,
         icon = 132196,
-        race = "Mechanical",
-        color = ""
+        race = "spider",
+        color = "black"
     },
     {
         speciesID = 247,
         name = "Zipao Tiger",
         type = 6,
         icon = 237194,
-        race = "Elemental",
-        color = ""
+        race = "cat",
+        color = "purple"
     },
     {
         speciesID = 1428,
         name = "Zomstrok",
         type = 4,
         icon = 134048,
-        race = "Mechanical",
-        color = ""
+        race = "crocodile",
+        color = "green"
     },
     {
         speciesID = 731,
         name = "Zooey Snake",
         type = 8,
         icon = 132211,
-        race = "Serpent",
-        color = ""
+        race = "snail",
+        color = "yellow"
     },
     {
         speciesID = 1903,
         name = "Zoom",
         type = 5,
         icon = 1100022,
-        race = "",
-        color = ""
+        race = "snail",
+        color = "brown"
     },
     {
         speciesID = 2550,
@@ -15161,6 +15168,6 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1386549,
         race = "Elemental",
-        color = ""
+        color = "purple"
     }
 }
