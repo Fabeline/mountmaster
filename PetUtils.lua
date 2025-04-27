@@ -169,6 +169,12 @@ local function summonPetFromMount(mount)
     resetPetFilters()
 
     local availablePets = RuthesMS.state.availablePets
+    if not availablePets or #availablePets == 0 then
+        RuthesMS.utils.pet.getAvailablePets()
+        availablePets = RuthesMS.state.availablePets
+        return
+    end
+
     local filteredPets = filterPets(mount.skeleton_type, mount.color, availablePets)
 
     if #filteredPets > 0 then
@@ -181,7 +187,8 @@ local function summonPetFromMount(mount)
             C_PetJournal.SummonPetByGUID(pet.petGUID)
         end
     else
-        print("No pets available for summon.")
+        -- Fail silently, no pets available
+        -- print("No pets available for summon.")
     end
 end
 
