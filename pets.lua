@@ -29,7 +29,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1100169,
         race = "Elemental",
-        color = "Turquoise"
+        color = "Turquoise",
+        warlock = "demon"
     },
     {
         speciesID = 2420,
@@ -37,7 +38,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1726347,
         race = "Kite",
-        color = "Red"
+        color = "Red",
+        warrior = "true"
     },
     {
         speciesID = 4652,
@@ -253,7 +255,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 515033,
         race = "Elemental",
-        color = "Orange"
+        color = "Orange",
+        shaman = "elemental"
     },
     {
         speciesID = 3117,
@@ -306,7 +309,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4952370,
         race = "Elemental",
-        color = "Yellow"
+        color = "Yellow",
+        shaman = "spirit"
     },
     {
         speciesID = 3223,
@@ -396,7 +400,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 134544,
         race = "kite",
-        color = "gray"
+        color = "gray",
+        mage = "book"
     },
     {
         speciesID = 3102,
@@ -428,15 +433,17 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1500933,
         race = "Elemental",
-        color = "red"
+        color = "red",
+        priest = "shadow"
     },
     {
         speciesID = 2122,
         name = "Antoran Bile Larva",
         type = 8,
         icon = 1418495,
-        race = "red",
-        color = "snail"
+        race = "snail",
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 2126,
@@ -534,7 +541,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 132841,
         race = "fish",
-        color = "white"
+        color = "white",
+        mage = "true"
     },
     {
         speciesID = 3179,
@@ -542,7 +550,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4227081,
         race = "elemental",
-        color = "gray"
+        color = "gray",
+        shaman = "elemental"
     },
     {
         speciesID = 3207,
@@ -657,7 +666,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 2103808,
         race = "kite",
-        color = "black"
+        color = "black",
+        mage = "true"
     },
     {
         speciesID = 558,
@@ -779,7 +789,8 @@ RuthesMS.data.pets = {
         icon = 136021,
         race = "stag",
         color = "brown",
-        druid = "tree"
+        druid = "tree",
+        shaman = "true"
     },
     {
         speciesID = 1706,
@@ -847,7 +858,8 @@ RuthesMS.data.pets = {
         icon = 960698,
         race = "elemental",
         color = "orange",
-        druid = "tree"
+        druid = "tree",
+        shaman = "true"
     },
     {
         speciesID = 1470,
@@ -872,7 +884,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 2032607,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        shaman = "elemental"
     },
     {
         speciesID = 1321,
@@ -931,7 +944,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1722953,
         race = "stag",
-        color = "black"
+        color = "black",
+        warlock = "demon"
     },
     {
         speciesID = 411,
@@ -995,7 +1009,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386334,
         race = "serpent",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 3326,
@@ -1059,7 +1074,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 646675,
         race = "Elemental",
-        color = "gray"
+        color = "gray",
+        monk = "true"
     },
     {
         speciesID = 2456,
@@ -1067,7 +1083,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 2055034,
         race = "spider",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 2425,
@@ -1109,7 +1126,8 @@ RuthesMS.data.pets = {
         icon = 3860422,
         race = "Bat",
         color = "gray",
-        flying = "true"
+        flying = "true",
+        warlock = "demon"
     },
     {
         speciesID = 4724,
@@ -1190,7 +1208,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 2027859,
         race = "spider",
-        color = "gray"
+        color = "gray",
+        deathknight = "true"
     },
     {
         speciesID = 2124,
@@ -1199,7 +1218,8 @@ RuthesMS.data.pets = {
         icon = 1686580,
         race = "fish",
         color = "black",
-        flying = "true"
+        flying = "true",
+        warlock = "demon"
     },
     {
         speciesID = 649,
@@ -1312,7 +1332,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4952368,
         race = "elemental",
-        color = "orange"
+        color = "orange",
+        shaman = "elemental"
     },
     {
         speciesID = 3411,
@@ -1320,7 +1341,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1786407,
         race = "elemental",
-        color = "fire"
+        color = "fire",
+        deathknight = "true"
     },
     {
         speciesID = 2086,
@@ -1328,7 +1350,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 236946,
         race = "wolf",
-        color = "fire"
+        color = "fire",
+        warlock = "demon"
     },
     {
         speciesID = 1517,
@@ -1370,7 +1393,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 348273,
         race = "gargoyle",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 4536,
@@ -1396,7 +1420,8 @@ RuthesMS.data.pets = {
         icon = 648726,
         race = "Bird",
         color = "green",
-        flying = "true"
+        flying = "true",
+        deathknight = "true"
     },
     {
         speciesID = 1915,
@@ -1447,7 +1472,8 @@ RuthesMS.data.pets = {
         icon = 1580449,
         race = "dragon",
         color = "green",
-        flying = "true"
+        flying = "true",
+        deathknight = "true"
     },
     {
         speciesID = 2414,
@@ -1579,7 +1605,7 @@ RuthesMS.data.pets = {
         type = 2,
         icon = 132188,
         race = "insect",
-        color = "Blue",
+        color = "blue",
         flying = "true"
     },
     {
@@ -1656,7 +1682,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 970830,
         race = "Serpent",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 1458,
@@ -1681,7 +1708,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 342917,
         race = "elemental",
-        color = "turquoise"
+        color = "turquoise",
+        deathknight = "true"
     },
     {
         speciesID = 2948,
@@ -1738,7 +1766,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 525026,
         race = "elemental",
-        color = "yellow"
+        color = "yellow",
+        mage = "elemental"
     },
     {
         speciesID = 2082,
@@ -1746,7 +1775,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1385912,
         race = "elemental",
-        color = "white"
+        color = "white",
+        shaman = "elemental"
     },
     {
         speciesID = 4255,
@@ -1821,7 +1851,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 960692,
         race = "elemental",
-        color = "brown"
+        color = "brown",
+        shaman = "elemental"
     },
     {
         speciesID = 2071,
@@ -1960,7 +1991,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 960692,
         race = "elemental",
-        color = "pink"
+        color = "pink",
+        shaman = "elemental"
     },
     {
         speciesID = 3173,
@@ -2008,7 +2040,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 134179,
         race = "gargoyle",
-        color = "black"
+        color = "black",
+        deathknight = "true"
     },
     {
         speciesID = 1726,
@@ -2057,7 +2090,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 2055038,
         race = "gargoyle",
-        color = "black"
+        color = "black",
+        deathknight = "true"
     },
     {
         speciesID = 2428,
@@ -2074,7 +2108,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386322,
         race = "Mechanical",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 540,
@@ -2174,7 +2209,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1100177,
         race = "kodo",
-        color = "black"
+        color = "black",
+        warlock = "demon"
     },
     {
         speciesID = 3024,
@@ -2182,7 +2218,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 134389,
         race = "elemental",
-        color = "gray"
+        color = "gray",
+        shaman = "elemental"
     },
     {
         speciesID = 3523,
@@ -2265,7 +2302,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 2101174,
         race = "elemental",
-        color = "pink"
+        color = "pink",
+        shaman = "elemental"
     },
     {
         speciesID = 2908,
@@ -2323,7 +2361,8 @@ RuthesMS.data.pets = {
         icon = 3860692,
         race = "bat",
         color = "green",
-        flying = "true"
+        flying = "true",
+        warlock = "demon"
     },
     {
         speciesID = 1152,
@@ -2331,7 +2370,8 @@ RuthesMS.data.pets = {
         type = 2,
         icon = 377270,
         race = "kodo",
-        color = "green"
+        color = "green",
+        warlock = "demon"
     },
     {
         speciesID = 174,
@@ -2347,7 +2387,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 666530,
         race = "Cat",
-        color = "fire"
+        color = "fire",
+        warlock = "demon"
     },
     {
         speciesID = 1662,
@@ -2413,7 +2454,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386323,
         race = "Mechanical",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 1142,
@@ -2462,7 +2504,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386321,
         race = "Mechanical",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 2400,
@@ -2650,7 +2693,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 236191,
         race = "bear",
-        color = "orange"
+        color = "orange",
+        warlock = "demon"
     },
     {
         speciesID = 1149,
@@ -2658,7 +2702,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 136218,
         race = "gargoyle",
-        color = "pink"
+        color = "pink",
+        warlock = "imp"
     },
     {
         speciesID = 1890,
@@ -2730,7 +2775,9 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 538042,
         race = "insect",
-        color = "red"
+        color = "red",
+        warlock = "demon",
+        priest = "tentacle"
     },
     {
         speciesID = 2427,
@@ -2762,7 +2809,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 355498,
         race = "red",
-        color = "kite"
+        color = "kite",
+        mage = "book"
     },
     {
         speciesID = 4759,
@@ -2810,7 +2858,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3731581,
         race = "Bat",
-        color = "gray"
+        color = "gray",
+        warlock = "demon"
     },
     {
         speciesID = 264,
@@ -2834,7 +2883,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 254105,
         race = "Elemental",
-        color = "green"
+        color = "green",
+        priest = "tentacle"
     },
     {
         speciesID = 321,
@@ -2842,7 +2892,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 132762,
         race = "mechanical",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 468,
@@ -2866,7 +2917,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 2103883,
         race = "Bat",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 2903,
@@ -2874,7 +2926,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3087789,
         race = "bat",
-        color = "purple"
+        color = "purple",
+        warlock = "demon"
     },
     {
         speciesID = 2424,
@@ -3011,7 +3064,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 538445,
         race = "fish",
-        color = "gray"
+        color = "gray",
+        warlock = "demon"
     },
     {
         speciesID = 1068,
@@ -3051,7 +3105,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 237373,
         race = "spider",
-        color = "purple"
+        color = "purple",
+        deathknight = "true"
     },
     {
         speciesID = 556,
@@ -3083,7 +3138,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 133244,
         race = "Elemental",
-        color = "blue"
+        color = "blue",
+        mage = "true"
     },
     {
         speciesID = 3415,
@@ -3155,7 +3211,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 2103878,
         race = "bat",
-        color = "gray"
+        color = "gray",
+        warlock = "demon"
     },
     {
         speciesID = 4594,
@@ -3195,7 +3252,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 348547,
         race = "elemental",
-        color = "orange"
+        color = "orange",
+        shaman = "true"
     },
     {
         speciesID = 270,
@@ -3235,7 +3293,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136155,
         race = "Elemental",
-        color = "yellow"
+        color = "yellow",
+        warlock = "demon"
     },
     {
         speciesID = 1062,
@@ -3467,7 +3526,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1269439,
         race = "gargoyle",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 233,
@@ -3636,7 +3696,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 5157541,
         race = "Elemental",
-        color = "green"
+        color = "green",
+        warlock = "demon"
     },
     {
         speciesID = 2623,
@@ -3660,7 +3721,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 132845,
         race = "elemental",
-        color = "ghost"
+        color = "ghost",
+        shaman = "elemental"
     },
     {
         speciesID = 169,
@@ -3692,7 +3754,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 651083,
         race = "gargoyle",
-        color = "red"
+        color = "red",
+        priest = "shadowfiend"
     },
     {
         speciesID = 1386,
@@ -3756,7 +3819,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4905304,
         race = "elemental",
-        color = "white"
+        color = "white",
+        shaman = "elemental"
     },
     {
         speciesID = 1331,
@@ -3764,7 +3828,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 132851,
         race = "elemental",
-        color = "purple"
+        color = "purple",
+        priest = "shadowfiend"
     },
     {
         speciesID = 2710,
@@ -3788,7 +3853,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1100170,
         race = "gargoyle",
-        color = "black"
+        color = "black",
+        deathknight = "true"
     },
     {
         speciesID = 2406,
@@ -3836,7 +3902,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3087791,
         race = "bat",
-        color = "black"
+        color = "black",
+        warlock = "demon"
     },
     {
         speciesID = 3327,
@@ -3868,7 +3935,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4632784,
         race = "elemental",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 4299,
@@ -3940,7 +4008,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 132182,
         race = "Bat",
-        color = "white"
+        color = "white",
+        warlock = "demon"
     },
     {
         speciesID = 3355,
@@ -3964,7 +4033,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4554444,
         race = "elemental",
-        color = "black"
+        color = "black",
+        deathknight = "true"
     },
     {
         speciesID = 3289,
@@ -3972,7 +4042,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4554438,
         race = "elemental",
-        color = "fire"
+        color = "fire",
+        mage = "elemental"
     },
     {
         speciesID = 2721,
@@ -4004,7 +4075,8 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 294475,
         race = "emu",
-        color = "purple"
+        color = "purple",
+        druid = "moonkin"
     },
     {
         speciesID = 1181,
@@ -4020,7 +4092,9 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1391780,
         race = "Elemental",
-        color = "purple"
+        color = "purple",
+        warlock = "demon",
+        mage = "true"
     },
     {
         speciesID = 1179,
@@ -4164,7 +4238,9 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 237227,
         race = "Elemental",
-        color = "pink"
+        color = "pink",
+        warlock = "demon",
+        mage = "true"
     },
     {
         speciesID = 1765,
@@ -4172,7 +4248,9 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 237230,
         race = "Elemental",
-        color = "blue"
+        color = "blue",
+        warlock = "demon",
+        mage = "true"
     },
     {
         speciesID = 213,
@@ -4180,7 +4258,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 655994,
         race = "mechanical",
-        color = "yellow"
+        color = "yellow",
+        mage = "true"
     },
     {
         speciesID = 1699,
@@ -4188,7 +4267,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1379178,
         race = "mechanical",
-        color = "green"
+        color = "green",
+        mage = "true"
     },
     {
         speciesID = 267,
@@ -4196,7 +4276,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 134249,
         race = "Elemental",
-        color = "blue"
+        color = "blue",
+        mage = "true"
     },
     {
         speciesID = 1701,
@@ -4236,7 +4317,9 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 237228,
         race = "Elemental",
-        color = "puruple"
+        color = "purple",
+        warlock = "demon",
+        mage = "true"
     },
     {
         speciesID = 3218,
@@ -4252,7 +4335,9 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 135735,
         race = "Elemental",
-        color = "purple"
+        color = "ghost",
+        warlock = "demon",
+        mage = "true"
     },
     {
         speciesID = 383,
@@ -4318,7 +4403,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1387707,
         race = "Elemental",
-        color = "blue"
+        color = "blue",
+        warlock = "demon"
     },
     {
         speciesID = 3126,
@@ -4342,7 +4428,9 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 3004126,
         race = "Elemental",
-        color = "red"
+        color = "red",
+        warlock = "demon",
+        priest = "shadow"
     },
     {
         speciesID = 2836,
@@ -4350,7 +4438,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 3004126,
         race = "Elemental",
-        color = "orange"
+        color = "orange",
+        warlock = "demon"
     },
     {
         speciesID = 3129,
@@ -4358,7 +4447,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 4069937,
         race = "Elemental",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 1719,
@@ -4366,7 +4456,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1387707,
         race = "Elemental",
-        color = "green"
+        color = "green",
+        warlock = "demon"
     },
     {
         speciesID = 1576,
@@ -4374,7 +4465,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 236407,
         race = "Elemental",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 348,
@@ -4382,7 +4474,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 136155,
         race = "elemental",
-        color = "green"
+        color = "green",
+        warlock = "demon"
     },
     {
         speciesID = 2090,
@@ -4390,7 +4483,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 574793,
         race = "fish",
-        color = "red"
+        color = "red",
+        priest = "shadow"
     },
     {
         speciesID = 2083,
@@ -4398,7 +4492,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 298654,
         race = "mammoth",
-        color = "gray"
+        color = "gray",
+        priest = "shadow"
     },
     {
         speciesID = 4596,
@@ -4470,7 +4565,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135794,
         race = "elemental",
-        color = "green"
+        color = "green",
+        warlock = "voidwalker"
     },
     {
         speciesID = 2117,
@@ -4511,7 +4607,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 1338893,
         race = "Bat",
-        color = "green"
+        color = "green",
+        warlock = "demon"
     },
     {
         speciesID = 2113,
@@ -4527,7 +4624,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 132841,
         race = "serpent",
-        color = "green"
+        color = "green",
+        mage = "true"
     },
     {
         speciesID = 319,
@@ -4584,7 +4682,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 132886,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        mage = "elemental"
     },
     {
         speciesID = 346,
@@ -4592,7 +4691,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 135128,
         race = "gargoyle",
-        color = "green"
+        color = "green",
+        shaman = "elemental"
     },
     {
         speciesID = 714,
@@ -4608,7 +4708,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 460856,
         race = "gargoyle",
-        color = "white"
+        color = "white",
+        warlock = "imp"
     },
     {
         speciesID = 3224,
@@ -4664,7 +4765,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 1338893,
         race = "Bat",
-        color = "fire"
+        color = "fire",
+        warlock = "demon"
     },
     {
         speciesID = 146,
@@ -4865,7 +4967,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3622122,
         race = "gargoyle",
-        color = "green"
+        color = "green",
+        deathknight = "true"
     },
     {
         speciesID = 2058,
@@ -4914,7 +5017,8 @@ RuthesMS.data.pets = {
         icon = 960698,
         race = "elemental",
         color = "green",
-        druid = "tree"
+        druid = "tree",
+        shaman = "true"
     },
     {
         speciesID = 266,
@@ -4922,7 +5026,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 458255,
         race = "dinosaur",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 2121,
@@ -5051,7 +5156,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135851,
         race = "elemental",
-        color = "white"
+        color = "white",
+        shaman = "elemental"
     },
     {
         speciesID = 4492,
@@ -5083,7 +5189,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1580450,
         race = "dragon",
-        color = "blue"
+        color = "blue",
+        deathknight = "true"
     },
     {
         speciesID = 1427,
@@ -5123,7 +5230,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 237441,
         race = "dragon",
-        color = "turquoise"
+        color = "turquoise",
+        deathknight = "true"
     },
     {
         speciesID = 1471,
@@ -5157,7 +5265,8 @@ RuthesMS.data.pets = {
         icon = 571319,
         race = "gargoyle",
         color = "pink",
-        druid = "tree"
+        druid = "tree",
+        deathknight = "true"
     },
     {
         speciesID = 756,
@@ -5221,7 +5330,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 606549,
         race = "elemental",
-        color = "gray"
+        color = "gray",
+        deathknight = "true"
     },
     {
         speciesID = 569,
@@ -5326,7 +5436,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 133730,
         race = "kite",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 2754,
@@ -5350,7 +5461,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 134899,
         race = "Spider",
-        color = "gray"
+        color = "gray",
+        deathknight = "true"
     },
     {
         speciesID = 193,
@@ -5374,7 +5486,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 774324,
         race = "elemental",
-        color = "red"
+        color = "red",
+        shaman = "true"
     },
     {
         speciesID = 3130,
@@ -5414,7 +5527,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 5168681,
         race = "fish",
-        color = "green"
+        color = "green",
+        warlock = "demon"
     },
     {
         speciesID = 2777,
@@ -5678,7 +5792,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 651085,
         race = "insect",
-        color = "black"
+        color = "black",
+        priest = "shadowfiend"
     },
     {
         speciesID = 4642,
@@ -5726,7 +5841,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3861530,
         race = "Mechanical",
-        color = "black"
+        color = "black",
+        deathknight = "true"
     },
     {
         speciesID = 2120,
@@ -5734,7 +5850,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 460700,
         race = "Elemental",
-        color = "blue"
+        color = "blue",
+        priest = "tentacle"
     },
     {
         speciesID = 733,
@@ -5766,7 +5883,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1065381,
         race = "gargoyle",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 3381,
@@ -5831,7 +5949,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 136218,
         race = "gargoyle",
-        color = "green"
+        color = "green",
+        warlock = "imp"
     },
     {
         speciesID = 464,
@@ -5847,7 +5966,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 399041,
         race = "elemental",
-        color = "green"
+        color = "green",
+        shaman = "true"
     },
     {
         speciesID = 4634,
@@ -5863,7 +5983,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3861531,
         race = "Mechanical",
-        color = "gray"
+        color = "gray",
+        deathknight = "true"
     },
     {
         speciesID = 3351,
@@ -5895,7 +6016,9 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 458967,
         race = "bat",
-        color = "gray"
+        color = "gray",
+        warlock = "true",
+        deathknight = "true"
     },
     {
         speciesID = 539,
@@ -6023,7 +6146,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 132119,
         race = "elemental",
-        color = "black"
+        color = "black",
+        shaman = "true"
     },
     {
         speciesID = 1174,
@@ -6031,7 +6155,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 355498,
         race = "kite",
-        color = "purple"
+        color = "purple",
+        mage = "book"
     },
     {
         speciesID = 2674,
@@ -6063,7 +6188,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 2735130,
         race = "insect",
-        color = "black"
+        color = "black",
+        monk = "true"
     },
     {
         speciesID = 1147,
@@ -6103,7 +6229,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1387707,
         race = "Elemental",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 1544,
@@ -6111,7 +6238,9 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 525026,
         race = "elemental",
-        color = "fire"
+        color = "fire",
+        warlock = "voidwalker",
+        shaman = "true"
     },
     {
         speciesID = 67,
@@ -6128,7 +6257,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1551374,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        shaman = "true"
     },
     {
         speciesID = 2928,
@@ -6216,7 +6346,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 132182,
         race = "Bat",
-        color = "pink"
+        color = "pink",
+        warlock = "demon"
     },
     {
         speciesID = 1384,
@@ -6320,7 +6451,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 537022,
         race = "insect",
-        color = "gray"
+        color = "gray",
+        priest = "tentacle"
     },
     {
         speciesID = 2916,
@@ -6352,7 +6484,9 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 636335,
         race = "elemental",
-        color = "white"
+        color = "white",
+        shaman = "true",
+        mage = "true"
     },
     {
         speciesID = 317,
@@ -6400,7 +6534,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1020381,
         race = "elemental",
-        color = "orange"
+        color = "orange",
+        shaman = "true"
     },
     {
         speciesID = 1532,
@@ -6592,7 +6727,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 134576,
         race = "Elemental",
-        color = "green"
+        color = "green",
+        shaman = "true"
     },
     {
         speciesID = 442,
@@ -6664,7 +6800,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 254105,
         race = "insect",
-        color = "green"
+        color = "green",
+        priest = "tentacle"
     },
     {
         speciesID = 231,
@@ -6680,7 +6817,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135794,
         race = "elemental",
-        color = "turquoise"
+        color = "turquoise",
+        shaman = "true"
     },
     {
         speciesID = 1333,
@@ -6688,7 +6826,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 656560,
         race = "elemental",
-        color = "turquoise"
+        color = "turquoise",
+        shaman = "true"
     },
     {
         speciesID = 3270,
@@ -6704,7 +6843,9 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 5242523,
         race = "bat",
-        color = "purple"
+        color = "purple",
+        warlock = "demon",
+        priest = "shadow"
     },
     {
         speciesID = 2795,
@@ -6872,7 +7013,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4952382,
         race = "elemental",
-        color = "Blue"
+        color = "Blue",
+        shaman = "true"
     },
     {
         speciesID = 4659,
@@ -6905,7 +7047,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 132841,
         race = "serpent",
-        color = "purple"
+        color = "purple",
+        mage = "true"
     },
     {
         speciesID = 1583,
@@ -6937,7 +7080,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4554448,
         race = "elemental",
-        color = "fire"
+        color = "fire",
+        shaman = "true"
     },
     {
         speciesID = 2447,
@@ -6969,7 +7113,9 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 132102,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        warlock = "voidwalker",
+        mage = "true"
     },
     {
         speciesID = 1940,
@@ -7081,7 +7227,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 254094,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        deathknight = "true"
     },
     {
         speciesID = 285,
@@ -7089,7 +7236,8 @@ RuthesMS.data.pets = {
         type = 10,
         icon = 254104,
         race = "mechanical",
-        color = "turquoise"
+        color = "turquoise",
+        deathknight = "true"
     },
     {
         speciesID = 1533,
@@ -7137,7 +7285,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 774323,
         race = "elemental",
-        color = "turquoise"
+        color = "turquoise",
+        shaman = "true"
     },
     {
         speciesID = 429,
@@ -7210,7 +7359,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 132182,
         race = "bat",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 1687,
@@ -7266,7 +7416,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 538447,
         race = "Elemental",
-        color = "purple"
+        color = "purple",
+        warlock = "demon"
     },
     {
         speciesID = 3518,
@@ -7338,7 +7489,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3622121,
         race = "gargoyle",
-        color = "purple"
+        color = "purple",
+        deathknight = "true"
     },
     {
         speciesID = 1226,
@@ -7409,7 +7561,7 @@ RuthesMS.data.pets = {
         name = "Lil' Moss Rosy",
         type = 5,
         icon = 4279015,
-        race = "stag",
+        race = "bear",
         color = "white"
     },
     {
@@ -7426,7 +7578,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 254652,
         race = "elemental",
-        color = "fire"
+        color = "fire",
+        shaman = "true"
     },
     {
         speciesID = 2443,
@@ -7490,7 +7643,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 6116549,
         race = "dragon",
-        color = "black"
+        color = "black",
+        warlock = "demon"
     },
     {
         speciesID = 4679,
@@ -7498,7 +7652,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 6116552,
         race = "dragon",
-        color = "yellow"
+        color = "yellow",
+        warlock = "demon"
     },
     {
         speciesID = 4663,
@@ -7571,7 +7726,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 796636,
         race = "elemental",
-        color = "brown"
+        color = "brown",
+        shaman = "true"
     },
     {
         speciesID = 408,
@@ -7586,7 +7742,7 @@ RuthesMS.data.pets = {
         name = "Loamy",
         type = 5,
         icon = 4279015,
-        race = "stag",
+        race = "bear",
         color = "green"
     },
     {
@@ -7603,7 +7759,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 133740,
         race = "kite",
-        color = "purple"
+        color = "purple",
+        mage = "book"
     },
     {
         speciesID = 1713,
@@ -7644,7 +7801,6 @@ RuthesMS.data.pets = {
         icon = 877481,
         race = "wolf",
         color = "brown",
-        druid = "moonkin"
     },
     {
         speciesID = 3062,
@@ -7652,7 +7808,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 3731723,
         race = "gargoyle",
-        color = "gray"
+        color = "gray",
+        druid = "moonkin"
     },
     {
         speciesID = 3119,
@@ -7660,7 +7817,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3862167,
         race = "Mechanical",
-        color = "black"
+        color = "black",
+        deathknight = "true"
     },
     {
         speciesID = 1661,
@@ -7692,7 +7850,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 2103805,
         race = "bird",
-        color = "red"
+        color = "red",
+        mage = "true"
     },
     {
         speciesID = 2715,
@@ -7708,7 +7867,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 895888,
         race = "elemental",
-        color = "ghost"
+        color = "ghost",
+        warlock = "demon"
     },
     {
         speciesID = 1511,
@@ -7764,7 +7924,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 134579,
         race = "elemental",
-        color = "gray"
+        color = "gray",
+        shaman = "true"
     },
     {
         speciesID = 341,
@@ -7861,7 +8022,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 236297,
         race = "elemental",
-        color = "yellow"
+        color = "yellow",
+        paladin = "true"
     },
     {
         speciesID = 3273,
@@ -7885,7 +8047,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 413580,
         race = "Elemental",
-        color = "purple"
+        color = "purple",
+        warlock = "voidwalker"
     },
     {
         speciesID = 708,
@@ -7925,7 +8088,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136006,
         race = "Elemental",
-        color = "brown"
+        color = "brown",
+        mage = "true"
     },
     {
         speciesID = 4708,
@@ -7965,7 +8129,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3862169,
         race = "Mechanical",
-        color = "blue"
+        color = "blue",
+        deathknight = "true"
     },
     {
         speciesID = 3033,
@@ -7989,7 +8154,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4227080,
         race = "elemental",
-        color = "black"
+        color = "black",
+        shaman = "true"
     },
     {
         speciesID = 1446,
@@ -8158,7 +8324,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3511185,
         race = "gargoyle",
-        color = "blue"
+        color = "blue",
+        deathknight = "true"
     },
     {
         speciesID = 666,
@@ -8174,7 +8341,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 2027568,
         race = "gargoyle",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 3530,
@@ -8206,7 +8374,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136219,
         race = "Elemental",
-        color = "green"
+        color = "green",
+        warlock = "demon"
     },
     {
         speciesID = 93,
@@ -8214,7 +8383,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 132787,
         race = "dragon",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 1156,
@@ -8246,7 +8416,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1337422,
         race = "gargoyle",
-        color = "black"
+        color = "black",
+        deathknight = "true"
     },
     {
         speciesID = 2064,
@@ -8286,7 +8457,8 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 1411879,
         race = "cat",
-        color = "green"
+        color = "green",
+        warlock = "demon"
     },
     {
         speciesID = 2467,
@@ -8294,7 +8466,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 774322,
         race = "elemental",
-        color = "yellow"
+        color = "yellow",
+        shaman = "true"
     },
     {
         speciesID = 1744,
@@ -8310,7 +8483,8 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 5648283,
         race = "cat",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 3265,
@@ -8568,7 +8742,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3622121,
         race = "gargoyle",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 2832,
@@ -8752,7 +8927,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1548513,
         race = "Mechanical",
-        color = "green"
+        color = "green",
+        deathknight = "true"
     },
     {
         speciesID = 2682,
@@ -8800,7 +8976,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 463483,
         race = "Elemental",
-        color = "fire"
+        color = "fire",
+        mage = "true"
     },
     {
         speciesID = 557,
@@ -8833,7 +9010,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 615096,
         race = "Elemental",
-        color = "fire"
+        color = "fire",
+        warlock = "demon"
     },
     {
         speciesID = 1524,
@@ -8934,7 +9112,8 @@ RuthesMS.data.pets = {
         icon = 960698,
         race = "elemental",
         color = "purple",
-        druid = "tree"
+        druid = "tree",
+        shaman = "true"
     },
     {
         speciesID = 1715,
@@ -9009,7 +9188,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 2103857,
         race = "insect",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 236,
@@ -9074,7 +9254,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135777,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        shaman = "true"
     },
     {
         speciesID = 3171,
@@ -9098,7 +9279,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386320,
         race = "Mechanical",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 4470,
@@ -9138,7 +9320,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 1321546,
         race = "Bat",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 2116,
@@ -9186,7 +9369,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 4624734,
         race = "kite",
-        color = "brown"
+        color = "brown",
+        mage = "book"
     },
     {
         speciesID = 92,
@@ -9202,7 +9386,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 774322,
         race = "elemental",
-        color = "turquoise"
+        color = "turquoise",
+        shaman = "true"
     },
     {
         speciesID = 1126,
@@ -9210,7 +9395,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 774323,
         race = "elemental",
-        color = "yellow"
+        color = "yellow",
+        shaman = "true"
     },
     {
         speciesID = 1124,
@@ -9218,15 +9404,17 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 774324,
         race = "elemental",
-        color = "orange"
+        color = "orange",
+        shaman = "true"
     },
     {
         speciesID = 248,
-        name = "Pandaren Monk",
-        type = 1,
-        icon = 328269,
-        race = "bear",
-        color = "black"
+        name      = "Pandaren Monk",
+        type      = 1,
+        icon      = 328269,
+        race      = "bear",
+        color     = "black",
+        monk      = "true"
     },
     {
         speciesID = 868,
@@ -9258,7 +9446,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 656560,
         race = "elemental",
-        color = "black"
+        color = "black",
+        shaman = "true"
     },
     {
         speciesID = 2380,
@@ -9329,9 +9518,9 @@ RuthesMS.data.pets = {
         name = "Pebble",
         type = 7,
         icon = 136024,
-        race = "emu",
-        color = "gray",
-        druid = "moonkin"
+        race = "elemental",
+        color = "blue",
+        shaman = "true"
     },
     {
         speciesID = 122,
@@ -9542,7 +9731,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 656560,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        shaman = "true"
     },
     {
         speciesID = 3307,
@@ -9689,7 +9879,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4554454,
         race = "elemental",
-        color = "white"
+        color = "white",
+        shaman = "true"
     },
     {
         speciesID = 2896,
@@ -9809,7 +10000,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 336781,
         race = "gargoyle",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 2849,
@@ -9987,7 +10179,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 132095,
         race = "gargoyle",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 431,
@@ -10019,7 +10212,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135782,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        priest = "shadowfiend"
     },
     {
         speciesID = 2898,
@@ -10027,7 +10221,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1357796,
         race = "elemental",
-        color = "red"
+        color = "red",
+        priest = "shadowfiend"
     },
     {
         speciesID = 238,
@@ -10060,7 +10255,7 @@ RuthesMS.data.pets = {
         icon = 460856,
         race = "gargoyle",
         color = "pink",
-        warlock = "imp"
+        warlock = "imp",
     },
     {
         speciesID = 2564,
@@ -10148,7 +10343,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 3005319,
         race = "Elemental",
-        color = "purple"
+        color = "purple",
+        priest = "shadowfiend"
     },
     {
         speciesID = 4411,
@@ -10220,7 +10416,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 132123,
         race = "elemental",
-        color = "black"
+        color = "black",
+        warlock = "demon"
     },
     {
         speciesID = 2199,
@@ -10228,7 +10425,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 2030683,
         race = "ratedSoloShuffleData",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 2394,
@@ -10236,7 +10434,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 458255,
         race = "dinosaur",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 4682,
@@ -10452,7 +10651,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1100170,
         race = "gargoyle",
-        color = "red"
+        color = "red",
+        deathknight = "true"
     },
     {
         speciesID = 1587,
@@ -10484,7 +10684,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 669468,
         race = "elemental",
-        color = "red"
+        color = "red",
+        shaman = "true"
     },
     {
         speciesID = 460,
@@ -10646,7 +10847,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 796636,
         race = "elemental",
-        color = "yellow"
+        color = "yellow",
+        shaman = "true"
     },
     {
         speciesID = 2463,
@@ -10669,7 +10871,7 @@ RuthesMS.data.pets = {
         name = "Sandstone Mosswool",
         type = 5,
         icon = 4279015,
-        race = "stag",
+        race = "bear",
         color = "white"
     },
     {
@@ -10854,7 +11056,8 @@ RuthesMS.data.pets = {
         type = 2,
         icon = 6648449,
         race = "Dragon",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 538,
@@ -10878,7 +11081,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 135551,
         race = "wolf",
-        color = "gray"
+        color = "gray",
+        deathknight = "true"
     },
     {
         speciesID = 2673,
@@ -10982,7 +11186,9 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135861,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        shaman = "true",
+        mage = "true"
     },
     {
         speciesID = 172,
@@ -10990,7 +11196,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 294481,
         race = "elemental",
-        color = "orange"
+        color = "orange",
+        shaman = "true"
     },
     {
         speciesID = 3263,
@@ -11014,7 +11221,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 133798,
         race = "kite",
-        color = "brown"
+        color = "brown",
+        shaman = "elemental"
     },
     {
         speciesID = 51,
@@ -11046,7 +11254,9 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136221,
         race = "Elemental",
-        color = "purple"
+        color = "purple",
+        warlock = "voidwalker",
+        mage = "true"
     },
     {
         speciesID = 3028,
@@ -11054,7 +11264,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3862168,
         race = "Mechanical",
-        color = "green"
+        color = "green",
+        deathknight = "true"
     },
     {
         speciesID = 1754,
@@ -11141,7 +11352,7 @@ RuthesMS.data.pets = {
         name = "Shale Mosswool",
         type = 5,
         icon = 4279015,
-        race = "stag",
+        race = "bear",
         color = "green"
     },
     {
@@ -11150,7 +11361,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1135365,
         race = "elemental",
-        color = "green"
+        color = "green",
+        warlock = "true"
     },
     {
         speciesID = 3040,
@@ -11158,7 +11370,9 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3862170,
         race = "Mechanical",
-        color = "purple"
+        color = "purple",
+        deathknight = "true",
+        priest = "shadow"
     },
     {
         speciesID = 1976,
@@ -11198,7 +11412,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 132849,
         race = "serpent",
-        color = "blue"
+        color = "blue",
+        mage = "true"
     },
     {
         speciesID = 493,
@@ -11398,7 +11613,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3860424,
         race = "bat",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 820,
@@ -11529,7 +11745,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 669467,
         race = "elemental",
-        color = "green"
+        color = "green",
+        shaman = "true"
     },
     {
         speciesID = 1575,
@@ -11681,7 +11898,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 254105,
         race = "elemental",
-        color = "green"
+        color = "green",
+        priest = "tentacle"
     },
     {
         speciesID = 4279,
@@ -11867,7 +12085,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4554460,
         race = "elemental",
-        color = "white"
+        color = "white",
+        shaman = "true"
     },
     {
         speciesID = 640,
@@ -11979,7 +12198,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4554442,
         race = "elemental",
-        color = "yellow"
+        color = "yellow",
+        shaman = "true"
     },
     {
         speciesID = 347,
@@ -11995,7 +12215,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1044088,
         race = "elemental",
-        color = "burning"
+        color = "burning",
+        shaman = "true",
     },
     {
         speciesID = 1966,
@@ -12147,7 +12368,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386337,
         race = "mechanical",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 1337,
@@ -12227,7 +12449,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 774324,
         race = "elemental",
-        color = "orange"
+        color = "orange",
+        shaman = "true"
     },
     {
         speciesID = 2942,
@@ -12275,7 +12498,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 3536179,
         race = "pink",
-        color = "gargoyle"
+        color = "gargoyle",
+        shaman = "true"
     },
     {
         speciesID = 200,
@@ -12364,7 +12588,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 4227083,
         race = "mechanical",
-        color = "brown"
+        color = "brown",
+        shaman = "true"
     },
     {
         speciesID = 1969,
@@ -12462,7 +12687,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1100170,
         race = "gargoyle",
-        color = "red"
+        color = "red",
+        deathknight = "true"
     },
     {
         speciesID = 1146,
@@ -12470,7 +12696,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 133718,
         race = "bear",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 485,
@@ -12510,7 +12737,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3087792,
         race = "bat",
-        color = "gray"
+        color = "gray",
+        warlock = "demon"
     },
     {
         speciesID = 3481,
@@ -12526,7 +12754,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3860425,
         race = "bat",
-        color = "gray"
+        color = "gray",
+        warlock = "demon"
     },
     {
         speciesID = 4731,
@@ -12614,7 +12843,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 236154,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        shaman = "true"
     },
     {
         speciesID = 1518,
@@ -12622,7 +12852,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 669468,
         race = "elemental",
-        color = "black"
+        color = "black",
+        shaman = "true"
     },
     {
         speciesID = 553,
@@ -12720,7 +12951,8 @@ RuthesMS.data.pets = {
         icon = 960698,
         race = "elemental",
         color = "yellow",
-        druid = "tree"
+        druid = "tree",
+        shaman = "true"
     },
     {
         speciesID = 1632,
@@ -12792,7 +13024,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 524350,
         race = "elemental",
-        color = "red"
+        color = "red",
+        shaman = "true"
     },
     {
         speciesID = 1182,
@@ -12848,7 +13081,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 632858,
         race = "fish",
-        color = "purple"
+        color = "purple",
+        priest = "shadow"
     },
     {
         speciesID = 728,
@@ -12889,7 +13123,9 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 136030,
         race = "elemental",
-        color = "green"
+        color = "green",
+        shaman = "true",
+        mage = "true"
     },
     {
         speciesID = 2540,
@@ -13011,7 +13247,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3860423,
         race = "bat",
-        color = "pink"
+        color = "pink",
+        warlock = "demon"
     },
     {
         speciesID = 3389,
@@ -13045,7 +13282,8 @@ RuthesMS.data.pets = {
         icon = 458176,
         race = "elemental",
         color = "blue",
-        druid = "tree"
+        druid = "tree",
+        shaman = "true"
     },
     {
         speciesID = 1803,
@@ -13054,7 +13292,8 @@ RuthesMS.data.pets = {
         icon = 463540,
         race = "elemental",
         color = "green",
-        druid = "tree"
+        druid = "tree",
+        shaman = "true"
     },
     {
         speciesID = 1810,
@@ -13142,7 +13381,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 252995,
         race = "elemental",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 1230,
@@ -13190,7 +13430,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 318343,
         race = "Wolf",
-        color = "ghost"
+        color = "ghost",
+        demon = "warlock"
     },
     {
         speciesID = 1750,
@@ -13311,7 +13552,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 236154,
         race = "elemental",
-        color = "gray"
+        color = "gray",
+        shaman = "true"
     },
     {
         speciesID = 1209,
@@ -13343,7 +13585,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 132182,
         race = "Bat",
-        color = "brown"
+        color = "brown",
+        warlock = "demon"
     },
     {
         speciesID = 1236,
@@ -13375,7 +13618,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3622122,
         race = "gargoyle",
-        color = "brown"
+        color = "brown",
+        deathknight = "true"
     },
     {
         speciesID = 546,
@@ -13559,7 +13803,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 237008,
         race = "elemental",
-        color = "orange"
+        color = "orange",
+        shaman = "true"
     },
     {
         speciesID = 2659,
@@ -13623,7 +13868,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 4549126,
         race = "kite",
-        color = "purple"
+        color = "purple",
+        mage = "book"
     },
     {
         speciesID = 3288,
@@ -13721,7 +13967,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136199,
         race = "Elemental",
-        color = "pink"
+        color = "pink",
+        priest = "shadowfiend"
     },
     {
         speciesID = 505,
@@ -13793,7 +14040,9 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 851119,
         race = "elemental",
-        color = "white"
+        color = "white",
+        paladin = "true",
+        priest = "true"
     },
     {
         speciesID = 55,
@@ -13857,7 +14106,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 132841,
         race = "serpent",
-        color = "white"
+        color = "white",
+        mage = "true"
     },
     {
         speciesID = 2716,
@@ -14083,7 +14333,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 3087790,
         race = "bat",
-        color = "purple"
+        color = "purple",
+        warlock = "demon"
     },
     {
         speciesID = 1591,
@@ -14155,7 +14406,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 537022,
         race = "fish",
-        color = "purple"
+        color = "purple",
+        priest = "shadow"
     },
     {
         speciesID = 2130,
@@ -14163,7 +14415,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1391780,
         race = "Elemental",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2833,
@@ -14171,7 +14424,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 1728726,
         race = "wolf",
-        color = "gray"
+        color = "gray",
+        priest = "shadow"
     },
     {
         speciesID = 2843,
@@ -14179,7 +14433,8 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 631519,
         race = "Insect",
-        color = "Red"
+        color = "Red",
+        priest = "shadow"
     },
     {
         speciesID = 2840,
@@ -14187,7 +14442,8 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 656578,
         race = "Cat",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2839,
@@ -14195,7 +14451,8 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 2399280,
         race = "rat",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2864,
@@ -14203,7 +14460,8 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 294474,
         race = "insect",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 4748,
@@ -14211,7 +14469,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 2103815,
         race = "bird",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2797,
@@ -14219,7 +14478,8 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 1120427,
         race = "Wolf",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2841,
@@ -14227,7 +14487,8 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 132935,
         race = "Rat",
-        color = "blueRed"
+        color = "blueRed",
+        priest = "shadow"
     },
     {
         speciesID = 4749,
@@ -14235,7 +14496,8 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 132195,
         race = "crocodile",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 4750,
@@ -14243,7 +14505,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 132198,
         race = "emu",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2796,
@@ -14251,7 +14514,8 @@ RuthesMS.data.pets = {
         type = 9,
         icon = 237579,
         race = "snail",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2866,
@@ -14275,7 +14539,8 @@ RuthesMS.data.pets = {
         type = 9,
         icon = 643423,
         race = "insect",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2129,
@@ -14283,7 +14548,8 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 132201,
         race = "crocodile",
-        color = "blue"
+        color = "blue",
+        priest = "shadow"
     },
     {
         speciesID = 2434,
@@ -14291,7 +14557,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136221,
         race = "Elemental",
-        color = "blue"
+        color = "blue",
+        warlock = "voidwalker"
     },
     {
         speciesID = 3475,
@@ -14331,7 +14598,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 237007,
         race = "elemental",
-        color = "gray"
+        color = "gray",
+        shaman = "true"
     },
     {
         speciesID = 2460,
@@ -14412,7 +14680,9 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135862,
         race = "elemental",
-        color = "green"
+        color = "green",
+        shaman = "true",
+        mage = "true"
     },
     {
         speciesID = 1593,
@@ -14444,7 +14714,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 801002,
         race = "kite",
-        color = "blue"
+        color = "blue",
+        shaman = "elemental"
     },
     {
         speciesID = 1394,
@@ -14452,7 +14723,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 136118,
         race = "gargoyle",
-        color = "purple"
+        color = "purple",
+        deathknight = "true"
     },
     {
         speciesID = 4793,
@@ -14541,7 +14813,8 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 237299,
         race = "elemental",
-        color = "red"
+        color = "red",
+        priest = "shadowfiend"
     },
     {
         speciesID = 1968,
@@ -14557,7 +14830,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 2030683,
         race = "wolf",
-        color = "black"
+        color = "black",
+        deathknight = "true"
     },
     {
         speciesID = 2535,
@@ -14565,7 +14839,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 136221,
         race = "Elemental",
-        color = "black"
+        color = "black",
+        warlock = "voidwalker"
     },
     {
         speciesID = 1523,
@@ -14638,7 +14913,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 237009,
         race = "elemental",
-        color = "fire"
+        color = "fire",
+        shaman = "true"
     },
     {
         speciesID = 548,
@@ -14654,7 +14930,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 3610989,
         race = "Elemental",
-        color = "red"
+        color = "red",
+        warrior = "true"
     },
     {
         speciesID = 2915,
@@ -14711,7 +14988,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 135988,
         race = "elemental",
-        color = "blue"
+        color = "blue",
+        shaman = "true"
     },
     {
         speciesID = 118,
@@ -14735,7 +15013,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 3536177,
         race = "gargoyle",
-        color = "white"
+        color = "white",
+        shaman = "true"
     },
     {
         speciesID = 306,
@@ -14792,7 +15071,8 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1129713,
         race = "Elemental",
-        color = "purple"
+        color = "purple",
+        mage = "true"
     },
     {
         speciesID = 64,
@@ -14832,7 +15112,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1391769,
         race = "elemental",
-        color = "gray"
+        color = "gray",
+        priest = "shadowfiend"
     },
     {
         speciesID = 1634,
@@ -14864,7 +15145,8 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 3386335,
         race = "Mechanical",
-        color = "white"
+        color = "white",
+        deathknight = "true"
     },
     {
         speciesID = 4482,
@@ -14880,7 +15162,8 @@ RuthesMS.data.pets = {
         type = 1,
         icon = 1387710,
         race = "gargoyle",
-        color = "red"
+        color = "red",
+        warlock = "demon"
     },
     {
         speciesID = 1266,
@@ -15096,7 +15379,8 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 462522,
         race = "elemental",
-        color = "ghost"
+        color = "ghost",
+        shaman = "true"
     },
     {
         speciesID = 1255,
@@ -15168,6 +15452,7 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 1386549,
         race = "Elemental",
-        color = "purple"
+        color = "purple",
+        priest = "shadow"
     }
 }

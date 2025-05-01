@@ -43,6 +43,8 @@ local function getPetRaces()
 end
 
 local function summonDruidPet()
+    local form = GetShapeshiftFormID()
+
     -- Summon pets after 0.5 sec
     C_Timer.After(1, function()
         local petRaces = getPetRaces()
@@ -83,8 +85,6 @@ local function detectShapseshift()
         f:SetScript("OnEvent", debouncedShapeshiftDetection)
     end
 end
-
-
 
 RuthesMS.utils.druid = {
     summonDruidPet = summonDruidPet,

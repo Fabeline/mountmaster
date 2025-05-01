@@ -10,6 +10,7 @@ RuthesMS = {
         globalKeybinds = false,
         summonPetFromMount = false,
         useOnlyPetFavourites = false,
+        useDruidGlyphOfTheStars = false,
     },
     keybinds = {
     },
@@ -44,7 +45,8 @@ RuthesMS = {
         pet = {},
         filter = {},
         addon = {},
-        summon = {}
+        summon = {},
+        druid = {}
     },
     db = {}
 }

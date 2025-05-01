@@ -18,6 +18,8 @@ local function InitializeConfig()
             summonPetFromMount = false,
             summonPetFromDruidForm = false,
             useOnlyPetFavourites = false,
+            useClassPets = false,
+            useDruidGlyphOfTheStars = false,
 
             keybinds = {
                 normal = "",
@@ -75,6 +77,8 @@ local function InitializeConfig()
     RuthesMS.settings.summonPetFromDruidForm = MountSelectorCharacterConfig.summonPetFromDruidForm or false
     RuthesMS.settings.useOnlyPetFavourites = MountSelectorCharacterConfig.useOnlyPetFavourites or false
     RuthesMS.settings.noPetsInInstance = MountSelectorCharacterConfig.noPetsInInstance or false
+    RuthesMS.settings.useClassPets = MountSelectorCharacterConfig.useClassPets or false
+    RuthesMS.settings.useDruidGlyphOfTheStars = MountSelectorCharacterConfig.useDruidGlyphOfTheStars or false
 
     if (MountSelectorCharacterConfig.globalKeybinds) then
         RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
@@ -155,6 +159,16 @@ local function saveNoPetsInInstance(shouldUse)
     RuthesMS.settings.noPetsInInstance = shouldUse
 end
 
+local function saveUseClassPets(shouldUse)
+    MountSelectorCharacterConfig.useClassPets = shouldUse
+    RuthesMS.settings.useClassPets = shouldUse
+end
+
+local function saveUseDruidGlyphOfTheStars(shouldUse)
+    MountSelectorCharacterConfig.useDruidGlyphOfTheStars = shouldUse
+    RuthesMS.settings.useDruidGlyphOfTheStars = shouldUse
+end
+
 RuthesMS.db = {
     init = InitializeConfig,
     saveSummonKey = saveSummonKey,
@@ -172,4 +186,6 @@ RuthesMS.db = {
     saveSummonPetFromDruidForm = saveSummonPetFromDruidForm,
     saveUseOnlyPetFavourites = saveUseOnlyPetFavourites,
     saveNoPetsInInstance = saveNoPetsInInstance,
+    saveUseClassPets = saveUseClassPets,
+    saveUseDruidGlyphOfTheStars = saveUseDruidGlyphOfTheStars,
 }
