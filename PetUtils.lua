@@ -44,7 +44,7 @@ local function getAvailablePets()
                 druid = petInfo.druid,
                 warlock = petInfo.warlock,
                 shaman = petInfo.shaman,
-                deathKnight = petInfo.deathKnight,
+                deathknight = petInfo.deathknight,
                 mage = petInfo.mage,
                 priest = petInfo.priest,
                 type = type,
@@ -196,12 +196,14 @@ local function filterByClass(petList)
         return true
     end
 
+    --print("englishClass: " .. englishClass)
+
     if (englishClass == "WARLOCK") then
         checkFunction = function(pet) return pet.warlock end
     elseif (englishClass == "SHAMAN") then
         checkFunction = function(pet) return pet.shaman end
     elseif (englishClass == "DEATHKNIGHT") then
-        checkFunction = function(pet) return pet.deathKnight end
+        checkFunction = function(pet) return pet.deathknight end
     elseif (englishClass == "MAGE") then
         checkFunction = function(pet) return pet.mage end
     elseif (englishClass == "DRUID") then

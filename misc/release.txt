@@ -10,5 +10,7 @@ Rename to for instance Ruthes_Mountselector_1_3_1.zip
 
 Update readme changelog on github
 
+Create new screenshots if needed
+
 Release on CurseForge
 Release on Wago.io

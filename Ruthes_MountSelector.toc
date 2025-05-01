@@ -1,15 +1,11 @@
 ## Interface: 110100, 110500
-## Version: 1.5.0
+## Version: 1.6.0
 ## Title: Ruthe's MountSelector
 ## Author: Ruthe
 ## SavedVariablesPerCharacter: MountSelectorCharacterConfig
 ## SavedVariables: mountSelectorDB
 ## SavedVariables: MountSelectorGlobalConfig
 ## IconTexture: Interface/AddOns/Ruthes_MountSelector/Ruthes_MountSelector.tga
-
-
-## SavedVariables: PetDumpData
-
 
 LibDBIcon-1.0\LibStub\LibStub.lua
 LibDBIcon-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua

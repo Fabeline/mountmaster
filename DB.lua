@@ -14,9 +14,9 @@ local function InitializeConfig()
             dontIncludeUtilityMounts = false,
             globalKeybinds = false,
 
-            noPetsInInstance = false,
-            summonPetFromMount = false,
-            summonPetFromDruidForm = false,
+            noPetsInInstance = true,
+            summonPetFromMount = true,
+            summonPetFromDruidForm = true,
             useOnlyPetFavourites = false,
             useClassPets = false,
             useDruidGlyphOfTheStars = false,
@@ -73,10 +73,10 @@ local function InitializeConfig()
     RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
     RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
 
-    RuthesMS.settings.summonPetFromMount = MountSelectorCharacterConfig.summonPetFromMount or false
-    RuthesMS.settings.summonPetFromDruidForm = MountSelectorCharacterConfig.summonPetFromDruidForm or false
+    RuthesMS.settings.summonPetFromMount = MountSelectorCharacterConfig.summonPetFromMount or true
+    RuthesMS.settings.summonPetFromDruidForm = MountSelectorCharacterConfig.summonPetFromDruidForm or true
     RuthesMS.settings.useOnlyPetFavourites = MountSelectorCharacterConfig.useOnlyPetFavourites or false
-    RuthesMS.settings.noPetsInInstance = MountSelectorCharacterConfig.noPetsInInstance or false
+    RuthesMS.settings.noPetsInInstance = MountSelectorCharacterConfig.noPetsInInstance or true
     RuthesMS.settings.useClassPets = MountSelectorCharacterConfig.useClassPets or false
     RuthesMS.settings.useDruidGlyphOfTheStars = MountSelectorCharacterConfig.useDruidGlyphOfTheStars or false
 

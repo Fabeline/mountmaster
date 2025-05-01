@@ -178,7 +178,7 @@ local function createFrame()
     currentY = currentY - lineHeight
 
 
-    -- Use Druid Glyph of the Stars
+    -- Use Druid Glyph of Stars
     local useDruidGlyphOfTheStars = CreateFrame("CheckButton", "UseDruidGlyphOfTheStarsCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
     useDruidGlyphOfTheStars:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
@@ -189,7 +189,7 @@ local function createFrame()
 
     local useDruidGlyphOfTheStarsLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     useDruidGlyphOfTheStarsLabel:SetPoint("LEFT", useDruidGlyphOfTheStars, "RIGHT", checkboxMargin, 0)
-    useDruidGlyphOfTheStarsLabel:SetText("Using glyph of the stars for druids")
+    useDruidGlyphOfTheStarsLabel:SetText("Using glyph stars for druids")
     currentY = currentY - lineHeight
 
     -- Use only class pets
