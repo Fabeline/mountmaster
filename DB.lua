@@ -6,11 +6,21 @@ local function InitializeConfig()
             colors = RuthesMS.utils.filterDropdowns.getAllColors(),
             types = RuthesMS.utils.filterDropdowns.getAllTypes(),
             expansions = RuthesMS.utils.filterDropdowns.getAllExpansions(),
+
             -- looks = RuthesMS.utils.filterDropdowns.getAllLooks(),
             summonKey = standardKey, -- deprecated, use keybinds instead
+
             useOnlyFavourites = false,
             dontIncludeUtilityMounts = false,
             globalKeybinds = false,
+
+            noPetsInInstance = true,
+            summonPetFromMount = true,
+            summonPetFromDruidForm = true,
+            useOnlyPetFavourites = false,
+            useClassPets = false,
+            useDruidGlyphOfTheStars = false,
+
             keybinds = {
                 normal = "",
                 aquatic = "",
@@ -63,6 +73,13 @@ local function InitializeConfig()
     RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
     RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
 
+    RuthesMS.settings.summonPetFromMount = MountSelectorCharacterConfig.summonPetFromMount or true
+    RuthesMS.settings.summonPetFromDruidForm = MountSelectorCharacterConfig.summonPetFromDruidForm or true
+    RuthesMS.settings.useOnlyPetFavourites = MountSelectorCharacterConfig.useOnlyPetFavourites or false
+    RuthesMS.settings.noPetsInInstance = MountSelectorCharacterConfig.noPetsInInstance or true
+    RuthesMS.settings.useClassPets = MountSelectorCharacterConfig.useClassPets or false
+    RuthesMS.settings.useDruidGlyphOfTheStars = MountSelectorCharacterConfig.useDruidGlyphOfTheStars or false
+
     if (MountSelectorCharacterConfig.globalKeybinds) then
         RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
     end
@@ -102,7 +119,7 @@ end
 
 local function saveSmallMountInInstance(shouldUse)
     MountSelectorCharacterConfig.smallMountInInstance = shouldUse
-    RuthesMS.smallMountInInstance = shouldUse
+    RuthesMS.settings.smallMountInInstance = shouldUse
 end
 
 local function saveDontIncludeUtilityMounts(shouldUse)
@@ -122,6 +139,36 @@ local function saveGlobalKeybinds(shouldUse)
     RuthesMS.settings.globalKeybinds = shouldUse
 end
 
+local function saveSummonPetFromMount(shouldUse)
+    MountSelectorCharacterConfig.summonPetFromMount = shouldUse
+    RuthesMS.settings.summonPetFromMount = shouldUse
+end
+
+local function saveSummonPetFromDruidForm(shouldUse)
+    MountSelectorCharacterConfig.summonPetFromDruidForm = shouldUse
+    RuthesMS.settings.summonPetFromDruidForm = shouldUse
+end
+
+local function saveUseOnlyPetFavourites(shouldUse)
+    MountSelectorCharacterConfig.useOnlyPetFavourites = shouldUse
+    RuthesMS.settings.useOnlyPetFavourites = shouldUse
+end
+
+local function saveNoPetsInInstance(shouldUse)
+    MountSelectorCharacterConfig.noPetsInInstance = shouldUse
+    RuthesMS.settings.noPetsInInstance = shouldUse
+end
+
+local function saveUseClassPets(shouldUse)
+    MountSelectorCharacterConfig.useClassPets = shouldUse
+    RuthesMS.settings.useClassPets = shouldUse
+end
+
+local function saveUseDruidGlyphOfTheStars(shouldUse)
+    MountSelectorCharacterConfig.useDruidGlyphOfTheStars = shouldUse
+    RuthesMS.settings.useDruidGlyphOfTheStars = shouldUse
+end
+
 RuthesMS.db = {
     init = InitializeConfig,
     saveSummonKey = saveSummonKey,
@@ -129,8 +176,16 @@ RuthesMS.db = {
     saveSelectedTypes = saveSelectedTypes,
     saveSelectedExpansions = saveSelectedExpansions,
     saveSelectedLooks = saveSelectedLooks,
+
     saveUseOnlyFavourites = saveUseOnlyFavourites,
     saveSmallMountInInstance = saveSmallMountInInstance,
     saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
     saveGlobalKeybinds = saveGlobalKeybinds,
+
+    saveSummonPetFromMount = saveSummonPetFromMount,
+    saveSummonPetFromDruidForm = saveSummonPetFromDruidForm,
+    saveUseOnlyPetFavourites = saveUseOnlyPetFavourites,
+    saveNoPetsInInstance = saveNoPetsInInstance,
+    saveUseClassPets = saveUseClassPets,
+    saveUseDruidGlyphOfTheStars = saveUseDruidGlyphOfTheStars,
 }

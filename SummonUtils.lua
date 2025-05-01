@@ -173,6 +173,7 @@ end
 local function summonRandomMount(isSwimming)
     if IsMounted() then
         Dismount()
+        return
     else
         CancelShapeshiftForm()
         if (RuthesMS.utils.mount.canSummonMount() == false) then
@@ -231,7 +232,9 @@ local function summonRandomMount(isSwimming)
 
             if #chosenMounts > 0 then
                 local randomIndex = math.random(1, #chosenMounts)
-                C_MountJournal.SummonByID(chosenMounts[randomIndex].id)
+                local mount = chosenMounts[randomIndex].id
+                C_MountJournal.SummonByID(mount)
+                RuthesMS.utils.pet.summonRandomPet(chosenMounts[randomIndex])
             else
                 print("No mounts available to summon.")
             end

@@ -12,6 +12,15 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.6.0
+- Added support for summoning matching pets
+    - When mounting
+    - When shapeshifting (druids)
+        - Extra support for using glyph of stars
+- You can choose to summon only favorite pets
+- you can choose to prefer class specific pets (for some classes)
+- You can choose to not summon pets while in instances
+
 ### ver 1.5.0
 - Added support for filtering by expansion.
 - Separated the user interface into tabs.

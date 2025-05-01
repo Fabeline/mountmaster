@@ -12,13 +12,15 @@ local function createFrame()
     helpText:SetWordWrap(true)
     helpText:SetJustifyH("LEFT")
     helpText:SetJustifyV("TOP")
+
     helpText:SetText(
         "|cffffffffWelcome to Ruthe's Mount Selector!|r\n\n" ..
-        "This addon helps you manage and summon mounts more efficiently by allowing you to filter and categorize them based on type, expansion, and color.\n\n" ..
-        "You can assign keybinds or drag action buttons/macros to your action bar for quick access to specific mount types, such as flying, aquatic, repair, mailbox, or auction house mounts.\n\n" ..
-        "Keybinds can be set globally or per character, depending on your preference.\n\n" ..
-        "For feedback, questions, or suggestions, visit:\n|cffffffffhttps://www.curseforge.com/wow/addons/ruthes-mountselector/comments|r\n\n" ..
-        "Thank you for using the addon."
+        "This addon lets you summon mounts based on your preferences, and save different choices for each character.\n\n" ..
+        "You can filter mounts by type, expansion, and color for each character. For example, your warlock might prefer black horses, while your frost mage favors blue cats or dragons.\n\n" ..
+        "You can assign keybinds or drag action button macros to summon mounts by type — such as normal (including flying mounts when flying is available), aquatic, repair, mailbox, or auction house mounts.\n\n" ..
+        "Keybinds can be saved globally or individually for each character.\n\n" ..
+        "You can now also choose to summon a pet that matches your mount — and if you're a druid, you can even match your shapeshift forms.\n\n" ..
+        "For questions or feedback, visit:\n|cffffffffhttps://www.curseforge.com/wow/addons/ruthes-mountselector/comments|r\n\n"
     )
 
     -- local logo = helpFrame:CreateTexture(nil, "ARTWORK")

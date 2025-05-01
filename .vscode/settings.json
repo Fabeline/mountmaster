@@ -12,8 +12,7 @@
         "utf8": "disable"
     },
     "Lua.workspace.library": [
-        "~\\.vscode\\extensions\\ketho.wow-api-0.20.2\\Annotations\\Core",
-        "~\\.vscode\\extensions\\ketho.wow-api-0.20.2\\Annotations\\FrameXML\\Manual"
+        "~\\.vscode\\extensions\\ketho.wow-api-0.20.6\\Annotations\\Core"
     ],
     "Lua.diagnostics.globals": [
         "UIDropDownMenu_SetText",
@@ -37,10 +36,13 @@
         "PanelTemplates_SetNumTabs",
         "CharacterFrame",
         "CHARACTERFRAME_SUBFRAMES",
-        "ToggleCharacter"
+        "ToggleCharacter",
+        "LE_PET_JOURNAL_FILTER_COLLECTED",
+        "LE_PET_JOURNAL_FILTER_NOT_COLLECTED",
+        "class"
     ],
-    "Lua.type.weakUnionCheck": true,
     "Lua.diagnostics.disable": [
         "assign-type-mismatch"
-    ]
+    ],
+    "Lua.type.weakUnionCheck": true
 }

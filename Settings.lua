@@ -7,7 +7,10 @@ RuthesMS = {
         useOnlyFavourites = false,
         smallMountInInstance = false,
         dontIncludeUtilityMounts = false,
-        globalKeybinds = false
+        globalKeybinds = false,
+        summonPetFromMount = false,
+        useOnlyPetFavourites = false,
+        useDruidGlyphOfTheStars = false,
     },
     keybinds = {
     },
@@ -29,17 +32,21 @@ RuthesMS = {
         minimapButton = {},
         summonButton = {},
         randomMountButton = {},
+        druidButtons = {}
     },
     data = {
-        mounts = {}
+        mounts = {},
+        pets = {}
     },
     utils = {
         dropdown = {},
         filterDropdowns = {},
         mount = {},
+        pet = {},
         filter = {},
         addon = {},
-        summon = {}
+        summon = {},
+        druid = {}
     },
     db = {}
 }

@@ -1,5 +1,5 @@
 ## Interface: 110100, 110500
-## Version: 1.5.0
+## Version: 1.6.0
 ## Title: Ruthe's MountSelector
 ## Author: Ruthe
 ## SavedVariablesPerCharacter: MountSelectorCharacterConfig
@@ -15,8 +15,12 @@ LibDBIcon-1.0\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Settings.lua
 
 mounts.lua
+pets.lua
+
 FilterUtils.lua
 MountUtils.lua
+PetUtils.lua
+DruidUtils.lua
 DropdownUtils.lua
 AddonUtils.lua
 SummonUtils.lua

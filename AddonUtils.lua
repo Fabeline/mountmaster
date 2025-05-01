@@ -4,6 +4,9 @@ local function afterAddonLoaded()
     RuthesMS.frames.keybindFrame.loadSummoningKey()
     RuthesMS.frames.mountSelectorFrame.selectTab(1)
     RuthesMS.buttons.randomMountButton.create()
+    RuthesMS.utils.pet.getAvailablePets()
+
+    RuthesMS.utils.druid.detectShapseshift()
 end
 
 local function printHelp()
@@ -36,7 +39,9 @@ function SlashCmdList.RMS(msg, editBox)
         RuthesMS.utils.summon.summonRandomMultipleMount()
     elseif msg == "minimap" then      --/rms minimap - will toggle minimap button
         RuthesMS.buttons.minimapButton.toggleMinimap()
-    elseif msg == "help" then         --/rms help - will display help message
+        --elseif msg == "druidPet" then     --/rms druidPet will summon a random pet based on your current form
+        --RuthesMS.utils.druid.summonDruidPet()
+    elseif msg == "help" then --/rms help - will display help message
         printHelp()
     else
         if not RuthesMS.frames.mountSelectorFrame.frame:IsShown() then -- /rms - will toggle the mount selector window
