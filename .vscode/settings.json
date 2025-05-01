@@ -39,7 +39,9 @@
         "ToggleCharacter",
         "LE_PET_JOURNAL_FILTER_COLLECTED",
         "LE_PET_JOURNAL_FILTER_NOT_COLLECTED",
-        "class"
+        "class",
+        "GameTooltip",
+        "AuraUtil"
     ],
     "Lua.diagnostics.disable": [
         "assign-type-mismatch"

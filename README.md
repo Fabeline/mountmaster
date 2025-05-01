@@ -20,6 +20,7 @@ The addon can be installed by Curseforge, or you can download it manually.
 - You can choose to summon only favorite pets
 - you can choose to prefer class specific pets (for some classes)
 - You can choose to not summon pets while in instances
+- Added new store mounts
 
 ### ver 1.5.0
 - Added support for filtering by expansion.

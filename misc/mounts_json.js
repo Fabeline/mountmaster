@@ -14231,6 +14231,33 @@ mounts = [
     "is_small": "true",
     "expansion": "TWW",
     "looks": "pretty"
+  },
+  {
+    id: 2343,
+    name: "Meeksi Softpaw",
+    skeleton_type: "bear",
+    color: "white",
+    secondary_color: "gray",
+    is_small: "true",
+    expansion: "TWW",
+  },
+  {
+    id: 2525,
+    name: "Prophet's Great Raven",
+    skeleton_type: "bird",
+    color: "black",
+    secondary_color: "red",
+    is_small: "",
+    expansion: "TWW",
+  },  
+  {
+    id: 2529,
+    name: "Archmage's Great Raven",
+    skeleton_type: "bird",
+    color: "white",
+    secondary_color: "",
+    is_small: "",
+    expansion: "TWW",
   }
 ]
 
@@ -14242,7 +14269,8 @@ mounts = [
       skeleton_type: "",
       color: "",
       secondary_color: "",
-      is_small: ""
+      is_small: "",
+      expansion: "TWW",
   },
         
 */

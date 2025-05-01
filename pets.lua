@@ -408,8 +408,8 @@ RuthesMS.data.pets = {
         name = "Animite Broodling",
         type = 3,
         icon = 3155460,
-        race = "turquoise",
-        color = "spider"
+        race = "spider",
+        color = "turquoise"
     },
     {
         speciesID = 3515,
@@ -451,7 +451,8 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 1686580,
         race = "fish",
-        color = "demon",
+        color = "red",
+        warlock = "demon",
         flying = "true"
     },
     {
@@ -641,7 +642,7 @@ RuthesMS.data.pets = {
         name = "Archetype of Serenity",
         type = 9,
         icon = 3778580,
-        race = "smaoø",
+        race = "snail",
         color = "gray"
     },
     {
@@ -778,8 +779,8 @@ RuthesMS.data.pets = {
         name = "Ashenwing",
         type = 6,
         icon = 4007140,
-        race = "red",
-        color = "emu",
+        race = "emu",
+        color = "red",
         flying = "true"
     },
     {
@@ -805,8 +806,8 @@ RuthesMS.data.pets = {
         name = "Ashstone Core",
         type = 7,
         icon = 237011,
-        race = "white",
-        color = "elemental"
+        race = "elemental",
+        color = "white"
     },
     {
         speciesID = 1324,
@@ -866,8 +867,8 @@ RuthesMS.data.pets = {
         name = "Axebeak Hatchling",
         type = 3,
         icon = 1045158,
-        race = "red",
-        color = "bird",
+        race = "bird",
+        color = "red",
         flying = "true"
     },
     {
@@ -984,8 +985,8 @@ RuthesMS.data.pets = {
         name = "Baby Stonehide",
         type = 8,
         icon = 1387706,
-        race = "gray",
-        color = "stag"
+        race = "stag",
+        color = "gray"
     },
     {
         speciesID = 1828,
@@ -1226,8 +1227,8 @@ RuthesMS.data.pets = {
         name = "Biletoad",
         type = 9,
         icon = 237579,
-        race = "orange",
-        color = "snail"
+        race = "snail",
+        color = "orange"
     },
     {
         speciesID = 4645,
@@ -1757,8 +1758,8 @@ RuthesMS.data.pets = {
         name = "Bouncer",
         type = 8,
         icon = 5755546,
-        race = "gray",
-        color = "spider"
+        race = "spider",
+        color = "gray"
     },
     {
         speciesID = 2892,
@@ -1791,8 +1792,8 @@ RuthesMS.data.pets = {
         name = "Brightfeather",
         type = 3,
         icon = 3998672,
-        race = "red",
-        color = "bird",
+        race = "bird",
+        color = "red",
         flying = "true"
     },
     {
@@ -1958,16 +1959,16 @@ RuthesMS.data.pets = {
         name = "Bubbling Pustule",
         type = 6,
         icon = 3459800,
-        race = "red",
-        color = "elemental"
+        race = "elemental",
+        color = "red"
     },
     {
         speciesID = 2479,
         name = "Bucketshell",
         type = 9,
         icon = 2061890,
-        race = "red",
-        color = "snail"
+        race = "snail",
+        color = "red"
     },
     {
         speciesID = 3330,
@@ -2164,8 +2165,8 @@ RuthesMS.data.pets = {
         name = "Celestial Calf",
         type = 6,
         icon = 1338948,
-        race = "ghost",
-        color = "kodo"
+        race = "kodo",
+        color = "ghost"
     },
     {
         speciesID = 255,
@@ -2226,8 +2227,8 @@ RuthesMS.data.pets = {
         name = "Cheddar",
         type = 7,
         icon = 5008078,
-        race = "yellow",
-        color = "crocodile"
+        race = "crocodile",
+        color = "yellow"
     },
     {
         speciesID = 474,
@@ -2250,8 +2251,8 @@ RuthesMS.data.pets = {
         name = "Chestnut",
         type = 5,
         icon = 4528722,
-        race = "gray",
-        color = "wolf"
+        race = "wolf",
+        color = "gray"
     },
     {
         speciesID = 1303,
@@ -2512,8 +2513,8 @@ RuthesMS.data.pets = {
         name = "Coastal Bounder",
         type = 9,
         icon = 804966,
-        race = "orange",
-        color = "snail"
+        race = "snail",
+        color = "orange"
     },
     {
         speciesID = 1914,
@@ -2750,8 +2751,8 @@ RuthesMS.data.pets = {
         name = "Corpulent Bonetusk",
         type = 8,
         icon = 3456126,
-        race = "pink",
-        color = "kodo"
+        race = "kodo",
+        color = "pink"
     },
     {
         speciesID = 2091,
@@ -2808,8 +2809,8 @@ RuthesMS.data.pets = {
         name = "Court Scribe",
         type = 6,
         icon = 355498,
-        race = "red",
-        color = "kite",
+        race = "kite",
+        color = "red",
         mage = "book"
     },
     {
@@ -3121,7 +3122,7 @@ RuthesMS.data.pets = {
         name = "Crystal Spider",
         type = 8,
         icon = 132196,
-        race = "Spider",
+        race = "spider",
         color = "ghost"
     },
     {
@@ -3574,8 +3575,8 @@ RuthesMS.data.pets = {
         name = "Devourling",
         type = 8,
         icon = 3924117,
-        race = "blue",
-        color = "bear"
+        race = "bear",
+        color = "blue"
     },
     {
         speciesID = 3361,
@@ -3918,8 +3919,8 @@ RuthesMS.data.pets = {
         name = "Duskytooth Snooter",
         type = 8,
         icon = 2205590,
-        race = "black",
-        color = "rat"
+        race = "rat",
+        color = "black"
     },
     {
         speciesID = 1778,
@@ -4934,7 +4935,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 2103796,
         race = "bear",
-        color = "brpwm",
+        color = "brown",
         druid = "moonkin"
     },
     {
@@ -5075,7 +5076,7 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 1100173,
         race = "elemental",
-        color = "Brulee"
+        color = "blue"
     },
     {
         speciesID = 1627,
@@ -5687,8 +5688,8 @@ RuthesMS.data.pets = {
         name = "Gold Mini Jouster",
         type = 3,
         icon = 132200,
-        race = "white",
-        color = "bird"
+        race = "bird",
+        color = "white"
     },
     {
         speciesID = 2387,
@@ -5735,8 +5736,8 @@ RuthesMS.data.pets = {
         name = "Golden Dawnfeather",
         type = 3,
         icon = 667690,
-        race = "yellow",
-        color = "emu"
+        race = "emu",
+        color = "yellow"
     },
     {
         speciesID = 142,
@@ -5767,8 +5768,8 @@ RuthesMS.data.pets = {
         name = "Golden Pig",
         type = 5,
         icon = 133784,
-        race = "yellow",
-        color = "bear"
+        race = "bear",
+        color = "yellow"
     },
     {
         speciesID = 2711,
@@ -6050,7 +6051,7 @@ RuthesMS.data.pets = {
         type = 4,
         icon = 2492254,
         race = "gargoyle",
-        color = "wite"
+        color = "white"
     },
     {
         speciesID = 1725,
@@ -6179,8 +6180,8 @@ RuthesMS.data.pets = {
         name = "Hap'he",
         type = 6,
         icon = 4093847,
-        race = "ghost",
-        color = "rat"
+        race = "rat",
+        color = "ghost"
     },
     {
         speciesID = 2591,
@@ -6418,16 +6419,16 @@ RuthesMS.data.pets = {
         name = "Horned Lizard",
         type = 8,
         icon = 463491,
-        race = "purple",
-        color = "crocodile"
+        race = "crocodile",
+        color = "purple"
     },
     {
         speciesID = 483,
         name = "Horny Toad",
         type = 9,
         icon = 237579,
-        race = "purple",
-        color = "crocodile"
+        race = "crocodile",
+        color = "purple"
     },
     {
         speciesID = 2484,
@@ -6467,8 +6468,8 @@ RuthesMS.data.pets = {
         name = "Hyacinth Macaw",
         type = 3,
         icon = 132921,
-        race = "blue",
-        color = "bird"
+        race = "bird",
+        color = "blue"
     },
     {
         speciesID = 1541,
@@ -6476,7 +6477,7 @@ RuthesMS.data.pets = {
         type = 9,
         icon = 463493,
         race = "dragon",
-        color = "bøie"
+        color = "blue"
     },
     {
         speciesID = 2547,
@@ -7440,8 +7441,8 @@ RuthesMS.data.pets = {
         name = "Leyhart",
         type = 5,
         icon = 3636845,
-        race = "gray",
-        color = "stag"
+        race = "stag",
+        color = "gray"
     },
     {
         speciesID = 1808,
@@ -8138,7 +8139,7 @@ RuthesMS.data.pets = {
         type = 6,
         icon = 3729719,
         race = "mechanical",
-        color = "Blackwater"
+        color = "black"
     },
     {
         speciesID = 3131,
@@ -8807,7 +8808,7 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 4096555,
         race = "mechanical",
-        color = "grau"
+        color = "gray"
     },
     {
         speciesID = 2681,
@@ -9511,7 +9512,7 @@ RuthesMS.data.pets = {
         type = 3,
         icon = 656318,
         race = "emu",
-        color = "Greenlands"
+        color = "green"
     },
     {
         speciesID = 265,
@@ -10392,7 +10393,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 1383844,
         race = "stag",
-        color = "broan"
+        color = "brown"
     },
     {
         speciesID = 744,
@@ -12157,8 +12158,8 @@ RuthesMS.data.pets = {
         name = "Somnius",
         type = 8,
         icon = 4532351,
-        race = "gray",
-        color = "bear"
+        race = "bear",
+        color = "gray"
     },
     {
         speciesID = 4300,
@@ -12215,7 +12216,7 @@ RuthesMS.data.pets = {
         type = 7,
         icon = 1044088,
         race = "elemental",
-        color = "burning",
+        color = "fire",
         shaman = "true",
     },
     {
@@ -12497,8 +12498,8 @@ RuthesMS.data.pets = {
         name = "Spriggan Trickster",
         type = 1,
         icon = 3536179,
-        race = "pink",
-        color = "gargoyle",
+        race = "gargoyle",
+        color = "pink",
         shaman = "true"
     },
     {
@@ -13072,8 +13073,8 @@ RuthesMS.data.pets = {
         name = "Swoglet",
         type = 9,
         icon = 1802889,
-        race = "black",
-        color = "snail"
+        race = "snail",
+        color = "black"
     },
     {
         speciesID = 1478,
@@ -14487,7 +14488,7 @@ RuthesMS.data.pets = {
         type = 5,
         icon = 132935,
         race = "Rat",
-        color = "blueRed",
+        color = "blue",
         priest = "shadow"
     },
     {
@@ -15339,7 +15340,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 797328,
         race = "dinosaur",
-        color = "bnrown"
+        color = "brown"
     },
     {
         speciesID = 1582,

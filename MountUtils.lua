@@ -90,7 +90,7 @@ local function getAvailableMounts()
         local isUtilityMount = RuthesMS.utils.summon.isUtilityMount(mountID)
 
         -- Uncomment to output missing mounts
-        -- local mountInfo = findMountByID(mountID)
+        -- local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
         -- if not mountInfo then
         --     print("Missing> Name: " .. name .. ", mountID: " .. mountID)
         -- end

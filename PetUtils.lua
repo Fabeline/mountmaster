@@ -33,6 +33,11 @@ local function getAvailablePets()
             i)
         local petInfo = getPetInfoBySpeciesId(thisSpeciesID)
 
+        -- Uncomment to output missing pets
+        -- if not petInfo then
+        --     print("Missing pet> Name: " .. speciesName .. ", speciesID: " .. thisSpeciesID .. ", type: " .. type)
+        -- end
+
         if petInfo and isOwned then
             table.insert(availablePets, {
                 petGUID = petGUID,
