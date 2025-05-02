@@ -14,7 +14,7 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ### ver 1.6.1
 - Bugfixes:
-    - Some default values were cleared on reset
+    - Some settings were cleared on reset
     - Fix for druid pet types
 
 ### ver 1.6.0
