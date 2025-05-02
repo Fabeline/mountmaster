@@ -14,9 +14,10 @@ local function InitializeConfig()
             dontIncludeUtilityMounts = false,
             globalKeybinds = false,
 
-            noPetsInInstance = true,
-            summonPetFromMount = true,
-            summonPetFromDruidForm = true,
+            allowPetsInInstance = false,
+            dontSummonPetFromMount = false,
+            dontSummonPetFromDruidForm = false,
+
             useOnlyPetFavourites = false,
             useClassPets = false,
             useDruidGlyphOfTheStars = false,
@@ -73,10 +74,11 @@ local function InitializeConfig()
     RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
     RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
 
-    RuthesMS.settings.summonPetFromMount = MountSelectorCharacterConfig.summonPetFromMount or true
-    RuthesMS.settings.summonPetFromDruidForm = MountSelectorCharacterConfig.summonPetFromDruidForm or true
+    RuthesMS.settings.summonPetFromMount = not MountSelectorCharacterConfig.dontSummonPetFromMount or false
+    RuthesMS.settings.summonPetFromDruidForm = not MountSelectorCharacterConfig.dontSummonPetFromDruidForm or false
+    RuthesMS.settings.noPetsInInstance = not MountSelectorCharacterConfig.allowPetsInInstance or false
+
     RuthesMS.settings.useOnlyPetFavourites = MountSelectorCharacterConfig.useOnlyPetFavourites or false
-    RuthesMS.settings.noPetsInInstance = MountSelectorCharacterConfig.noPetsInInstance or true
     RuthesMS.settings.useClassPets = MountSelectorCharacterConfig.useClassPets or false
     RuthesMS.settings.useDruidGlyphOfTheStars = MountSelectorCharacterConfig.useDruidGlyphOfTheStars or false
 
@@ -140,12 +142,12 @@ local function saveGlobalKeybinds(shouldUse)
 end
 
 local function saveSummonPetFromMount(shouldUse)
-    MountSelectorCharacterConfig.summonPetFromMount = shouldUse
+    MountSelectorCharacterConfig.dontSummonPetFromMount = not shouldUse
     RuthesMS.settings.summonPetFromMount = shouldUse
 end
 
 local function saveSummonPetFromDruidForm(shouldUse)
-    MountSelectorCharacterConfig.summonPetFromDruidForm = shouldUse
+    MountSelectorCharacterConfig.dontSummonPetFromDruidForm = not shouldUse
     RuthesMS.settings.summonPetFromDruidForm = shouldUse
 end
 
@@ -155,7 +157,7 @@ local function saveUseOnlyPetFavourites(shouldUse)
 end
 
 local function saveNoPetsInInstance(shouldUse)
-    MountSelectorCharacterConfig.noPetsInInstance = shouldUse
+    MountSelectorCharacterConfig.allowPetsInInstance = not shouldUse
     RuthesMS.settings.noPetsInInstance = shouldUse
 end
 

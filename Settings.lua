@@ -7,6 +7,7 @@ RuthesMS = {
         useOnlyFavourites = false,
         smallMountInInstance = false,
         dontIncludeUtilityMounts = false,
+        noPetsInInstance = false,
         globalKeybinds = false,
         summonPetFromMount = false,
         useOnlyPetFavourites = false,

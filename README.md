@@ -12,6 +12,11 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.6.1
+- Bugfixes:
+    - Some default values were cleared on reset
+    - Fix for druid pet types
+
 ### ver 1.6.0
 - Added support for summoning matching pets
     - When mounting

@@ -191,4 +191,5 @@ RuthesMS.utils.mount = {
     reloadMounts = reloadMounts,
     isSteadyFlightActive = isSteadyFlightActive,
     canSummonMount = canSummonMount,
+    detectMountSummon = detectMountSummon
 }

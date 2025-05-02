@@ -23,7 +23,6 @@ local function getPetInfoBySpeciesId(speciesID)
     print("No pet found with species ID: " .. speciesID)
 end
 
-
 local function getAvailablePets()
     local availablePets = {}
     local numPets, _ = C_PetJournal.GetNumPets()
@@ -201,7 +200,7 @@ local function filterByClass(petList)
         return true
     end
 
-    --print("englishClass: " .. englishClass)
+    -- print("englishClass: " .. englishClass)
 
     if (englishClass == "WARLOCK") then
         checkFunction = function(pet) return pet.warlock end
@@ -212,7 +211,11 @@ local function filterByClass(petList)
     elseif (englishClass == "MAGE") then
         checkFunction = function(pet) return pet.mage end
     elseif (englishClass == "DRUID") then
-        checkFunction = function(pet) return pet.druid or PetTypes["Beast"] or PetTypes["Critter"] end
+        checkFunction = function(pet)
+            return pet.druid or
+                pet.type == PetTypes["Beast"] or
+                pet.type == PetTypes["Critter"]
+        end
     elseif (englishClass == "EVOKER") then
         checkFunction = function(pet) return pet.type == PetTypes["Dragonkin"] end
     elseif (englishClass == "HUNTER") then

@@ -3244,7 +3244,7 @@ RuthesMS.data.pets = {
         name = "Dancing Water Skimmer",
         type = 9,
         icon = 643423,
-        race = "insec",
+        race = "insect",
         color = "yellow"
     },
     {
@@ -9051,7 +9051,7 @@ RuthesMS.data.pets = {
         name = "Nibbles",
         type = 5,
         icon = 1129035,
-        race = "wof",
+        race = "wolf",
         color = "red",
         warlock = "felhound"
     },
@@ -10425,7 +10425,7 @@ RuthesMS.data.pets = {
         name = "Restored Revenant",
         type = 4,
         icon = 2030683,
-        race = "ratedSoloShuffleData",
+        race = "rat",
         color = "brown",
         deathknight = "true"
     },
@@ -13365,7 +13365,7 @@ RuthesMS.data.pets = {
         name = "Tickbird Hatchling",
         type = 3,
         icon = 132192,
-        race = "bord",
+        race = "bird",
         color = "brown"
     },
     {
@@ -15307,15 +15307,15 @@ RuthesMS.data.pets = {
         name = "Zandalari Anklerender",
         type = 8,
         icon = 797326,
-        race = "turquoise",
-        color = "yellow"
+        race = "dinosaur",
+        color = "turquoise"
     },
     {
         speciesID = 1212,
         name = "Zandalari Footslasher",
         type = 8,
         icon = 797327,
-        race = "dinosur",
+        race = "dinosaur",
         color = "yellow"
     },
     {
@@ -15331,7 +15331,7 @@ RuthesMS.data.pets = {
         name = "Zandalari Shinchomper",
         type = 8,
         icon = 797327,
-        race = "dinosur",
+        race = "dinosaur",
         color = "red"
     },
     {

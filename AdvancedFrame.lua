@@ -63,7 +63,7 @@ local function createFrame()
     -- Heading
     local heading = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
     heading:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin + 5, currentY)
-    heading:SetText("Settings for non-utility summons")
+    heading:SetText("Settings for non-utility mount summons")
     currentY = currentY - lineHeight
 
     -- Only favorites
@@ -77,7 +77,7 @@ local function createFrame()
 
     local favoriteLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     favoriteLabel:SetPoint("LEFT", favoriteCheckbox, "RIGHT", checkboxMargin, 0)
-    favoriteLabel:SetText("Only use favorites")
+    favoriteLabel:SetText("Only use favorite mounts")
     currentY = currentY - lineHeight
 
     -- Small in instances
@@ -160,7 +160,7 @@ local function createFrame()
     -- Heading
     local heading3 = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
     heading3:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin + 5, currentY)
-    heading3:SetText("Class specific settings")
+    heading3:SetText("Class specific pet settings")
     currentY = currentY - lineHeight
 
     -- Summon pet from druid form
@@ -179,16 +179,16 @@ local function createFrame()
 
 
     -- Use Druid Glyph of Stars
-    local useDruidGlyphOfTheStars = CreateFrame("CheckButton", "UseDruidGlyphOfTheStarsCheckbox", advancedFrame,
+    useDruidGlyphOfTheStarsCheckbox = CreateFrame("CheckButton", "UseDruidGlyphOfTheStarsCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
-    useDruidGlyphOfTheStars:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
-    useDruidGlyphOfTheStars:SetScript("OnClick", function(self)
+    useDruidGlyphOfTheStarsCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
+    useDruidGlyphOfTheStarsCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveUseDruidGlyphOfTheStars(self:GetChecked())
         RuthesMS.buttons.mountButtons.reload()
     end)
 
     local useDruidGlyphOfTheStarsLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    useDruidGlyphOfTheStarsLabel:SetPoint("LEFT", useDruidGlyphOfTheStars, "RIGHT", checkboxMargin, 0)
+    useDruidGlyphOfTheStarsLabel:SetPoint("LEFT", useDruidGlyphOfTheStarsCheckbox, "RIGHT", checkboxMargin, 0)
     useDruidGlyphOfTheStarsLabel:SetText("Using glyph stars for druids")
     currentY = currentY - lineHeight
 
