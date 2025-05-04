@@ -170,7 +170,7 @@ local function summonRandomMailboxMount()
     C_MountJournal.SummonByID(availableMailboxMounts[randomIndex])
 end
 
-local function summonRandomMount(isSwimming)
+local function summonRandomMount(isSwimming, onlySmall)
     if IsMounted() then
         Dismount()
         return
@@ -190,19 +190,23 @@ local function summonRandomMount(isSwimming)
             local aquaticMounts = {}
 
             for _, mount in ipairs(RuthesMS.state.currentMounts) do
-                if mount.isFlying then -- flying and aquatic if steady flight is active
-                    table.insert(flyingMounts, mount)
-                    -- Mounts with flying and aquatic have a bug where they are only fast
-                    -- underwater if steady flight is active
-                    if mount.isAquatic and RuthesMS.utils.mount.isSteadyFlightActive() then
+                if (onlySmall and mount.is_small ~= "true") then
+                    -- Skip mounts that are not small
+                else
+                    if mount.isFlying then -- flying and aquatic if steady flight is active
+                        table.insert(flyingMounts, mount)
+                        -- Mounts with flying and aquatic have a bug where they are only fast
+                        -- underwater if steady flight is active
+                        if mount.isAquatic and RuthesMS.utils.mount.isSteadyFlightActive() then
+                            table.insert(aquaticMounts, mount)
+                        end
+                    elseif mount.isAquatic then -- aquatic and not flying
                         table.insert(aquaticMounts, mount)
                     end
-                elseif mount.isAquatic then -- aquatic and not flying
-                    table.insert(aquaticMounts, mount)
-                end
 
-                if ((not mount.isFlying or RuthesMS.utils.mount.hasGroundAnim(mount.id, mount.skeleton_type)) and not mount.isAquatic) then
-                    table.insert(groundMounts, mount)
+                    if ((not mount.isFlying or RuthesMS.utils.mount.hasGroundAnim(mount.id, mount.skeleton_type)) and not mount.isAquatic) then
+                        table.insert(groundMounts, mount)
+                    end
                 end
             end
 

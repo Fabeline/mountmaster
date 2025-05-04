@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.6.4
+- Added new button for only summoning small mounts
+
 ### ver 1.6.2
 - Added new mounts and pets for 11.1.7
 

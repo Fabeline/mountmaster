@@ -124,7 +124,8 @@ local function getAvailableMounts()
                     secondary_color = mountInfo.secondary_color,
                     skeleton_type = mountInfo.skeleton_type,
                     expansion = mountInfo.expansion,
-                    looks = mountInfo.looks
+                    looks = mountInfo.looks,
+                    is_small = mountInfo.is_small,
                 })
             end
         end

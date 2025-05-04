@@ -25,6 +25,8 @@ SLASH_RMS1 = "/rms"
 function SlashCmdList.RMS(msg, editBox)
     if msg == "summon" then           -- /rms summon - will summon a random mount
         RuthesMS.utils.summon.summonRandomMount(false)
+    elseif msg == "summonsmall" then  -- /rms summonsmall - will summon a random small mount
+        RuthesMS.utils.summon.summonRandomMount(false, true)
     elseif msg == "summonswim" then   -- /rms summonswim - will summon a random swimming mount
         RuthesMS.utils.summon.summonRandomMount(true)
     elseif msg == "repair" then       -- /rms repair - will summon a random repair mount

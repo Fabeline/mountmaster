@@ -2,6 +2,9 @@ Check that it works on ptr
 
 - Remove .gitignore !!
 - Remove x_copyFiles.bat !!
+- remove .wago !!
+
+Search for print outputs that are not commented out
 
 Update ## Interface
 Update ## Version

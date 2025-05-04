@@ -13,6 +13,14 @@ local keybindTable = {
         macroName = "RMS normal"
     },
     {
+        label = "Normal/flying & small",
+        name = "small",
+        iconPath = "Interface\\Icons\\Inv_alpacamount_brown",
+        icon = "Inv_alpacamount_brown",
+        macro = "/rms summonsmall",
+        macroName = "RMS small"
+    },
+    {
         label = "Aquatic",
         name = "aquatic",
         iconPath = "Interface\\Icons\\inv_stingray2mount_teal",
@@ -73,6 +81,7 @@ local function applySummonKeyBinding()
     end
 
     bindKey(RuthesMS.keybinds.normal, "RuthesMSRandomMountButton")
+    bindKey(RuthesMS.keybinds.small, "RuthesMSRandomSmallMountButton")
     bindKey(RuthesMS.keybinds.aquatic, "RuthesMSRandomAquaticMountButton")
     bindKey(RuthesMS.keybinds.repair, "RuthesMSRandomRepairMountButton")
     bindKey(RuthesMS.keybinds.transmog, "RuthesMSRandomTransmogMountButton")

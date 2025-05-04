@@ -24,6 +24,7 @@ local function InitializeConfig()
 
             keybinds = {
                 normal = "",
+                small = "",
                 aquatic = "",
                 repair = "",
                 transmog = "",
@@ -38,6 +39,7 @@ local function InitializeConfig()
         MountSelectorGlobalConfig = {
             keybinds = {
                 normal = "",
+                small = "",
                 aquatic = "",
                 repair = "",
                 transmog = "",
@@ -57,6 +59,7 @@ local function InitializeConfig()
             MountSelectorCharacterConfig.summonKey or -- Backward compatibility for summonKey
             standardKey,
         aquatic = MountSelectorCharacterConfig.keybinds.aquatic or "",
+        small = MountSelectorCharacterConfig.keybinds.small or "",
         repair = MountSelectorCharacterConfig.keybinds.repair or "",
         transmog = MountSelectorCharacterConfig.keybinds.transmog or "",
         mailbox = MountSelectorCharacterConfig.keybinds.mailbox or "",
