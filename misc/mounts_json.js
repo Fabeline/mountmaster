@@ -14240,6 +14240,7 @@ mounts = [
     secondary_color: "gray",
     is_small: "true",
     expansion: "TWW",
+    looks: "cute"
   },
   {
     id: 2525,
@@ -14249,6 +14250,7 @@ mounts = [
     secondary_color: "red",
     is_small: "",
     expansion: "TWW",
+    looks: "pretty"
   },  
   {
     id: 2529,
@@ -14258,7 +14260,148 @@ mounts = [
     secondary_color: "",
     is_small: "",
     expansion: "TWW",
-  }
+    looks: "pretty"
+  },
+  {
+    id: 2518,
+    name: "Chrono Corsair",
+    skeleton_type: "dragon",
+    color: "black",
+    secondary_color: "",
+    is_small: "",
+    expansion: "TWW",
+    looks: "silly"
+  },
+  {
+    id: 2572,
+    name: "Banshee's Chilling Charger",
+    skeleton_type: "horse",
+    color: "blue",
+    secondary_color: "",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "scary"
+  },
+  {
+      id: 2575,
+      name: "Grandmaster's Fire Board",
+      skeleton_type: "kite",
+      color: "red",
+      secondary_color: "gray",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "neutral"
+  },
+  {
+    id: 2576,
+    name: "Grandmaster's Deep Board",
+    skeleton_type: "kite",
+    color: "blue",
+    secondary_color: "brown",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "neutral"
+  },
+  {
+    id: 2577,
+    name: "Grandmaster's Royal Board",
+    skeleton_type: "kite",
+    color: "yellow",
+    secondary_color: "white",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "neutral"
+  },
+  {
+    id: 2578,
+    name: "Grandmaster's Smokey Board",
+    skeleton_type: "kite",
+    color: "green",
+    secondary_color: "white",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "neutral"
+},
+{
+    id: 2579,
+    name: "Banshee's Grotesque Charger",
+    skeleton_type: "horse",
+    color: "green",
+    secondary_color: "purple",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "scary"
+},
+{
+    id: 2580,
+    name: "Banshee's Putrid Charger",
+    skeleton_type: "horse",
+    color: "purple",
+    secondary_color: "red",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "scary"
+},
+{
+    id: 2581,
+    name: "Banshee's Sickening Charger",
+    skeleton_type: "horse",
+    color: "yellow",
+    secondary_color: "brown",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "scary"
+},
+{
+    id: 2582,
+    name: "Shaohao's Sage Serpent",
+    skeleton_type: "dragon",
+    color: "green",
+    secondary_color: "ghost",
+    is_small: "",
+    expansion: "TWW",
+    looks: "pretty"
+},
+{
+    id: 2586,
+    name: "Moonlit Nightsaber",
+    skeleton_type: "cat",
+    color: "white",
+    secondary_color: "",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "pretty"
+},
+{
+    id: 2587,
+    name: "Ivory Savagemane",
+    skeleton_type: "dinosaur",
+    color: "white",
+    secondary_color: "",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "pretty"
+},
+{
+    id: 2600,
+    name: "Unarmored Deathtusk Felboar",
+    skeleton_type: "bear",
+    color: "green",
+    secondary_color: "",
+    is_small: "true",
+    expansion: "TWW",
+    looks: "scary"
+},
+
+
+
+
+
+
+
+
+
+
 ]
 
 /*
@@ -14271,6 +14414,7 @@ mounts = [
       secondary_color: "",
       is_small: "",
       expansion: "TWW",
+      looks: ""
   },
         
 */

@@ -1,6 +1,7 @@
 Check that it works on ptr
-Remove .gitignore
-Remove x_copyFiles.bat
+
+- Remove .gitignore !!
+- Remove x_copyFiles.bat !!
 
 Update ## Interface
 Update ## Version

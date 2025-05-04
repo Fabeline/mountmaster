@@ -20,7 +20,7 @@ local function getPetInfoBySpeciesId(speciesID)
             return allPets[i]
         end
     end
-    print("No pet found with species ID: " .. speciesID)
+    -- print("No pet found with species ID: " .. speciesID)
 end
 
 local function getAvailablePets()

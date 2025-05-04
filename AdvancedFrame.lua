@@ -189,7 +189,7 @@ local function createFrame()
 
     local useDruidGlyphOfTheStarsLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     useDruidGlyphOfTheStarsLabel:SetPoint("LEFT", useDruidGlyphOfTheStarsCheckbox, "RIGHT", checkboxMargin, 0)
-    useDruidGlyphOfTheStarsLabel:SetText("Using glyph stars for druids")
+    useDruidGlyphOfTheStarsLabel:SetText("Using glyph of stars for druids")
     currentY = currentY - lineHeight
 
     -- Use only class pets

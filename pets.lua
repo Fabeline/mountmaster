@@ -8703,7 +8703,8 @@ RuthesMS.data.pets = {
         type = 9,
         icon = 327502,
         race = "emu",
-        color = "white"
+        color = "white",
+        druid = "moonkin"
     },
     {
         speciesID = 2575,
@@ -14733,7 +14734,7 @@ RuthesMS.data.pets = {
         type = 8,
         icon = 6642732,
         race = "wolf",
-        color = "black"
+        color = "various"
     },
     {
         speciesID = 84,
@@ -15455,5 +15456,35 @@ RuthesMS.data.pets = {
         race = "Elemental",
         color = "purple",
         priest = "shadow"
+    },
+    {
+        speciesID = 4849,
+        name = "Floatsam Harvester",
+        type = 10,
+        icon = 1,
+        race = "mechanical",
+        color = "brown"
+    },
+    {
+        speciesID = 4852,
+        name = "Lil' Daz'ti",
+        type = 8,
+        icon = 1,
+        race = "dinosaur",
+        color = "white"
     }
 }
+
+--[[]
+
+,
+    {
+        speciesID = ,
+        name = "",
+        type = ,
+        icon = ,
+        race = "",
+        color = ""
+    }
+
+]] --
