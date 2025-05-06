@@ -7,6 +7,7 @@ local function afterAddonLoaded()
     RuthesMS.utils.pet.getAvailablePets()
 
     RuthesMS.utils.druid.detectShapseshift()
+    RuthesMS.utils.pet.detectDismountAndDismiss()
 end
 
 local function printHelp()

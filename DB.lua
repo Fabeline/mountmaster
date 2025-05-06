@@ -17,6 +17,7 @@ local function InitializeConfig()
             allowPetsInInstance = false,
             dontSummonPetFromMount = false,
             dontSummonPetFromDruidForm = false,
+            dismissPetOnUnmount = false,
 
             useOnlyPetFavourites = false,
             useClassPets = false,
@@ -76,6 +77,7 @@ local function InitializeConfig()
     RuthesMS.settings.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
     RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
     RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
+    RuthesMS.settings.dismissPetOnUnmount = MountSelectorCharacterConfig.dismissPetOnUnmount or false
 
     RuthesMS.settings.summonPetFromMount = not MountSelectorCharacterConfig.dontSummonPetFromMount or false
     RuthesMS.settings.summonPetFromDruidForm = not MountSelectorCharacterConfig.dontSummonPetFromDruidForm or false
@@ -154,6 +156,11 @@ local function saveSummonPetFromDruidForm(shouldUse)
     RuthesMS.settings.summonPetFromDruidForm = shouldUse
 end
 
+local function saveDismissPetOnUnmount(shouldUse)
+    MountSelectorCharacterConfig.dismissPetOnUnmount = shouldUse
+    RuthesMS.settings.dismissPetOnUnmount = shouldUse
+end
+
 local function saveUseOnlyPetFavourites(shouldUse)
     MountSelectorCharacterConfig.useOnlyPetFavourites = shouldUse
     RuthesMS.settings.useOnlyPetFavourites = shouldUse
@@ -187,6 +194,7 @@ RuthesMS.db = {
     saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
     saveGlobalKeybinds = saveGlobalKeybinds,
 
+    saveDismissPetOnUnmount = saveDismissPetOnUnmount,
     saveSummonPetFromMount = saveSummonPetFromMount,
     saveSummonPetFromDruidForm = saveSummonPetFromDruidForm,
     saveUseOnlyPetFavourites = saveUseOnlyPetFavourites,

@@ -319,10 +319,25 @@ local function summonPetFromMount(mount)
     end
 end
 
+local function detectDismountAndDismiss()
+    local f = CreateFrame("Frame")
+    f:RegisterEvent("PLAYER_MOUNT_DISPLAY_CHANGED")
+
+    f:SetScript("OnEvent", function(self, event)
+        if not IsMounted() and RuthesMS.settings.dismissPetOnUnmount then
+            local petGUID = C_PetJournal.GetSummonedPetGUID()
+            if petGUID then
+                C_PetJournal.SummonPetByGUID(petGUID)
+            end
+        end
+    end)
+end
+
 
 
 RuthesMS.utils.pet = {
     summonRandomPet = summonPetFromMount,
     summonPetByRace = summonPetByRace,
     getAvailablePets = getAvailablePets,
+    detectDismountAndDismiss = detectDismountAndDismiss,
 }

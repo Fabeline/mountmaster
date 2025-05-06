@@ -8,6 +8,7 @@ local useOnlyPetFavourites
 local noPetsInInstanceCheckbox
 local useClassPetsCheckbox
 local useDruidGlyphOfTheStarsCheckbox
+local dismissPetOnUnmountCheckbox
 
 local lineHeight = 25
 local currentY = 0
@@ -49,6 +50,10 @@ local function reloadCheckboxes()
 
     if useDruidGlyphOfTheStarsCheckbox then
         useDruidGlyphOfTheStarsCheckbox:SetChecked(RuthesMS.settings.useDruidGlyphOfTheStars)
+    end
+
+    if dismissPetOnUnmountCheckbox then
+        dismissPetOnUnmountCheckbox:SetChecked(RuthesMS.settings.dismissPetOnUnmount)
     end
 end
 
@@ -155,6 +160,20 @@ local function createFrame()
     local noPetsInInstanceLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     noPetsInInstanceLabel:SetPoint("LEFT", noPetsInInstanceCheckbox, "RIGHT", checkboxMargin, 0)
     noPetsInInstanceLabel:SetText("No pets in instances")
+    currentY = currentY - lineHeight
+
+    -- Dismiss pet on unmount
+    dismissPetOnUnmountCheckbox = CreateFrame("CheckButton", "DismissPetOnUnmountCheckbox", advancedFrame,
+        "ChatConfigCheckButtonTemplate")
+    dismissPetOnUnmountCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
+    dismissPetOnUnmountCheckbox:SetScript("OnClick", function(self)
+        RuthesMS.db.saveDismissPetOnUnmount(self:GetChecked())
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+
+    local dismissPetOnUnmountLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    dismissPetOnUnmountLabel:SetPoint("LEFT", dismissPetOnUnmountCheckbox, "RIGHT", checkboxMargin, 0)
+    dismissPetOnUnmountLabel:SetText("Dismiss pet on unmount")
     currentY = currentY - lineHeight * 2
 
     -- Heading
