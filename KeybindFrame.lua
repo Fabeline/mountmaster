@@ -10,23 +10,29 @@ local keybindTable = {
         iconPath = "Interface\\Icons\\Ability_Mount_RidingHorse",
         icon = "Ability_Mount_RidingHorse",
         macro = "/rms summon",
-        macroName = "RMS normal"
+        macroName = "RMS normal",
+        tooltip = "Summon a random flying or ground mount, \nbased on your current zone."
     },
     {
-        label = "Normal/flying & small",
+        label = "Normal/flying small",
         name = "small",
         iconPath = "Interface\\Icons\\Inv_alpacamount_brown",
         icon = "Inv_alpacamount_brown",
         macro = "/rms summonsmall",
-        macroName = "RMS small"
+        macroName = "RMS small",
+        tooltip =
+        "Summon a random flying or ground mount, \nbased on your current zone.\nIt will always pick a small mount."
     },
+
     {
         label = "Aquatic",
         name = "aquatic",
         iconPath = "Interface\\Icons\\inv_stingray2mount_teal",
         icon = "inv_stingray2mount_teal",
         macro = "/rms summonswim",
-        macroName = "RMS aquatic"
+        macroName = "RMS aquatic",
+        tooltip =
+        "Summon a random aquatic mount. \nNote that aquatic mounts that can fly will only \ncount as aquatic if you are using steady flying."
     },
     {
         label = "Repair",
@@ -69,6 +75,7 @@ local keybindTable = {
         macroName = "RMS multiple"
     }
 }
+
 
 local function applySummonKeyBinding()
     ClearOverrideBindings(RuthesMS.frames.mountSelectorFrame.frame)
@@ -284,6 +291,28 @@ local function createKeybindFrame()
             value.macro,                                                                   -- Macro body
             value.icon                                                                     -- Macro icon
         )
+
+        -- Tooltip
+        if (value.tooltip) then
+            local icon = CreateFrame("Button", nil, keybindFrame)
+            icon:SetSize(15, 15)
+            icon:SetPoint("LEFT", keybindLabel, "RIGHT", 5, 0)
+
+            local texture = icon:CreateTexture(nil, "BACKGROUND")
+            texture:SetAllPoints()
+            texture:SetTexture("Interface\\FriendsFrame\\InformationIcon")
+
+            icon:EnableMouse(true)
+            icon:SetScript("OnEnter", function(self)
+                GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+                GameTooltip:SetText(value.tooltip)
+                GameTooltip:SetAlpha(0)
+                GameTooltip:Show()
+            end)
+            icon:SetScript("OnLeave", function()
+                GameTooltip:Hide()
+            end)
+        end
     end
 
     -- Character specific checkbox

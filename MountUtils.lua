@@ -191,6 +191,5 @@ RuthesMS.utils.mount = {
     findMountByID = findMountByID,
     reloadMounts = reloadMounts,
     isSteadyFlightActive = isSteadyFlightActive,
-    canSummonMount = canSummonMount,
-    detectMountSummon = detectMountSummon
+    canSummonMount = canSummonMount
 }

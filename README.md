@@ -13,7 +13,7 @@ The addon can be installed by Curseforge, or you can download it manually.
 ## Changelog
 
 ### ver 1.6.5
-- Added option to dismiss pet when unmounting
+- Added option to dismiss pet when dismounting
 
 ### ver 1.6.4
 - Added new button for only summoning small mounts

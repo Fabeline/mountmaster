@@ -145,7 +145,7 @@ local function createFrame()
 
     local useOnlyPetFavouritesLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     useOnlyPetFavouritesLabel:SetPoint("LEFT", useOnlyPetFavourites, "RIGHT", checkboxMargin, 0)
-    useOnlyPetFavouritesLabel:SetText("Use only pet favorites")
+    useOnlyPetFavouritesLabel:SetText("Only use favorite pets")
     currentY = currentY - lineHeight
 
     -- No pets in instances

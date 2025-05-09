@@ -6668,7 +6668,8 @@ mounts = [
     "color": "blue",
     "is_small": "true",
     "expansion": "Legion",
-    "looks": "scary"
+    "looks": "scary",
+    "pet": "Dart"
   },
   {
     "name": "Amethyst Ruinstrider",
@@ -7027,7 +7028,8 @@ mounts = [
     "skeleton_type": "snail",
     "color": "Green",
     "expansion": "BFA",
-    "looks": "silly"
+    "looks": "silly",
+    "pet": "Spawn of Krag'wa"
   },
   {
     "name": "Honeyback Harvester",
@@ -7038,7 +7040,8 @@ mounts = [
     "color": "orange",
     "is_small": true,
     "expansion": "BFA",
-    "looks": "pretty"
+    "looks": "pretty",
+    "pet": "Honey Bee"
   },
   {
     "name": "Dapple Gray",
@@ -7308,7 +7311,8 @@ mounts = [
     "color": "gray",
     "is_small": "true",
     "expansion": "BFA",
-    "looks": "scary"
+    "looks": "scary",
+    "pet": "Dart"
   },
   {
     "name": "Teldrassil Hippogryph",
@@ -7734,7 +7738,8 @@ mounts = [
     "skeleton_type": "snail",
     "color": "Blue",
     "expansion": "BFA",
-    "looks": "silly"
+    "looks": "silly",
+    "pet": "Tragg the Curious"
   },
   {
     "name": "Yellow Marsh Hopper",
@@ -8282,7 +8287,8 @@ mounts = [
     "skeleton_type": "insect",
     "color": "black",
     "expansion": "BFA",
-    "looks": "scary"
+    "looks": "scary",
+    "pet": "Bumbles"
   },
   {
     "name": "Black Serpent of N'Zoth",
@@ -8506,7 +8512,8 @@ mounts = [
     "color": "blue",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    "pet": "Animite Broodling"
   },
   {
     "name": "Horrid Dredwing",
@@ -8611,7 +8618,8 @@ mounts = [
     "color": "purple",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    "pet": "Shadowbarb Hatchling"
   },
   {
     "name": "Wicked Swarmer",
@@ -8622,7 +8630,8 @@ mounts = [
     "color": "red",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    "pet": "Ra'kim"
   },
   {
     "name": "Wriggling Parasite",
@@ -9016,7 +9025,8 @@ mounts = [
     "color": "blue",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    "pet": "Devouring Animite"
   },
   {
     "name": "Inquisition Gargon",
@@ -9699,7 +9709,8 @@ mounts = [
     "skeleton_type": "gargoyle",
     "color": "various",
     "expansion": "Shadowlands",
-    "looks": "silly"
+    "looks": "silly",
+    "pet": "Blossoming Ancient"
   },
   {
     "name": "Vicious War Gorm",
@@ -10426,7 +10437,8 @@ mounts = [
     "skeleton_type": "snail",
     "color": "blue",
     "expansion": "Shadowlands",
-    "looks": "tough"
+    "looks": "tough",
+    "pet": "Archetype of Serenity"
   },
   {
     "name": "Shimmering Aurelid",
@@ -10550,7 +10562,8 @@ mounts = [
     "skeleton_type": "snail",
     "color": "gray",
     "expansion": "Shadowlands",
-    "looks": "tough"
+    "looks": "tough",
+    "pet": "Bufonid Croaker"
   },
   {
     "name": "Prototype Leaper",
@@ -10560,7 +10573,8 @@ mounts = [
     "skeleton_type": "snail",
     "color": "red",
     "expansion": "Shadowlands",
-    "looks": "tough"
+    "looks": "tough",
+    "pet": "Bufonid Croaker"
   },
   {
     "name": "Russet Bufonid",
@@ -10570,7 +10584,8 @@ mounts = [
     "skeleton_type": "snail",
     "color": "red",
     "expansion": "Shadowlands",
-    "looks": "tough"
+    "looks": "tough",
+    "pet": "Venomous Bufonid"
   },
   {
     "name": "Cosmic Gladiator's Soul Eater",
@@ -10944,7 +10959,8 @@ mounts = [
     "color": "green",
     "is_small": true,
     "expansion": "Dragonflight",
-    "looks": "pretty"
+    "looks": "pretty",
+    "pet": "Palamanther"
   },
   {
     "name": "Coralscale Salamanther",
@@ -10955,7 +10971,8 @@ mounts = [
     "color": "pink",
     "is_small": true,
     "expansion": "Dragonflight",
-    "looks": "pretty"
+    "looks": "pretty",
+    "pet": "Palamanther"
   },
   {
     "name": "Stormhide Salamanther",
@@ -10966,7 +10983,8 @@ mounts = [
     "color": "purple",
     "is_small": true,
     "expansion": "Dragonflight",
-    "looks": "pretty"
+    "looks": "pretty",
+    "pet": "Palamanther"
   },
   {
     "name": "Seething Slug",
@@ -11284,7 +11302,7 @@ mounts = [
     "icon": "inv_rhinoprimalmountice",
     "skeleton_type": "bear",
     "color": "blue",
-    "is_small": "true",
+    "is_small": "false",
     "expansion": "Dragonflight",
     "looks": "scary"
   },
@@ -12738,7 +12756,8 @@ mounts = [
     "secondary_color": "brown",
     "is_small": true,
     "expansion": "TWW",
-    "looks": "neutral"
+    "looks": "neutral",
+    "pet": "Cinderwold Sizzlestinger"
   },
   {
     "name": "Vicious Skyflayer",
@@ -12810,7 +12829,8 @@ mounts = [
     "skeleton_type": "insect",
     "color": "red",
     "is_small": true,
-    "expansion": "TWW"
+    "expansion": "TWW",
+    "pet": "Cinderhoney Emberstinger"
   },
   {
     "name": "Widow's Undercrawler",
