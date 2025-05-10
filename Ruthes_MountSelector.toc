@@ -24,6 +24,7 @@ DruidUtils.lua
 DropdownUtils.lua
 AddonUtils.lua
 SummonUtils.lua
+CharacterUtils.lua
 
 MountSelectorFrame.lua
 MountSelectorScrollFrame.lua

@@ -12,6 +12,10 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.6.6
+- Added "pick for me" checkbox. If checked, will pick the best mount based on race and spec for the player.
+- Performance improvements
+
 ### ver 1.6.5
 - Added option to dismiss pet when dismounting
 

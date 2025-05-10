@@ -1,3 +1,5 @@
+local pickForMeCheckbox
+
 local function createFrame()
     local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
 
@@ -36,12 +38,39 @@ local function createFrame()
     -- UIDropDownMenu_Initialize(looksDropdown, RuthesMS.utils.filterDropdowns.initializeLooksDropdown)
     -- UIDropDownMenu_SetText(looksDropdown, "Select looks")
 
+    -- Pick for me checkbox
+    pickForMeCheckbox = CreateFrame("CheckButton", "PickForMeCheckbox", generalFrame,
+        "ChatConfigCheckButtonTemplate")
+    pickForMeCheckbox:SetPoint("TOPLEFT", generalFrame, "TOPLEFT", 157, -35)
+    pickForMeCheckbox:SetScript("OnClick", function(self)
+        RuthesMS.db.savePickForMe(self:GetChecked())
+
+        if (self:GetChecked()) then
+            skeletonDropdown:SetAlpha(0.35)
+            colorDropdown:SetAlpha(0.35)
+            expansionDropdown:SetAlpha(0.35)
+        else
+            skeletonDropdown:SetAlpha(1)
+            colorDropdown:SetAlpha(1)
+            expansionDropdown:SetAlpha(1)
+        end
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+
+    local pickForMeLabel = generalFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    pickForMeLabel:SetPoint("LEFT", pickForMeCheckbox, "RIGHT", 5, 0)
+    pickForMeLabel:SetText("Pick for me")
+
+
     -- Add refresh button (for favorites)
     local refreshButton = CreateFrame("Button", "RefreshButton", generalFrame, "UIPanelButtonTemplate")
     refreshButton:SetSize(80, 22)
     refreshButton:SetText("Refresh")
     refreshButton:SetPoint("BOTTOM", generalFrame, "BOTTOM", 0, -35)
-    refreshButton:SetScript("OnClick", RuthesMS.buttons.mountButtons.reload)
+    refreshButton:SetScript("OnClick", function()
+        RuthesMS.utils.mount.loadKnownMounts()
+        RuthesMS.buttons.mountButtons.reload()
+    end)
 
     RuthesMS.frames.generalFrame.frame = generalFrame
     RuthesMS.frames.mountSelectorScrollFrame.create()
@@ -59,6 +88,16 @@ local function show()
     generalFrame:Show()
 end
 
+local reloadCheckboxes = function()
+    if RuthesMS.settings.pickForMe then
+        pickForMeCheckbox:SetChecked(true)
+        pickForMeCheckbox:GetScript("OnClick")(pickForMeCheckbox)
+    else
+        pickForMeCheckbox:SetChecked(false)
+        pickForMeCheckbox:GetScript("OnClick")(pickForMeCheckbox)
+    end
+end
+
 
 local function hide()
     local generalFrame = RuthesMS.frames.generalFrame.frame
@@ -71,5 +110,6 @@ RuthesMS.frames.generalFrame = {
     create = createFrame,
     show = show,
     hide = hide,
-    frame = nil
+    frame = nil,
+    reloadCheckboxes = reloadCheckboxes,
 }

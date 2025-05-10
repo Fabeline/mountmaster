@@ -179,7 +179,7 @@ local function createFrame()
     -- Heading
     local heading3 = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
     heading3:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin + 5, currentY)
-    heading3:SetText("Class specific pet settings")
+    heading3:SetText("Class specific settings")
     currentY = currentY - lineHeight
 
     -- Summon pet from druid form
@@ -222,7 +222,7 @@ local function createFrame()
 
     local useClassPetsLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     useClassPetsLabel:SetPoint("LEFT", useClassPetsCheckbox, "RIGHT", checkboxMargin, 0)
-    useClassPetsLabel:SetText("Prefer class specific pets (only for some classes)")
+    useClassPetsLabel:SetText("Prefer class specific pets (only for some specs)")
     currentY = currentY - lineHeight
 
 

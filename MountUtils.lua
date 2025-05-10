@@ -73,6 +73,40 @@ local function hasGroundAnim(mountId, skeleton_type)
     return false;
 end
 
+local function loadKnownMounts()
+    RuthesMS.state.knownMounts = {}
+    for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
+        local name, spellID, icon, _, _, _, isFavorite, _, _, _, isCollected =
+            C_MountJournal.GetMountInfoByID(mountID)
+        local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
+        local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
+        local isUtilityMount = RuthesMS.utils.summon.isUtilityMount(mountID)
+
+
+        local canFly = RuthesMS.utils.mount.isMountFlying(mountType)
+        local canSwim = RuthesMS.utils.mount.isAquaticMount(mountType)
+
+        if (mountInfo and isCollected) then
+            table.insert(RuthesMS.state.knownMounts, {
+                id = mountID,
+                name = name,
+                icon = icon,
+                isFlying = canFly,
+                isAquatic = canSwim,
+                isFavorite = isFavorite,
+                spellID = spellID,
+                color = mountInfo.color,
+                secondary_color = mountInfo.secondary_color,
+                skeleton_type = mountInfo.skeleton_type,
+                expansion = mountInfo.expansion,
+                looks = mountInfo.looks,
+                is_small = mountInfo.is_small,
+                isUtilityMount = isUtilityMount,
+            })
+        end
+    end
+end
+
 local function getAvailableMounts()
     local availableMounts = {}
     local zoneId = C_Map.GetBestMapForUnit("player")
@@ -81,51 +115,38 @@ local function getAvailableMounts()
     -- Use small mounts if in an instance
     local useSmallMounts = (IsInInstance() and RuthesMS.settings.smallMountInInstance)
 
-    for _, mountID in ipairs(C_MountJournal.GetMountIDs()) do
-        local name, spellID, icon, _, isUsable, _, isFavorite, _, _, _, isCollected =
-            C_MountJournal.GetMountInfoByID(mountID)
-
-        local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(mountID)
-
-        local isUtilityMount = RuthesMS.utils.summon.isUtilityMount(mountID)
+    for _, mount in ipairs(RuthesMS.state.knownMounts) do
+        local _, _, _, _, isUsable, _, _, _, _, _, _, _, _ = C_MountJournal.GetMountInfoByID(mount.id)
 
         -- Uncomment to output missing mounts
         -- local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
         -- if not mountInfo then
-        --     print("Missing> Name: " .. name .. ", mountID: " .. mountID)
+        --     print("Missing> Name: " .. name .. ", mountID: " .. mount.id)
         -- end
 
-        if isUsable and isCollected and
-            ((isUtilityMount and not RuthesMS.settings.dontIncludeUtilityMounts) or not isUtilityMount) and
-            ((isFavorite and RuthesMS.settings.useOnlyFavourites) or not RuthesMS.settings.useOnlyFavourites) then
-            local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
-
-            -- Validate mount info and apply small mount filtering
-            if (mountID == 373 and not vashirMountAllowed) then
+        if isUsable and
+            ((mount.isUtilityMount and not RuthesMS.settings.dontIncludeUtilityMounts) or not mount.isUtilityMount) and
+            ((mount.isFavorite and RuthesMS.settings.useOnlyFavourites) or not RuthesMS.settings.useOnlyFavourites) then
+            if (mount.id == 373 and not vashirMountAllowed) then
                 -- skip varshir mount
-            elseif mountInfo and
-                ((useSmallMounts and tostring(mountInfo.is_small) == "true") or not useSmallMounts) then
-                local canFly = RuthesMS.utils.mount.isMountFlying(mountType)
-                local canSwim = RuthesMS.utils.mount.isAquaticMount(mountType)
+            elseif ((useSmallMounts and tostring(mount.is_small) == "true") or not useSmallMounts) then
+                --print(mount.name)
 
-                -- print(name .. ", mountType: " .. mountType )
-
-                -- Add mount to the available list
                 table.insert(availableMounts, {
-                    id = mountID,
-                    name = name,
-                    icon = icon,
-                    isFlying = canFly,
-                    isAquatic = canSwim,
-                    isFavorite = isFavorite,
-                    isSmall = mountInfo.is_small,
-                    spellID = spellID,
-                    color = mountInfo.color,
-                    secondary_color = mountInfo.secondary_color,
-                    skeleton_type = mountInfo.skeleton_type,
-                    expansion = mountInfo.expansion,
-                    looks = mountInfo.looks,
-                    is_small = mountInfo.is_small,
+                    id = mount.id,
+                    name = mount.name,
+                    icon = mount.icon,
+                    isFlying = mount.isFlying,
+                    isAquatic = mount.isAquatic,
+                    isFavorite = mount.isFavorite,
+                    isSmall = mount.is_small,
+                    spellID = mount.spellID,
+                    color = mount.color,
+                    secondary_color = mount.secondary_color,
+                    skeleton_type = mount.skeleton_type,
+                    expansion = mount.expansion,
+                    looks = mount.looks,
+                    is_small = mount.is_small,
                 })
             end
         end
@@ -191,5 +212,7 @@ RuthesMS.utils.mount = {
     findMountByID = findMountByID,
     reloadMounts = reloadMounts,
     isSteadyFlightActive = isSteadyFlightActive,
-    canSummonMount = canSummonMount
+    canSummonMount = canSummonMount,
+    knownMounts = knownMounts,
+    loadKnownMounts = loadKnownMounts,
 }

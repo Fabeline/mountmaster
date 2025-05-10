@@ -265,17 +265,25 @@
     function getAllColors() {
         html = "<ul>";
 
-        const colors = [];
+        const countedColors = []
         mounts.forEach(mount => {
-            if (!colors.includes(mount.color.toLocaleLowerCase())) {
-                colors.push(mount.color.toLocaleLowerCase());
-            }
-            if (mount.secondary_color && !colors.includes(mount.secondary_color.toLocaleLowerCase())) {
-                colors.push(mount.secondary_color.toLocaleLowerCase());
+            const mountColor = mount.color.toLocaleLowerCase();
+            countedColors[mountColor] = (countedColors[mountColor] || 0) + 1;
+
+            if (mount.secondary_color) {
+                const secondaryColor = mount.secondary_color.toLocaleLowerCase();
+                countedColors[secondaryColor] = (countedColors[secondaryColor] || 0) + 1;
             }
         });
 
-        html += colors.map(c => "<li>" + c + "</li>").join('');
+        Object.keys(countedColors).sort((a, b) => {
+            if (countedColors[a] < countedColors[b]) return 1;
+            if (countedColors[a] > countedColors[b]) return -1;
+            return 0;
+        }).forEach(color => {
+            html += `<li>${color} (${countedColors[color]})</li>`;
+        });
+
         html += "</ul>";
         return html;
     }
@@ -283,14 +291,20 @@
     function gettAllSkeletonTypes() {
         html = "<ul>";
 
-        const types = [];
+        const countedTypes = []
         mounts.forEach(mount => {
-            if (!types.includes(mount.skeleton_type.toLocaleLowerCase())) {
-                types.push(mount.skeleton_type.toLocaleLowerCase());
-            }
+            const mountType = mount.skeleton_type.toLocaleLowerCase();
+            countedTypes[mountType] = (countedTypes[mountType] || 0) + 1;
         });
 
-        html += types.map(c => "<li>" + c + "</li>").join('');
+        Object.keys(countedTypes).sort((a, b) => {
+            if (countedTypes[a] < countedTypes[b]) return 1;
+            if (countedTypes[a] > countedTypes[b]) return -1;
+            return 0;
+        }).forEach(type => {
+            html += `<li>${type} (${countedTypes[type]})</li>`;
+        });
+
         html += "</ul>";
         return html;
     }
@@ -382,7 +396,10 @@
                     <input type="number" value="${mount.id}" onchange="updateMountAttribute(${i}, 'id', this.value)">
                 </p>
                 <p class="attribute">Icon:
-                    <input type="text" value="${mount.icon}" onchange="updateMountAttribute(${i}, 'icon', this.value)">
+                    <input type="text" value="${mount.icon || ""}" onchange="updateMountAttribute(${i}, 'icon', this.value)">
+                </p>
+                <p class="attribute">Pet:
+                    <input type="text" value="${mount.pet || ""}" onchange="updateMountAttribute(${i}, 'pet', this.value)">
                 </p>
                 <p class="attribute">Is small:
                     <input style="height: 20px" type="checkbox" ${mount.is_small ? 'checked' : ''} onchange="updateMountAttribute(${i}, 'is_small', this.checked+'')">
@@ -434,7 +451,7 @@
     function generateLuaTable() {
         let luaTable = "RuthesMS.data.mounts = {\n";
         mountsCopy.forEach(mount => {
-            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small || false}", expansion = "${mount.expansion}", looks = "${mount.looks || 'neutral'}" },\n`;
+            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small || false}", expansion = "${mount.expansion}", looks = "${mount.looks || 'neutral'}", pet = "${mount.pet || ""}" },\n`;
         });
         luaTable += "}";
 

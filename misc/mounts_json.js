@@ -332,7 +332,8 @@ mounts = [
     "skeleton_type": "dinosaur",
     "color": "purple",
     "is_small": true,
-    "expansion": "Classic"
+    "expansion": "Classic",
+    pet: "Deviate Hatchling"
   },
   {
     "name": "Red Mechanostrider",
@@ -2428,7 +2429,8 @@ mounts = [
     "skeleton_type": "dinosaur",
     "color": "blue",
     "is_small": true,
-    "expansion": "WotLK"
+    "expansion": "WotLK",
+    pet: "Gundrak Hatchling"
   },
   {
     "name": "Ironforge Ram",
@@ -2593,7 +2595,8 @@ mounts = [
     "skeleton_type": "dinosaur",
     "color": "brown",
     "is_small": true,
-    "expansion": "WotLK"
+    "expansion": "WotLK",
+    pet: "Obsidian Hatchling"
   },
   {
     "name": "Sea Turtle",
@@ -3112,7 +3115,8 @@ mounts = [
     "color": "brown",
     "is_small": true,
     "expansion": "Cataclysm",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Fossilized Hatchling"
   },
   {
     "name": "Goblin Trike",
@@ -3233,7 +3237,8 @@ mounts = [
     "color": "gray",
     "is_small": "true",
     "expansion": "Cataclysm",
-    "looks": "silly"
+    "looks": "silly",
+    pet: "Pygmy Camel"
   },
   {
     "name": "Dark Phoenix",
@@ -3326,7 +3331,8 @@ mounts = [
     "skeleton_type": "dinosaur",
     "color": "Red",
     "is_small": true,
-    "expansion": "Cataclysm"
+    "expansion": "Cataclysm",
+    pet: "Razzashi Hatchling"
   },
   {
     "name": "Swift Zulian Panther",
@@ -4425,7 +4431,8 @@ mounts = [
     "skeleton_type": "dinosaur",
     "color": "blue",
     "is_small": true,
-    "expansion": "MoP"
+    "expansion": "MoP",
+    pet: "Direhorn Hatchling"
   },
   {
     "name": "Ghastly Charger",
@@ -4567,7 +4574,8 @@ mounts = [
     "color": "yellow",
     "is_small": true,
     "expansion": "MoP",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Tiny Direhorn"
   },
   {
     "name": "Crimson Primal Direhorn",
@@ -4788,7 +4796,8 @@ mounts = [
     "color": "red",
     "is_small": true,
     "expansion": "MoP",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Bloodthorn Hatchling"
   },
   {
     "name": "Dread Raven",
@@ -5669,7 +5678,8 @@ mounts = [
     "color": "Red",
     "is_small": true,
     "expansion": "Legion",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Bloodgazer Hatchling"
   },
   {
     "name": "Brilliant Direbeak",
@@ -5681,7 +5691,8 @@ mounts = [
     "secondary_color": "turquoise",
     "is_small": true,
     "expansion": "Legion",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Direbeak Hatchling"
   },
   {
     "name": "Snowfeather Hunter",
@@ -5692,7 +5703,8 @@ mounts = [
     "color": "white",
     "is_small": true,
     "expansion": "Legion",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Snowfeather Hatchling"
   },
   {
     "name": "Viridian Sharptalon",
@@ -5704,7 +5716,8 @@ mounts = [
     "secondary_color": "purple",
     "is_small": true,
     "expansion": "Legion",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Sharptalon Hatchling"
   },
   {
     "name": "Steelbound Devourer",
@@ -6429,7 +6442,8 @@ mounts = [
     "skeleton_type": "crocodile",
     "color": "black",
     "expansion": "Legion",
-    "looks": "tough"
+    "looks": "tough",
+    pet: "Tidal Kroling"
   },
   {
     "id": 934,
@@ -6595,6 +6609,7 @@ mounts = [
     "icon": "inv_argusfelstalkermount",
     "skeleton_type": "gargoyle",
     "color": "brown",
+    "secondary_color": "green",
     "expansion": "Legion",
     "looks": "scary"
   },
@@ -6607,7 +6622,8 @@ mounts = [
     "color": "red",
     "is_small": true,
     "expansion": "Legion",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Dreadtick Leecher"
   },
   {
     "name": "Spectral Pterrorwing",
@@ -7185,7 +7201,8 @@ mounts = [
     "skeleton_type": "dinosaur",
     "color": "green",
     "expansion": "BFA",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Lil' Ben'fon"
   },
   {
     "name": "Tomb Stalker",
@@ -7377,7 +7394,8 @@ mounts = [
     "color": "purple",
     "is_small": true,
     "expansion": "BFA",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Vile Bloodtick"
   },
   {
     "name": "Dusky Waycrest Gryphon",
@@ -7458,7 +7476,8 @@ mounts = [
     "skeleton_type": "crocodile",
     "color": "green",
     "expansion": "BFA",
-    "looks": "tough"
+    "looks": "tough",
+    pet: "Tidal Kroling"
   },
   {
     "name": "Broken Highland Mustang",
@@ -7555,7 +7574,8 @@ mounts = [
     "color": "red",
     "is_small": true,
     "expansion": "BFA",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Lashtail Hatchling"
   },
   {
     "name": "Witherbark Direwing",
@@ -7825,7 +7845,8 @@ mounts = [
     "skeleton_type": "crocodile",
     "color": "blue",
     "expansion": "BFA",
-    "looks": "tough"
+    "looks": "tough",
+    pet: "Tidal Kroling"
   },
   {
     "name": "Rubyshell Krolusk",
@@ -7835,7 +7856,8 @@ mounts = [
     "skeleton_type": "crocodile",
     "color": "red",
     "expansion": "BFA",
-    "looks": "tough"
+    "looks": "tough",
+    pet: "Rusty Kroling"
   },
   {
     "name": "Priestess' Moonsaber",
@@ -8359,7 +8381,8 @@ mounts = [
     "skeleton_type": "serpent",
     "color": "orange",
     "expansion": "BFA",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Anima Wyrmling"
   },
   {
     "name": "Squeakers, the Trickster",
@@ -8718,7 +8741,8 @@ mounts = [
     "color": "blue",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Fuzzy Shimmermoth"
   },
   {
     "name": "Steamscale Incinerator",
@@ -8847,7 +8871,8 @@ mounts = [
     "color": "purple",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Dusty Sporeflutterer"
   },
   {
     "name": "Spinemaw Gladechewer",
@@ -9446,7 +9471,8 @@ mounts = [
     "secondary_color": "pink",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Amber Glitterwing"
   },
   {
     "name": "Vibrant Flutterwing",
@@ -9457,7 +9483,8 @@ mounts = [
     "color": "white",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Starmoth"
   },
   {
     "name": "Desertwing Hunter",
@@ -9489,7 +9516,8 @@ mounts = [
     "skeleton_type": "insect",
     "color": "blue",
     "is_small": true,
-    "expansion": "Shadowlands"
+    "expansion": "Shadowlands",
+    pet: "Archetype of Malice"
   },
   {
     "name": "Deepstar Aurelid",
@@ -9677,7 +9705,8 @@ mounts = [
     "color": "blue",
     "is_small": "true",
     "expansion": "Shadowlands",
-    "looks": "pretty"
+    "looks": "pretty",
+    pet: "Gnashtooth"
   },
   {
     "name": "Beryl Shardhide",
@@ -9773,7 +9802,8 @@ mounts = [
     "skeleton_type": "insect",
     "color": "orange",
     "expansion": "Dragonflight",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Shyfly"
   },
   {
     "name": "Magmashell",
@@ -9981,7 +10011,8 @@ mounts = [
     "color": "green",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Wild Corpsefly"
   },
   {
     "name": "Regal Corpsefly",
@@ -9992,7 +10023,8 @@ mounts = [
     "color": "green",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Wild Corpsefly"
   },
   {
     "name": "Battlefield Swarmer",
@@ -10003,7 +10035,8 @@ mounts = [
     "color": "green",
     "is_small": true,
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Wild Corpsefly"
   },
   {
     "name": "Sanctum Gloomcharger",
@@ -10157,7 +10190,8 @@ mounts = [
     "skeleton_type": "bear",
     "color": "blue",
     "is_small": "true",
-    "expansion": "Shadowlands"
+    "expansion": "Shadowlands",
+    pet: "Devourling"
   },
   {
     "name": "Bound Blizzard",
@@ -10293,7 +10327,8 @@ mounts = [
     "skeleton_type": "insect",
     "color": "red",
     "is_small": true,
-    "expansion": "Shadowlands"
+    "expansion": "Shadowlands",
+    pet: "Bloodsucker Vespoid"
   },
   {
     "name": "Buzz",
@@ -10303,7 +10338,8 @@ mounts = [
     "skeleton_type": "insect",
     "color": "gray",
     "is_small": true,
-    "expansion": "Shadowlands"
+    "expansion": "Shadowlands",
+    pet: "Bloodsucker Vespoid"
   },
   {
     "name": "Bronzewing Vespoid",
@@ -10313,7 +10349,8 @@ mounts = [
     "skeleton_type": "insect",
     "color": "orange",
     "is_small": true,
-    "expansion": "Shadowlands"
+    "expansion": "Shadowlands",
+    pet: "Bloodsucker Vespoid"
   },
   {
     "name": "Mawdapted Raptora",
@@ -10375,7 +10412,8 @@ mounts = [
     "skeleton_type": "spider",
     "color": "blue",
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Archetype of Predation"
   },
   {
     "name": "Tarachnid Creeper",
@@ -10385,7 +10423,8 @@ mounts = [
     "skeleton_type": "spider",
     "color": "black",
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Tarachnid Stalker"
   },
   {
     "name": "Ineffable Skitterer",
@@ -10395,7 +10434,8 @@ mounts = [
     "skeleton_type": "spider",
     "color": "red",
     "expansion": "Shadowlands",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Tarachnid Ambusher"
   },
   {
     "name": "Wastewarped Deathwalker",
@@ -10917,7 +10957,8 @@ mounts = [
     "color": "blue",
     "secondary_color": "gray",
     "expansion": "Dragonflight",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Black Skitterbug"
   },
   {
     "name": "Azure Skitterfly",
@@ -10927,7 +10968,8 @@ mounts = [
     "skeleton_type": "insect",
     "color": "blue",
     "expansion": "Dragonflight",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Blue Dasher"
   },
   {
     "name": "Verdant Skitterfly",
@@ -12809,7 +12851,8 @@ mounts = [
     "color": "white",
     "secondary_color": "brown",
     "is_small": true,
-    "expansion": "TWW"
+    "expansion": "TWW",
+    pet: "Azure Flickerfly"
   },
   {
     "name": "Soaring Meaderbee",
@@ -12927,7 +12970,8 @@ mounts = [
     "skeleton_type": "snail",
     "color": "pink",
     "expansion": "TWW",
-    "looks": "scary"
+    "looks": "scary",
+    pet: "Common Ploughworm"
   },
   {
     "name": "[PH] Blue Old God Fish Mount",
@@ -13803,7 +13847,8 @@ mounts = [
     "color": "purple",
     "is_small": true,
     "expansion": "TWW",
-    "looks": "cute"
+    "looks": "cute",
+    pet: "Child of Jani"
   },
   {
     "id": 2342,

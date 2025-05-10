@@ -12,12 +12,14 @@ RuthesMS = {
         summonPetFromMount = false,
         useOnlyPetFavourites = false,
         useDruidGlyphOfTheStars = false,
+        pickForme = false,
     },
     keybinds = {
     },
     state = {
         currentMounts = {},
-        availableMounts = {}
+        availableMounts = {},
+        knownMounts = {},
     },
     frames = {
         contentFrame = {},
@@ -47,7 +49,8 @@ RuthesMS = {
         filter = {},
         addon = {},
         summon = {},
-        druid = {}
+        druid = {},
+        character = {},
     },
     db = {}
 }
