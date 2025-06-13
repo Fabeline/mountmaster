@@ -512,6 +512,14 @@ RuthesMS.data.pets = {
         color = "black"
     },
     {
+        speciesID = 4466,
+        name = "Argos",
+        icon = 5648284,
+        type = 8,
+        race = "cat",
+        color = "gray"
+    },
+    {
         speciesID = 2720,
         name = "Arachnoid Skitterbot",
         type = 10,

@@ -102,6 +102,7 @@ local function loadKnownMounts()
                 looks = mountInfo.looks,
                 is_small = mountInfo.is_small,
                 isUtilityMount = isUtilityMount,
+                className = mountInfo.className
             })
         end
     end
@@ -119,9 +120,9 @@ local function getAvailableMounts()
         local _, _, _, _, isUsable, _, _, _, _, _, _, _, _ = C_MountJournal.GetMountInfoByID(mount.id)
 
         -- Uncomment to output missing mounts
-        -- local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
+        -- local mountInfo = RuthesMS.utils.mount.findMountByID(mount.id)
         -- if not mountInfo then
-        --     print("Missing> Name: " .. name .. ", mountID: " .. mount.id)
+        --     print("Missing> Name: " .. mount.name .. ", mountID: " .. mount.id)
         -- end
 
         if isUsable and
@@ -147,6 +148,7 @@ local function getAvailableMounts()
                     expansion = mount.expansion,
                     looks = mount.looks,
                     is_small = mount.is_small,
+                    className = mount.className
                 })
             end
         end
@@ -213,6 +215,5 @@ RuthesMS.utils.mount = {
     reloadMounts = reloadMounts,
     isSteadyFlightActive = isSteadyFlightActive,
     canSummonMount = canSummonMount,
-    knownMounts = knownMounts,
     loadKnownMounts = loadKnownMounts,
 }

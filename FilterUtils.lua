@@ -26,6 +26,20 @@ local function hasType(mount, types)
     return false
 end
 
+local function hasLook(mount, looks)
+    if #looks == 0 then
+        return true
+    end
+
+    for _, look in ipairs(looks) do
+        if (mount.looks == look) then
+            return true
+        end
+    end
+
+    return false
+end
+
 local function hasSelectedColor(mount)
     if #RuthesMS.settings.selectedColors == 0 then
         return true
@@ -63,15 +77,21 @@ end
 -- Filter mounts based on selected color and type
 local function filterMounts(availableMounts)
     local filteredMounts = {}
-    local colors = RuthesMS.utils.character.getColorForSpec()
-    local types = RuthesMS.utils.character.getTypeFromRace()
 
+    local specId = RuthesMS.utils.character.getSpecId()
+    local race = RuthesMS.utils.character.getRace()
+    local className = RuthesMS.utils.character.getClassName() or ""
+
+    local colors = RuthesMS.utils.character.getColorForSpec(specId)
+    local types = RuthesMS.utils.character.getTypeFromRace(race)
+    local looks = RuthesMS.utils.character.getLooksForSpec(specId)
 
     for i = 1, #availableMounts do
         local currentMount = availableMounts[i]
 
         if (RuthesMS.settings.pickForMe) then
-            if (hasColor(currentMount, colors) and hasType(currentMount, types)) then
+            if ((hasColor(currentMount, colors) and hasType(currentMount, types)) and hasLook(currentMount, looks))
+                or (currentMount.className and string.lower(currentMount.className) == string.lower(className)) then
                 table.insert(filteredMounts, currentMount)
             end
         else

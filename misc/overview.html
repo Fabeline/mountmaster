@@ -262,6 +262,27 @@
         return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
     }
 
+    function getAllLooks() {
+        html = "<ul>";
+
+        const countedLooks = []
+        mounts.forEach(mount => {
+            const mountLooks = mount.looks && mount.looks.toLocaleLowerCase();
+            countedLooks[mountLooks] = (countedLooks[mountLooks] || 0) + 1;
+        });
+
+        Object.keys(countedLooks).sort((a, b) => {
+            if (countedLooks[a] < countedLooks[b]) return 1;
+            if (countedLooks[a] > countedLooks[b]) return -1;
+            return 0;
+        }).forEach(looks => {
+            html += `<li>${looks} (${countedLooks[looks]})</li>`;
+        });
+
+        html += "</ul>";
+        return html;
+    }
+
     function getAllColors() {
         html = "<ul>";
 
@@ -346,6 +367,7 @@
 
         output += getAllColors();
         output += gettAllSkeletonTypes();
+        output += getAllLooks();
 
         mounts.forEach((mount, i) => {
             const useIconNameForImage = mountsImageByIconName.indexOf(getIconName(mount.icon)) > -1;
@@ -398,12 +420,17 @@
                 <p class="attribute">Icon:
                     <input type="text" value="${mount.icon || ""}" onchange="updateMountAttribute(${i}, 'icon', this.value)">
                 </p>
+                <p class="attribute">ClassName:
+                    <input type="text" value="${mount.className || ""}" onchange="updateMountAttribute(${i}, 'className', this.value)">
+                </p>
+                
                 <p class="attribute">Pet:
                     <input type="text" value="${mount.pet || ""}" onchange="updateMountAttribute(${i}, 'pet', this.value)">
                 </p>
                 <p class="attribute">Is small:
                     <input style="height: 20px" type="checkbox" ${mount.is_small ? 'checked' : ''} onchange="updateMountAttribute(${i}, 'is_small', this.checked+'')">
                 </p>
+
                 <!-- p class="attribute">Ground anim:
                     <input style="height: 20px; margin-left: -10px;" type="checkbox" ${mount.has_ground_anim ? 'checked' : ''} onchange="updateMountAttribute(${i}, 'has_ground_anim', this.checked+'')">
                 </p -->                 
@@ -451,7 +478,7 @@
     function generateLuaTable() {
         let luaTable = "RuthesMS.data.mounts = {\n";
         mountsCopy.forEach(mount => {
-            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small || false}", expansion = "${mount.expansion}", looks = "${mount.looks || 'neutral'}", pet = "${mount.pet || ""}" },\n`;
+            luaTable += `    { id = ${mount.id}, name = "${mount.name}", skeleton_type = "${mount.skeleton_type}", color = "${mount.color}", secondary_color = "${mount.secondary_color || ""}", is_small = "${mount.is_small || false}", expansion = "${mount.expansion}", looks = "${mount.looks || 'neutral'}", pet = "${mount.pet || ""}", className = "${mount.className || ""}" },\n`;
         });
         luaTable += "}";
 
