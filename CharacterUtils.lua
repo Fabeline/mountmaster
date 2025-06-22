@@ -190,9 +190,9 @@ local looksForSpecs = {
     [1473] = { "pretty", "neutral", "cute", "silly", "tough", "scary" }, -- Augmentation
 
     -- Hunter
-    [253] = { "pretty", "neutral", "cute", "tough", "scary", "silly", },  -- Beast Mastery
-    [254] = { "pretty", "neutral", "cute", "tough", "scary", "silly", },  -- Marksmanship
-    [255] = { "pretty", "neutral", "cute", "tough", "scary", "silly", },  -- Survival
+    [253] = { "pretty", "neutral", "cute", "tough", "scary", "silly", }, -- Beast Mastery
+    [254] = { "pretty", "neutral", "cute", "tough", "scary", "silly", }, -- Marksmanship
+    [255] = { "pretty", "neutral", "cute", "tough", "scary", "silly", }, -- Survival
 
     -- Mage
     [62] = { "pretty", "neutral", "cute", "silly", "tough", "scary" }, -- Arcane

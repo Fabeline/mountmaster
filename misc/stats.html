@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mount Stats</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            cursor: pointer;
+        }
+
+        th.sort-asc::after {
+            content: " \25B2";
+        }
+
+        th.sort-desc::after {
+            content: " \25BC";
+        }
+    </style>
+    <script src="mounts_json.js"></script>
+    <script src="mount_data.js"></script>
+</head>
+
+<body>
+    <h2>Mount stats</h2>
+    <table id="statsTable">
+        <thead>
+            <tr>
+                <th data-column="specId">Spec ID</th>
+                <th data-column="specName">Spec Name</th>
+                <th data-column="raceName">Race Name</th>
+                <th data-column="mountCount">Mount Count</th>
+            </tr>
+        </thead>
+        <tbody id="statsBody">
+            <!-- Filled by JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const specNames = {
+                250: "Blood DK", 251: "Frost DK", 252: "Unholy DK",
+                577: "Havoc DH", 581: "Vengeance DH",
+                102: "Balance Druid", 9999: "Balance (Glyph)", 103: "Feral Druid", 104: "Guardian Druid", 105: "Restoration Druid",
+                1467: "Devastation Evoker", 1468: "Preservation Evoker", 1473: "Augmentation Evoker",
+                253: "Beast Mastery Hunter", 254: "Marksmanship Hunter", 255: "Survival Hunter",
+                62: "Arcane Mage", 63: "Fire Mage", 64: "Frost Mage",
+                268: "Brewmaster Monk", 270: "Mistweaver Monk", 269: "Windwalker Monk",
+                65: "Holy Paladin", 66: "Protection Paladin", 70: "Retribution Paladin",
+                256: "Discipline Priest", 257: "Holy Priest", 258: "Shadow Priest",
+                259: "Assassination Rogue", 260: "Outlaw Rogue", 261: "Subtlety Rogue",
+                262: "Elemental Shaman", 263: "Enhancement Shaman", 264: "Restoration Shaman",
+                265: "Affliction Warlock", 266: "Demonology Warlock", 267: "Destruction Warlock",
+                71: "Arms Warrior", 72: "Fury Warrior", 73: "Protection Warrior"
+            };
+
+            const raceNames = {
+                Human: "Human",
+                Dwarf: "Dwarf",
+                NightElf: "Night Elf",
+                Gnome: "Gnome",
+                Draenei: "Draenei",
+                Worgen: "Worgen",
+                Pandaren: "Pandaren",
+                VoidElf: "Void Elf",
+                LightforgedDraenei: "Lightforged Draenei",
+                DarkIronDwarf: "Dark Iron Dwarf",
+                KulTiran: "Kul Tiran",
+                Mechagnome: "Mechagnome",
+                Orc: "Orc",
+                Scourge: "Undead",
+                Tauren: "Tauren",
+                Troll: "Troll",
+                BloodElf: "Blood Elf",
+                Goblin: "Goblin",
+                Nightborne: "Nightborne",
+                HighmountainTauren: "Highmountain Tauren",
+                MagharOrc: "Mag'har Orc",
+                ZandalariTroll: "Zandalari Troll",
+                Vulpera: "Vulpera",
+                EarthenDwarf: "Earthen Dwarf",
+                Dracthyr: "Dracthyr"
+            };
+
+            const races = Object.keys(raceMountPreferences);
+            const specs = Object.keys(specMountTypes).map(Number);
+
+            function mountMatchesFilters(mount, specId, race) {
+                const types = specMountTypes[specId];
+                const racePrefs = raceMountPreferences[race];
+                if (!types || !racePrefs) return false;
+
+                const matchesSpecOrRace = types.includes(mount.skeleton_type) || racePrefs.includes(mount.skeleton_type);
+
+                return matchesSpecOrRace;
+            }
+
+            function generateStatsData() {
+                const rows = [];
+                for (const specId of specs) {
+                    for (const race of races) {
+                        const count = mounts.filter(m => mountMatchesFilters(m, specId, race)).length;
+                        rows.push({
+                            specId,
+                            specName: specNames[specId] || "Unknown",
+                            raceName: raceNames[race] || race,
+                            mountCount: count
+                        });
+                    }
+                }
+                return rows;
+            }
+
+            function renderTable(rows) {
+                const tbody = document.getElementById("statsBody");
+                tbody.innerHTML = "";
+                const fragment = document.createDocumentFragment();
+                for (const row of rows) {
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `<td>${row.specId}</td><td>${row.specName}</td><td>${row.raceName}</td><td>${row.mountCount}</td>`;
+                    fragment.appendChild(tr);
+                }
+                tbody.appendChild(fragment);
+            }
+
+            let currentSort = { column: null, direction: "asc" };
+
+            document.querySelectorAll("th").forEach(th => {
+                th.addEventListener("click", () => {
+                    const col = th.getAttribute("data-column");
+                    const dir = (currentSort.column === col && currentSort.direction === "asc") ? "desc" : "asc";
+                    currentSort = { column: col, direction: dir };
+
+                    document.querySelectorAll("th").forEach(th => th.classList.remove("sort-asc", "sort-desc"));
+                    th.classList.add(dir === "asc" ? "sort-asc" : "sort-desc");
+
+                    const sorted = [...generateStatsData()].sort((a, b) => {
+                        if (a[col] < b[col]) return dir === "asc" ? -1 : 1;
+                        if (a[col] > b[col]) return dir === "asc" ? 1 : -1;
+                        return 0;
+                    });
+
+                    renderTable(sorted);
+                });
+            });
+
+            renderTable(generateStatsData());
+        });
+    </script>
+</body>
+
+</html>
