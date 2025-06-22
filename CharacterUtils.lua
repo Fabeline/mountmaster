@@ -1,32 +1,33 @@
 local BALANCE_GLYPH_OF_STARS = 1122334455
 
-local raceMountPreferences = {
+raceMountPreferences = {
     Human = { "horse", "gryphon", "bird", "dragon" },
     Dwarf = { "bear", "gryphon", "mammoth", "elemental", "kodo", "stag" },
     NightElf = { "stag", "cat", "bird", "serpent" },
     Gnome = { "mechanical", "kite", "rat", "snail" },
     Draenei = { "mammoth", "crocodile", "serpent", "fish", "dragon" },
-    Worgen = { "horse", "bat", "wolf", "gargoyle" },
+    Worgen = { "horse", "bat", "wolf", "gargoyle", "bear" },
     Pandaren = { "dragon", "serpent", "bird", "fish", "crocodile" },
-    VoidElf = { "spider", "elemental", "dragon", "kite", "emu" },
+    VoidElf = { "spider", "elemental", "dragon", "kite", "emu", "bat", "fish" },
     LightforgedDraenei = { "horse", "gryphon", "elemental", "dragon", "mammoth" },
     DarkIronDwarf = { "elemental", "spider", "bear", "gargoyle", "dragon", "rat" },
     KulTiran = { "crocodile", "horse", "bird", "fish" },
     Mechagnome = { "mechanical", "rat", "kite", "spider" },
     Orc = { "wolf", "kodo", "dragon", "dinosaur" },
-    Scourge = { "bat", "spider", "horse", "gargoyle", "elemental" },
+    Scourge = { "bat", "spider", "horse", "gargoyle", "elemental", "insect" },
     Tauren = { "kodo", "bear", "stag", "mammoth" },
     Troll = { "dinosaur", "bat", "bird", "serpent", "crocodile" },
     BloodElf = { "dragon", "bird", "gryphon", "gargoyle", "emu" },
     Goblin = { "mechanical", "insect", "crocodile", "fish" },
     Nightborne = { "cat", "spider", "serpent", "elemental", "dragon" },
     HighmountainTauren = { "bear", "stag", "gryphon", "mammoth" },
-    MagharOrc = { "wolf", "kodo", "dinosaur", "elemental" },
+    MagharOrc = { "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail" },
     ZandalariTroll = { "dinosaur", "bird", "serpent", "crocodile" },
     Vulpera = { "rat", "insect", "cat", "snail", "wolf" },
     EarthenDwarf = { "elemental", "bear", "mechanical", "gryphon", "stag" },
-    Dracthyr = { "dragon", "elemental", "bird" },
+    Dracthyr = { "dragon", "elemental", "bird", "dinosaur" }
 }
+
 
 local specColorThemes = {
     -- Death Knight v

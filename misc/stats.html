@@ -85,6 +85,22 @@
                 71: "Arms Warrior", 72: "Fury Warrior", 73: "Protection Warrior"
             };
 
+            const specClasses = {
+                250: "Death Knight", 251: "Death Knight", 252: "Death Knight",
+                577: "Demon Hunter", 581: "Demon Hunter",
+                102: "Druid", 9999: "Druid", 103: "Druid", 104: "Druid", 105: "Druid",
+                1467: "Evoker", 1468: "Evoker", 1473: "Evoker",
+                253: "Hunter", 254: "Hunter", 255: "Hunter",
+                62: "Mage", 63: "Mage", 64: "Mage",
+                268: "Monk", 270: "Monk", 269: "Monk",
+                65: "Paladin", 66: "Paladin", 70: "Paladin",
+                256: "Priest", 257: "Priest", 258: "Priest",
+                259: "Rogue", 260: "Rogue", 261: "Rogue",
+                262: "Shaman", 263: "Shaman", 264: "Shaman",
+                265: "Warlock", 266: "Warlock", 267: "Warlock",
+                71: "Warrior", 72: "Warrior", 73: "Warrior"
+            };
+
             const raceNames = {
                 Human: "Human", Dwarf: "Dwarf", NightElf: "Night Elf", Gnome: "Gnome", Draenei: "Draenei",
                 Worgen: "Worgen", Pandaren: "Pandaren", VoidElf: "Void Elf", LightforgedDraenei: "Lightforged Draenei",
@@ -93,6 +109,34 @@
                 Goblin: "Goblin", Nightborne: "Nightborne", HighmountainTauren: "Highmountain Tauren",
                 MagharOrc: "Mag'har Orc", ZandalariTroll: "Zandalari Troll", Vulpera: "Vulpera",
                 EarthenDwarf: "Earthen Dwarf", Dracthyr: "Dracthyr"
+            };
+
+            const legalCombos = {
+                Human: ["Death Knight", "Hunter", "Mage", "Monk", "Paladin", "Priest", "Rogue", "Warlock", "Warrior"],
+                Dwarf: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+                NightElf: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Warrior"],
+                Gnome: ["Death Knight", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+                Draenei: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Shaman", "Warrior"],
+                Worgen: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Warrior"],
+                Pandaren: ["Hunter", "Mage", "Monk", "Priest", "Rogue", "Shaman", "Warrior"],
+                VoidElf: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+                LightforgedDraenei: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Warrior"],
+                DarkIronDwarf: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+                KulTiran: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Shaman", "Warrior"],
+                Mechagnome: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+                Orc: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+                Scourge: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+                Tauren: ["Death Knight", "Druid", "Hunter", "Monk", "Paladin", "Priest", "Shaman", "Warrior"],
+                Troll: ["Death Knight", "Druid", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+                BloodElf: ["Death Knight", "Demon Hunter", "Hunter", "Mage", "Monk", "Paladin", "Priest", "Rogue", "Warlock", "Warrior"],
+                Goblin: ["Death Knight", "Hunter", "Mage", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+                Nightborne: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+                HighmountainTauren: ["Death Knight", "Druid", "Hunter", "Mage", "Monk", "Priest", "Shaman", "Warrior"],
+                MagharOrc: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Shaman", "Warrior"],
+                ZandalariTroll: ["Death Knight", "Druid", "Hunter", "Mage", "Monk", "Paladin", "Priest", "Rogue", "Shaman", "Warrior"],
+                Vulpera: ["Death Knight", "Hunter", "Mage", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+                EarthenDwarf: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+                Dracthyr: ["Evoker"]
             };
 
             const races = Object.keys(raceMountPreferences);
@@ -110,7 +154,9 @@
             function generateStatsData() {
                 const rows = [];
                 for (const specId of specs) {
+                    const className = specClasses[specId];
                     for (const race of races) {
+                        if (!legalCombos[race] || !legalCombos[race].includes(className)) continue;
                         const matchedMounts = mounts.filter(m => mountMatchesFilters(m, specId, race));
                         rows.push({
                             specId,
