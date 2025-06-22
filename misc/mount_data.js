@@ -1,4 +1,37 @@
 const raceMountPreferences = {
+  //Small
+  Gnome: [ "mechanical", "kite", "rat", "snail", "emu", "fish", "cat" ],
+  Mechagnome: [ "mechanical", "rat", "kite", "spider", "emu", "fish", "cat" ],
+  Goblin: [ "mechanical", "insect", "crocodile", "fish", "bat", "spider", "cat", "kite" ],
+  Vulpera: [ "rat", "insect", "cat", "snail", "wolf", "kite", "emu", "fish" ],
+  Dwarf: [ "bear", "gryphon", "mammoth", "elemental", "kodo", "stag", "snail", "crocodile", "gargoyle" ],
+  
+  //Normal sized
+  Human: [ "horse", "gryphon", "bird", "dragon", "insect", "crocodile", "bear", "stag" ],
+  NightElf: [ "stag", "cat", "bird", "serpent", "bear", "elemental", "dragon" ],
+  Draenei: [ "mammoth", "crocodile", "serpent", "fish", "dragon", "bear", "insect" ],
+  Worgen: [ "horse", "bat", "wolf", "gargoyle", "bear", "spider", "bat", "dragon", "stag" ],
+  Pandaren: [ "dragon", "serpent", "bird", "fish", "crocodile", "bear", "crocodile", "snail" ],
+  VoidElf: [ "spider", "elemental", "dragon", "kite", "emu", "bat", "fish", "bird", "insect" ],
+  LightforgedDraenei: [ "horse", "gryphon", "elemental", "dragon", "mammoth", "bird", "stag" ],
+  DarkIronDwarf: [ "elemental", "spider", "bear", "gargoyle", "dragon", "rat", "wolf", "snail", "crocodile" ],
+  Orc: [ "wolf", "kodo", "dragon", "dinosaur", "snail", "crocodile", "bear", "dragon" ],
+  Scourge: [ "bat", "spider", "horse", "gargoyle", "elemental", "insect", "dragon", "bear" ],
+  Troll: [ "dinosaur", "bat", "bird", "serpent", "crocodile", "snail", "gargoyle", "mammoth" ],
+  BloodElf: [ "dragon", "bird", "gryphon", "gargoyle", "emu", "cat", "spider", "insect" ],
+  Nightborne: [ "cat", "spider", "serpent", "elemental", "dragon", "spider", "insect", "bear" ],
+  MagharOrc: [ "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail", "mammoth", "crocodile", "dragon" ],
+  EarthenDwarf: [ "elemental", "bear", "mechanical", "gryphon", "stag", "dragon", "snail", "crocodile" ],
+  Dracthyr: [ "dragon", "elemental", "bird", "dinosaur", "serpent", "stag", "cat", "insect" ],
+
+  //Large
+  KulTiran: [ "crocodile", "horse", "bird", "fish", "gargoyle", "serpent", "mammoth", "dragon" ],
+  Tauren: [ "kodo", "bear", "stag", "mammoth", "bird", "dragon", "crocodile", "serpent" ],
+  HighmountainTauren: [ "bear", "stag", "gryphon", "mammoth", "kodo", "crocodile", "serpent", "dragon" ],
+  ZandalariTroll: [ "dinosaur", "bird", "serpent", "crocodile", "gargoyle", "mammoth", "dragon" ],
+};
+
+const raceMountPreferences_old = {
   Human: [ "horse", "gryphon", "bird", "dragon" ],
   Dwarf: [ "bear", "gryphon", "mammoth", "elemental", "kodo", "stag" ],
   NightElf: [ "stag", "cat", "bird", "serpent" ],
@@ -23,8 +56,9 @@ const raceMountPreferences = {
   ZandalariTroll: [ "dinosaur", "bird", "serpent", "crocodile" ],
   Vulpera: [ "rat", "insect", "cat", "snail", "wolf" ],
   EarthenDwarf: [ "elemental", "bear", "mechanical", "gryphon", "stag" ],
-  Dracthyr: [ "dragon", "elemental", "bird", "dinosaur" ]
+  Dracthyr: [ "dragon", "elemental", "bird", "dinosaur", "serpent" ]
 };
+
 
 const BALANCE_GLYPH_OF_STARS = 9999;
 

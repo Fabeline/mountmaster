@@ -1,6 +1,6 @@
 local BALANCE_GLYPH_OF_STARS = 1122334455
 
-raceMountPreferences = {
+local raceMountPreferences = {
     Human = { "horse", "gryphon", "bird", "dragon" },
     Dwarf = { "bear", "gryphon", "mammoth", "elemental", "kodo", "stag" },
     NightElf = { "stag", "cat", "bird", "serpent" },
@@ -25,9 +25,8 @@ raceMountPreferences = {
     ZandalariTroll = { "dinosaur", "bird", "serpent", "crocodile" },
     Vulpera = { "rat", "insect", "cat", "snail", "wolf" },
     EarthenDwarf = { "elemental", "bear", "mechanical", "gryphon", "stag" },
-    Dracthyr = { "dragon", "elemental", "bird", "dinosaur" }
+    Dracthyr = { "dragon", "elemental", "bird", "dinosaur", "serpent" }
 }
-
 
 local specColorThemes = {
     -- Death Knight v
