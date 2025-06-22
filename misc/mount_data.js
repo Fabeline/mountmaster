@@ -1,4 +1,4 @@
-const raceMountPreferences = {
+const raceMountPreferences_more = {
   //Small
   Gnome: [ "mechanical", "kite", "rat", "snail", "emu", "fish", "cat" ],
   Mechagnome: [ "mechanical", "rat", "kite", "spider", "emu", "fish", "cat" ],
@@ -26,12 +26,12 @@ const raceMountPreferences = {
 
   //Large
   KulTiran: [ "crocodile", "horse", "bird", "fish", "gargoyle", "serpent", "mammoth", "dragon" ],
-  Tauren: [ "kodo", "bear", "stag", "mammoth", "bird", "dragon", "crocodile", "serpent" ],
+  Tauren: [ "kodo", "bear", "stag", "mammoth", "bird", "dragon", "crocodile", "serpent", "gargoyle" ],
   HighmountainTauren: [ "bear", "stag", "gryphon", "mammoth", "kodo", "crocodile", "serpent", "dragon" ],
   ZandalariTroll: [ "dinosaur", "bird", "serpent", "crocodile", "gargoyle", "mammoth", "dragon" ],
 };
 
-const raceMountPreferences_old = {
+const raceMountPreferences = {
   Human: [ "horse", "gryphon", "bird", "dragon" ],
   Dwarf: [ "bear", "gryphon", "mammoth", "elemental", "kodo", "stag" ],
   NightElf: [ "stag", "cat", "bird", "serpent" ],
@@ -46,12 +46,12 @@ const raceMountPreferences_old = {
   Mechagnome: [ "mechanical", "rat", "kite", "spider" ],
   Orc: [ "wolf", "kodo", "dragon", "dinosaur" ],
   Scourge: [ "bat", "spider", "horse", "gargoyle", "elemental", "insect" ],
-  Tauren: [ "kodo", "bear", "stag", "mammoth" ],
+  Tauren: [ "kodo", "bear", "stag", "mammoth", "gargoyle" ],
   Troll: [ "dinosaur", "bat", "bird", "serpent", "crocodile" ],
   BloodElf: [ "dragon", "bird", "gryphon", "gargoyle", "emu" ],
   Goblin: [ "mechanical", "insect", "crocodile", "fish" ],
   Nightborne: [ "cat", "spider", "serpent", "elemental", "dragon" ],
-  HighmountainTauren: [ "bear", "stag", "gryphon", "mammoth" ],
+  HighmountainTauren: [ "bear", "stag", "gryphon", "mammoth", "kodo" ],
   MagharOrc: [ "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail" ],
   ZandalariTroll: [ "dinosaur", "bird", "serpent", "crocodile" ],
   Vulpera: [ "rat", "insect", "cat", "snail", "wolf" ],

@@ -77,24 +77,63 @@ end
 -- Filter mounts based on selected color and type
 local function filterMounts(availableMounts)
     local filteredMounts = {}
+    local specId, race, className, colors, types, looks
 
-    local specId = RuthesMS.utils.character.getSpecId()
-    local race = RuthesMS.utils.character.getRace()
-    local className = RuthesMS.utils.character.getClassName() or ""
+    if (RuthesMS.settings.pickForMe) then
+        specId = RuthesMS.utils.character.getSpecId()
+        race = RuthesMS.utils.character.getRace()
+        className = RuthesMS.utils.character.getClassName() or ""
 
-    local colors = RuthesMS.utils.character.getColorForSpec(specId)
-    local types = RuthesMS.utils.character.getTypeFromRace(race)
-    local looks = RuthesMS.utils.character.getLooksForSpec(specId)
+        colors = RuthesMS.utils.character.getColorForSpec(specId)
+        types = RuthesMS.utils.character.getTypeFromRace(race, availableMounts)
+        looks = RuthesMS.utils.character.getLooksForSpec(specId)
 
-    for i = 1, #availableMounts do
-        local currentMount = availableMounts[i]
+        for i = 1, #availableMounts do
+            local currentMount = availableMounts[i]
 
-        if (RuthesMS.settings.pickForMe) then
             if ((hasColor(currentMount, colors) and hasType(currentMount, types)) and hasLook(currentMount, looks))
                 or (currentMount.className and string.lower(currentMount.className) == string.lower(className)) then
                 table.insert(filteredMounts, currentMount)
             end
-        else
+        end
+
+        local minMounts = 7
+
+        -- If there are too few mounts after filtering, only filter by looks and color
+        if (#filteredMounts < minMounts) then
+            filteredMounts = {}
+
+            for i = 1, #availableMounts do
+                local currentMount = availableMounts[i]
+
+                if (hasColor(currentMount, colors) and hasLook(currentMount, looks))
+                    or (currentMount.className and string.lower(currentMount.className) == string.lower(className)) then
+                    table.insert(filteredMounts, currentMount)
+                end
+            end
+        end
+
+        -- If there are still too few mounts, filter only by looks
+        if (#filteredMounts < minMounts) then
+            filteredMounts = {}
+
+            for i = 1, #availableMounts do
+                local currentMount = availableMounts[i]
+
+                if (hasLook(currentMount, looks)) then
+                    table.insert(filteredMounts, currentMount)
+                end
+            end
+        end
+
+        -- If there are still too few mounts, pick all
+        if (#filteredMounts < minMounts) then
+            filteredMounts = availableMounts
+        end
+    else
+        for i = 1, #availableMounts do
+            local currentMount = availableMounts[i]
+
             if (hasSelectedColor(currentMount) and
                     hasSelectedType(currentMount) and
                     hasSelectedLooks(currentMount) and

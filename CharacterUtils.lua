@@ -1,5 +1,12 @@
 local BALANCE_GLYPH_OF_STARS = 1122334455
 
+local allMountTypes = {
+    "horse", "gryphon", "bird", "dragon", "bear", "stag", "cat", "serpent",
+    "mechanical", "kite", "rat", "snail", "mammoth", "crocodile", "fish",
+    "elemental", "spider", "gargoyle", "wolf", "kodo", "dinosaur",
+    "bat", "insect"
+}
+
 local raceMountPreferences = {
     Human = { "horse", "gryphon", "bird", "dragon" },
     Dwarf = { "bear", "gryphon", "mammoth", "elemental", "kodo", "stag" },
@@ -15,18 +22,52 @@ local raceMountPreferences = {
     Mechagnome = { "mechanical", "rat", "kite", "spider" },
     Orc = { "wolf", "kodo", "dragon", "dinosaur" },
     Scourge = { "bat", "spider", "horse", "gargoyle", "elemental", "insect" },
-    Tauren = { "kodo", "bear", "stag", "mammoth" },
+    Tauren = { "kodo", "bear", "stag", "mammoth", "gargoyle" },
     Troll = { "dinosaur", "bat", "bird", "serpent", "crocodile" },
     BloodElf = { "dragon", "bird", "gryphon", "gargoyle", "emu" },
     Goblin = { "mechanical", "insect", "crocodile", "fish" },
     Nightborne = { "cat", "spider", "serpent", "elemental", "dragon" },
-    HighmountainTauren = { "bear", "stag", "gryphon", "mammoth" },
+    HighmountainTauren = { "bear", "stag", "gryphon", "mammoth", "kodo" },
     MagharOrc = { "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail" },
     ZandalariTroll = { "dinosaur", "bird", "serpent", "crocodile" },
     Vulpera = { "rat", "insect", "cat", "snail", "wolf" },
     EarthenDwarf = { "elemental", "bear", "mechanical", "gryphon", "stag" },
     Dracthyr = { "dragon", "elemental", "bird", "dinosaur", "serpent" }
 }
+
+local raceMountPreferences_more = {
+    -- Small
+    Gnome = { "mechanical", "kite", "rat", "snail", "emu", "fish", "cat" },
+    Mechagnome = { "mechanical", "rat", "kite", "spider", "emu", "fish", "cat" },
+    Goblin = { "mechanical", "insect", "crocodile", "fish", "bat", "spider", "cat", "kite" },
+    Vulpera = { "rat", "insect", "cat", "snail", "wolf", "kite", "emu", "fish" },
+    Dwarf = { "bear", "gryphon", "mammoth", "elemental", "kodo", "stag", "snail", "crocodile", "gargoyle" },
+
+    -- Normal sized
+    Human = { "horse", "gryphon", "bird", "dragon", "insect", "crocodile", "bear", "stag" },
+    NightElf = { "stag", "cat", "bird", "serpent", "bear", "elemental", "dragon" },
+    Draenei = { "mammoth", "crocodile", "serpent", "fish", "dragon", "bear", "insect" },
+    Worgen = { "horse", "bat", "wolf", "gargoyle", "bear", "spider", "bat", "dragon", "stag" },
+    Pandaren = { "dragon", "serpent", "bird", "fish", "crocodile", "bear", "crocodile", "snail" },
+    VoidElf = { "spider", "elemental", "dragon", "kite", "emu", "bat", "fish", "bird", "insect" },
+    LightforgedDraenei = { "horse", "gryphon", "elemental", "dragon", "mammoth", "bird", "stag" },
+    DarkIronDwarf = { "elemental", "spider", "bear", "gargoyle", "dragon", "rat", "wolf", "snail", "crocodile" },
+    Orc = { "wolf", "kodo", "dragon", "dinosaur", "snail", "crocodile", "bear", "dragon" },
+    Scourge = { "bat", "spider", "horse", "gargoyle", "elemental", "insect", "dragon", "bear" },
+    Troll = { "dinosaur", "bat", "bird", "serpent", "crocodile", "snail", "gargoyle", "mammoth" },
+    BloodElf = { "dragon", "bird", "gryphon", "gargoyle", "emu", "cat", "spider", "insect" },
+    Nightborne = { "cat", "spider", "serpent", "elemental", "dragon", "spider", "insect", "bear" },
+    MagharOrc = { "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail", "mammoth", "crocodile", "dragon" },
+    EarthenDwarf = { "elemental", "bear", "mechanical", "gryphon", "stag", "dragon", "snail", "crocodile" },
+    Dracthyr = { "dragon", "elemental", "bird", "dinosaur", "serpent", "stag", "cat", "insect" },
+
+    -- Large
+    KulTiran = { "crocodile", "horse", "bird", "fish", "gargoyle", "serpent", "mammoth", "dragon" },
+    Tauren = { "kodo", "bear", "stag", "mammoth", "bird", "dragon", "crocodile", "serpent" },
+    HighmountainTauren = { "bear", "stag", "gryphon", "mammoth", "kodo", "crocodile", "serpent", "dragon" },
+    ZandalariTroll = { "dinosaur", "bird", "serpent", "crocodile", "gargoyle", "mammoth", "dragon" },
+}
+
 
 local specColorThemes = {
     -- Death Knight v
@@ -263,9 +304,21 @@ local function getColorForSpec(specID)
 end
 
 
-local function getTypeFromRace(race)
+local function getTypeFromRace(race, availableMounts)
     local combined = {}
-    local raceMounts = raceMountPreferences[race] or {}
+    local numMounts = #availableMounts
+    local raceMounts = {}
+
+    if (numMounts > 300) then
+        raceMounts = raceMountPreferences[race] or {}
+        -- print("num raceMounts: " .. tostring(#raceMounts))
+    elseif (numMounts > 140) then
+        raceMounts = raceMountPreferences_more[race] or {}
+        -- print("raceMounts: " .. tostring(raceMounts))
+    else
+        raceMounts = allMountTypes
+        -- print("raceMounts: " .. tostring(raceMounts))
+    end
 
     local specID = GetSpecializationInfo(GetSpecialization())
     local specMounts = specMountTypes[specID] or {}
