@@ -7,65 +7,140 @@ local allMountTypes = {
     "bat", "insect"
 }
 
-local raceMountPreferences = {
-    Human = { "horse", "gryphon", "bird", "dragon" },
-    Dwarf = { "bear", "gryphon", "mammoth", "elemental", "kodo", "stag" },
-    NightElf = { "stag", "cat", "bird", "serpent" },
-    Gnome = { "mechanical", "kite", "rat", "snail" },
-    Draenei = { "mammoth", "crocodile", "serpent", "fish", "dragon" },
-    Worgen = { "horse", "bat", "wolf", "gargoyle", "bear" },
-    Pandaren = { "dragon", "serpent", "bird", "fish", "crocodile" },
-    VoidElf = { "spider", "elemental", "dragon", "kite", "emu", "bat", "fish" },
-    LightforgedDraenei = { "horse", "gryphon", "elemental", "dragon", "mammoth" },
-    DarkIronDwarf = { "elemental", "spider", "bear", "gargoyle", "dragon", "rat" },
-    KulTiran = { "crocodile", "horse", "bird", "fish" },
-    Mechagnome = { "mechanical", "rat", "kite", "spider" },
-    Orc = { "wolf", "kodo", "dragon", "dinosaur" },
-    Scourge = { "bat", "spider", "horse", "gargoyle", "elemental", "insect" },
-    Tauren = { "kodo", "bear", "stag", "mammoth", "gargoyle" },
-    Troll = { "dinosaur", "bat", "bird", "serpent", "crocodile" },
-    BloodElf = { "dragon", "bird", "gryphon", "gargoyle", "emu" },
-    Goblin = { "mechanical", "insect", "crocodile", "fish" },
-    Nightborne = { "cat", "spider", "serpent", "elemental", "dragon" },
-    HighmountainTauren = { "bear", "stag", "gryphon", "mammoth", "kodo" },
-    MagharOrc = { "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail" },
-    ZandalariTroll = { "dinosaur", "bird", "serpent", "crocodile" },
-    Vulpera = { "rat", "insect", "cat", "snail", "wolf" },
-    EarthenDwarf = { "elemental", "bear", "mechanical", "gryphon", "stag" },
-    Dracthyr = { "dragon", "elemental", "bird", "dinosaur", "serpent" }
+
+local mountTypesBySize = {
+    small = { "kite", "emu", "fish", "rat" },
+    mediumSmall = { "crocodile", "insect", "cat", "bat", "dinosaur", "wolf", "stag", "horse" },
+    mediumLarge = { "bear", "mechanical", "spider", "gryphon", "snail", "bird" },
+    large = { "elemental", "gargoyle", "dragon", "serpent", "mammoth", "kodo" }
 }
 
-local raceMountPreferences_more = {
-    -- Small
-    Gnome = { "mechanical", "kite", "rat", "snail", "emu", "fish", "cat" },
-    Mechagnome = { "mechanical", "rat", "kite", "spider", "emu", "fish", "cat" },
-    Goblin = { "mechanical", "insect", "crocodile", "fish", "bat", "spider", "cat", "kite" },
-    Vulpera = { "rat", "insect", "cat", "snail", "wolf", "kite", "emu", "fish" },
-    Dwarf = { "bear", "gryphon", "mammoth", "elemental", "kodo", "stag", "snail", "crocodile", "gargoyle" },
-
-    -- Normal sized
-    Human = { "horse", "gryphon", "bird", "dragon", "insect", "crocodile", "bear", "stag" },
-    NightElf = { "stag", "cat", "bird", "serpent", "bear", "elemental", "dragon" },
-    Draenei = { "mammoth", "crocodile", "serpent", "fish", "dragon", "bear", "insect" },
-    Worgen = { "horse", "bat", "wolf", "gargoyle", "bear", "spider", "bat", "dragon", "stag" },
-    Pandaren = { "dragon", "serpent", "bird", "fish", "crocodile", "bear", "crocodile", "snail" },
-    VoidElf = { "spider", "elemental", "dragon", "kite", "emu", "bat", "fish", "bird", "insect" },
-    LightforgedDraenei = { "horse", "gryphon", "elemental", "dragon", "mammoth", "bird", "stag" },
-    DarkIronDwarf = { "elemental", "spider", "bear", "gargoyle", "dragon", "rat", "wolf", "snail", "crocodile" },
-    Orc = { "wolf", "kodo", "dragon", "dinosaur", "snail", "crocodile", "bear", "dragon" },
-    Scourge = { "bat", "spider", "horse", "gargoyle", "elemental", "insect", "dragon", "bear" },
-    Troll = { "dinosaur", "bat", "bird", "serpent", "crocodile", "snail", "gargoyle", "mammoth" },
-    BloodElf = { "dragon", "bird", "gryphon", "gargoyle", "emu", "cat", "spider", "insect" },
-    Nightborne = { "cat", "spider", "serpent", "elemental", "dragon", "spider", "insect", "bear" },
-    MagharOrc = { "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail", "mammoth", "crocodile", "dragon" },
-    EarthenDwarf = { "elemental", "bear", "mechanical", "gryphon", "stag", "dragon", "snail", "crocodile" },
-    Dracthyr = { "dragon", "elemental", "bird", "dinosaur", "serpent", "stag", "cat", "insect" },
-
-    -- Large
-    KulTiran = { "crocodile", "horse", "bird", "fish", "gargoyle", "serpent", "mammoth", "dragon" },
-    Tauren = { "kodo", "bear", "stag", "mammoth", "bird", "dragon", "crocodile", "serpent" },
-    HighmountainTauren = { "bear", "stag", "gryphon", "mammoth", "kodo", "crocodile", "serpent", "dragon" },
-    ZandalariTroll = { "dinosaur", "bird", "serpent", "crocodile", "gargoyle", "mammoth", "dragon" },
+local raceMountPreferencesCombined = {
+    Gnome = {
+        size = "small",
+        standard = { "mechanical", "kite", "rat", "snail" },
+        extra = { "cat" }
+    },
+    Mechagnome = {
+        size = "small",
+        standard = { "mechanical", "rat", "kite", "spider" },
+        extra = { "emu", "fish", "cat" }
+    },
+    Goblin = {
+        size = "small",
+        standard = { "mechanical", "insect", "crocodile", "fish" },
+        extra = { "bat", "spider", "cat", "kite" }
+    },
+    Vulpera = {
+        size = "small",
+        standard = { "rat", "insect", "cat", "snail", "wolf" },
+        extra = { "kite", "emu", "fish" }
+    },
+    Dwarf = {
+        size = "small",
+        standard = { "bear", "gryphon", "mammoth", "elemental", "kodo", "stag" },
+        extra = { "snail", "crocodile", "gargoyle" }
+    },
+    Human = {
+        size = "normal",
+        standard = { "horse", "gryphon", "bird", "dragon" },
+        extra = { "insect", "crocodile", "bear", "stag" }
+    },
+    NightElf = {
+        size = "normal",
+        standard = { "stag", "cat", "bird", "serpent" },
+        extra = { "bear", "elemental", "dragon" }
+    },
+    Draenei = {
+        size = "normal",
+        standard = { "mammoth", "crocodile", "serpent", "fish", "dragon" },
+        extra = { "bear", "insect" }
+    },
+    Worgen = {
+        size = "normal",
+        standard = { "horse", "bat", "wolf", "gargoyle", "bear" },
+        extra = { "spider", "dragon", "stag" }
+    },
+    Pandaren = {
+        size = "normal",
+        standard = { "dragon", "serpent", "bird", "fish", "crocodile" },
+        extra = { "bear", "snail" }
+    },
+    VoidElf = {
+        size = "normal",
+        standard = { "spider", "elemental", "dragon", "kite", "emu", "bat", "fish" },
+        extra = { "bird", "insect" }
+    },
+    LightforgedDraenei = {
+        size = "normal",
+        standard = { "horse", "gryphon", "elemental", "dragon", "mammoth" },
+        extra = { "bird", "stag" }
+    },
+    DarkIronDwarf = {
+        size = "normal",
+        standard = { "elemental", "spider", "bear", "gargoyle", "dragon", "rat" },
+        extra = { "wolf", "snail", "crocodile" }
+    },
+    Orc = {
+        size = "normal",
+        standard = { "wolf", "kodo", "dragon", "dinosaur" },
+        extra = { "snail", "crocodile", "bear" }
+    },
+    Scourge = {
+        size = "normal",
+        standard = { "bat", "spider", "horse", "gargoyle", "elemental", "insect" },
+        extra = { "dragon", "bear" }
+    },
+    Troll = {
+        size = "normal",
+        standard = { "dinosaur", "bat", "bird", "serpent", "crocodile" },
+        extra = { "snail", "gargoyle", "mammoth" }
+    },
+    BloodElf = {
+        size = "normal",
+        standard = { "dragon", "bird", "gryphon", "gargoyle", "emu" },
+        extra = { "cat", "spider", "insect" }
+    },
+    Nightborne = {
+        size = "normal",
+        standard = { "cat", "spider", "serpent", "elemental", "dragon" },
+        extra = { "spider", "insect", "bear" }
+    },
+    MagharOrc = {
+        size = "normal",
+        standard = { "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail" },
+        extra = { "mammoth", "crocodile", "dragon" }
+    },
+    EarthenDwarf = {
+        size = "normal",
+        standard = { "elemental", "bear", "mechanical", "gryphon", "stag" },
+        extra = { "dragon", "snail", "crocodile" }
+    },
+    Dracthyr = {
+        size = "normal",
+        standard = { "dragon", "elemental", "bird", "dinosaur", "serpent" },
+        extra = { "stag", "cat", "insect" }
+    },
+    KulTiran = {
+        size = "large",
+        standard = { "crocodile", "horse", "bird", "fish" },
+        extra = { "gargoyle", "serpent", "mammoth", "dragon" }
+    },
+    Tauren = {
+        size = "large",
+        standard = { "kodo", "bear", "stag", "mammoth" },
+        extra = { "bird", "dragon", "crocodile", "serpent", "gargoyle" }
+    },
+    HighmountainTauren = {
+        size = "large",
+        standard = { "bear", "stag", "gryphon", "mammoth", "kodo" },
+        extra = { "crocodile", "serpent", "dragon" }
+    },
+    ZandalariTroll = {
+        size = "large",
+        standard = { "dinosaur", "bird", "serpent", "crocodile" },
+        extra = { "gargoyle", "mammoth", "dragon" }
+    }
 }
 
 
@@ -307,17 +382,28 @@ end
 local function getTypeFromRace(race, availableMounts)
     local combined = {}
     local numMounts = #availableMounts
+    local racePrefs = raceMountPreferencesCombined[race]
     local raceMounts = {}
 
-    if (numMounts > 300) then
-        raceMounts = raceMountPreferences[race] or {}
-        -- print("num raceMounts: " .. tostring(#raceMounts))
-    elseif (numMounts > 140) then
-        raceMounts = raceMountPreferences_more[race] or {}
-        -- print("raceMounts: " .. tostring(raceMounts))
+    if racePrefs then
+        local standard = racePrefs.standard or {}
+        local extra = racePrefs.extra or {}
+        local sizeExtras = mountTypesBySize[racePrefs.size] or {}
+
+        if numMounts >= 400 then
+            raceMounts = standard
+        elseif numMounts >= 250 then
+            for _, v in ipairs(standard) do table.insert(raceMounts, v) end
+            for _, v in ipairs(extra) do table.insert(raceMounts, v) end
+        elseif numMounts >= 90 then
+            for _, v in ipairs(standard) do table.insert(raceMounts, v) end
+            for _, v in ipairs(extra) do table.insert(raceMounts, v) end
+            for _, v in ipairs(sizeExtras) do table.insert(raceMounts, v) end
+        else
+            raceMounts = allMountTypes
+        end
     else
         raceMounts = allMountTypes
-        -- print("raceMounts: " .. tostring(raceMounts))
     end
 
     local specID = GetSpecializationInfo(GetSpecialization())

@@ -127,7 +127,7 @@ local function getAvailableMounts()
 
         if isUsable and
             ((mount.isUtilityMount and not RuthesMS.settings.dontIncludeUtilityMounts) or not mount.isUtilityMount) and
-            ((mount.isFavorite and RuthesMS.settings.useOnlyFavourites) or not RuthesMS.settings.useOnlyFavourites) then
+            ((RuthesMS.settings.useOnlyFavourites and mount.isFavorite == true) or not RuthesMS.settings.useOnlyFavourites) then
             if (mount.id == 373 and not vashirMountAllowed) then
                 -- skip varshir mount
             elseif ((useSmallMounts and tostring(mount.is_small) == "true") or not useSmallMounts) then

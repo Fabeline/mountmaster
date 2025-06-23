@@ -74,7 +74,8 @@ local function hasSelectedLooks(mount)
     return tContains(RuthesMS.settings.selectedLooks, CapitalizeFirstLetter(mount.looks))
 end
 
--- Filter mounts based on selected color and type
+-- Note that we might end up with a higher number of mounts when onlyFavorites is selected,
+-- that is because the data set is smaller and we then filter less strictly
 local function filterMounts(availableMounts)
     local filteredMounts = {}
     local specId, race, className, colors, types, looks

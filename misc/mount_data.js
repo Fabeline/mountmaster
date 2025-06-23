@@ -1,64 +1,207 @@
-const raceMountPreferences_more = {
-  //Small
-  Gnome: [ "mechanical", "kite", "rat", "snail", "emu", "fish", "cat" ],
-  Mechagnome: [ "mechanical", "rat", "kite", "spider", "emu", "fish", "cat" ],
-  Goblin: [ "mechanical", "insect", "crocodile", "fish", "bat", "spider", "cat", "kite" ],
-  Vulpera: [ "rat", "insect", "cat", "snail", "wolf", "kite", "emu", "fish" ],
-  Dwarf: [ "bear", "gryphon", "mammoth", "elemental", "kodo", "stag", "snail", "crocodile", "gargoyle" ],
-  
-  //Normal sized
-  Human: [ "horse", "gryphon", "bird", "dragon", "insect", "crocodile", "bear", "stag" ],
-  NightElf: [ "stag", "cat", "bird", "serpent", "bear", "elemental", "dragon" ],
-  Draenei: [ "mammoth", "crocodile", "serpent", "fish", "dragon", "bear", "insect" ],
-  Worgen: [ "horse", "bat", "wolf", "gargoyle", "bear", "spider", "bat", "dragon", "stag" ],
-  Pandaren: [ "dragon", "serpent", "bird", "fish", "crocodile", "bear", "crocodile", "snail" ],
-  VoidElf: [ "spider", "elemental", "dragon", "kite", "emu", "bat", "fish", "bird", "insect" ],
-  LightforgedDraenei: [ "horse", "gryphon", "elemental", "dragon", "mammoth", "bird", "stag" ],
-  DarkIronDwarf: [ "elemental", "spider", "bear", "gargoyle", "dragon", "rat", "wolf", "snail", "crocodile" ],
-  Orc: [ "wolf", "kodo", "dragon", "dinosaur", "snail", "crocodile", "bear", "dragon" ],
-  Scourge: [ "bat", "spider", "horse", "gargoyle", "elemental", "insect", "dragon", "bear" ],
-  Troll: [ "dinosaur", "bat", "bird", "serpent", "crocodile", "snail", "gargoyle", "mammoth" ],
-  BloodElf: [ "dragon", "bird", "gryphon", "gargoyle", "emu", "cat", "spider", "insect" ],
-  Nightborne: [ "cat", "spider", "serpent", "elemental", "dragon", "spider", "insect", "bear" ],
-  MagharOrc: [ "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail", "mammoth", "crocodile", "dragon" ],
-  EarthenDwarf: [ "elemental", "bear", "mechanical", "gryphon", "stag", "dragon", "snail", "crocodile" ],
-  Dracthyr: [ "dragon", "elemental", "bird", "dinosaur", "serpent", "stag", "cat", "insect" ],
-
-  //Large
-  KulTiran: [ "crocodile", "horse", "bird", "fish", "gargoyle", "serpent", "mammoth", "dragon" ],
-  Tauren: [ "kodo", "bear", "stag", "mammoth", "bird", "dragon", "crocodile", "serpent", "gargoyle" ],
-  HighmountainTauren: [ "bear", "stag", "gryphon", "mammoth", "kodo", "crocodile", "serpent", "dragon" ],
-  ZandalariTroll: [ "dinosaur", "bird", "serpent", "crocodile", "gargoyle", "mammoth", "dragon" ],
+const specNames = {
+    250: "Blood DK", 251: "Frost DK", 252: "Unholy DK",
+    577: "Havoc DH", 581: "Vengeance DH",
+    102: "Balance Druid", 9999: "Balance (Glyph)", 103: "Feral Druid", 104: "Guardian Druid", 105: "Restoration Druid",
+    1467: "Devastation Evoker", 1468: "Preservation Evoker", 1473: "Augmentation Evoker",
+    253: "Beast Mastery Hunter", 254: "Marksmanship Hunter", 255: "Survival Hunter",
+    62: "Arcane Mage", 63: "Fire Mage", 64: "Frost Mage",
+    268: "Brewmaster Monk", 270: "Mistweaver Monk", 269: "Windwalker Monk",
+    65: "Holy Paladin", 66: "Protection Paladin", 70: "Retribution Paladin",
+    256: "Discipline Priest", 257: "Holy Priest", 258: "Shadow Priest",
+    259: "Assassination Rogue", 260: "Outlaw Rogue", 261: "Subtlety Rogue",
+    262: "Elemental Shaman", 263: "Enhancement Shaman", 264: "Restoration Shaman",
+    265: "Affliction Warlock", 266: "Demonology Warlock", 267: "Destruction Warlock",
+    71: "Arms Warrior", 72: "Fury Warrior", 73: "Protection Warrior"
 };
 
-const raceMountPreferences = {
-  Human: [ "horse", "gryphon", "bird", "dragon" ],
-  Dwarf: [ "bear", "gryphon", "mammoth", "elemental", "kodo", "stag" ],
-  NightElf: [ "stag", "cat", "bird", "serpent" ],
-  Gnome: [ "mechanical", "kite", "rat", "snail" ],
-  Draenei: [ "mammoth", "crocodile", "serpent", "fish", "dragon" ],
-  Worgen: [ "horse", "bat", "wolf", "gargoyle", "bear" ],
-  Pandaren: [ "dragon", "serpent", "bird", "fish", "crocodile" ],
-  VoidElf: [ "spider", "elemental", "dragon", "kite", "emu", "bat", "fish" ],
-  LightforgedDraenei: [ "horse", "gryphon", "elemental", "dragon", "mammoth" ],
-  DarkIronDwarf: [ "elemental", "spider", "bear", "gargoyle", "dragon", "rat" ],
-  KulTiran: [ "crocodile", "horse", "bird", "fish" ],
-  Mechagnome: [ "mechanical", "rat", "kite", "spider" ],
-  Orc: [ "wolf", "kodo", "dragon", "dinosaur" ],
-  Scourge: [ "bat", "spider", "horse", "gargoyle", "elemental", "insect" ],
-  Tauren: [ "kodo", "bear", "stag", "mammoth", "gargoyle" ],
-  Troll: [ "dinosaur", "bat", "bird", "serpent", "crocodile" ],
-  BloodElf: [ "dragon", "bird", "gryphon", "gargoyle", "emu" ],
-  Goblin: [ "mechanical", "insect", "crocodile", "fish" ],
-  Nightborne: [ "cat", "spider", "serpent", "elemental", "dragon" ],
-  HighmountainTauren: [ "bear", "stag", "gryphon", "mammoth", "kodo" ],
-  MagharOrc: [ "wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail" ],
-  ZandalariTroll: [ "dinosaur", "bird", "serpent", "crocodile" ],
-  Vulpera: [ "rat", "insect", "cat", "snail", "wolf" ],
-  EarthenDwarf: [ "elemental", "bear", "mechanical", "gryphon", "stag" ],
-  Dracthyr: [ "dragon", "elemental", "bird", "dinosaur", "serpent" ]
+const specClasses = {
+    250: "Death Knight", 251: "Death Knight", 252: "Death Knight",
+    577: "Demon Hunter", 581: "Demon Hunter",
+    102: "Druid", 9999: "Druid", 103: "Druid", 104: "Druid", 105: "Druid",
+    1467: "Evoker", 1468: "Evoker", 1473: "Evoker",
+    253: "Hunter", 254: "Hunter", 255: "Hunter",
+    62: "Mage", 63: "Mage", 64: "Mage",
+    268: "Monk", 270: "Monk", 269: "Monk",
+    65: "Paladin", 66: "Paladin", 70: "Paladin",
+    256: "Priest", 257: "Priest", 258: "Priest",
+    259: "Rogue", 260: "Rogue", 261: "Rogue",
+    262: "Shaman", 263: "Shaman", 264: "Shaman",
+    265: "Warlock", 266: "Warlock", 267: "Warlock",
+    71: "Warrior", 72: "Warrior", 73: "Warrior"
 };
 
+const raceNames = {
+    Human: "Human", Dwarf: "Dwarf", NightElf: "Night Elf", Gnome: "Gnome", Draenei: "Draenei",
+    Worgen: "Worgen", Pandaren: "Pandaren", VoidElf: "Void Elf", LightforgedDraenei: "Lightforged Draenei",
+    DarkIronDwarf: "Dark Iron Dwarf", KulTiran: "Kul Tiran", Mechagnome: "Mechagnome",
+    Orc: "Orc", Scourge: "Undead", Tauren: "Tauren", Troll: "Troll", BloodElf: "Blood Elf",
+    Goblin: "Goblin", Nightborne: "Nightborne", HighmountainTauren: "Highmountain Tauren",
+    MagharOrc: "Mag'har Orc", ZandalariTroll: "Zandalari Troll", Vulpera: "Vulpera",
+    EarthenDwarf: "Earthen Dwarf", Dracthyr: "Dracthyr"
+};
+
+const legalCombos = {
+    Human: ["Death Knight", "Hunter", "Mage", "Monk", "Paladin", "Priest", "Rogue", "Warlock", "Warrior"],
+    Dwarf: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+    NightElf: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Warrior"],
+    Gnome: ["Death Knight", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+    Draenei: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Shaman", "Warrior"],
+    Worgen: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Warrior"],
+    Pandaren: ["Hunter", "Mage", "Monk", "Priest", "Rogue", "Shaman", "Warrior"],
+    VoidElf: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+    LightforgedDraenei: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Warrior"],
+    DarkIronDwarf: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+    KulTiran: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Shaman", "Warrior"],
+    Mechagnome: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+    Orc: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+    Scourge: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+    Tauren: ["Death Knight", "Druid", "Hunter", "Monk", "Paladin", "Priest", "Shaman", "Warrior"],
+    Troll: ["Death Knight", "Druid", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+    BloodElf: ["Death Knight", "Demon Hunter", "Hunter", "Mage", "Monk", "Paladin", "Priest", "Rogue", "Warlock", "Warrior"],
+    Goblin: ["Death Knight", "Hunter", "Mage", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+    Nightborne: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
+    HighmountainTauren: ["Death Knight", "Druid", "Hunter", "Mage", "Monk", "Priest", "Shaman", "Warrior"],
+    MagharOrc: ["Death Knight", "Hunter", "Mage", "Monk", "Priest", "Rogue", "Shaman", "Warrior"],
+    ZandalariTroll: ["Death Knight", "Druid", "Hunter", "Mage", "Monk", "Paladin", "Priest", "Rogue", "Shaman", "Warrior"],
+    Vulpera: ["Death Knight", "Hunter", "Mage", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+    EarthenDwarf: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
+    Dracthyr: ["Evoker", "Hunter", "Mage", "Priest", "Rogue", "Warlock", "Warrior"]
+};
+
+const mountTypesBySize = {
+  small: ["kite", "emu", "fish", "rat"],
+  mediumSmall: ["crocodile", "insect", "cat", "bat", "dinosaur", "wolf", "stag", "horse"],
+  mediumLarge: ["bear", "mechanical", "spider", "gryphon", "snail", "bird"],
+  large: ["elemental", "gargoyle", "dragon", "serpent", "mammoth", "kodo"]
+};
+
+  const raceMountPreferencesCombined = {
+    Gnome: {
+      size: "small",
+      standard: ["mechanical", "kite", "rat", "snail"],
+      extra: ["cat"]
+    },
+    Mechagnome: {
+      size: "small",
+      standard: ["mechanical", "rat", "kite", "spider"],
+      extra: ["emu", "fish", "cat"]
+    },
+    Goblin: {
+      size: "small",
+      standard: ["mechanical", "insect", "crocodile", "fish"],
+      extra: ["bat", "spider", "cat", "kite"]
+    },
+    Vulpera: {
+      size: "small",
+      standard: ["rat", "insect", "cat", "snail", "wolf"],
+      extra: ["kite", "emu", "fish"]
+    },
+    Dwarf: {
+      size: "small",
+      standard: ["bear", "gryphon", "mammoth", "elemental", "kodo", "stag"],
+      extra: ["snail", "crocodile", "gargoyle"]
+    },
+    Human: {
+      size: "normal",
+      standard: ["horse", "gryphon", "bird", "dragon"],
+      extra: ["insect", "crocodile", "bear", "stag"]
+    },
+    NightElf: {
+      size: "normal",
+      standard: ["stag", "cat", "bird", "serpent"],
+      extra: ["bear", "elemental", "dragon"]
+    },
+    Draenei: {
+      size: "normal",
+      standard: ["mammoth", "crocodile", "serpent", "fish", "dragon"],
+      extra: ["bear", "insect"]
+    },
+    Worgen: {
+      size: "normal",
+      standard: ["horse", "bat", "wolf", "gargoyle", "bear"],
+      extra: ["spider", "dragon", "stag"]
+    },
+    Pandaren: {
+      size: "normal",
+      standard: ["dragon", "serpent", "bird", "fish", "crocodile"],
+      extra: ["bear", "snail"]
+    },
+    VoidElf: {
+      size: "normal",
+      standard: ["spider", "elemental", "dragon", "kite", "emu", "bat", "fish"],
+      extra: ["bird", "insect"]
+    },
+    LightforgedDraenei: {
+      size: "normal",
+      standard: ["horse", "gryphon", "elemental", "dragon", "mammoth"],
+      extra: ["bird", "stag"]
+    },
+    DarkIronDwarf: {
+      size: "normal",
+      standard: ["elemental", "spider", "bear", "gargoyle", "dragon", "rat"],
+      extra: ["wolf", "snail", "crocodile"]
+    },
+    Orc: {
+      size: "normal",
+      standard: ["wolf", "kodo", "dragon", "dinosaur"],
+      extra: ["snail", "crocodile", "bear"]
+    },
+    Scourge: {
+      size: "normal",
+      standard: ["bat", "spider", "horse", "gargoyle", "elemental", "insect"],
+      extra: ["dragon", "bear"]
+    },
+    Troll: {
+      size: "normal",
+      standard: ["dinosaur", "bat", "bird", "serpent", "crocodile"],
+      extra: ["snail", "gargoyle", "mammoth"]
+    },
+    BloodElf: {
+      size: "normal",
+      standard: ["dragon", "bird", "gryphon", "gargoyle", "emu"],
+      extra: ["cat", "spider", "insect"]
+    },
+    Nightborne: {
+      size: "normal",
+      standard: ["cat", "spider", "serpent", "elemental", "dragon"],
+      extra: ["spider", "insect", "bear"]
+    },
+    MagharOrc: {
+      size: "normal",
+      standard: ["wolf", "kodo", "dinosaur", "elemental", "spider", "bat", "snail"],
+      extra: ["mammoth", "crocodile", "dragon"]
+    },
+    EarthenDwarf: {
+      size: "normal",
+      standard: ["elemental", "bear", "mechanical", "gryphon", "stag"],
+      extra: ["dragon", "snail", "crocodile"]
+    },
+    Dracthyr: {
+      size: "normal",
+      standard: ["dragon", "elemental", "bird", "dinosaur", "serpent"],
+      extra: ["stag", "cat", "insect"]
+    },
+    KulTiran: {
+      size: "large",
+      standard: ["crocodile", "horse", "bird", "fish"],
+      extra: ["gargoyle", "serpent", "mammoth", "dragon"]
+    },
+    Tauren: {
+      size: "large",
+      standard: ["kodo", "bear", "stag", "mammoth"],
+      extra: ["bird", "dragon", "crocodile", "serpent", "gargoyle"]
+    },
+    HighmountainTauren: {
+      size: "large",
+      standard: ["bear", "stag", "gryphon", "mammoth", "kodo"],
+      extra: ["crocodile", "serpent", "dragon"]
+    },
+    ZandalariTroll: {
+      size: "large",
+      standard: ["dinosaur", "bird", "serpent", "crocodile"],
+      extra: ["gargoyle", "mammoth", "dragon"]
+    }
+  };
 
 const BALANCE_GLYPH_OF_STARS = 9999;
 
