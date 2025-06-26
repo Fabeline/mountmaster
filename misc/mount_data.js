@@ -206,165 +206,204 @@ const mountTypesBySize = {
 const BALANCE_GLYPH_OF_STARS = 9999;
 
 const specColorThemes = {
+  // Death Knight v
   250: ["red", "black", "purple", "gray", "brown", "various"],
   251: ["blue", "white", "ghost", "gray", "black", "various"],
   252: ["green", "black", "ghost", "gray", "turquoise", "various"],
 
+  //Demon Hunter v
   577: ["purple", "fire", "red", "black", "brown", "green", "various"],
   581: ["purple", "fire", "red", "black", "brown", "green", "various"],
 
+  // Druid (v)
   102: ["brown", "orange", "green", "white", "yellow", "various"],
   [BALANCE_GLYPH_OF_STARS]: ["ghost", "white", "blue", "pink", "various"],
   103: ["orange", "brown", "red", "yellow", "various", "green"],
   104: ["brown", "gray", "green", "black", "various"],
   105: ["green", "turquoise", "white", "pink", "various"],
 
+  //Evoker v
   1467: ["red", "orange", "fire", "yellow", "various"],
   1468: ["green", "blue", "turquoise", "white", "various"],
   1473: ["yellow", "black", "brown", "orange", "various"],
 
+  // Hunter
   253: ["brown", "green", "orange", "yellow", "various"],
   254: ["gray", "blue", "white", "turquoise", "various"],
   255: ["green", "brown", "yellow", "gray", "various"],
 
+  // Mage v
   62: ["purple", "blue", "pink", "white", "various"],
   63: ["red", "orange", "fire", "yellow", "various"],
   64: ["blue", "white", "turquoise", "various"],
 
+  // Monk
   268: ["brown", "green", "gray", "yellow", "various"],
   270: ["green", "turquoise", "white", "pink", "various"],
   269: ["yellow", "orange", "ghost", "green", "red", "various"],
 
+  // Paladin
   65: ["white", "blue", "yellow", "pink", "orange", "gray", "various"],
   66: ["white", "blue", "yellow", "pink", "orange", "gray", "various"],
   70: ["white", "blue", "yellow", "pink", "orange", "gray", "various", "fire"],
 
-  256: ["white", "gray", "blue", "pink", "various"],
-  257: ["white", "yellow", "gray", "turquoise", "various"],
-  258: ["purple", "black", "ghost", "red", "various"],
+  // Priest
+  256: ["white", "gray", "blue", "pink", "turquoise", "various", "ghost", "yellow"], // Discipline
+  257: ["white", "yellow", "gray", "turquoise", "various", "ghost", "pink", "blue"], // Holy
+  258: ["purple", "black", "ghost", "red", "turquoise", "various", "pink"], // Shadow
 
+  // Rogue
   259: ["green", "black", "red", "gray", "various"],
   260: ["brown", "gray", "red", "yellow", "various"],
   261: ["black", "purple", "ghost", "red", "various"],
 
+  // Shaman
   262: ["blue", "orange", "fire", "yellow", "various"],
   263: ["red", "yellow", "fire", "brown", "various"],
   264: ["green", "blue", "turquoise", "white", "various"],
 
+  // Warlock
   265: ["purple", "green", "ghost", "black", "blue", "fire", "red", "various"],
   266: ["purple", "green", "ghost", "black", "blue", "fire", "red", "various"],
   267: ["purple", "green", "ghost", "black", "blue", "fire", "red", "various"],
 
+  // Warrior
   71: ["red", "gray", "brown", "black", "various"],
   72: ["red", "orange", "fire", "yellow", "various"],
   73: ["blue", "gray", "black", "brown", "various"],
 };
 
 const specMountTypes = {
+  // Death Knight
   250: ["horse", "dragon"],
   251: ["horse", "dragon"],
   252: ["horse", "dragon"],
 
+  // Demon Hunter
   577: ["gargoyle"],
   581: ["gargoyle"],
 
+  // Druid
   102: ["stag"],
   [BALANCE_GLYPH_OF_STARS]: ["stag"],
   103: ["cat"],
   104: ["bear"],
   105: ["stag"],
 
+  // Evoker
   1467: ["dragon"],
   1468: ["dragon"],
   1473: ["dragon"],
 
+  // Hunter
   253: ["wolf"],
   254: ["wolf"],
   255: ["wolf"],
 
+  // Mage
   62: ["elemental", "kite"],
   63: ["elemental", "kite"],
   64: ["elemental", "kite"],
 
+  // Monk
   268: ["cat"],
   270: ["cat"],
   269: ["cat"],
 
+  // Paladin
   65: ["horse"],
   66: ["horse"],
   70: ["horse"],
 
+  // Priest
   256: ["gryphon"],
   257: ["gryphon"],
   258: ["gryphon"],
 
+  // Rogue
   259: ["spider", "bird"],
   260: ["spider", "bird"],
   261: ["spider", "bird"],
 
+  // Shaman
   262: ["elemental"],
   263: ["elemental"],
   264: ["elemental"],
 
+  // Warlock
   265: ["horse", "gargoyle"],
   266: ["horse", "gargoyle"],
   267: ["horse", "gargoyle"],
 
+  // Warrior
   71: ["dragon"],
   72: ["dragon"],
   73: ["dragon"],
 };
 
 const looksForSpecs = {
+  // Death Knight
   250: ["neutral", "scary", "tough"],
   251: ["neutral", "scary", "tough"],
   252: ["neutral", "scary", "tough"],
 
+  // Demon Hunter
   577: ["neutral", "silly", "tough", "scary"],
   581: ["neutral", "silly", "tough", "scary"],
-
+  
+  // Druid
   102: ["pretty", "neutral", "cute", "silly"],
   [BALANCE_GLYPH_OF_STARS]: ["pretty", "neutral", "cute", "silly"],
   103: ["pretty", "neutral", "cute", "silly", "tough"],
   104: ["pretty", "neutral", "cute", "silly", "tough"],
   105: ["pretty", "neutral", "cute", "silly"],
 
+  // Evoker
   1467: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
   1468: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
   1473: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
 
+  // Hunter
   253: ["pretty", "neutral", "cute", "tough", "scary", "silly"],
   254: ["pretty", "neutral", "cute", "tough", "scary", "silly"],
   255: ["pretty", "neutral", "cute", "tough", "scary", "silly"],
 
+  // Mage
   62: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
   63: ["pretty", "neutral", "cute", "scary", "tough", "scary"],
   64: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
 
+  // Monk
   268: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
   270: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
   269: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
 
+  // Paladin
   65: ["pretty", "neutral", "cute", "tough"],
   66: ["pretty", "neutral", "cute", "tough"],
   70: ["pretty", "neutral", "cute", "tough"],
 
+  // Priest
   256: ["pretty", "neutral", "cute"],
   257: ["pretty", "neutral", "cute"],
   258: ["pretty", "neutral", "scary"],
 
+  // Rogue
   259: ["silly", "neutral", "tough", "scary"],
   260: ["silly", "neutral", "tough", "scary"],
   261: ["silly", "neutral", "tough", "scary"],
 
+  // Shaman
   262: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
   263: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
   264: ["pretty", "neutral", "cute", "silly", "tough", "scary"],
 
+  // Warlock
   265: ["scary"],
   266: ["scary"],
   267: ["scary"],
 
+  // Warrior
   71: ["tough", "scary", "neutral", "silly"],
   72: ["tough", "scary", "neutral", "silly"],
   73: ["tough", "scary", "neutral", "silly"],

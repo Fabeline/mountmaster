@@ -12,7 +12,10 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
-### ver 1.6.6
+### ver 1.7.1
+- Tweaking "pick for me" functionality
+
+### ver 1.7.0
 - Added "pick for me" checkbox. If checked, will pick the best mount based on race and spec for the player.
 - Performance improvements
 

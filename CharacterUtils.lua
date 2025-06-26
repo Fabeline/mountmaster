@@ -187,9 +187,9 @@ local specColorThemes = {
     [70] = { "white", "blue", "yellow", "pink", "orange", "gray", "various", "fire" }, -- Retribution
 
     -- Priest
-    [256] = { "white", "gray", "blue", "pink", "various" },
-    [257] = { "white", "yellow", "gray", "turquoise", "various" },
-    [258] = { "purple", "black", "ghost", "red", "various" },
+    [256] = { "white", "gray", "blue", "pink", "various", "ghost", "yellow" },
+    [257] = { "white", "yellow", "gray", "turquoise", "various", "ghost", "pink", "blue" },
+    [258] = { "purple", "black", "ghost", "red", "various", "pink" },
 
     -- Rogue
     [259] = { "green", "black", "red", "gray", "various" },

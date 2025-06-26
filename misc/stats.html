@@ -74,7 +74,6 @@
     </table>
 
     <script>
-        // existing raceMountPreferencesCombined stays unchanged
 
         const sizeMountSets = {
             small: ["kite", "emu", "fish", "rat", "crocodile", "insect", "cat", "bat", "dinosaur", "wolf", "stag", "horse"],
@@ -106,9 +105,15 @@
 
             function mountMatchesFilters(mount, specId, race, level) {
                 const types = specMountTypes[specId];
+                const looks = looksForSpecs[specId];
+                const colors = specColorThemes[specId];
+
                 const racePrefs = getRacePreference(race, level);
                 if (!types || !racePrefs) return false;
-                return types.includes(mount.skeleton_type) || racePrefs.includes(mount.skeleton_type);
+                return types.includes(mount.skeleton_type) ||
+                    racePrefs.includes(mount.skeleton_type) &&
+                    looks.includes(mount.looks) &&
+                    (colors.includes(mount.color) || colors.includes(mount.secondary_color));
             }
 
             function generateStatsData(level) {
