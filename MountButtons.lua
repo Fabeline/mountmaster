@@ -92,10 +92,42 @@ local function createMountButtons()
     end
 end
 
+local function ensureMountJournalReady(callback)
+    local function proceed()
+        local frame = CreateFrame("Frame")
+
+        local done = false
+        local function safeCallback()
+            if not done then
+                done = true
+                frame:UnregisterAllEvents()
+                callback()
+            end
+        end
+
+        -- Check if MountJournalEnhanced is already loaded
+        if C_AddOns.IsAddOnLoaded("MountJournalEnhanced") then
+            C_Timer.After(0.1, safeCallback)
+        else
+            frame:RegisterEvent("ADDON_LOADED")
+            C_Timer.After(1, safeCallback) -- fallback if the addon never loads
+            frame:SetScript("OnEvent", function(_, _, arg1)
+                if arg1 == "MountJournalEnhanced" then
+                    C_Timer.After(0.1, safeCallback)
+                end
+            end)
+        end
+    end
+
+    proceed()
+end
+
 
 local function reload()
-    RuthesMS.utils.mount.reloadMounts()
-    createMountButtons()
+    ensureMountJournalReady(function()
+        RuthesMS.utils.mount.reloadMounts()
+        createMountButtons()
+    end)
 end
 
 RuthesMS.buttons.mountButtons = {

@@ -1777,7 +1777,7 @@ mounts = [
     "secondary_color": "black",
     "is_small": "true",
     "expansion": "TBC",
-    "looks": "scary"
+    "looks": "neutral"
   },
   {
     "name": "Turbo-Charged Flying Machine",

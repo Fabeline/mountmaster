@@ -43,7 +43,7 @@ const raceNames = {
 const legalCombos = {
     Human: ["Death Knight", "Hunter", "Mage", "Monk", "Paladin", "Priest", "Rogue", "Warlock", "Warrior"],
     Dwarf: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"],
-    NightElf: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Warrior"],
+    NightElf: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Warrior", "Demon Hunter"],
     Gnome: ["Death Knight", "Mage", "Monk", "Priest", "Rogue", "Warlock", "Warrior"],
     Draenei: ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Shaman", "Warrior"],
     Worgen: ["Death Knight", "Druid", "Hunter", "Mage", "Priest", "Rogue", "Warrior"],

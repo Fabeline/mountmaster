@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.7.2
+- Now works together with the addon Mount Journal Enhanced
+
 ### ver 1.7.1
 - Tweaking "pick for me" functionality
 
