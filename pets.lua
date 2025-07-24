@@ -15480,7 +15480,256 @@ RuthesMS.data.pets = {
         icon = 1,
         race = "dinosaur",
         color = "white"
+    },
+    {
+        speciesID = 4824,
+        name = "Baby Karesh Fox - Orange",
+        type = 5,
+        icon = 1,
+        race = "rat",
+        color = "orange"
+    },
+    {
+        speciesID = 4848,
+        name = "Cerulean Lapbug",
+        type = 5,
+        icon = 1,
+        race = "insect",
+        color = "blue"
+    },
+    {
+        speciesID = 4847,
+        name = "Copper Lapbug",
+        type = 5,
+        icon = 1,
+        race = "insect",
+        color = "red"
+    },
+    {
+        speciesID = 4835,
+        name = "Cyan Ciphonmite",
+        type = 8,
+        icon = 1,
+        race = "crocodile",
+        color = "turquoise"
+    },
+    {
+        speciesID = 4827,
+        name = "Dread Horrorling",
+        type = 6,
+        icon = 1,
+        race = "insect",
+        color = "brown",
+        class = "warlock"
+    },
+    {
+        speciesID = 4842,
+        name = "Duskthief",
+        type = 3,
+        icon = 1,
+        race = "fish",
+        color = "purple"
+    },
+    {
+        speciesID = 4840,
+        name = "Graceful Cosmic Ray Pup",
+        type = 3,
+        icon = 1,
+        race = "fish",
+        color = "white"
+    },
+    {
+        speciesID = 4846,
+        name = "Heka'Tarnos, Bringer of Discord",
+        type = 5,
+        icon = 1,
+        race = "insect",
+        color = "green"
+    },
+    {
+        speciesID = 4828,
+        name = "Impartial Watcher",
+        type = 6,
+        icon = 1,
+        race = "insect",
+        color = "white",
+        class = "warlock"
+    },
+    {
+        speciesID = 4844,
+        name = "Inquisitive Cosmic Ray Pup",
+        type = 3,
+        icon = 1,
+        race = "fish",
+        color = "blue"
+    },
+    {
+        speciesID = 4813,
+        name = "Ixthal the Observling",
+        type = 6,
+        icon = 1,
+        race = "insect",
+        color = "pink",
+        class = "warlock"
+    },
+    {
+        speciesID = 4834,
+        name = "Jimmy",
+        type = 8,
+        icon = 1,
+        race = "crocodile",
+        color = "red"
+    },
+    {
+        speciesID = 4832,
+        name = "Looker Gaz'kreth Jr.",
+        type = 6,
+        icon = 1,
+        race = "insect",
+        color = "red",
+        class = "warlock"
+    },
+    {
+        speciesID = 4845,
+        name = "Mr. Long-Legs",
+        type = 5,
+        icon = 1,
+        race = "insect",
+        color = "purple"
+    },
+    {
+        speciesID = 4830,
+        name = "Observer, Baby (Green)",
+        type = 6,
+        icon = 1,
+        race = "insect",
+        color = "green",
+        class = "warlock"
+    },
+    {
+        speciesID = 4838,
+        name = "Palek'ti, the Mouth of Nothingness",
+        type = 8,
+        icon = 1,
+        race = "snail",
+        color = "brown"
+    },
+    {
+        speciesID = 4829,
+        name = "Penumbral Terror",
+        type = 6,
+        icon = 1,
+        race = "insect",
+        color = "black",
+        class = "warlock"
+    },
+    {
+        speciesID = 4843,
+        name = "Sao'rhon",
+        type = 3,
+        icon = 1,
+        race = "fish",
+        color = "orange"
+    },
+    {
+        speciesID = 4826,
+        name = "Scrappy Thorntail",
+        type = 5,
+        icon = 1,
+        race = "rat",
+        color = "white"
+    },
+    {
+        speciesID = 4839,
+        name = "Shimmering Inchshifter ",
+        type = 8,
+        icon = 1,
+        race = "snail",
+        color = "white"
+    },
+    {
+        speciesID = 4841,
+        name = "Starlight",
+        type = 3,
+        icon = 1,
+        race = "fish",
+        color = "green"
+    },
+    {
+        speciesID = 4860,
+        name = "Unfazed Diver",
+        type = 8,
+        icon = 1,
+        race = "cat",
+        color = "purple"
+    },
+    {
+        speciesID = 4825,
+        name = "Veridian Thorntail",
+        type = 5,
+        icon = 1,
+        race = "rat",
+        color = "green"
+    },
+    {
+        speciesID = 4836,
+        name = "Vitriolic Inchshifter",
+        type = 8,
+        icon = 1,
+        race = "snail",
+        color = "green"
+    },
+    {
+        speciesID = 4837,
+        name = "Worm, Cosmic - Critter (Red)",
+        type = 8,
+        icon = 1,
+        race = "snail",
+        color = "red"
+    },
+    {
+        speciesID = 4833,
+        name = "Xanthous Siphonmite",
+        type = 8,
+        icon = 1,
+        race = "crocodile",
+        color = "green"
+    },
+    {
+        speciesID = 4859,
+        name = "Zo'ya",
+        type = 8,
+        icon = 1,
+        race = "cat",
+        color = "purple"
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 --[[]

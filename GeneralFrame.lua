@@ -1,5 +1,27 @@
 local pickForMeCheckbox
 
+local function createTooltip(frame, label, realtiveToFrame)
+    local icon = CreateFrame("Button", nil, frame)
+    icon:SetSize(15, 15)
+    icon:SetPoint("LEFT", realtiveToFrame, "RIGHT", -10, 5)
+
+    local texture = icon:CreateTexture(nil, "BACKGROUND")
+    texture:SetAllPoints()
+    texture:SetTexture("Interface\\FriendsFrame\\InformationIcon")
+
+    icon:EnableMouse(true)
+    icon:SetScript("OnEnter", function(self)
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:SetText(label)
+        GameTooltip:SetAlpha(0)
+        GameTooltip:Show()
+    end)
+    icon:SetScript("OnLeave", function()
+        GameTooltip:Hide()
+    end)
+end
+
+
 local function createFrame()
     local mountSelectorFrame = RuthesMS.frames.mountSelectorFrame.frame
 
@@ -37,6 +59,14 @@ local function createFrame()
     -- looksDropdown:SetPoint("TOPLEFT", generalFrame, "TOPLEFT", 140, -35)
     -- UIDropDownMenu_Initialize(looksDropdown, RuthesMS.utils.filterDropdowns.initializeLooksDropdown)
     -- UIDropDownMenu_SetText(looksDropdown, "Select looks")
+
+
+
+    createTooltip(generalFrame, [[
+1. Choose your selection of mounts by filters
+2. Go to the "keybind" tab and set keybind or drag a button to your action bar
+3. Press keybind or button to summon a random mount based on your selection]],
+        expansionDropdown)
 
     -- Pick for me checkbox
     pickForMeCheckbox = CreateFrame("CheckButton", "PickForMeCheckbox", generalFrame,

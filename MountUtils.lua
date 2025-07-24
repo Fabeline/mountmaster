@@ -82,9 +82,13 @@ local function loadKnownMounts()
         local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
         local isUtilityMount = RuthesMS.utils.summon.isUtilityMount(mountID)
 
-
         local canFly = RuthesMS.utils.mount.isMountFlying(mountType)
         local canSwim = RuthesMS.utils.mount.isAquaticMount(mountType)
+
+        -- Uncomment to output missing mounts
+        -- if not mountInfo then
+        --     print("Missing> Name: " .. name .. ", mountID: " .. mountID)
+        -- end
 
         if (mountInfo and isCollected) then
             table.insert(RuthesMS.state.knownMounts, {
@@ -118,12 +122,6 @@ local function getAvailableMounts()
 
     for _, mount in ipairs(RuthesMS.state.knownMounts) do
         local _, _, _, _, isUsable, _, _, _, _, _, _, _, _ = C_MountJournal.GetMountInfoByID(mount.id)
-
-        -- Uncomment to output missing mounts
-        -- local mountInfo = RuthesMS.utils.mount.findMountByID(mount.id)
-        -- if not mountInfo then
-        --     print("Missing> Name: " .. mount.name .. ", mountID: " .. mount.id)
-        -- end
 
         if isUsable and
             ((mount.isUtilityMount and not RuthesMS.settings.dontIncludeUtilityMounts) or not mount.isUtilityMount) and
