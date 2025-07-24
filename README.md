@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.7.5
+- Added the ability to summon only ground mounts
+
 ### ver 1.7.4
 - Added new pets and mounts for 11.2.0
 

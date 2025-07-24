@@ -21,6 +21,16 @@ local function create()
         RuthesMS.utils.summon.summonRandomMount(false, true)
     end)
 
+    -- Ground mount
+    local randomGroundMountButton = CreateFrame("Button", "RuthesMSRandomGroundMountButton", mountSelectorFrame,
+        "UIPanelButtonTemplate")
+    randomGroundMountButton:Hide()
+
+    randomGroundMountButton:SetScript("OnClick", function()
+        RuthesMS.utils.mount.reloadMounts()
+        RuthesMS.utils.summon.summonRandomMount(false, false, true)
+    end)
+
     -- Aquatic mount
     local randomAquaticMountButton = CreateFrame("Button", "RuthesMSRandomAquaticMountButton", mountSelectorFrame,
         "UIPanelButtonTemplate")

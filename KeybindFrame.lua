@@ -5,7 +5,7 @@ local characterSpecificKeybindsCheckbox
 
 local keybindTable = {
     {
-        label = "Normal/flying",
+        label = "Summon mount",
         name = "normal",
         iconPath = "Interface\\Icons\\Ability_Mount_RidingHorse",
         icon = "Ability_Mount_RidingHorse",
@@ -14,7 +14,15 @@ local keybindTable = {
         tooltip = "Summon a random flying or ground mount, \nbased on your current zone."
     },
     {
-        label = "Normal/flying small",
+        label = "Ground mount",
+        name = "ground",
+        iconPath = "Interface\\Icons\\ability_mount_raptor",
+        icon = "ability_mount_raptor",
+        macro = "/rms summonground",
+        macroName = "RMS ground",
+    },
+    {
+        label = "Small mount",
         name = "small",
         iconPath = "Interface\\Icons\\Inv_alpacamount_brown",
         icon = "Inv_alpacamount_brown",
@@ -25,7 +33,7 @@ local keybindTable = {
     },
 
     {
-        label = "Aquatic",
+        label = "Aquatic mount",
         name = "aquatic",
         iconPath = "Interface\\Icons\\inv_stingray2mount_teal",
         icon = "inv_stingray2mount_teal",
@@ -89,6 +97,7 @@ local function applySummonKeyBinding()
 
     bindKey(RuthesMS.keybinds.normal, "RuthesMSRandomMountButton")
     bindKey(RuthesMS.keybinds.small, "RuthesMSRandomSmallMountButton")
+    bindKey(RuthesMS.keybinds.ground, "RuthesMSRandomGroundMountButton")
     bindKey(RuthesMS.keybinds.aquatic, "RuthesMSRandomAquaticMountButton")
     bindKey(RuthesMS.keybinds.repair, "RuthesMSRandomRepairMountButton")
     bindKey(RuthesMS.keybinds.transmog, "RuthesMSRandomTransmogMountButton")
@@ -248,6 +257,10 @@ local function createKeybindFrame()
     setActionButtonLabel:SetText("Button")
 
     for index, value in ipairs(keybindTable) do
+        if (index == 1 or index == 2) then
+            yOffset = yOffset - lineHeight / 3 -- Add space for the first line
+        end
+
         -- Mount type
         local keybindLabel = keybindFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
         keybindLabel:SetPoint("TOPLEFT", keybindFrame, "TOPLEFT", 0, yOffset - (index * lineHeight))
@@ -319,7 +332,7 @@ local function createKeybindFrame()
     characterSpecificKeybindsCheckbox = CreateFrame("CheckButton", "CharacterSpecificKeybindsCheckbox", keybindFrame,
         "ChatConfigCheckButtonTemplate")
     characterSpecificKeybindsCheckbox:SetPoint("TOPLEFT", keybindFrame, "TOPLEFT", -5,
-        yOffset - (#keybindTable * lineHeight) - 60)
+        yOffset - (#keybindTable * lineHeight) - 50)
     characterSpecificKeybindsCheckbox:SetScript("OnClick", function(self)
         RuthesMS.db.saveGlobalKeybinds(not self:GetChecked())
         RuthesMS.frames.keybindFrame.loadSummoningKey()

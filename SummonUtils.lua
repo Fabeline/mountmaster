@@ -170,7 +170,7 @@ local function summonRandomMailboxMount()
     C_MountJournal.SummonByID(availableMailboxMounts[randomIndex])
 end
 
-local function summonRandomMount(isSwimming, onlySmall)
+local function summonRandomMount(isSwimming, onlySmall, onlyGround)
     if IsMounted() then
         Dismount()
         return
@@ -211,7 +211,9 @@ local function summonRandomMount(isSwimming, onlySmall)
             end
 
 
-            if (isSwimming) then
+            if (onlyGround) then
+                chosenMounts = groundMounts
+            elseif (isSwimming) then
                 if #aquaticMounts > 0 then
                     chosenMounts = aquaticMounts
                 else
