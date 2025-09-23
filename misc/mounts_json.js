@@ -11615,7 +11615,7 @@ mounts = [
     "skeleton_type": "bear",
     "color": "fire",
     "secondary_color": "brown",
-    "is_small": "true",
+    "is_small": "false",
     "expansion": "Dragonflight",
     "looks": "scary"
   },
@@ -12024,7 +12024,7 @@ mounts = [
     "skeleton_type": "bear",
     "color": "green",
     "secondary_color": "brown",
-    "is_small": "true",
+    "is_small": "false",
     "expansion": "Dragonflight",
     "looks": "scary"
   },
@@ -12531,7 +12531,7 @@ mounts = [
     "skeleton_type": "bear",
     "color": "gray",
     "secondary_color": "turquoise",
-    "is_small": "true",
+    "is_small": "false",
     "expansion": "Dragonflight",
     "looks": "scary"
   },
@@ -15079,8 +15079,36 @@ mounts = [
       expansion: "TWW",
       looks: "tough"
   },
-
-
+  {
+      id: 2567,
+      name: "Voidwing Dragonhawk",
+      skeleton_type: "insect",
+      color: "blue",
+      secondary_color: "",
+      is_small: "",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2568,
+      name: "Lightwing Dragonhawk",
+      skeleton_type: "insect",
+      color: "yellow",
+      secondary_color: "",
+      is_small: "",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2598,
+      name: "Voidlight Surger",
+      skeleton_type: "insect",
+      color: "various",
+      secondary_color: "",
+      is_small: "",
+      expansion: "TWW",
+      looks: "pretty"
+  },
 ]
 
 /*

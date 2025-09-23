@@ -15,13 +15,15 @@ local function createFrame()
 
     helpText:SetText(
         "|cffffffffWelcome to Ruthe's Mount Selector!|r\n\n" ..
-        "This addon lets you summon mounts based on your preferences, and save different choices for each character.\n\n" ..
+        "This addon lets you build your own selection of mounts based on filters and preferences, and then summon randomly from that selection. You can save different choices for each character.\n\n" ..
         "You can filter mounts by type, expansion, and color for each character. For example, your warlock might prefer black horses, while your frost mage favors blue cats or dragons.\n\n" ..
+        "Once your selection is set, the addon will use it when you summon random mounts — either with keybinds or macros.\n\n" ..
         "You can assign keybinds or drag action button macros to summon mounts by type — such as normal (including flying mounts when flying is available), aquatic, repair, mailbox, or auction house mounts.\n\n" ..
         "Keybinds can be saved globally or individually for each character.\n\n" ..
-        "You can now also choose to summon a pet that matches your mount — and if you're a druid, you can even match your shapeshift forms.\n\n" ..
+        "You can also choose to summon a pet that matches your mount — and if you're a druid, you can even match your shapeshift forms.\n\n" ..
         "For questions or feedback, visit:\n|cffffffffhttps://www.curseforge.com/wow/addons/ruthes-mountselector/comments|r\n\n"
     )
+
 
     -- local logo = helpFrame:CreateTexture(nil, "ARTWORK")
     -- logo:SetSize(100, 100)

@@ -92,7 +92,7 @@ end
 local function summonPetByGUID(guid)
     -- Don't summon if the pet is already summoned
     local oldPetGUID = C_PetJournal.GetSummonedPetGUID()
-    if oldPetGUID ~= guid then
+    if oldPetGUID ~= guid and not InCombatLockdown() and not UnitAffectingCombat("player") then
         C_PetJournal.SummonPetByGUID(guid)
     end
 end

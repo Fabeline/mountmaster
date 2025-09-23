@@ -58,6 +58,28 @@ function SlashCmdList.RMS(msg, editBox)
     end
 end
 
+local function createTooltip(frame, label, realtiveToFrame, xOffset, yOffset)
+    local icon = CreateFrame("Button", nil, frame)
+    icon:SetSize(15, 15)
+    icon:SetPoint("LEFT", realtiveToFrame, "RIGHT", -10 + xOffset, 5 + yOffset)
+
+    local texture = icon:CreateTexture(nil, "BACKGROUND")
+    texture:SetAllPoints()
+    texture:SetTexture("Interface\\FriendsFrame\\InformationIcon")
+
+    icon:EnableMouse(true)
+    icon:SetScript("OnEnter", function(self)
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:SetText(label)
+        GameTooltip:SetAlpha(0)
+        GameTooltip:Show()
+    end)
+    icon:SetScript("OnLeave", function()
+        GameTooltip:Hide()
+    end)
+end
+
 RuthesMS.utils.addon = {
-    afterAddonLoaded = afterAddonLoaded
+    afterAddonLoaded = afterAddonLoaded,
+    createTooltip = createTooltip
 }

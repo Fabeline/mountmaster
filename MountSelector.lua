@@ -20,3 +20,15 @@ local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("ADDON_LOADED")
 eventFrame:RegisterEvent("PLAYER_LOGIN")
 eventFrame:SetScript("OnEvent", OnEvent)
+
+-- Listen for ADDON_ACTION_BLOCKED - only for debug!
+local blockedDebug = false
+
+if blockedDebug then
+    local f = CreateFrame("Frame")
+    f:RegisterEvent("ADDON_ACTION_BLOCKED")
+
+    f:SetScript("OnEvent", function(_, event, addonName, blockedFunc)
+        print("|cffff5555[DEBUG]|r", event, "on addon:", addonName, "function:", blockedFunc)
+    end)
+end

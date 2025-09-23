@@ -1,4 +1,6 @@
 Check that it works on ptr
+Check with ADDON_ACTION_BLOCKED testing on
+Turn off blockedDebug !!
 
 - Remove .gitignore !!
 - Remove x_copyFiles.bat !!

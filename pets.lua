@@ -15702,7 +15702,25 @@ RuthesMS.data.pets = {
         icon = 1,
         race = "cat",
         color = "purple"
+    },
+    {
+        speciesID = 4812,
+        name = "Doomfeathers",
+        type = 2,
+        icon = 1,
+        race = "insect",
+        color = "blue"
+    },
+    {
+        speciesID = 4811,
+        name = "Hopeflutter",
+        type = 2,
+        icon = 1,
+        race = "insect",
+        color = "yellow"
     }
+
+
 
 
 

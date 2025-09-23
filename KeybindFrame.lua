@@ -31,7 +31,6 @@ local keybindTable = {
         tooltip =
         "Summon a random flying or ground mount, \nbased on your current zone.\nIt will always pick a small mount."
     },
-
     {
         label = "Aquatic mount",
         name = "aquatic",

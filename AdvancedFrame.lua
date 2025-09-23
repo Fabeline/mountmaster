@@ -1,6 +1,6 @@
 local favoriteCheckbox
 local smallMountCheckbox
-local utilityCheckbox
+-- local utilityCheckbox
 
 local summonPetCheckbox
 local summonPetFromDruidForm
@@ -24,9 +24,9 @@ local function reloadCheckboxes()
         smallMountCheckbox:SetChecked(RuthesMS.settings.smallMountInInstance)
     end
 
-    if utilityCheckbox then
+    --[[if utilityCheckbox then
         utilityCheckbox:SetChecked(RuthesMS.settings.dontIncludeUtilityMounts)
-    end
+    end]]
 
     if summonPetCheckbox then
         summonPetCheckbox:SetChecked(RuthesMS.settings.summonPetFromMount)
@@ -97,10 +97,10 @@ local function createFrame()
     local smallMountLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     smallMountLabel:SetPoint("LEFT", smallMountCheckbox, "RIGHT", checkboxMargin, 0)
     smallMountLabel:SetText("Only summon small mounts in instances")
-    currentY = currentY - lineHeight
+    currentY = currentY - lineHeight * 2
 
     -- Don't include utility mounts
-    utilityCheckbox = CreateFrame("CheckButton", "UtilityCheckbox", advancedFrame,
+    --[[utilityCheckbox = CreateFrame("CheckButton", "UtilityCheckbox", advancedFrame,
         "ChatConfigCheckButtonTemplate")
     utilityCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
     utilityCheckbox:SetScript("OnClick", function(self)
@@ -111,7 +111,7 @@ local function createFrame()
     local utilityLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     utilityLabel:SetPoint("LEFT", utilityCheckbox, "RIGHT", checkboxMargin, 0)
     utilityLabel:SetText("Don't include utility mounts")
-    currentY = currentY - lineHeight * 2
+    currentY = currentY - lineHeight * 2]]
 
 
     -- Heading
@@ -196,6 +196,10 @@ local function createFrame()
     summonPetFromDruidFormLabel:SetText("Summon pet from druid form")
     currentY = currentY - lineHeight
 
+    RuthesMS.utils.addon.createTooltip(advancedFrame, [[
+Summon a matching pet whenever you shapeshift as a druid]],
+        summonPetFromDruidFormLabel, 15, -5)
+
 
     -- Use Druid Glyph of Stars
     useDruidGlyphOfTheStarsCheckbox = CreateFrame("CheckButton", "UseDruidGlyphOfTheStarsCheckbox", advancedFrame,
@@ -224,6 +228,12 @@ local function createFrame()
     useClassPetsLabel:SetPoint("LEFT", useClassPetsCheckbox, "RIGHT", checkboxMargin, 0)
     useClassPetsLabel:SetText("Prefer class specific pets (only for some specs)")
     currentY = currentY - lineHeight
+
+    RuthesMS.utils.addon.createTooltip(advancedFrame, [[
+Only available for:
+Druid, warlock, shaman, death knight,
+mage, evoker, hunter and shadow priest]],
+        useClassPetsLabel, 15, -5)
 
 
     advancedFrame:Show()

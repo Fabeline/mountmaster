@@ -11,8 +11,8 @@ local function InitializeConfig()
             summonKey = standardKey, -- deprecated, use keybinds instead
 
             useOnlyFavourites = false,
-            dontIncludeUtilityMounts = false,
-            globalKeybinds = false,
+            dontIncludeUtilityMounts = true,
+            globalKeybinds = true,
 
             allowPetsInInstance = false,
             dontSummonPetFromMount = false,
@@ -80,8 +80,8 @@ local function InitializeConfig()
 
     RuthesMS.settings.useOnlyFavourites = MountSelectorCharacterConfig.useOnlyFavourites or false
     RuthesMS.settings.smallMountInInstance = MountSelectorCharacterConfig.smallMountInInstance or false
-    RuthesMS.settings.dontIncludeUtilityMounts = MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
-    RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds or false
+    RuthesMS.settings.dontIncludeUtilityMounts = true -- MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
+    RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds
     RuthesMS.settings.dismissPetOnUnmount = MountSelectorCharacterConfig.dismissPetOnUnmount or false
 
     RuthesMS.settings.summonPetFromMount = not MountSelectorCharacterConfig.dontSummonPetFromMount or false
@@ -93,6 +93,11 @@ local function InitializeConfig()
     RuthesMS.settings.useDruidGlyphOfTheStars = MountSelectorCharacterConfig.useDruidGlyphOfTheStars or false
 
     RuthesMS.settings.pickForMe = MountSelectorCharacterConfig.pickForMe or false
+
+    -- Set default for globaKeybinds to true
+    if MountSelectorCharacterConfig.globalKeybinds == nil then
+        MountSelectorCharacterConfig.globalKeybinds = true
+    end
 
     if (MountSelectorCharacterConfig.globalKeybinds) then
         RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
@@ -136,10 +141,10 @@ local function saveSmallMountInInstance(shouldUse)
     RuthesMS.settings.smallMountInInstance = shouldUse
 end
 
-local function saveDontIncludeUtilityMounts(shouldUse)
+--[[local function saveDontIncludeUtilityMounts(shouldUse)
     MountSelectorCharacterConfig.dontIncludeUtilityMounts = shouldUse
     RuthesMS.settings.dontIncludeUtilityMounts = shouldUse
-end
+end]]
 
 local function saveGlobalKeybinds(shouldUse)
     if (shouldUse) then
@@ -203,7 +208,7 @@ RuthesMS.db = {
 
     saveUseOnlyFavourites = saveUseOnlyFavourites,
     saveSmallMountInInstance = saveSmallMountInInstance,
-    saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
+    -- saveDontIncludeUtilityMounts = saveDontIncludeUtilityMounts,
     saveGlobalKeybinds = saveGlobalKeybinds,
 
     saveDismissPetOnUnmount = saveDismissPetOnUnmount,
