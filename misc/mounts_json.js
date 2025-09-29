@@ -14601,7 +14601,7 @@ mounts = [
 },
 {
     id: 2579,
-    name: "Banshee's Grotesque Charger",
+    name: "Forsaken's Grotesque Charger",
     skeleton_type: "horse",
     color: "green",
     secondary_color: "purple",
@@ -15109,6 +15109,592 @@ mounts = [
       expansion: "TWW",
       looks: "pretty"
   },
+  {
+      id: 1945,
+      name: "Jeweled Sapphire Scarab",
+      skeleton_type: "insect",
+      color: "blue",
+      secondary_color: "gray",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2542,
+      name: "Bloodhunter Fel Bat",
+      skeleton_type: "gargoyle",
+      color: "red",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2544,
+      name: "Ashplague Fel Bat",
+      skeleton_type: "gargoyle",
+      color: "gray",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2546,
+      name: "Wretched Fel Bat",
+      skeleton_type: "gargoyle",
+      color: "black",
+      secondary_color: "brown",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2573,
+      name: "Grandiose Grrloc",
+      skeleton_type: "gargoyle",
+      color: "blue",
+      secondary_color: "green",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2574,
+      name: "Snowy Highmountain Eagle",
+      skeleton_type: "bird",
+      color: "white",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2593,
+      name: "Slag Basilisk",
+      skeleton_type: "crocodile",
+      color: "orange",
+      secondary_color: "brown",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2612,
+      name: "Void-Forged Overseer",
+      skeleton_type: "mechanical",
+      color: "purple",
+      secondary_color: "yellow",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2645,
+      name: "Kalu'ak Crest-Horn",
+      skeleton_type: "stag",
+      color: "brown",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2649,
+      name: "Sharktested Crest-Horn",
+      skeleton_type: "stag",
+      color: "brown",
+      secondary_color: "turquoise",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2650,
+      name: "Floestrider Crest-Horn",
+      skeleton_type: "stag",
+      color: "white",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2651,
+      name: "Cragstepper Crest-Horn",
+      skeleton_type: "stag",
+      color: "gray",
+      secondary_color: "red",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2653,
+      name: "Ghastly Ur'zul",
+      skeleton_type: "bear",
+      color: "green",
+      secondary_color: "gray",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2660,
+      name: "Leystone Basilisk",
+      skeleton_type: "crocodile",
+      color: "purple",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2661,
+      name: "Felslate Basilisk",
+      skeleton_type: "crocodile",
+      color: "green",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2662,
+      name: "Aquamarine Basilisk",
+      skeleton_type: "crocodile",
+      color: "turquoise",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2663,
+      name: "Illidari Dreadstalker",
+      skeleton_type: "wolf",
+      color: "black",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2664,
+      name: "Illidari Blightstalker",
+      skeleton_type: "wolf",
+      color: "brown",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2665,
+      name: "Highland Elderhorn",
+      skeleton_type: "stag",
+      color: "white",
+      secondary_color: "brown",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2666,
+      name: "Treetop Highmountain Eagle",
+      skeleton_type: "bird",
+      color: "brown",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "neutral"
+  },
+  {
+      id: 2670,
+      name: "Arcberry Manasaber",
+      skeleton_type: "cat",
+      color: "purple",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2671,
+      name: "Fel-Scarred Mana Ray",
+      skeleton_type: "fish",
+      color: "green",
+      secondary_color: "pink",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2672,
+      name: "Bloodtooth Mana Ray",
+      skeleton_type: "fish",
+      color: "orange",
+      secondary_color: "yellow",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2673,
+      name: "Albino Mana Ray",
+      skeleton_type: "fish",
+      color: "white",
+      secondary_color: "pink",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2674,
+      name: "Luminous Mana Ray",
+      skeleton_type: "fish",
+      color: "green",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2675,
+      name: "Twilight Courser",
+      skeleton_type: "horse",
+      color: "black",
+      secondary_color: "fire",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2676,
+      name: "Golden Sunrunner",
+      skeleton_type: "horse",
+      color: "white",
+      secondary_color: "yellow",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2677,
+      name: "Turquoise Courser",
+      skeleton_type: "horse",
+      color: "brown",
+      secondary_color: "turquoise",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2678,
+      name: "Gloomdark Nightmare",
+      skeleton_type: "horse",
+      color: "black",
+      secondary_color: "red",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2679,
+      name: "Bonesteed of Triumph",
+      skeleton_type: "horse",
+      color: "white",
+      secondary_color: "black",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2681,
+      name: "Bonesteed of Bloodshed",
+      skeleton_type: "horse",
+      color: "red",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2682,
+      name: "Bonesteed of Plague",
+      skeleton_type: "horse",
+      color: "green",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2683,
+      name: "Bonesteed of Oblivion",
+      skeleton_type: "horse",
+      color: "gray",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2686,
+      name: "Longhorned Sable Talbuk",
+      skeleton_type: "stag",
+      color: "purple",
+      secondary_color: "gray",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2688,
+      name: "Garnet Ruinstrider",
+      skeleton_type: "stag",
+      color: "pink",
+      secondary_color: "white",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2689,
+      name: "Longhorned Bleakhoof Talbuk",
+      skeleton_type: "stag",
+      color: "green",
+      secondary_color: "brown",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary"
+  },
+  {
+      id: 2690,
+      name: "Longhorned Argussian Talbuk",
+      skeleton_type: "stag",
+      color: "yellow",
+      secondary_color: "white",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2691,
+      name: "Longhorned Beryl Talbuk",
+      skeleton_type: "stag",
+      color: "brown",
+      secondary_color: "turquoise",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+  {
+      id: 2696,
+      name: "Highlands Gobbler",
+      skeleton_type: "emu",
+      color: "black",
+      secondary_color: "red",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "silly"
+  },
+  {
+      id: 2697,
+      name: "Quirky Turkey",
+      skeleton_type: "emu",
+      color: "brown",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "silly"
+  },
+  {
+      id: 2698,
+      name: "Murky Turkey",
+      skeleton_type: "emu",
+      color: "purple",
+      secondary_color: "pink",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "silly"
+  },
+  {
+      id: 2699,
+      name: "Prized Turkey",
+      skeleton_type: "emu",
+      color: "white",
+      secondary_color: "brown",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "silly"
+  },
+  {
+      id: 2705,
+      name: "Chestnut Courser",
+      skeleton_type: "horse",
+      color: "brown",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2706,
+      name: "Brimstone Courser",
+      skeleton_type: "horse",
+      color: "gray",
+      secondary_color: "orange",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty"
+  },
+  {
+      id: 2716,
+      name: "(PH) Legion Remix Mount",
+      skeleton_type: "stag",
+      color: "various",
+      secondary_color: "",
+      is_small: "",
+      expansion: "TWW",
+      looks: "neutral"
+  },
+  {
+      id: 2720,
+      name: "Felscorned Vilebrood Vanquisher",
+      skeleton_type: "dragon",
+      color: "green",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "scary",
+      className: "death knight"
+  },
+  {
+      id: 2721,
+      name: "Slayer's Felscorned Shrieker",
+      skeleton_type: "gargoyle",
+      color: "green",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "scary",
+      className: "demon hunter"
+  },
+  {
+      id: 2723,
+      name: "Felscorned Wolfhawk",
+      skeleton_type: "wolf",
+      color: "green",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "neutral",
+      className: "hunter"
+  },
+  {
+      id: 2724,
+      name: "Archmage's Felscorned Disc",
+      skeleton_type: "kite",
+      color: "green",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "neutral",
+      className: "mage"
+  },
+  {
+      id: 2725,
+      name: "Felscorned Grandmaster's Companion",
+      skeleton_type: "cat",
+      color: "green",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough",
+      className: "monk"
+  },
+  {
+      id: 2726,
+      name: "Felscorned Highlord's Charger",
+      skeleton_type: "horse",
+      color: "green",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty",
+      className: "paladin"
+  },
+  {
+      id: 2727,
+      name: "High Priest's Felscorned Seeker",
+      skeleton_type: "gryphon",
+      color: "green",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "pretty",
+      className: "priest"
+  },
+  {
+      id: 2728,
+      name: "Shadowblade's Felscorned Omen",
+      skeleton_type: "bird",
+      color: "green",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary",
+      className: "rogue"
+  },
+  {
+      id: 2729,
+      name: "Farseer's Felscorned Tempest",
+      skeleton_type: "elemental",
+      color: "green",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "tough",
+      className: "shaman"
+  },
+  {
+      id: 2730,
+      name: "Felscorned Netherlord's Dreadsteed",
+      skeleton_type: "horse",
+      color: "green",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "scary",
+      className: "warlock"
+  },
+  {
+      id: 2731,
+      name: "Felscorned War Wyrm",
+      skeleton_type: "dragon",
+      color: "green",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "TWW",
+      looks: "scary",
+      className: "warrior"
+  },
+  {
+      id: 2732,
+      name: "Cerulean Phase-Hunter",
+      skeleton_type: "crocodile",
+      color: "white",
+      secondary_color: "turquoise",
+      is_small: "true",
+      expansion: "TWW",
+      looks: "tough"
+  },
+
+
+
+
+
 ]
 
 /*

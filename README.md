@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.7.7
+- Added new mounts for patch 11.2.5 (including Legion Remix)
+
 ### ver 1.7.6
 - Added mounts and pets for midnight preorder
 - Fixed addon blocked error when druid shapeshifting into combat
