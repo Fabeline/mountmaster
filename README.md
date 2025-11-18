@@ -12,6 +12,12 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.7.9
+- Added mounts and pets for 11.2.7
+
+### ver 1.7.8
+- Updated interface number
+
 ### ver 1.7.7
 - Added new mounts for patch 11.2.5 (including Legion Remix)
 

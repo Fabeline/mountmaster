@@ -3,6 +3,7 @@ Check with ADDON_ACTION_BLOCKED testing on
 Turn off blockedDebug !!
 
 - Remove .gitignore !!
+- Remove .vscode
 - Remove x_copyFiles.bat !!
 - remove .wago !!
 

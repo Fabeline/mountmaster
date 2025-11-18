@@ -15718,35 +15718,15 @@ RuthesMS.data.pets = {
         icon = 1,
         race = "insect",
         color = "yellow"
+    },
+    {
+        speciesID = 4911,
+        name = "P.O.S.T. Assistant",
+        type = 6,
+        icon = 1,
+        race = "humanoid",
+        color = "red"
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
