@@ -18,7 +18,7 @@ local function createMountButtons()
 
         local mountIcon = contentFrame:CreateTexture(nil, "ARTWORK")
         mountIcon:SetSize(32, 32)
-        mountIcon:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 10, -(i - 1) * lineheight)
+        mountIcon:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 35, -(i - 1) * lineheight)
         mountIcon:SetTexture(mountData.icon)
 
         local iconButton = CreateFrame("Button", nil, contentFrame)
@@ -46,6 +46,20 @@ local function createMountButtons()
         mountText:SetFontObject("GameFontNormal")
         mountText:SetPoint("LEFT", mountIcon, "RIGHT", 10, 0)
         mountText:SetText(mountData.name)
+
+        -- Disabling
+        enableCheckbox = CreateFrame("CheckButton", "enableCheckbox", contentFrame,
+            "ChatConfigCheckButtonTemplate")
+        enableCheckbox:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 7, -(i - 1) * lineheight)
+        -- Subtracting some pixels from the right hit rect to avoid overlap with the favorite button
+        enableCheckbox:SetHitRectInsets(0, 5, 0, 0)
+        enableCheckbox:SetScript("OnClick", function(self)
+            local isEnabled = self:GetChecked()
+            RuthesMS.settings.disabledMounts[mountID] = not isEnabled
+            RuthesMS.db.saveDisabledMounts(RuthesMS.settings.disabledMounts)
+            RuthesMS.buttons.mountButtons.reload()
+        end)
+        enableCheckbox:SetChecked(not RuthesMS.settings.disabledMounts[mountID])
 
         -- Create a clickable button for the favorite icon
         local favoriteButton = CreateFrame("Button", nil, contentFrame)
@@ -89,6 +103,7 @@ local function createMountButtons()
                 ToggleCollectionsJournal(1)
             end
         end)
+
     end
 end
 

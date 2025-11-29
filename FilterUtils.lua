@@ -74,6 +74,17 @@ local function hasSelectedLooks(mount)
     return tContains(RuthesMS.settings.selectedLooks, CapitalizeFirstLetter(mount.looks))
 end
 
+local function removeDisabledMounts(mounts)
+    local enabledMounts = {}
+    for _, mount in ipairs(mounts) do
+        if not RuthesMS.settings.disabledMounts[mount.id] then
+            table.insert(enabledMounts, mount)
+        end
+    end
+    return enabledMounts
+end
+
+
 -- Note that we might end up with a higher number of mounts when onlyFavorites is selected,
 -- that is because the data set is smaller and we then filter less strictly
 local function filterMounts(availableMounts)
@@ -170,4 +181,5 @@ end
 
 RuthesMS.utils.filter = {
     filterMounts = filterMounts,
+    removeDisabledMounts = removeDisabledMounts
 }
