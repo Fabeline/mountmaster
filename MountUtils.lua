@@ -168,6 +168,7 @@ local function reloadMounts()
     local availableMounts = RuthesMS.utils.mount.getAvailableMounts()
     RuthesMS.state.availableMounts = availableMounts
     RuthesMS.state.currentMounts = RuthesMS.utils.filter.filterMounts(availableMounts)
+    RuthesMS.state.currentEnabledMounts = RuthesMS.utils.filter.removeDisabledMounts(RuthesMS.state.currentMounts)
 end
 
 

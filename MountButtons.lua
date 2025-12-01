@@ -1,5 +1,40 @@
 local lineheight = 37
 
+local function createAllButton(contentFrame)
+    -- Create button
+    local allButton = CreateFrame("Button", nil, contentFrame, "UIPanelButtonTemplate")
+    allButton:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 7, 0)
+    allButton:SetSize(100, 22)
+    allButton:SetText("Toggle all")
+
+    allButton:SetScript("OnClick", function()
+        -- Check if all mounts are already enabled
+        local allAreEnabled = true
+        for _, mount in ipairs(RuthesMS.state.currentMounts) do
+            if RuthesMS.settings.disabledMounts[mount.id] then
+                allAreEnabled = false
+                break
+            end
+        end
+
+        -- If all are enabled - toggle all OFF
+        -- If some are off - toggle all ON
+        local enableAll = not allAreEnabled
+
+        for _, mount in ipairs(RuthesMS.state.currentMounts) do
+            if enableAll then
+                RuthesMS.settings.disabledMounts[mount.id] = nil
+            else
+                RuthesMS.settings.disabledMounts[mount.id] = true
+            end
+        end
+
+        RuthesMS.db.saveDisabledMounts(RuthesMS.settings.disabledMounts)
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+end
+
+
 local function createMountButtons()
     ToggleCollectionsJournal(1)
     ToggleCollectionsJournal(1)
@@ -7,6 +42,10 @@ local function createMountButtons()
     RuthesMS.frames.contentFrame.delete()
     RuthesMS.frames.contentFrame.create()
     local contentFrame = RuthesMS.frames.contentFrame.frame
+
+    createAllButton(contentFrame)
+
+    local yOffset = -lineheight + 7
 
     for i, mount in ipairs(RuthesMS.state.currentMounts) do
         local mountData = mount
@@ -18,7 +57,7 @@ local function createMountButtons()
 
         local mountIcon = contentFrame:CreateTexture(nil, "ARTWORK")
         mountIcon:SetSize(32, 32)
-        mountIcon:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 10, -(i - 1) * lineheight)
+        mountIcon:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 35, -(i - 1) * lineheight + yOffset)
         mountIcon:SetTexture(mountData.icon)
 
         local iconButton = CreateFrame("Button", nil, contentFrame)
@@ -46,6 +85,20 @@ local function createMountButtons()
         mountText:SetFontObject("GameFontNormal")
         mountText:SetPoint("LEFT", mountIcon, "RIGHT", 10, 0)
         mountText:SetText(mountData.name)
+
+        -- Disabling
+        enableCheckbox = CreateFrame("CheckButton", "enableCheckbox", contentFrame,
+            "ChatConfigCheckButtonTemplate")
+        enableCheckbox:SetPoint("TOPLEFT", contentFrame, "TOPLEFT", 7, -(i - 1) * lineheight + yOffset)
+        -- Subtracting some pixels from the right hit rect to avoid overlap with the favorite button
+        enableCheckbox:SetHitRectInsets(0, 5, 0, 0)
+        enableCheckbox:SetScript("OnClick", function(self)
+            local isEnabled = self:GetChecked()
+            RuthesMS.settings.disabledMounts[mountID] = not isEnabled
+            RuthesMS.db.saveDisabledMounts(RuthesMS.settings.disabledMounts)
+            RuthesMS.buttons.mountButtons.reload()
+        end)
+        enableCheckbox:SetChecked(not RuthesMS.settings.disabledMounts[mountID])
 
         -- Create a clickable button for the favorite icon
         local favoriteButton = CreateFrame("Button", nil, contentFrame)
@@ -89,6 +142,7 @@ local function createMountButtons()
                 ToggleCollectionsJournal(1)
             end
         end)
+
     end
 end
 

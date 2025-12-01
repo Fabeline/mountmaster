@@ -86,8 +86,10 @@ local function createMountSelectorFrame()
     -- Create a title for the frame
     mountSelectorFrame.title = mountSelectorFrame:CreateFontString(nil, "OVERLAY")
     mountSelectorFrame.title:SetFontObject("GameFontHighlightMedium")
+    mountSelectorFrame.title:SetFont(select(1, mountSelectorFrame.title:GetFont()), 13, "")
     mountSelectorFrame.title:SetPoint("TOP", mountSelectorFrame.TitleBg, "TOP", 0, -4.5)
     mountSelectorFrame.title:SetText("Ruthe's Mount Selector")
+
 
     -- Make the title bar draggable
     mountSelectorFrame.TitleBg:SetScript("OnMouseDown", function(self, button)

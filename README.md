@@ -12,6 +12,10 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.8.0
+- Added option to enable/disable all displayed mounts per character
+- Fixed bug when summoning multiple riders mount
+
 ### ver 1.7.9
 - Added mounts and pets for 11.2.7
 

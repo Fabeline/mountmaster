@@ -102,6 +102,7 @@ local function applySummonKeyBinding()
     bindKey(RuthesMS.keybinds.transmog, "RuthesMSRandomTransmogMountButton")
     bindKey(RuthesMS.keybinds.auctionHouse, "RuthesMSRandomAuctionHouseMountButton")
     bindKey(RuthesMS.keybinds.mailbox, "RuthesMSRandomMailboxMountButton")
+    bindKey(RuthesMS.keybinds.multiple, "RuthesMSRandomMultipleMountButton")
 end
 
 

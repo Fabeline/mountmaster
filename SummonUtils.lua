@@ -182,14 +182,14 @@ local function summonRandomMount(isSwimming, onlySmall, onlyGround)
 
         RuthesMS.utils.mount.reloadMounts()
 
-        if #RuthesMS.state.currentMounts > 0 then
+        if #RuthesMS.state.currentEnabledMounts > 0 then
             local chosenMounts
 
             local flyingMounts = {}
             local groundMounts = {}
             local aquaticMounts = {}
 
-            for _, mount in ipairs(RuthesMS.state.currentMounts) do
+            for _, mount in ipairs(RuthesMS.state.currentEnabledMounts) do
                 if (onlySmall and mount.is_small ~= "true") then
                     -- Skip mounts that are not small
                 else
@@ -218,9 +218,9 @@ local function summonRandomMount(isSwimming, onlySmall, onlyGround)
                     chosenMounts = aquaticMounts
                 else
                     -- If the aquatic mounts don't fit the criteria, summon a random aquatic mount
-                    RuthesMS.state.currentMounts = RuthesMS.state.availableMounts
-                    if (#RuthesMS.state.currentMounts > 0) then
-                        for _, mount in ipairs(RuthesMS.state.currentMounts) do
+                    RuthesMS.state.currentEnabledMounts = RuthesMS.state.availableMounts
+                    if (#RuthesMS.state.currentEnabledMounts > 0) then
+                        for _, mount in ipairs(RuthesMS.state.currentEnabledMounts) do
                             if mount.isAquatic then
                                 table.insert(aquaticMounts, mount)
                             end
