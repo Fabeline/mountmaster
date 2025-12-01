@@ -72,7 +72,7 @@ local function InitializeConfig()
         transmog = MountSelectorCharacterConfig.keybinds.transmog or "",
         mailbox = MountSelectorCharacterConfig.keybinds.mailbox or "",
         auctionHouse = MountSelectorCharacterConfig.keybinds.auctionHouse or "",
-        multiple = MountSelectorCharacterConfig.keybinds.multiple or "",
+        multiple = MountSelectorCharacterConfig.keybinds.multiple or ""
     }
 
     RuthesMS.settings.selectedColors = MountSelectorCharacterConfig.colors or {}
