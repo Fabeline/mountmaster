@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.8.1
+- Added Crazy Cat Lady Mode - when enabled, only summons cat pets that match your mounts
+
 ### ver 1.8.0
 - Added option to enable/disable all displayed mounts per character
 - Fixed bug when summoning multiple riders mount

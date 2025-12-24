@@ -75,7 +75,7 @@ local function getPetsByRace(raceList)
             end
         end
     end
-
+    
     return filteredPets
 end
 
@@ -297,7 +297,9 @@ local function summonPetFromMount(mount)
     local availablePets = loadAvailablePets()
 
     local filteredPets
-    if (RuthesMS.settings.useClassPets) then
+    if(RuthesMS.settings.crazyCatLadyMode) then
+        filteredPets = filterPets("cat", mount.color, availablePets)
+    elseif (RuthesMS.settings.useClassPets) then
         filteredPets = filterByClass(availablePets)
         if (#filteredPets == 0) then -- If no pets, try to match all instead
             filteredPets = filterPets(mount.skeleton_type, mount.color, availablePets)
