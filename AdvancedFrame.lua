@@ -9,6 +9,7 @@ local noPetsInInstanceCheckbox
 local useClassPetsCheckbox
 local useDruidGlyphOfTheStarsCheckbox
 local dismissPetOnUnmountCheckbox
+local crazyCatLadyModeCheckbox
 
 local lineHeight = 25
 local currentY = 0
@@ -54,6 +55,10 @@ local function reloadCheckboxes()
 
     if dismissPetOnUnmountCheckbox then
         dismissPetOnUnmountCheckbox:SetChecked(RuthesMS.settings.dismissPetOnUnmount)
+    end
+
+    if crazyCatLadyModeCheckbox then
+        crazyCatLadyModeCheckbox:SetChecked(RuthesMS.settings.crazyCatLadyMode)
     end
 end
 
@@ -174,7 +179,25 @@ local function createFrame()
     local dismissPetOnUnmountLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     dismissPetOnUnmountLabel:SetPoint("LEFT", dismissPetOnUnmountCheckbox, "RIGHT", checkboxMargin, 0)
     dismissPetOnUnmountLabel:SetText("Dismiss pet on unmount")
+    currentY = currentY - lineHeight
+
+    -- Crazy cat lady mode
+    crazyCatLadyModeCheckbox = CreateFrame("CheckButton", "CrazyCatLadyModeCheckbox", advancedFrame,
+        "ChatConfigCheckButtonTemplate")
+    crazyCatLadyModeCheckbox:SetPoint("TOPLEFT", advancedFrame, "TOPLEFT", xMargin, currentY)
+    crazyCatLadyModeCheckbox:SetScript("OnClick", function(self)
+        RuthesMS.db.saveCrazyCatLadyMode(self:GetChecked())
+        RuthesMS.buttons.mountButtons.reload()
+    end)
+
+    local crazyCatLadyModeLabel = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    crazyCatLadyModeLabel:SetPoint("LEFT", crazyCatLadyModeCheckbox, "RIGHT", checkboxMargin, 0)
+    crazyCatLadyModeLabel:SetText("Crazy cat lady mode")
     currentY = currentY - lineHeight * 2
+    RuthesMS.utils.addon.createTooltip(advancedFrame, [[
+Only summon cat pets when mounting]],
+        crazyCatLadyModeLabel, 15, -5)
+
 
     -- Heading
     local heading3 = advancedFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")

@@ -18,6 +18,7 @@ local function InitializeConfig()
             dontSummonPetFromMount = false,
             dontSummonPetFromDruidForm = false,
             dismissPetOnUnmount = false,
+            crazyCatLadyMode = false,
 
             disabledMounts = {},
 
@@ -86,6 +87,7 @@ local function InitializeConfig()
     RuthesMS.settings.dontIncludeUtilityMounts = true -- MountSelectorCharacterConfig.dontIncludeUtilityMounts or false
     RuthesMS.settings.globalKeybinds = MountSelectorCharacterConfig.globalKeybinds
     RuthesMS.settings.dismissPetOnUnmount = MountSelectorCharacterConfig.dismissPetOnUnmount or false
+    RuthesMS.settings.crazyCatLadyMode = MountSelectorCharacterConfig.crazyCatLadyMode or false
 
     RuthesMS.settings.summonPetFromMount = not MountSelectorCharacterConfig.dontSummonPetFromMount or false
     RuthesMS.settings.summonPetFromDruidForm = not MountSelectorCharacterConfig.dontSummonPetFromDruidForm or false
@@ -181,6 +183,11 @@ local function saveDismissPetOnUnmount(shouldUse)
     RuthesMS.settings.dismissPetOnUnmount = shouldUse
 end
 
+local function saveCrazyCatLadyMode(shouldUse)
+    MountSelectorCharacterConfig.crazyCatLadyMode = shouldUse
+    RuthesMS.settings.crazyCatLadyMode = shouldUse
+end
+
 local function saveUseOnlyPetFavourites(shouldUse)
     MountSelectorCharacterConfig.useOnlyPetFavourites = shouldUse
     RuthesMS.settings.useOnlyPetFavourites = shouldUse
@@ -221,6 +228,7 @@ RuthesMS.db = {
     saveDisabledMounts = saveDisabledMounts,
 
     saveDismissPetOnUnmount = saveDismissPetOnUnmount,
+    saveCrazyCatLadyMode = saveCrazyCatLadyMode,
     saveSummonPetFromMount = saveSummonPetFromMount,
     saveSummonPetFromDruidForm = saveSummonPetFromDruidForm,
     saveUseOnlyPetFavourites = saveUseOnlyPetFavourites,

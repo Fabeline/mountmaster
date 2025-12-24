@@ -13,6 +13,7 @@ RuthesMS = {
         useOnlyPetFavourites = false,
         useDruidGlyphOfTheStars = false,
         pickForme = false,
+        crazyCatLadyMode = false,
     },
     keybinds = {
     },
