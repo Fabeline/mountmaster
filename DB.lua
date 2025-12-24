@@ -22,6 +22,8 @@ local function InitializeConfig()
 
             disabledMounts = {},
 
+            disabledMounts = {},
+
             pickForMe = false,
 
             useOnlyPetFavourites = false,
