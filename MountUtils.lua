@@ -17,6 +17,8 @@ local function isMountFlying(typeId)
         [407] = true, -- Ability mount
         [424] = true, -- Dragonriding mounts, including mounts that have dragonriding animations but are not yet enabled for dragonriding
         [436] = true, -- Swimming and flying mounts
+        [445] = true, -- voyaging wilderling
+        
     }
     return flyingMountTypes[typeId]
 end
@@ -82,9 +84,9 @@ local function loadKnownMounts()
         local mountInfo = RuthesMS.utils.mount.findMountByID(mountID)
         local isUtilityMount = RuthesMS.utils.summon.isUtilityMount(mountID)
 
-        local canFly = RuthesMS.utils.mount.isMountFlying(mountType)
         local canSwim = RuthesMS.utils.mount.isAquaticMount(mountType)
-
+        local canFly = RuthesMS.utils.mount.isMountFlying(mountType)
+        
         -- Uncomment to output missing mounts
         -- if not mountInfo then
         --     print("Missing> Name: " .. name .. ", mountID: " .. mountID)

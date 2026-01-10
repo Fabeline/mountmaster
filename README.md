@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.9.0
+- Fixed bug with Voyaging Wilderling
+
 ### ver 1.8.1
 - Added Crazy Cat Lady Mode - when enabled, only summons cat pets that match your mounts
 

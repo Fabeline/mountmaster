@@ -1,4 +1,4 @@
-## Interface: 110200,110205,110207
+## Interface: 110200,110205,110207,120000
 ## Version: 1.8.1
 ## Title: Ruthe's MountSelector
 ## Author: Ruthe
