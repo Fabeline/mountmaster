@@ -15860,10 +15860,617 @@ mounts = [
       expansion: "TWW",
       looks: "neutral"
   },
-
-
-
-
+  {
+      id: 16,
+      name: "Lost Nether Drake",
+      skeleton_type: "dragon",
+      color: "purple",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 1946,
+      name: "Jeweled Jade Scarab",
+      skeleton_type: "insect",
+      color: "green",
+      secondary_color: "",
+      is_small: "ture",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2161,
+      name: "Elder Glowmite",
+      skeleton_type: "insect",
+      color: "green",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2220,
+      name: "Retrained Skyrazor",
+      skeleton_type: "gargoyle",
+      color: "turquoise",
+      secondary_color: "blue",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2595,
+      name: "Swift Spectral Dragonhawk",
+      skeleton_type: "insect",
+      color: "ghost",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2607,
+      name: "Ashes of Belo'ren",
+      skeleton_type: "bird",
+      color: "blue",
+      secondary_color: "yellow",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2608,
+      name: "Light-Forged Mechsuit",
+      skeleton_type: "mechanical",
+      color: "yellow",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2614,
+      name: "Fierce Grimlynx",
+      skeleton_type: "rat",
+      color: "brown",
+      secondary_color: "purple",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2615,
+      name: "Rootstalker Grimlynx",
+      skeleton_type: "rat",
+      color: "green",
+      secondary_color: "brown",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2634,
+      name: "Scorching Valor",
+      skeleton_type: "horse",
+      color: "fire",
+      secondary_color: "black",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2693,
+      name: "Amani Sunfeather",
+      skeleton_type: "bird",
+      color: "brown",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2694,
+      name: "Amani Windcaller",
+      skeleton_type: "bird",
+      color: "red",
+      secondary_color: "turquoise",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2704,
+      name: "Jellyfish",
+      skeleton_type: "fish",
+      color: "various",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2708,
+      name: "Vibrant Petalwing",
+      skeleton_type: "bird",
+      color: "purple",
+      secondary_color: "green",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2710,
+      name: "Cerulean Sporeglider",
+      skeleton_type: "insect",
+      color: "blue",
+      secondary_color: "purple",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2713,
+      name: "Ruddy Sporeglider",
+      skeleton_type: "insect",
+      color: "red",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2733,
+      name: "Calamitous Carrion",
+      skeleton_type: "bird",
+      color: "black",
+      secondary_color: "green",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2734,
+      name: "Convalescent Carrion",
+      skeleton_type: "bird",
+      color: "white",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2747,
+      name: "Untained Grove Crawler",
+      skeleton_type: "crocodile",
+      color: "various",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2749,
+      name: "Echo of Aln'sharan",
+      skeleton_type: "serpent",
+      color: "ghost",
+      secondary_color: "turquoise",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2751,
+      name: "Augmented Stormray",
+      skeleton_type: "fish",
+      color: "green",
+      secondary_color: "brown",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2753,
+      name: "Fiery Dragonhawk",
+      skeleton_type: "insect",
+      color: "red",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2758,
+      name: "Cobalt Dragonhawk",
+      skeleton_type: "insect",
+      color: "blue",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2760,
+      name: "Armani Sharptalon",
+      skeleton_type: "bird",
+      color: "red",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2761,
+      name: "Crimson Silvermoon Hawkstrider",
+      skeleton_type: "emu",
+      color: "pink",
+      secondary_color: "purple",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2762,
+      name: "Cerulean Hawkstrider",
+      skeleton_type: "emu",
+      color: "blue",
+      secondary_color: "turquoise",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2764,
+      name: "Duskbrute Harrower",
+      skeleton_type: "gargoyle",
+      color: "turquoise",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2769,
+      name: "Preyseeker's Hubris",
+      skeleton_type: "fish",
+      color: "blue",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2770,
+      name: "Preyseeker's Wrath",
+      skeleton_type: "fish",
+      color: "orange",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2771,
+      name: "Prayseeker's Nightmare",
+      skeleton_type: "fish",
+      color: "various",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2772,
+      name: "Blessed Amani Burrower",
+      skeleton_type: "bear",
+      color: "turquoise",
+      secondary_color: "brown",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2775,
+      name: "Witherbark Pango",
+      skeleton_type: "bear",
+      color: "brown",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2776,
+      name: "Amani Blessed Bear",
+      skeleton_type: "bear",
+      color: "brown",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2778,
+      name: "Ancestral War Bear",
+      skeleton_type: "bear",
+      color: "brown",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2785,
+      name: "Relinquished Scarlet Charger",
+      skeleton_type: "horse",
+      color: "white",
+      secondary_color: "red",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty",
+      className: "paladin"
+  },
+  {
+      id: 2786,
+      name: "Hexed Vilefeather Eagle",
+      skeleton_type: "bird",
+      color: "turquoise",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2791,
+      name: "Prowling Shredclaw",
+      skeleton_type: "rat",
+      color: "blue",
+      secondary_color: "gray",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2792,
+      name: "Frenzied Shredclaw",
+      skeleton_type: "rat",
+      color: "gray",
+      secondary_color: "red",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2793,
+      name: "Vicious Snaplizard",
+      skeleton_type: "crocodile",
+      color: "various",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2794,
+      name: "Vicious Snaplizard",
+      skeleton_type: "crocodile",
+      color: "various",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2801,
+      name: "Galactic Gladiator's Goredrake",
+      skeleton_type: "dragon",
+      color: "blue",
+      secondary_color: "gray",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2817,
+      name: "Lucent Hawkstrider",
+      skeleton_type: "emu",
+      color: "white",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2827,
+      name: "Sanguine Harrower",
+      skeleton_type: "gargoyle",
+      color: "red",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2831,
+      name: "Tenebrous Harrower",
+      skeleton_type: "gargoyle",
+      color: "blue",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2833,
+      name: "Arboreal Pseudoshell",
+      skeleton_type: "snail",
+      color: "brown",
+      secondary_color: "orange",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "cute"
+  },
+  {
+      id: 2834,
+      name: "Cabbage Pseudoshell",
+      skeleton_type: "snail",
+      color: "white",
+      secondary_color: "green",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "cute"
+  },
+  {
+      id: 2835,
+      name: "Lavender Pseudoshell",
+      skeleton_type: "snail",
+      color: "purple",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "cute"
+  },
+  {
+      id: 2836,
+      name: "Accented Pseudoshell",
+      skeleton_type: "snail",
+      color: "orange",
+      secondary_color: "brown",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "cute"
+  },
+  {
+      id: 2840,
+      name: "Silvermoon's Arcane Defender",
+      skeleton_type: "mechanical",
+      color: "yellow",
+      secondary_color: "red",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2841,
+      name: "Elven Arcane Guardian",
+      skeleton_type: "mechanical",
+      color: "blue",
+      secondary_color: "gray",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2842,
+      name: "Arcanovoid Construct",
+      skeleton_type: "mechanical",
+      color: "blue",
+      secondary_color: "black",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2845,
+      name: "Vicious Snapvine",
+      skeleton_type: "insect",
+      color: "green",
+      secondary_color: "red",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2846,
+      name: "Ferocious Snapvine",
+      skeleton_type: "insect",
+      color: "orange",
+      secondary_color: "white",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2847,
+      name: "Blooded Snapvine",
+      skeleton_type: "insect",
+      color: "red",
+      secondary_color: "brown",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2848,
+      name: "Savage Snapvine",
+      skeleton_type: "insect",
+      color: "orange",
+      secondary_color: "brown",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2850,
+      name: "Fluffy Comfy Flying Quilt",
+      skeleton_type: "kite",
+      color: "blue",
+      secondary_color: "white",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2851,
+      name: "Gruffy Comfy Flying Quilt",
+      skeleton_type: "kite",
+      color: "green",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2852,
+      name: "Comfy Bel'ameth Flying quilt",
+      skeleton_type: "kite",
+      color: "blue",
+      secondary_color: "purple",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2853,
+      name: "Comfy Silvermoon Flying Quilt",
+      skeleton_type: "kite",
+      color: "red",
+      secondary_color: "",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2913,
+      name: "Vivid Chloroceros",
+      skeleton_type: "kodo",
+      color: "purple",
+      secondary_color: "turquoise",
+      is_small: "",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2917,
+      name: "Anu'shalla, Shadow's Guidance",
+      skeleton_type: "bird",
+      color: "purple",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
 ]
 
 /*
@@ -15875,7 +16482,7 @@ mounts = [
       color: "",
       secondary_color: "",
       is_small: "",
-      expansion: "TWW",
+      expansion: "Midnight",
       looks: ""
   },
         
