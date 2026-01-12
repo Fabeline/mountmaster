@@ -112,6 +112,13 @@ local function loadKnownMounts()
             })
         end
     end
+
+    -- Sort mounts alphabetically by name
+    table.sort(RuthesMS.state.knownMounts, function(a, b)
+        if not a.name then return false end
+        if not b.name then return true end
+        return a.name:lower() < b.name:lower()
+    end)   
 end
 
 local function getAvailableMounts()
