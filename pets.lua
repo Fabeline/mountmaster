@@ -11677,15 +11677,6 @@ RuthesMS.data.pets = {
         color = "red"
     },
     {
-        speciesID = 1628,
-        name = "Sister of Temptation",
-        type = 1,
-        icon = 136220,
-        race = "bat",
-        color = "white",
-        warlock = "succubus"
-    },
-    {
         speciesID = 3546,
         name = "Skaarn",
         type = 8,
@@ -15726,8 +15717,614 @@ RuthesMS.data.pets = {
         icon = 1,
         race = "humanoid",
         color = "red"
+    },
+    {
+        speciesID = 4900,
+        name = "Bundled-Up Bob",
+        type = 9,
+        icon = 1,
+        race = "fish",
+        color = "blue"
+    },
+    {
+        speciesID = 4854,
+        name = "Duskytooth Fel Snooter",
+        type = 8,
+        icon = 1,
+        race = "stag",
+        color = "green"
+    },
+    {
+        speciesID = 4901,
+        name = "Fledgling Warden's Companion",
+        type = "3",
+        icon = 1,
+        race = "bird",
+        color = "gray"
+    },
+    {
+        speciesID = 4802,
+        name = "Morsel",
+        type = 5,
+        icon = 1,
+        race = "wolf",
+        color = "brown",
+        warlock = "demon"
+    },
+    {
+        speciesID = 4853,
+        name = "Rustyroot Fel Snooter",
+        type = 8,
+        icon = 1,
+        race = "stag",
+        color = "blue"
+    },
+    {
+        speciesID = 1751,
+        name = "Son of Goredome",
+        type = 8,
+        icon = 1,
+        race = "stag",
+        color = "white"
+    },
+    {
+        speciesID = 4801,
+        name = "Tidbit",
+        type = 5,
+        icon = 1,
+        race = "wolf",
+        color = "black",
+        warlock = "demon"
+    },
+    {
+        speciesID = 4718,
+        name = "Wind-Up Wuffi",
+        type = 10,
+        icon = 1,
+        race = "mechanical",
+        color = "gray"
+    },
+    {
+        speciesID = 4874,
+        name = "Akil Fledgling",
+        type = 3,
+        icon = 1,
+        race = "emu",
+        color = "various"
+    },
+    {
+        speciesID = 3277,
+        name = "Amber Treeflitter",
+        type = 5,
+        icon = 1,
+        race = "rat",
+        color = "brown"
+    },
+    {
+        speciesID = 4947,
+        name = "Assistant Botanist Leafy",
+        type = 7,
+        icon = 1,
+        race = "insect",
+        color = "various"
+    },
+    {
+        speciesID = 4882,
+        name = "Azure Sporebat",
+        type = 3,
+        icon = 1,
+        race = "insect",
+        color = "various"
+    },
+    {
+        speciesID = 4879,
+        name = "Blistercreepling",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "variuos"
+    },
+    {
+        speciesID = 4952,
+        name = "Blitzcreep",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "blue"
+    },
+    {
+        speciesID = 4951,
+        name = "Bubbly Snapling",
+        type = 8,
+        icon = 1,
+        race = "crocodile",
+        color = "various"
+    },
+    {
+        speciesID = 3519,
+        name = "Byrn",
+        type = 7,
+        icon = 1,
+        race = "wolf",
+        color = "fire"
+    },
+    {
+        speciesID = 4914,
+        name = "Chillcrawler",
+        type = 7,
+        icon = 1,
+        race = "spider",
+        color = "various"
+    },
+    {
+        speciesID = 4974,
+        name = "Dali",
+        type = 9,
+        icon = 1,
+        race = "snail",
+        color = "various"
+    },
+    {
+        speciesID = 4790,
+        name = "Devouring Runt",
+        type = 7,
+        icon = 1,
+        race = "crocodile",
+        color = "various"
+    },
+    {
+        speciesID = 4942,
+        name = "Disorted Memory",
+        type = 7,
+        icon = 1,
+        race = "elemental",
+        color = "ghost",
+        deathknight = "true"
+    },
+    {
+        speciesID = 4910,
+        name = "Do, child of Filo",
+        type = 8,
+        icon = 1,
+        race = "bear",
+        color = "white",
+    },
+    {
+        speciesID = 4883,
+        name = "Dragonhawk Mosswing",
+        type = 3,
+        icon = 1,
+        race = "insect",
+        color = "various"
+    },
+    {
+        speciesID = 4928,
+        name = "Dragonhawk Munchkin",
+        type = 2,
+        icon = 1,
+        race = "insect",
+        color = "pink"
+    },
+    {
+        speciesID = 4887,
+        name = "Dundun",
+        type = 5,
+        icon = 1,
+        race = "rat",
+        color = "ghost"
+    },
+    {
+        speciesID = 4878,
+        name = "Ebon Snapling",
+        type = 8,
+        icon = 1,
+        race = "crocodile",
+        color = "green"
+    },
+    {
+        speciesID = 4977,
+        name = "Emberwing Hatchling",
+        type = 3,
+        icon = 1,
+        race = "emu",
+        color = "purple"
+    },
+    {
+        speciesID = 4508,
+        name = "Emerald Sporbit",
+        type = 6,
+        icon = 1,
+        race = "elemental",
+        color = "green"
+    },
+    {
+        speciesID = 4982,
+        name = "Flicker",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "yellow"
+    },
+    {
+        speciesID = 4885,
+        name = "Gloom Toad",
+        type = 9,
+        icon = 1,
+        race = "snail",
+        color = "green"
+    },
+    {
+        speciesID = 4967,
+        name = "Gortham",
+        type = 8,
+        icon = 1,
+        race = "bear",
+        color = "ghost"
+    },
+    {
+        speciesID = 4816,
+        name = "Hawkstrider Hatchling",
+        type = 5,
+        icon = 1,
+        race = "emu",
+        color = "various"
+    },
+    {
+        speciesID = 4959,
+        name = "Hexed Bunny",
+        type = 8,
+        icon = 1,
+        race = "snail",
+        color = "various"
+    },
+    {
+        speciesID = 4950,
+        name = "Immature Behemoth",
+        type = 8,
+        icon = 1,
+        race = "gargoyle",
+        color = "white"
+    },
+    {
+        speciesID = 4983,
+        name = "Kai",
+        type = 8,
+        icon = 1,
+        race = "gargoyle",
+        color = "white"
+    },
+    {
+        speciesID = 4955,
+        name = "Kreepah'zoyd",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "various"
+    },
+    {
+        speciesID = 4930,
+        name = "Lil' Preyseeker",
+        type = 6,
+        icon = 1,
+        race = "fish",
+        color = "blue"
+    },
+    {
+        speciesID = 4946,
+        name = "Linda the Lucky",
+        type = 9,
+        icon = 1,
+        race = "fish",
+        color = "green"
+    },
+    {
+        speciesID = 4957,
+        name = "Lost Star",
+        type = 6,
+        icon = 1,
+        race = "fish",
+        color = "blue"
+    },
+    {
+        speciesID = 4971,
+        name = "Luma",
+        type = 8,
+        icon = 1,
+        race = "wolf",
+        color = "brown"
+    },
+    {
+        speciesID = 4984,
+        name = "Medusa",
+        type = 6,
+        icon = 1,
+        race = "fish",
+        color = "blue"
+    },
+    {
+        speciesID = 4913,
+        name = "Moon Darter",
+        type = 2,
+        icon = 1,
+        race = "dragon",
+        color = "various",
+        druid = "moonkin"
+    },
+    {
+        speciesID = 4459,
+        name = "Moss Skipper",
+        type = 9,
+        icon = 1,
+        race = "fish",
+        color = "green"
+    },
+    {
+        speciesID = 4876,
+        name = "Mud Potadpole",
+        type = 9,
+        icon = 1,
+        race = "fish",
+        color = "green"
+    },
+    {
+        speciesID = 4929,
+        name = "Munchy",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "red"
+    },
+    {
+        speciesID = 4888,
+        name = "Naloki",
+        type = 5,
+        icon = 1,
+        race = "bear",
+        color = "various"
+    },
+    {
+        speciesID = 4889,
+        name = "Nether Familiar",
+        type = 6,
+        icon = 1,
+        race = "fish",
+        color = "various"
+    },
+    {
+        speciesID = 4881,
+        name = "Nether Siphoner",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "gray"
+    },
+    {
+        speciesID = 4803,
+        name = "Niblet",
+        type = 5,
+        icon = 1,
+        race = "cat",
+        color = "white"
+    },
+    {
+        speciesID = 4981,
+        name = "Nova",
+        type = 5,
+        icon = 1,
+        race = "wolf",
+        color = "white"
+    },
+    {
+        speciesID = 4958,
+        name = "Omnious Domanus",
+        type = 7,
+        icon = 1,
+        race = "elemental",
+        color = "ghost"
+    },
+    {
+        speciesID = 4884,
+        name = "Pangolil",
+        type = 8,
+        icon = 1,
+        race = "bear",
+        color = "brown"
+    },
+    {
+        speciesID = 4961,
+        name = "Nibblesworth",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "purple"
+    },
+    {
+        speciesID = 4927,
+        name = "Percival",
+        type = 9,
+        icon = 1,
+        race = "fish",
+        color = "green"
+    },
+    {
+        speciesID = 4948,
+        name = "Pertubed Sporebat",
+        type = 3,
+        icon = 1,
+        race = "insect",
+        color = "various"
+    },
+    {
+        speciesID = 4985,
+        name = "Princess Bloodshed",
+        type = 8,
+        icon = 1,
+        race = "cat",
+        color = "red"
+    },
+    {
+        speciesID = 4892,
+        name = "Riftblade Familiar",
+        type = 6,
+        icon = 1,
+        race = "fish",
+        color = "various"
+    },
+    {
+        speciesID = 4875,
+        name = "Rootling Nester",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "various"
+    },
+    {
+        speciesID = 4906,
+        name = "Scruffbeak",
+        type = 5,
+        icon = 1,
+        race = "emu",
+        color = "various"
+    },
+    {
+        speciesID = 4886,
+        name = "Silkcrawler",
+        type = 5,
+        icon = 1,
+        race = "insect",
+        color = "yellow"
+    },
+    {
+        speciesID = 4912,
+        name = "Silvermoon Broom",
+        type = 6,
+        icon = 1,
+        race = "kite",
+        color = "brown"
+    },
+    {
+        speciesID = 4953,
+        name = "Sporbie",
+        type = 3,
+        icon = 1,
+        race = "insect",
+        color = "various"
+    },
+    {
+        speciesID = 4956,
+        name = "Spormilian",
+        type = 7,
+        icon = 1,
+        race = "insect",
+        color = "various",
+        druid = "tree"
+    },
+    {
+        speciesID = 3364,
+        name = "Striped Snakebiter",
+        type = 8,
+        icon = 1,
+        race = "rat",
+        color = "white"
+    },
+    {
+        speciesID = 5003,
+        name = "Sunwing Hatchling",
+        type = 2,
+        icon = 1,
+        race = "insect",
+        color = "variuos"
+    },
+    {
+        speciesID = 4880,
+        name = "Swamp Biter",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "green"
+    },
+    {
+        speciesID = 4960,
+        name = "Treja'saka",
+        type = 8,
+        icon = 1,
+        race = "insect",
+        color = "purple"
+    },
+    {
+        speciesID = 4890,
+        name = "Vibrant Manaling",
+        type = 6,
+        icon = 1,
+        race = "fish",
+        color = "various"
+    },
+    {
+        speciesID = 4877,
+        name = "Violet Chick",
+        type = 5,
+        icon = 1,
+        race = "emu",
+        color = "various"
+    },
+    {
+        speciesID = 4795,
+        name = "Voidcrawler",
+        type = 6,
+        icon = 1,
+        race = "insect",
+        color = "various"
+    },
+    {
+        speciesID = 4976,
+        name = "Voldy",
+        type = 7,
+        icon = 1,
+        race = "elemental",
+        color = "purple",
+        warlock = "demon"
+    },
+    {
+        speciesID = 4497,
+        name = "Waddles",
+        type = 9,
+        icon = 1,
+        race = "fish",
+        color = "brown"
+    },
+    {
+        speciesID = 4972,
+        name = "Willie",
+        type = 8,
+        icon = 1,
+        race = "wolf",
+        color = "black"
+    },
+    {
+        speciesID = 4891,
+        name = "Wrathful Wyrm",
+        type = 6,
+        icon = 1,
+        race = "fish",
+        color = "fire"
+    },
+    {
+        speciesID = 4954,
+        name = "Ziorg'pharon",
+        type = 7,
+        icon = 1,
+        race = "elemental",
+        color = "purple",
+        warlock = "demon"
+    },
+    {
+        speciesID = 4905,
+        name = "Baby Amazard",
+        type = 5,
+        icon = 1,
+        race = "crocodile",
+        color = "red"
     }
-
 }
 
 --[[]
@@ -15737,7 +16334,7 @@ RuthesMS.data.pets = {
         speciesID = ,
         name = "",
         type = ,
-        icon = ,
+        icon = 1,
         race = "",
         color = ""
     }
