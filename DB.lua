@@ -1,8 +1,10 @@
 local standardKey = "k"
+local currentVersion = 10900 -- 1.9.0
 
 local function InitializeConfig()
     if not MountSelectorCharacterConfig then
         MountSelectorCharacterConfig = {
+            version = currentVersion,
             colors = RuthesMS.utils.filterDropdowns.getAllColors(),
             types = RuthesMS.utils.filterDropdowns.getAllTypes(),
             expansions = RuthesMS.utils.filterDropdowns.getAllExpansions(),
@@ -76,6 +78,7 @@ local function InitializeConfig()
         multiple = MountSelectorCharacterConfig.keybinds.multiple or ""
     }
 
+    RuthesMS.settings.version = MountSelectorCharacterConfig.version
     RuthesMS.settings.selectedColors = MountSelectorCharacterConfig.colors or {}
     RuthesMS.settings.selectedTypes = MountSelectorCharacterConfig.types or {}
     RuthesMS.settings.selectedExpansions = MountSelectorCharacterConfig.expansions or {}
@@ -106,6 +109,21 @@ local function InitializeConfig()
 
     if (MountSelectorCharacterConfig.globalKeybinds) then
         RuthesMS.keybinds = MountSelectorGlobalConfig.keybinds
+    end
+
+    -- Migration
+    -- print ("MountSelectorCharacterConfig version: " .. tostring(MountSelectorCharacterConfig.version))
+    
+     -- Add Midnight expansion if updating from version before 1.9.0
+    if (MountSelectorCharacterConfig.version == nil or
+        MountSelectorCharacterConfig.version < 10900) then
+
+        MountSelectorCharacterConfig.expansions = RuthesMS.utils.filterDropdowns.getAllExpansions()
+        RuthesMS.settings.selectedExpansions = RuthesMS.utils.filterDropdowns.getAllExpansions()
+
+        -- Update the version to current        
+        MountSelectorCharacterConfig.version = currentVersion
+        RuthesMS.settings.version = currentVersion
     end
 end
 

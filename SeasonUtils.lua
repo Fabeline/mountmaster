@@ -8,7 +8,7 @@ local seasonalSettings = {
     ruthesBirthday = {
         types = { "horse", "dinosaur", "bat", "spider" },
         colors = { "black", "green", "fire", "red", "purple" },
-        expansions = { "tbc", "wotlk", "cataclysm", "mop", "wod", "legion", "bfa", "shadowlands", "dragonflight", "mop remix", "tww" },
+        expansions = { "tbc", "wotlk", "cataclysm", "mop", "wod", "legion", "bfa", "shadowlands", "dragonflight", "mop remix", "tww", "midnight" },
         startDate = "02-27",
         endDate = "02-27",
     },

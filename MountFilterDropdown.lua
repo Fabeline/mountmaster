@@ -9,7 +9,7 @@ end
 local function getAllExpansions()
     return {
         "Classic", "TBC", "WotLK", "Cataclysm", "MoP", "WoD", "Legion",
-        "BFA", "Shadowlands", "Dragonflight", "MoP remix", "TWW"
+        "BFA", "Shadowlands", "Dragonflight", "MoP remix", "TWW", "Midnight"
     }
 end
 

@@ -2,6 +2,11 @@ Check that it works on ptr
 Check with ADDON_ACTION_BLOCKED testing on
 Turn off blockedDebug !!
 
+Update ## Interface
+Update ## Version
+
+Update readme changelog on github
+
 - Remove .gitignore !!
 - Remove .vscode
 - Remove x_copyFiles.bat !!
@@ -9,13 +14,8 @@ Turn off blockedDebug !!
 
 Search for print outputs that are not commented out
 
-Update ## Interface
-Update ## Version
-
 Zip the FOLDER containing the addon (including LibDBIcon-1.0)
 Rename to for instance Ruthes_Mountselector_1_3_1.zip
-
-Update readme changelog on github
 
 Create new screenshots if needed
 

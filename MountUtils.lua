@@ -18,13 +18,14 @@ local function isMountFlying(typeId)
         [424] = true, -- Dragonriding mounts, including mounts that have dragonriding animations but are not yet enabled for dragonriding
         [436] = true, -- Swimming and flying mounts
         [445] = true, -- voyaging wilderling
+        [444] = true, -- Scorching Valor
         
     }
     return flyingMountTypes[typeId]
 end
 
 -- Uncomment to check specific mount type
--- local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(1260)
+-- local _, _, _, _, mountType = C_MountJournal.GetMountInfoExtraByID(2634)
 -- print ("mountType: " .. mountType)
 
 local function isAquaticMount(typeId)

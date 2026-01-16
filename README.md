@@ -1,6 +1,6 @@
 # Ruthe's MountSelector
 
-This is an addon for the game World of Warcraft. It is for selecting a random mount based on your criterias for each character. You can read more about the addon here:
+This is an addon for the game World of Warcraft. It is for selecting a random mount based on your criterias for each character, and summon a matching pet. It can also summon pets when you shapeshift as a druid. You can read more about the addon here:
 
 https://www.curseforge.com/wow/addons/ruthes-mountselector
 
@@ -11,6 +11,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 - Unpack the zip file into your Interface/AddOns catalog (mine is for instance C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOn )
 
 ## Changelog
+
+### ver 1.9.1
+- Added Midnight as expansion choice
 
 ### ver 1.9.0
 - Added mounts and pets for Midnight
