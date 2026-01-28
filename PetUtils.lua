@@ -110,6 +110,10 @@ local function getGlyphOfTheStarsPets()
     return filteredPets
 end
 
+local function checkFavorites(pet)
+    return (RuthesMS.settings.useOnlyPetFavourites and pet.favorite) or not RuthesMS.settings.useOnlyPetFavourites
+end
+
 local function summonPetByRace(raceList)
     if (not RuthesMS.settings.summonPetFromDruidForm or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
         return
@@ -138,10 +142,6 @@ local function summonPetByRace(raceList)
     else
         -- Fail silently, no pets available
     end
-end
-
-local function checkFavorites(pet)
-    return (RuthesMS.settings.useOnlyPetFavourites and pet.favorite) or not RuthesMS.settings.useOnlyPetFavourites
 end
 
 local function checkRace(pet, mountRace)
@@ -335,10 +335,55 @@ local function detectDismountAndDismiss()
     end)
 end
 
+local function sommonPetByDruidForm(formInfo)
+    if (not RuthesMS.settings.summonPetFromDruidForm or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
+        return
+    end
+
+    resetPetFilters()
+    loadAvailablePets()
+
+    local formInfo = RuthesMS.utils.druid.getPetInfoFromDruidForm()
+
+    local filteredPets = {}
+    local availablePets = loadAvailablePets()
+
+    filteredPets = filterPets(formInfo.race, formInfo.color, availablePets)
+
+    if (RuthesMS.settings.useDruidGlyphOfTheStars) then
+        local form = GetShapeshiftFormID()
+        if (form >= 31 and form <= 35) then -- Moonkin form
+            filteredPets = getGlyphOfTheStarsPets()
+        end
+    end
+    
+    if #filteredPets > 0 then
+        local randomIndex = math.random(1, #filteredPets)
+        local pet = filteredPets[randomIndex]
+        summonPetByGUID(pet.petGUID)
+    else
+        -- Fail silently, no pets available
+        -- print("No pets available for summon.")
+    end
+
+
+    if (#filteredPets == 0) then
+        filteredPets = getPetsByRace(formInfo.race)
+    end
+
+    if #filteredPets > 0 then
+        local randomIndex = math.random(1, #filteredPets)
+        local pet = filteredPets[randomIndex]
+        summonPetByGUID(pet.petGUID)
+    else
+        -- Fail silently, no pets available
+    end
+end
 
 
 RuthesMS.utils.pet = {
     summonRandomPet = summonPetFromMount,
+    sommonPetByDruidForm = sommonPetByDruidForm,
     summonPetByRace = summonPetByRace,
     getAvailablePets = getAvailablePets,
     detectDismountAndDismiss = detectDismountAndDismiss,
