@@ -345,7 +345,7 @@ local function summonPetByDruidForm(formInfo)
 
     local formInfo = RuthesMS.utils.druid.getPetInfoFromDruidForm()
 
-    print("Sum pet: " .. formInfo.race .. ", " .. formInfo.color) -- TODO REMOVE
+    -- print("Sum pet: " .. formInfo.race .. ", " .. formInfo.color)
 
     local filteredPets = {}
     local availablePets = loadAvailablePets()

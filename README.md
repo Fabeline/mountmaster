@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.9.2
+- Improved matching of pets to druid shapeshift forms
+
 ### ver 1.9.1
 - Added Midnight as expansion choice
 

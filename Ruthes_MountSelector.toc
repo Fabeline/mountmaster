@@ -1,5 +1,5 @@
 ## Interface: 110200,110205,110207,120000,120001
-## Version: 1.9.1
+## Version: 1.9.2
 ## Title: Ruthe's MountSelector
 ## Author: Ruthe
 ## SavedVariablesPerCharacter: MountSelectorCharacterConfig

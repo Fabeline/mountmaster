@@ -254,6 +254,8 @@ RuthesMS.data.druidForms = {
     [85045] = { race = "fish", color = "white" },                            -- White fish (dolphin)
 
     -- Simple racial travel forms
+
+    [37727] = { race = "bird", color = "black" },                            -- Black bird (simple night elf, worgen)
     [20857] = { race = "bird", color = "black" },                            -- Black bird (simple night elf, worgen)
     [20872] = { race = "bird", color = "orange",secondaryColor = "brown" },  -- Orange brown bird (simple tauren)
     [4185]  = { race = "bat", color = "red" },                              -- Red bat (simple troll)
@@ -268,6 +270,8 @@ RuthesMS.data.druidForms = {
 
     -- Special
     [92701] = { race = "bat", color = "black" },                            -- Black bat (dreadbat)
+    [116323] = { race = "bat", color = "black" },                            -- Black bat (dreadbat)
+    [116324] = { race = "bat", color = "purple" },                           -- Purple bat (dreadbat)
     [92702] = { race = "bat", color = "purple" },                           -- Purple bat (dreadbat)
     [95199] = { race = "insect", color = "purple" },                           -- Purple insect (moth)
     [95198] = { race = "insect", color = "white" },                            -- White insect (moth)
