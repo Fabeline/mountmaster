@@ -16,6 +16,7 @@ Settings.lua
 
 mounts.lua
 pets.lua
+druidForms.lua
 
 FilterUtils.lua
 MountUtils.lua

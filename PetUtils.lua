@@ -335,7 +335,7 @@ local function detectDismountAndDismiss()
     end)
 end
 
-local function sommonPetByDruidForm(formInfo)
+local function summonPetByDruidForm(formInfo)
     if (not RuthesMS.settings.summonPetFromDruidForm or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
         return
     end
@@ -344,6 +344,8 @@ local function sommonPetByDruidForm(formInfo)
     loadAvailablePets()
 
     local formInfo = RuthesMS.utils.druid.getPetInfoFromDruidForm()
+
+    print("Sum pet: " .. formInfo.race .. ", " .. formInfo.color) -- TODO REMOVE
 
     local filteredPets = {}
     local availablePets = loadAvailablePets()
@@ -383,7 +385,7 @@ end
 
 RuthesMS.utils.pet = {
     summonRandomPet = summonPetFromMount,
-    sommonPetByDruidForm = sommonPetByDruidForm,
+    summonPetByDruidForm = summonPetByDruidForm,
     summonPetByRace = summonPetByRace,
     getAvailablePets = getAvailablePets,
     detectDismountAndDismiss = detectDismountAndDismiss,
