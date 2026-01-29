@@ -110,12 +110,17 @@ local function getGlyphOfTheStarsPets()
     return filteredPets
 end
 
+local function isInInstanceAndNotHousing()
+    local inInstance = IsInInstance()
+    return inInstance and not (GetZoneText() == "Home Interior" or GetZoneText() == "Founder's Point" or GetZoneText() == "Razorwind Shores")
+end
+
 local function checkFavorites(pet)
     return (RuthesMS.settings.useOnlyPetFavourites and pet.favorite) or not RuthesMS.settings.useOnlyPetFavourites
 end
 
 local function summonPetByRace(raceList)
-    if (not RuthesMS.settings.summonPetFromDruidForm or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
+    if (not RuthesMS.settings.summonPetFromDruidForm or (RuthesMS.settings.noPetsInInstance and isInInstanceAndNotHousing())) then
         return
     end
 
@@ -283,7 +288,7 @@ local function filterPets(mountRace, mountColor, petList)
 end
 
 local function summonPetFromMount(mount)
-    if (not RuthesMS.settings.summonPetFromMount or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
+    if (not RuthesMS.settings.summonPetFromMount or (RuthesMS.settings.noPetsInInstance and isInInstanceAndNotHousing())) then
         return
     end
 
@@ -336,7 +341,7 @@ local function detectDismountAndDismiss()
 end
 
 local function summonPetByDruidForm(formInfo)
-    if (not RuthesMS.settings.summonPetFromDruidForm or (RuthesMS.settings.noPetsInInstance and IsInInstance())) then
+    if (not RuthesMS.settings.summonPetFromDruidForm or (RuthesMS.settings.noPetsInInstance and isInInstanceAndNotHousing())) then
         return
     end
 

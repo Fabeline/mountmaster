@@ -12,6 +12,9 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.9.3
+- Housing is no longer considered an instance and will not prevent pet summoning if the settings are configured to disable pet summoning in instances
+
 ### ver 1.9.2
 - Improved matching of pets to druid shapeshift forms
 
