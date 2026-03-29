@@ -16324,6 +16324,70 @@ RuthesMS.data.pets = {
         icon = 1,
         race = "crocodile",
         color = "red"
+    },
+    {
+        speciesID = 4729,
+        name = "Fullbelly Rollingpaw",
+        type = 1,
+        icon = 1,
+        race = "bear",
+        color = "brown"
+    },
+    {
+        speciesID = 4704,
+        name = "Living Rose",
+        type = 7,
+        icon = 1,
+        race = "insect",
+        color = "red"
+    },
+    {
+        speciesID = 4407,
+        name = "Nelle",
+        type = 5,
+        icon = 1,
+        race = "insect",
+        color = "red"
+    },
+    {
+        speciesID = 4862,
+        name = "Smoldering Valor",
+        type = 8,
+        icon = 1,
+        race = "stag",
+        color = "fire"
+    },
+    {
+        speciesID = 4402,
+        name = "Teele",
+        type = 5,
+        icon = 1,
+        race = "rat",
+        color = "gray"
+    },
+    {
+        speciesID = 4566,
+        name = "Worgli the Apprehensive",
+        type = 1,
+        icon = 1,
+        race = "fish",
+        color = "yellow"
+    },
+    {
+        speciesID = 5012,
+        name = "Sootpaw",
+        type = 8,
+        icon = 1,
+        race = "gray",
+        color = "cat"
+    },
+    {
+        speciesID = 4475,
+        name = "Webbers",
+        type = 4,
+        icon = 1,
+        race = "spider",
+        color = "turquoise"
     }
 }
 

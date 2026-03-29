@@ -16471,6 +16471,218 @@ mounts = [
       expansion: "Midnight",
       looks: "pretty"
   },
+  {
+      id: 2616,
+      name: "Ivory Grimlynx",
+      skeleton_type: "rat",
+      color: "white",
+      secondary_color: "turquoise",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2700,
+      name: "Frostfall Groveglider",
+      skeleton_type: "bear",
+      color: "purple",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "cute"
+  },
+  {
+      id: 2701,
+      name: "Cindertuft Groveglider",
+      skeleton_type: "bear",
+      color: "brown",
+      secondary_color: "fire",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "cute"
+  },
+  {
+      id: 2702,
+      name: "Gloombough Groveglider",
+      skeleton_type: "bear",
+      color: "purple",
+      secondary_color: "red",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "cute"
+  },
+  {
+      id: 2703,
+      name: "Blossombranch Groveglider",
+      skeleton_type: "bear",
+      color: "white",
+      secondary_color: "pink",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "cute"
+  },
+  {
+      id: 2707,
+      name: "Brilliant Petalwing",
+      skeleton_type: "bird",
+      color: "red",
+      secondary_color: "green",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2755,
+      name: "Umbral Dragonhawk",
+      skeleton_type: "insect",
+      color: "gray",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2756,
+      name: "Crimson Dragonhawk",
+      skeleton_type: "insect",
+      color: "red",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2767,
+      name: "Contained Stormarion Defender",
+      skeleton_type: "gargoyle",
+      color: "brown",
+      secondary_color: "blue",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2773,
+      name: "Giganto Manis",
+      skeleton_type: "bear",
+      color: "gray",
+      secondary_color: "purple",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2789,
+      name: "Ravenous Shredclaw",
+      skeleton_type: "rat",
+      color: "orange",
+      secondary_color: "red",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2790,
+      name: "Insatiable Shredclaw",
+      skeleton_type: "rat",
+      color: "yellow",
+      secondary_color: "white",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 2805,
+      name: "Spectral Hawkstrider",
+      skeleton_type: "emu",
+      color: "ghost",
+      secondary_color: "white",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2828,
+      name: "Voidbound Stormray",
+      skeleton_type: "fish",
+      color: "purple",
+      secondary_color: "gray",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "scary",
+      className: "warlock"
+  },
+  {
+      id: 2829,
+      name: "Lab-grown Stormray",
+      skeleton_type: "fish",
+      color: "orange",
+      secondary_color: "purple",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "scary",
+      className: "warlock"
+  },
+  {
+      id: 2838,
+      name: "Fantastical Goblin Waveshredder",
+      skeleton_type: "kite",
+      color: "orange",
+      secondary_color: "brown",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2843,
+      name: "Ghastropod",
+      skeleton_type: "snail",
+      color: "pink",
+      secondary_color: "brown",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2849,
+      name: "Hypo-Speed X6000",
+      skeleton_type: "mechanical",
+      color: "red",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2912,
+      name: "Vivacious Chloroceros",
+      skeleton_type: "kodo",
+      color: "green",
+      secondary_color: "red",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2914,
+      name: "Fel Spirehawk",
+      skeleton_type: "bird",
+      color: "green",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2969,
+      name: "Swift Spectral Dragonhawk",
+      skeleton_type: "insect",
+      color: "ghost",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
 ]
 
 /*
