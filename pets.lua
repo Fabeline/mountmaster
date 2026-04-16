@@ -16388,6 +16388,161 @@ RuthesMS.data.pets = {
         icon = 1,
         race = "spider",
         color = "turquoise"
+    },
+    {
+        speciesID = 4264,
+        name = "Fyrn",
+        type = 2,
+        icon = 1,
+        race = "dragon",
+        color = "green"
+    },
+    {
+        speciesID = 4963,
+        name = "Grumpy Mandrake",
+        type = 7,
+        icon = 1,
+        race = "insect",
+        color = "purple",
+        druid = "tree"
+    },
+    {
+        speciesID = 4316,
+        name = "Lil' Wrathion",
+        type = 2,
+        icon = 1,
+        race = "dragon",
+        color = "black"
+    },
+    {
+        speciesID = 4975,
+        name = "Razeshi",
+        type = 1,
+        icon = 1,
+        race = "blue",
+        color = "snail"
+    },
+    {
+        speciesID = 4796,
+        name = "Sa'bak's Blessed",
+        type = 9,
+        icon = 1,
+        race = "dragon",
+        color = "yellow"
+    },
+    {
+        speciesID = 4568,
+        name = "Whoopy",
+        type = 3,
+        icon = 1,
+        race = "bird",
+        color = "white"
+    },
+    {
+        speciesID = 4909,
+        name = "Emerald Hatchling",
+        type = 5,
+        icon = 1,
+        race = "emu",
+        color = "green",
+        druid = "moonkin"
+    },
+    {
+        speciesID = 5039,
+        name = "Cappy",
+        type = 8,
+        icon = 1,
+        race = "bear",
+        color = "brown"
+    },
+    {
+        speciesID = 5019,
+        name = "Chubs",
+        type = 8,
+        icon = 1,
+        race = "bear",
+        color = "brown"
+    },
+    {
+        speciesID = 5040,
+        name = "Curious Lynx Kitten",
+        type = 8,
+        icon = 1,
+        race = "cat",
+        color = "yellow"
+    },
+    {
+        speciesID = 5065,
+        name = "Ka'bubb",
+        type = 5,
+        icon = 1,
+        race = "fish",
+        color = "brown"
+    },
+    {
+        speciesID = 5020,
+        name = "Overloaded Manaling",
+        type = 6,
+        icon = 1,
+        race = "serpent",
+        color = "ghost"
+    },
+    {
+        speciesID = 5036,
+        name = "Rescued Dragonhawk Chick",
+        type = 2,
+        icon = 1,
+        race = "insect",
+        color = "black"
+    },
+    {
+        speciesID = 5021,
+        name = "Void-Corrupted Snapdragon",
+        type = 9,
+        icon = 1,
+        race = "rat",
+        color = "blue"
+    },
+    {
+        speciesID = 5037,
+        name = "Void-Infused Mindbreaker Fry",
+        type = 6,
+        icon = 1,
+        race = "fish",
+        color = "purple",
+        priest = "shadow",
+    },
+    {
+        speciesID = 5017,
+        name = "Void-Scarred Eaglet",
+        type = 3,
+        icon = 1,
+        race = "bird",
+        color = "blue"
+    },
+    {
+        speciesID = 5022,
+        name = "Void-Touched Chick",
+        type = 5,
+        icon = 1,
+        race = "emu",
+        color = "blue"
+    },
+    {
+        speciesID = 5023,
+        name = "Void-Touched Lynx Kitten",
+        type = 8,
+        icon = 1,
+        race = "cat",
+        color = "blue"
+    },
+    {
+        speciesID = 5038,
+        name = "Wriggling Capybara",
+        type = 8,
+        icon = 1,
+        race = "bear",
+        color = "orange"
     }
 }
 

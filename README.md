@@ -12,6 +12,12 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+### ver 1.9.6
+- Added more mounts and pets for 12.0.5
+
+### ver 1.9.5
+- Updated for 12.0.5
+
 ### ver 1.9.4
 - Added new mounts and pets, including the squirrel pack
 

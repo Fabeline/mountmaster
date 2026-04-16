@@ -16683,6 +16683,246 @@ mounts = [
       expansion: "Midnight",
       looks: "pretty"
   },
+  {
+      id: 2818,
+      name: "Emerald Hawkstrider",
+      skeleton_type: "emu",
+      color: "green",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2717,
+      name: "Mechanical Prototype Panther MK-0",
+      skeleton_type: "mechanical",
+      color: "various",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2718,
+      name: "Steel Prototype Panther MK-0",
+      skeleton_type: "mechanical",
+      color: "various",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2742,
+      name: "Thunderhoof Celestial",
+      skeleton_type: "stag",
+      color: "ghost",
+      secondary_color: "white",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2743,
+      name: "Stormgilded Celestial",
+      skeleton_type: "stag",
+      color: "ghost",
+      secondary_color: "white",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2754,
+      name: "Peridot Dragonhawk",
+      skeleton_type: "insect",
+      color: "green",
+      secondary_color: "white",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2779,
+      name: "Witherbark Warbear Mother",
+      skeleton_type: "bear",
+      color: "gray",
+      secondary_color: "brown",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2915,
+      name: "Unbound Manawyrm",
+      skeleton_type: "serpent",
+      color: "blue",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2926,
+      name: "Gilnean Iron Charger",
+      skeleton_type: "horse",
+      color: "black",
+      secondary_color: "gray",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2927,
+      name: "Gilnean Copper Charger",
+      skeleton_type: "horse",
+      color: "brown",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2928,
+      name: "Pyrewood Rebel's Rouncey",
+      skeleton_type: "horse",
+      color: "black",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2929,
+      name: "Gilneas Loyalist's Rouncey",
+      skeleton_type: "horse",
+      color: "black",
+      secondary_color: "gray",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2930,
+      name: "Blossomback Arboon",
+      skeleton_type: "gargoyle",
+      color: "pink",
+      secondary_color: "white",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2931,
+      name: "Amberback Arboon",
+      skeleton_type: "gargoyle",
+      color: "brown",
+      secondary_color: "orange",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2933,
+      name: "Magister's Spell Bee",
+      skeleton_type: "insect",
+      color: "blue",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2935,
+      name: "Void-Touched Hawkstrider",
+      skeleton_type: "emu",
+      color: "purple",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2939,
+      name: "Giant Eagle Sunwalker Mount",
+      skeleton_type: "bird",
+      color: "blue",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2940,
+      name: "Dusk-Painted Sun Roc",
+      skeleton_type: "bird",
+      color: "green",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2941,
+      name: "Flame-Painted SunRoc",
+      skeleton_type: "bird",
+      color: "brown",
+      secondary_color: "turquoise",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2942,
+      name: "Giant Eagle Sunwalker Mount",
+      skeleton_type: "bird",
+      color: "white",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2948,
+      name: "Golden Ashended Cataclysm",
+      skeleton_type: "dragon",
+      color: "red",
+      secondary_color: "yellow",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2961,
+      name: "Void-Corrupted Hex Eagle",
+      skeleton_type: "bird",
+      color: "blue",
+      secondary_color: "ghost",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2964,
+      name: "Void-Touched Snapdragon",
+      skeleton_type: "rat",
+      color: "blue",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2965,
+      name: "Void-Corrupted Lynx",
+      skeleton_type: "cat",
+      color: "blue",
+      secondary_color: "",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
 ]
 
 /*
