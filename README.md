@@ -12,6 +12,10 @@ The addon can be installed by Curseforge, or you can download it manually.
 
 ## Changelog
 
+## ver 1.9.7
+- Added mounts and pets for 12.0.7
+- Added new keystone myth mounts and Roofus
+
 ### ver 1.9.6
 - Added more mounts and pets for 12.0.5
 

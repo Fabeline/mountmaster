@@ -89,9 +89,11 @@ local function loadKnownMounts()
         local canFly = RuthesMS.utils.mount.isMountFlying(mountType)
         
         -- Uncomment to output missing mounts
-        -- if not mountInfo then
-        --     print("Missing> Name: " .. name .. ", mountID: " .. mountID)
-        -- end
+        --[[ 
+        if not mountInfo then
+             print("Missing> Name: " .. name .. ", mountID: " .. mountID)
+        end
+        --]]
 
         if (mountInfo and isCollected) then
             table.insert(RuthesMS.state.knownMounts, {

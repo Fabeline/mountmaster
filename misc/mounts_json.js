@@ -16135,7 +16135,7 @@ mounts = [
       name: "Preyseeker's Hubris",
       skeleton_type: "fish",
       color: "blue",
-      secondary_color: "",
+      secondary_color: "ghost",
       is_small: "",
       expansion: "Midnight",
       looks: "pretty"
@@ -16923,6 +16923,216 @@ mounts = [
       expansion: "Midnight",
       looks: "neutral"
   },
+  {
+      id: 1470,
+      name: "Liquid Hot Magma Slug",
+      skeleton_type: "snail",
+      color: "fire",
+      secondary_color: "orange",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 1710,
+      name: "Black-Furred Bakar",
+      skeleton_type: "wolf",
+      color: "gray",
+      secondary_color: "black",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2781,
+      name: "Amani Hex Bear",
+      skeleton_type: "bear",
+      color: "gray",
+      secondary_color: "black",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2806,
+      name: "Spawn of Vyranoth",
+      skeleton_type: "dragon",
+      color: "white",
+      secondary_color: "",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2950,
+      name: "Luminous Sporeglider",
+      skeleton_type: "insect",
+      color: "purple",
+      secondary_color: "turquoise",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "pretty"
+  },
+  {
+      id: 2973,
+      name: "Blackwater X-TREME Firework Rocket",
+      skeleton_type: "mechanical",
+      color: "gray",
+      secondary_color: "orange",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2974,
+      name: "Green Rocket Mount",
+      skeleton_type: "mechanical",
+      color: "gray",
+      secondary_color: "green",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2976,
+      name: "Pink Rocket Mount",
+      skeleton_type: "mechanical",
+      color: "gray",
+      secondary_color: "pink",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2988,
+      name: "Voidmancer's Starcarver",
+      skeleton_type: "mechanical",
+      color: "gray",
+      secondary_color: "blue",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2990,
+      name: "Netherforged Nullframe",
+      skeleton_type: "mechanical",
+      color: "blue",
+      secondary_color: "gray",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 2992,
+      name: "Horse with Hat",
+      skeleton_type: "horse",
+      color: "orange",
+      secondary_color: "yellow",
+      is_small: "true",
+      expansion: "Midnight",
+      looks: "silly"
+  },
+  {
+      id: 2994,
+      name: "Badlands Buzzard",
+      skeleton_type: "bird",
+      color: "gray",
+      secondary_color: "white",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 3005,
+      name: "Cerulean Deathwalker",
+      skeleton_type: "elemental",
+      color: "green",
+      secondary_color: "turquoise",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 3006,
+      name: "Amethyst Mechsuit",
+      skeleton_type: "mechanical",
+      color: "purple",
+      secondary_color: "gray",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "tough"
+  },
+  {
+      id: 3007,
+      name: "Blue-Chip Shreddertank",
+      skeleton_type: "mechanical",
+      color: "blue",
+      secondary_color: "gray",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 3008,
+      name: "Profit-Green Shreddertank",
+      skeleton_type: "mechanical",
+      color: "green",
+      secondary_color: "gray",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 3009,
+      name: "Speculative Shreddertank",
+      skeleton_type: "mechanical",
+      color: "purple",
+      secondary_color: "gray",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 3010,
+      name: "High-Yield Shreddertank",
+      skeleton_type: "mechanical",
+      color: "yellow",
+      secondary_color: "gray",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 3033,
+      name: "Tortured Gorger",
+      skeleton_type: "gargoyle",
+      color: "blue",
+      secondary_color: "ghost",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "scary"
+  },
+  {
+      id: 3036,
+      name: "Sun Festival's Painted Roc",
+      skeleton_type: "bird",
+      color: "orange",
+      secondary_color: "yellow",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  },
+  {
+      id: 2975,
+      name: "Bligewater X-TREME Firework Rocket",
+      skeleton_type: "mechanical",
+      color: "blue",
+      secondary_color: "gray",
+      is_small: "false",
+      expansion: "Midnight",
+      looks: "neutral"
+  }
 ]
 
 /*

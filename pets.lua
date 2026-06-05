@@ -15715,7 +15715,7 @@ RuthesMS.data.pets = {
         name = "P.O.S.T. Assistant",
         type = 6,
         icon = 1,
-        race = "humanoid",
+        race = "gargoyle",
         color = "red"
     },
     {
@@ -16543,6 +16543,82 @@ RuthesMS.data.pets = {
         icon = 1,
         race = "bear",
         color = "orange"
+    },
+    {
+        speciesID = 4969,
+        name = "Roofus",
+        type = 8,
+        icon = 1,
+        race = "dog",
+        color = "orange"
+    },
+    {
+        speciesID = 1628,
+        name = "Sister of Temptation",
+        type = 1,
+        icon = 1,
+        race = "gargoyle",
+        color = "various",
+        warlock = "demon"
+    },
+    {
+        speciesID = 5007,
+        name = "Akiki",
+        type = 8,
+        icon = 1,
+        race = "emu",
+        color = "various"
+    },
+    {
+        speciesID = 5041,
+        name = "Emberlyn",
+        type = 2,
+        icon = 1,
+        race = "elemental",
+        color = "orange"
+    },
+    {
+        speciesID = 4898,
+        name = "Fishstick Keith",
+        type = 9,
+        icon = 1,
+        race = "fish",
+        color = "gray"
+    },
+    {
+        speciesID = 5073,
+        name = "Frosticus Maximus",
+        type = 8,
+        icon = 1,
+        race = "gargoyle",
+        color = "gray"
+    },
+    {
+        speciesID = 4949,
+        name = "Shadowflame Remnant",
+        type = 7,
+        icon = 1,
+        race = "elemental",
+        color = "fire",
+        shaman = "elemental"
+    },
+    {
+        speciesID = 5074,
+        name = "Silento",
+        type = 7,
+        icon = 1,
+        race = "elemental",
+        color = "blue",
+        warlock = "demon"
+    },
+    {
+        speciesID = 4965,
+        name = "Sleepy Mandrake",
+        type = 7,
+        icon = 1,
+        race = "insect",
+        color = "red",
+        druid = "tree"
     }
 }
 
